@@ -49,8 +49,8 @@ params:
           title: I-Lang Research
           subtitle: "AI-native compression protocol research. We design communication standards between humans and AI systems — reducing friction, maximizing efficiency, preserving meaning. A division of Eastsoft Inc., Canada."
           imageUrl: "logo.png"
-          imageWidth: 160
-          imageHeight: 160
+          imageWidth: 250
+          imageHeight: 250
           buttons:
             - name: Papers
               url: papers/
