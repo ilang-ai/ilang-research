@@ -1,0 +1,7 @@
+{{ if .Params.author }}
+<meta name="citation_title" content="{{ .Title }}">
+<meta name="citation_author" content="{{ .Params.author }}">
+<meta name="citation_date" content="{{ .Date.Format "2006/01/02" }}">
+<meta name="citation_pdf_url" content="{{ "AI_Hallucination_Inductive_Dilemma_v0_5.pdf" | absURL }}">
+<meta name="citation_language" content="en">
+{{ end }}

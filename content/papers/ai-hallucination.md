@@ -7,6 +7,10 @@ author: "SUN"
 description: "AI hallucination is not an engineering bug — it is the epistemological ceiling of inductive reasoning. Published on ResearchGate, SSRN (IN REVIEW), ChinaXiv."
 ---
 
+##### Download
+
++ [PDF (v0.5)](/AI_Hallucination_Inductive_Dilemma_v0_5.pdf)
+
 ##### Abstract
 
 AI hallucination is not an engineering bug — it is the epistemological ceiling of inductive reasoning applied to non-stationary environments. This paper traces the problem from Hume's Problem of Induction through PAC learning bounds to the No Free Lunch theorem, proving that zero hallucination is mathematically impossible in open systems. The root cause is not insufficient data or compute, but the fundamental limitation of pattern-matching on historical observations to predict novel futures.
