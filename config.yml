@@ -78,7 +78,7 @@ params:
         hiddenInSingle: true
     label:
       text: "I-Lang Research"
-      icon: favicon.ico
+      icon: favicon.png
       iconHeight: 18
 markup:
     goldmark:

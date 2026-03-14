@@ -1,0 +1,5 @@
+.profile_inner img {
+  object-fit: contain;
+  padding: 12%;
+  background: white;
+}
