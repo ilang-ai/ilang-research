@@ -1,8 +1,8 @@
-# I-Lang Research
+# I-Lang (I Language) Research
 
 Academic website for I-Lang protocol research.
 
-**I-Lang Research** is a division of Eastsoft Inc., Canada.
+**I-Lang (I Language) Research** is a division of Eastsoft Inc., Canada.
 
 - Website: https://research.ilang.ai
 - Protocol: https://ilang.ai

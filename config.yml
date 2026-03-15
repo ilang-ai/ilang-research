@@ -1,5 +1,5 @@
 baseURL: "https://research.ilang.ai/"
-title: I-Lang Research
+title: I-Lang (I Language) Research
 theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -46,7 +46,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: I-Lang Research
+          title: I-Lang (I Language) Research
           subtitle: "AI-native compression protocol research. We design communication standards between humans and AI systems — reducing friction, maximizing efficiency, preserving meaning. A division of Eastsoft Inc., Canada."
           imageUrl: "logo.png"
           imageWidth: 250
