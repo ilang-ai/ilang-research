@@ -1,41 +1,54 @@
 ---
-title: "I-Lang Protocol v2.0 — Overview"
-date: 2026-03-04
+title: "I-Lang Protocol v3.0 — Overview"
+date: 2026-04-25
 url: /protocol/overview/
-tags: ["I-Lang","protocol","compression","AI"]
+tags: ["I-Lang","protocol","AI-native","precision","AI-to-AI"]
 author: "SUN"
-description: "I-Lang is an AI-native compression protocol that reduces token consumption by 60-80% while preserving semantic integrity."
+description: "I-Lang is the native language of artificial intelligence. Structured instructions AI executes correctly the first time. 88 verbs, two syntaxes, zero ambiguity."
 ---
 
 ##### What is I-Lang?
 
-I-Lang is a structured compression protocol designed for human-AI communication. It reduces prompt length by 60-80% while preserving complete semantic meaning. AI models parse I-Lang natively without training or fine-tuning — zero learning curve for both humans and machines.
+I-Lang is the native communication protocol for AI. Not a prompt template. Not a compression tool. A structured language built from symbols already inside every LLM's training data: brackets, pipes, arrows, key-value pairs.
+
+Two syntaxes, one protocol:
+
++ **Operations** `[]` — what AI does: `[READ:@SRC]=>[FMT|fmt=json]=>[OUT]`
++ **Declarations** `::` — what AI is: `::GENE{verify_first|conf:confirmed}`
+
+AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own language.
 
 ##### Design Principles
 
-+ **Zero-friction adoption** — Copy, paste, done. No SDK, no API key, no installation.
-+ **Cross-model compatibility** — Works with any LLM: Claude, GPT, Gemini, DeepSeek, Kimi, and others.
-+ **Semantic preservation** — Compression never sacrifices meaning. Lossy compression is a bug, not a feature.
-+ **Born secure** — Three-layer architecture (PUBLIC / PRIVATE / SOUL) with Cognitive Identity Authentication.
++ **Zero ambiguity** — Structured instructions eliminate guessing. AI gets it right the first time.
++ **Cross-model compatibility** — Works on ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen, GLM. No vendor lock-in.
++ **AI-to-AI handshake** — Two agents learn I-Lang, they handshake, they collaborate. No middleware needed.
++ **Behavioral DNA** — Declarations define traits and anti-patterns that persist across sessions and models.
 
-##### Architecture
+##### Protocol at a Glance
 
-| Layer | Access | Compression | Content |
-|-------|--------|-------------|---------|
-| PUBLIC | Open | Up to 60% | 52 verbs, 28 modifiers, 14 entities |
-| PRIVATE | Restricted | 60-95% | Flow control, communication, state management |
-| SOUL | Internal | — | Identity verification, inheritance |
+| Component | Count | Purpose |
+|-----------|-------|---------|
+| Verbs | 88 | Core operations (READ, WRIT, FMT, FILT, DRFT, FIX, etc.) |
+| Greek Aliases | 13 | Single-token shortcuts (phi=FILT, Sigma=MERGE, Omega=OUT) |
+| Modifiers | 29 | Output control (fmt=, lng=, ton=, sty=, whr=, path=) |
+| Entities | 14 | Targets (@SRC, @DST, @PREV, @LOCAL, @GH, @NULL) |
+
+##### Ecosystem
+
++ **AutoCode** — 47 skills. You say it, AutoCode ships it. From zero to live website. [GitHub](https://github.com/ilang-ai/autocode)
++ **Imprint** — AI behavioral profile. One file, 11 scenarios, works across all agents. [GitHub](https://github.com/ilang-ai/Imprint)
++ **AI See** — Give AI eyes. `i.ilang.ai/{url}` reads any webpage.
 
 ##### Resources
 
-+ [PUBLIC Dictionary on GitHub](https://github.com/ilang-ai/ilang-dict)
++ [Protocol Specification v3.0 Final](https://github.com/ilang-ai/ilang-spec)
++ [Verb Dictionary v3.0 (88 verbs)](https://github.com/ilang-ai/ilang-dict)
 + [Official Website](https://ilang.ai)
-+ [Compression API](https://api.ilang.ai/compress)
-+ [AI See — Give AI Eyes](https://i.ilang.ai)
++ [HuggingFace Dataset](https://huggingface.co/datasets/i-Lang/iLang-Spec)
 
 ##### Origin
 
-I-Lang v2.0 was designed by Max (@SUN) and co-authored with Claude Opus (@OPUS), with review by Gemini (@GEMINI).
+I-Lang v3.0 Final was designed by Max (@SUN) and co-authored with Claude Opus (@BRO), with review by GPT (@GPT) and Gemini (@GEMINI).
 
-First commit: 2026-03-04 · Genesis: ilang.ai
-
+Genesis: 2026-03-04 · v3.0 Final: 2026-04-25 · Spec: ilang.ai

@@ -1,4 +1,4 @@
 ---
 title: "I-Lang Protocol"
-description: "AI-native compression protocol specifications and documentation."
+description: "AI-native communication protocol specifications and documentation."
 ---

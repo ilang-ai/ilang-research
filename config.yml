@@ -22,7 +22,7 @@ menu:
           url: archive/
           weight: 4
 params:
-    description: "I-Lang Research — AI-native compression protocol research. A division of Eastsoft Inc., Canada."
+    description: "I-Lang Research — AI-native communication protocol research. A division of Eastsoft Inc., Canada."
     author: I-Lang Research
     DateFormat: "January 2006"
     defaultTheme: light
@@ -47,7 +47,7 @@ params:
     profileMode:
           enabled: true
           title: I-Lang (I Language) Research
-          subtitle: "AI-native compression protocol research. We design communication standards between humans and AI systems — reducing friction, maximizing efficiency, preserving meaning. A division of Eastsoft Inc., Canada."
+          subtitle: "AI-native communication protocol research. We design the native language of artificial intelligence. Structured communication between AI agents, AI internal planning, and human-to-AI precision. A division of Eastsoft Inc., Canada."
           imageUrl: "logo.png"
           imageWidth: 250
           imageHeight: 250
