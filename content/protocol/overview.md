@@ -1,5 +1,5 @@
 ---
-title: "I-Lang Protocol v3.0 — Overview"
+title: "I-Lang Protocol v4.0 — Overview"
 date: 2026-04-25
 url: /protocol/overview/
 tags: ["I-Lang","protocol","AI-native","precision","AI-to-AI"]
@@ -49,6 +49,6 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 
 ##### Origin
 
-I-Lang v3.0 Final was designed by Max (@SUN) and co-authored with Claude Opus (@BRO), with review by GPT (@GPT) and Gemini (@GEMINI).
+I-Lang was designed by Max (@SUN) and co-authored with Claude Opus (@BRO), with review by GPT (@GPT) and Gemini (@GEMINI).
 
-Genesis: 2026-03-04 · v3.0 Final: 2026-04-25 · Spec: ilang.ai
+Genesis: 2026-03-04 · v3.0 Final: 2026-04-25 · v4.0 Final: 2026-05-11 · Spec: ilang.ai

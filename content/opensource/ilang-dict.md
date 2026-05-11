@@ -4,7 +4,7 @@ date: 2026-03-04
 url: /opensource/ilang-dict/
 tags: ["I-Lang","dictionary","open source"]
 author: "SUN"
-description: "The I-Lang v3.0 verb dictionary. 88 verbs, 29 modifiers, 14 entities. MIT License."
+description: "The I-Lang v4.0 dictionary. 88 verbs, 29 modifiers, 14 entities, 8 execution declarations. MIT License."
 ---
 
 ##### Repository
