@@ -35,3 +35,7 @@ See the [README](/data/judgment-calibration-v1/README.md) for structure, statist
 
 - [AI Hallucination and the Inductive Dilemma](/papers/ai-hallucination/)
 - [Selective Forgetting](/papers/selective-forgetting/)
+
+## Related academic work
+
+- [arXiv:2510.27328](https://arxiv.org/abs/2510.27328), Lu, Song & Wang (2025): prior, independent interpretability work finding, inside eight LLMs, a Valence-Assent Axis that subordinates reasoning to judgment. Their evidence is internal to the model. This dataset is behavioral: a 24-day record of an operator correcting two production agents' judgment through the I-Lang protocol layer, with every correction and its uptake logged. It contains no activations and no judgment vectors; it records how judgment was calibrated from outside.

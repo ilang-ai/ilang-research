@@ -129,6 +129,7 @@ MIT. Use it, study it, build on it. A citation is appreciated but not required.
 - [I-Lang Dictionary](https://github.com/ilang-ai/ilang-dict)
 - [research.ilang.ai](https://research.ilang.ai)
 - ORCID: [0009-0004-4540-8082](https://orcid.org/0009-0004-4540-8082)
+- Related prior work: [arXiv:2510.27328](https://arxiv.org/abs/2510.27328), Lu, Song & Wang (2025), a Valence-Assent Axis inside eight LLMs that subordinates reasoning to judgment. Their evidence is internal to the model; this dataset records judgment calibration from outside.
 
 ---
 
