@@ -1,4 +1,9 @@
 #!/bin/bash
+# Historical bootstrap from 2026-03-04, kept for the record. Counts updated 2026-09-12.
+# content/ has moved on since then. This script deletes content directories and writes the
+# March pages back, so running it now would overwrite the live site with stale pages.
+echo "setup-content.sh is the 2026-03-04 bootstrap and must not be re-run: it would overwrite current content." >&2
+exit 1
 cd /root/ilang/ilang-research
 
 # 清理旧内容
@@ -98,7 +103,7 @@ I-Lang is a structured compression protocol designed for human-AI communication.
 
 | Layer | Access | Compression | Content |
 |-------|--------|-------------|---------|
-| PUBLIC | Open | Up to 60% | 52 verbs, 28 modifiers, 14 entities |
+| PUBLIC | Open | Up to 60% | 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities |
 | PRIVATE | Restricted | 60-95% | Flow control, communication, state management |
 | SOUL | Internal | — | Identity verification, inheritance |
 
@@ -170,7 +175,7 @@ date: 2026-03-04
 url: /opensource/ilang-dict/
 tags: ["I-Lang","dictionary","open source"]
 author: "SUN"
-description: "The PUBLIC layer dictionary for I-Lang protocol. 52 verbs, 28 modifiers, 14 entities. MIT License."
+description: "The PUBLIC layer dictionary for I-Lang protocol. 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities. MIT License."
 ---
 
 ##### Repository
@@ -179,9 +184,9 @@ description: "The PUBLIC layer dictionary for I-Lang protocol. 52 verbs, 28 modi
 
 ##### Contents
 
-+ 52 verbs across 6 categories (Data I/O, Transform, Analysis, Generation, Output, Meta)
-+ 28 modifiers
-+ 14 entities
++ 88 verbs across 9 categories (Data I/O, Transform, Analysis, Generation, Execute, Output, Structure, Meta, Batch)
++ 29 core modifiers, plus a 20-key media profile for image, video and audio
++ 25 entities: 17 addressable (Core, External, Media) and 8 role
 + Syntax rules, pipe chains, error codes
 
 ##### License
