@@ -21,7 +21,7 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 ##### Design Principles
 
 + **Zero ambiguity** — Structured instructions eliminate guessing. AI gets it right the first time.
-+ **Cross-model compatibility** — Works on ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen, GLM. No vendor lock-in.
++ **Cross-model compatibility** — Tested across ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen and GLM. No vendor lock-in.
 + **AI-to-AI handshake** — Two agents learn I-Lang, they handshake, they collaborate. No middleware needed.
 + **Behavioral DNA** — Declarations define traits and anti-patterns that persist across sessions and models.
 
@@ -31,13 +31,13 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 |-----------|-------|---------|
 | Verbs | 88 | Core operations (READ, WRIT, FMT, FILT, DRFT, FIX, etc.) |
 | Greek Aliases | 13 | Single-token shortcuts (phi=FILT, Sigma=MERGE, Omega=OUT) |
-| Modifiers | 29 | Output control (fmt=, lng=, ton=, sty=, whr=, path=) |
-| Entities | 14 | Targets (@SRC, @DST, @PREV, @LOCAL, @GH, @NULL) |
+| Modifiers | 29 core plus a 20-key media profile | Output control (fmt=, lng=, ton=, sty=, whr=, path=) |
+| Entities | 25 (17 addressable, 8 role) | Targets (@SRC, @DST, @PREV, @LOCAL, @GH, @NULL) |
 
 ##### Ecosystem
 
-+ **AutoCode** — 47 skills. You say it, AutoCode ships it. From zero to live website. [GitHub](https://github.com/ilang-ai/autocode)
-+ **Imprint** — AI behavioral profile. One file, 11 scenarios, works across all agents. [GitHub](https://github.com/ilang-ai/Imprint)
++ **AutoCode** — You say it. AutoCode ships it. 48 skills. Code to deployment in one session. [GitHub](https://github.com/ilang-ai/autocode)
++ **Imprint** — Your AI’s DNA: one skill for memory, compression, onboarding, code review, debugging, planning, progress tracking, testing, git workflow, and SEO. [GitHub](https://github.com/ilang-ai/Imprint)
 + **AI See** — Give AI eyes. `i.ilang.ai/{url}` reads any webpage.
 
 ##### Resources
@@ -45,6 +45,7 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 + [Protocol Specification](https://github.com/ilang-ai/ilang-spec): v4.1 current stable, v5.0 public preview
 + [Dictionary](https://github.com/ilang-ai/ilang-dict): 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities
 + [Official Website](https://ilang.ai)
++ [Specification](https://ilang.ai/spec/)
 + [HuggingFace Dataset](https://huggingface.co/datasets/i-Lang/iLang-Spec)
 
 ##### Origin

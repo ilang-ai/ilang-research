@@ -1,5 +1,5 @@
 ---
-title: "The Inductivist's Dilemma: Why AI Hallucination is an Epistemological Problem"
+title: "The Inductive Dilemma of AI Hallucination: Epistemological Limitations of Current Language Models and a Three-Layer Solution Framework"
 date: 2026-03-09
 url: /papers/ai-hallucination/
 tags: ["AI hallucination","epistemology","induction","LLM","Hume"]

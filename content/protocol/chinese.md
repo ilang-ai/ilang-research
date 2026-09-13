@@ -30,5 +30,5 @@ Chinese classical poetry is humanity's oldest compression protocol. 93 character
 
 ##### Tested Platforms
 
-Tested on: Doubao (豆包), Kimi, Zhipu (智谱), Yuanbao (元宝), DeepSeek.
+Tested on: DeepSeek, Kimi, GLM (智谱).
 

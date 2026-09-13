@@ -114,7 +114,6 @@ Kept:
   year      = {2026},
   publisher = {I-Lang Research, iLang Inc.},
   url       = {https://github.com/ilang-ai/ilang-research},
-  doi       = {10.5281/zenodo.21821452},
   license   = {MIT}
 }
 ```

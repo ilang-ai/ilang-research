@@ -33,7 +33,7 @@ See the [README](/data/judgment-calibration-v1/README.md) for structure, statist
 
 ## Related papers
 
-- [AI Hallucination and the Inductive Dilemma](/papers/ai-hallucination/)
+- [The Inductive Dilemma of AI Hallucination](/papers/ai-hallucination/)
 - [Selective Forgetting](/papers/selective-forgetting/)
 
 ## Related academic work
