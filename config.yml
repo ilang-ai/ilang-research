@@ -64,11 +64,9 @@ params:
               url: archive/
     socialIcons:
         - name: Email
-          url: mailto:info@ilang.ai
+          url: mailto:contact@ilang.ai
         - name: GitHub
           url: https://github.com/ilang-ai
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=YOUR_ID
         - name: orcid
           url: https://orcid.org/0009-0004-4540-8082
     assets:
