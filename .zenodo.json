@@ -1,0 +1,37 @@
+{
+  "title": "I-Lang Research: the source of research.ilang.ai",
+  "description": "<p>The site of I-Lang Research, the research division of iLang Inc., Canada, published at research.ilang.ai. It collects the protocol papers, datasets, open-source records and archive pages behind the I-Lang protocol. Built with Hugo and the PaperMod theme and deployed on Cloudflare Pages.</p>",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Zhu, Long Quan",
+      "orcid": "0009-0004-4540-8082",
+      "affiliation": "iLang Inc."
+    }
+  ],
+  "keywords": [
+    "I-Lang",
+    "research website",
+    "Hugo",
+    "academic site",
+    "datasets",
+    "protocol"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ilang-ai/ilang-research",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://ilang.ai/spec/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote",
+      "scheme": "url"
+    }
+  ]
+}
