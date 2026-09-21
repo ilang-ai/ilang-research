@@ -1,7 +1,7 @@
 {
   "title": "I-Lang Research: the source of research.ilang.ai",
-  "description": "<p>The site of I-Lang Research, the research division of iLang Inc., Canada, published at research.ilang.ai. It collects the protocol papers, datasets, open-source records and archive pages behind the I-Lang protocol, among them the Judgment Calibration and Judgment Layer Audit datasets published with the site. Built with Hugo and the PaperMod theme and deployed on Cloudflare Pages.</p>",
-  "version": "1.1.0",
+  "description": "<p>The site of I-Lang Research, the research division of iLang Inc., Canada, published at research.ilang.ai. It collects the protocol papers, datasets, open-source records and archive pages behind the I-Lang protocol, among them the Judgment Calibration, Judgment Layer Audit, I-Lang Conformance Results and Judgment Learnability datasets published with the site, and an index of every public repository with its Zenodo DOI. Built with Hugo and the PaperMod theme and deployed on Cloudflare Pages.</p>",
+  "version": "1.2.0",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",
