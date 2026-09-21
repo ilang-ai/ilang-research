@@ -67,6 +67,8 @@ params:
           url: mailto:contact@ilang.ai
         - name: GitHub
           url: https://github.com/ilang-ai
+        - name: reddit
+          url: https://www.reddit.com/r/iLang/
         - name: orcid
           url: https://orcid.org/0009-0004-4540-8082
     assets:
