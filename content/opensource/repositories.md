@@ -28,7 +28,7 @@ All fifteen are MIT licensed. Versions are as of 21 September 2026.
 |---|---|---|---|
 | [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) | 320-case deterministic conformance suite and [45 scored model runs](/datasets/ilang-conformance/) | 1.0.0 | [10.5281/zenodo.22864929](https://doi.org/10.5281/zenodo.22864929) |
 | [ilang-Benchmark](https://github.com/ilang-ai/ilang-Benchmark) | Prompt benchmark harness, and the [judgment learnability study](/datasets/judgment-learnability/) | 1.0.0 | [10.5281/zenodo.22865111](https://doi.org/10.5281/zenodo.22865111) |
-| [ilang-research](https://github.com/ilang-ai/ilang-research) | This site: papers, datasets and records | 1.2.0 | [10.5281/zenodo.22865165](https://doi.org/10.5281/zenodo.22865165) |
+| [ilang-research](https://github.com/ilang-ai/ilang-research) | This site: papers, datasets and records | 1.3.0 | [10.5281/zenodo.22865165](https://doi.org/10.5281/zenodo.22865165) |
 
 ##### Agent skills and tools
 
