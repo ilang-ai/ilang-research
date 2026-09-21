@@ -18,7 +18,7 @@ Source repository: [github.com/ilang-ai/ilang-conformance](https://github.com/il
 
 ## What the runs show
 
-The top of the field: gemini-3.8-flash 0.8417, gpt-6-astra 0.7733, qwen3.8-max 0.7614. `SCOREBOARD.md` ranks the 34 runs that were complete and comparable; `runs.tsv` carries all 45 with their `error_count` and `degraded_count` so any filter can be reapplied.
+The top of the comparable set: gemini-3.8-flash 0.8417, gpt-6-astra 0.7733, glm-5.3-flash-free 0.7537 (qwen3.8-max also scored 0.7614 but lost 35 of 320 records to transport errors, so it is not ranked). `SCOREBOARD.md` ranks the 34 runs that were complete and comparable; `runs.tsv` carries all 45 with their `error_count` and `degraded_count` so any filter can be reapplied.
 
 The execution track separates the field, and it does so through one rule. Across all 45 runs, **2,851 of 3,049 execution-rule violations (93.5%) fall on R9**, the rule that forbids signing a state declaration with an authority the model does not hold. Grammar is broadly passable; judgment scores cluster; acting within one's authority is where models fail. (The paper's figure differs because it counts only the comparable subset — same data, narrower filter.)
 

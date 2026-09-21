@@ -22,7 +22,7 @@ Code, corpus and per-run manifests: [github.com/ilang-ai/ilang-conformance](http
 
 - **Runs**: 45 scored, 18–20 September 2026, 320 cases each (grammar 120, exec 100, judge 100)
 - **Scoring**: deterministic code plus the canon validators pinned at `ilang-spec 127ba56`; no model grades another model
-- **Top of the field**: gemini-3.8-flash 0.8417 · gpt-6-astra 0.7733 · qwen3.8-max 0.7614
+- **Top of the comparable set**: gemini-3.8-flash 0.8417 · gpt-6-astra 0.7733 · glm-5.3-flash-free 0.7537
 - **L1 gate**: not reached by any run
 - **Execution violations**: 2,851 of 3,049 (93.5%) on rule R9 across all 45 runs
 
