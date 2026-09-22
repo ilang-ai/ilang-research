@@ -2,7 +2,7 @@
 title: "Judgment Layer Audit v1"
 date: 2026-09-21
 summary: "Three days of a production agent's messages judged twice — by a cheap always-on judge model and by the operator's written rules. 7,940 messages judged, 2,648 scored against the reference. Agreement 68.4% → 75.1% → 80.9%; 87.2% in the judge's top confidence band. Includes a worked correction: the rule-compliance gain everyone would have quoted, 69 → 7, is 13 → 7 once both days are measured with the same criterion."
-tags: ["dataset", "LLM-as-a-judge", "judgment", "evaluation", "I-Lang", "v5.0"]
+tags: ["dataset", "LLM-as-a-judge", "judgment", "evaluation", "iLang", "v5.0"]
 author: "Long Quan Zhu"
 ---
 

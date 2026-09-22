@@ -2,24 +2,25 @@
 title: "Repositories and DOIs"
 date: 2026-09-21
 url: /opensource/repositories/
-tags: ["open source", "DOI", "Zenodo", "I-Lang", "archive"]
+tags: ["open source", "DOI", "Zenodo", "iLang", "archive"]
 author: "SUN"
-description: "Every public repository of iLang Inc., each archived on Zenodo with a concept DOI that resolves to all versions. Fifteen repositories, all MIT, as of 21 September 2026."
+description: "Every public repository of iLang Inc., each archived on Zenodo with a concept DOI that resolves to all versions. Sixteen repositories, all MIT, as of 22 September 2026."
 ---
 
 ##### Why this page exists
 
 A repository can be rewritten; an archived release cannot. Every public repository below is archived on Zenodo, and each release since 21 September 2026 is archived automatically: a version bump in the repository's `CITATION.cff` tags the release, and the archive and its DOI follow from the release event. The **concept DOI** in the table resolves to all versions of that work, so it stays correct as the code moves.
 
-All fifteen are MIT licensed. Versions are as of 21 September 2026.
+All sixteen are MIT licensed. Versions are as of 22 September 2026.
 
 ##### The protocol
 
 | Work | What it is | Version | Concept DOI |
 |---|---|---|---|
-| [ilang-spec](https://github.com/ilang-ai/ilang-spec) | The I-Lang canon: 88 verbs, two syntaxes, the v5.0 judgment layer | 4.2.0 | [10.5281/zenodo.21821452](https://doi.org/10.5281/zenodo.21821452) |
+| [ilang-spec](https://github.com/ilang-ai/ilang-spec) | The iLang canon: 88 verbs, two syntaxes, the v5.0 judgment layer | 4.2.0 | [10.5281/zenodo.21821452](https://doi.org/10.5281/zenodo.21821452) |
 | [ilang-dict](https://github.com/ilang-ai/ilang-dict) | The complete vocabulary: verbs, modifiers, entities, declarations, plus a machine-readable table | 2.2.2 | [10.5281/zenodo.22865123](https://doi.org/10.5281/zenodo.22865123) |
 | [iml-protocol](https://github.com/ilang-ai/iml-protocol) | [The machine layer](/protocol/machine-layer/): fixed-width codes for the declaration set. Experimental | 0.5.1 | [10.5281/zenodo.22823285](https://doi.org/10.5281/zenodo.22823285) |
+| [ilang](https://github.com/ilang-ai/ilang) | The loader: gives any model the official iLang runtime, sha256-verified and cached. `pip install ilang-protocol` or `npm install ilang-protocol` | 1.0.1 | [10.5281/zenodo.22899027](https://doi.org/10.5281/zenodo.22899027) |
 | [ilang.ai](https://github.com/ilang-ai/ilang.ai) | The protocol website and the agent-readable layer it serves | 2.0.2 | [10.5281/zenodo.22865167](https://doi.org/10.5281/zenodo.22865167) |
 
 ##### Measurement

@@ -1,10 +1,10 @@
-# I-Lang (I Language) Research
+# iLang (I Language) Research
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22865165.svg)](https://doi.org/10.5281/zenodo.22865165)
 
-Academic website for I-Lang protocol research.
+Academic website for iLang protocol research.
 
-**I-Lang (I Language) Research** is a division of iLang Inc., Canada.
+**iLang (I Language) Research** is a division of iLang Inc., Canada.
 
 - Website: https://research.ilang.ai
 - Protocol: https://ilang.ai

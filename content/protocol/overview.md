@@ -1,15 +1,15 @@
 ---
-title: "I-Lang Protocol v4.0 — Overview"
+title: "iLang Protocol v4.0 — Overview"
 date: 2026-04-25
 url: /protocol/overview/
-tags: ["I-Lang","protocol","AI-native","precision","AI-to-AI"]
+tags: ["iLang","protocol","AI-native","precision","AI-to-AI"]
 author: "SUN"
-description: "I-Lang is the native language of artificial intelligence. Structured instructions AI executes correctly the first time. 88 verbs, two syntaxes, zero ambiguity."
+description: "iLang is the native language of artificial intelligence. Structured instructions AI executes correctly the first time. 88 verbs, two syntaxes, zero ambiguity."
 ---
 
-##### What is I-Lang?
+##### What is iLang?
 
-I-Lang is the native communication protocol for AI. Not a prompt template. Not a compression tool. A structured language built from symbols already inside every LLM's training data: brackets, pipes, arrows, key-value pairs.
+iLang is the native communication protocol for AI. Not a prompt template. Not a compression tool. A structured language built from symbols already inside every LLM's training data: brackets, pipes, arrows, key-value pairs.
 
 Two syntaxes, one protocol:
 
@@ -22,7 +22,7 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 
 + **Zero ambiguity** — Structured instructions eliminate guessing. AI gets it right the first time.
 + **Cross-model compatibility** — Tested across ChatGPT, Claude, Gemini, DeepSeek, Kimi, Qwen and GLM. No vendor lock-in.
-+ **AI-to-AI handshake** — Two agents learn I-Lang, they handshake, they collaborate. No middleware needed.
++ **AI-to-AI handshake** — Two agents learn iLang, they handshake, they collaborate. No middleware needed.
 + **Behavioral DNA** — Declarations define traits and anti-patterns that persist across sessions and models.
 
 ##### Protocol at a Glance
@@ -50,6 +50,6 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 
 ##### Origin
 
-I-Lang was designed by Max (@SUN) and co-authored with Claude Opus (@BRO), with review by GPT (@GPT) and Gemini (@GEMINI).
+iLang was designed by Max (@SUN) and co-authored with Claude Opus (@BRO), with review by GPT (@GPT) and Gemini (@GEMINI).
 
 Genesis: 2026-03-04 · v3.0 Final: 2026-04-25 · v4.0 Final: 2026-05-11 · v5.0 Pre: 2026-06 · v4.1 Media Profile: 2026-09-12 · Spec: ilang.ai

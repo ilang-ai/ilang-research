@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use ilang-research, please cite it as below."
-title: "I-Lang Research: the source of research.ilang.ai"
+title: "iLang Research: the source of research.ilang.ai"
 abstract: >-
-  The site of I-Lang Research, the research division of iLang Inc., Canada,
+  The site of iLang Research, the research division of iLang Inc., Canada,
   published at research.ilang.ai. It collects the protocol papers, datasets,
-  open-source records and archive pages behind the I-Lang protocol. Built with
+  open-source records and archive pages behind the iLang protocol. Built with
   Hugo and the PaperMod theme and deployed on Cloudflare Pages.
 type: software
 authors:
@@ -18,7 +18,7 @@ license: MIT
 version: "1.3.0"
 date-released: "2026-09-22"
 keywords:
-  - I-Lang
+  - iLang
   - research website
   - Hugo
   - academic site

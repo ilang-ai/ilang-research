@@ -2,7 +2,7 @@
 title: "Judgment Calibration Dataset v1"
 date: 2026-09-08
 summary: "24-day longitudinal record of AI agent judgment calibration in production. 152 operator messages (41 explicit tuning instructions), 1,062 user messages, 2,162 API calls, plus a 14-day WeChat calibration log. Every figure traceable to a file."
-tags: ["dataset", "alignment", "judgment", "I-Lang", "v5.0"]
+tags: ["dataset", "alignment", "judgment", "iLang", "v5.0"]
 author: "Long Quan Zhu"
 ---
 
@@ -26,7 +26,7 @@ See the [README](/data/judgment-calibration-v1/README.md) for structure, statist
 
 1. **Longitudinal, not cross-sectional** — one operator, one system, first boot to autonomous operation
 2. **Natural pain signal** — "你TMD" is the negative label, not a 1–5 Likert scale
-3. **Cross-model transfer** — corrections found on DeepSeek applied to Claude through policy files under the I-Lang protocol, recorded step by step
+3. **Cross-model transfer** — corrections found on DeepSeek applied to Claude through policy files under the iLang protocol, recorded step by step
 4. **Production environment** — real paying customers, real stakes, real profanity
 5. **Raw and unfiltered** — grey-area requests, bot fabrications caught live, operator frustration intact
 6. **Honest labels** — heuristic labels are marked as heuristic; unlabeled rows stay unlabeled
@@ -38,4 +38,4 @@ See the [README](/data/judgment-calibration-v1/README.md) for structure, statist
 
 ## Related academic work
 
-- [arXiv:2510.27328](https://arxiv.org/abs/2510.27328), Lu, Song & Wang (2025): prior, independent interpretability work finding, inside eight LLMs, a Valence-Assent Axis that subordinates reasoning to judgment. Their evidence is internal to the model. This dataset is behavioral: a 24-day record of an operator correcting two production agents' judgment through the I-Lang protocol layer, with every correction and its uptake logged. It contains no activations and no judgment vectors; it records how judgment was calibrated from outside.
+- [arXiv:2510.27328](https://arxiv.org/abs/2510.27328), Lu, Song & Wang (2025): prior, independent interpretability work finding, inside eight LLMs, a Valence-Assent Axis that subordinates reasoning to judgment. Their evidence is internal to the model. This dataset is behavioral: a 24-day record of an operator correcting two production agents' judgment through the iLang protocol layer, with every correction and its uptake logged. It contains no activations and no judgment vectors; it records how judgment was calibrated from outside.

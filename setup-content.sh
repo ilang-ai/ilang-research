@@ -73,24 +73,24 @@ ENDOFFILE
 
 cat > content/protocol/_index.md << 'ENDOFFILE'
 ---
-title: "I-Lang Protocol"
+title: "iLang Protocol"
 description: "AI-native compression protocol specifications and documentation."
 ---
 ENDOFFILE
 
 cat > content/protocol/overview.md << 'ENDOFFILE'
 ---
-title: "I-Lang Protocol v2.0 — Overview"
+title: "iLang Protocol v2.0 — Overview"
 date: 2026-03-04
 url: /protocol/overview/
-tags: ["I-Lang","protocol","compression","AI"]
+tags: ["iLang","protocol","compression","AI"]
 author: "SUN"
-description: "I-Lang is an AI-native compression protocol that reduces token consumption by 60-80% while preserving semantic integrity."
+description: "iLang is an AI-native compression protocol that reduces token consumption by 60-80% while preserving semantic integrity."
 ---
 
-##### What is I-Lang?
+##### What is iLang?
 
-I-Lang is a structured compression protocol designed for human-AI communication. It reduces prompt length by 60-80% while preserving complete semantic meaning. AI models parse I-Lang natively without training or fine-tuning — zero learning curve for both humans and machines.
+iLang is a structured compression protocol designed for human-AI communication. It reduces prompt length by 60-80% while preserving complete semantic meaning. AI models parse iLang natively without training or fine-tuning — zero learning curve for both humans and machines.
 
 ##### Design Principles
 
@@ -116,7 +116,7 @@ I-Lang is a structured compression protocol designed for human-AI communication.
 
 ##### Origin
 
-I-Lang v2.0 was designed by Max (@SUN) and co-authored with Claude Opus (@OPUS), with review by Gemini (@GEMINI).
+iLang v2.0 was designed by Max (@SUN) and co-authored with Claude Opus (@OPUS), with review by Gemini (@GEMINI).
 
 First commit: 2026-03-04 · Genesis: ilang.ai
 
@@ -124,21 +124,21 @@ ENDOFFILE
 
 cat > content/protocol/chinese.md << 'ENDOFFILE'
 ---
-title: "Chinese I-Lang (爱语言) — Compression via Classical Poetry"
+title: "Chinese iLang (爱语言) — Compression via Classical Poetry"
 date: 2026-03-11
 url: /protocol/chinese/
-tags: ["I-Lang","Chinese","compression","poetry","满江红"]
+tags: ["iLang","Chinese","compression","poetry","满江红"]
 author: "SUN"
-description: "Chinese I-Lang uses classical poetry as its carrier — users copy a poem, paste it to any Chinese AI, and the AI instantly learns compression."
+description: "Chinese iLang uses classical poetry as its carrier — users copy a poem, paste it to any Chinese AI, and the AI instantly learns compression."
 ---
 
 ##### Overview
 
-Chinese I-Lang (爱语言) extends the I-Lang protocol to Chinese language AI systems using classical poetry as its transmission medium. Users copy a single poem and paste it into any Chinese AI — the AI instantly acquires compression capabilities without training.
+Chinese iLang (爱语言) extends the iLang protocol to Chinese language AI systems using classical poetry as its transmission medium. Users copy a single poem and paste it into any Chinese AI — the AI instantly acquires compression capabilities without training.
 
 ##### Why Classical Poetry?
 
-Chinese classical poetry is humanity's oldest compression protocol. 93 characters of Yue Fei's Man Jiang Hong (满江红) encode an entire worldview of nation, duty, and sacrifice. I-Lang simply teaches AI to apply this same compression principle to modern communication.
+Chinese classical poetry is humanity's oldest compression protocol. 93 characters of Yue Fei's Man Jiang Hong (满江红) encode an entire worldview of nation, duty, and sacrifice. iLang simply teaches AI to apply this same compression principle to modern communication.
 
 ##### How It Works
 
@@ -164,7 +164,7 @@ ENDOFFILE
 cat > content/opensource/_index.md << 'ENDOFFILE'
 ---
 title: "Open Source"
-description: "I-Lang open source projects and tools."
+description: "iLang open source projects and tools."
 ---
 ENDOFFILE
 
@@ -173,9 +173,9 @@ cat > content/opensource/ilang-dict.md << 'ENDOFFILE'
 title: "ilang-dict — PUBLIC Dictionary"
 date: 2026-03-04
 url: /opensource/ilang-dict/
-tags: ["I-Lang","dictionary","open source"]
+tags: ["iLang","dictionary","open source"]
 author: "SUN"
-description: "The PUBLIC layer dictionary for I-Lang protocol. 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities. MIT License."
+description: "The PUBLIC layer dictionary for iLang protocol. 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities. MIT License."
 ---
 
 ##### Repository
@@ -224,7 +224,7 @@ https://i.ilang.ai/{any-public-url}
 
 ##### Links
 
-+ [AI See (with I-Lang origin)](https://i.ilang.ai)
++ [AI See (with iLang origin)](https://i.ilang.ai)
 + [AI See (clean version)](https://isee.shadowrocket.ai)
 
 ENDOFFILE

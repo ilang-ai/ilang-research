@@ -1,19 +1,19 @@
 ---
-title: "Chinese I-Lang (爱语言) — Compression via Classical Poetry"
+title: "Chinese iLang (爱语言) — Compression via Classical Poetry"
 date: 2026-03-11
 url: /protocol/chinese/
-tags: ["I-Lang","Chinese","compression","poetry","满江红"]
+tags: ["iLang","Chinese","compression","poetry","满江红"]
 author: "SUN"
-description: "Chinese I-Lang uses classical poetry as its carrier — users copy a poem, paste it to a Chinese AI assistant, and the assistant applies the compression."
+description: "Chinese iLang uses classical poetry as its carrier — users copy a poem, paste it to a Chinese AI assistant, and the assistant applies the compression."
 ---
 
 ##### Overview
 
-Chinese I-Lang (爱语言) extends the I-Lang protocol to Chinese language AI systems using classical poetry as its transmission medium. Users copy a single poem and paste it into a Chinese AI assistant, and the assistant applies the compression without training.
+Chinese iLang (爱语言) extends the iLang protocol to Chinese language AI systems using classical poetry as its transmission medium. Users copy a single poem and paste it into a Chinese AI assistant, and the assistant applies the compression without training.
 
 ##### Why Classical Poetry?
 
-Chinese classical poetry is humanity's oldest compression protocol. 93 characters of Yue Fei's Man Jiang Hong (满江红) encode an entire worldview of nation, duty, and sacrifice. I-Lang simply teaches AI to apply this same compression principle to modern communication.
+Chinese classical poetry is humanity's oldest compression protocol. 93 characters of Yue Fei's Man Jiang Hong (满江红) encode an entire worldview of nation, duty, and sacrifice. iLang simply teaches AI to apply this same compression principle to modern communication.
 
 ##### How It Works
 

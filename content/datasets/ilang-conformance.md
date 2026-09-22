@@ -2,7 +2,7 @@
 title: "I-Lang Conformance Results v1"
 date: 2026-09-21
 summary: "45 model runs against a 320-case deterministic conformance suite, 18–20 September 2026. Best weighted total 0.8417; no run reached the L1 gate. 93.5% of all execution-rule violations fall on a single rule: acting with authority the model does not hold. Every run's per-track scores and per-rule failure counts are published."
-tags: ["dataset", "benchmark", "conformance", "evaluation", "LLM", "I-Lang", "v5.0"]
+tags: ["dataset", "benchmark", "conformance", "evaluation", "LLM", "iLang", "v5.0"]
 author: "Long Quan Zhu"
 ---
 

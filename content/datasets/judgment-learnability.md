@@ -2,7 +2,7 @@
 title: "Judgment Learnability v1"
 date: 2026-09-21
 summary: "Is the v5.0 judgment mapping — 11-dimension vector to one of eight decision modes — a learnable surface or an arbitrary table? A plain gradient-boosted tree recovers it at 0.9653 against a 0.3528 majority baseline, and its predictions pass the official JCS gate at 0.9861. 24,000 pairs, seed fixed, predictions published."
-tags: ["dataset", "judgment", "learnability", "evaluation", "I-Lang", "v5.0"]
+tags: ["dataset", "judgment", "learnability", "evaluation", "iLang", "v5.0"]
 author: "Long Quan Zhu"
 ---
 

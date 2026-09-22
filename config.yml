@@ -1,5 +1,5 @@
 baseURL: "https://research.ilang.ai/"
-title: I-Lang (I Language) Research
+title: iLang (I Language) Research
 theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -22,8 +22,8 @@ menu:
           url: archive/
           weight: 4
 params:
-    description: "I-Lang Research — AI-native communication protocol research. A division of iLang Inc., Canada."
-    author: I-Lang Research
+    description: "iLang Research — AI-native communication protocol research. A division of iLang Inc., Canada."
+    author: iLang Research
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -46,7 +46,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: I-Lang (I Language) Research
+          title: iLang (I Language) Research
           subtitle: "AI-native communication protocol research. We design the native language of artificial intelligence. Structured communication between AI agents, AI internal planning, and human-to-AI precision. A division of iLang Inc., Canada."
           imageUrl: "logo.png"
           imageWidth: 250
@@ -77,7 +77,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "I-Lang Research"
+      text: "iLang Research"
       icon: favicon.png
       iconHeight: 18
 markup:

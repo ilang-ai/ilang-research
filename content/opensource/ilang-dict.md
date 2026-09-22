@@ -2,9 +2,9 @@
 title: "ilang-dict — PUBLIC Dictionary"
 date: 2026-03-04
 url: /opensource/ilang-dict/
-tags: ["I-Lang","dictionary","open source"]
+tags: ["iLang","dictionary","open source"]
 author: "SUN"
-description: "The I-Lang dictionary. 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities (17 addressable, 8 role), 8 execution declarations. MIT License."
+description: "The iLang dictionary. 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities (17 addressable, 8 role), 8 execution declarations. MIT License."
 ---
 
 ##### Repository
