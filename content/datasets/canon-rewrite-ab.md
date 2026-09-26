@@ -1,7 +1,7 @@
 ---
 title: "Canon Rewrite A/B v1"
 date: 2026-09-26
-summary: "Two wordings of the iLang canon, one model, one day, one route, 320 cases each. Under the wording that leaves decisions to code, execution passes rose from 10 to 25 of 100 and authority self-assignment fell from 86 to 68 cases (p = 0.006 and 0.002, paired); grammar and judgment stayed within the noise of a single run; refusals and filters stayed at zero."
+summary: "Three wordings of the iLang canon, one model, one route, 320 cases each. The 26-statement rewrite that leaves decisions to code took execution passes from 10 to 25 of 100 and authority self-assignment from 86 to 68 cases (p = 0.006 and 0.002, paired); the merged canon, which adds one rule about the runtime's budget line, took them to 68 of 100 and 2 cases. Grammar and judgment stayed within the noise of a single run; refusals and filters stayed at zero."
 tags: ["dataset", "A/B", "conformance", "evaluation", "LLM", "iLang", "v4.0", "v5.0"]
 author: "Long Quan Zhu"
 ---
@@ -28,11 +28,12 @@ Suite, scorer and refusal track: [ilang-conformance](https://github.com/ilang-ai
 - **Authority self-assignment (rule R9)**: 86 → 68 cases; 25 fail only under A, 7 only under B; p = 0.0021
 - **Grammar**: 0.8667 → 0.8583, 4 / 5 flips, p = 1.0. **Judgment**: JCS 0.8413 → 0.8285, 4 / 5 mode-hit flips, p = 1.0
 - **Noise floor**: the same model and route under the old canon six days apart flips 5 / 5 exec cases and 6 / 7 R9 cases, p = 1.0
+- **Arm C (added 2026-09-26)**: the merged canon, ilang-spec 4.3.0, same model and route: exec pass 0.68, R9 on 2 cases, 98 of 100 execution replies signed `authority:proposal`; grammar 0.8417 and judgment JCS 0.8275, within noise
 - **Refusals, filters**: 0 and 0 on every run
 
 ## Why it is worth reading
 
-**A wording change in the protocol moved the one behaviour it aimed at and nothing else.** The rewrite says, in every place the old text left it open, that authority is assigned by code outside the model and that the model writes only as itself. Under it the model signed fewer declarations as the runtime and passed more execution cases, while the tracks the rewrite did not address stayed put. The remaining failures are mostly the runtime's own budget line echoed back; the rule that addresses that was added at the merge and is not yet measured.
+**A wording change in the protocol moved the one behaviour it aimed at and nothing else.** The rewrite says, in every place the old text left it open, that authority is assigned by code outside the model and that the model writes only as itself. Under it the model signed fewer declarations as the runtime and passed more execution cases, while the tracks the rewrite did not address stayed put. The remaining failures were mostly the runtime's own budget line echoed back; one added rule, that the line is read and never re-emitted, took the authority failures from 68 to 2 and the execution passes from 25 to 68 of 100, on the same model two days later.
 
 **Same day, same route, paired per case.** The comparison is not a leaderboard delta. Each case is scored under both wordings and the discordant cases are counted; a replicate of the old wording six days earlier shows how many flips a single run produces on its own.
 

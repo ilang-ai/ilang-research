@@ -1,6 +1,6 @@
 # Canon Rewrite A/B v1
 
-**Same model, same 320 cases, same day, same route, two wordings of the iLang canon. Under the wording that leaves decisions to code, execution passes rose from 10 to 25 of 100 and authority self-assignment fell from 86 to 68 cases (McNemar exact p = 0.006 and 0.002); grammar and judgment did not move beyond the noise of a single run; refusals and filters stayed at zero.**
+**Same model, same 320 cases, same route, three wordings of the iLang canon. Under the 26-statement rewrite that leaves decisions to code, execution passes rose from 10 to 25 of 100 and authority self-assignment fell from 86 to 68 cases (McNemar exact p = 0.006 and 0.002); under the merged canon, which adds one rule (the runtime's budget line is read, never re-emitted), execution passes reached 68 of 100 and authority self-assignment 2 cases. Grammar and judgment did not move beyond the noise of a single run; refusals and filters stayed at zero throughout.**
 
 Source repositories: [ilang-conformance](https://github.com/ilang-ai/ilang-conformance) (the suite, concept DOI [10.5281/zenodo.22864929](https://doi.org/10.5281/zenodo.22864929)) and [ilang-spec](https://github.com/ilang-ai/ilang-spec) (the canon, concept DOI [10.5281/zenodo.21821452](https://doi.org/10.5281/zenodo.21821452)). Every number here was produced by `score.py` and `refusal.py` of ilang-conformance at commit `4a92b01`; nothing is scored by a model and nothing by hand.
 
@@ -23,6 +23,7 @@ Both arms were run by an operator outside the authors' machines from the same pu
 | `deepseek-v4-flash-free-replicate-20260918-score.json` | the same model and route under canon A six days earlier (the M4 run of the public scoreboard): the noise of a single run |
 | `deepseek-v4-flash-free-per-case.tsv` | one row per case: pass/fail, execution rule violations and judgment modes under the replicate, arm A and arm B |
 | `deepseek-v4-flash-free-armA-refusal.json`, `…-armB-refusal.json` | `refusal.py` output: refusals, filters, casing, prompt size |
+| `deepseek-v4-flash-free-armC-score.json`, `…-armC-refusal.json`, `orcarouter-deepseek-free-20260926-034241.MANIFEST.sha256` | arm C, added 2026-09-26: the merged canon (ilang-spec 4.3.0, commit `7551914`), same model and route, run by the authors two days after the A/B |
 | `glm-5.3-flash-armA-score.json`, `…-armB-score.json`, `…-refusal.json` | the weak pair (see below) |
 | `*.MANIFEST.sha256` | the sha256 of every raw record of each run; the records themselves are held privately |
 | `conformance-vendor-perception-rewrite-v1.patch` | the exact difference between arm A and arm B |
@@ -56,7 +57,24 @@ Replies on the execution track containing the runtime's fields (100 replies per 
 | `by:@AGENT` or `by:@SELF` | 76 | 77 | 80 |
 | `authority:proposal` | 76 | 77 | 80 |
 
-What remains of R9 under canon B is mostly the runtime's own `::BUDGET{…|authority:@RUNTIME}` line echoed back (61 of 100 replies). The patch left the budget example in §2 of v4.0 untouched; the rule added at the merge addresses it and has not been measured yet.
+What remains of R9 under canon B is mostly the runtime's own `::BUDGET{…|authority:@RUNTIME}` line echoed back (61 of 100 replies). The patch left the budget example in §2 of v4.0 untouched; the rule added at the merge addresses it.
+
+## Arm C: the merged canon (added 2026-09-26)
+
+Arm C is ilang-spec 4.3.0 as vendored in ilang-conformance release 2.0.0: arm B plus the rule that the runtime's `::BUDGET` line is read and never re-emitted. Same model, same route, same parameters, run by the authors on 2026-09-26 (run `orcarouter-deepseek-free-20260926-034241`, 320 of 320 answered, no errors).
+
+| | arm A (127ba56) | arm B (rewrite) | arm C (4.3.0) |
+|---|---|---|---|
+| grammar pass rate | 0.8667 | 0.8583 | 0.8417 |
+| exec pass rate | 0.1000 | 0.2500 | 0.6800 |
+| judge JCS | 0.8413 | 0.8285 | 0.8275 |
+| judge schema validity | 0.9900 | 0.9700 | 0.9800 |
+| weighted total | 0.5907 | 0.6365 | 0.7808 |
+| exec cases failing R9 | 86 | 68 | 2 |
+| exec replies carrying `authority:proposal` | 77 | 80 | 98 |
+| refused / filtered | 0 / 0 | 0 / 0 | 0 / 0 |
+
+Paired per case, C against B: exec pass 49 only C / 6 only B (p < 0.0001); R9 0 only C / 66 only B; grammar 5 / 7 (p = 0.77); judge mode hit 4 / 4 (p = 1.0). C against A: exec 60 / 2; R9 0 / 84; grammar 5 / 8 (p = 0.58); judge 3 / 4 (p = 1.0). The 32 execution cases that still fail under C are 24 wrong end states, 4 R8, 2 R9 and 1 R7: with authority out of the way, the remaining failures are the task itself. Arm C was run two days after the A/B, so a day effect is not excluded; the two 127ba56 runs six days apart bound that effect at a few flips per track.
 
 ## The weak pair, glm-5.3-flash
 
