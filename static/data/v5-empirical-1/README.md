@@ -1,6 +1,6 @@
 # v5.0 Empirical Round 1
 
-**f_v5, computed from four models' weighted reading of the eleven dimensions, matched what the operator wanted on 5 of 157 in-scope events exactly (0.0318, Wilson 95 % 0.0137 to 0.0724) and on 60 of 157 across the five classes (0.3822); the bot itself matched on 7 of 30 corrections where its mode could be read; on the 112 controls the operator let stand, f_v5 would have changed the bot's decision on 109 exactly and on 63 across the five classes (five-class agreement 0.4375, Wilson 95 % 0.3492 to 0.5299, against a baseline of 1 by construction). Result case A, CX-007 registered against f_v5_STEP-4_S_bands; truth is the models' merged label (operator confirmations pending). The weighted measurement of T2 did not win its first round: MAE 0.1027 against 0.1043 for a plain mean and 0.0989 for the best single model. The canon's normative text is unchanged.**
+**f_v5, computed from four models' weighted reading of the eleven dimensions, matched what the operator wanted on 13 of 157 in-scope events exactly (0.0828, Wilson 95 % 0.049 to 0.1365) and on 60 of 157 across the five classes (0.3822); the bot itself matched on 7 of 30 corrections where its mode could be read; on the 112 controls the operator let stand, f_v5 would have changed the bot's decision on 102 exactly and on 63 across the five classes (five-class agreement 0.4375, Wilson 95 % 0.3492 to 0.5299, against a baseline of 1 by construction). Result case A+C, CX-007 registered against f_v5_STEP-4_S_bands; truth is the operator's confirmation on 17 events, the models' merged label elsewhere. The weighted measurement of T2 did not win its first round: MAE 0.1027 against 0.1043 for a plain mean and 0.0989 for the best single model. The canon's normative text is unchanged.**
 
 This is the first empirical round of the sealed iLang v5.0 judgment layer. Two questions were asked, and the design of the round, the rules for reading its results and the thresholds those rules use were written down on 2026-09-26 before any data was read. The canon under test is [ilang-spec](https://github.com/ilang-ai/ilang-spec) at `cad65e2`, tag `v5.0-pre-2.4.1-sealed`; no constant of `f_v5` was touched before, during or after the round.
 
@@ -46,25 +46,29 @@ Every label and vector record carries the sha256 of the system and user messages
 
 ## T1 results
 
-**The controls, read first, as the rules require.** On the 112 controls the operator let stand, f_v5 would have changed the bot's decision on 109 exactly and on 63 across the five classes (five-class agreement 0.4375, Wilson 95 % 0.3492 to 0.5299, against a baseline of 1 by construction). The rule for the controls set no numeric threshold; this round reads the finding as clear because the Wilson upper bound of the five-class agreement is below 0.90. It is the most serious kind of finding the rules name, and it is registered as a counterexample, CX-007, against the STEP-4 S bands, where 104 of the 109 control disagreements were decided (77 within 0.05 of the band).
+**The controls, read first, as the rules require.** On the 112 controls the operator let stand, f_v5 would have changed the bot's decision on 102 exactly and on 63 across the five classes (five-class agreement 0.4375, Wilson 95 % 0.3492 to 0.5299, against a baseline of 1 by construction). The rule for the controls set no numeric threshold; this round reads the finding as clear because the Wilson upper bound of the five-class agreement is below 0.90. It is the most serious kind of finding the rules name, and it is registered as a counterexample, CX-007, against the STEP-4 S bands, where 97 of the 102 control disagreements were decided (71 within 0.05 of the band).
 
-Events with a vector from at least two models: 442; in scope: 157 (45 corrections about whether or how to act, 112 controls with the weak acceptance label). Truth: the models' merged label: what four models, weighted by their prior conformance (WEIGHTS-TRACK-1), read as the operator's wanted mode, and on the controls the bot's mode as they read it. The operator's own confirmations are pending; when they come back they override the merged label and the report is re-run.
+Events with a vector from at least two models: 442; in scope: 157 (45 corrections about whether or how to act, 112 controls with the weak acceptance label). Truth: the operator's own confirmation on 17 of the 157 in-scope events and the models' merged label (WEIGHTS-TRACK-1) on the rest. Label reliability on the answered part of the 20 % sample: 3 of 15, Wilson 95 % 0.0705 to 0.4519 (case D).
 
 Vectors read per route, of 442 events: deepseek-official-deepseek-flash 442, relay-gpt-6-astra 442, relay-gemini-3.8-flash 442, openrouter-qwen-qwen3.8-flash 442. An event enters with the models that answered it, weighted by WEIGHTS-VECTOR-1 over those.
 
 | set | n | exact agreement | 95 % CI | five-class agreement | 95 % CI |
 |---|---|---|---|---|---|
-| all in scope | 157 | 5 = 0.0318 | 0.0137 to 0.0724 | 60 = 0.3822 | 0.3098 to 0.4601 |
-| corrections | 45 | 2 = 0.0444 | 0.0123 to 0.1483 | 11 = 0.2444 | 0.1424 to 0.3867 |
-| controls | 112 | 3 = 0.0268 | 0.0092 to 0.0758 | 49 = 0.4375 | 0.3492 to 0.5299 |
+| all in scope | 157 | 13 = 0.0828 | 0.049 to 0.1365 | 60 = 0.3822 | 0.3098 to 0.4601 |
+| corrections | 45 | 3 = 0.0667 | 0.0229 to 0.1786 | 11 = 0.2444 | 0.1424 to 0.3867 |
+| controls | 112 | 10 = 0.0893 | 0.0492 to 0.1566 | 49 = 0.4375 | 0.3492 to 0.5299 |
 
 Bot baseline on the corrections (the mode the bot actually took, where the models could read it): 7 of 30 agree with what the operator wanted. On the controls the bot's mode is the truth by construction.
 
-**Where the disagreements sit.** The record is mostly M1 (96 of 157) and M4 (39); f_v5 answered mostly M2 (93) and M3 (42). The measured S of the events the operator wanted done outright (M1) has a median of 0.739, inside the band f_v5 gives to M2 (0.70 to 0.85); f_v5 reached the M1 band, S of 0.85 or more, on 5 events. 136 of the 152 disagreements were decided at the STEP-4 S bands.
+**Where the disagreements sit.** The record is mostly M1 (84 of 157) and M4 (39); f_v5 answered mostly M2 (93) and M3 (42). The measured S of the events the operator wanted done outright (M1) has a median of 0.726, inside the band f_v5 gives to M2 (0.70 to 0.85); f_v5 reached the M1 band, S of 0.85 or more, on 5 events. 128 of the 144 disagreements were decided at the STEP-4 S bands.
 
-Disagreements: 152. By the gate that decided the prediction: STEP-4 S band 0.70: 68 (within 0.05: 47), STEP-4 S band 0.85: 50 (within 0.05: 35), STEP-4 S band 0.55: 17 (within 0.05: 12), STEP-2 cer<0.30: 10 (within 0.05: 5), STEP-5 aut<0.55 cap: 5 (within 0.05: 1), STEP-3 aut<0.30: 1 (within 0.05: 1), STEP-4 S band 0.40: 1 (within 0.05: 1).
+Disagreements: 144. By the gate that decided the prediction: STEP-4 S band 0.70: 65 (within 0.05: 46), STEP-4 S band 0.85: 45 (within 0.05: 30), STEP-4 S band 0.55: 17 (within 0.05: 12), STEP-2 cer<0.30: 10 (within 0.05: 5), STEP-5 aut<0.55 cap: 5 (within 0.05: 1), STEP-3 aut<0.30: 1 (within 0.05: 1), STEP-4 S band 0.40: 1 (within 0.05: 1).
 
-**Result case by the rules fixed before the data was read: A.** no single gate holds a third of the disagreements with every such vector within 0.05 of it, so by the rule fixed in advance this is case A: perception noise as far as the rule can tell, the canon does not move, the remedy is anchor examples; the concentration on the S bands is recorded above and in CX-007.
+**Result case by the rules fixed before the data was read: A+C.** no single gate holds a third of the disagreements with every such vector within 0.05 of it, so by the rule fixed in advance this is case A: perception noise as far as the rule can tell, the canon does not move, the remedy is anchor examples; the concentration on the S bands is recorded above and in CX-007; the operator found no fitting mode on some events, a counterexample against the mode set is registered (case C).
+
+**Label reliability, and what it means here.** On the 15-item reliability sample the operator's answer equalled the models' consensus 3 times exactly (Wilson 95 % 0.0705 to 0.4519) and 15 times across the five classes (0.7961 to 1.0). Every exact miss is the same miss: the models wrote M1 where the operator wrote M2. By the rule fixed in advance, an exact-mode reliability with a Wilson lower bound below 0.5 is case D: the exact-mode comparison of this round is inconclusive and the labelling is to be improved before an exact-mode conclusion is drawn. The five-class comparison is not affected and stands.
+
+**The operator's own mode set.** While confirming, the operator stated his rule in his own words: do it and fix mistakes afterwards, since a full trace is always kept (so M1 and M2 are one choice to him, M2); when you do not know, say you do not know; when you do not know and can ask, keep asking for constants and information (M5). Almost nothing else. On two events he found none of the eight modes fitting and wanted the bot to answer that it did not know: no alternative to offer (M7 needs one), no stop (M8), and no negation of the asker. That answer is registered as counterexample CX-008 against the mode set. He also noted that he is not a typical user; the design of the next round takes both points as input: a ninth label for admitted ignorance, and the M1/M2 split read as one class for an operator who keeps a full trace by default.
 
 The models themselves merged to `none_fits` on 21 corrections; those events are outside the comparison until the operator answers them.
 
@@ -95,7 +99,7 @@ The rules were fixed before the data was read.
 - **T1** has four outcomes. **A**: disagreements spread over the gates, no gate holding a third or more of them: perception noise, the canon does not move, the remedy is anchor examples. **B**: one gate holds a third or more of the disagreements and those vectors lie within 0.05 of it: a counterexample against that gate is registered, `f_v5` does not move, the evidence waits for the next major version. **C**: the operator finds none of the eight modes fits: a counterexample against the mode set. **D**: on the 20 % sample the Wilson lower bound of the agreement between model consensus and operator is below 0.5: the round is inconclusive and the labelling is improved before anything is concluded. The one-third rule is registered as `CONST-CLUSTER-1/3`: `f_v5` has 13 gates, a uniform spread gives 1/13 per gate, one third is more than four times that. The controls are read separately: `f_v5` doing worse than the bot on cases the bot got right would be the most serious finding.
 - **T2** has two outcomes. Weighted better than both: WEIGHTS-VECTOR-1 gains first-round evidence. Otherwise: the clause stands, since MODULE::MEASUREMENT names no weight function, the entry is marked "first round not won" and a counterexample is registered.
 
-**What this round put into the canon** (v5.0 Pre 2.4.2, normative text unchanged since the seal): Appendix G registers WEIGHTS-VECTOR-1 as first round not won, WEIGHTS-TRACK-1 and CONST-CLUSTER-1/3 as conventions awaiting practice; Appendix F registers CX-006 (T2) and CX-007 (T1: the controls). The MATURITY line of the canon now carries the measured numbers. Public Preview is kept.
+**What this round put into the canon** (v5.0 Pre 2.4.2, normative text unchanged since the seal): Appendix G registers WEIGHTS-VECTOR-1 as first round not won, WEIGHTS-TRACK-1 and CONST-CLUSTER-1/3 as conventions awaiting practice; Appendix F registers CX-006 (T2) and CX-007 (T1: the controls) and CX-008 (T1: the mode set, case C). The MATURITY line of the canon now carries the measured numbers. Public Preview is kept.
 
 ## Files
 
@@ -105,7 +109,7 @@ The rules were fixed before the data was read.
 | `labels/<route>/T1-nnnn.json` | each model's raw label record: request digest, raw reply, parsed fields, or the error |
 | `vectors/<route>/T1-nnnn.json` | each model's raw `::JUDGE{v5.0}` block and parsed vector, or the error |
 | `merged.jsonl`, `merge-summary.json` | the merged labels with weights and votes; the merge counts and the sampled ids |
-| `confirmed.jsonl` | the operator's answers from the returned confirmation batches (none returned at the time of this release; the file appears with the first re-run) |
+| `confirmed.jsonl` | the operator's answers from the returned confirmation batches (19 answers at the time of this release) |
 | `predictions.jsonl`, `report.json`, `report.md` | per-event measured vector, `f_v5` mode, deciding step, distance to the nearest gate, truth and its source; the T1 report |
 | `t2a-judge-track.tsv`, `.md` | T2(a) |
 | `t2b-vectors.jsonl`, `t2b-result.json`, `.md` | T2(b) raw vectors and result |
@@ -126,7 +130,7 @@ Routes are the vendor entries of ilang-conformance `vendors.json`; the runs here
 
 ## Limitations
 
-- The truth for T1 is the models' merged label: what four models, weighted by their prior conformance (WEIGHTS-TRACK-1), read as the operator's wanted mode, and on the controls the bot's mode as they read it. The operator's own confirmations are pending; when they come back they override the merged label and the report is re-run. The operator's confirmation list (149 items: every event the models disagreed on plus a 20 % sample of the agreed ones, seed 42) has been issued; 0 answers were back at the time of this release. Each returned batch re-runs the report and updates this page; the operator's answer overrides the merged label.
+- The truth for T1 is the operator's own confirmation on 17 of the 157 in-scope events and the models' merged label (WEIGHTS-TRACK-1) on the rest. The operator's confirmation list (149 items: every event the models disagreed on plus a 20 % sample of the agreed ones, seed 42) has been issued; 19 answers were back at the time of this release. Each returned batch re-runs the report and updates this page; the operator's answer overrides the merged label.
 - The control label is weak by construction: silence after a bot action is read as acceptance, so the bot's own mode is the truth there and its baseline is 1 by definition. The controls test only whether `f_v5` would have changed a decision the operator let stand.
 - Three of the four routes are relays (b.ai, OpenRouter), not the vendors' own endpoints; relay interference is a documented risk in this programme and is not controlled for here.
 - One operator, two bots, one language. The record is real but narrow.

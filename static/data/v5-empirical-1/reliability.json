@@ -1,0 +1,81 @@
+{
+  "sample_answered": 15,
+  "consensus_equals_operator": 3,
+  "rate": 0.2,
+  "wilson_95": [
+    0.0705,
+    0.4519
+  ],
+  "case_D": true,
+  "five_class_equals": 15,
+  "five_class_rate": 1.0,
+  "five_class_wilson_95": [
+    0.7961,
+    1.0
+  ],
+  "pairs": [
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M5",
+      "operator": "M5"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M1"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M5",
+      "operator": "M5"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    }
+  ],
+  "answers_total": 19,
+  "none_fits_total": 2,
+  "not_action_total": 0
+}

@@ -64,9 +64,14 @@ def main():
     pairs = [(merged[i]["intended_mode"], answer_of(answers[i])) for i in sample_ids
              if i in answers and i in merged and answer_of(answers[i])]
     k = sum(x == y for x, y in pairs)
+    FIVE = {"M1": "act", "M2": "act", "M3": "confirm", "M4": "confirm", "M5": "ask", "M6": "hand_over", "M7": "decline_or_stop", "M8": "decline_or_stop"}
+    k5 = sum(FIVE.get(x, x) == FIVE.get(y, y) for x, y in pairs)
     rel = {"sample_answered": len(pairs), "consensus_equals_operator": k, "rate": round(k / len(pairs), 4) if pairs else None,
            "wilson_95": wilson(k, len(pairs)), "case_D": (wilson(k, len(pairs))[0] or 1) < 0.5 if pairs else None,
-           "answers_total": len(answers), "none_fits_total": sum(r["none_fits"] for r in answers.values())}
+           "five_class_equals": k5, "five_class_rate": round(k5 / len(pairs), 4) if pairs else None, "five_class_wilson_95": wilson(k5, len(pairs)),
+           "pairs": [{"consensus": x, "operator": y} for x, y in pairs],
+           "answers_total": len(answers), "none_fits_total": sum(r["none_fits"] for r in answers.values()),
+           "not_action_total": sum(r.get("not_action", False) for r in answers.values())}
     json.dump(rel, open(a.out.rstrip("/\\") + "/reliability.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(json.dumps(rel, ensure_ascii=False))
 

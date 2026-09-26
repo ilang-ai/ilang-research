@@ -1,0 +1,19 @@
+{"id": "T1-0195", "operator_mode": "M7", "none_fits": false, "not_action": false, "raw": "7（不接这类问题，指去谷歌 AI 模式）"}
+{"id": "T1-0197", "operator_mode": null, "none_fits": true, "not_action": false, "raw": "都不对（我要它说不知道）"}
+{"id": "T1-0242", "operator_mode": null, "none_fits": true, "not_action": false, "raw": "都不对（我要它说不知道）"}
+{"id": "T1-0260", "operator_mode": "M7", "none_fits": false, "not_action": false, "raw": "7（让他们打腾讯客服）"}
+{"id": "T1-0046", "operator_mode": "M1", "none_fits": false, "not_action": false, "raw": "1（直接做；留痕是默认所以不选 2；做错不怕，怕的是一堆干扰因素要我判断）"}
+{"id": "T1-0060", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（做并完整留痕：我要看他们怎么犯错的）"}
+{"id": "T1-0079", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2"}
+{"id": "T1-0081", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（基本上都是 2）"}
+{"id": "T1-0083", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0086", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0097", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0098", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0101", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0105", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0127", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0141", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0143", "operator_mode": "M2", "none_fits": false, "not_action": false, "raw": "2（对照，模型一致认 1；他说基本上都是 2，未逐条看）"}
+{"id": "T1-0199", "operator_mode": "M5", "none_fits": false, "not_action": false, "raw": "5（模型对，我是让它去拿更多常量信息）"}
+{"id": "T1-0200", "operator_mode": "M5", "none_fits": false, "not_action": false, "raw": "5（一致性对，我要的是 5）"}
