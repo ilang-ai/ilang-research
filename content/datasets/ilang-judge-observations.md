@@ -8,7 +8,7 @@ author: "Long Quan Zhu"
 
 ## Where it lives
 
-The stream is the Hugging Face dataset [i-Lang/ilang-judge-observations](https://huggingface.co/datasets/i-Lang/ilang-judge-observations), updated once a day by the operator's own machines. The judge, the observer plugins and the exporter that produces it are open at [ilang-ai/ilang-judge](https://github.com/ilang-ai/ilang-judge) (MIT), so any operator of the judge can publish a comparable stream in the same schema.
+The stream is the Hugging Face dataset [i-Lang/ilang-judge-observations](https://huggingface.co/datasets/i-Lang/ilang-judge-observations), updated once a day by the operator's own machines. DOI [10.57967/hf/10607](https://doi.org/10.57967/hf/10607) (DataCite, via Hugging Face). The judge, the observer plugins and the exporter that produces it are open at [ilang-ai/ilang-judge](https://github.com/ilang-ai/ilang-judge) (MIT), so any operator of the judge can publish a comparable stream in the same schema.
 
 ## What one line is
 
