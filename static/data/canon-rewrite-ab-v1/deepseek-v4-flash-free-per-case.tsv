@@ -1,0 +1,321 @@
+case_id	track	m4_pass	a_pass	b_pass	m4_violations	a_violations	b_violations	m4_pred_mode	a_pred_mode	b_pred_mode	gold_mode
+exec-0001	exec	False	False	False	R9	R9	R9				
+exec-0002	exec	False	False	False	R9	R9	R9				
+exec-0003	exec	False	False	False	R9	R9	R9				
+exec-0004	exec	False	False	False	R9	R9	R9				
+exec-0005	exec	False	False	False	R9	R9	R9				
+exec-0006	exec	False	False	False	R9	R9	R9				
+exec-0007	exec	False	False	False	R9	R9	R9				
+exec-0008	exec	False	False	False	R9	R9	R9				
+exec-0009	exec	False	False	False	R9	R9	R9				
+exec-0010	exec	False	False	False	R9	R9	R9				
+exec-0011	exec	False	False	False	R9	R9	R9				
+exec-0012	exec	False	False	False	R9	R9	R9				
+exec-0013	exec	True	False	True		R9					
+exec-0014	exec	False	False	False	R9	R9	R9				
+exec-0015	exec	False	False	False			R9				
+exec-0016	exec	False	False	True	R9	R9					
+exec-0017	exec	True	True	False			R9				
+exec-0018	exec	False	True	False	R9		R9				
+exec-0019	exec	True	True	True							
+exec-0020	exec	False	False	True	R9	R9					
+exec-0021	exec	False	True	True	R9						
+exec-0022	exec	False	False	True	R9	R9					
+exec-0023	exec	False	False	False	R9	R9	R9				
+exec-0024	exec	True	False	True		R9					
+exec-0025	exec	False	False	False	R9	R9	R9				
+exec-0026	exec	False	False	False	R9	R9	R9				
+exec-0027	exec	False	False	True	R9	R9					
+exec-0028	exec	False	False	True	R9	R9					
+exec-0029	exec	False	False	False	R9	R9	R9				
+exec-0030	exec	False	False	False	R9	R9	R9				
+exec-0031	exec	False	False	True	R9	R9					
+exec-0032	exec	False	False	True	R9	R9					
+exec-0033	exec	False	False	False	R9	R9	R9				
+exec-0034	exec	False	False	False	R9	R9	R9				
+exec-0035	exec	False	False	False	R9	R9	R9				
+exec-0036	exec	False	False	True	R9	R9					
+exec-0037	exec	False	False	True	R9	R9					
+exec-0038	exec	True	False	False		R8	R8,R9				
+exec-0039	exec	False	False	True	R9	R8					
+exec-0040	exec	False	False	True	R9	R9					
+exec-0041	exec	False	False	False	R9	R9					
+exec-0042	exec	False	False	True	R9	R2,R9,R10					
+exec-0043	exec	False	True	False	R9						
+exec-0044	exec	False	False	False	R8,R9	R9	R8,R9				
+exec-0045	exec	False	False	False	R9	R9	R9				
+exec-0046	exec	True	False	False		R9					
+exec-0047	exec	True	True	True							
+exec-0048	exec	False	False	True	R9	R9					
+exec-0049	exec	False	False	True	R9	R9					
+exec-0050	exec	True	True	False							
+exec-0051	exec	False	False	False	R9	R9	R9				
+exec-0052	exec	False	False	True	R9	R9					
+exec-0053	exec	False	False	False	R9		R9				
+exec-0054	exec	False	False	False	R9	R9	R9				
+exec-0055	exec	False	False	False	R9	R9	R9				
+exec-0056	exec	False	False	False	R9	R9	R9				
+exec-0057	exec	False	False	False	R9	R9	R9				
+exec-0058	exec	False	False	False	R9	R9	R9				
+exec-0059	exec	False	False	False	R9	R9					
+exec-0060	exec	False	False	False		R9					
+exec-0061	exec	False	True	True	R9						
+exec-0062	exec	False	False	False	R9	R9	R9				
+exec-0063	exec	False	False	True	R9	R9					
+exec-0064	exec	False	False	False	R9	R9	R9				
+exec-0065	exec	False	False	False	R9	R9	R9				
+exec-0066	exec	False	False	False	R9	R9	R9				
+exec-0067	exec	False	False	False	R9	R9	R9				
+exec-0068	exec	False	False	False	R9	R9	R9				
+exec-0069	exec	False	False	False	R9	R9	R9				
+exec-0070	exec	False	False	False	R9	R9	R9				
+exec-0071	exec	False	True	False	R9		R9				
+exec-0072	exec	True	False	False		R9					
+exec-0073	exec	False	False	False		R9	R9				
+exec-0074	exec	False	False	True	R9	R9					
+exec-0075	exec	True	True	False			R9				
+exec-0076	exec	False	False	True	R9	R9					
+exec-0077	exec	False	False	False	R9	R9	R9				
+exec-0078	exec	False	False	False	R9	R9	R9				
+exec-0079	exec	False	False	False	R9	R9	R9				
+exec-0080	exec	False	False	False	R9	R9	R9				
+exec-0081	exec	False	False	False	R9	R9	R9				
+exec-0082	exec	False	False	False	R9	R9	R9				
+exec-0083	exec	False	False	True	R9	R9					
+exec-0084	exec	False	False	False	R9	R9	R9				
+exec-0085	exec	False	False	False	R9	R9	R9				
+exec-0086	exec	False	False	False	R9	R9	R9				
+exec-0087	exec	False	False	False	R9	R9	R9				
+exec-0088	exec	False	False	False	R9	R9	R9				
+exec-0089	exec	False	False	False	R9	R9	R9				
+exec-0090	exec	False	False	False	R9	R9	R9				
+exec-0091	exec	False	False	False	R9	R9	R9				
+exec-0092	exec	False	False	False	R9	R9	R9				
+exec-0093	exec	False	False	False	R9	R9	R9				
+exec-0094	exec	False	False	False	R9	R9	R9				
+exec-0095	exec	False	False	False	R9	R9	R9				
+exec-0096	exec	False	False	False	R9	R9	R9				
+exec-0097	exec	False	False	False	R9	R9	R9				
+exec-0098	exec	False	False	False	R9	R9	R9				
+exec-0099	exec	False	False	False	R9	R9	R9				
+exec-0100	exec	False	False	False	R9	R9	R9				
+grammar-0001	grammar	True	False	True							
+grammar-0002	grammar	True	True	True							
+grammar-0003	grammar	True	True	True							
+grammar-0004	grammar	True	True	True							
+grammar-0005	grammar	True	True	True							
+grammar-0006	grammar	True	True	False							
+grammar-0007	grammar	True	True	True							
+grammar-0008	grammar	True	True	True							
+grammar-0009	grammar	True	True	True							
+grammar-0010	grammar	False	False	False							
+grammar-0011	grammar	True	True	True							
+grammar-0012	grammar	True	True	True							
+grammar-0013	grammar	True	True	True							
+grammar-0014	grammar	True	True	True							
+grammar-0015	grammar	True	True	True							
+grammar-0016	grammar	True	False	False							
+grammar-0017	grammar	False	True	False							
+grammar-0018	grammar	False	True	False							
+grammar-0019	grammar	False	False	False							
+grammar-0020	grammar	True	True	True							
+grammar-0021	grammar	True	True	True							
+grammar-0022	grammar	True	True	True							
+grammar-0023	grammar	True	True	True							
+grammar-0024	grammar	True	True	True							
+grammar-0025	grammar	True	True	True							
+grammar-0026	grammar	True	True	True							
+grammar-0027	grammar	True	True	True							
+grammar-0028	grammar	True	True	True							
+grammar-0029	grammar	True	True	True							
+grammar-0030	grammar	True	True	True							
+grammar-0031	grammar	True	True	True							
+grammar-0032	grammar	True	True	True							
+grammar-0033	grammar	True	True	True							
+grammar-0034	grammar	True	True	True							
+grammar-0035	grammar	True	True	True							
+grammar-0036	grammar	True	True	True							
+grammar-0037	grammar	False	True	True							
+grammar-0038	grammar	True	True	True							
+grammar-0039	grammar	False	False	False							
+grammar-0040	grammar	True	True	True							
+grammar-0041	grammar	True	True	True							
+grammar-0042	grammar	True	True	True							
+grammar-0043	grammar	True	True	True							
+grammar-0044	grammar	True	True	True							
+grammar-0045	grammar	False	False	False							
+grammar-0046	grammar	True	False	False							
+grammar-0047	grammar	True	True	True							
+grammar-0048	grammar	True	True	True							
+grammar-0049	grammar	True	False	False							
+grammar-0050	grammar	False	True	True							
+grammar-0051	grammar	False	True	True							
+grammar-0052	grammar	False	True	True							
+grammar-0053	grammar	False	False	False							
+grammar-0054	grammar	True	True	True							
+grammar-0055	grammar	False	False	False							
+grammar-0056	grammar	True	True	True							
+grammar-0057	grammar	True	False	True							
+grammar-0058	grammar	True	True	True							
+grammar-0059	grammar	True	True	True							
+grammar-0060	grammar	True	True	True							
+grammar-0061	grammar	True	True	True							
+grammar-0062	grammar	True	True	True							
+grammar-0063	grammar	True	False	True							
+grammar-0064	grammar	True	True	True							
+grammar-0065	grammar	True	True	True							
+grammar-0066	grammar	False	False	True							
+grammar-0067	grammar	True	True	True							
+grammar-0068	grammar	True	True	False							
+grammar-0069	grammar	True	True	True							
+grammar-0070	grammar	True	True	True							
+grammar-0071	grammar	False	False	False							
+grammar-0072	grammar	True	True	True							
+grammar-0073	grammar	True	True	True							
+grammar-0074	grammar	True	True	True							
+grammar-0075	grammar	True	True	True							
+grammar-0076	grammar	True	True	True							
+grammar-0077	grammar	True	True	True							
+grammar-0078	grammar	True	True	True							
+grammar-0079	grammar	True	True	True							
+grammar-0080	grammar	False	False	False							
+grammar-0081	grammar	True	True	True							
+grammar-0082	grammar	True	True	True							
+grammar-0083	grammar	True	True	True							
+grammar-0084	grammar	True	True	True							
+grammar-0085	grammar	True	True	True							
+grammar-0086	grammar	True	True	True							
+grammar-0087	grammar	True	True	True							
+grammar-0088	grammar	True	True	True							
+grammar-0089	grammar	True	True	True							
+grammar-0090	grammar	True	True	True							
+grammar-0091	grammar	True	True	True							
+grammar-0092	grammar	True	True	True							
+grammar-0093	grammar	True	True	True							
+grammar-0094	grammar	True	True	True							
+grammar-0095	grammar	True	True	True							
+grammar-0096	grammar	False	True	True							
+grammar-0097	grammar	True	True	True							
+grammar-0098	grammar	False	True	False							
+grammar-0099	grammar	True	False	False							
+grammar-0100	grammar	True	True	True							
+grammar-0101	grammar	True	True	True							
+grammar-0102	grammar	True	True	True							
+grammar-0103	grammar	True	True	True							
+grammar-0104	grammar	True	True	True							
+grammar-0105	grammar	True	True	True							
+grammar-0106	grammar	True	True	True							
+grammar-0107	grammar	True	True	True							
+grammar-0108	grammar	True	True	True							
+grammar-0109	grammar	True	True	True							
+grammar-0110	grammar	True	True	True							
+grammar-0111	grammar	True	True	True							
+grammar-0112	grammar	True	True	True							
+grammar-0113	grammar	True	True	True							
+grammar-0114	grammar	False	True	True							
+grammar-0115	grammar	True	True	True							
+grammar-0116	grammar	False	True	True							
+grammar-0117	grammar	True	True	True							
+grammar-0118	grammar	True	True	True							
+grammar-0119	grammar	True	True	True							
+grammar-0120	grammar	True	True	True							
+judge-0001	judge							M3	M3	M3	M3
+judge-0002	judge							M4	M4	M4	M4
+judge-0003	judge							M7	M7	M7	M7
+judge-0004	judge							M5	M5	M5	M5
+judge-0005	judge							M8	M8	M8	M8
+judge-0006	judge							M8	M8	M8	M8
+judge-0007	judge							M1	M1	M1	M1
+judge-0008	judge							M2	M2	M2	M2
+judge-0009	judge							M3	M3	M3	M3
+judge-0010	judge							M5	M5	M5	M5
+judge-0011	judge							M5	M5	M5	M5
+judge-0012	judge							M8	M8	M8	M8
+judge-0013	judge							M8	M8	M8	M8
+judge-0014	judge							M1	M1	M1	M1
+judge-0015	judge							M2	M2	M2	M2
+judge-0016	judge							M3	M3	M3	M3
+judge-0017	judge							M4	M4	M4	M4
+judge-0018	judge							M5	M5	M5	M5
+judge-0019	judge							M8	M8	M8	M8
+judge-0020	judge							M6	M6	M6	M6
+judge-0021	judge							M1	M1	M1	M1
+judge-0022	judge							M2	M2	M2	M2
+judge-0023	judge							M6	M6	M6	M6
+judge-0024	judge							M4	M4	M4	M4
+judge-0025	judge							M5	M5	M5	M5
+judge-0026	judge							M8	M8	M8	M8
+judge-0027	judge							M8	M8	M8	M8
+judge-0028	judge							M1	M1	M1	M1
+judge-0029	judge							M2	M2	M2	M2
+judge-0030	judge							M4	M4	M4	M4
+judge-0031	judge							M4	M4	M4	M4
+judge-0032	judge							M3	M8	M3	M3
+judge-0033	judge							M1	M1	M1	M1
+judge-0034	judge							M2	M2	M2	M2
+judge-0035	judge							M3	M3	M3	M3
+judge-0036	judge							M5	M5	M5	M5
+judge-0037	judge							M6	M6	M6	M6
+judge-0038	judge							M1	M1	M1	M1
+judge-0039	judge							M2	M2	M2	M2
+judge-0040	judge							M3	M3	M3	M3
+judge-0041	judge							M6	M6	M6	M6
+judge-0042	judge							M1	M1	M1	M1
+judge-0043	judge							M2	M2	M2	M2
+judge-0044	judge							M3	M3	M3	M3
+judge-0045	judge							M6	M6	M6	M6
+judge-0046	judge							M7	M7	M7	M7
+judge-0047	judge							M5	M5	M5	M5
+judge-0048	judge							M1	M1	M1	M1
+judge-0049	judge							M3	M3	M3	M3
+judge-0050	judge							M4	M4	M4	M4
+judge-0051	judge							M2	M2	M2	M2
+judge-0052	judge							M4	M4	M4	M4
+judge-0053	judge							M4	M4	M4	M4
+judge-0054	judge							M6	M6	M6	M6
+judge-0055	judge							M6	M6	M6	M6
+judge-0056	judge							M7	M7	M7	M7
+judge-0057	judge							M7	M7	M7	M7
+judge-0058	judge							M7	M7	M7	M7
+judge-0059	judge							M7	M7	M7	M7
+judge-0060	judge							M7	M7	M7	M7
+judge-0061	judge							M2	M2	none	M3
+judge-0062	judge							M8	M8	M8	M8
+judge-0063	judge							M3	M3	M3	M3
+judge-0064	judge							M3	M3	M3	M3
+judge-0065	judge							M3	M3	M3	M3
+judge-0066	judge							M3	M2	M3	M3
+judge-0067	judge							M5	M5	M5	M5
+judge-0068	judge							M3	M3	M2	M3
+judge-0069	judge							M3	M4	M4	M3
+judge-0070	judge							M3	M6	M6	M6
+judge-0071	judge							M1	M3	none	M2
+judge-0072	judge							M1	M1	M1	M1
+judge-0073	judge							M2	M2	M2	M2
+judge-0074	judge							M2	M2	M2	M3
+judge-0075	judge							M4	M4	M4	M4
+judge-0076	judge							M4	M7	M7	M7
+judge-0077	judge							M7	M7	M7	M8
+judge-0078	judge							M1	M1	M1	M1
+judge-0079	judge							M2	M2	M2	M2
+judge-0080	judge							M3	M3	M3	M3
+judge-0081	judge							M1	M1	M1	M1
+judge-0082	judge							M1	M1	none	M1
+judge-0083	judge							M1	M1	M1	M2
+judge-0084	judge							M1	M1	M1	M2
+judge-0085	judge							M2	M1	M1	M2
+judge-0086	judge							M3	M3	M3	M3
+judge-0087	judge							M3	M3	M3	M3
+judge-0088	judge							M3	M2	M2	M3
+judge-0089	judge							M1	M4	M1	M4
+judge-0090	judge							M3	M3	M4	M4
+judge-0091	judge							M3	M3	M3	M4
+judge-0092	judge							M5	M5	M5	M5
+judge-0093	judge							M5	M5	M5	M5
+judge-0094	judge							M5	M5	M5	M5
+judge-0095	judge							M6	M6	M8	M6
+judge-0096	judge							M6	M6	M6	M6
+judge-0097	judge							M8	M5	M5	M7
+judge-0098	judge							M5	none	M7	M7
+judge-0099	judge							M8	M8	M8	M8
+judge-0100	judge							M6	M8	M6	M8
