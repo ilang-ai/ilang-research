@@ -1,0 +1,37 @@
+{
+ "id": "T1-0064",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "36a10c45a2f0bdc510dcb11aecc2c189f56866e9c0b2b4f37f752e41967b92e3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者发的是“拉日志看看”这一新任务，不是对机器人上一步的纠正；机器人上一步直接执行并事后汇报，符合M1；事前的指令也是直接执行，未要求先确认，故操作者意图同为M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1685,
+   "completion_tokens": 3809,
+   "total_tokens": 5494,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3728
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1429
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者发的是“拉日志看看”这一新任务，不是对机器人上一步的纠正；机器人上一步直接执行并事后汇报，符合M1；事前的指令也是直接执行，未要求先确认，故操作者意图同为M1。"
+ },
+ "parse_error": null
+}

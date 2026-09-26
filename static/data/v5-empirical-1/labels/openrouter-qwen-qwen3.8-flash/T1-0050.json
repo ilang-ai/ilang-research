@@ -1,0 +1,47 @@
+{
+ "id": "T1-0050",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a6caae60fd29c54eca83dc83b9eb67f7b56dc2675122cb41f431f1a3323d3697",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在回应机器人关于售后口径的请示，直接给出怎么做，属于决定处理方式；机器人按之前“先看日志再讨论”的要求执行并汇报，操作者想要的也是这种先做完再讨论的模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1450,
+   "completion_tokens": 4187,
+   "total_tokens": 5637,
+   "cost": 0.002151086,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002151086,
+    "upstream_inference_prompt_cost": 0.000183196,
+    "upstream_inference_completions_cost": 0.00196789
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4098,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在回应机器人关于售后口径的请示，直接给出怎么做，属于决定处理方式；机器人按之前“先看日志再讨论”的要求执行并汇报，操作者想要的也是这种先做完再讨论的模式。"
+ },
+ "parse_error": null
+}

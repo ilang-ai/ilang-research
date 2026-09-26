@@ -1,0 +1,49 @@
+{
+ "id": "T1-0117",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "6320067d9fb048c728c1f2ee12bee3e9e3d7a48a1cc88e966dee4136cbedd2cd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.90,csq=0.60,rel=0.70,cer=0.25,aut=0.75,rev=0.60,evd=0.20,sov=0.80,ine=0.70,ext=0.55]\nM:M5|conf:0.80\nR:Bash command and unanswered question not specified; certainty and evidence below epistemic gate; ask for clarification.",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 31621,
+   "completion_tokens": 6003,
+   "total_tokens": 37624,
+   "prompt_tokens_details": {
+    "cached_tokens": 31360
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5892
+   },
+   "prompt_cache_hit_tokens": 31360,
+   "prompt_cache_miss_tokens": 261
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.9,
+   "csq": 0.6,
+   "rel": 0.7,
+   "cer": 0.25,
+   "aut": 0.75,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.7,
+   "ext": 0.55
+  },
+  "declared_mode": "M5",
+  "conf": 0.8,
+  "reason": "Bash command and unanswered question not specified; certainty and evidence below epistemic gate; ask for clarification."
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0208",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e31db5c560550cc51537616ac4a2d4457c702b54dcfbdfe2184dd2514711bf55",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者对生成内容的详细程度不满意，要求结合业务线写得更细致具体，针对的是内容本身而非协作模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 585,
+   "completion_tokens": 292,
+   "total_tokens": 877,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 585,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 75,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 217
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者对生成内容的详细程度不满意，要求结合业务线写得更细致具体，针对的是内容本身而非协作模式。"
+ },
+ "parse_error": null
+}

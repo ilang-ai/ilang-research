@@ -1,0 +1,37 @@
+{
+ "id": "T1-0131",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "97ff2e4841fcf1d9bb2d63d443c8d3084017025bc00a120a8d67e32ce54a02b4",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此前已授权机器人自行决定并大胆执行；机器人直接执行改动，操作者之后未出声，默认接受了这一自主执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 577,
+   "completion_tokens": 423,
+   "total_tokens": 1000,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 370
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 321
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者此前已授权机器人自行决定并大胆执行；机器人直接执行改动，操作者之后未出声，默认接受了这一自主执行模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0046",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8ad18e120b06b167fad8f3729dfe98e65293455ebe6b6e0f097a01e3ea0d6fe0",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人提出修改方案并问“你要我加吗”，是在等确认；操作者回复“你自己看着办”“胆子大点”，表示授权机器人自行决定并执行，事后看结果即可。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1410,
+   "completion_tokens": 440,
+   "total_tokens": 1850,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 373
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1154
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人提出修改方案并问“你要我加吗”，是在等确认；操作者回复“你自己看着办”“胆子大点”，表示授权机器人自行决定并执行，事后看结果即可。"
+ },
+ "parse_error": null
+}

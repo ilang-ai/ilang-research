@@ -1,0 +1,46 @@
+{
+ "id": "T1-0407",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6573fec6316c852f8532ad0dc02d3e19bc9f4a5272fac0b05fd9187b485bd9b2",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续发声，按对照事件视为默认接受；机器人回复内容未提供，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 591,
+   "completion_tokens": 52,
+   "total_tokens": 643,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 591,
+   "output_tokens": 52,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续发声，按对照事件视为默认接受；机器人回复内容未提供，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

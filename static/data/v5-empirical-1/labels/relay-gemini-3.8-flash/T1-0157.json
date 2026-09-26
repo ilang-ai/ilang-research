@@ -1,0 +1,46 @@
+{
+ "id": "T1-0157",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cbfa4bb6092360cc009ecc9d1c5209c4e0668c189e5ec9dd80f38ea024e3b00d",
+ "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者质问机器人为何在群里有人找时不回复，针对其执行行为，期望其能自主响应处理。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 560,
+   "completion_tokens": 372,
+   "total_tokens": 932,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 560,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 73,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 299
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者质问机器人为何在群里有人找时不回复，针对其执行行为，期望其能自主响应处理。"
+ },
+ "parse_error": null
+}

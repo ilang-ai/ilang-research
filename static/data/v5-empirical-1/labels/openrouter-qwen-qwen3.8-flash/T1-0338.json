@@ -1,0 +1,47 @@
+{
+ "id": "T1-0338",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "396c97557c39294a63635ca66d7201e081e24c3abb1acac1540f35ddeb795cea",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者之后没有出声，属于对照事件，因此 targets 为 none；机器人只显示在时限内回复但内容不可见，无法判断其实际模式，而对照事件默认操作者接受机器人当时的模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 606,
+   "completion_tokens": 379,
+   "total_tokens": 985,
+   "cost": 0.000234726,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000234726,
+    "upstream_inference_prompt_cost": 5.6596e-05,
+    "upstream_inference_completions_cost": 0.00017813
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 294,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没有出声，属于对照事件，因此 targets 为 none；机器人只显示在时限内回复但内容不可见，无法判断其实际模式，而对照事件默认操作者接受机器人当时的模式。"
+ },
+ "parse_error": null
+}

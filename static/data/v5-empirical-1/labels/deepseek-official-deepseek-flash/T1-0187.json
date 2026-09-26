@@ -1,0 +1,37 @@
+{
+ "id": "T1-0187",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ad971eeb7cf3040270046904241cbc21b2367c7984a06f6f16aa06479863606e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者的话是在提出新问题/新任务，让机器人查看自身 Soul 与资料库来回应“那我呢”，并非纠正上一轮做不做或怎么做；且机器人实际回复内容未给出，无法判断其模式与操作者期望的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 594,
+   "completion_tokens": 6211,
+   "total_tokens": 6805,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6133
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 338
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者的话是在提出新问题/新任务，让机器人查看自身 Soul 与资料库来回应“那我呢”，并非纠正上一轮做不做或怎么做；且机器人实际回复内容未给出，无法判断其模式与操作者期望的模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0267",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "30f63e8e46f8819bfb73c8af5154f6a94e84a05a85568bd9db996e490ce72bf6",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在澄清组网的做法，希望机器人别因组网顾虑停下，继续按原任务推进（组网交给 GPT 桌面版远程处理）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 733,
+   "completion_tokens": 7886,
+   "total_tokens": 8619,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7829
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 221
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在澄清组网的做法，希望机器人别因组网顾虑停下，继续按原任务推进（组网交给 GPT 桌面版远程处理）。"
+ },
+ "parse_error": null
+}

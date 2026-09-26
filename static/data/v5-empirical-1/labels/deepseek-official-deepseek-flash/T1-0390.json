@@ -1,0 +1,37 @@
+{
+ "id": "T1-0390",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e85548765dde2d1736c7680775f1b6176428d42961524ac32fa652590cb74850",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者提问后没有出声，默认接受机器人继续处理；但机器人回复正文未提供，无法判断其实际采用的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 605,
+   "completion_tokens": 611,
+   "total_tokens": 1216,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 562
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 349
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者提问后没有出声，默认接受机器人继续处理；但机器人回复正文未提供，无法判断其实际采用的模式。"
+ },
+ "parse_error": null
+}

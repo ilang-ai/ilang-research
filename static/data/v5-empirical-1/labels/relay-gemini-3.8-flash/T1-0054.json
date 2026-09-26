@@ -1,0 +1,46 @@
+{
+ "id": "T1-0054",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "10d65b998d7093378c71ab16820c8c12b514c45695312388eeb06ebe7431e634",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"机器人对比差异后提出录入建议，并请操作者拍板确认以文章还是线上文件为准（M3）；操作者回复确认以文章为准，属于正常决策确认而非纠错。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 3392,
+   "completion_tokens": 464,
+   "total_tokens": 3856,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 3392,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 88,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 376
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人对比差异后提出录入建议，并请操作者拍板确认以文章还是线上文件为准（M3）；操作者回复确认以文章为准，属于正常决策确认而非纠错。"
+ },
+ "parse_error": null
+}

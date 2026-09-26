@@ -1,0 +1,47 @@
+{
+ "id": "T1-0022",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "4d4e1abd56dd4f385e2129412b7d05feea38b72f8e117b01d667d1d3d92900b9",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"操作者纠正的是要不要给免费详细步骤、是否应引导到付费星球/飞书群这类做法，不是单纯内容措辞；机器人当时是给出方案等待确认，操作者之前也要求先设计再确认，所以仍是 M3。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1296,
+   "completion_tokens": 1678,
+   "total_tokens": 2974,
+   "cost": 0.000948756,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000948756,
+    "upstream_inference_prompt_cost": 0.000160096,
+    "upstream_inference_completions_cost": 0.00078866
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1581,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者纠正的是要不要给免费详细步骤、是否应引导到付费星球/飞书群这类做法，不是单纯内容措辞；机器人当时是给出方案等待确认，操作者之前也要求先设计再确认，所以仍是 M3。"
+ },
+ "parse_error": null
+}

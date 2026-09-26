@@ -1,0 +1,47 @@
+{
+ "id": "T1-0207",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f408cf20b5ded95ae14d8002a889a59bfbc4a70edee4f294e3666e8558eb6401",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在提出写公众号文章并直接输出MD的新任务，不是纠正；机器人回复内容不可见无法判断模式，但操作者要求直接完成，符合自主执行后交付。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 638,
+   "completion_tokens": 594,
+   "total_tokens": 1232,
+   "cost": 0.000340576,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000340576,
+    "upstream_inference_prompt_cost": 6.1396e-05,
+    "upstream_inference_completions_cost": 0.00027918
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 512,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在提出写公众号文章并直接输出MD的新任务，不是纠正；机器人回复内容不可见无法判断模式，但操作者要求直接完成，符合自主执行后交付。"
+ },
+ "parse_error": null
+}

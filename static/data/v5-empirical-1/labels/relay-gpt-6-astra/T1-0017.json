@@ -1,0 +1,47 @@
+{
+ "id": "T1-0017",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b30f76db9fa9075e9746794d7a08ed04fb857b9a25a4eeb197b0897cf34f0026",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人给出第3、4条草稿并等待确认，操作者主要纠正付款失败和ROI的回答内容，另让查看日报，没有明确要求当时改用哪种执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1983,
+   "completion_tokens": 148,
+   "total_tokens": 2131,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1980,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 78
+   },
+   "input_tokens": 1983,
+   "output_tokens": 148,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人给出第3、4条草稿并等待确认，操作者主要纠正付款失败和ROI的回答内容，另让查看日报，没有明确要求当时改用哪种执行模式。"
+ },
+ "parse_error": null
+}

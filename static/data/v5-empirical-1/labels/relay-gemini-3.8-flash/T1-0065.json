@@ -1,0 +1,46 @@
+{
+ "id": "T1-0065",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a815cdb5f0613674f0b0768efa2df5700c63fd656132e874b4db3796e7bb663f",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M6\",\n  \"reason\": \"机器人排查完日志后，恪守不擅自在生产环境装包的边界，将是否安装依赖治理繁体交由操作者拍板（M6），操作者的回复是正面做出决策并确认继续，并非纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1851,
+   "completion_tokens": 1274,
+   "total_tokens": 3125,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1851,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 99,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 1175
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "机器人排查完日志后，恪守不擅自在生产环境装包的边界，将是否安装依赖治理繁体交由操作者拍板（M6），操作者的回复是正面做出决策并确认继续，并非纠正。"
+ },
+ "parse_error": null
+}

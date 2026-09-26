@@ -1,7 +1,7 @@
 {
   "title": "iLang Research: the source of research.ilang.ai",
   "description": "<p>The site of iLang Research, the research division of iLang Inc., Canada, published at research.ilang.ai. It collects the protocol papers, datasets, open-source records and archive pages behind the iLang protocol, among them the Judgment Calibration, Judgment Layer Audit, iLang Conformance Results and Judgment Learnability datasets published with the site, an index of every public repository with its Zenodo DOI, and the preprint The Missing Definition of Right (DOI 10.5281/zenodo.22882691). Built with Hugo and the PaperMod theme and deployed on Cloudflare Pages.</p>",
-  "version": "1.3.0",
+  "version": "1.7.0",
   "upload_type": "software",
   "license": "MIT",
   "access_right": "open",

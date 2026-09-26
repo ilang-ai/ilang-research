@@ -1,0 +1,47 @@
+{
+ "id": "T1-0011",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3f014227e6dd4d9c5093da7ab1d59fa7f81bc97c7a96497e9da15de05fc1fa59",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人提出加词方案并等待确认，操作者只纠正了「隋」的错别字来源并追问裸词的情况，没有明确要求改变执行或确认方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1164,
+   "completion_tokens": 128,
+   "total_tokens": 1292,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1161,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 61
+   },
+   "input_tokens": 1164,
+   "output_tokens": 128,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人提出加词方案并等待确认，操作者只纠正了「隋」的错别字来源并追问裸词的情况，没有明确要求改变执行或确认方式。"
+ },
+ "parse_error": null
+}

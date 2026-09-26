@@ -1,0 +1,46 @@
+{
+ "id": "T1-0178",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ac4b02ea5b1f86314daea965d4d3005832f07904333b69e35f2ccd213380da6f",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"操作者在补充受众群体的极白新手背景，属于对沟通内容与解释层级的纠正调整，不涉及决策执行模式的变化。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 687,
+   "completion_tokens": 280,
+   "total_tokens": 967,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 687,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 74,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 206
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在补充受众群体的极白新手背景，属于对沟通内容与解释层级的纠正调整，不涉及决策执行模式的变化。"
+ },
+ "parse_error": null
+}

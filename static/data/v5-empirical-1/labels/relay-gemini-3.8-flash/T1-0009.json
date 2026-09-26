@@ -1,0 +1,46 @@
+{
+ "id": "T1-0009",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "486774a140b6bc6448c6792674f2e698fea6f6946984bbf6575b5a8374d3b9d6",
+ "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人一次性抛出大量待办事项和方案等待确认，操作者要求改变推进节奏，不要一次堆在一起，而是一项一项单独汇报并确认处理。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 55545,
+   "completion_tokens": 1129,
+   "total_tokens": 56674,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 55545,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 84,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 1045
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人一次性抛出大量待办事项和方案等待确认，操作者要求改变推进节奏，不要一次堆在一起，而是一项一项单独汇报并确认处理。"
+ },
+ "parse_error": null
+}

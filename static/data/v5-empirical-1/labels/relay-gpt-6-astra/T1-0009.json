@@ -1,0 +1,47 @@
+{
+ "id": "T1-0009",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "486774a140b6bc6448c6792674f2e698fea6f6946984bbf6575b5a8374d3b9d6",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M3\",\"reason\":\"机器人直接做完配置后又一次抛出一堆待办，操作者希望逐条说明、逐条确认处理，不要一口气堆过来。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 49762,
+   "completion_tokens": 128,
+   "total_tokens": 49890,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 49759,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 60
+   },
+   "input_tokens": 49762,
+   "output_tokens": 128,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M3",
+  "reason": "机器人直接做完配置后又一次抛出一堆待办，操作者希望逐条说明、逐条确认处理，不要一口气堆过来。"
+ },
+ "parse_error": null
+}

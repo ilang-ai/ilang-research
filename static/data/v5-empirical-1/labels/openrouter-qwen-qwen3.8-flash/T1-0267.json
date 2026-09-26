@@ -1,0 +1,47 @@
+{
+ "id": "T1-0267",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "30f63e8e46f8819bfb73c8af5154f6a94e84a05a85568bd9db996e490ce72bf6",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M7\",\n  \"reason\": \"操作者是在纠正做法，提出不用安装原技能而改用远程 GPT 桌面版组网的替代方案；机器人回复不可见无法判断实际模式，操作者意图最接近不做原任务但给替代方案。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 796,
+   "completion_tokens": 4451,
+   "total_tokens": 5247,
+   "cost": 0.002108458,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 768,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002108458,
+    "upstream_inference_prompt_cost": 1.6488e-05,
+    "upstream_inference_completions_cost": 0.00209197
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4361,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M7",
+  "reason": "操作者是在纠正做法，提出不用安装原技能而改用远程 GPT 桌面版组网的替代方案；机器人回复不可见无法判断实际模式，操作者意图最接近不做原任务但给替代方案。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0060",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "568dcfe008aefdfa5ef7fbd777ab6367edd9a42224bcfac4c81b00d8303dd218",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人提出分流方案并等待确认，还建议留下一条例外；操作者要求按客服定位直接把这些问题全部引导到指定群，不必再问或单独解答。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1417,
+   "completion_tokens": 162,
+   "total_tokens": 1579,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1414,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 91
+   },
+   "input_tokens": 1417,
+   "output_tokens": 162,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人提出分流方案并等待确认，还建议留下一条例外；操作者要求按客服定位直接把这些问题全部引导到指定群，不必再问或单独解答。"
+ },
+ "parse_error": null
+}

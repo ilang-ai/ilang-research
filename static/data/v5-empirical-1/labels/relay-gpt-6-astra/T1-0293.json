@@ -1,0 +1,46 @@
+{
+ "id": "T1-0293",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "538e4df475d0c444007f95f8ecc5197b1e527e630806325ebbc7f29845bfe32a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者在抱怨频繁需要小修复，并要求统计修复次数，没有明确纠正决策模式；机器人回复正文缺失，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 795,
+   "completion_tokens": 177,
+   "total_tokens": 972,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 111
+   },
+   "input_tokens": 795,
+   "output_tokens": 177,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者在抱怨频繁需要小修复，并要求统计修复次数，没有明确纠正决策模式；机器人回复正文缺失，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

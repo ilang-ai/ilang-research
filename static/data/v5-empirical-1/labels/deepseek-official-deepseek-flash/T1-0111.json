@@ -1,0 +1,37 @@
+{
+ "id": "T1-0111",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a38c2db2dcc42b3a498593ad7a66199ec99ec1751704fdebcb3eeef35a54344b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，让机器人继续；机器人顺着“继续就完了”直接执行重跑，属于自主执行事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 618,
+   "completion_tokens": 293,
+   "total_tokens": 911,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 243
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 234
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，让机器人继续；机器人顺着“继续就完了”直接执行重跑，属于自主执行事后汇报。"
+ },
+ "parse_error": null
+}

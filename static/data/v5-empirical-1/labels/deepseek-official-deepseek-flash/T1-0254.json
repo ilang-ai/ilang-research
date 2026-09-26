@@ -1,0 +1,37 @@
+{
+ "id": "T1-0254",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "999197b2f69ac3fcc10ea100be736c67020f5b0af874c12697d7a9d904b20f0d",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者在指责机器人没有按要求存记忆，这是对机器人如何行动的要求；机器人当时具体走什么模式从给出的文字看不出来，但操作者想要它直接执行存记忆。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 827,
+   "completion_tokens": 4611,
+   "total_tokens": 5438,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4535
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 315
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在指责机器人没有按要求存记忆，这是对机器人如何行动的要求；机器人当时具体走什么模式从给出的文字看不出来，但操作者想要它直接执行存记忆。"
+ },
+ "parse_error": null
+}

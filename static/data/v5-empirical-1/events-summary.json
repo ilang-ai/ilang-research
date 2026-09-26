@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "wecom": {
+    "corrections": 72,
+    "controls_available": 224,
+    "controls_sampled": 72,
+    "boss_turns_dropped_as_notification_or_attachment_only": 11
+  },
+  "feishu": {
+    "corrections": 149,
+    "controls_available": 464,
+    "controls_sampled": 149
+  },
+  "total_events": 442
+}

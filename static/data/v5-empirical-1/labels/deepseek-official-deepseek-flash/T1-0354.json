@@ -1,0 +1,37 @@
+{
+ "id": "T1-0354",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0021009441b3ccdca5ae917d8886641d4f657c94d44b904e383ee65bab627ca5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者只是好奇提问，机器人随后直接回复；之后操作者没有出声，默认接受机器人的处理。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 595,
+   "completion_tokens": 352,
+   "total_tokens": 947,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 306
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 339
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者只是好奇提问，机器人随后直接回复；之后操作者没有出声，默认接受机器人的处理。"
+ },
+ "parse_error": null
+}

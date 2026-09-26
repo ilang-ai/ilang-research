@@ -1,0 +1,37 @@
+{
+ "id": "T1-0011",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3f014227e6dd4d9c5093da7ab1d59fa7f81bc97c7a96497e9da15de05fc1fa59",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者没在纠正做法，而是纠正事实（「隋」是打错字，不是外号）并追问裸词情况，属于内容层面的反馈与追问；机器人这边第 1 条自己改完汇报、第 2 条则列清单等你回「加/不加、认/不认」，落点是先拿方案等确认，操作者也只是继续在确认环节里补充信息、要细节，没有推翻这种先方案后确认的走法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1079,
+   "completion_tokens": 1332,
+   "total_tokens": 2411,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1207
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 823
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者没在纠正做法，而是纠正事实（「隋」是打错字，不是外号）并追问裸词情况，属于内容层面的反馈与追问；机器人这边第 1 条自己改完汇报、第 2 条则列清单等你回「加/不加、认/不认」，落点是先拿方案等确认，操作者也只是继续在确认环节里补充信息、要细节，没有推翻这种先方案后确认的走法。"
+ },
+ "parse_error": null
+}

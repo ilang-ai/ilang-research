@@ -1,0 +1,47 @@
+{
+ "id": "T1-0066",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e490399ae69d6c42bbed9f01f81537fd77e1cc24e09eeeee4c82296b9c6ccfb7",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M6\",\"intended_mode\":\"M6\",\"reason\":\"机器人把自己答不了的问题交给操作者定口径，操作者表示会拿另一个 AI 的回答来回复、让它稍等，是接下问题而非纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1684,
+   "completion_tokens": 155,
+   "total_tokens": 1839,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1681,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 85
+   },
+   "input_tokens": 1684,
+   "output_tokens": 155,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "机器人把自己答不了的问题交给操作者定口径，操作者表示会拿另一个 AI 的回答来回复、让它稍等，是接下问题而非纠正。"
+ },
+ "parse_error": null
+}

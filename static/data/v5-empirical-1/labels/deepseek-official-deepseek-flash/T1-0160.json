@@ -1,0 +1,37 @@
+{
+ "id": "T1-0160",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6c8bc55118a572b957f84d60489b3e66531fa53afcaf182c7627d481bbceb65b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有针对上一条回复纠正做不做或内容，而是抛出一个全新任务（要求机器人编一句嘲讽群里人的话），属新任务；机器人当时的回复正文不可见，无法判断其实际模式；对新请求操作者显然希望直接给出来，即M1直接做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 654,
+   "completion_tokens": 990,
+   "total_tokens": 1644,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 903
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 398
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者没有针对上一条回复纠正做不做或内容，而是抛出一个全新任务（要求机器人编一句嘲讽群里人的话），属新任务；机器人当时的回复正文不可见，无法判断其实际模式；对新请求操作者显然希望直接给出来，即M1直接做。"
+ },
+ "parse_error": null
+}

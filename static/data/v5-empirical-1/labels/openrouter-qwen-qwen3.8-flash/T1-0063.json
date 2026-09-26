@@ -1,0 +1,47 @@
+{
+ "id": "T1-0063",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "eabdd90fd78e782a05e1ed90f4274c4006be81aa0b22729bd335ce1c327c60bf",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者指定用这个链接作为案例出口，是在纠正怎么做；机器人提出判断并等确认再上，属于M3；操作者直接给出链接并要求丢给对方，倾向让机器人直接执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 984,
+   "completion_tokens": 1738,
+   "total_tokens": 2722,
+   "cost": 0.000930156,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000930156,
+    "upstream_inference_prompt_cost": 0.000113296,
+    "upstream_inference_completions_cost": 0.00081686
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1651,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者指定用这个链接作为案例出口，是在纠正怎么做；机器人提出判断并等确认再上，属于M3；操作者直接给出链接并要求丢给对方，倾向让机器人直接执行。"
+ },
+ "parse_error": null
+}

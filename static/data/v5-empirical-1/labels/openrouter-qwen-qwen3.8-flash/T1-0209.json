@@ -1,0 +1,47 @@
+{
+ "id": "T1-0209",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6a422db6e90cf2dca1c3d3ef82448979376b7c3b0cd35ee3e49a4b9b88ffaae5",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M7\",\n  \"reason\": \"操作者在规定以后遇到新手问傻逼问题时要怎么处理，属于怎么做；机器人实际回复不可见无法判断模式，意图最接近不做并给替代方案。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 591,
+   "completion_tokens": 2406,
+   "total_tokens": 2997,
+   "cost": 0.001185166,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001185166,
+    "upstream_inference_prompt_cost": 5.4346e-05,
+    "upstream_inference_completions_cost": 0.00113082
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2328,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M7",
+  "reason": "操作者在规定以后遇到新手问傻逼问题时要怎么处理，属于怎么做；机器人实际回复不可见无法判断模式，意图最接近不做并给替代方案。"
+ },
+ "parse_error": null
+}

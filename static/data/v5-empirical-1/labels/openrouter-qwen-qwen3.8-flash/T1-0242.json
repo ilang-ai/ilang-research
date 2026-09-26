@@ -1,0 +1,47 @@
+{
+ "id": "T1-0242",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "60e78f62f224a3941e1c8c4bb6e1401789518238f8133ddce01c633acbe31f0b",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在批评机器人不知道却乱答，要求它直接承认不知道；这针对回复内容/措辞，不属于八个决策模式中的任何一个，且机器人实际模式从文本看不出。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 806,
+   "completion_tokens": 1074,
+   "total_tokens": 1880,
+   "cost": 0.000591376,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000591376,
+    "upstream_inference_prompt_cost": 8.6596e-05,
+    "upstream_inference_completions_cost": 0.00050478
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 992,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 4,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在批评机器人不知道却乱答，要求它直接承认不知道；这针对回复内容/措辞，不属于八个决策模式中的任何一个，且机器人实际模式从文本看不出。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1-0260",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "9952ec3fbd28e83daa285cd71de613ffdab0d1e07a1d5d7075ff63dc37b1121e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.65,csq=0.50,rel=0.60,cer=0.20,aut=0.85,rev=0.70,evd=0.20,sov=0.85,ine=0.60,ext=0.80]\nM:M5|conf:0.95\nR:回复正文缺失，无法核验成本、收益预期及风险说明；需提供拟发送的450字回复再评估。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28694,
+   "completion_tokens": 204,
+   "total_tokens": 28898,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 297,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 78
+   },
+   "input_tokens": 28694,
+   "output_tokens": 204,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.65,
+   "csq": 0.5,
+   "rel": 0.6,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.7,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，无法核验成本、收益预期及风险说明；需提供拟发送的450字回复再评估。"
+ },
+ "parse_error": null
+}

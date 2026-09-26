@@ -1,0 +1,37 @@
+{
+ "id": "T1-0190",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "2ac72759565d640e54a9972d09825412596d6b279ae5b7373accdf5620621eb6",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在反驳机器人回复中的第二条观点，并说其他问题自己会解决，属于对内容的讨论而非指挥做不做；机器人只是给出文字建议，没有执行动作，操作者也默认接受只给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 571,
+   "completion_tokens": 4549,
+   "total_tokens": 5120,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4481
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 315
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在反驳机器人回复中的第二条观点，并说其他问题自己会解决，属于对内容的讨论而非指挥做不做；机器人只是给出文字建议，没有执行动作，操作者也默认接受只给建议。"
+ },
+ "parse_error": null
+}

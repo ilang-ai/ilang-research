@@ -1,0 +1,46 @@
+{
+ "id": "T1-0149",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b263998afd77cf75c19dbbb0ef0cae75fbfe452dc369a25899138b17bc0f6946",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"“还有没有”是在追问是否还有更多内容，不是纠正；原回复不可见，也无法确定双方的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 562,
+   "completion_tokens": 114,
+   "total_tokens": 676,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 57
+   },
+   "input_tokens": 562,
+   "output_tokens": 114,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "“还有没有”是在追问是否还有更多内容，不是纠正；原回复不可见，也无法确定双方的决策模式。"
+ },
+ "parse_error": null
+}

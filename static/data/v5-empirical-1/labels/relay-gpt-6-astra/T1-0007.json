@@ -1,0 +1,47 @@
+{
+ "id": "T1-0007",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f8e0b8ce0683603f34eebe4d428faf94da9f64ef874dff8e53894b5ce50752d6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人已直接拉取日志并汇报；操作者随后提出查看日报和让日报免审批自动生成的新任务，并非纠正此前拉日志的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1759,
+   "completion_tokens": 191,
+   "total_tokens": 1950,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1756,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 125
+   },
+   "input_tokens": 1759,
+   "output_tokens": 191,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人已直接拉取日志并汇报；操作者随后提出查看日报和让日报免审批自动生成的新任务，并非纠正此前拉日志的做法。"
+ },
+ "parse_error": null
+}

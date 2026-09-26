@@ -1,0 +1,37 @@
+{
+ "id": "T1-0211",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ab66d378356930fae818830f96629bbbdfb4b92262e318ea9795df508ee3fc59",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息是要求记录一条新规则，并非针对机器人上一动作的纠正；机器人实际模式与操作者当时期望模式均无法从现有文字判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 578,
+   "completion_tokens": 4190,
+   "total_tokens": 4768,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4131
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 322
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者消息是要求记录一条新规则，并非针对机器人上一动作的纠正；机器人实际模式与操作者当时期望模式均无法从现有文字判断。"
+ },
+ "parse_error": null
+}

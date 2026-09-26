@@ -1,0 +1,37 @@
+{
+ "id": "T1-0100",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9498ebc1d70fcc9e0d1c05d430391179338ad053eea83748f64fc372b55b0fb8",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，让机器人继续，属于对照事件；机器人自行执行并事后汇报结果，所以走的是直接做完再汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 598,
+   "completion_tokens": 247,
+   "total_tokens": 845,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 195
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 342
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，让机器人继续，属于对照事件；机器人自行执行并事后汇报结果，所以走的是直接做完再汇报。"
+ },
+ "parse_error": null
+}

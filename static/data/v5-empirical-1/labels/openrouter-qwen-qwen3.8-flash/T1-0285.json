@@ -1,0 +1,47 @@
+{
+ "id": "T1-0285",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9b5e44a6ed979966bff62bd2f69a07417996bca2758e40111061713b4202dd64",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者只补充 raphael.app 的外链和 SEO 事实，没有要求改变执行方式；机器人回复内容不可见无法判断实际模式，但之前“狗仔队 外链 raphael.app”像是在要求直接查询并汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 929,
+   "completion_tokens": 3217,
+   "total_tokens": 4146,
+   "cost": 0.001617036,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001617036,
+    "upstream_inference_prompt_cost": 0.000105046,
+    "upstream_inference_completions_cost": 0.00151199
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3144,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者只补充 raphael.app 的外链和 SEO 事实，没有要求改变执行方式；机器人回复内容不可见无法判断实际模式，但之前“狗仔队 外链 raphael.app”像是在要求直接查询并汇报。"
+ },
+ "parse_error": null
+}

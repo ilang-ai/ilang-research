@@ -1,0 +1,37 @@
+{
+ "id": "T1-0087",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "017bde58fd9a786fcf386a05ecf88162c2a2ac8e6f5c9a8c101665bd9417b2b5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未发声，属于对照事件，默认接受机器人继续；机器人已自行执行重启插件并汇报，符合直接做、事后告知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 683,
+   "completion_tokens": 487,
+   "total_tokens": 1170,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 434
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 299
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未发声，属于对照事件，默认接受机器人继续；机器人已自行执行重启插件并汇报，符合直接做、事后告知。"
+ },
+ "parse_error": null
+}

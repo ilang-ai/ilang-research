@@ -1,0 +1,46 @@
+{
+ "id": "T1-0003",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "372af093d90e4893b5d3f5917e82703744cf627c70f08b46c0ab9c875b5d3bfd",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者让机器人触发运行并配合审批，机器人直接配置并执行了任务调度，随后操作者反馈结果已出并提出业务处理新指令，是对之前动作的自然承接与新要求。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1071,
+   "completion_tokens": 91,
+   "total_tokens": 1162,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1071,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 91,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者让机器人触发运行并配合审批，机器人直接配置并执行了任务调度，随后操作者反馈结果已出并提出业务处理新指令，是对之前动作的自然承接与新要求。"
+ },
+ "parse_error": null
+}

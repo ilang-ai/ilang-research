@@ -1,0 +1,37 @@
+{
+ "id": "T1-0244",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1e4b82863397a9ff1ac6f1c8b564ee418f52b3310fab0faf23a04b5d5dbcb039",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是在感谢并确认 bug、说明正在修复，属于反馈/确认而非纠正机器人的做法或指定执行模式；机器人回复内容不可见，且消息未表达期望模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 685,
+   "completion_tokens": 2337,
+   "total_tokens": 3022,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2271
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 429
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是在感谢并确认 bug、说明正在修复，属于反馈/确认而非纠正机器人的做法或指定执行模式；机器人回复内容不可见，且消息未表达期望模式。"
+ },
+ "parse_error": null
+}

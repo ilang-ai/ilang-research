@@ -1,0 +1,47 @@
+{
+ "id": "T1-0028",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7e9ddea137b3f29723ff00a04ea1003e3537d074f32b404da71ca9e7e8474849",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者在回答机器人关于养号 IP 口径怎么定的问题，直接给出定性和做法；机器人当时把决定权交给操作者，而操作者给出明确指令希望照此执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1055,
+   "completion_tokens": 2259,
+   "total_tokens": 3314,
+   "cost": 0.001185676,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001185676,
+    "upstream_inference_prompt_cost": 0.000123946,
+    "upstream_inference_completions_cost": 0.00106173
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2174,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M6",
+  "intended_mode": "M1",
+  "reason": "操作者在回答机器人关于养号 IP 口径怎么定的问题，直接给出定性和做法；机器人当时把决定权交给操作者，而操作者给出明确指令希望照此执行。"
+ },
+ "parse_error": null
+}

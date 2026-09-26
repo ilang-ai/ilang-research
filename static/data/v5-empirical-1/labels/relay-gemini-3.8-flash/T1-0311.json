@@ -1,0 +1,46 @@
+{
+ "id": "T1-0311",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "96cb123e4e22318e8d45b3098f4f9707f557f03dd5792a34c5c7ce14b8b203ff",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件中操作者未出声，默认接受机器人当前动作，而机器人具体回复内容未知无法判断模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 589,
+   "completion_tokens": 202,
+   "total_tokens": 791,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 589,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 45,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 157
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "对照事件中操作者未出声，默认接受机器人当前动作，而机器人具体回复内容未知无法判断模式。"
+ },
+ "parse_error": null
+}

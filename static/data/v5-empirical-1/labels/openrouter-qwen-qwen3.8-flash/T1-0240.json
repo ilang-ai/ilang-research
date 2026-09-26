@@ -1,0 +1,47 @@
+{
+ "id": "T1-0240",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "678b551002bcba6084f97e017501f38af7417fdb88d0108bdf81015fafd52c40",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者是在规定以后遇到某类问题该如何处理，属于怎么做；但机器人当时回复内容缺失，且该消息未明确指向当时应采用的决策模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 835,
+   "completion_tokens": 1652,
+   "total_tokens": 2487,
+   "cost": 0.000867386,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000867386,
+    "upstream_inference_prompt_cost": 9.0946e-05,
+    "upstream_inference_completions_cost": 0.00077644
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1575,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 4,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在规定以后遇到某类问题该如何处理，属于怎么做；但机器人当时回复内容缺失，且该消息未明确指向当时应采用的决策模式。"
+ },
+ "parse_error": null
+}

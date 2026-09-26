@@ -1,0 +1,46 @@
+{
+ "id": "T1-0252",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3645cb2efba3ec09e41fce80c14ef6785bd5ed428a73147e7de4af949e784557",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在纠正 Linux 与 Windows 11 Pro 的能力比较，没有说明希望机器人采用哪种决策模式，且机器人回复正文不可见。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 885,
+   "completion_tokens": 56,
+   "total_tokens": 941,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 885,
+   "output_tokens": 56,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在纠正 Linux 与 Windows 11 Pro 的能力比较，没有说明希望机器人采用哪种决策模式，且机器人回复正文不可见。"
+ },
+ "parse_error": null
+}

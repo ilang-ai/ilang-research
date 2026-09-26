@@ -1,0 +1,37 @@
+{
+ "id": "T1-0135",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "10911a0f3937f40c1f9613157a44c93f23310a8dd042deebea211a345ae9a097",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未回复；此前已批准改动，机器人随后自主执行并汇报进展，默认接受这种直接执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 591,
+   "completion_tokens": 713,
+   "total_tokens": 1304,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 665
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 335
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未回复；此前已批准改动，机器人随后自主执行并汇报进展，默认接受这种直接执行模式。"
+ },
+ "parse_error": null
+}

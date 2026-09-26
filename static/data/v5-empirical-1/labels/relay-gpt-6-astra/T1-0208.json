@@ -1,0 +1,46 @@
+{
+ "id": "T1-0208",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e31db5c560550cc51537616ac4a2d4457c702b54dcfbdfe2184dd2514711bf55",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者要求内容写得更细更具体，补上业务线、卖点和新手步骤，属于内容修改而非决策模式调整；机器人原回复未提供，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 603,
+   "completion_tokens": 147,
+   "total_tokens": 750,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 75
+   },
+   "input_tokens": 603,
+   "output_tokens": 147,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者要求内容写得更细更具体，补上业务线、卖点和新手步骤，属于内容修改而非决策模式调整；机器人原回复未提供，无法判断其模式。"
+ },
+ "parse_error": null
+}

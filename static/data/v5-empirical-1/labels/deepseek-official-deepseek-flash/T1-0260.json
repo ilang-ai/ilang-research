@@ -1,0 +1,37 @@
+{
+ "id": "T1-0260",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "d9f6a713a825f2408fd19c61a818bfe52eadbffcad7d74e574667b5dfef3328e",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M7\",\"reason\":\"操作者在调教机器人如何应对这类用户：不要越俎代庖当客服去帮忙，而是让用户自己打客服或直接止损，属于不做但给替代方案；机器人实际模式因回复内容未公开无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 778,
+   "completion_tokens": 4017,
+   "total_tokens": 4795,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3942
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 522
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M7",
+  "reason": "操作者在调教机器人如何应对这类用户：不要越俎代庖当客服去帮忙，而是让用户自己打客服或直接止损，属于不做但给替代方案；机器人实际模式因回复内容未公开无法判断。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0210",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1ff0af016b12556a7f59a603f9dac4295ff5643d27c8d7cf16a4e32c9a9ddd7e",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人先前群回复的判断方式，给出“若对方追求确定性结果就直接建议花钱买”的规则，属于对怎么做的指示；机器人回复内容不可见，实际模式无法判断；操作者想要的是只给出判断/建议，即 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 577,
+   "completion_tokens": 3532,
+   "total_tokens": 4109,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3451
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 321
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人先前群回复的判断方式，给出“若对方追求确定性结果就直接建议花钱买”的规则，属于对怎么做的指示；机器人回复内容不可见，实际模式无法判断；操作者想要的是只给出判断/建议，即 M4。"
+ },
+ "parse_error": null
+}

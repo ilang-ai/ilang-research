@@ -1,0 +1,37 @@
+{
+ "id": "T1-0081",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0fb21086affc960265b569632661d4a9bc081e8047dc5b3de47b45faf107ced5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续；机器人遇到浏览器拦截后自行改用首尔机器拉取并执行，属于直接做完再汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 630,
+   "completion_tokens": 315,
+   "total_tokens": 945,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 261
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 246
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续；机器人遇到浏览器拦截后自行改用首尔机器拉取并执行，属于直接做完再汇报。"
+ },
+ "parse_error": null
+}

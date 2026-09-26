@@ -1,0 +1,37 @@
+{
+ "id": "T1-0082",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cf4037a5be100c411814a2c0b266fb829f3991d1d2517bd0a3131bad9c5a5611",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此前说“其他你来修”，机器人自主完成修复并事后汇报，卡权限的一步明确请示；操作者未出声，默认接受其自主执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1625,
+   "completion_tokens": 226,
+   "total_tokens": 1851,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 167
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1369
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者此前说“其他你来修”，机器人自主完成修复并事后汇报，卡权限的一步明确请示；操作者未出声，默认接受其自主执行方式。"
+ },
+ "parse_error": null
+}

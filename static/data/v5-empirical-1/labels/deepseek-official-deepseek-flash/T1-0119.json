@@ -1,0 +1,37 @@
+{
+ "id": "T1-0119",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1d5db5b62e6155e50ee554c4e761ddb9602779164ccfbb815c582ca7827e3667",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M2\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人的处理；机器人实际按已确认的指令逐条修改并留下断言与审计痕迹。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 591,
+   "completion_tokens": 652,
+   "total_tokens": 1243,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 601
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 335
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M2",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人的处理；机器人实际按已确认的指令逐条修改并留下断言与审计痕迹。"
+ },
+ "parse_error": null
+}

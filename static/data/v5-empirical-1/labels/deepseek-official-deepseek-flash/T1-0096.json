@@ -1,0 +1,37 @@
+{
+ "id": "T1-0096",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "d3b3983381b216ac29422c3f419be8d0468249da2abf60537cf7b16a5cc0b3bb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件；机器人调用工具执行并汇报“加上”，属于自主执行事后汇报，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 642,
+   "completion_tokens": 404,
+   "total_tokens": 1046,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 352
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 258
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，属于对照事件；机器人调用工具执行并汇报“加上”，属于自主执行事后汇报，操作者默认接受。"
+ },
+ "parse_error": null
+}

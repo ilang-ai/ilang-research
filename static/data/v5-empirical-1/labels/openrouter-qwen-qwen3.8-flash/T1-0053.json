@@ -1,0 +1,47 @@
+{
+ "id": "T1-0053",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ad2dfc4b56d7564394d69573c44d227cdde178dbff0e09a62c6d97c56979a6ae",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者发官方文章是在纠正机器人“品牌词白名单是编的”这一事实判断；机器人查看日志后因资源是否存在信息不足而先问澄清，但最初“看日志”更像要求直接执行并汇报。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 3241,
+   "completion_tokens": 3748,
+   "total_tokens": 6989,
+   "cost": 0.001836062,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 3072,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001836062,
+    "upstream_inference_prompt_cost": 7.4502e-05,
+    "upstream_inference_completions_cost": 0.00176156
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3658,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者发官方文章是在纠正机器人“品牌词白名单是编的”这一事实判断；机器人查看日志后因资源是否存在信息不足而先问澄清，但最初“看日志”更像要求直接执行并汇报。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0271",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "be9c81831502f057e83d2c360676b9c8de267c356b7a466b5dceff0c5e276d37",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在纠正机器人对违规使用、远程部署和套餐容量的判断并要求重新分析，不是要求执行具体动作；机器人回复文本不可见，无法判断其当时模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 847,
+   "completion_tokens": 1306,
+   "total_tokens": 2153,
+   "cost": 0.000706566,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000706566,
+    "upstream_inference_prompt_cost": 9.2746e-05,
+    "upstream_inference_completions_cost": 0.00061382
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1227,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正机器人对违规使用、远程部署和套餐容量的判断并要求重新分析，不是要求执行具体动作；机器人回复文本不可见，无法判断其当时模式。"
+ },
+ "parse_error": null
+}

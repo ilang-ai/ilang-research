@@ -1,0 +1,47 @@
+{
+ "id": "T1-0251",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "275fbed2b76db9fa8211a072d1ebbc567da6bd61440e8ac0c8dbd4a34081c08c",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"操作者是在纠正机器人对平台与执行路径的建议，要求考虑广告联盟自动化并给出可确认方案；但机器人回复内容缺失，无法判断其实际模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 872,
+   "completion_tokens": 2062,
+   "total_tokens": 2934,
+   "cost": 0.001065636,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001065636,
+    "upstream_inference_prompt_cost": 9.6496e-05,
+    "upstream_inference_completions_cost": 0.00096914
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1983,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M3",
+  "reason": "操作者是在纠正机器人对平台与执行路径的建议，要求考虑广告联盟自动化并给出可确认方案；但机器人回复内容缺失，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

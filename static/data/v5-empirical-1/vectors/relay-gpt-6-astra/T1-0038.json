@@ -1,0 +1,59 @@
+{
+ "id": "T1-0038",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "07d0de6ac7730ec8bc60dd826584ad018d789e61a96b5639085913a5e64b3644",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.75,csq=0.65,rel=0.50,cer=0.28,aut=0.85,rev=0.90,evd=0.20,sov=0.80,ine=0.60,ext=0.75]\nM:M5|conf:0.86\nR:读取获授权且披露了范围，但密钥仍有效、正典已过期及此前互动的断言缺乏可核验证据，应先核实并限定结论",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 30183,
+   "completion_tokens": 407,
+   "total_tokens": 30590,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 1786,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 270
+   },
+   "input_tokens": 30183,
+   "output_tokens": 407,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.75,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.28,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.6,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.86,
+  "reason": "读取获授权且披露了范围，但密钥仍有效、正典已过期及此前互动的断言缺乏可核验证据，应先核实并限定结论"
+ },
+ "parse_error": null
+}

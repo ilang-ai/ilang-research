@@ -1,0 +1,46 @@
+{
+ "id": "T1-0006",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8e172e4a90f4fc69c4562ba4d7b5fe38af8e5980d3248bd129c3e66d05bbe839",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人直接执行命令查证并汇报，操作者并未纠正其行为或内容，而是顺着提出了拉取日志的新要求。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1090,
+   "completion_tokens": 506,
+   "total_tokens": 1596,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1090,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 77,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 429
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人直接执行命令查证并汇报，操作者并未纠正其行为或内容，而是顺着提出了拉取日志的新要求。"
+ },
+ "parse_error": null
+}

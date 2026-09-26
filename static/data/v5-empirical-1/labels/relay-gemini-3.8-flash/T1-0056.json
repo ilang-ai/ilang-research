@@ -1,0 +1,46 @@
+{
+ "id": "T1-0056",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9707b5a0e3e0b29253d975797f15163bef935fd206a157a6082a0a124a4615f3",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M6\",\n \"intended_mode\": \"M6\",\n \"reason\": \"机器人完成分析后将缺失的关键话术口径交给操作者定夺（M6），操作者按要求直接提供了原话，属于正常业务协作。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1161,
+   "completion_tokens": 438,
+   "total_tokens": 1599,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1161,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 78,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 360
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "机器人完成分析后将缺失的关键话术口径交给操作者定夺（M6），操作者按要求直接提供了原话，属于正常业务协作。"
+ },
+ "parse_error": null
+}

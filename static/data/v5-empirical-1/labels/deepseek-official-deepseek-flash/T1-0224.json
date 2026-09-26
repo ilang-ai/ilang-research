@@ -1,0 +1,37 @@
+{
+ "id": "T1-0224",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7cd3b2c765aa69ae35f3fa77c5358165f9a08211a06849e9a9b06b3535d66e81",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条消息是在提出新的策略问题，不是对上一轮回复的纠正；上一轮机器人直接作答，操作者用“你还是懂我的”表示认可。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 586,
+   "completion_tokens": 2534,
+   "total_tokens": 3120,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2472
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 330
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者这条消息是在提出新的策略问题，不是对上一轮回复的纠正；上一轮机器人直接作答，操作者用“你还是懂我的”表示认可。"
+ },
+ "parse_error": null
+}

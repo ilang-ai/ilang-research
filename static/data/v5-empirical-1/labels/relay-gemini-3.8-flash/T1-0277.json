@@ -1,0 +1,46 @@
+{
+ "id": "T1-0277",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3c1a966d821b81f973a0f86404e5e07753cc0108ae770a628dfd04f88f8fb4c7",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者发怒吐槽机器人提供的信息是编造的，针对的是内容真实性与准确性，属于内容层面的纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 743,
+   "completion_tokens": 270,
+   "total_tokens": 1013,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 743,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 75,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 195
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者发怒吐槽机器人提供的信息是编造的，针对的是内容真实性与准确性，属于内容层面的纠正。"
+ },
+ "parse_error": null
+}

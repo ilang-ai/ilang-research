@@ -1,0 +1,37 @@
+{
+ "id": "T1-0213",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "249bf58a92b839fc2a37075d76a10737f29ac4e6be40835b080f59d08d65faeb",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在补充 Google Adsense 和已发布技能链接，并让机器人查看/纳入，属于内容层面的补充，而非决定做不做或怎么做；机器人回复文本不可见，无法判断其实际模式；从“你看下”可推操作者期望机器人直接执行查看/纳入。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 589,
+   "completion_tokens": 8115,
+   "total_tokens": 8704,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8031
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 333
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在补充 Google Adsense 和已发布技能链接，并让机器人查看/纳入，属于内容层面的补充，而非决定做不做或怎么做；机器人回复文本不可见，无法判断其实际模式；从“你看下”可推操作者期望机器人直接执行查看/纳入。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0082",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cf4037a5be100c411814a2c0b266fb829f3991d1d2517bd0a3131bad9c5a5611",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者未发言，属于对照事件；机器人按“你来修”直接完成修复并事后汇报，仅在权限卡点处询问确认。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1631,
+   "completion_tokens": 549,
+   "total_tokens": 2180,
+   "cost": 0.000468376,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000468376,
+    "upstream_inference_prompt_cost": 0.000210346,
+    "upstream_inference_completions_cost": 0.00025803
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 478,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未发言，属于对照事件；机器人按“你来修”直接完成修复并事后汇报，仅在权限卡点处询问确认。"
+ },
+ "parse_error": null
+}

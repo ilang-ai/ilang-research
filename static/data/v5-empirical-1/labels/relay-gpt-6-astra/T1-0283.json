@@ -1,0 +1,46 @@
+{
+ "id": "T1-0283",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "56aa20dcd885beddb91ed3ee328eac75b1418531e7680acf23a6f5411af7e5b7",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"这条消息是在向被提及的 Jason shi 说明用 AdSense 反查的条件，没有明确纠正机器人；机器人回复正文缺失，也无法判断其实际模式或操作者期望的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 832,
+   "completion_tokens": 187,
+   "total_tokens": 1019,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 113
+   },
+   "input_tokens": 832,
+   "output_tokens": 187,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "这条消息是在向被提及的 Jason shi 说明用 AdSense 反查的条件，没有明确纠正机器人；机器人回复正文缺失，也无法判断其实际模式或操作者期望的模式。"
+ },
+ "parse_error": null
+}

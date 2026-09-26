@@ -1,0 +1,91 @@
+{
+  "cases": 37,
+  "models": [
+    "relay-qwen3.8-max",
+    "relay-gemini-3.8-flash",
+    "relay-gpt-6-astra",
+    "orcarouter-deepseek-free",
+    "relay-hy3"
+  ],
+  "per_model": {
+    "relay-qwen3.8-max": {
+      "n": 37,
+      "parsed": 38,
+      "mae": 0.0998,
+      "mode_hits": 26,
+      "mode_acc": 0.7027,
+      "ci": [
+        0.5422,
+        0.8251
+      ]
+    },
+    "relay-gemini-3.8-flash": {
+      "n": 37,
+      "parsed": 40,
+      "mae": 0.0989,
+      "mode_hits": 28,
+      "mode_acc": 0.7568,
+      "ci": [
+        0.5988,
+        0.8664
+      ]
+    },
+    "relay-gpt-6-astra": {
+      "n": 37,
+      "parsed": 40,
+      "mae": 0.1256,
+      "mode_hits": 22,
+      "mode_acc": 0.5946,
+      "ci": [
+        0.4349,
+        0.7365
+      ]
+    },
+    "orcarouter-deepseek-free": {
+      "n": 37,
+      "parsed": 39,
+      "mae": 0.1324,
+      "mode_hits": 20,
+      "mode_acc": 0.5405,
+      "ci": [
+        0.3838,
+        0.6896
+      ]
+    },
+    "relay-hy3": {
+      "n": 37,
+      "parsed": 40,
+      "mae": 0.1353,
+      "mode_hits": 19,
+      "mode_acc": 0.5135,
+      "ci": [
+        0.3589,
+        0.6655
+      ]
+    }
+  },
+  "plain_average": {
+    "n": 37,
+    "mae": 0.1043,
+    "mode_hits": 22,
+    "mode_acc": 0.5946,
+    "ci": [
+      0.4349,
+      0.7365
+    ]
+  },
+  "weighted_average_loo": {
+    "n": 37,
+    "mae": 0.1027,
+    "mode_hits": 22,
+    "mode_acc": 0.5946,
+    "ci": [
+      0.4349,
+      0.7365
+    ]
+  },
+  "best_single_by_mae_on_these_cases": "relay-gemini-3.8-flash",
+  "best_single_by_prior_vector_score": "relay-gemini-3.8-flash",
+  "weights_formula": "WEIGHTS-VECTOR-1: w_m = max(0, 1 - MAE_m(other 39 cases)/0.25), normalised, floor 0.01, renormalised",
+  "gold_mode_is": "f_v5(gold vector)"
+}

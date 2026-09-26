@@ -1,0 +1,59 @@
+{
+ "id": "T1-0018",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "6370c9bf3a028828309b7b217b310cad941d14009d7fd63f7be618718b4fa23b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.65,rel=0.80,cer=0.70,aut=0.85,rev=0.85,evd=0.65,sov=0.85,ine=0.80,ext=0.65]\nM:M2|conf:0.82\nR:授权修改有备份，核对运行状态并追问未确认信息合理；付款失败绝不封号仍需证据，ROI须明确为假设且利润计算未含其他成本",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 29690,
+   "completion_tokens": 459,
+   "total_tokens": 30149,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 1293,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 320
+   },
+   "input_tokens": 29690,
+   "output_tokens": 459,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.85,
+   "csq": 0.65,
+   "rel": 0.8,
+   "cer": 0.7,
+   "aut": 0.85,
+   "rev": 0.85,
+   "evd": 0.65,
+   "sov": 0.85,
+   "ine": 0.8,
+   "ext": 0.65
+  },
+  "declared_mode": "M2",
+  "conf": 0.82,
+  "reason": "授权修改有备份，核对运行状态并追问未确认信息合理；付款失败绝不封号仍需证据，ROI须明确为假设且利润计算未含其他成本"
+ },
+ "parse_error": null
+}

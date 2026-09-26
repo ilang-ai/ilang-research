@@ -1,0 +1,37 @@
+{
+ "id": "T1-0045",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1020f47aa2df91be2aa0678ce4402412f6ffabb2762575c03fd2713e8ff5ed6c",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者没有回答“要我改吗”，而是补充业务背景和获客原则，属于继续讨论、提供上下文；机器人此前已给出修改日报判定逻辑的方案并等待确认，所以实际和操作者期望都仍处于先拿方案确认的阶段。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1748,
+   "completion_tokens": 6941,
+   "total_tokens": 8689,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6861
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1492
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者没有回答“要我改吗”，而是补充业务背景和获客原则，属于继续讨论、提供上下文；机器人此前已给出修改日报判定逻辑的方案并等待确认，所以实际和操作者期望都仍处于先拿方案确认的阶段。"
+ },
+ "parse_error": null
+}

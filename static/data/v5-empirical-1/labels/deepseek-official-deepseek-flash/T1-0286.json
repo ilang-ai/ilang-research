@@ -1,0 +1,37 @@
+{
+ "id": "T1-0286",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f65d450b6803d7f2816200a70049c866cea86b47e35de184410a513cef60fbae",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只发了一条链接，没有对机器人的做法或内容提出纠正；结合上下文，机器人此前是在给排错建议/说明，属于只给建议不动手，操作者也期望这种建议式帮助。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 725,
+   "completion_tokens": 3618,
+   "total_tokens": 4343,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3546
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 469
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只发了一条链接，没有对机器人的做法或内容提出纠正；结合上下文，机器人此前是在给排错建议/说明，属于只给建议不动手，操作者也期望这种建议式帮助。"
+ },
+ "parse_error": null
+}

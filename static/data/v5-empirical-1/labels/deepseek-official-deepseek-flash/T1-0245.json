@@ -1,0 +1,37 @@
+{
+ "id": "T1-0245",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "d6e0921144dc83d4b57b1a417848e5ae1e2da56dc983a2c300e4c72f9048a57f",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息是@另一个人讨论腾讯云退款，并非针对机器人的纠正或新指令，且机器人回复内容不可见，无法判断模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 821,
+   "completion_tokens": 1328,
+   "total_tokens": 2149,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1271
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 181
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者消息是@另一个人讨论腾讯云退款，并非针对机器人的纠正或新指令，且机器人回复内容不可见，无法判断模式。"
+ },
+ "parse_error": null
+}

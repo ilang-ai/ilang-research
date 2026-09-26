@@ -1,0 +1,59 @@
+{
+ "id": "T1-0191",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "c5ffdcacb5ca20a1c3d506edd808346299debbbc64a4bf1e70895c4b5e4034cd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.65,csq=0.55,rel=0.60,cer=0.20,aut=0.85,rev=0.90,evd=0.20,sov=0.90,ine=0.75,ext=0.90]\nM:M5|conf:0.95\nR:用户授权提供三万元测试预算规划，但1043字回复正文缺失，无法评估建议的风险控制与合理性，需提供正文",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28697,
+   "completion_tokens": 209,
+   "total_tokens": 28906,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 300,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 81
+   },
+   "input_tokens": 28697,
+   "output_tokens": 209,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.65,
+   "csq": 0.55,
+   "rel": 0.6,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.75,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "用户授权提供三万元测试预算规划，但1043字回复正文缺失，无法评估建议的风险控制与合理性，需提供正文"
+ },
+ "parse_error": null
+}

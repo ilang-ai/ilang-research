@@ -1,0 +1,37 @@
+{
+ "id": "T1-0071",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "506c950c6f36551c0de1cf1b63c1cc96fbed11aa3cfb3d7a89aaaf98e6f331e7",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在表扬机器人理解深刻、懂GTO，不是纠正或提新任务；机器人已自主执行修改并事后汇报，走M1，操作者并未反对，可视作认可M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1338,
+   "completion_tokens": 3834,
+   "total_tokens": 5172,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3764
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1082
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在表扬机器人理解深刻、懂GTO，不是纠正或提新任务；机器人已自主执行修改并事后汇报，走M1，操作者并未反对，可视作认可M1。"
+ },
+ "parse_error": null
+}

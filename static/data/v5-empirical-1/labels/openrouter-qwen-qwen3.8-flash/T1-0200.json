@@ -1,0 +1,47 @@
+{
+ "id": "T1-0200",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b44b9904ebadce04cb58bdd5d1be9265bf87bbca8b924d0408e114008b84beba",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M5\",\"reason\":\"操作者认为在细节不足时直接给指导意见不合理，希望机器人先追问澄清。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 603,
+   "completion_tokens": 626,
+   "total_tokens": 1229,
+   "cost": 0.000350366,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000350366,
+    "upstream_inference_prompt_cost": 5.6146e-05,
+    "upstream_inference_completions_cost": 0.00029422
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 582,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M5",
+  "reason": "操作者认为在细节不足时直接给指导意见不合理，希望机器人先追问澄清。"
+ },
+ "parse_error": null
+}

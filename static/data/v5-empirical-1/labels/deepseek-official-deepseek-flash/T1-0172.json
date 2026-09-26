@@ -1,0 +1,37 @@
+{
+ "id": "T1-0172",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8b3993492ede471294a9f6531306821dded6f6190570cccf164eced8c3b63528",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有在纠正机器人，而是提出新的讲解任务，要求从逻辑上向对方说明，因此按新任务且希望直接执行来标注；机器人当时实际回复内容未公开，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 614,
+   "completion_tokens": 1392,
+   "total_tokens": 2006,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1321
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 358
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者没有在纠正机器人，而是提出新的讲解任务，要求从逻辑上向对方说明，因此按新任务且希望直接执行来标注；机器人当时实际回复内容未公开，无法判断其模式。"
+ },
+ "parse_error": null
+}

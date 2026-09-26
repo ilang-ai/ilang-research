@@ -1,0 +1,46 @@
+{
+ "id": "T1-0120",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9eab175777eacc87e50d2acc312a0abb57ab24dde1967f67adba489bd39b43b6",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人被权限拦截后明确表示等操作者点头定夺（M6），操作者默认接受让其继续。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 586,
+   "completion_tokens": 290,
+   "total_tokens": 876,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 586,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 68,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 222
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M6",
+  "intended_mode": "accepted",
+  "reason": "机器人被权限拦截后明确表示等操作者点头定夺（M6），操作者默认接受让其继续。"
+ },
+ "parse_error": null
+}

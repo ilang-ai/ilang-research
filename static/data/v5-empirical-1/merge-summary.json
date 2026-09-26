@@ -1,0 +1,68 @@
+{
+  "events": 442,
+  "labelled_by_2_or_more": 442,
+  "models_answered_hist": {
+    "4": 441,
+    "3": 1
+  },
+  "asked_corrections": 88,
+  "asked_controls": 46,
+  "mode_consistent": 77,
+  "consistent_sampled": 15,
+  "not_asked": {
+    "corrections_unanimous_not_about_action": 98,
+    "corrections_not_about_action_targets_disagree": 24,
+    "controls_no_model_named_a_mode": 109
+  },
+  "to_confirm": 149,
+  "batches": [
+    "C:/Users/easts/Downloads\\待确认清单-第1批-v1.0-2026-09-26.md",
+    "C:/Users/easts/Downloads\\待确认清单-第2批-v1.0-2026-09-26.md",
+    "C:/Users/easts/Downloads\\待确认清单-第3批-v1.0-2026-09-26.md",
+    "C:/Users/easts/Downloads\\待确认清单-第4批-v1.0-2026-09-26.md"
+  ],
+  "sample_ids": [
+    "T1-0046",
+    "T1-0060",
+    "T1-0079",
+    "T1-0081",
+    "T1-0083",
+    "T1-0086",
+    "T1-0097",
+    "T1-0098",
+    "T1-0101",
+    "T1-0105",
+    "T1-0127",
+    "T1-0141",
+    "T1-0143",
+    "T1-0199",
+    "T1-0200"
+  ],
+  "weights_rule": "WEIGHTS-TRACK-1: mode_acc from ilang-conformance judge track by route, normalised, floor 0.01, renormalised",
+  "targets_hist_corrections": {
+    "not_a_correction": 111,
+    "do_or_how": 46,
+    "content_only": 55,
+    "unclear": 8,
+    "none": 1
+  },
+  "intended_hist_corrections": {
+    "M1": 84,
+    "M3": 21,
+    "none_fits": 21,
+    "M2": 1,
+    "M5": 12,
+    "M6": 8,
+    "M8": 3,
+    "M4": 44,
+    "null": 21,
+    "M7": 6
+  },
+  "bot_hist_controls": {
+    "M1": 78,
+    "M6": 2,
+    "M3": 1,
+    "M4": 31,
+    "null": 109
+  }
+}

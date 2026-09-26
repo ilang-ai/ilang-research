@@ -1,0 +1,47 @@
+{
+ "id": "T1-0194",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ba9f60182cb97d252bf4a741640fb6597f334e1714a3b23334df3789a9fc0f9d",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"操作者批评机器人没看到数据就泛泛给建议，要求以后先让对方贴图提供数据再回答，属于纠正处理方式，期望先问清楚。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 706,
+   "completion_tokens": 1523,
+   "total_tokens": 2229,
+   "cost": 0.000787406,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000787406,
+    "upstream_inference_prompt_cost": 7.1596e-05,
+    "upstream_inference_completions_cost": 0.00071581
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1446,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M5",
+  "reason": "操作者批评机器人没看到数据就泛泛给建议，要求以后先让对方贴图提供数据再回答，属于纠正处理方式，期望先问清楚。"
+ },
+ "parse_error": null
+}

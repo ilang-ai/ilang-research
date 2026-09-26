@@ -1,0 +1,37 @@
+{
+ "id": "T1-0040",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "dc801d1b884e6e96727112d0fc128cdca67880e53e54c2da645176488641d301",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者只是回顾项目进展并寻求确认（\\\"是不是每天都进步了一点点、现在质变了\\\"），既没纠正做法也没纠正内容，等于默认认可机器人先前的自主执行与汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1201,
+   "completion_tokens": 538,
+   "total_tokens": 1739,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 470
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 945
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者只是回顾项目进展并寻求确认（\"是不是每天都进步了一点点、现在质变了\"），既没纠正做法也没纠正内容，等于默认认可机器人先前的自主执行与汇报。"
+ },
+ "parse_error": null
+}

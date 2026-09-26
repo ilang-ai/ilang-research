@@ -1,0 +1,47 @@
+{
+ "id": "T1-0159",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e13f50e1526815ab9d8a68167f2e8a109ff4fc2038de19acb98e22d89d7e1e47",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人直接回复了详细介绍，操作者随后批评问题大而空、回答没有实际意义，属于对任务范围/做法的纠正，但未明确指定机器人应采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 634,
+   "completion_tokens": 1125,
+   "total_tokens": 1759,
+   "cost": 0.000589546,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000589546,
+    "upstream_inference_prompt_cost": 6.0796e-05,
+    "upstream_inference_completions_cost": 0.00052875
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1063,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人直接回复了详细介绍，操作者随后批评问题大而空、回答没有实际意义，属于对任务范围/做法的纠正，但未明确指定机器人应采用哪种模式。"
+ },
+ "parse_error": null
+}

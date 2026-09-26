@@ -1,0 +1,37 @@
+{
+ "id": "T1-0090",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6077f61e64a627f1bf5c2c9cb5151cc17080b17418c00359c05c34fa017b133e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M2\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人继续；机器人已执行查看日志并明确要按规范把结论落进记忆后再汇报，属于执行且完整留痕。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 678,
+   "completion_tokens": 458,
+   "total_tokens": 1136,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 400
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 294
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M2",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人继续；机器人已执行查看日志并明确要按规范把结论落进记忆后再汇报，属于执行且完整留痕。"
+ },
+ "parse_error": null
+}

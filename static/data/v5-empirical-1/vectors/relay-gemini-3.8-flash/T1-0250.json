@@ -1,0 +1,58 @@
+{
+ "id": "T1-0250",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "a46292e32751cb69bd6cd6e276df94bed9b528f31e82764df54e89f4dbd6116a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.90,csq=0.90,rel=0.65,cer=0.80,aut=0.90,rev=0.85,evd=0.80,sov=0.90,ine=0.85,ext=0.90]\nM:M1|conf:0.88\nR:standard_conversational_reply_within_assistant_scope_low_risk",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 32046,
+   "completion_tokens": 1533,
+   "total_tokens": 33579,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 32046,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 122,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 1411
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.9,
+   "csq": 0.9,
+   "rel": 0.65,
+   "cer": 0.8,
+   "aut": 0.9,
+   "rev": 0.85,
+   "evd": 0.8,
+   "sov": 0.9,
+   "ine": 0.85,
+   "ext": 0.9
+  },
+  "declared_mode": "M1",
+  "conf": 0.88,
+  "reason": "standard_conversational_reply_within_assistant_scope_low_risk"
+ },
+ "parse_error": null
+}

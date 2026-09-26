@@ -1,0 +1,32 @@
+{
+ "id": "T1-0068",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6be399a75e935611e7111af7b67a8dc6b0e5309a7a2e4176986d428b1f6100c8",
+ "text": "",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "length",
+  {
+   "prompt_tokens": 3618,
+   "completion_tokens": 16384,
+   "total_tokens": 20002,
+   "prompt_tokens_details": {
+    "cached_tokens": 3456
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 16384
+   },
+   "prompt_cache_hit_tokens": 3456,
+   "prompt_cache_miss_tokens": 162
+  }
+ ],
+ "attempts": 1,
+ "parsed": null,
+ "parse_error": "no JSON object in reply"
+}

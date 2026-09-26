@@ -1,0 +1,37 @@
+{
+ "id": "T1-0252",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3645cb2efba3ec09e41fce80c14ef6785bd5ed428a73147e7de4af949e784557",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者在补充关于 Linux 与 Windows 的技术观点，属于对回复内容的评论，不是要求改变行动方案；机器人当时是在直接提供建议，操作者想要的是只给建议。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 835,
+   "completion_tokens": 7037,
+   "total_tokens": 7872,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6961
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 579
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在补充关于 Linux 与 Windows 的技术观点，属于对回复内容的评论，不是要求改变行动方案；机器人当时是在直接提供建议，操作者想要的是只给建议。"
+ },
+ "parse_error": null
+}

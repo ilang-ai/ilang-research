@@ -1,0 +1,37 @@
+{
+ "id": "T1-0413",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "2725ba02e3c037336ec34f402b5f6c4c343f7b71721521789776a4068acaf4d6",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者说“这个接着说”，机器人随后直接回复继续；操作者没有出声，默认接受了这种直接继续的方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 570,
+   "completion_tokens": 510,
+   "total_tokens": 1080,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 462
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 314
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者说“这个接着说”，机器人随后直接回复继续；操作者没有出声，默认接受了这种直接继续的方式。"
+ },
+ "parse_error": null
+}

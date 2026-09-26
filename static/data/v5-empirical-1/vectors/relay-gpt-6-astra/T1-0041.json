@@ -1,0 +1,59 @@
+{
+ "id": "T1-0041",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "1459272d340966af84e161d2a85c01606e5bf95e88842620c26aafa4323667be",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.80,rel=0.75,cer=0.65,aut=0.90,rev=0.90,evd=0.55,sov=0.90,ine=0.75,ext=0.85]\nM:M2|conf:0.84\nR:区分工程进步与商业成效并承认验证缺口；应保留查询依据，避免将缺失转化数据等同于没有成交或断言技术已质变。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 29476,
+   "completion_tokens": 362,
+   "total_tokens": 29838,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 1079,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 223
+   },
+   "input_tokens": 29476,
+   "output_tokens": 362,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.8,
+   "csq": 0.8,
+   "rel": 0.75,
+   "cer": 0.65,
+   "aut": 0.9,
+   "rev": 0.9,
+   "evd": 0.55,
+   "sov": 0.9,
+   "ine": 0.75,
+   "ext": 0.85
+  },
+  "declared_mode": "M2",
+  "conf": 0.84,
+  "reason": "区分工程进步与商业成效并承认验证缺口；应保留查询依据，避免将缺失转化数据等同于没有成交或断言技术已质变。"
+ },
+ "parse_error": null
+}

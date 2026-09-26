@@ -1,0 +1,37 @@
+{
+ "id": "T1-0212",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0584fae27c9c6aa6f06a0d16d5ad9bd61fdebefe0d96d7163bce30f29c95d105",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"机器人回复文本未公开，无法判断其模式；操作者消息是在给出新内容/新任务，并非纠正上一轮做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 635,
+   "completion_tokens": 994,
+   "total_tokens": 1629,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 941
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 379
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "机器人回复文本未公开，无法判断其模式；操作者消息是在给出新内容/新任务，并非纠正上一轮做法。"
+ },
+ "parse_error": null
+}

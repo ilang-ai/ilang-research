@@ -1,0 +1,46 @@
+{
+ "id": "T1-0169",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fe68b80a71dd6650d475dfb5e45f42f699663bfb617436082ed188728a39f21c",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者要求回复有立场、考虑对方真实需求且不怕得罪人，主要是在调整表达和回应取向，没有指定八种决策模式；机器人原回复不可见，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 643,
+   "completion_tokens": 182,
+   "total_tokens": 825,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 107
+   },
+   "input_tokens": 643,
+   "output_tokens": 182,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者要求回复有立场、考虑对方真实需求且不怕得罪人，主要是在调整表达和回应取向，没有指定八种决策模式；机器人原回复不可见，无法判断其模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0129",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5bfc261b1f719fb26a0aef26498cfcb7cf6acfed6b0022712f40e4c4a89345a4",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未再出声，默认接受机器人自主逐条修改的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 625,
+   "completion_tokens": 2551,
+   "total_tokens": 3176,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2513
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 241
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未再出声，默认接受机器人自主逐条修改的做法。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0002",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9bef426e72a2667d9d2a83482d37653dfc830aa8252d4926bc593c64c90d8d83",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M6\",\"intended_mode\":\"M3\",\"reason\":\"机器人把点击 Run now 的操作交给了操作者，操作者则要求机器人来操作，需要授权时由自己审批。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 3366,
+   "completion_tokens": 95,
+   "total_tokens": 3461,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 3363,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 38
+   },
+   "input_tokens": 3366,
+   "output_tokens": 95,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M6",
+  "intended_mode": "M3",
+  "reason": "机器人把点击 Run now 的操作交给了操作者，操作者则要求机器人来操作，需要授权时由自己审批。"
+ },
+ "parse_error": null
+}

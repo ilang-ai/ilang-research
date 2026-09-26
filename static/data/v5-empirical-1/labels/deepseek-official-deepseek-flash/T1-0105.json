@@ -1,0 +1,37 @@
+{
+ "id": "T1-0105",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f33ed2408573ff18b9c0b30c1e431115cf08327a882c745c21ee9bd22d53f386",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续；机器人已按先前同意自主执行并事后汇报，属于 M1，因此意图记为接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 631,
+   "completion_tokens": 300,
+   "total_tokens": 931,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 247
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 247
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续；机器人已按先前同意自主执行并事后汇报，属于 M1，因此意图记为接受。"
+ },
+ "parse_error": null
+}

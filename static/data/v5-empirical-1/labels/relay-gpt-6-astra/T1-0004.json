@@ -1,0 +1,47 @@
+{
+ "id": "T1-0004",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3efa982d76fbc843157411a7921d29ece74aac70dfd212e6483e3448ccf11ad5",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M2\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在让机器人去看新出的日报，并未纠正之前的做法；机器人此前执行了修改和验证，并完整记录了证据、备份及回滚路径。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 7436,
+   "completion_tokens": 191,
+   "total_tokens": 7627,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 7433,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 121
+   },
+   "input_tokens": 7436,
+   "output_tokens": 191,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "M1",
+  "reason": "操作者是在让机器人去看新出的日报，并未纠正之前的做法；机器人此前执行了修改和验证，并完整记录了证据、备份及回滚路径。"
+ },
+ "parse_error": null
+}

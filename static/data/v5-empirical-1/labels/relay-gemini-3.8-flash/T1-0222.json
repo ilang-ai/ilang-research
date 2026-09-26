@@ -1,0 +1,46 @@
+{
+ "id": "T1-0222",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c4f55bb166127ad7b7b563231cfdd7867086a8ab85f0d028b993ad657b5b84c3",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"操作者发出的消息是开始下一步具体挖掘长尾词的新任务指令，并非对上一轮咨询建议的纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 747,
+   "completion_tokens": 596,
+   "total_tokens": 1343,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 747,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 71,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 525
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者发出的消息是开始下一步具体挖掘长尾词的新任务指令，并非对上一轮咨询建议的纠正。"
+ },
+ "parse_error": null
+}

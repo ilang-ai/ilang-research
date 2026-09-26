@@ -1,0 +1,59 @@
+{
+ "id": "T1-0222",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "07d1b360b386dbdc9ad63e9e54802cd6502c5ebbf3e0f57ecb98971010e8d86c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.75,rel=0.50,cer=0.20,aut=0.85,rev=0.75,evd=0.20,sov=0.85,ine=0.70,ext=0.80]\nM:M5|conf:0.95\nR:回复正文缺失，仅凭字数与用户提问无法评估拟回复内容；需提供362字正文。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28673,
+   "completion_tokens": 189,
+   "total_tokens": 28862,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 276,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 67
+   },
+   "input_tokens": 28673,
+   "output_tokens": 189,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.7,
+   "csq": 0.75,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.75,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.7,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，仅凭字数与用户提问无法评估拟回复内容；需提供362字正文。"
+ },
+ "parse_error": null
+}

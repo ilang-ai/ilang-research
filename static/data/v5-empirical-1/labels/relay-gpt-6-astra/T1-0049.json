@@ -1,0 +1,47 @@
+{
+ "id": "T1-0049",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "4452acd5a119438f808797e385821cc98993f95c584e047c57a62430049d4c3b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M3\",\"reason\":\"机器人自行修改并安排后续监测，操作者则要求不用定时任务，先查看日志再一起讨论后续怎么做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1347,
+   "completion_tokens": 109,
+   "total_tokens": 1456,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1344,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 49
+   },
+   "input_tokens": 1347,
+   "output_tokens": 109,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M3",
+  "reason": "机器人自行修改并安排后续监测，操作者则要求不用定时任务，先查看日志再一起讨论后续怎么做。"
+ },
+ "parse_error": null
+}

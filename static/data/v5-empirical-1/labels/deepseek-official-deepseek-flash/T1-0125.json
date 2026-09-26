@@ -1,0 +1,37 @@
+{
+ "id": "T1-0125",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b33ed721ea46e5255723eed9038323cb16f7d9cfa02441abd74a6b8d65bcf6c5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此前已授权“其他你来修”，机器人确认根因和方案后直接开始施工，操作者未出声默认接受，属于自主执行、事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 563,
+   "completion_tokens": 269,
+   "total_tokens": 832,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 211
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 307
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者此前已授权“其他你来修”，机器人确认根因和方案后直接开始施工，操作者未出声默认接受，属于自主执行、事后汇报。"
+ },
+ "parse_error": null
+}

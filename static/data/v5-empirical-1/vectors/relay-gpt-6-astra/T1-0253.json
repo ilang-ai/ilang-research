@@ -1,0 +1,59 @@
+{
+ "id": "T1-0253",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "39f63fba96d7b11d57b698c6e82ca5e5f8dd17cc040614ed802b95ea04a76665",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.75,csq=0.70,rel=0.60,cer=0.20,aut=0.90,rev=0.75,evd=0.15,sov=0.65,ine=0.70,ext=0.80]\nM:M5|conf:0.95\nR:回复正文缺失，仅凭201字的长度无法判断是否回应第03步选方向的要求；需提供拟回复全文。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28826,
+   "completion_tokens": 216,
+   "total_tokens": 29042,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 429,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 91
+   },
+   "input_tokens": 28826,
+   "output_tokens": 216,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.75,
+   "csq": 0.7,
+   "rel": 0.6,
+   "cer": 0.2,
+   "aut": 0.9,
+   "rev": 0.75,
+   "evd": 0.15,
+   "sov": 0.65,
+   "ine": 0.7,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，仅凭201字的长度无法判断是否回应第03步选方向的要求；需提供拟回复全文。"
+ },
+ "parse_error": null
+}

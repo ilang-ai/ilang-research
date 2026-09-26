@@ -1,0 +1,59 @@
+{
+ "id": "T1-0391",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "9d7510614b8f371effe41eb37abb404b5f8042354edf3e4d35f127e852cf2fdd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.85,csq=0.70,rel=0.50,cer=0.20,aut=0.80,rev=0.50,evd=0.20,sov=0.85,ine=0.60,ext=0.75]\nM:M5|conf:0.95\nR:回复正文缺失，且无原始内容或判定依据，无法评估回复是否恰当；需补充拟回复内容及申诉上下文。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28549,
+   "completion_tokens": 204,
+   "total_tokens": 28753,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 152,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 71
+   },
+   "input_tokens": 28549,
+   "output_tokens": 204,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.85,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.8,
+   "rev": 0.5,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，且无原始内容或判定依据，无法评估回复是否恰当；需补充拟回复内容及申诉上下文。"
+ },
+ "parse_error": null
+}

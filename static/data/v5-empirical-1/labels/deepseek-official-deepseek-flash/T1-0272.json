@@ -1,0 +1,37 @@
+{
+ "id": "T1-0272",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "22b522a7011ed531b6b037fc41392d99fc99f1094257cdac21a2060955178b6d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M6\",\"reason\":\"操作者纠正机器人处理平台问题的方式，要求以后平台问题转给官方客服，而不是自行编造，因此是针对怎么做，期望 M6（交给官方/人工客服）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 766,
+   "completion_tokens": 7862,
+   "total_tokens": 8628,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7799
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 254
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M6",
+  "reason": "操作者纠正机器人处理平台问题的方式，要求以后平台问题转给官方客服，而不是自行编造，因此是针对怎么做，期望 M6（交给官方/人工客服）。"
+ },
+ "parse_error": null
+}

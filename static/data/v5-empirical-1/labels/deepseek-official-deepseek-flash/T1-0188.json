@@ -1,0 +1,37 @@
+{
+ "id": "T1-0188",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7e259721f51c29f917559f074c8a5f918da001998f823d14363416494a819f5c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者指出机器人忘了装载 iLang 5.0 架构，属于对决策框架/做法的纠正，并让它去官方仓库学习后再回答；机器人此前只是直接回复，故实际与期望模式都对应 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 620,
+   "completion_tokens": 7586,
+   "total_tokens": 8206,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7511
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 236
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者指出机器人忘了装载 iLang 5.0 架构，属于对决策框架/做法的纠正，并让它去官方仓库学习后再回答；机器人此前只是直接回复，故实际与期望模式都对应 M1。"
+ },
+ "parse_error": null
+}

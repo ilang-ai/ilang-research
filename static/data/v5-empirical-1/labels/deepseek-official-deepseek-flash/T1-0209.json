@@ -1,0 +1,37 @@
+{
+ "id": "T1-0209",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6a422db6e90cf2dca1c3d3ef82448979376b7c3b0cd35ee3e49a4b9b88ffaae5",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正具体内容，而是给出未来遇到此类提问时的行为指令，要求机器人自行判断并让用户付费报课；机器人实际模式因回复文本不可见无法判断；操作者意图是让机器人自主执行该指令，故 intended_mode=M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 560,
+   "completion_tokens": 4370,
+   "total_tokens": 4930,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4289
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 304
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正具体内容，而是给出未来遇到此类提问时的行为指令，要求机器人自行判断并让用户付费报课；机器人实际模式因回复文本不可见无法判断；操作者意图是让机器人自主执行该指令，故 intended_mode=M1。"
+ },
+ "parse_error": null
+}

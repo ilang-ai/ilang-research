@@ -1,0 +1,37 @@
+{
+ "id": "T1-0086",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "dd8a3ab7949e7b5570f776da050bcf1030398ae369888c980d9b409dcddcc194",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者预先授权“其他你来修”，机器人直接修复并汇报，操作者随后未出声，视为接受该自主执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 613,
+   "completion_tokens": 392,
+   "total_tokens": 1005,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 341
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 357
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者预先授权“其他你来修”，机器人直接修复并汇报，操作者随后未出声，视为接受该自主执行方式。"
+ },
+ "parse_error": null
+}

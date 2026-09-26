@@ -1,0 +1,47 @@
+{
+ "id": "T1-0255",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7e5769bd452911059f35d1021a2ab52b63afa3c3a27339dde10746dce784a34d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人不要猜问题，而应直接给出提示词供对方使用，属于要求改变做事方式且偏向只提供建议/方案而不代做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 830,
+   "completion_tokens": 1787,
+   "total_tokens": 2617,
+   "cost": 0.000930086,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000930086,
+    "upstream_inference_prompt_cost": 9.0196e-05,
+    "upstream_inference_completions_cost": 0.00083989
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1728,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人不要猜问题，而应直接给出提示词供对方使用，属于要求改变做事方式且偏向只提供建议/方案而不代做。"
+ },
+ "parse_error": null
+}

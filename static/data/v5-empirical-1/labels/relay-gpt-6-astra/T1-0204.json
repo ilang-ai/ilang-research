@@ -1,0 +1,46 @@
+{
+ "id": "T1-0204",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "2e6824534298c042775199b8a8730e5ad64d81713b39c9d47b9d6d770d7f2a3e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"这条消息像是定时任务推送的内容片段，没有纠正机器人的做法，而机器人原回复不可见，双方的决策模式都无法确定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 622,
+   "completion_tokens": 63,
+   "total_tokens": 685,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 622,
+   "output_tokens": 63,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "这条消息像是定时任务推送的内容片段，没有纠正机器人的做法，而机器人原回复不可见，双方的决策模式都无法确定。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0265",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a9a1b5aae0b3aa1516aec64307e6bfded376ea887977a5b45bb23a64fffe973f",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在要求机器人继续去查“老外怎么说”并拿到准确大概数据，属于让机器人直接执行调查并汇报结果；机器人实际模式因回复不可见无法判断。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 766,
+   "completion_tokens": 689,
+   "total_tokens": 1455,
+   "cost": 0.000370122,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000370122,
+    "upstream_inference_prompt_cost": 4.6292e-05,
+    "upstream_inference_completions_cost": 0.00032383
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 607,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在要求机器人继续去查“老外怎么说”并拿到准确大概数据，属于让机器人直接执行调查并汇报结果；机器人实际模式因回复不可见无法判断。"
+ },
+ "parse_error": null
+}

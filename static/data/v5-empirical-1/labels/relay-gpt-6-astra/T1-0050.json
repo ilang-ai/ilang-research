@@ -1,0 +1,47 @@
+{
+ "id": "T1-0050",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a6caae60fd29c54eca83dc83b9eb67f7b56dc2675122cb41f431f1a3323d3697",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M6\",\"intended_mode\":\"unknown\",\"reason\":\"机器人把售后口径交给操作者决定，操作者随后给出了具体口径，并未纠正机器人的决策方式，也未明确要求接下来如何执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1562,
+   "completion_tokens": 199,
+   "total_tokens": 1761,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1559,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 132
+   },
+   "input_tokens": 1562,
+   "output_tokens": 199,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "unknown",
+  "reason": "机器人把售后口径交给操作者决定，操作者随后给出了具体口径，并未纠正机器人的决策方式，也未明确要求接下来如何执行。"
+ },
+ "parse_error": null
+}

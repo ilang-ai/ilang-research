@@ -1,0 +1,37 @@
+{
+ "id": "T1-0208",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e31db5c560550cc51537616ac4a2d4457c702b54dcfbdfe2184dd2514711bf55",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正机器人交付内容的详实度，要求写细、写具体并补上业务线、卖点和新手步骤，属于针对内容本身的反馈；机器人此前已直接产出回复，操作者希望它继续直接执行细化。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 579,
+   "completion_tokens": 851,
+   "total_tokens": 1430,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 777
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 323
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人交付内容的详实度，要求写细、写具体并补上业务线、卖点和新手步骤，属于针对内容本身的反馈；机器人此前已直接产出回复，操作者希望它继续直接执行细化。"
+ },
+ "parse_error": null
+}

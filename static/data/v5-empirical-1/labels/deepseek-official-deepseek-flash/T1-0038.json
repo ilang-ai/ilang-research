@@ -1,0 +1,37 @@
+{
+ "id": "T1-0038",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9f21488eee406275f23eb06e006007d63f2a547f349a4a9af863a69491008c03",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者把 ilang 这条线从机器人的职责里摘出去——不用它负责、只让它学习、先停下、等全数学闭环后再谈漂移，即希望机器人别动手执行（漂移检测等活暂不做），而不是就内容纠错或闲聊。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2079,
+   "completion_tokens": 7284,
+   "total_tokens": 9363,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7199
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1823
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者把 ilang 这条线从机器人的职责里摘出去——不用它负责、只让它学习、先停下、等全数学闭环后再谈漂移，即希望机器人别动手执行（漂移检测等活暂不做），而不是就内容纠错或闲聊。"
+ },
+ "parse_error": null
+}

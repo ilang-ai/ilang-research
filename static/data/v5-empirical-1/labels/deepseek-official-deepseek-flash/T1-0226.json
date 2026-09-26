@@ -1,0 +1,37 @@
+{
+ "id": "T1-0226",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7bd221f6651678219afed4f0febb6222c02461a2355be65233dc99f065fe61d3",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者主要在纠正机器人对其Google Ads账号的质疑/争辩，并追问新变现模式是否可行，没有要求改变执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 612,
+   "completion_tokens": 7399,
+   "total_tokens": 8011,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7346
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 356
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者主要在纠正机器人对其Google Ads账号的质疑/争辩，并追问新变现模式是否可行，没有要求改变执行方式。"
+ },
+ "parse_error": null
+}

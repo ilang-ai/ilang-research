@@ -1,0 +1,37 @@
+{
+ "id": "T1-0120",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9eab175777eacc87e50d2acc312a0abb57ab24dde1967f67adba489bd39b43b6",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M6\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，默认接受机器人当前处理；机器人撞到权限边界后不绕过，把是否继续的决定权交给操作者等点头。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 579,
+   "completion_tokens": 1630,
+   "total_tokens": 2209,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1576
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 323
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M6",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，默认接受机器人当前处理；机器人撞到权限边界后不绕过，把是否继续的决定权交给操作者等点头。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,58 @@
+{
+ "id": "T1-0185",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "d342230088d10a2f6d50a34e0c138616d168c7aa5863cd149ea337981f50ebee",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.50,csq=0.50,rel=0.50,cer=0.20,aut=0.50,rev=0.50,evd=0.15,sov=0.50,ine=0.50,ext=0.50]\nM:M5|conf:0.85\nR:回复正文缺失无法评估具体影响需补充信息后判定",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 31812,
+   "completion_tokens": 2599,
+   "total_tokens": 34411,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 31812,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 119,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 2480
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.5,
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.5,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.5,
+   "ine": 0.5,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.85,
+  "reason": "回复正文缺失无法评估具体影响需补充信息后判定"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0409",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0f76afc1a8713a8b8aeba0a7b1f3ddef8cf48902e64d5ac9d92f1e7cea44e454",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者消息为空，说明其默认接受了机器人上一次的动作；但机器人回复文本未公开，无法判断实际执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 569,
+   "completion_tokens": 311,
+   "total_tokens": 880,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 263
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 313
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者消息为空，说明其默认接受了机器人上一次的动作；但机器人回复文本未公开，无法判断实际执行模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0274",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1d1767b350dcf4b3ea7561307a783bb538241fdaab5c6a29e8b93d9cf7fadf45",
+ "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者给出后续涉及组网时的执行路径和模型选择规则，属于对执行方式的规范，且具体工具偏好不属于八大决策模式范畴。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 741,
+   "completion_tokens": 733,
+   "total_tokens": 1474,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 741,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 84,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 649
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者给出后续涉及组网时的执行路径和模型选择规则，属于对执行方式的规范，且具体工具偏好不属于八大决策模式范畴。"
+ },
+ "parse_error": null
+}

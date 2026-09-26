@@ -1,0 +1,47 @@
+{
+ "id": "T1-0244",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1e4b82863397a9ff1ac6f1c8b564ee418f52b3310fab0faf23a04b5d5dbcb039",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者纠正机器人没有按要求拉取非AI内容，属于执行方式或结果不对；此前指令是直接拉一批看看并反馈，因此意图和实际模式都接近自主执行后汇报。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 745,
+   "completion_tokens": 886,
+   "total_tokens": 1631,
+   "cost": 0.000493866,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000493866,
+    "upstream_inference_prompt_cost": 7.7446e-05,
+    "upstream_inference_completions_cost": 0.00041642
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 801,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者纠正机器人没有按要求拉取非AI内容，属于执行方式或结果不对；此前指令是直接拉一批看看并反馈，因此意图和实际模式都接近自主执行后汇报。"
+ },
+ "parse_error": null
+}

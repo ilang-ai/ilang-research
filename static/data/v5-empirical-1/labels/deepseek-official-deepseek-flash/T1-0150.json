@@ -1,0 +1,37 @@
+{
+ "id": "T1-0150",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ac278994e21456aba9d647c465b6df6a82a80255de7023a73f8cd8ba28d7a67b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者说“你检查下”，是新的指令/任务，不是对机器人上一步做法的纠正；机器人回复内容不可见，无法判断其实际模式及操作者当时想要的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 547,
+   "completion_tokens": 5594,
+   "total_tokens": 6141,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5528
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 291
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者说“你检查下”，是新的指令/任务，不是对机器人上一步做法的纠正；机器人回复内容不可见，无法判断其实际模式及操作者当时想要的模式。"
+ },
+ "parse_error": null
+}

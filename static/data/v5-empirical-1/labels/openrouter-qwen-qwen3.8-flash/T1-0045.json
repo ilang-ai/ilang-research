@@ -1,0 +1,47 @@
+{
+ "id": "T1-0045",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1020f47aa2df91be2aa0678ce4402412f6ffabb2762575c03fd2713e8ff5ed6c",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人提出改指标方案并询问是否执行，操作者没有纠正执行方式，只是继续补充业务前提，隐含先讨论确认再动手。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1823,
+   "completion_tokens": 3391,
+   "total_tokens": 5214,
+   "cost": 0.001832916,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001832916,
+    "upstream_inference_prompt_cost": 0.000239146,
+    "upstream_inference_completions_cost": 0.00159377
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3317,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人提出改指标方案并询问是否执行，操作者没有纠正执行方式，只是继续补充业务前提，隐含先讨论确认再动手。"
+ },
+ "parse_error": null
+}

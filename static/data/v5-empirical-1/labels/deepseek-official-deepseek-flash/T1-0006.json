@@ -1,0 +1,37 @@
+{
+ "id": "T1-0006",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8e172e4a90f4fc69c4562ba4d7b5fe38af8e5980d3248bd129c3e66d05bbe839",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者只是提出新任务要求拉日志查看，并非纠正机器人之前的做法；机器人此前直接上机核查并汇报，属于做完就说的自主执行，操作者也没有反对这种直接执行的方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1056,
+   "completion_tokens": 3820,
+   "total_tokens": 4876,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3751
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 800
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者只是提出新任务要求拉日志查看，并非纠正机器人之前的做法；机器人此前直接上机核查并汇报，属于做完就说的自主执行，操作者也没有反对这种直接执行的方式。"
+ },
+ "parse_error": null
+}

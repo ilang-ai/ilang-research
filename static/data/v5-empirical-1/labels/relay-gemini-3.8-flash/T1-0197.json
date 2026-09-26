@@ -1,0 +1,46 @@
+{
+ "id": "T1-0197",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c28e86128e34576dc32cbf2a959848602aca6ce0c02941de5e365924d05f9c11",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在指出并调教机器人对于付费流量offer分析的业务逻辑认知错误，属于纯内容纠偏，机器人依然应处于提供建议的模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 675,
+   "completion_tokens": 351,
+   "total_tokens": 1026,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 675,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 80,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 271
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在指出并调教机器人对于付费流量offer分析的业务逻辑认知错误，属于纯内容纠偏，机器人依然应处于提供建议的模式。"
+ },
+ "parse_error": null
+}

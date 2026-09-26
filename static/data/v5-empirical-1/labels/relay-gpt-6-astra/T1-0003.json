@@ -1,0 +1,47 @@
+{
+ "id": "T1-0003",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "372af093d90e4893b5d3f5917e82703744cf627c70f08b46c0ab9c875b5d3bfd",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人直接修改任务触发时间并汇报；操作者随后让它查看结果并提出文章咨询的处理建议，没有纠正此前的执行方式，无法确定其期望的当时模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1105,
+   "completion_tokens": 174,
+   "total_tokens": 1279,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1102,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 102
+   },
+   "input_tokens": 1105,
+   "output_tokens": 174,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人直接修改任务触发时间并汇报；操作者随后让它查看结果并提出文章咨询的处理建议，没有纠正此前的执行方式，无法确定其期望的当时模式。"
+ },
+ "parse_error": null
+}

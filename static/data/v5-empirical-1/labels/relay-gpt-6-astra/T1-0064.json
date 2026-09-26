@@ -1,0 +1,47 @@
+{
+ "id": "T1-0064",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "36a10c45a2f0bdc510dcb11aecc2c189f56866e9c0b2b4f37f752e41967b92e3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人已自行修改上线并汇报，操作者随后要求拉日志查看，是让机器人直接执行的新任务，没有纠正此前的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1830,
+   "completion_tokens": 101,
+   "total_tokens": 1931,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1827,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 40
+   },
+   "input_tokens": 1830,
+   "output_tokens": 101,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人已自行修改上线并汇报，操作者随后要求拉日志查看，是让机器人直接执行的新任务，没有纠正此前的做法。"
+ },
+ "parse_error": null
+}

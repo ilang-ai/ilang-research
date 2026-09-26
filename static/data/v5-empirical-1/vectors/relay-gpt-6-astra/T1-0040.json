@@ -1,0 +1,59 @@
+{
+ "id": "T1-0040",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "c2ba5e47da0aa686b860e4218b7824ae4548229949dbc6a2d2cb3d830f01b626",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.70,rel=0.65,cer=0.25,aut=0.80,rev=0.90,evd=0.15,sov=0.85,ine=0.50,ext=0.85]\nM:M5|conf:0.93\nR:方法论拆分有价值，但实测数字、日志、SOUL修改及实验状态均无所给记录支持；应先核实，并将单例验证降为初步证据。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 29311,
+   "completion_tokens": 230,
+   "total_tokens": 29541,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 914,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 91
+   },
+   "input_tokens": 29311,
+   "output_tokens": 230,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.7,
+   "csq": 0.7,
+   "rel": 0.65,
+   "cer": 0.25,
+   "aut": 0.8,
+   "rev": 0.9,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "方法论拆分有价值，但实测数字、日志、SOUL修改及实验状态均无所给记录支持；应先核实，并将单例验证降为初步证据。"
+ },
+ "parse_error": null
+}

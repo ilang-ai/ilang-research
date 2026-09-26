@@ -1,0 +1,47 @@
+{
+ "id": "T1-0023",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ee34a5270b307bf21fd8f64c23e62f1399242b87a59c186d25af0b35d24d5dab",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M5\",\"intended_mode\":\"M5\",\"reason\":\"机器人因缺少入口和规则边界而先提问，操作者补充事实并给出后续划界口径，属于指导怎么做，认可先问清楚。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1084,
+   "completion_tokens": 2950,
+   "total_tokens": 4034,
+   "cost": 0.001514796,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001514796,
+    "upstream_inference_prompt_cost": 0.000128296,
+    "upstream_inference_completions_cost": 0.0013865
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2892,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "机器人因缺少入口和规则边界而先提问，操作者补充事实并给出后续划界口径，属于指导怎么做，认可先问清楚。"
+ },
+ "parse_error": null
+}

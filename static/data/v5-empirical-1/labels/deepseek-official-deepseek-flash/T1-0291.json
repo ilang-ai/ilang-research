@@ -1,0 +1,37 @@
+{
+ "id": "T1-0291",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cb47c4b31da526c09d6d37392de040f5f2308ca32b914fab0cd193269110270b",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者在解释自己发的图的意思，属于对内容的澄清，并未指示机器人采用哪种执行或决策模式；机器人回复内容不可见，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 809,
+   "completion_tokens": 1486,
+   "total_tokens": 2295,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1427
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 297
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者在解释自己发的图的意思，属于对内容的澄清，并未指示机器人采用哪种执行或决策模式；机器人回复内容不可见，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

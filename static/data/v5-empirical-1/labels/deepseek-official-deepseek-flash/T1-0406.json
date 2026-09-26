@@ -1,0 +1,37 @@
+{
+ "id": "T1-0406",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "76a051c08a9ab94f1a35b14755c9d55fe9b411ea6bda2a8fd94e3b6f34093e42",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件中操作者没有出声，默认接受机器人此后的继续；机器人具体走了哪个模式因回复正文未公开而无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 592,
+   "completion_tokens": 311,
+   "total_tokens": 903,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 260
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 336
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "对照事件中操作者没有出声，默认接受机器人此后的继续；机器人具体走了哪个模式因回复正文未公开而无法判断。"
+ },
+ "parse_error": null
+}

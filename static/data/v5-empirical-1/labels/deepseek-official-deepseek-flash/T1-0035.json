@@ -1,0 +1,37 @@
+{
+ "id": "T1-0035",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e6ed3625ad80c67605133606f8ab108afad2d99f2458be465bcd9ff2d9d648e8",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人已给出完整方案并等确认，操作者说“就上啊”是在授权执行，因此机器人当时走的是先拿方案确认（M3），操作者想要的是直接执行（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 967,
+   "completion_tokens": 2075,
+   "total_tokens": 3042,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2005
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 711
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人已给出完整方案并等确认，操作者说“就上啊”是在授权执行，因此机器人当时走的是先拿方案确认（M3），操作者想要的是直接执行（M1）。"
+ },
+ "parse_error": null
+}

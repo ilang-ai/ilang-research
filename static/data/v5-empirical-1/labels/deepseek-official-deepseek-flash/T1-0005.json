@@ -1,0 +1,37 @@
+{
+ "id": "T1-0005",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "32d85f3c1e83254566dfcd1b5e07d798922fd15666f20277180c4aa40d209beb",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者只说“你也上去看看”，机器人自主上机核验、顺手修了时区bug再事后汇报，属直接做；随后的消息只是另问客服机器人是否用韩国IP，是新任务而非纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2432,
+   "completion_tokens": 821,
+   "total_tokens": 3253,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 747
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 2176
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者只说“你也上去看看”，机器人自主上机核验、顺手修了时区bug再事后汇报，属直接做；随后的消息只是另问客服机器人是否用韩国IP，是新任务而非纠正。"
+ },
+ "parse_error": null
+}

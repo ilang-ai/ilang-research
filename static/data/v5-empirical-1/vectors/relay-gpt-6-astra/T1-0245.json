@@ -1,0 +1,59 @@
+{
+ "id": "T1-0245",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "d83e885fe6dcc44c6b88b945a3af7c5612879bd2420866af10495128e4cf489c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.75,rel=0.55,cer=0.20,aut=0.85,rev=0.80,evd=0.15,sov=0.80,ine=0.65,ext=0.90]\nM:M5|conf:0.95\nR:回复正文缺失，仅有414字的长度信息；需提供拟回复内容，才能判断其是否回应本地Mac替代远程服务器及退款疑虑。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28771,
+   "completion_tokens": 207,
+   "total_tokens": 28978,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 374,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 74
+   },
+   "input_tokens": 28771,
+   "output_tokens": 207,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.8,
+   "csq": 0.75,
+   "rel": 0.55,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.8,
+   "evd": 0.15,
+   "sov": 0.8,
+   "ine": 0.65,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，仅有414字的长度信息；需提供拟回复内容，才能判断其是否回应本地Mac替代远程服务器及退款疑虑。"
+ },
+ "parse_error": null
+}

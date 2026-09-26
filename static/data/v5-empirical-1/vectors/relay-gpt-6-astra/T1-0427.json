@@ -1,0 +1,59 @@
+{
+ "id": "T1-0427",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "e4aecf3630be50f1a3111b5e625ebb52bffbd1f766cd31fd7176aba9ef802078",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.75,csq=0.50,rel=0.50,cer=0.15,aut=0.75,rev=0.50,evd=0.20,sov=0.75,ine=0.50,ext=0.50]\nM:M5|conf:0.95\nR:verification_target_and_reply_body_missing_insufficient_information_to_assess_action",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28532,
+   "completion_tokens": 194,
+   "total_tokens": 28726,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 135,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 84
+   },
+   "input_tokens": 28532,
+   "output_tokens": 194,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.75,
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.15,
+   "aut": 0.75,
+   "rev": 0.5,
+   "evd": 0.2,
+   "sov": 0.75,
+   "ine": 0.5,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "verification_target_and_reply_body_missing_insufficient_information_to_assess_action"
+ },
+ "parse_error": null
+}

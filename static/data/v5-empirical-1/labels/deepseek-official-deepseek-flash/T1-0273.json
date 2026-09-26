@@ -1,0 +1,37 @@
+{
+ "id": "T1-0273",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ebb9e18ffec13cf7ee258aab7b79dae9cf914f910ec377a47ee3aa3f2948be09",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M6\",\"reason\":\"操作者明确指出平台问题第一解决方案是引导用户联系官方客服，批评机器人自行乱答；这是在纠正处理方式，机器人此前应是直接作答，操作者希望改为交由官方客服处理并由机器人协助引导。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 776,
+   "completion_tokens": 4098,
+   "total_tokens": 4874,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4028
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 136
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M6",
+  "reason": "操作者明确指出平台问题第一解决方案是引导用户联系官方客服，批评机器人自行乱答；这是在纠正处理方式，机器人此前应是直接作答，操作者希望改为交由官方客服处理并由机器人协助引导。"
+ },
+ "parse_error": null
+}

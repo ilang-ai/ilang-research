@@ -1,0 +1,37 @@
+{
+ "id": "T1-0220",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cc5b7c8a21cb5cb5ebf8e250ccc0eb317be1349fd9b6ffd74267340ba224ffab",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只纠正机器人把1000误当成美元的事实性错误，没质疑要不要解答、怎么做，说明他要的仍是不动手的建议答复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 731,
+   "completion_tokens": 715,
+   "total_tokens": 1446,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 660
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 219
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只纠正机器人把1000误当成美元的事实性错误，没质疑要不要解答、怎么做，说明他要的仍是不动手的建议答复。"
+ },
+ "parse_error": null
+}

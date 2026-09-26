@@ -1,0 +1,37 @@
+{
+ "id": "T1-0161",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c5b0eddcfb6f206bf91b6bb12b80a3c066c4e21b8b01e25efbee2834f9e68873",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正/补充这类问题的处理办法，指示以后直接让用户去闲鱼并用指定方式激活，属于对做法的指导，而非单纯事实或文风。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 712,
+   "completion_tokens": 4136,
+   "total_tokens": 4848,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4075
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 456
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正/补充这类问题的处理办法，指示以后直接让用户去闲鱼并用指定方式激活，属于对做法的指导，而非单纯事实或文风。"
+ },
+ "parse_error": null
+}

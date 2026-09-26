@@ -1,0 +1,47 @@
+{
+ "id": "T1-0262",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b51bdbcc6ed2700e5f6a140bc28fec0629dd6558c07b996df5d156ebfa60fb5a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者围绕“验证”补充验证口径和方法，是在指导怎么做；但机器人回复内容缺失，无法判断它实际是否直接执行验证。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 796,
+   "completion_tokens": 1702,
+   "total_tokens": 2498,
+   "cost": 0.000850732,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000850732,
+    "upstream_inference_prompt_cost": 5.0792e-05,
+    "upstream_inference_completions_cost": 0.00079994
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1646,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者围绕“验证”补充验证口径和方法，是在指导怎么做；但机器人回复内容缺失，无法判断它实际是否直接执行验证。"
+ },
+ "parse_error": null
+}

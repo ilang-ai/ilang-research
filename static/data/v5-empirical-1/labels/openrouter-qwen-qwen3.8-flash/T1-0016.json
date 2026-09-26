@@ -1,0 +1,47 @@
+{
+ "id": "T1-0016",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "070cc642edb253a7d0014052d3526d75b33c7be47d45a4ef82e2d695c44ba019",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者用“换”决定要不要执行新范围，属于做不做；机器人因 SOUL 冻结规矩把破例决定交给人拍板；但操作者早前“换啊 无所谓的”更像要求直接执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1987,
+   "completion_tokens": 5562,
+   "total_tokens": 7549,
+   "cost": 0.002877886,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002877886,
+    "upstream_inference_prompt_cost": 0.000263746,
+    "upstream_inference_completions_cost": 0.00261414
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5469,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M6",
+  "intended_mode": "M1",
+  "reason": "操作者用“换”决定要不要执行新范围，属于做不做；机器人因 SOUL 冻结规矩把破例决定交给人拍板；但操作者早前“换啊 无所谓的”更像要求直接执行。"
+ },
+ "parse_error": null
+}

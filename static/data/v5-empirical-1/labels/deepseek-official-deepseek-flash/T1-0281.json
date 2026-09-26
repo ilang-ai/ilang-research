@@ -1,0 +1,37 @@
+{
+ "id": "T1-0281",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "389e81523ed4f16f2405e56c4f5d4aafe53d26816c4ee5272f76a1ccf54aa6b8",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者补充/纠正海外电话卡渠道信息，属于内容纠偏；机器人此前只是回复建议，未实际动手，操作者也希望按正确信息给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 743,
+   "completion_tokens": 4774,
+   "total_tokens": 5517,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4715
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 487
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者补充/纠正海外电话卡渠道信息，属于内容纠偏；机器人此前只是回复建议，未实际动手，操作者也希望按正确信息给建议。"
+ },
+ "parse_error": null
+}

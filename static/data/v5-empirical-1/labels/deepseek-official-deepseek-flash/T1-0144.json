@@ -1,0 +1,37 @@
+{
+ "id": "T1-0144",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1e53d81d030bc4ab32f4a736306460f46237c812bd0728bd7f7f12dcf72035ea",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声；机器人按先前\\\"其他你来修\\\"的授权自行执行（Bash×8）并挂哨兵等客户消息、事后汇报，属于自主执行，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 576,
+   "completion_tokens": 217,
+   "total_tokens": 793,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 147
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 320
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没有出声；机器人按先前\"其他你来修\"的授权自行执行（Bash×8）并挂哨兵等客户消息、事后汇报，属于自主执行，操作者默认接受。"
+ },
+ "parse_error": null
+}

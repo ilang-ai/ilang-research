@@ -1,0 +1,46 @@
+{
+ "id": "T1-0209",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6a422db6e90cf2dca1c3d3ef82448979376b7c3b0cd35ee3e49a4b9b88ffaae5",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者要求以后对某类新手问题回复让对方付费报课，主要是在规定回复内容；机器人原回复未公开，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 580,
+   "completion_tokens": 358,
+   "total_tokens": 938,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 293
+   },
+   "input_tokens": 580,
+   "output_tokens": 358,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者要求以后对某类新手问题回复让对方付费报课，主要是在规定回复内容；机器人原回复未公开，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

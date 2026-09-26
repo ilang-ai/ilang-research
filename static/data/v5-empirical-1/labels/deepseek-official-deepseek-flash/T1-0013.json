@@ -1,0 +1,37 @@
+{
+ "id": "T1-0013",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1980c71c3754f4c015a12e7c84a22e023975502424904d46a27bba75078797af",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者用“没问题”“你分析得很好”“就这样改”确认并批准机器人提出的第3条修改方案，属于确认/表扬；机器人先给方案等拍板，操作者也认可这种先确认再改的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1176,
+   "completion_tokens": 10862,
+   "total_tokens": 12038,
+   "prompt_tokens_details": {
+    "cached_tokens": 1024
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10788
+   },
+   "prompt_cache_hit_tokens": 1024,
+   "prompt_cache_miss_tokens": 152
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者用“没问题”“你分析得很好”“就这样改”确认并批准机器人提出的第3条修改方案，属于确认/表扬；机器人先给方案等拍板，操作者也认可这种先确认再改的做法。"
+ },
+ "parse_error": null
+}

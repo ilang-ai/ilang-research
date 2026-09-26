@@ -1,0 +1,46 @@
+{
+ "id": "T1-0291",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cb47c4b31da526c09d6d37392de040f5f2308ca32b914fab0cd193269110270b",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者是在解释自己之前发的那张图的含义，属于补充说明或闲聊，并非纠错或流程干预。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 870,
+   "completion_tokens": 283,
+   "total_tokens": 1153,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 870,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 74,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 209
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在解释自己之前发的那张图的含义，属于补充说明或闲聊，并非纠错或流程干预。"
+ },
+ "parse_error": null
+}

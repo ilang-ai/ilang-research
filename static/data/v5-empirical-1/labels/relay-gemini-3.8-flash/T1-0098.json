@@ -1,0 +1,46 @@
+{
+ "id": "T1-0098",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "437230a545115e42fc54dbeb940f7b90ec0834949ec8535408a458e89a03dd44",
+ "text": "{\"targets\": \"none\", \"bot_mode\": \"M1\", \"intended_mode\": \"accepted\", \"reason\": \"操作者未发声默认接受，机器人正在自主分析并执行工具排查代码问题。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 665,
+   "completion_tokens": 191,
+   "total_tokens": 856,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 665,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 48,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 143
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未发声默认接受，机器人正在自主分析并执行工具排查代码问题。"
+ },
+ "parse_error": null
+}

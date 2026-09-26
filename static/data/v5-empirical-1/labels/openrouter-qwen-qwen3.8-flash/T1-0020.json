@@ -1,0 +1,47 @@
+{
+ "id": "T1-0020",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0dafe918f454a713322ab69eb54eb15536f920ef923b1354fc6f50f633c00255",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人提出转人工场景的处理方案并等待确认，操作者回复是在确认按直接给微信、不加戏、不额外带星球链接的方式执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1244,
+   "completion_tokens": 3159,
+   "total_tokens": 4403,
+   "cost": 0.001637026,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001637026,
+    "upstream_inference_prompt_cost": 0.000152296,
+    "upstream_inference_completions_cost": 0.00148473
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3082,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人提出转人工场景的处理方案并等待确认，操作者回复是在确认按直接给微信、不加戏、不额外带星球链接的方式执行。"
+ },
+ "parse_error": null
+}

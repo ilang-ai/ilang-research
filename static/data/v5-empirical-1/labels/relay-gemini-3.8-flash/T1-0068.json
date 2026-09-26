@@ -1,0 +1,46 @@
+{
+ "id": "T1-0068",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6be399a75e935611e7111af7b67a8dc6b0e5309a7a2e4176986d428b1f6100c8",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M6\",\n \"intended_mode\": \"M6\",\n \"reason\": \"操作者指出自己之前复制提供的上下文有误并重新贴出，属于纯内容更正；机器人此前发现口径冲突并将处理选项交由操作者定夺（M6）。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 4078,
+   "completion_tokens": 943,
+   "total_tokens": 5021,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 4078,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 83,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 860
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "操作者指出自己之前复制提供的上下文有误并重新贴出，属于纯内容更正；机器人此前发现口径冲突并将处理选项交由操作者定夺（M6）。"
+ },
+ "parse_error": null
+}

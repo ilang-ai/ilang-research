@@ -1,0 +1,37 @@
+{
+ "id": "T1-0093",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e1f2637ed2973f93a64b9893855045386ce38653bad99ea29b5f51c44edf4b1e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受；机器人直接去取报告并独立核查读数，属于自主执行后再汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 584,
+   "completion_tokens": 634,
+   "total_tokens": 1218,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 587
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 200
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受；机器人直接去取报告并独立核查读数，属于自主执行后再汇报。"
+ },
+ "parse_error": null
+}

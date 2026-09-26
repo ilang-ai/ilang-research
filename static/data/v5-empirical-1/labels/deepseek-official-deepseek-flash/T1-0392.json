@@ -1,0 +1,37 @@
+{
+ "id": "T1-0392",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a35f6ec8905e4ce55622cb81cd2bf449c061bf898581f75c43bcac4edf66cdcf",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者问的是写作与SEO的做法，属于求建议而非派活，机器人直接答复给建议即可；操作者随后没出声，等于默认接受这次回复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 581,
+   "completion_tokens": 872,
+   "total_tokens": 1453,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 814
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 325
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者问的是写作与SEO的做法，属于求建议而非派活，机器人直接答复给建议即可；操作者随后没出声，等于默认接受这次回复。"
+ },
+ "parse_error": null
+}

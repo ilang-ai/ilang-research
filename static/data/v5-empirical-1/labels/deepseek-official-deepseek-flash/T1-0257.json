@@ -1,0 +1,37 @@
+{
+ "id": "T1-0257",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8b92763ef70aee309d8151139b9e6dfdec3464a6425c66ba94ba87446cc41e76",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者在骂机器人没读一键dd脚本就乱讲，属于对事实/内容准确性的纠正；机器人当时只是口头建议没实际去读，操作者希望它先自己读脚本再回答。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 753,
+   "completion_tokens": 3279,
+   "total_tokens": 4032,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3212
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 241
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者在骂机器人没读一键dd脚本就乱讲，属于对事实/内容准确性的纠正；机器人当时只是口头建议没实际去读，操作者希望它先自己读脚本再回答。"
+ },
+ "parse_error": null
+}

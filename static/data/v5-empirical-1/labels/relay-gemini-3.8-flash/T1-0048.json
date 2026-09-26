@@ -1,0 +1,46 @@
+{
+ "id": "T1-0048",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0b63d91f42f18b94f84d675d503c055bac1d0091f223284da400fc376085a743",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"M1\",\n \"reason\": \"机器人按指令查看日志并汇报了分析结果，操作者根据汇报内容给出具体的修改口径、指派修复任务并交代后续规则，属于正常的任务承接与推进而非模式纠偏。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1688,
+   "completion_tokens": 1032,
+   "total_tokens": 2720,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1688,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 87,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 945
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人按指令查看日志并汇报了分析结果，操作者根据汇报内容给出具体的修改口径、指派修复任务并交代后续规则，属于正常的任务承接与推进而非模式纠偏。"
+ },
+ "parse_error": null
+}

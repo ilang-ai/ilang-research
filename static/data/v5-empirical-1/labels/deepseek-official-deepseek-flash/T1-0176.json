@@ -1,0 +1,37 @@
+{
+ "id": "T1-0176",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1b8faefe1204ab2790c938e2287d090d3a2c5bf973054db07de0110fcb99c841",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有针对上一轮回复做纠正，而是提出一个新的越界项目请求；机器人上一轮回复内容不可见，无法判断其模式，也无法判断操作者当时想要的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 570,
+   "completion_tokens": 5123,
+   "total_tokens": 5693,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5059
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 314
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者没有针对上一轮回复做纠正，而是提出一个新的越界项目请求；机器人上一轮回复内容不可见，无法判断其模式，也无法判断操作者当时想要的模式。"
+ },
+ "parse_error": null
+}

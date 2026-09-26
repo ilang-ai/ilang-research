@@ -1,0 +1,37 @@
+{
+ "id": "T1-0083",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "87f264945dc9a4456357ab054f517e06da0e26f2c2286cf89d24222ecc712438",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认让机器人继续；机器人直接执行查看原文以确定用词，属于自主执行并事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 607,
+   "completion_tokens": 346,
+   "total_tokens": 953,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 296
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 351
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，默认让机器人继续；机器人直接执行查看原文以确定用词，属于自主执行并事后汇报。"
+ },
+ "parse_error": null
+}

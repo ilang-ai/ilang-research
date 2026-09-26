@@ -1,0 +1,37 @@
+{
+ "id": "T1-0104",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e994b82e6c70c30f49dcb54e6f364571d2736cbfcd70944fa6e415b1f68c5f8b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续；机器人自行执行了 Bash 操作并事后汇报结果，属于自主执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 655,
+   "completion_tokens": 647,
+   "total_tokens": 1302,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 598
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 399
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续；机器人自行执行了 Bash 操作并事后汇报结果，属于自主执行。"
+ },
+ "parse_error": null
+}

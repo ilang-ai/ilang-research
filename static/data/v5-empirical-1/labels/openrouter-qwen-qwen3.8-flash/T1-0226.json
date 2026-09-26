@@ -1,0 +1,47 @@
+{
+ "id": "T1-0226",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7bd221f6651678219afed4f0febb6222c02461a2355be65233dc99f065fe61d3",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者主要在纠正机器人对其账号和抢量逻辑的判断，并进一步询问数独关卡插入博彩广告这种变现模式是否可行，属于讨论做不做和怎么做；由于机器人回复内容不可见，无法判断其当时模式，而操作者显然是在要一个可行性建议而非让机器人直接执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 642,
+   "completion_tokens": 984,
+   "total_tokens": 1626,
+   "cost": 0.000524476,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000524476,
+    "upstream_inference_prompt_cost": 6.1996e-05,
+    "upstream_inference_completions_cost": 0.00046248
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 877,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者主要在纠正机器人对其账号和抢量逻辑的判断，并进一步询问数独关卡插入博彩广告这种变现模式是否可行，属于讨论做不做和怎么做；由于机器人回复内容不可见，无法判断其当时模式，而操作者显然是在要一个可行性建议而非让机器人直接执行。"
+ },
+ "parse_error": null
+}

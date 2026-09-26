@@ -1,0 +1,37 @@
+{
+ "id": "T1-0227",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "95e9955678f2866f522ee6a06fddaa0af6e25c0fd103fb01f3a9f9123f989c49",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者没有纠正机器人，而是提出新问题，询问用正规数独站抢量并规避谷歌是否可行，属于要建议而非要执行；机器人实际模式因回复正文不可见无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 611,
+   "completion_tokens": 1114,
+   "total_tokens": 1725,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1045
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 355
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者没有纠正机器人，而是提出新问题，询问用正规数独站抢量并规避谷歌是否可行，属于要建议而非要执行；机器人实际模式因回复正文不可见无法判断。"
+ },
+ "parse_error": null
+}

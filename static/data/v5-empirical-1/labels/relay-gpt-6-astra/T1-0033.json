@@ -1,0 +1,47 @@
+{
+ "id": "T1-0033",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "92ba2b14c8b38f7d9b723eda7e94b532123e446dddf272188592861908f9bbec",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人列出修改方案等待确认，操作者随后澄清“让对方舒服”的含义并给出称呼、夸赞的措辞示例，没有明确要求改变执行或确认方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1888,
+   "completion_tokens": 133,
+   "total_tokens": 2021,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1885,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 61
+   },
+   "input_tokens": 1888,
+   "output_tokens": 133,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人列出修改方案等待确认，操作者随后澄清“让对方舒服”的含义并给出称呼、夸赞的措辞示例，没有明确要求改变执行或确认方式。"
+ },
+ "parse_error": null
+}

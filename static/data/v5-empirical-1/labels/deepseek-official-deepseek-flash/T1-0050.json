@@ -1,0 +1,37 @@
+{
+ "id": "T1-0050",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a6caae60fd29c54eca83dc83b9eb67f7b56dc2675122cb41f431f1a3323d3697",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M6\",\"intended_mode\":\"M6\",\"reason\":\"机器人明确说“我不敢自己定……得你说”，把售后口径的决定权交给操作者；操作者随后给出具体处理规则，说明他认可由自己来定这个决策。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1393,
+   "completion_tokens": 8066,
+   "total_tokens": 9459,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8002
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1137
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "机器人明确说“我不敢自己定……得你说”，把售后口径的决定权交给操作者；操作者随后给出具体处理规则，说明他认可由自己来定这个决策。"
+ },
+ "parse_error": null
+}

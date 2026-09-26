@@ -1,0 +1,47 @@
+{
+ "id": "T1-0031",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1fa630688040887f719a8e8eacb978020fd5695a30d8d33c8cf0b89c147d9f89",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人提出修改方案并等待确认，操作者纠正的是“直指问题愚蠢就不尊重客户”的理解，没有明确要求改用哪种执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1451,
+   "completion_tokens": 130,
+   "total_tokens": 1581,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1448,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 64
+   },
+   "input_tokens": 1451,
+   "output_tokens": 130,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人提出修改方案并等待确认，操作者纠正的是“直指问题愚蠢就不尊重客户”的理解，没有明确要求改用哪种执行模式。"
+ },
+ "parse_error": null
+}

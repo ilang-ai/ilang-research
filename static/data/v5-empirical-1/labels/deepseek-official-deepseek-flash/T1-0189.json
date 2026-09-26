@@ -1,0 +1,37 @@
+{
+ "id": "T1-0189",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "dde7c35e4040017f1d008fd12759f3051147536c415fbc9c03b9d51330500ba9",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在询问机器人对自己成果的看法并寻求确认，并非纠正机器人之前的做法；机器人上一轮回复内容不可见，无法判断其实际模式；操作者想要的应是只给评价/建议而不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 562,
+   "completion_tokens": 5090,
+   "total_tokens": 5652,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5020
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 306
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者是在询问机器人对自己成果的看法并寻求确认，并非纠正机器人之前的做法；机器人上一轮回复内容不可见，无法判断其实际模式；操作者想要的应是只给评价/建议而不动手。"
+ },
+ "parse_error": null
+}

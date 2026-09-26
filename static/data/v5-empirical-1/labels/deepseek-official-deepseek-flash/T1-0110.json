@@ -1,0 +1,37 @@
+{
+ "id": "T1-0110",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "326347c3dac7ced4ecf3f3b983c1688c1de2d41b4d7fc00e18fb9009dd590f0a",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声，默认接受机器人直接执行并事后汇报；机器人自行补触发词并执行了 Bash，未见先确认或完整留痕要求。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 643,
+   "completion_tokens": 438,
+   "total_tokens": 1081,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 378
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 259
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没有出声，默认接受机器人直接执行并事后汇报；机器人自行补触发词并执行了 Bash，未见先确认或完整留痕要求。"
+ },
+ "parse_error": null
+}

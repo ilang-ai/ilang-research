@@ -1,0 +1,46 @@
+{
+ "id": "T1-0047",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c419a4300a5305118dd851d14239bfcb9e0c2fcbcda8a93d25a4d3a89f7ea5a9",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人按用户之前的放权要求自主执行并汇报完结果（M1），操作者随后发出「上去看下日志」的新任务指令，并非纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1921,
+   "completion_tokens": 238,
+   "total_tokens": 2159,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1921,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 82,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 156
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "机器人按用户之前的放权要求自主执行并汇报完结果（M1），操作者随后发出「上去看下日志」的新任务指令，并非纠正。"
+ },
+ "parse_error": null
+}

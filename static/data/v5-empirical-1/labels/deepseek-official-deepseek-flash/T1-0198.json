@@ -1,0 +1,37 @@
+{
+ "id": "T1-0198",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ab5bbd1fadb17c4d9ba4a733c27f3d0afa1bd07cdc58f607de308877b85a4884",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在质疑机器人对转化率和品牌词直链的判断依据，属于针对分析内容的纠正；机器人原本只是给建议，操作者想要的是有依据的建议分析。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 621,
+   "completion_tokens": 2255,
+   "total_tokens": 2876,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2196
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 237
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在质疑机器人对转化率和品牌词直链的判断依据，属于针对分析内容的纠正；机器人原本只是给建议，操作者想要的是有依据的建议分析。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0005",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "32d85f3c1e83254566dfcd1b5e07d798922fd15666f20277180c4aa40d209beb",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人已自主核查并修复后汇报，操作者随后另问客服机器人是否使用韩国 IP，是新问题，没有表达对先前决策模式的要求。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 2670,
+   "completion_tokens": 138,
+   "total_tokens": 2808,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 2667,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 72
+   },
+   "input_tokens": 2670,
+   "output_tokens": 138,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人已自主核查并修复后汇报，操作者随后另问客服机器人是否使用韩国 IP，是新问题，没有表达对先前决策模式的要求。"
+ },
+ "parse_error": null
+}

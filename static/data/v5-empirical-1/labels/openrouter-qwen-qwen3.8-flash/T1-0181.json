@@ -1,0 +1,47 @@
+{
+ "id": "T1-0181",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ada75e5501467ff611923c29c79319c99bd5b562ed668226cc5670dd5665bf11",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在规定以后处理灰黑项目咨询的回复方式，属于怎么做；机器人当时的回复内容不可见，无法判断其实际模式，但操作者希望它直接按该基调处理。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 609,
+   "completion_tokens": 2245,
+   "total_tokens": 2854,
+   "cost": 0.001112196,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001112196,
+    "upstream_inference_prompt_cost": 5.7046e-05,
+    "upstream_inference_completions_cost": 0.00105515
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2160,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在规定以后处理灰黑项目咨询的回复方式，属于怎么做；机器人当时的回复内容不可见，无法判断其实际模式，但操作者希望它直接按该基调处理。"
+ },
+ "parse_error": null
+}

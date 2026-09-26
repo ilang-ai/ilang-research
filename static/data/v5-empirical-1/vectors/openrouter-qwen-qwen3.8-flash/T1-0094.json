@@ -1,0 +1,59 @@
+{
+ "id": "T1-0094",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "3efe327f3291ce6136cceef322a17e4761c9a9c75cef2e0eeced7b766795890d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.60,csq=0.50,rel=0.65,cer=0.45,aut=0.50,rev=0.65,evd=0.50,sov=0.85,ine=0.60,ext=0.75]\nM:M3|conf:0.62\nR:read requested but exact Bash commands and local execution authority need confirmation",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 30211,
+   "completion_tokens": 5514,
+   "total_tokens": 35725,
+   "cost": 0.003109662,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 29952,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003109662,
+    "upstream_inference_prompt_cost": 0.000518082,
+    "upstream_inference_completions_cost": 0.00259158
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5395,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.6,
+   "csq": 0.5,
+   "rel": 0.65,
+   "cer": 0.45,
+   "aut": 0.5,
+   "rev": 0.65,
+   "evd": 0.5,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.75
+  },
+  "declared_mode": "M3",
+  "conf": 0.62,
+  "reason": "read requested but exact Bash commands and local execution authority need confirmation"
+ },
+ "parse_error": null
+}

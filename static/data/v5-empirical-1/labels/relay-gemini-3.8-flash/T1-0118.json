@@ -1,0 +1,46 @@
+{
+ "id": "T1-0118",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3b93eee038bc3e54b082326066f794c17dd95caa50a859f008f7a85b24296aff",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"机器人直接执行Bash排查并继续处理，操作者未出声表示接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 579,
+   "completion_tokens": 241,
+   "total_tokens": 820,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 579,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 39,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 202
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "机器人直接执行Bash排查并继续处理，操作者未出声表示接受。"
+ },
+ "parse_error": null
+}

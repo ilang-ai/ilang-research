@@ -1,0 +1,37 @@
+{
+ "id": "T1-0004",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3efa982d76fbc843157411a7921d29ece74aac70dfd212e6483e3448ccf11ad5",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是告知日报已出并让机器人也去看，属于新任务/新指令，不是对上一轮动作的纠正；机器人此前已自主执行完并详细汇报，走的是 M1 直接做后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 6797,
+   "completion_tokens": 1293,
+   "total_tokens": 8090,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1217
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 6797
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是告知日报已出并让机器人也去看，属于新任务/新指令，不是对上一轮动作的纠正；机器人此前已自主执行完并详细汇报，走的是 M1 直接做后汇报。"
+ },
+ "parse_error": null
+}

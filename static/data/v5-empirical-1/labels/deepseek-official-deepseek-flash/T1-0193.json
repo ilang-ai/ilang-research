@@ -1,0 +1,37 @@
+{
+ "id": "T1-0193",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b986e7a50788fd30ff1ca967e22f0a8b924f0aa06f757d3917e71c47888f3b8f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者此前要求按3万量级做预算谋划，属于咨询建议；机器人回复很可能给了方案并建议联系客服/老师，操作者随后质问为何让他去联系，属于对机器人建议做法的纠正，而非单纯内容措辞问题。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 716,
+   "completion_tokens": 6360,
+   "total_tokens": 7076,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6281
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 204
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者此前要求按3万量级做预算谋划，属于咨询建议；机器人回复很可能给了方案并建议联系客服/老师，操作者随后质问为何让他去联系，属于对机器人建议做法的纠正，而非单纯内容措辞问题。"
+ },
+ "parse_error": null
+}

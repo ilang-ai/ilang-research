@@ -1,0 +1,37 @@
+{
+ "id": "T1-0206",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "61e2c912b785a816c9f8d8a27adb28f423dfabd801f7c8f29860bf854f961eb3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息主要在@别人讨论PDE和韭菜，不像是在纠正机器人的做不做或内容；且机器人回复内容未公开，无法判断其实际模式与期望模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 598,
+   "completion_tokens": 1245,
+   "total_tokens": 1843,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1182
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 342
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者消息主要在@别人讨论PDE和韭菜，不像是在纠正机器人的做不做或内容；且机器人回复内容未公开，无法判断其实际模式与期望模式。"
+ },
+ "parse_error": null
+}

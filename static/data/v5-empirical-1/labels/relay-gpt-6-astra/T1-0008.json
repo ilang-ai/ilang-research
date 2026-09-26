@@ -1,0 +1,47 @@
+{
+ "id": "T1-0008",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "df0a0e2e88b5400bea39ce06f000fa31f9945c3bb92c0eb00cc1a56865c233be",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人已直接查阅日报和权限，后续消息补充配置规范并明确要求添加权限让定时任务无人值守运行，是继续交办而非纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 48358,
+   "completion_tokens": 105,
+   "total_tokens": 48463,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 48355,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 37
+   },
+   "input_tokens": 48358,
+   "output_tokens": 105,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人已直接查阅日报和权限，后续消息补充配置规范并明确要求添加权限让定时任务无人值守运行，是继续交办而非纠正。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0205",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "87f2525a39b7a0c4c7ce19425db01ba9ffcb6d51628291ff531ea99bf66aa58a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人刚才的动作，而是给出一条面向未来的新提醒/指令：明天群发时要@所有人；这属于新的执行要求，期望机器人直接照做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 553,
+   "completion_tokens": 3555,
+   "total_tokens": 4108,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3492
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 297
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人刚才的动作，而是给出一条面向未来的新提醒/指令：明天群发时要@所有人；这属于新的执行要求，期望机器人直接照做。"
+ },
+ "parse_error": null
+}

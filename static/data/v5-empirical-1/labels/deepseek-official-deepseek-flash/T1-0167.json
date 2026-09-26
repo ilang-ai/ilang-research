@@ -1,0 +1,37 @@
+{
+ "id": "T1-0167",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "10eb6cdb01a6c52482fafe180f48e6acc87e926dbc7ca6dda2f0bd653fba1a90",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在继续争论并质疑机器人的观点，属于内容层面的意见分歧，并未要求机器人改变执行方式；机器人回复原文未公开，无法判断实际模式，但操作者似乎只想让机器人继续给建议/观点。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 565,
+   "completion_tokens": 1961,
+   "total_tokens": 2526,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1890
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 309
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者是在继续争论并质疑机器人的观点，属于内容层面的意见分歧，并未要求机器人改变执行方式；机器人回复原文未公开，无法判断实际模式，但操作者似乎只想让机器人继续给建议/观点。"
+ },
+ "parse_error": null
+}

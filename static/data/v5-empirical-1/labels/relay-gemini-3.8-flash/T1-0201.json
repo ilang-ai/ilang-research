@@ -1,0 +1,46 @@
+{
+ "id": "T1-0201",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1813a7a64129aaea2911adb339f3378e6ea6992432226779b370051825c849c4",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"用户是在规范以后遇到该问题时的话术和内容，针对的是回答内容而非决策模式，机器人与用户期望的模式均为只给建议/回答（M4）。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 640,
+   "completion_tokens": 447,
+   "total_tokens": 1087,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 640,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 84,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 363
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "用户是在规范以后遇到该问题时的话术和内容，针对的是回答内容而非决策模式，机器人与用户期望的模式均为只给建议/回答（M4）。"
+ },
+ "parse_error": null
+}

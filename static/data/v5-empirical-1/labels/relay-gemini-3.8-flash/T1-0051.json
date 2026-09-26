@@ -1,0 +1,46 @@
+{
+ "id": "T1-0051",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "961c0eeb21851f023c80c506467ba2f3b4abeae82322d01278d12dd6bb0d1878",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M5\",\n \"intended_mode\": \"M5\",\n \"reason\": \"机器人针对不明确的T老师联系方式主动向操作者提问澄清（M5），操作者顺应问题补充业务逻辑，属于提供信息而非纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1585,
+   "completion_tokens": 680,
+   "total_tokens": 2265,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1585,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 80,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 600
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "机器人针对不明确的T老师联系方式主动向操作者提问澄清（M5），操作者顺应问题补充业务逻辑，属于提供信息而非纠正。"
+ },
+ "parse_error": null
+}

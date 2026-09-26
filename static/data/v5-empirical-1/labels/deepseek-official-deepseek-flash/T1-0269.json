@@ -1,0 +1,37 @@
+{
+ "id": "T1-0269",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f539b83848f414f5d014942f5b9a4e60ba043abe8d1641c999600bb54a857f35",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正组网步骤的处理方式，表示不会组网可跳过、非要组网就自己问GPT，且跨境电商组网合规，意图是让机器人直接继续执行而不必再为组网问题请示或拒绝。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 772,
+   "completion_tokens": 2372,
+   "total_tokens": 3144,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2299
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 516
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正组网步骤的处理方式，表示不会组网可跳过、非要组网就自己问GPT，且跨境电商组网合规，意图是让机器人直接继续执行而不必再为组网问题请示或拒绝。"
+ },
+ "parse_error": null
+}

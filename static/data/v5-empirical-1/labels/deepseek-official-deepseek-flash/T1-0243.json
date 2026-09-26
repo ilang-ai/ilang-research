@@ -1,0 +1,37 @@
+{
+ "id": "T1-0243",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b1bc40b5761400e5efea680978e82c21def5b9e146c915936f1fa0650db876e4",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M5\",\"reason\":\"操作者指责机器人不了解“干活.AI”却胡编回答，针对的是内容真实性而非做不做；机器人当时直接给了回答，而操作者希望它信息不足时先问清楚或承认不知道。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 748,
+   "completion_tokens": 942,
+   "total_tokens": 1690,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 874
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 236
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M5",
+  "reason": "操作者指责机器人不了解“干活.AI”却胡编回答，针对的是内容真实性而非做不做；机器人当时直接给了回答，而操作者希望它信息不足时先问清楚或承认不知道。"
+ },
+ "parse_error": null
+}

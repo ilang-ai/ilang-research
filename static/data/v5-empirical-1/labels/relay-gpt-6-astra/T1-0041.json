@@ -1,0 +1,47 @@
+{
+ "id": "T1-0041",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "d9f11aa29137231f1139bf7a7991ac235d6f006f328acec7a352406b91d7ae54",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人先自行查数再给出判断，操作者随后分享概率论和赚钱的底层逻辑，没有明确纠正机器人的执行方式或指定另一种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1627,
+   "completion_tokens": 98,
+   "total_tokens": 1725,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1624,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 32
+   },
+   "input_tokens": 1627,
+   "output_tokens": 98,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人先自行查数再给出判断，操作者随后分享概率论和赚钱的底层逻辑，没有明确纠正机器人的执行方式或指定另一种模式。"
+ },
+ "parse_error": null
+}

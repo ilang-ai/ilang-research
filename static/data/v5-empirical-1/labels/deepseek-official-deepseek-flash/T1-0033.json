@@ -1,0 +1,37 @@
+{
+ "id": "T1-0033",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "92ba2b14c8b38f7d9b723eda7e94b532123e446dddf272188592861908f9bbec",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"机器人列了三处SOUL改动并请你拍板（尤其第三处Q3措辞），走的是先提方案等确认；你的回复不是接受或否决方案，而是纠正它对「让对方舒服」的理解（是您+夸对方，不是讨好），属于对内容本身的纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1608,
+   "completion_tokens": 1098,
+   "total_tokens": 2706,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1014
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1352
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人列了三处SOUL改动并请你拍板（尤其第三处Q3措辞），走的是先提方案等确认；你的回复不是接受或否决方案，而是纠正它对「让对方舒服」的理解（是您+夸对方，不是讨好），属于对内容本身的纠正。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0271",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "be9c81831502f057e83d2c360676b9c8de267c356b7a466b5dceff0c5e276d37",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者是在纠正关于违规风险、远程多点部署和套餐容量的判断，没有要求改变决策模式；机器人原回复未公开，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 823,
+   "completion_tokens": 154,
+   "total_tokens": 977,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 88
+   },
+   "input_tokens": 823,
+   "output_tokens": 154,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在纠正关于违规风险、远程多点部署和套餐容量的判断，没有要求改变决策模式；机器人原回复未公开，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

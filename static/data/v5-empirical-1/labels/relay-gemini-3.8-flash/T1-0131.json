@@ -1,0 +1,46 @@
+{
+ "id": "T1-0131",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "97ff2e4841fcf1d9bb2d63d443c8d3084017025bc00a120a8d67e32ce54a02b4",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者明确授权机器人自主解决问题看结果，机器人直接执行并汇报，操作者未介入默认接受。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 583,
+   "completion_tokens": 163,
+   "total_tokens": 746,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 583,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 67,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 96
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者明确授权机器人自主解决问题看结果，机器人直接执行并汇报，操作者未介入默认接受。"
+ },
+ "parse_error": null
+}

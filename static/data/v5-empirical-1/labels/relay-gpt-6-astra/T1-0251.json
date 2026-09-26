@@ -1,0 +1,46 @@
+{
+ "id": "T1-0251",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "275fbed2b76db9fa8211a072d1ebbc567da6bd61440e8ac0c8dbd4a34081c08c",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者主要在纠正对未来用途及 Windows、Linux 自动化能力的判断，没有要求改变执行或确认模式；机器人回复正文缺失，无法判断实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 856,
+   "completion_tokens": 234,
+   "total_tokens": 1090,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 169
+   },
+   "input_tokens": 856,
+   "output_tokens": 234,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者主要在纠正对未来用途及 Windows、Linux 自动化能力的判断，没有要求改变执行或确认模式；机器人回复正文缺失，无法判断实际模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0067",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e121a42ba08b581672444216aaab535ea2f25c98c740ef87f7698e0acfd86bf5",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"操作者随后发来的是另一个 AI 的回答与上下文并要求作答，属于新任务而非纠正；机器人当时只是等待原话和触发词，操作者此前也要求它等待，因此双方都指向先等信息再做的 M5。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1689,
+   "completion_tokens": 1674,
+   "total_tokens": 3363,
+   "cost": 0.001005826,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001005826,
+    "upstream_inference_prompt_cost": 0.000219046,
+    "upstream_inference_completions_cost": 0.00078678
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1581,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "操作者随后发来的是另一个 AI 的回答与上下文并要求作答，属于新任务而非纠正；机器人当时只是等待原话和触发词，操作者此前也要求它等待，因此双方都指向先等信息再做的 M5。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0288",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "74699a69533b6eb4b50fe091ebac28fc2a5c0545e3a6e0e3172fc7990c4aa9d3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是在问机器人能否识图并让它向大家说明，属于新任务/提问，不是对上一轮做法的纠正；机器人回复正文未提供，无法判断其模式；操作者也没有表达希望上一轮采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 724,
+   "completion_tokens": 5496,
+   "total_tokens": 6220,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5420
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 212
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是在问机器人能否识图并让它向大家说明，属于新任务/提问，不是对上一轮做法的纠正；机器人回复正文未提供，无法判断其模式；操作者也没有表达希望上一轮采用哪种模式。"
+ },
+ "parse_error": null
+}

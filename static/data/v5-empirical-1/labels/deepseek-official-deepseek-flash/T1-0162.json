@@ -1,0 +1,37 @@
+{
+ "id": "T1-0162",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cf48c6424aff5d8abc8e18fcc03e5360b0c8bb3f3d3846577d3327c9d7c841b7",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者没有否定机器人做过的事，而是给出处理口径——这类“验证打不开”是用户自己的网络/手机问题，让它自己想办法，也就是机器人不必动手修，只把这话告诉对方即可，属于指定处理方式（只给建议不动手）；机器人当时实际怎么回的文本看不到，模式无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 684,
+   "completion_tokens": 1903,
+   "total_tokens": 2587,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1811
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 428
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者没有否定机器人做过的事，而是给出处理口径——这类“验证打不开”是用户自己的网络/手机问题，让它自己想办法，也就是机器人不必动手修，只把这话告诉对方即可，属于指定处理方式（只给建议不动手）；机器人当时实际怎么回的文本看不到，模式无法判断。"
+ },
+ "parse_error": null
+}

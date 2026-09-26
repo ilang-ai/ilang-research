@@ -1,0 +1,46 @@
+{
+ "id": "T1-0173",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ae30c0615b056c12362ae7205f4f2650be0d90ab969f6f9fb2c593e62d58c9b7",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者是在设定新的记忆和后续应对规则（调教指令），属于新任务而非纠正上一轮回复。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 616,
+   "completion_tokens": 335,
+   "total_tokens": 951,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 616,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 71,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 264
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在设定新的记忆和后续应对规则（调教指令），属于新任务而非纠正上一轮回复。"
+ },
+ "parse_error": null
+}

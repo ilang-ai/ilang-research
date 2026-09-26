@@ -1,0 +1,37 @@
+{
+ "id": "T1-0113",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8b93e5dbe2f67942186258fc8416ef53ef366a687f4b0d1b6e4f1187991b76e0",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者后续没有出声，默认让机器人继续并接受其执行上线与结果汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 579,
+   "completion_tokens": 207,
+   "total_tokens": 786,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 165
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 323
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者后续没有出声，默认让机器人继续并接受其执行上线与结果汇报。"
+ },
+ "parse_error": null
+}

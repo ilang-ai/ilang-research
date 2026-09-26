@@ -1,0 +1,47 @@
+{
+ "id": "T1-0018",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ee5f7b2ce0cd124642f53229df9275587318c179be76ceb7af5a621e823331f5",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"unknown\",\"reason\":\"机器人在询问联盟名称和数字能否对外使用，操作者只是追问“点名”是什么意思，没有表达要改变机器人的处理模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1730,
+   "completion_tokens": 128,
+   "total_tokens": 1858,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1727,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 66
+   },
+   "input_tokens": 1730,
+   "output_tokens": 128,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "unknown",
+  "reason": "机器人在询问联盟名称和数字能否对外使用，操作者只是追问“点名”是什么意思，没有表达要改变机器人的处理模式。"
+ },
+ "parse_error": null
+}

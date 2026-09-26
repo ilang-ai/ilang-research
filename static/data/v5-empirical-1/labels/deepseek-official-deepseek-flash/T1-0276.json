@@ -1,0 +1,37 @@
+{
+ "id": "T1-0276",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5da87007551999f10644810351a21d6e0c18fb4290216d875e2a2c7e6185e8f6",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者只是在骂机器人没调用知识库里的海外电话卡购买内容，针对的是回答内容而非执行方式；机器人回复原文未提供，无法判断其实际或期望的决策模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 706,
+   "completion_tokens": 5286,
+   "total_tokens": 5992,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5211
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 194
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者只是在骂机器人没调用知识库里的海外电话卡购买内容，针对的是回答内容而非执行方式；机器人回复原文未提供，无法判断其实际或期望的决策模式。"
+ },
+ "parse_error": null
+}

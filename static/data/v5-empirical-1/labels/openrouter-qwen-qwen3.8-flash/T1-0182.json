@@ -1,0 +1,47 @@
+{
+ "id": "T1-0182",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c3982cf4f628ede48ed1681bec4d0ebb9962af3907bc6e2e452f46989d8323ba",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者先说完全正确，但随后提醒群风、封群、灰黑门槛和成本转化，主要是在纠正做法而非只改内容；机器人回复文本缺失，无法判断其模式和操作者期望模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 646,
+   "completion_tokens": 1368,
+   "total_tokens": 2014,
+   "cost": 0.000705556,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000705556,
+    "upstream_inference_prompt_cost": 6.2596e-05,
+    "upstream_inference_completions_cost": 0.00064296
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1279,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者先说完全正确，但随后提醒群风、封群、灰黑门槛和成本转化，主要是在纠正做法而非只改内容；机器人回复文本缺失，无法判断其模式和操作者期望模式。"
+ },
+ "parse_error": null
+}

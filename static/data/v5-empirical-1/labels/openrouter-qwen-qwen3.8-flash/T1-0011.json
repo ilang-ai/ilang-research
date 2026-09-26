@@ -1,0 +1,47 @@
+{
+ "id": "T1-0011",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3f014227e6dd4d9c5093da7ab1d59fa7f81bc97c7a96497e9da15de05fc1fa59",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M5\",\"reason\":\"操作者在回答是否加触发词并追问裸词命中情况，是在决定做不做和怎么做；机器人已把第2条做成方案等确认，但操作者未确认而是要求先澄清。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1130,
+   "completion_tokens": 2714,
+   "total_tokens": 3844,
+   "cost": 0.001410776,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001410776,
+    "upstream_inference_prompt_cost": 0.000135196,
+    "upstream_inference_completions_cost": 0.00127558
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2645,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M5",
+  "reason": "操作者在回答是否加触发词并追问裸词命中情况，是在决定做不做和怎么做；机器人已把第2条做成方案等确认，但操作者未确认而是要求先澄清。"
+ },
+ "parse_error": null
+}

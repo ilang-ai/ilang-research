@@ -1,0 +1,37 @@
+{
+ "id": "T1-0029",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "719c7885574568833f5256d43173aaafe1415b1203de6d4d6dc5cfaf7987c541",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者补充的是“问资料”应以真实资料为准的内容口径，并非纠正做不做；机器人此前已直接改文件并汇报，且说明同意就继续写，故实际和期望都是自主执行、事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1311,
+   "completion_tokens": 4661,
+   "total_tokens": 5972,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4590
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1055
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者补充的是“问资料”应以真实资料为准的内容口径，并非纠正做不做；机器人此前已直接改文件并汇报，且说明同意就继续写，故实际和期望都是自主执行、事后汇报。"
+ },
+ "parse_error": null
+}

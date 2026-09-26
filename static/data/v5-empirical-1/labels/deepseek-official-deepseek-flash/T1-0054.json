@@ -1,0 +1,37 @@
+{
+ "id": "T1-0054",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "10d65b998d7093378c71ab16820c8c12b514c45695312388eeb06ebe7431e634",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者只是回答并确认机器人提出的选择（以文章为准），没有纠正动作；机器人此前是提出方案并等确认，操作者也接受了这种先确认再做的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 3140,
+   "completion_tokens": 5007,
+   "total_tokens": 8147,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4943
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 2884
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者只是回答并确认机器人提出的选择（以文章为准），没有纠正动作；机器人此前是提出方案并等确认，操作者也接受了这种先确认再做的做法。"
+ },
+ "parse_error": null
+}

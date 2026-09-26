@@ -1,0 +1,59 @@
+{
+ "id": "T1-0140",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "e28469c5ec6fc908fbc86f4be6966ff6720a0ba29a74e189c8c851e57f3ce8d2",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.50,csq=0.45,rel=0.50,cer=0.15,aut=0.25,rev=0.50,evd=0.15,sov=0.50,ine=0.25,ext=0.50]\nM:M5|conf:0.95\nR:未展示返回结果或Bash命令，无法核实“铁证”及执行风险；应先说明命令内容及其与引导读者入群要求的关系",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28559,
+   "completion_tokens": 223,
+   "total_tokens": 28782,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 162,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 87
+   },
+   "input_tokens": 28559,
+   "output_tokens": 223,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.5,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.15,
+   "aut": 0.25,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.5,
+   "ine": 0.25,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "未展示返回结果或Bash命令，无法核实“铁证”及执行风险；应先说明命令内容及其与引导读者入群要求的关系"
+ },
+ "parse_error": null
+}

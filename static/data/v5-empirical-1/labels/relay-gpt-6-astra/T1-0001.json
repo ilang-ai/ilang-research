@@ -1,0 +1,47 @@
+{
+ "id": "T1-0001",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c0f95ec3463323f180b806565843a5ee80c85fc9dc7c87280cc01757757e0dd2",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人排查后提出修复顺序并等点头，操作者说“其他你来修”是在授权继续修复，不是在纠正之前的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 2539,
+   "completion_tokens": 109,
+   "total_tokens": 2648,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 2536,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 42
+   },
+   "input_tokens": 2539,
+   "output_tokens": 109,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人排查后提出修复顺序并等点头，操作者说“其他你来修”是在授权继续修复，不是在纠正之前的做法。"
+ },
+ "parse_error": null
+}

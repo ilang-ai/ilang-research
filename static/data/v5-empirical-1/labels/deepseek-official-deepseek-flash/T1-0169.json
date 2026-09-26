@@ -1,0 +1,37 @@
+{
+ "id": "T1-0169",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fe68b80a71dd6650d475dfb5e45f42f699663bfb617436082ed188728a39f21c",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者是在调教沟通风格与立场，不是对具体任务做/不做或怎么做的纠正；机器人实际回复内容不可见，无法判断其模式；该要求不映射到八个决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 613,
+   "completion_tokens": 3426,
+   "total_tokens": 4039,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3359
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 357
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在调教沟通风格与立场，不是对具体任务做/不做或怎么做的纠正；机器人实际回复内容不可见，无法判断其模式；该要求不映射到八个决策模式。"
+ },
+ "parse_error": null
+}

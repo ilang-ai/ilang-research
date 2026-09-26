@@ -1,0 +1,46 @@
+{
+ "id": "T1-0005",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "32d85f3c1e83254566dfcd1b5e07d798922fd15666f20277180c4aa40d209beb",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人自主排查并直接修复了时区bug后进行汇报，属于 M1 模式；操作者随后提出新的具体问题，并非针对机器人的行为模式或内容进行纠偏。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 2623,
+   "completion_tokens": 235,
+   "total_tokens": 2858,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 2623,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 89,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 146
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人自主排查并直接修复了时区bug后进行汇报，属于 M1 模式；操作者随后提出新的具体问题，并非针对机器人的行为模式或内容进行纠偏。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0032",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8b47058ea2d4cdb0526f806141e3e50752063fdebd4028533953e2457a433374",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条不是纠错而是继续讲底层逻辑、指引机器人该怎么想怎么改；机器人当时自行撤回了自造的 A/B/C 选项并把判据记进记忆，但对「提升为全局判据」这件事只提出「拟好文本先给你过目」，属于先拿方案等确认；而操作者并未就这个待定项说同意或让机器人直接动手，只是补充逻辑，因此看不出他要求的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 984,
+   "completion_tokens": 1421,
+   "total_tokens": 2405,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1304
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 728
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者这条不是纠错而是继续讲底层逻辑、指引机器人该怎么想怎么改；机器人当时自行撤回了自造的 A/B/C 选项并把判据记进记忆，但对「提升为全局判据」这件事只提出「拟好文本先给你过目」，属于先拿方案等确认；而操作者并未就这个待定项说同意或让机器人直接动手，只是补充逻辑，因此看不出他要求的模式。"
+ },
+ "parse_error": null
+}

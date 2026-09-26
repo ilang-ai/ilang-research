@@ -1,0 +1,46 @@
+{
+ "id": "T1-0060",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "568dcfe008aefdfa5ef7fbd777ab6367edd9a42224bcfac4c81b00d8303dd218",
+ "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人针对后续缺口提出方案并询问方向确认（M3），操作者指出其客服定位并斥责这还用问，要求直接全部赶去群里（M1）。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1352,
+   "completion_tokens": 795,
+   "total_tokens": 2147,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1352,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 89,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 706
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人针对后续缺口提出方案并询问方向确认（M3），操作者指出其客服定位并斥责这还用问，要求直接全部赶去群里（M1）。"
+ },
+ "parse_error": null
+}

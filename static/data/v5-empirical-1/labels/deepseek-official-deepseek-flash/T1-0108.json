@@ -1,0 +1,37 @@
+{
+ "id": "T1-0108",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b0f655ef330db10f52fcefc4f1e5a537f20c376243c97c06d07433539bc67423",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此前的指令是让机器人查看文档、日志并了解最近运行情况，机器人随后直接执行检查并汇报进展；对照事件中操作者未出声，默认接受其做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 681,
+   "completion_tokens": 221,
+   "total_tokens": 902,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 158
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 297
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者此前的指令是让机器人查看文档、日志并了解最近运行情况，机器人随后直接执行检查并汇报进展；对照事件中操作者未出声，默认接受其做法。"
+ },
+ "parse_error": null
+}

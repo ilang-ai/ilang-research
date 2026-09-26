@@ -1,0 +1,37 @@
+{
+ "id": "T1-0146",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "307dec5668051f781ad074abede89013c53b90ef720db325df17266cb01698f5",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者质问机器人为何不自己找 chatid、不自己确认权限，说明机器人之前是在提问/请求确认（M5），而操作者想要它自主查清后直接执行（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 556,
+   "completion_tokens": 1651,
+   "total_tokens": 2207,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1582
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 300
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者质问机器人为何不自己找 chatid、不自己确认权限，说明机器人之前是在提问/请求确认（M5），而操作者想要它自主查清后直接执行（M1）。"
+ },
+ "parse_error": null
+}

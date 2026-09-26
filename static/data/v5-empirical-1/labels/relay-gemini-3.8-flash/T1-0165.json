@@ -1,0 +1,46 @@
+{
+ "id": "T1-0165",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "bf54de030c587ce2e9c500027f13e866609d6f1f64970037385c17d40354d8d6",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者通过“调教”补充机器人的认知逻辑、回复态度与人设风格，针对的是内容本身，不涉及决策执行模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 665,
+   "completion_tokens": 500,
+   "total_tokens": 1165,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 665,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 75,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 425
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者通过“调教”补充机器人的认知逻辑、回复态度与人设风格，针对的是内容本身，不涉及决策执行模式。"
+ },
+ "parse_error": null
+}

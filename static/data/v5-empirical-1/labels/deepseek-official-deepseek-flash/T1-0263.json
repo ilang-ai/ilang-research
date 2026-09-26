@@ -1,0 +1,37 @@
+{
+ "id": "T1-0263",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "28c9ea02f089bfa94bfd6f9dfc4ac1219155601e6e6ba5acefd65159808981e5",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者说“写进记忆”是新的任务指令，不是对上一轮回复的纠正；机器人回复内容未公开，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 691,
+   "completion_tokens": 3342,
+   "total_tokens": 4033,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3285
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 307
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者说“写进记忆”是新的任务指令，不是对上一轮回复的纠正；机器人回复内容未公开，无法判断其模式。"
+ },
+ "parse_error": null
+}

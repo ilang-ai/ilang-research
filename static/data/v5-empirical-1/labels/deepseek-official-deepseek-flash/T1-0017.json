@@ -1,0 +1,37 @@
+{
+ "id": "T1-0017",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b30f76db9fa9075e9746794d7a08ed04fb857b9a25a4eeb197b0897cf34f0026",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者没说写不写、也没否定流程，而是直接纠正第3条的事实口径（不是付款失败封号，是多次失败才标记）和第4条的答法（ROI数学题、投一万赚一万），等于把内容补齐要求照此落笔，顺带让机器人去看日报，说明他要的是把内容改进后直接做掉。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1799,
+   "completion_tokens": 904,
+   "total_tokens": 2703,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 804
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1543
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者没说写不写、也没否定流程，而是直接纠正第3条的事实口径（不是付款失败封号，是多次失败才标记）和第4条的答法（ROI数学题、投一万赚一万），等于把内容补齐要求照此落笔，顺带让机器人去看日报，说明他要的是把内容改进后直接做掉。"
+ },
+ "parse_error": null
+}

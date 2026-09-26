@@ -1,0 +1,37 @@
+{
+ "id": "T1-0010",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e3fbc961b64822c0f9ce951decb9b5b6d22fe494b4a5c5ee3b1f9124a31e7b1e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者用“改”确认了机器人提出的 TTL 调整方案，属于确认而非纠正；机器人先给建议并等“改/不改”确认，走的是 M3，结合此前要求逐条汇报确认，操作者想要的也是先给方案再确认的 M3 流程。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 909,
+   "completion_tokens": 5814,
+   "total_tokens": 6723,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5725
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 653
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者用“改”确认了机器人提出的 TTL 调整方案，属于确认而非纠正；机器人先给建议并等“改/不改”确认，走的是 M3，结合此前要求逐条汇报确认，操作者想要的也是先给方案再确认的 M3 流程。"
+ },
+ "parse_error": null
+}

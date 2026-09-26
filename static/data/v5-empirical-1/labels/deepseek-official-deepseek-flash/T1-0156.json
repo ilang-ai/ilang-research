@@ -1,0 +1,37 @@
+{
+ "id": "T1-0156",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0973ddac9222e3d99e5802487cfac82e9656e08aad49a8bfa25cb77fcdc4b60a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者发的是新指令，要求机器人引导大家提问并好好解答，属于直接执行型任务，并非纠正上一轮回复；上一轮机器人回复内容不可见，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 601,
+   "completion_tokens": 4927,
+   "total_tokens": 5528,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4860
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 345
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者发的是新指令，要求机器人引导大家提问并好好解答，属于直接执行型任务，并非纠正上一轮回复；上一轮机器人回复内容不可见，无法判断其模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0115",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1dd841d6a5abb3486ec6c0a8bfe8511d90770bd991335e78cd07ccad769c53cb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续；机器人自行诊断扫描器问题并用码位重写，属于直接执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 578,
+   "completion_tokens": 501,
+   "total_tokens": 1079,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 450
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 322
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续；机器人自行诊断扫描器问题并用码位重写，属于直接执行后汇报。"
+ },
+ "parse_error": null
+}

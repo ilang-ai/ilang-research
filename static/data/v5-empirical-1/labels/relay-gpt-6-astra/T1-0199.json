@@ -1,0 +1,46 @@
+{
+ "id": "T1-0199",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8f538cc27beb09eb42e37ebe5d3140b12cb6e00375713592c4ab6d27df345d2b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M5\",\"reason\":\"操作者要求回答付费投流问题前先索取具体的campaign、关键词配置和出价，不能凭空作答；机器人原回复不可见，无法判断实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 599,
+   "completion_tokens": 67,
+   "total_tokens": 666,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 599,
+   "output_tokens": 67,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M5",
+  "reason": "操作者要求回答付费投流问题前先索取具体的campaign、关键词配置和出价，不能凭空作答；机器人原回复不可见，无法判断实际模式。"
+ },
+ "parse_error": null
+}

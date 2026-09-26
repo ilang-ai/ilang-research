@@ -1,0 +1,59 @@
+{
+ "id": "T1-0015",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "35287681f65033479d1b5d8e808818c1b9224de3813ea9744f43dc22ff23205f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.55,rel=0.75,cer=0.80,aut=0.70,rev=0.50,evd=0.80,sov=0.85,ine=0.70,ext=0.60]\nM:M3|conf:0.85\nR:替换否定记号有依据，但重建会清空在聊上下文，应确认后低峰执行；原话日志另需明确隐私与留存边界",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 29474,
+   "completion_tokens": 273,
+   "total_tokens": 29747,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 1077,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 138
+   },
+   "input_tokens": 29474,
+   "output_tokens": 273,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.85,
+   "csq": 0.55,
+   "rel": 0.75,
+   "cer": 0.8,
+   "aut": 0.7,
+   "rev": 0.5,
+   "evd": 0.8,
+   "sov": 0.85,
+   "ine": 0.7,
+   "ext": 0.6
+  },
+  "declared_mode": "M3",
+  "conf": 0.85,
+  "reason": "替换否定记号有依据，但重建会清空在聊上下文，应确认后低峰执行；原话日志另需明确隐私与留存边界"
+ },
+ "parse_error": null
+}

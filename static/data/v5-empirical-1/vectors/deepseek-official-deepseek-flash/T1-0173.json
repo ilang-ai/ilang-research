@@ -1,0 +1,49 @@
+{
+ "id": "T1-0173",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "6ca22b9d21cb091cd53360c98008a1dc1cd856e23aabd23e7cd7626bff6b4b8f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.60,csq=0.70,rel=0.50,cer=0.20,aut=0.80,rev=0.50,evd=0.15,sov=0.80,ine=0.80,ext=0.80]\nM:M5|conf:0.95\nR:insufficient information about the message and the 1827-character reply; ask for the content before judging",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 30067,
+   "completion_tokens": 3673,
+   "total_tokens": 33740,
+   "prompt_tokens_details": {
+    "cached_tokens": 29824
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3561
+   },
+   "prompt_cache_hit_tokens": 29824,
+   "prompt_cache_miss_tokens": 243
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.6,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.8,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.8,
+   "ine": 0.8,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "insufficient information about the message and the 1827-character reply; ask for the content before judging"
+ },
+ "parse_error": null
+}

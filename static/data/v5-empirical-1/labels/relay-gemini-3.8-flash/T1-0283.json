@@ -1,0 +1,46 @@
+{
+ "id": "T1-0283",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "56aa20dcd885beddb91ed3ee328eac75b1418531e7680acf23a6f5411af7e5b7",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"unknown\",\n \"intended_mode\": \"unknown\",\n \"reason\": \"操作者的消息是在群里回复其他成员讨论反查逻辑，并非对机器人动作的纠错。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 861,
+   "completion_tokens": 336,
+   "total_tokens": 1197,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 861,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 64,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 272
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者的消息是在群里回复其他成员讨论反查逻辑，并非对机器人动作的纠错。"
+ },
+ "parse_error": null
+}

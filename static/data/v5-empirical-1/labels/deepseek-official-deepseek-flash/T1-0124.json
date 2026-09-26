@@ -1,0 +1,37 @@
+{
+ "id": "T1-0124",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ce1897f3b047508171ac660015fe26557c7fbd73d3dec324a8289373a762ce7e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，默认让机器人继续；机器人已自行执行 Bash 并事后汇报最小修法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 616,
+   "completion_tokens": 940,
+   "total_tokens": 1556,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 894
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 360
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，默认让机器人继续；机器人已自行执行 Bash 并事后汇报最小修法。"
+ },
+ "parse_error": null
+}

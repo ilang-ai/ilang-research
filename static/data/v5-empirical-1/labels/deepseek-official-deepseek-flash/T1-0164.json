@@ -1,0 +1,37 @@
+{
+ "id": "T1-0164",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "83417dc3d36770c43cde770448c165462c632a889f3c331a59027b4971bdaa01",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者说“回答得漂亮”是在表扬，没有提出纠正或新要求，表明接受机器人当时的做法；但机器人具体回复内容不可见，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 548,
+   "completion_tokens": 447,
+   "total_tokens": 995,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 383
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 292
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者说“回答得漂亮”是在表扬，没有提出纠正或新要求，表明接受机器人当时的做法；但机器人具体回复内容不可见，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

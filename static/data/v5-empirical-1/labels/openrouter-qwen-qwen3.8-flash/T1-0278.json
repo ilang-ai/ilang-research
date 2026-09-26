@@ -1,0 +1,47 @@
+{
+ "id": "T1-0278",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c2426c24a9081fe5cca26d2a18e3ce7a4c322357d514ac22ba21f1956ee51003",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"操作者这条是在夸机器人会提问，不是纠正；从“会提问”可判断机器人当时在问澄清问题，操作者也认可这种先问清再做的模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 866,
+   "completion_tokens": 1662,
+   "total_tokens": 2528,
+   "cost": 0.000876736,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000876736,
+    "upstream_inference_prompt_cost": 9.5596e-05,
+    "upstream_inference_completions_cost": 0.00078114
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1581,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "操作者这条是在夸机器人会提问，不是纠正；从“会提问”可判断机器人当时在问澄清问题，操作者也认可这种先问清再做的模式。"
+ },
+ "parse_error": null
+}

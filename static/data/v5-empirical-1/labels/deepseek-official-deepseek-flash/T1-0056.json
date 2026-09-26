@@ -1,0 +1,37 @@
+{
+ "id": "T1-0056",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9707b5a0e3e0b29253d975797f15163bef935fd206a157a6082a0a124a4615f3",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M2\",\"intended_mode\":\"M2\",\"reason\":\"操作者只是补上机器人索要的答案原话（纯内容，没提任何做法要求，还暗示这答案本就简单、不必来问）；机器人这边自主跑完全部分析并完整留痕（工具归档、报告带日期不覆盖），操作者给完内容就默认让它照此写进 FAQ，即延续原来的自主执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1110,
+   "completion_tokens": 5178,
+   "total_tokens": 6288,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5080
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 854
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M2",
+  "intended_mode": "M2",
+  "reason": "操作者只是补上机器人索要的答案原话（纯内容，没提任何做法要求，还暗示这答案本就简单、不必来问）；机器人这边自主跑完全部分析并完整留痕（工具归档、报告带日期不覆盖），操作者给完内容就默认让它照此写进 FAQ，即延续原来的自主执行。"
+ },
+ "parse_error": null
+}

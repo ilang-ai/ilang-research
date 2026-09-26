@@ -1,0 +1,37 @@
+{
+ "id": "T1-0039",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "2c5663681ddbe63d0a09496fa601b856548a9736df9be2579a5c8b32b1e5525b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M8\",\"intended_mode\":\"M8\",\"reason\":\"上下文里操作者要求先停下 I-Lang，机器人明确停手并记录边界；随后消息转向客服方法论目标，属于新方向而非纠正机器人做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1069,
+   "completion_tokens": 4688,
+   "total_tokens": 5757,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4627
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 813
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M8",
+  "intended_mode": "M8",
+  "reason": "上下文里操作者要求先停下 I-Lang，机器人明确停手并记录边界；随后消息转向客服方法论目标，属于新方向而非纠正机器人做法。"
+ },
+ "parse_error": null
+}

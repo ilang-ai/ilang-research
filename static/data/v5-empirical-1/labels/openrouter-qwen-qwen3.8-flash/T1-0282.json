@@ -1,0 +1,47 @@
+{
+ "id": "T1-0282",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "8c96fc0a1829ca14026b2d26a89c404c67ffa16b180bd81d48bf1bd121d8b71f",
+ "text": "{\n  \"targets\": \"unclear\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"前文要求直接查站群并给出结果，期望是 M1；但机器人回复内容不可见，后续操作者消息已删除，无法判断实际模式和纠正对象。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 790,
+   "completion_tokens": 3154,
+   "total_tokens": 3944,
+   "cost": 0.001566576,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001566576,
+    "upstream_inference_prompt_cost": 8.4196e-05,
+    "upstream_inference_completions_cost": 0.00148238
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3075,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "前文要求直接查站群并给出结果，期望是 M1；但机器人回复内容不可见，后续操作者消息已删除，无法判断实际模式和纠正对象。"
+ },
+ "parse_error": null
+}

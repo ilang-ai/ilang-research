@@ -1,0 +1,59 @@
+{
+ "id": "T1-0294",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "2e99124f2b095a3d36e0bdd1faf15beca66deddaeb448f3de70c17c8425604fe",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.85,rel=0.50,cer=0.25,aut=0.90,rev=0.70,evd=0.20,sov=0.90,ine=0.80,ext=0.90]\nM:M5|conf:0.90\nR:回复属于用户请求范围，但正文缺失，无法核查准确性与适切性；需提供拟回复内容。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28538,
+   "completion_tokens": 228,
+   "total_tokens": 28766,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 141,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 105
+   },
+   "input_tokens": 28538,
+   "output_tokens": 228,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.85,
+   "csq": 0.85,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.9,
+   "rev": 0.7,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.8,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.9,
+  "reason": "回复属于用户请求范围，但正文缺失，无法核查准确性与适切性；需提供拟回复内容。"
+ },
+ "parse_error": null
+}

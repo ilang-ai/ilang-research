@@ -1,0 +1,37 @@
+{
+ "id": "T1-0222",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c4f55bb166127ad7b7b563231cfdd7867086a8ab85f0d028b993ad657b5b84c3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"这条消息是给机器人下达的新具体任务，要求继续执行挖掘出价不超过0.5美元的长尾词，并非纠正上一轮内容；机器人实际回复不可见，无法判断其模式，操作者意图是让机器人直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 699,
+   "completion_tokens": 1009,
+   "total_tokens": 1708,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 932
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 443
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "这条消息是给机器人下达的新具体任务，要求继续执行挖掘出价不超过0.5美元的长尾词，并非纠正上一轮内容；机器人实际回复不可见，无法判断其模式，操作者意图是让机器人直接执行。"
+ },
+ "parse_error": null
+}

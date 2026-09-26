@@ -1,0 +1,47 @@
+{
+ "id": "T1-0193",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b986e7a50788fd30ff1ca967e22f0a8b924f0aa06f757d3917e71c47888f3b8f",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者要求按预算谋划，机器人只给出建议方案；后续消息是在纠正方案里的联系对象，属于内容错误而非执行方式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 767,
+   "completion_tokens": 1838,
+   "total_tokens": 2605,
+   "cost": 0.000944606,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000944606,
+    "upstream_inference_prompt_cost": 8.0746e-05,
+    "upstream_inference_completions_cost": 0.00086386
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1766,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者要求按预算谋划，机器人只给出建议方案；后续消息是在纠正方案里的联系对象，属于内容错误而非执行方式。"
+ },
+ "parse_error": null
+}

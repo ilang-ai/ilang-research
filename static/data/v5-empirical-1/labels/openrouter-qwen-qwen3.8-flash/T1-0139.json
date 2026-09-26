@@ -1,0 +1,47 @@
+{
+ "id": "T1-0139",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e4cad59070660e4b81a152cbe6b25cfa8ae598068e3a7b2640546009ab2c1f15",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有再发声，机器人直接执行聚类并汇报结果，默认接受其自主执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 601,
+   "completion_tokens": 416,
+   "total_tokens": 1017,
+   "cost": 0.000251366,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000251366,
+    "upstream_inference_prompt_cost": 5.5846e-05,
+    "upstream_inference_completions_cost": 0.00019552
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 372,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有再发声，机器人直接执行聚类并汇报结果，默认接受其自主执行模式。"
+ },
+ "parse_error": null
+}

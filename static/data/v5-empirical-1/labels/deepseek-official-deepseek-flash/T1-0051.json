@@ -1,0 +1,37 @@
+{
+ "id": "T1-0051",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "961c0eeb21851f023c80c506467ba2f3b4abeae82322d01278d12dd6bb0d1878",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"操作者只是在回答机器人关于T老师联系方式的澄清问题，提供事实信息，没有对做不做或怎么做下指令；机器人因信息不全先提问，属于M5。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1493,
+   "completion_tokens": 7099,
+   "total_tokens": 8592,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7025
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1237
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "操作者只是在回答机器人关于T老师联系方式的澄清问题，提供事实信息，没有对做不做或怎么做下指令；机器人因信息不全先提问，属于M5。"
+ },
+ "parse_error": null
+}

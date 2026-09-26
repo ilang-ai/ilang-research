@@ -1,0 +1,47 @@
+{
+ "id": "T1-0042",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fdb5db9036861bd7846cb8619bced76836b2692aa9b1b0154d7ad7f003abee59",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人提出修改方案后等待确认，操作者只用客服效率提升反驳其对正期望的判断，没有说明希望机器人按哪种模式行动。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1627,
+   "completion_tokens": 93,
+   "total_tokens": 1720,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1624,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 31
+   },
+   "input_tokens": 1627,
+   "output_tokens": 93,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人提出修改方案后等待确认，操作者只用客服效率提升反驳其对正期望的判断，没有说明希望机器人按哪种模式行动。"
+ },
+ "parse_error": null
+}

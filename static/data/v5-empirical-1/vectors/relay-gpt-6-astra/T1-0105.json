@@ -1,0 +1,59 @@
+{
+ "id": "T1-0105",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "e0b84ddd89a3642cc1caeeb13f562e8242a897db9ee827a82591c49c2ae40dfa",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.75,csq=0.65,rel=0.55,cer=0.25,aut=0.50,rev=0.60,evd=0.20,sov=0.65,ine=0.50,ext=0.70]\nM:M5|conf:0.88\nR:此前同意的具体范围不明，需确认是否涵盖新增分流文案及 contacts 两处常驻修改，并核实修改内容与回滚方式",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28615,
+   "completion_tokens": 219,
+   "total_tokens": 28834,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 218,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 87
+   },
+   "input_tokens": 28615,
+   "output_tokens": 219,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.75,
+   "csq": 0.65,
+   "rel": 0.55,
+   "cer": 0.25,
+   "aut": 0.5,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.65,
+   "ine": 0.5,
+   "ext": 0.7
+  },
+  "declared_mode": "M5",
+  "conf": 0.88,
+  "reason": "此前同意的具体范围不明，需确认是否涵盖新增分流文案及 contacts 两处常驻修改，并核实修改内容与回滚方式"
+ },
+ "parse_error": null
+}

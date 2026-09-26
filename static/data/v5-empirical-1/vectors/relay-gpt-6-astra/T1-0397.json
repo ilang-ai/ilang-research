@@ -1,0 +1,59 @@
+{
+ "id": "T1-0397",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "dd3f8822b60a7a41fcfa33221849e4e45319b1220cc8dfb7cb984578f0d338c4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.80,csq=0.75,rel=0.50,cer=0.15,aut=0.65,rev=0.50,evd=0.15,sov=0.50,ine=0.50,ext=0.75]\nM:M5|conf:0.95\nR:回复正文缺失，且“没生成令牌”的上下文不明；需补充拟回复内容才能评估其适当性",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28534,
+   "completion_tokens": 209,
+   "total_tokens": 28743,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 137,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 82
+   },
+   "input_tokens": 28534,
+   "output_tokens": 209,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.8,
+   "csq": 0.75,
+   "rel": 0.5,
+   "cer": 0.15,
+   "aut": 0.65,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.5,
+   "ine": 0.5,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，且“没生成令牌”的上下文不明；需补充拟回复内容才能评估其适当性"
+ },
+ "parse_error": null
+}

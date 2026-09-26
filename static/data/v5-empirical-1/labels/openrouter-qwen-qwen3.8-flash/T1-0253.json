@@ -1,0 +1,47 @@
+{
+ "id": "T1-0253",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "49b08aa41340db9886217cc78901709bdc7267295506bf7c19b63e8a9c073fd1",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者最后是在质疑设备方案的成本和可行性，属于对怎么做/选什么路线的反馈；机器人回复内容不可见所以无法判断其模式，但操作者之前明确要机器人直接告诉他下一步怎么做，属于只要建议不动手。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 911,
+   "completion_tokens": 2429,
+   "total_tokens": 3340,
+   "cost": 0.001243976,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001243976,
+    "upstream_inference_prompt_cost": 0.000102346,
+    "upstream_inference_completions_cost": 0.00114163
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2335,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者最后是在质疑设备方案的成本和可行性，属于对怎么做/选什么路线的反馈；机器人回复内容不可见所以无法判断其模式，但操作者之前明确要机器人直接告诉他下一步怎么做，属于只要建议不动手。"
+ },
+ "parse_error": null
+}

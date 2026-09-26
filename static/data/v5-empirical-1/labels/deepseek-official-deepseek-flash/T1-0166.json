@@ -1,0 +1,37 @@
+{
+ "id": "T1-0166",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b8d06c4acfd0075dbf1d82a42f6c970fa54dcaa125f052a906b88040e59175ef",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者没有纠正机器人上一步动作，而是新提出一个请求：抛开限制、客观评价“我这个做法”对不对，属于只要评估意见、不要动手执行的诉求（M4）；机器人此前那条回复内容不可见，实际走的模式无从判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 580,
+   "completion_tokens": 882,
+   "total_tokens": 1462,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 803
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 324
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者没有纠正机器人上一步动作，而是新提出一个请求：抛开限制、客观评价“我这个做法”对不对，属于只要评估意见、不要动手执行的诉求（M4）；机器人此前那条回复内容不可见，实际走的模式无从判断。"
+ },
+ "parse_error": null
+}

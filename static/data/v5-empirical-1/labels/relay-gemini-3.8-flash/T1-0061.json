@@ -1,0 +1,46 @@
+{
+ "id": "T1-0061",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0a4413ded4ff078e30726907248322bb983df7d8327c932d4fa23d89d7944ec8",
+ "text": "```json\n{\n  \"targets\": \"unclear\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者消息被删除无法判断意图；机器人已直接修改规则上线并汇报结果，属于 M1。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1251,
+   "completion_tokens": 259,
+   "total_tokens": 1510,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1251,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 68,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 191
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者消息被删除无法判断意图；机器人已直接修改规则上线并汇报结果，属于 M1。"
+ },
+ "parse_error": null
+}

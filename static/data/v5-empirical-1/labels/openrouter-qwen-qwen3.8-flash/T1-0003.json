@@ -1,0 +1,47 @@
+{
+ "id": "T1-0003",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "372af093d90e4893b5d3f5917e82703744cf627c70f08b46c0ab9c875b5d3bfd",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者后来只是通知结果并提新的业务处理建议，不是在纠正做不做或怎么做；机器人实际已自行设置触发并承诺恢复，属于直接做；但操作者此前“你来 我审批”这种执行加人工审批无法对应给定八模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1081,
+   "completion_tokens": 2566,
+   "total_tokens": 3647,
+   "cost": 0.001333866,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001333866,
+    "upstream_inference_prompt_cost": 0.000127846,
+    "upstream_inference_completions_cost": 0.00120602
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2466,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者后来只是通知结果并提新的业务处理建议，不是在纠正做不做或怎么做；机器人实际已自行设置触发并承诺恢复，属于直接做；但操作者此前“你来 我审批”这种执行加人工审批无法对应给定八模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0027",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "15f022228f4a5871cedf41e7a420d6e9c4562a8514c84e35709ee998785f5482",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M6\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人完成上一任务后就未决问题请示操作者定夺（M6），操作者接着给黑产话题补充具体文案，未对机器人的工作模式提出异议。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1258,
+   "completion_tokens": 534,
+   "total_tokens": 1792,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1258,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 84,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 450
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "accepted",
+  "reason": "机器人完成上一任务后就未决问题请示操作者定夺（M6），操作者接着给黑产话题补充具体文案，未对机器人的工作模式提出异议。"
+ },
+ "parse_error": null
+}

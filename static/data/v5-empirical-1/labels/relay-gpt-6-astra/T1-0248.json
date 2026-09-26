@@ -1,0 +1,46 @@
+{
+ "id": "T1-0248",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "879becee47f5fa4544089b881dc003753f58381042f2431e34f5e34daf3d7432",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"机器人回复正文不可见，操作者只说“消费类目”，无法判断是在纠正内容、调整做法还是提出新任务，也无法确定双方的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 786,
+   "completion_tokens": 101,
+   "total_tokens": 887,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 37
+   },
+   "input_tokens": 786,
+   "output_tokens": 101,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "机器人回复正文不可见，操作者只说“消费类目”，无法判断是在纠正内容、调整做法还是提出新任务，也无法确定双方的决策模式。"
+ },
+ "parse_error": null
+}

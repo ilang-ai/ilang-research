@@ -1,0 +1,37 @@
+{
+ "id": "T1-0181",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ada75e5501467ff611923c29c79319c99bd5b562ed668226cc5670dd5665bf11",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者给出了未来处理灰黑项目咨询的具体应对基调与话术，要求机器人直接照此执行，属于对做法的指示而非内容纠错；机器人实际回复文本不可见，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 579,
+   "completion_tokens": 4313,
+   "total_tokens": 4892,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4243
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 323
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者给出了未来处理灰黑项目咨询的具体应对基调与话术，要求机器人直接照此执行，属于对做法的指示而非内容纠错；机器人实际回复文本不可见，无法判断其模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0228",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "029fbfeb51bd34f1ae7375a95ad4bfa97c9ef180dc8440719b10def5e6a39080",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者质疑产品变现路径、联盟剥削和AI时代成本，核心是做不做/怎么做；机器人回复原文不可见，操作者也未明确指令，无法判断实际与期望模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 600,
+   "completion_tokens": 1145,
+   "total_tokens": 1745,
+   "cost": 0.000593846,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000593846,
+    "upstream_inference_prompt_cost": 5.5696e-05,
+    "upstream_inference_completions_cost": 0.00053815
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1063,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者质疑产品变现路径、联盟剥削和AI时代成本，核心是做不做/怎么做；机器人回复原文不可见，操作者也未明确指令，无法判断实际与期望模式。"
+ },
+ "parse_error": null
+}

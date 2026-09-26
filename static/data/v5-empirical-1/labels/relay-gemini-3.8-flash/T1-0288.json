@@ -1,0 +1,46 @@
+{
+ "id": "T1-0288",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "74699a69533b6eb4b50fe091ebac28fc2a5c0545e3a6e0e3172fc7990c4aa9d3",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者提出了关于识图能力及科普的新任务/话题，并非针对上一次回复的纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 773,
+   "completion_tokens": 251,
+   "total_tokens": 1024,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 773,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 70,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 181
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者提出了关于识图能力及科普的新任务/话题，并非针对上一次回复的纠正。"
+ },
+ "parse_error": null
+}

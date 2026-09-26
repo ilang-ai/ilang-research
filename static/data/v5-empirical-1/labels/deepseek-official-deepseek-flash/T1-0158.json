@@ -1,0 +1,37 @@
+{
+ "id": "T1-0158",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5e373e244733a635e87e1de529bc7451af9ab36a7bcece6efc29f1bd0154b6a1",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者质问“你不会自己看群吗”，是在纠正机器人没有自行查看群信息，想要它自主去看群并处理，而不是来问或推给操作者。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 549,
+   "completion_tokens": 610,
+   "total_tokens": 1159,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 549
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 293
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者质问“你不会自己看群吗”，是在纠正机器人没有自行查看群信息，想要它自主去看群并处理，而不是来问或推给操作者。"
+ },
+ "parse_error": null
+}

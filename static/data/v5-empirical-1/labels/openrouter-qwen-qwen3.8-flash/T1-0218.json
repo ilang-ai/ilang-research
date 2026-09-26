@@ -1,0 +1,47 @@
+{
+ "id": "T1-0218",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "24b182842235798955173999a77b31d3f2f8662380059493a1cd3fea41f090e1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在提出新的写作任务，要求机器人直接写续期通知，不是纠正；但机器人当时实际模式从可见信息无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 601,
+   "completion_tokens": 480,
+   "total_tokens": 1081,
+   "cost": 0.000281446,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000281446,
+    "upstream_inference_prompt_cost": 5.5846e-05,
+    "upstream_inference_completions_cost": 0.0002256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 425,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在提出新的写作任务，要求机器人直接写续期通知，不是纠正；但机器人当时实际模式从可见信息无法判断。"
+ },
+ "parse_error": null
+}

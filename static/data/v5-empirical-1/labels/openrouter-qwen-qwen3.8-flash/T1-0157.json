@@ -1,0 +1,47 @@
+{
+ "id": "T1-0157",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cbfa4bb6092360cc009ecc9d1c5209c4e0668c189e5ec9dd80f38ea024e3b00d",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者在追问机器人为何没有回复群里的请求，指向的是是否应该执行以及如何响应，而非具体文本内容；但机器人回复内容不可见，也无法从操作者措辞中确定其期望的具体执行模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 581,
+   "completion_tokens": 592,
+   "total_tokens": 1173,
+   "cost": 0.000331086,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000331086,
+    "upstream_inference_prompt_cost": 5.2846e-05,
+    "upstream_inference_completions_cost": 0.00027824
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 504,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者在追问机器人为何没有回复群里的请求，指向的是是否应该执行以及如何响应，而非具体文本内容；但机器人回复内容不可见，也无法从操作者措辞中确定其期望的具体执行模式。"
+ },
+ "parse_error": null
+}

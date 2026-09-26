@@ -1,0 +1,37 @@
+{
+ "id": "T1-0074",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9139c29006792e2f6fa14b3954885e3a945f8547f77ccc2c3017e207664f7bae",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此前说“其他你来修”，授权机器人自主修复；机器人完成后汇报并继续补文档，操作者未出声即默认接受该执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 567,
+   "completion_tokens": 394,
+   "total_tokens": 961,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 338
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 311
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者此前说“其他你来修”，授权机器人自主修复；机器人完成后汇报并继续补文档，操作者未出声即默认接受该执行方式。"
+ },
+ "parse_error": null
+}

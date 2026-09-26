@@ -1,0 +1,37 @@
+{
+ "id": "T1-0186",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b9ea1320f39c74320178369ba6e422f0ea5de22c2e66ad00e863deb988d26e94",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是补充或纠正时区这一事实信息，没有涉及是否执行、如何执行的决策模式，且机器人先前动作不可见。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 548,
+   "completion_tokens": 2544,
+   "total_tokens": 3092,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2491
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 292
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是补充或纠正时区这一事实信息，没有涉及是否执行、如何执行的决策模式，且机器人先前动作不可见。"
+ },
+ "parse_error": null
+}

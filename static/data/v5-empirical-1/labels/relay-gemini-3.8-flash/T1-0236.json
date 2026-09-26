@@ -1,0 +1,46 @@
+{
+ "id": "T1-0236",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "2e93937b465d6bb78d0a5d087d8be1056980b70d0ef9f0e259243f185fb94211",
+ "text": "```json\n{\"targets\": \"content_only\", \"bot_mode\": \"M4\", \"intended_mode\": \"M4\", \"reason\": \"操作者对机器人给建议时的引导逻辑和推荐策略提出调教纠正，仍属于提供建议（M4）的范畴。\"}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 699,
+   "completion_tokens": 422,
+   "total_tokens": 1121,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 699,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 66,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 356
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者对机器人给建议时的引导逻辑和推荐策略提出调教纠正，仍属于提供建议（M4）的范畴。"
+ },
+ "parse_error": null
+}

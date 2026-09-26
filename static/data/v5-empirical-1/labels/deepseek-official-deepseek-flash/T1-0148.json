@@ -1,0 +1,37 @@
+{
+ "id": "T1-0148",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "bfd51e1bd1d6118ef38c0d00d52f6a2b0ca3814208d4567d3cdb351fe3d17ec1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M6\",\"intended_mode\":\"M6\",\"reason\":\"操作者回复已加好并让机器人再次发送权限审批窗口由自己批准，表明机器人当时把权限决定交给操作者，操作者也希望继续由自己审批。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 560,
+   "completion_tokens": 4597,
+   "total_tokens": 5157,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4534
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 304
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "操作者回复已加好并让机器人再次发送权限审批窗口由自己批准，表明机器人当时把权限决定交给操作者，操作者也希望继续由自己审批。"
+ },
+ "parse_error": null
+}

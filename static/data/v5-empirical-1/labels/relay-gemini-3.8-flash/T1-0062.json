@@ -1,0 +1,46 @@
+{
+ "id": "T1-0062",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e6417177a49f52e2bd2415e3d00a550f954458385afa6d7fbaa42b7db0ebaf60",
+ "text": "```json\n{\n  \"targets\": \"unclear\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者上下文及反馈内容均被脱敏删除无法判断意图，机器人当时给出了话术方案并明确等确认未动文件，属于 M3。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1018,
+   "completion_tokens": 319,
+   "total_tokens": 1337,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1018,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 79,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 240
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者上下文及反馈内容均被脱敏删除无法判断意图，机器人当时给出了话术方案并明确等确认未动文件，属于 M3。"
+ },
+ "parse_error": null
+}

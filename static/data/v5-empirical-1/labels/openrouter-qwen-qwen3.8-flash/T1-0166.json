@@ -1,0 +1,47 @@
+{
+ "id": "T1-0166",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b8d06c4acfd0075dbf1d82a42f6c970fa54dcaa125f052a906b88040e59175ef",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者要求机器人抛开限制客观评价做法，是在指定机器人该如何回应；这更像要求给建议或评价而非直接执行，但机器人实际回复内容不可见，无法判断其实际模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 618,
+   "completion_tokens": 670,
+   "total_tokens": 1288,
+   "cost": 0.000338992,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000338992,
+    "upstream_inference_prompt_cost": 2.4092e-05,
+    "upstream_inference_completions_cost": 0.0003149
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 585,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者要求机器人抛开限制客观评价做法，是在指定机器人该如何回应；这更像要求给建议或评价而非直接执行，但机器人实际回复内容不可见，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

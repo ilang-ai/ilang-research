@@ -1,0 +1,37 @@
+{
+ "id": "T1-0264",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e4e48f3b6f4b8ce09c7b16cd8a75b0c2b7716f80c7e661e0b22cd65699d38b21",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者要求机器人继续查带CSE的AdSense账户价格，属于对做不做/怎么做的指示，不是内容纠正；机器人实际回复内容不可见，无法判断其模式；操作者显然希望机器人直接继续执行并汇报，故选M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 726,
+   "completion_tokens": 806,
+   "total_tokens": 1532,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 726
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 342
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者要求机器人继续查带CSE的AdSense账户价格，属于对做不做/怎么做的指示，不是内容纠正；机器人实际回复内容不可见，无法判断其模式；操作者显然希望机器人直接继续执行并汇报，故选M1。"
+ },
+ "parse_error": null
+}

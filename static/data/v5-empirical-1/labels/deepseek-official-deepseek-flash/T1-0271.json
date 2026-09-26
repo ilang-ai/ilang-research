@@ -1,0 +1,37 @@
+{
+ "id": "T1-0271",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "be9c81831502f057e83d2c360676b9c8de267c356b7a466b5dceff0c5e276d37",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人此前的风险判断和推理，强调不会有问题、remote允许多点部署，属于内容与理由层面的指导，并未要求它实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 779,
+   "completion_tokens": 2397,
+   "total_tokens": 3176,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2339
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 523
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人此前的风险判断和推理，强调不会有问题、remote允许多点部署，属于内容与理由层面的指导，并未要求它实际执行操作。"
+ },
+ "parse_error": null
+}

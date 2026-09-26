@@ -1,0 +1,46 @@
+{
+ "id": "T1-0281",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "389e81523ed4f16f2405e56c4f5d4aafe53d26816c4ee5272f76a1ccf54aa6b8",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在补充或纠正海外电话卡代理商所在的QQ群及询问渠道，没有明确要求切换决策模式，且机器人回复正文不可见。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 765,
+   "completion_tokens": 100,
+   "total_tokens": 865,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 38
+   },
+   "input_tokens": 765,
+   "output_tokens": 100,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在补充或纠正海外电话卡代理商所在的QQ群及询问渠道，没有明确要求切换决策模式，且机器人回复正文不可见。"
+ },
+ "parse_error": null
+}

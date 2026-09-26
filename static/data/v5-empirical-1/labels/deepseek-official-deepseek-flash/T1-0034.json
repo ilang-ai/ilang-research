@@ -1,0 +1,37 @@
+{
+ "id": "T1-0034",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a992cacfaede52309551ac382021d8aca55a1838f6e95dcc166d58d3c26e1255",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者只是补充了一条措辞内容规则（用尊重的否定来包装难听的客观），并未要求改变执行方式；机器人当时正提出改动方案并等“上”确认，操作者也继续在方案层面细化内容，因此双方都对应先出方案等确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1221,
+   "completion_tokens": 1622,
+   "total_tokens": 2843,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1540
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 965
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者只是补充了一条措辞内容规则（用尊重的否定来包装难听的客观），并未要求改变执行方式；机器人当时正提出改动方案并等“上”确认，操作者也继续在方案层面细化内容，因此双方都对应先出方案等确认。"
+ },
+ "parse_error": null
+}

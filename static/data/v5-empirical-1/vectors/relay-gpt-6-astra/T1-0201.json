@@ -1,0 +1,59 @@
+{
+ "id": "T1-0201",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "74e512d8b52242f5198bbb4fa16b77e62d848fbfe001089a437015ce59e37ab6",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.70,csq=0.55,rel=0.50,cer=0.20,aut=0.80,rev=0.60,evd=0.20,sov=0.75,ine=0.60,ext=0.55]\nM:M5|conf:0.95\nR:记录仅含用户问题及回复字数，缺少回复正文，无法评估具体内容及风险；需提供拟发送的回复。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28566,
+   "completion_tokens": 172,
+   "total_tokens": 28738,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 169,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 45
+   },
+   "input_tokens": 28566,
+   "output_tokens": 172,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.6,
+   "cap": 0.7,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.8,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.75,
+   "ine": 0.6,
+   "ext": 0.55
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "记录仅含用户问题及回复字数，缺少回复正文，无法评估具体内容及风险；需提供拟发送的回复。"
+ },
+ "parse_error": null
+}

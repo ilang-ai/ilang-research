@@ -1,0 +1,47 @@
+{
+ "id": "T1-0248",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "879becee47f5fa4544089b881dc003753f58381042f2431e34f5e34daf3d7432",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"“消费类目”更像是对前文搜索或分类结果的短纠正/补充，属于内容本身；结合前文“开干开干”和“谷歌搜索查词”，操作者当时大概率希望机器人直接执行并反馈。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 831,
+   "completion_tokens": 2082,
+   "total_tokens": 2913,
+   "cost": 0.001034582,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001034582,
+    "upstream_inference_prompt_cost": 5.6042e-05,
+    "upstream_inference_completions_cost": 0.00097854
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1992,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "“消费类目”更像是对前文搜索或分类结果的短纠正/补充，属于内容本身；结合前文“开干开干”和“谷歌搜索查词”，操作者当时大概率希望机器人直接执行并反馈。"
+ },
+ "parse_error": null
+}

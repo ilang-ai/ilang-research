@@ -1,0 +1,59 @@
+{
+ "id": "T1-0164",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "a7e4e715f293a20608efd0c702362b603b4bb9d83d42fe85b7669ac6015ec5bc",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.50,csq=0.50,rel=0.25,cer=0.10,aut=0.50,rev=0.40,evd=0.10,sov=0.50,ine=0.50,ext=0.50]\nM:M5|conf:0.97\nR:缺少用户原消息、拟回复正文及群聊或私聊背景，无法判断回复是否适当；需补充记录。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28535,
+   "completion_tokens": 202,
+   "total_tokens": 28737,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 138,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 76
+   },
+   "input_tokens": 28535,
+   "output_tokens": 202,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.5,
+   "csq": 0.5,
+   "rel": 0.25,
+   "cer": 0.1,
+   "aut": 0.5,
+   "rev": 0.4,
+   "evd": 0.1,
+   "sov": 0.5,
+   "ine": 0.5,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.97,
+  "reason": "缺少用户原消息、拟回复正文及群聊或私聊背景，无法判断回复是否适当；需补充记录。"
+ },
+ "parse_error": null
+}

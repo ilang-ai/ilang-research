@@ -1,0 +1,37 @@
+{
+ "id": "T1-0253",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "49b08aa41340db9886217cc78901709bdc7267295506bf7c19b63e8a9c073fd1",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者在评论/补充 Windows 11 Pro 与 Mac 的硬件对比，属于内容层面的意见，并未要求机器人改做或怎么做；机器人回复文本不可见，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 843,
+   "completion_tokens": 4162,
+   "total_tokens": 5005,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4096
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 331
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者在评论/补充 Windows 11 Pro 与 Mac 的硬件对比，属于内容层面的意见，并未要求机器人改做或怎么做；机器人回复文本不可见，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

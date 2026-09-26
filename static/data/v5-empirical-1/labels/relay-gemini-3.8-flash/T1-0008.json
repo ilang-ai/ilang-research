@@ -1,0 +1,46 @@
+{
+ "id": "T1-0008",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "df0a0e2e88b5400bea39ce06f000fa31f9945c3bb92c0eb00cc1a56865c233be",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人自主排查权限缺失并调起配置技能准备修改（M1）；操作者随后输入了完整的技能模板和明确的自动化配置需求，属于提供执行上下文与具体任务而非纠正（not_a_correction），期望机器人直接执行配置（M1）。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 54227,
+   "completion_tokens": 1478,
+   "total_tokens": 55705,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 54227,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 106,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 1372
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人自主排查权限缺失并调起配置技能准备修改（M1）；操作者随后输入了完整的技能模板和明确的自动化配置需求，属于提供执行上下文与具体任务而非纠正（not_a_correction），期望机器人直接执行配置（M1）。"
+ },
+ "parse_error": null
+}

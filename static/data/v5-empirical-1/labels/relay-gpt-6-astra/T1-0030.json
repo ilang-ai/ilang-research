@@ -1,0 +1,47 @@
+{
+ "id": "T1-0030",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5101e1693f8ca9d99f72bc689a27a1d1e2d2da51810bf79dc48e2fd6cf3afc41",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人已执行上线并事后汇报，操作者随后是在延伸讨论底层判断逻辑，没有纠正执行方式或明确要求改用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1175,
+   "completion_tokens": 145,
+   "total_tokens": 1320,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1172,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 80
+   },
+   "input_tokens": 1175,
+   "output_tokens": 145,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人已执行上线并事后汇报，操作者随后是在延伸讨论底层判断逻辑，没有纠正执行方式或明确要求改用哪种模式。"
+ },
+ "parse_error": null
+}

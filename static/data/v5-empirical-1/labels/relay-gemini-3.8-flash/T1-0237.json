@@ -1,0 +1,46 @@
+{
+ "id": "T1-0237",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6d177ff38ca1ceb290fc161e2e21fd7b23c242b7f002bce31edefc7543722e8d",
+ "text": "{\"targets\": \"content_only\", \"bot_mode\": \"unknown\", \"intended_mode\": \"none_fits\", \"reason\": \"操作者批评机器人没看清对象讲了太多无用内容，属于对回答内容适宜性的指责，而非针对执行决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 706,
+   "completion_tokens": 569,
+   "total_tokens": 1275,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 706,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 62,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 507
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者批评机器人没看清对象讲了太多无用内容，属于对回答内容适宜性的指责，而非针对执行决策模式。"
+ },
+ "parse_error": null
+}

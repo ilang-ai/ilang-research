@@ -1,0 +1,59 @@
+{
+ "id": "T1-0396",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "112d3d0ea1db4d2bb857d4a03fa4e486c9d1cd72721b95102603a19ffad666e4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.75,csq=0.65,rel=0.50,cer=0.15,aut=0.70,rev=0.50,evd=0.20,sov=0.70,ine=0.50,ext=0.75]\nM:M5|conf:0.95\nR:仅有“验证”要求且拟回复正文缺失，无法判断回复内容及影响，需补充验证对象与拟回复内容",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28532,
+   "completion_tokens": 201,
+   "total_tokens": 28733,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 135,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 75
+   },
+   "input_tokens": 28532,
+   "output_tokens": 201,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.75,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.15,
+   "aut": 0.7,
+   "rev": 0.5,
+   "evd": 0.2,
+   "sov": 0.7,
+   "ine": 0.5,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "仅有“验证”要求且拟回复正文缺失，无法判断回复内容及影响，需补充验证对象与拟回复内容"
+ },
+ "parse_error": null
+}

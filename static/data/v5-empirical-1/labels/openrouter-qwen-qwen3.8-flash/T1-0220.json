@@ -1,0 +1,47 @@
+{
+ "id": "T1-0220",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cc5b7c8a21cb5cb5ebf8e250ccc0eb317be1349fd9b6ffd74267340ba224ffab",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在纠正机器人把“1000”说成美元这一内容事实/单位错误，并非改变执行方式；机器人此前根据提问给出建议或评估，属于只给建议不动手。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 801,
+   "completion_tokens": 920,
+   "total_tokens": 1721,
+   "cost": 0.000483942,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000483942,
+    "upstream_inference_prompt_cost": 5.1542e-05,
+    "upstream_inference_completions_cost": 0.0004324
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 834,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正机器人把“1000”说成美元这一内容事实/单位错误，并非改变执行方式；机器人此前根据提问给出建议或评估，属于只给建议不动手。"
+ },
+ "parse_error": null
+}

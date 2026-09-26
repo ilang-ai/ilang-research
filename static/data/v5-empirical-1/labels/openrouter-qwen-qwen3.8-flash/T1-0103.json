@@ -1,0 +1,47 @@
+{
+ "id": "T1-0103",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cbb7cf597a79eda25792fd135764bcff926625f3a0f38bb024b5ae83f89670ae",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，机器人自行执行 Bash 调取记录并准备给用户看，属于直接执行后汇报；对照事件默认接受该模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 615,
+   "completion_tokens": 473,
+   "total_tokens": 1088,
+   "cost": 0.000245952,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000245952,
+    "upstream_inference_prompt_cost": 2.3642e-05,
+    "upstream_inference_completions_cost": 0.00022231
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 419,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，机器人自行执行 Bash 调取记录并准备给用户看，属于直接执行后汇报；对照事件默认接受该模式。"
+ },
+ "parse_error": null
+}

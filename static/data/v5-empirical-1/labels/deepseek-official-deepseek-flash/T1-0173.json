@@ -1,0 +1,37 @@
+{
+ "id": "T1-0173",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ae30c0615b056c12362ae7205f4f2650be0d90ab969f6f9fb2c593e62d58c9b7",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在给出新的调教指令，要求写入记忆并去搜索，不是对前一条回复的内容纠正；机器人实际模式从隐藏的回复里看不出来，操作者希望直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 605,
+   "completion_tokens": 5273,
+   "total_tokens": 5878,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5207
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 349
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在给出新的调教指令，要求写入记忆并去搜索，不是对前一条回复的内容纠正；机器人实际模式从隐藏的回复里看不出来，操作者希望直接执行。"
+ },
+ "parse_error": null
+}

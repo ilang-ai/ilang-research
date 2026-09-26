@@ -1,0 +1,37 @@
+{
+ "id": "T1-0001",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "c0f95ec3463323f180b806565843a5ee80c85fc9dc7c87280cc01757757e0dd2",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人自己查完全部日志并汇报，但对修复只给出顺序建议、明确「等你点头」，属于先拿方案等确认（M3）；操作者回「其他你来修」是把后续修复直接授权给机器人去做，不需要再逐个确认（M1），即针对做不做的决定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2402,
+   "completion_tokens": 1267,
+   "total_tokens": 3669,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1178
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 2402
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人自己查完全部日志并汇报，但对修复只给出顺序建议、明确「等你点头」，属于先拿方案等确认（M3）；操作者回「其他你来修」是把后续修复直接授权给机器人去做，不需要再逐个确认（M1），即针对做不做的决定。"
+ },
+ "parse_error": null
+}

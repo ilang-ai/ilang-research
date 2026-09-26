@@ -1,0 +1,47 @@
+{
+ "id": "T1-0062",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e6417177a49f52e2bd2415e3d00a550f954458385afa6d7fbaa42b7db0ebaf60",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M5\",\"intended_mode\":\"unknown\",\"reason\":\"机器人先给了话术草稿，但明确表示文件未动、还要等公告原文和四项关键信息；操作者后续消息已删除，无法判断其纠正目标和期望模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1069,
+   "completion_tokens": 205,
+   "total_tokens": 1274,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1066,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 130
+   },
+   "input_tokens": 1069,
+   "output_tokens": 205,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M5",
+  "intended_mode": "unknown",
+  "reason": "机器人先给了话术草稿，但明确表示文件未动、还要等公告原文和四项关键信息；操作者后续消息已删除，无法判断其纠正目标和期望模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0258",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f7e393040490f4cdf69fbf0a2e7de3cc19c677832575a60727a7ec67bd42868e",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人关于C盘扩容的建议内容（30G无需扩容，10G以下再考虑），机器人当时是在给建议而非动手执行，因此两人意图都是M4只给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 831,
+   "completion_tokens": 1301,
+   "total_tokens": 2132,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1236
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 575
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人关于C盘扩容的建议内容（30G无需扩容，10G以下再考虑），机器人当时是在给建议而非动手执行，因此两人意图都是M4只给建议。"
+ },
+ "parse_error": null
+}

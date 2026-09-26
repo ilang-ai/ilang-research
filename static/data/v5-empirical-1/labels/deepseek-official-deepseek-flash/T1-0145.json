@@ -1,0 +1,37 @@
+{
+ "id": "T1-0145",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f46ede3e24abe1e599da8b468f9b2466c0670c64c2bace6be15b387fabe66fad",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M3\",\"reason\":\"操作者给出飞书接口文档并要求机器人列出所需权限、由自己批准，属于对如何推进执行（获取权限）的指示；机器人回复内容未公开，无法判断其实际模式；操作者希望机器人先提出权限需求并获批准再继续，因此 intended_mode 取 M3。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 572,
+   "completion_tokens": 5205,
+   "total_tokens": 5777,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5117
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 316
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M3",
+  "reason": "操作者给出飞书接口文档并要求机器人列出所需权限、由自己批准，属于对如何推进执行（获取权限）的指示；机器人回复内容未公开，无法判断其实际模式；操作者希望机器人先提出权限需求并获批准再继续，因此 intended_mode 取 M3。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0169",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fe68b80a71dd6650d475dfb5e45f42f699663bfb617436082ed188728a39f21c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在指导机器人如何回应：要有立场、从对方角度解决真实需求、不怕得罪人并由自己承担后果，属于怎么做；机器人当时回复内容不可见无法判断模式，意图最接近授权它直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 643,
+   "completion_tokens": 1406,
+   "total_tokens": 2049,
+   "cost": 0.000722966,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000722966,
+    "upstream_inference_prompt_cost": 6.2146e-05,
+    "upstream_inference_completions_cost": 0.00066082
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1334,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在指导机器人如何回应：要有立场、从对方角度解决真实需求、不怕得罪人并由自己承担后果，属于怎么做；机器人当时回复内容不可见无法判断模式，意图最接近授权它直接执行。"
+ },
+ "parse_error": null
+}

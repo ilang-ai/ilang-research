@@ -1,0 +1,46 @@
+{
+ "id": "T1-0183",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1b039c534efcb45f6b6995d2fe15dfbdd31cbddddf000fdc1efe1057e56cd054",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者反对给灰黑问题提供操作流程，只允许有限的知识性回应；机器人原回复未公开，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 655,
+   "completion_tokens": 231,
+   "total_tokens": 886,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 171
+   },
+   "input_tokens": 655,
+   "output_tokens": 231,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者反对给灰黑问题提供操作流程，只允许有限的知识性回应；机器人原回复未公开，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

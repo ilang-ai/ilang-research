@@ -1,0 +1,46 @@
+{
+ "id": "T1-0163",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "27110f0be922e6b64a16d0609a5fc83bdc05446b654c89015c9b2736c843c4b2",
+ "text": "```json\n{\n  \"targets\": \"unclear\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"缺少具体上下文与机器人回复内容，单发一个问号无法判断操作者的针对目标和期望模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 551,
+   "completion_tokens": 268,
+   "total_tokens": 819,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 551,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 66,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 202
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "缺少具体上下文与机器人回复内容，单发一个问号无法判断操作者的针对目标和期望模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0214",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f991272ee075922cb165859eaad11b4117d3d2908ee1d6c5b98fa1c4abc4c2eb",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"缺少之前的要求和机器人回复正文，这条消息主要在谈AI引导注册和收款的产品思路，无法确定是在纠正机器人还是补充需求，也看不出要求机器人当时采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 629,
+   "completion_tokens": 276,
+   "total_tokens": 905,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 200
+   },
+   "input_tokens": 629,
+   "output_tokens": 276,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "缺少之前的要求和机器人回复正文，这条消息主要在谈AI引导注册和收款的产品思路，无法确定是在纠正机器人还是补充需求，也看不出要求机器人当时采用哪种模式。"
+ },
+ "parse_error": null
+}

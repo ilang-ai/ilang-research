@@ -1,0 +1,37 @@
+{
+ "id": "T1-0058",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a0fe83707b4f50f14a6570460062b38e7c7326b5c52368bbf141eeb11210ba3f",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在回答机器人关于信任题如何答的询问，提供具体话术内容，没有纠正机器人做不做或怎么做；机器人此前已直接执行并汇报，操作者继续给内容，默认接受其自主执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1142,
+   "completion_tokens": 4062,
+   "total_tokens": 5204,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3988
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 886
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在回答机器人关于信任题如何答的询问，提供具体话术内容，没有纠正机器人做不做或怎么做；机器人此前已直接执行并汇报，操作者继续给内容，默认接受其自主执行。"
+ },
+ "parse_error": null
+}

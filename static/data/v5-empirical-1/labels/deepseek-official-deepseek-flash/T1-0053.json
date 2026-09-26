@@ -1,0 +1,37 @@
+{
+ "id": "T1-0053",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ad2dfc4b56d7564394d69573c44d227cdde178dbff0e09a62c6d97c56979a6ae",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M5\",\"intended_mode\":\"M5\",\"reason\":\"操作者用官方宣传文章纠正机器人‘白名单是编的’这一事实判断，针对的是内容；机器人先查证再提出澄清问题，等操作者确认白名单是否存在，属于先问清楚再说；操作者回答并确认AI说法基本正确，也配合了这种先问清楚的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 3195,
+   "completion_tokens": 3251,
+   "total_tokens": 6446,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3162
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 2939
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "操作者用官方宣传文章纠正机器人‘白名单是编的’这一事实判断，针对的是内容；机器人先查证再提出澄清问题，等操作者确认白名单是否存在，属于先问清楚再说；操作者回答并确认AI说法基本正确，也配合了这种先问清楚的模式。"
+ },
+ "parse_error": null
+}

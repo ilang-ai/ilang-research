@@ -1,0 +1,37 @@
+{
+ "id": "T1-0378",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "eb974466cb9a5a7649b6dcfabbf540cd9b172346d5d1d6d353b5f4491c9ada7f",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件：操作者没有出声，默认接受机器人继续，故 targets 为 none、intended_mode 为 accepted；机器人回复正文未公开，无法判断实际模式，bot_mode 填 unknown。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 573,
+   "completion_tokens": 222,
+   "total_tokens": 795,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 157
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 317
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "对照事件：操作者没有出声，默认接受机器人继续，故 targets 为 none、intended_mode 为 accepted；机器人回复正文未公开，无法判断实际模式，bot_mode 填 unknown。"
+ },
+ "parse_error": null
+}

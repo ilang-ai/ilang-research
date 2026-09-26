@@ -1,0 +1,37 @@
+{
+ "id": "T1-0201",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1813a7a64129aaea2911adb339f3378e6ea6992432226779b370051825c849c4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在调教以后遇到同类提问的回答口径（直接抛出结论，不要绕），属于对怎么做/怎么答的指令；机器人此前已直接作答并回报，故 bot_mode 与操作者想要的都是自主直接给答案的 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 613,
+   "completion_tokens": 806,
+   "total_tokens": 1419,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 727
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 357
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在调教以后遇到同类提问的回答口径（直接抛出结论，不要绕），属于对怎么做/怎么答的指令；机器人此前已直接作答并回报，故 bot_mode 与操作者想要的都是自主直接给答案的 M1。"
+ },
+ "parse_error": null
+}

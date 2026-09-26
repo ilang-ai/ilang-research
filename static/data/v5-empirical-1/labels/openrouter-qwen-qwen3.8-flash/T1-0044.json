@@ -1,0 +1,47 @@
+{
+ "id": "T1-0044",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "be3e11cfb625c39d64c690b4e82d050ab54fb89d50e52b90f74e89856de4d3df",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者没有纠正机器人，只是继续补充QQ群自动客服的判断并问是否比人工好；机器人此前直接算账并执行查询后汇报，符合直接做、做完告诉我。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1356,
+   "completion_tokens": 2056,
+   "total_tokens": 3412,
+   "cost": 0.001135416,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001135416,
+    "upstream_inference_prompt_cost": 0.000169096,
+    "upstream_inference_completions_cost": 0.00096632
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1973,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人，只是继续补充QQ群自动客服的判断并问是否比人工好；机器人此前直接算账并执行查询后汇报，符合直接做、做完告诉我。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0043",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "48890bbf2f35312c1721c87b47646e69e11ca829ab0a601ac23182dedf89e64d",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者是在补充并纠正收益判断，强调及时、全天候接待足以抵消成交率下降，并未要求改变执行或确认方式；机器人此前已直接调用工具计算并汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1240,
+   "completion_tokens": 153,
+   "total_tokens": 1393,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1237,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 79
+   },
+   "input_tokens": 1240,
+   "output_tokens": 153,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在补充并纠正收益判断，强调及时、全天候接待足以抵消成交率下降，并未要求改变执行或确认方式；机器人此前已直接调用工具计算并汇报。"
+ },
+ "parse_error": null
+}

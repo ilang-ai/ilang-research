@@ -1,0 +1,59 @@
+{
+ "id": "T1-0237",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "ce5a10f65051ed4ce81688d56a6288be42041e0a1058f30f1315113472c3044a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.75,csq=0.75,rel=0.50,cer=0.20,aut=0.85,rev=0.60,evd=0.20,sov=0.80,ine=0.60,ext=0.85]\nM:M5|conf:0.95\nR:回复正文缺失，无法判断是否回应验证要求或包含无依据的结论；需提供拟回复内容及验证依据。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28621,
+   "completion_tokens": 207,
+   "total_tokens": 28828,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 224,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 82
+   },
+   "input_tokens": 28621,
+   "output_tokens": 207,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.75,
+   "csq": 0.75,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.6,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，无法判断是否回应验证要求或包含无依据的结论；需提供拟回复内容及验证依据。"
+ },
+ "parse_error": null
+}

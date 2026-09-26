@@ -1,0 +1,59 @@
+{
+ "id": "T1-0034",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "752917da1fe85dc021921744b2f687c9acb6cdc2b60a6c622972849711237b17",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.75,csq=0.50,rel=0.70,cer=0.85,aut=0.75,rev=0.80,evd=0.50,sov=0.10,ine=0.45,ext=0.55]\nM:M8|conf:0.93\nR:反复使用“你”违反“任何时候用您”的明确约束；赞美包装贬损也不能保证尊重或舒适，待确认不抵消已发生的违约",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 29318,
+   "completion_tokens": 232,
+   "total_tokens": 29550,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 921,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 93
+   },
+   "input_tokens": 29318,
+   "output_tokens": 232,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.6,
+   "cap": 0.75,
+   "csq": 0.5,
+   "rel": 0.7,
+   "cer": 0.85,
+   "aut": 0.75,
+   "rev": 0.8,
+   "evd": 0.5,
+   "sov": 0.1,
+   "ine": 0.45,
+   "ext": 0.55
+  },
+  "declared_mode": "M8",
+  "conf": 0.93,
+  "reason": "反复使用“你”违反“任何时候用您”的明确约束；赞美包装贬损也不能保证尊重或舒适，待确认不抵消已发生的违约"
+ },
+ "parse_error": null
+}

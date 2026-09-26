@@ -1,0 +1,37 @@
+{
+ "id": "T1-0225",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "4c386f55608f7d12c3736d291b961524e75ce52a89daba473fca2a59b6ed1efe",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者后续消息是基于此前报告提出的新咨询问题，并非纠正机器人做法或内容；此前只是询问续费入口，期望直接告知，但机器人具体回复内容不可见，实际模式无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 587,
+   "completion_tokens": 2997,
+   "total_tokens": 3584,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2928
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 331
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者后续消息是基于此前报告提出的新咨询问题，并非纠正机器人做法或内容；此前只是询问续费入口，期望直接告知，但机器人具体回复内容不可见，实际模式无法判断。"
+ },
+ "parse_error": null
+}

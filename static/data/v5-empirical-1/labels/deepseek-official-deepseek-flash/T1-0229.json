@@ -1,0 +1,37 @@
+{
+ "id": "T1-0229",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ea665de47e04f99df3201955101a63699050c4e296f52b0050566b7060a1fc53",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在惊讶后让机器人展示知识，属于新任务/互动，不是对做不做或内容的纠正；机器人回复文本不可见，无法判断其模式及操作者想让它走的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 555,
+   "completion_tokens": 674,
+   "total_tokens": 1229,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 607
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 299
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在惊讶后让机器人展示知识，属于新任务/互动，不是对做不做或内容的纠正；机器人回复文本不可见，无法判断其模式及操作者想让它走的模式。"
+ },
+ "parse_error": null
+}

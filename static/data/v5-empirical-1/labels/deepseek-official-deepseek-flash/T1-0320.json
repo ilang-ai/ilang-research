@@ -1,0 +1,37 @@
+{
+ "id": "T1-0320",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "452fcee49da890f17e0a3a96d4f360606ff8823fe31badd9b3ef0159a89b63cd",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，默认接受了机器人的继续处理；但机器人回复内容未公开，无法判断它实际走的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 600,
+   "completion_tokens": 229,
+   "total_tokens": 829,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 180
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 344
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没有出声，默认接受了机器人的继续处理；但机器人回复内容未公开，无法判断它实际走的模式。"
+ },
+ "parse_error": null
+}

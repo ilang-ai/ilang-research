@@ -1,0 +1,47 @@
+{
+ "id": "T1-0059",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "dd8dc2dd05879f4f1df6f974b6d9fd04b6fdc9cca4a36dd6c5c85a2f846d4a70",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"M5\",\"reason\":\"机器人因不清楚白名单的交付形态而先提问，操作者直接补充业务事实，是在回答澄清问题，并未纠正机器人的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1302,
+   "completion_tokens": 184,
+   "total_tokens": 1486,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1299,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 114
+   },
+   "input_tokens": 1302,
+   "output_tokens": 184,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "机器人因不清楚白名单的交付形态而先提问，操作者直接补充业务事实，是在回答澄清问题，并未纠正机器人的做法。"
+ },
+ "parse_error": null
+}

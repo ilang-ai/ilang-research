@@ -1,0 +1,37 @@
+{
+ "id": "T1-0041",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "d9f11aa29137231f1139bf7a7991ac235d6f006f328acec7a352406b91d7ae54",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正机器人的做法，而是补充一套概率论/演绎的大逻辑，属于新内容而非模式指令；机器人直接查数后作答并汇报，走的是 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1437,
+   "completion_tokens": 2638,
+   "total_tokens": 4075,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2573
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1181
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正机器人的做法，而是补充一套概率论/演绎的大逻辑，属于新内容而非模式指令；机器人直接查数后作答并汇报，走的是 M1。"
+ },
+ "parse_error": null
+}

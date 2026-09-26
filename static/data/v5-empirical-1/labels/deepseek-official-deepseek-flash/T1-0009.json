@@ -1,0 +1,37 @@
+{
+ "id": "T1-0009",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "486774a140b6bc6448c6792674f2e698fea6f6946984bbf6575b5a8374d3b9d6",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M3\",\"reason\":\"操作者没否定已完成的权限修复，只是不接受一次性抛出一堆待办，要求把事项拆开、一条一条说明后再逐条处理——即先给方案逐条确认，而非批量自主推进。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 50804,
+   "completion_tokens": 1127,
+   "total_tokens": 51931,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1056
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 50548
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M3",
+  "reason": "操作者没否定已完成的权限修复，只是不接受一次性抛出一堆待办，要求把事项拆开、一条一条说明后再逐条处理——即先给方案逐条确认，而非批量自主推进。"
+ },
+ "parse_error": null
+}

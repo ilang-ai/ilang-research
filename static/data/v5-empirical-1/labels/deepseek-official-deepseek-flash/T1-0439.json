@@ -1,0 +1,37 @@
+{
+ "id": "T1-0439",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "82993966a73bc182d7181d4dab19170481b09d9e5b4e78af75abaea79143fd72",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，属于对照事件；机器人只是回复了品牌词点击率正常值的问题，没有代做实际动作，偏向只给建议，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 580,
+   "completion_tokens": 973,
+   "total_tokens": 1553,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 912
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 324
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没有出声，属于对照事件；机器人只是回复了品牌词点击率正常值的问题，没有代做实际动作，偏向只给建议，操作者默认接受。"
+ },
+ "parse_error": null
+}

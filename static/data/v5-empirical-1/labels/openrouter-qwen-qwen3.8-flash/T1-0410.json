@@ -1,0 +1,47 @@
+{
+ "id": "T1-0410",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6890a1fec3fb7f2e5cfccf241ce07a550e77bd7677a855ceffcbd3fa14094e62",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，属于对照事件，默认接受机器人当时的模式；但机器人回复内容缺失，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 606,
+   "completion_tokens": 433,
+   "total_tokens": 1039,
+   "cost": 0.000260106,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000260106,
+    "upstream_inference_prompt_cost": 5.6596e-05,
+    "upstream_inference_completions_cost": 0.00020351
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 383,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没有出声，属于对照事件，默认接受机器人当时的模式；但机器人回复内容缺失，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

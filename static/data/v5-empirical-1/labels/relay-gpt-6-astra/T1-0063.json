@@ -1,0 +1,46 @@
+{
+ "id": "T1-0063",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "eabdd90fd78e782a05e1ed90f4274c4006be81aa0b22729bd335ce1c327c60bf",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人提出接星球出口并等待确认，操作者改为提供一个可直接发给对方的链接，调整的是回复内容，没有明确要求改变执行或确认方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1001,
+   "completion_tokens": 158,
+   "total_tokens": 1159,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 93
+   },
+   "input_tokens": 1001,
+   "output_tokens": 158,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人提出接星球出口并等待确认，操作者改为提供一个可直接发给对方的链接，调整的是回复内容，没有明确要求改变执行或确认方式。"
+ },
+ "parse_error": null
+}

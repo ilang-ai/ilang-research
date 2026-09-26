@@ -1,0 +1,37 @@
+{
+ "id": "T1-0221",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9364e095a8924e8198490ad47e6e5642edfb6ad0e9c6fc736ef3c700e0b7c1e1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者随后提出的是新的查词任务，不是对上一轮机器人回复的纠正，也没有表达希望上一轮采用哪种模式，因此无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 739,
+   "completion_tokens": 1528,
+   "total_tokens": 2267,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1471
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 227
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者随后提出的是新的查词任务，不是对上一轮机器人回复的纠正，也没有表达希望上一轮采用哪种模式，因此无法判断。"
+ },
+ "parse_error": null
+}

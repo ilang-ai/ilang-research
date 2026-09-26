@@ -1,0 +1,46 @@
+{
+ "id": "T1-0030",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5101e1693f8ca9d99f72bc689a27a1d1e2d2da51810bf79dc48e2fd6cf3afc41",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人已直接执行上线（M1）并汇报并提出了后续选项，操作者回复的是自我肯定和闲聊感叹，并非纠偏。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1094,
+   "completion_tokens": 79,
+   "total_tokens": 1173,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1094,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 79,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "机器人已直接执行上线（M1）并汇报并提出了后续选项，操作者回复的是自我肯定和闲聊感叹，并非纠偏。"
+ },
+ "parse_error": null
+}

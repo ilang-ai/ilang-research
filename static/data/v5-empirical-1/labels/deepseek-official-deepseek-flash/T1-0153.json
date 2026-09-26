@@ -1,0 +1,37 @@
+{
+ "id": "T1-0153",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a2836c07c7a793dec1fc9b59a16065b5412b23e461a3569c1e9559a6a2a84f5a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者明确要求先无视验证并直接把人拉进来，属于指示机器人执行动作和具体做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 558,
+   "completion_tokens": 719,
+   "total_tokens": 1277,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 672
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 302
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者明确要求先无视验证并直接把人拉进来，属于指示机器人执行动作和具体做法。"
+ },
+ "parse_error": null
+}

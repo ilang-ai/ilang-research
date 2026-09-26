@@ -1,0 +1,47 @@
+{
+ "id": "T1-0146",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "307dec5668051f781ad074abede89013c53b90ef720db325df17266cb01698f5",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在责备机器人没有自己查找 chatid 和确认权限，是在纠正执行方式而非内容本身；机器人回复不可见，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 587,
+   "completion_tokens": 724,
+   "total_tokens": 1311,
+   "cost": 0.000394026,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000394026,
+    "upstream_inference_prompt_cost": 5.3746e-05,
+    "upstream_inference_completions_cost": 0.00034028
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 665,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在责备机器人没有自己查找 chatid 和确认权限，是在纠正执行方式而非内容本身；机器人回复不可见，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

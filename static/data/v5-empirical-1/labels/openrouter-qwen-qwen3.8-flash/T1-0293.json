@@ -1,0 +1,47 @@
+{
+ "id": "T1-0293",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "538e4df475d0c444007f95f8ecc5197b1e527e630806325ebbc7f29845bfe32a",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者是在抱怨机器人被动小修、像表演，属于对做事方式不满，但没有明确指定应走哪种模式，且机器人回复文本不可见。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 810,
+   "completion_tokens": 1205,
+   "total_tokens": 2015,
+   "cost": 0.000619242,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000619242,
+    "upstream_inference_prompt_cost": 5.2892e-05,
+    "upstream_inference_completions_cost": 0.00056635
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1129,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者是在抱怨机器人被动小修、像表演，属于对做事方式不满，但没有明确指定应走哪种模式，且机器人回复文本不可见。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1-0275",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "81b1e00630f7d5a5a17525f1891196253b6ee37d027cedbbe999c7c06ae5a01a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.50,csq=0.70,rel=0.40,cer=0.15,aut=0.90,rev=0.75,evd=0.15,sov=0.80,ine=0.50,ext=0.90]\nM:M5|conf:0.95\nR:回复正文及图片内容缺失，无法核实是否解决版本兼容问题或再次误导用户；需提供拟回复正文及已完成步骤。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28658,
+   "completion_tokens": 200,
+   "total_tokens": 28858,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 261,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 70
+   },
+   "input_tokens": 28658,
+   "output_tokens": 200,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.7,
+   "cap": 0.5,
+   "csq": 0.7,
+   "rel": 0.4,
+   "cer": 0.15,
+   "aut": 0.9,
+   "rev": 0.75,
+   "evd": 0.15,
+   "sov": 0.8,
+   "ine": 0.5,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文及图片内容缺失，无法核实是否解决版本兼容问题或再次误导用户；需提供拟回复正文及已完成步骤。"
+ },
+ "parse_error": null
+}

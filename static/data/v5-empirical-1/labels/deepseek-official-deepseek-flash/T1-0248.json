@@ -1,0 +1,37 @@
+{
+ "id": "T1-0248",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "879becee47f5fa4544089b881dc003753f58381042f2431e34f5e34daf3d7432",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"operator_message「消费类目」看起来是新任务或新话题，不是对上一轮做不做/怎么做的纠正；机器人回复内容未公开，无法判断其模式；该消息本身也没有表达 M1-M8 中任何一种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 768,
+   "completion_tokens": 6061,
+   "total_tokens": 6829,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5984
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 256
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "operator_message「消费类目」看起来是新任务或新话题，不是对上一轮做不做/怎么做的纠正；机器人回复内容未公开，无法判断其模式；该消息本身也没有表达 M1-M8 中任何一种模式。"
+ },
+ "parse_error": null
+}

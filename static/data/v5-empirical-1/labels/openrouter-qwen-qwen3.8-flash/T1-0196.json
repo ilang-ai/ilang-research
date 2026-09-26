@@ -1,0 +1,47 @@
+{
+ "id": "T1-0196",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "35b5e9dc709273774ab1a5b107dfed1f58d7d2c798ef4548815f913b69a35a76",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M5\",\"reason\":\"操作者是在给机器人定回答流程，要求先验证对方是否真动手，否则引导去问谷歌AI或豆包，属于怎么做而不是纠正具体内容；机器人回复内容不可见，无法判断当时模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 661,
+   "completion_tokens": 706,
+   "total_tokens": 1367,
+   "cost": 0.000396666,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000396666,
+    "upstream_inference_prompt_cost": 6.4846e-05,
+    "upstream_inference_completions_cost": 0.00033182
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 636,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M5",
+  "reason": "操作者是在给机器人定回答流程，要求先验证对方是否真动手，否则引导去问谷歌AI或豆包，属于怎么做而不是纠正具体内容；机器人回复内容不可见，无法判断当时模式。"
+ },
+ "parse_error": null
+}

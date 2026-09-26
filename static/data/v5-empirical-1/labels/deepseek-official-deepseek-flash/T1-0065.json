@@ -1,0 +1,37 @@
+{
+ "id": "T1-0065",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a815cdb5f0613674f0b0768efa2df5700c63fd656132e874b4db3796e7bb663f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者回复机器人关于是否安装zhconv的请示，说繁体不是问题、继续就行，表明不想让机器人为这个非问题停下等确认，而是希望它直接继续。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1738,
+   "completion_tokens": 3652,
+   "total_tokens": 5390,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3588
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1482
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者回复机器人关于是否安装zhconv的请示，说繁体不是问题、继续就行，表明不想让机器人为这个非问题停下等确认，而是希望它直接继续。"
+ },
+ "parse_error": null
+}

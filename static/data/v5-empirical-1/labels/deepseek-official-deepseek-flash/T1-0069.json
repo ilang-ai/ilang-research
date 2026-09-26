@@ -1,0 +1,37 @@
+{
+ "id": "T1-0069",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "41a5a27a16828217d02210cc8da2dd6b1d6249a23fdf1dd360c3cc7092eb3f39",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者说的是内容本身——纠正事实（谷歌最低充值100美元而非200美元）并解释200美元是测offer的消耗、不锚定结果，属口径/措辞层面的澄清，不是同意或否定去做；机器人已先落记忆，又就200美元与500美元/赌博区间的冲突给出两个选项等一句话确认，属于提出方案等确认（M3），操作者随后直接作答，说明他接受先确认再改文件这种方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2545,
+   "completion_tokens": 2718,
+   "total_tokens": 5263,
+   "prompt_tokens_details": {
+    "cached_tokens": 2304
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2597
+   },
+   "prompt_cache_hit_tokens": 2304,
+   "prompt_cache_miss_tokens": 241
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者说的是内容本身——纠正事实（谷歌最低充值100美元而非200美元）并解释200美元是测offer的消耗、不锚定结果，属口径/措辞层面的澄清，不是同意或否定去做；机器人已先落记忆，又就200美元与500美元/赌博区间的冲突给出两个选项等一句话确认，属于提出方案等确认（M3），操作者随后直接作答，说明他接受先确认再改文件这种方式。"
+ },
+ "parse_error": null
+}

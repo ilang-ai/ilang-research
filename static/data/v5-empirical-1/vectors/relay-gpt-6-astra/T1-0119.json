@@ -1,0 +1,59 @@
+{
+ "id": "T1-0119",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "7e22cee7833b596f9e0c93fc557f6466f990c8350c5640c1893ea5de85cc2874",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.90,rel=0.60,cer=0.70,aut=0.85,rev=0.80,evd=0.70,sov=0.90,ine=0.75,ext=0.95]\nM:M2|conf:0.80\nR:用户已同意替换；21处逐条核对并断言唯一命中，适合保留差异与执行记录，修改后复核语义及范围。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28565,
+   "completion_tokens": 379,
+   "total_tokens": 28944,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 168,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 243
+   },
+   "input_tokens": 28565,
+   "output_tokens": 379,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.85,
+   "csq": 0.9,
+   "rel": 0.6,
+   "cer": 0.7,
+   "aut": 0.85,
+   "rev": 0.8,
+   "evd": 0.7,
+   "sov": 0.9,
+   "ine": 0.75,
+   "ext": 0.95
+  },
+  "declared_mode": "M2",
+  "conf": 0.8,
+  "reason": "用户已同意替换；21处逐条核对并断言唯一命中，适合保留差异与执行记录，修改后复核语义及范围。"
+ },
+ "parse_error": null
+}

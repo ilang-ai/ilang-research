@@ -1,0 +1,37 @@
+{
+ "id": "T1-0240",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "678b551002bcba6084f97e017501f38af7417fdb88d0108bdf81015fafd52c40",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在下达一条关于未来如何回答模型/调教类问题的新规则，没有要求确认，直接指示机器人照此执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 776,
+   "completion_tokens": 3300,
+   "total_tokens": 4076,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3245
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 520
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在下达一条关于未来如何回答模型/调教类问题的新规则，没有要求确认，直接指示机器人照此执行。"
+ },
+ "parse_error": null
+}

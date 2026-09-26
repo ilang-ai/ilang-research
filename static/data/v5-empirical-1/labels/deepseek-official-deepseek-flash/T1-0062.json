@@ -1,0 +1,37 @@
+{
+ "id": "T1-0062",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e6417177a49f52e2bd2415e3d00a550f954458385afa6d7fbaa42b7db0ebaf60",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续消息被删除，无法判断其针对什么或想要哪种模式；机器人给出了文案草案并等待确认和所需数据，文件未动，属于先拿方案确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 945,
+   "completion_tokens": 1032,
+   "total_tokens": 1977,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 971
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 689
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者后续消息被删除，无法判断其针对什么或想要哪种模式；机器人给出了文案草案并等待确认和所需数据，文件未动，属于先拿方案确认。"
+ },
+ "parse_error": null
+}

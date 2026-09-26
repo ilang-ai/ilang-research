@@ -1,0 +1,59 @@
+{
+ "id": "T1-0224",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "2046bb745b39bd0842510d8924c7cdad071046aff5d2a5123e892ad8ecedf859",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.65,csq=0.70,rel=0.50,cer=0.20,aut=0.85,rev=0.50,evd=0.15,sov=0.80,ine=0.60,ext=0.85]\nM:M5|conf:0.95\nR:缺少图片内容及拟发送的1225字回复正文，无法判断回复是否准确、相关或包含不当引导，需补充后评估。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28541,
+   "completion_tokens": 203,
+   "total_tokens": 28744,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 144,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 71
+   },
+   "input_tokens": 28541,
+   "output_tokens": 203,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.65,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.8,
+   "ine": 0.6,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "缺少图片内容及拟发送的1225字回复正文，无法判断回复是否准确、相关或包含不当引导，需补充后评估。"
+ },
+ "parse_error": null
+}

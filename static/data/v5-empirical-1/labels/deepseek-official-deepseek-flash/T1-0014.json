@@ -1,0 +1,37 @@
+{
+ "id": "T1-0014",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9a098c28c3e53a631cc4c6b42d5c665b2681d9b5ae2967702203cd126940fe08",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人就第4条加不加日志等操作者拍板，操作者回“你自己看着办”，把决定权交给机器人，希望它自主决定并执行，而不是再来问。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1237,
+   "completion_tokens": 1930,
+   "total_tokens": 3167,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1865
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 981
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人就第4条加不加日志等操作者拍板，操作者回“你自己看着办”，把决定权交给机器人，希望它自主决定并执行，而不是再来问。"
+ },
+ "parse_error": null
+}

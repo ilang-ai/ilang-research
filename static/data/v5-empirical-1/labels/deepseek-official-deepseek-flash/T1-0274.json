@@ -1,0 +1,37 @@
+{
+ "id": "T1-0274",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1d1767b350dcf4b3ea7561307a783bb538241fdaab5c6a29e8b93d9cf7fadf45",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者以“调教”补充涉及组网时的执行工具与模型选择，属于对做法的约束；机器人回复内容未公开，无法判断其实际模式；该约束暗示希望机器人按此自主执行，故 intended_mode 为 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 698,
+   "completion_tokens": 4062,
+   "total_tokens": 4760,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3983
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 442
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者以“调教”补充涉及组网时的执行工具与模型选择，属于对做法的约束；机器人回复内容未公开，无法判断其实际模式；该约束暗示希望机器人按此自主执行，故 intended_mode 为 M1。"
+ },
+ "parse_error": null
+}

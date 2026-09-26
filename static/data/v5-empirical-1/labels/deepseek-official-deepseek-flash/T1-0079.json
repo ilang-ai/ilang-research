@@ -1,0 +1,37 @@
+{
+ "id": "T1-0079",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7d808babf92ad5b7d8207a9c22d2b9022c1956ca58437574e60dcb9c95a6fbf8",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件，操作者未出声；机器人自行执行 Bash 并汇报结果，属于直接执行后告知，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 597,
+   "completion_tokens": 484,
+   "total_tokens": 1081,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 433
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 341
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件，操作者未出声；机器人自行执行 Bash 并汇报结果，属于直接执行后告知，操作者默认接受。"
+ },
+ "parse_error": null
+}

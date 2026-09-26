@@ -1,0 +1,46 @@
+{
+ "id": "T1-0248",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "879becee47f5fa4544089b881dc003753f58381042f2431e34f5e34daf3d7432",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"操作者发送的“消费类目”是开启新的查询任务或关键词输入，并非对机器人上一轮动作的纠正，默认接受了上一轮的处理。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 810,
+   "completion_tokens": 723,
+   "total_tokens": 1533,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 810,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 78,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 645
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者发送的“消费类目”是开启新的查询任务或关键词输入，并非对机器人上一轮动作的纠正，默认接受了上一轮的处理。"
+ },
+ "parse_error": null
+}

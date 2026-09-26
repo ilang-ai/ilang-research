@@ -1,0 +1,37 @@
+{
+ "id": "T1-0012",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9d37befbefbb86b236fb4bd1fcf2c1beed91eadaa227163f9c760e287d9518c7",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者回复『加』只是对机器人先给方案再等确认的批准/确认，并非纠正；机器人当时走的正是先拿方案确认的 M3。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1083,
+   "completion_tokens": 1754,
+   "total_tokens": 2837,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1692
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 827
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者回复『加』只是对机器人先给方案再等确认的批准/确认，并非纠正；机器人当时走的正是先拿方案确认的 M3。"
+ },
+ "parse_error": null
+}

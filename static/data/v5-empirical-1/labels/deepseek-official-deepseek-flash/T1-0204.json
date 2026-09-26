@@ -1,0 +1,37 @@
+{
+ "id": "T1-0204",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "2e6824534298c042775199b8a8730e5ad64d81713b39c9d47b9d6d770d7f2a3e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"bot_action 文本被隐藏，无法判断机器人实际模式；operator_message 是 Cronjob 通知/新内容，并非对机器人做不做或做法的纠正，也未表达期望模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 606,
+   "completion_tokens": 1014,
+   "total_tokens": 1620,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 949
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 350
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "bot_action 文本被隐藏，无法判断机器人实际模式；operator_message 是 Cronjob 通知/新内容，并非对机器人做不做或做法的纠正，也未表达期望模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0429",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "22b1a7513dd7252b4648bab92bacd8bb85638b05e62ea9240de8a9b5fd11d3ee",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者消息为空，表示没有打断或纠正，默认接受机器人继续处理；由于机器人回复内容未公开，无法判断它实际走的是哪个模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 626,
+   "completion_tokens": 166,
+   "total_tokens": 792,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 111
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 370
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者消息为空，表示没有打断或纠正，默认接受机器人继续处理；由于机器人回复内容未公开，无法判断它实际走的是哪个模式。"
+ },
+ "parse_error": null
+}

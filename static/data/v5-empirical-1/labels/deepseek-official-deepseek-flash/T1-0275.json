@@ -1,0 +1,37 @@
+{
+ "id": "T1-0275",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3ccb2f5eec6973801bacfbdb576eb73edda4b8be66bd773637bd27214b2192d4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正机器人没有先查官方文档就回答，要求它自己看 workbuddy.ai 官方文档并给出手机连接方法，属于对做事方式的纠正，期望机器人直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 715,
+   "completion_tokens": 931,
+   "total_tokens": 1646,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 866
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 459
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人没有先查官方文档就回答，要求它自己看 workbuddy.ai 官方文档并给出手机连接方法，属于对做事方式的纠正，期望机器人直接执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0123",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a8b7d4903913fdb906978d126871ad55010a4bbbe3e3cb11b3482fe76ddcbf2b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条是空的对照事件，没有出声、让机器人继续，所以 targets 记为 none；机器人收到「拉日志看看」后直接执行了 Bash 并给出结果说明，属于先做完再汇报，故 bot_mode 为 M1，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 576,
+   "completion_tokens": 352,
+   "total_tokens": 928,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 271
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 320
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者这条是空的对照事件，没有出声、让机器人继续，所以 targets 记为 none；机器人收到「拉日志看看」后直接执行了 Bash 并给出结果说明，属于先做完再汇报，故 bot_mode 为 M1，操作者默认接受。"
+ },
+ "parse_error": null
+}

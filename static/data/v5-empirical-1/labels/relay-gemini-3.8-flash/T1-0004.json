@@ -1,0 +1,46 @@
+{
+ "id": "T1-0004",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3efa982d76fbc843157411a7921d29ece74aac70dfd212e6483e3448ccf11ad5",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M2\",\n  \"reason\": \"操作者发送的是开启下一步查看日报的新指令，并非纠偏；机器人此前自主完成修复、部署并全程详细留痕汇报，符合M2模式且被操作者认可。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 7279,
+   "completion_tokens": 760,
+   "total_tokens": 8039,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 7279,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 87,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 673
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "M2",
+  "reason": "操作者发送的是开启下一步查看日报的新指令，并非纠偏；机器人此前自主完成修复、部署并全程详细留痕汇报，符合M2模式且被操作者认可。"
+ },
+ "parse_error": null
+}

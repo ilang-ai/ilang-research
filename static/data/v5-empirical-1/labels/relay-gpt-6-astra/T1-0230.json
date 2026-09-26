@@ -1,0 +1,46 @@
+{
+ "id": "T1-0230",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0d0e6966582c9c79e4fff0d39bc9796fb3baa3e2ad0f3b40fd7b7b9d48ac98c3",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者在纠正这类问题的处理方式，要求引导使用指定技能和提示词，但未明确执行权限，且机器人原回复不可见，无法确定具体模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 660,
+   "completion_tokens": 270,
+   "total_tokens": 930,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 203
+   },
+   "input_tokens": 660,
+   "output_tokens": 270,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者在纠正这类问题的处理方式，要求引导使用指定技能和提示词，但未明确执行权限，且机器人原回复不可见，无法确定具体模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0157",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cbfa4bb6092360cc009ecc9d1c5209c4e0668c189e5ec9dd80f38ea024e3b00d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在质问机器人为什么没有在群里回复，说明她想要机器人直接去回复/执行，而不是只讨论内容；机器人之前实际以什么模式处理从可见文字无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 549,
+   "completion_tokens": 2575,
+   "total_tokens": 3124,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2512
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 293
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在质问机器人为什么没有在群里回复，说明她想要机器人直接去回复/执行，而不是只讨论内容；机器人之前实际以什么模式处理从可见文字无法判断。"
+ },
+ "parse_error": null
+}

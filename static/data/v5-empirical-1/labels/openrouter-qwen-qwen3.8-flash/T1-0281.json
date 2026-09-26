@@ -1,0 +1,47 @@
+{
+ "id": "T1-0281",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "389e81523ed4f16f2405e56c4f5d4aafe53d26816c4ee5272f76a1ccf54aa6b8",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在纠正下一步该怎么做，给出“直接去QQ群问代理商”的建议；机器人回复内容未公开，无法判断其当时模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 812,
+   "completion_tokens": 2177,
+   "total_tokens": 2989,
+   "cost": 0.001110686,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001110686,
+    "upstream_inference_prompt_cost": 8.7496e-05,
+    "upstream_inference_completions_cost": 0.00102319
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2102,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正下一步该怎么做，给出“直接去QQ群问代理商”的建议；机器人回复内容未公开，无法判断其当时模式。"
+ },
+ "parse_error": null
+}

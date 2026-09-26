@@ -1,0 +1,37 @@
+{
+ "id": "T1-0247",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "d7c07d6ee9f062a6bc537d45c735fefeb82dd01204d59d8adba82002fc06a1c1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者没有评价上一轮做法，而是提出新的查询任务，因此不是纠正，也没有表达希望上一轮采用何种模式的意图。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 778,
+   "completion_tokens": 5064,
+   "total_tokens": 5842,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5009
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 522
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者没有评价上一轮做法，而是提出新的查询任务，因此不是纠正，也没有表达希望上一轮采用何种模式的意图。"
+ },
+ "parse_error": null
+}

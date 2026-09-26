@@ -1,0 +1,37 @@
+{
+ "id": "T1-0007",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f8e0b8ce0683603f34eebe4d428faf94da9f64ef874dff8e53894b5ce50752d6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者原先只要求拉日志，机器人已直接执行并汇报；随后这条消息是交代查看日报、询问如何设置自动出日报的新任务，并非纠正先前做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1586,
+   "completion_tokens": 2759,
+   "total_tokens": 4345,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2695
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1330
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者原先只要求拉日志，机器人已直接执行并汇报；随后这条消息是交代查看日报、询问如何设置自动出日报的新任务，并非纠正先前做法。"
+ },
+ "parse_error": null
+}

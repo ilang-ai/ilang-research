@@ -1,0 +1,37 @@
+{
+ "id": "T1-0265",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a9a1b5aae0b3aa1516aec64307e6bfded376ea887977a5b45bb23a64fffe973f",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在追加新要求，让机器人去查老外的说法和准确数据，属于新任务而非纠正；机器人此前直接回复，操作者希望它继续直接去查并汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 700,
+   "completion_tokens": 6855,
+   "total_tokens": 7555,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6788
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 316
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在追加新要求，让机器人去查老外的说法和准确数据，属于新任务而非纠正；机器人此前直接回复，操作者希望它继续直接去查并汇报。"
+ },
+ "parse_error": null
+}

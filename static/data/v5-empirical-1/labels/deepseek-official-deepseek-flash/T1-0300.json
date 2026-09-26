@@ -1,0 +1,37 @@
+{
+ "id": "T1-0300",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6f48784c29a9bb9b5b8d40739d9902410a0ca2be3836faff3c2b46a35720811c",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件里操作者没有出声，默认让机器人继续，因此无法从文字判断机器人实际模式，但视为接受其做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 585,
+   "completion_tokens": 180,
+   "total_tokens": 765,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 130
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 329
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "对照事件里操作者没有出声，默认让机器人继续，因此无法从文字判断机器人实际模式，但视为接受其做法。"
+ },
+ "parse_error": null
+}

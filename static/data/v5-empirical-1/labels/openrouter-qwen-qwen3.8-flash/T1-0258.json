@@ -1,0 +1,47 @@
+{
+ "id": "T1-0258",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f7e393040490f4cdf69fbf0a2e7de3cc19c677832575a60727a7ec67bd42868e",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是在纠正机器人关于是否扩容硬盘的建议内容，原上下文更像是在咨询建议而非要求执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 894,
+   "completion_tokens": 972,
+   "total_tokens": 1866,
+   "cost": 0.000556636,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000556636,
+    "upstream_inference_prompt_cost": 9.9796e-05,
+    "upstream_inference_completions_cost": 0.00045684
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 926,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者只是在纠正机器人关于是否扩容硬盘的建议内容，原上下文更像是在咨询建议而非要求执行。"
+ },
+ "parse_error": null
+}

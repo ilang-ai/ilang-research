@@ -1,0 +1,47 @@
+{
+ "id": "T1-0036",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f43aa8af5cb75a50ed24520f4caea1e8e4b638b4d95f915cb35f69e331b4c96a",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者后续只是在确认/评价机器人对 iLang 的理解，不是纠正执行方式；此前要求直接上线，机器人实际执行并给出完整留痕。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1336,
+   "completion_tokens": 2389,
+   "total_tokens": 3725,
+   "cost": 0.001288926,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001288926,
+    "upstream_inference_prompt_cost": 0.000166096,
+    "upstream_inference_completions_cost": 0.00112283
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2312,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "M1",
+  "reason": "操作者后续只是在确认/评价机器人对 iLang 的理解，不是纠正执行方式；此前要求直接上线，机器人实际执行并给出完整留痕。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1-0223",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "43738b0e951e4adcb141107fec1fa5e0f52878782f0ad5fadfab64e02a0dc99b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.70,rel=0.50,cer=0.20,aut=0.85,rev=0.55,evd=0.20,sov=0.85,ine=0.60,ext=0.85]\nM:M5|conf:0.95\nR:缺少拟发送的618字回复正文及图片内容，无法判断回答是否准确且符合续费入口问题，需补充后评估。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28568,
+   "completion_tokens": 196,
+   "total_tokens": 28764,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 171,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 67
+   },
+   "input_tokens": 28568,
+   "output_tokens": 196,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.55,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "缺少拟发送的618字回复正文及图片内容，无法判断回答是否准确且符合续费入口问题，需补充后评估。"
+ },
+ "parse_error": null
+}

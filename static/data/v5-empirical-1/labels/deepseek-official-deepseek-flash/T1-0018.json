@@ -1,0 +1,37 @@
+{
+ "id": "T1-0018",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ee5f7b2ce0cd124642f53229df9275587318c179be76ceb7af5a621e823331f5",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M2\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是追问机器人用的「点名」一词指什么，属于对措辞/内容本身的澄清，没有涉及做不做或怎么做；机器人是自己落文件、改 FAQ、核实日报并附备份与时间戳留痕后汇报，属执行+完整留痕；操作者这句话没有表达对模式的偏好，故无法判断其想要的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1553,
+   "completion_tokens": 2534,
+   "total_tokens": 4087,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2438
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1297
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M2",
+  "intended_mode": "unknown",
+  "reason": "操作者只是追问机器人用的「点名」一词指什么，属于对措辞/内容本身的澄清，没有涉及做不做或怎么做；机器人是自己落文件、改 FAQ、核实日报并附备份与时间戳留痕后汇报，属执行+完整留痕；操作者这句话没有表达对模式的偏好，故无法判断其想要的模式。"
+ },
+ "parse_error": null
+}

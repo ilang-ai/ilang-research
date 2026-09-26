@@ -1,0 +1,37 @@
+{
+ "id": "T1-0016",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "070cc642edb253a7d0014052d3526d75b33c7be47d45a4ef82e2d695c44ba019",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者回复“换”是对机器人“换/不换”确认请求的直接批准，属于确认而非纠正；机器人当时先拿方案等确认（M3），但操作者只想要它直接执行（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1904,
+   "completion_tokens": 4922,
+   "total_tokens": 6826,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4848
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1648
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者回复“换”是对机器人“换/不换”确认请求的直接批准，属于确认而非纠正；机器人当时先拿方案等确认（M3），但操作者只想要它直接执行（M1）。"
+ },
+ "parse_error": null
+}

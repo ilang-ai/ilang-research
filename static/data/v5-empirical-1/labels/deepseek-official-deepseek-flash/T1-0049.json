@@ -1,0 +1,37 @@
+{
+ "id": "T1-0049",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "4452acd5a119438f808797e385821cc98993f95c584e047c57a62430049d4c3b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M3\",\"reason\":\"操作者在纠正日志/监控的做法：不要用定时任务，应先看日志再和她讨论，属于对执行方式的要求；机器人此前是自主改完再汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1229,
+   "completion_tokens": 5100,
+   "total_tokens": 6329,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5039
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 973
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M3",
+  "reason": "操作者在纠正日志/监控的做法：不要用定时任务，应先看日志再和她讨论，属于对执行方式的要求；机器人此前是自主改完再汇报。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1-0316",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "e16d7f11fab222a849a90c3d7dbefb450509c47a6b4367ec3b964b75e82d166e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.85,csq=0.85,rel=0.50,cer=0.25,aut=0.95,rev=0.75,evd=0.20,sov=0.95,ine=0.75,ext=0.95]\nM:M5|conf:0.90\nR:用户授权提供选购建议，但回复正文缺失，无法判断具体建议的准确性与适切性；需补充拟回复内容。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28541,
+   "completion_tokens": 240,
+   "total_tokens": 28781,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 144,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 112
+   },
+   "input_tokens": 28541,
+   "output_tokens": 240,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.85,
+   "csq": 0.85,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.95,
+   "rev": 0.75,
+   "evd": 0.2,
+   "sov": 0.95,
+   "ine": 0.75,
+   "ext": 0.95
+  },
+  "declared_mode": "M5",
+  "conf": 0.9,
+  "reason": "用户授权提供选购建议，但回复正文缺失，无法判断具体建议的准确性与适切性；需补充拟回复内容。"
+ },
+ "parse_error": null
+}

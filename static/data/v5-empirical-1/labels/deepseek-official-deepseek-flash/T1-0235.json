@@ -1,0 +1,37 @@
+{
+ "id": "T1-0235",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "422f6a40e353e1d965f4e7a52e703c2aee927ae0ea04a33a744d362115fcf897",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者发的是新任务（群公告加图片），不是对上一轮机器人动作的纠正；机器人回复内容未公开，无法判断其模式；操作者也没表达对上一轮动作的模式期望。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 563,
+   "completion_tokens": 4458,
+   "total_tokens": 5021,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4388
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 307
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者发的是新任务（群公告加图片），不是对上一轮机器人动作的纠正；机器人回复内容未公开，无法判断其模式；操作者也没表达对上一轮动作的模式期望。"
+ },
+ "parse_error": null
+}

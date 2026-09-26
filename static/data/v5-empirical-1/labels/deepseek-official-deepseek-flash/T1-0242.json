@@ -1,0 +1,37 @@
+{
+ "id": "T1-0242",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "60e78f62f224a3941e1c8c4bb6e1401789518238f8133ddce01c633acbe31f0b",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者在指责机器人不懂装懂，针对的是回答内容是否诚实/准确，而不是执行方式；机器人当时直接给出了建议性回答，操作者想要的是不知道就承认，这不属于 M1-M8 的任何决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 742,
+   "completion_tokens": 2368,
+   "total_tokens": 3110,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2295
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 486
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者在指责机器人不懂装懂，针对的是回答内容是否诚实/准确，而不是执行方式；机器人当时直接给出了建议性回答，操作者想要的是不知道就承认，这不属于 M1-M8 的任何决策模式。"
+ },
+ "parse_error": null
+}

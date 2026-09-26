@@ -1,0 +1,47 @@
+{
+ "id": "T1-0149",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b263998afd77cf75c19dbbb0ef0cae75fbfe452dc369a25899138b17bc0f6946",
+ "text": "{\n  \"targets\": \"unclear\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"只有“还有没有”这一句，缺少上下文和机器人回复内容，无法判断是在纠正执行方式、内容还是单纯追问。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 577,
+   "completion_tokens": 1040,
+   "total_tokens": 1617,
+   "cost": 0.000506742,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000506742,
+    "upstream_inference_prompt_cost": 1.7942e-05,
+    "upstream_inference_completions_cost": 0.0004888
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 972,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "只有“还有没有”这一句，缺少上下文和机器人回复内容，无法判断是在纠正执行方式、内容还是单纯追问。"
+ },
+ "parse_error": null
+}

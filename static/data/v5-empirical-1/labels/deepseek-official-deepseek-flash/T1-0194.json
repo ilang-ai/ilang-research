@@ -1,0 +1,37 @@
+{
+ "id": "T1-0194",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ba9f60182cb97d252bf4a741640fb6597f334e1714a3b23334df3789a9fc0f9d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M5\",\"reason\":\"操作者在教机器人以后遇到这种缺数据的宽泛问题要先让对方贴图、先摸清展示量再排查，而不是直接给出答案，属于纠正做事方式：机器人当时是直接作答（M1），操作者想要的是先问清楚（M5）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 664,
+   "completion_tokens": 294,
+   "total_tokens": 958,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 213
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 408
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M5",
+  "reason": "操作者在教机器人以后遇到这种缺数据的宽泛问题要先让对方贴图、先摸清展示量再排查，而不是直接给出答案，属于纠正做事方式：机器人当时是直接作答（M1），操作者想要的是先问清楚（M5）。"
+ },
+ "parse_error": null
+}

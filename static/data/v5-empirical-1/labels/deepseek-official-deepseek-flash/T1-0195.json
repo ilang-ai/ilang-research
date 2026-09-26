@@ -1,0 +1,37 @@
+{
+ "id": "T1-0195",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "172c75b55b97eeae64a48c5951933a5024fe7e47b0ba36717fd70eabce64c315",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M5\",\"reason\":\"操作者立下铁律：以后没截图具体问题的提问不要抢着答，先要求对方给具体信息（或让其去问谷歌），这是在规定机器人该不该答、怎么答，而不是纠内容；机器人此前是直接作答汇报，属于M1，操作者希望改为先要信息再动手的M5。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 626,
+   "completion_tokens": 790,
+   "total_tokens": 1416,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 695
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 242
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M5",
+  "reason": "操作者立下铁律：以后没截图具体问题的提问不要抢着答，先要求对方给具体信息（或让其去问谷歌），这是在规定机器人该不该答、怎么答，而不是纠内容；机器人此前是直接作答汇报，属于M1，操作者希望改为先要信息再动手的M5。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0202",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fb7b5120221537839732fe5dd11947cadb766921beeb61c77592ef46a9869b8e",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者要求以后也把这类话题发一份到群里，是在指示机器人如何执行/处理流程，并非针对内容或闲聊；机器人上一步具体模式未知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 553,
+   "completion_tokens": 3249,
+   "total_tokens": 3802,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3189
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 297
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者要求以后也把这类话题发一份到群里，是在指示机器人如何执行/处理流程，并非针对内容或闲聊；机器人上一步具体模式未知。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1-0297",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "97ada3bfdca68edf08df9c6aede70a1734f58a8b0ede159744191137d6f87562",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.75,csq=0.50,rel=0.50,cer=0.20,aut=0.70,rev=0.40,evd=0.20,sov=0.60,ine=0.50,ext=0.50]\nM:M5|conf:0.95\nR:原要求语义不清且拟回复正文缺失，无法评估回复是否符合要求及其影响；需补充正文并澄清任务。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28549,
+   "completion_tokens": 203,
+   "total_tokens": 28752,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 152,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 72
+   },
+   "input_tokens": 28549,
+   "output_tokens": 203,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.75,
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.7,
+   "rev": 0.4,
+   "evd": 0.2,
+   "sov": 0.6,
+   "ine": 0.5,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "原要求语义不清且拟回复正文缺失，无法评估回复是否符合要求及其影响；需补充正文并澄清任务。"
+ },
+ "parse_error": null
+}

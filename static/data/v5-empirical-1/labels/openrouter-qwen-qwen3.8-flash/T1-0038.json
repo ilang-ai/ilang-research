@@ -1,0 +1,47 @@
+{
+ "id": "T1-0038",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9f21488eee406275f23eb06e006007d63f2a547f349a4a9af863a69491008c03",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M8\",\"reason\":\"操作者是在限定职责和推进方式，明确让机器人停下 ilang 相关负责/自动化，只学习，不是纠正事实或文风。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 2139,
+   "completion_tokens": 2504,
+   "total_tokens": 4643,
+   "cost": 0.001463426,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001463426,
+    "upstream_inference_prompt_cost": 0.000286546,
+    "upstream_inference_completions_cost": 0.00117688
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2446,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M8",
+  "reason": "操作者是在限定职责和推进方式，明确让机器人停下 ilang 相关负责/自动化，只学习，不是纠正事实或文风。"
+ },
+ "parse_error": null
+}

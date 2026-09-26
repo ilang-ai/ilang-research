@@ -1,0 +1,37 @@
+{
+ "id": "T1-0179",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9df149f722ef74ed03c0928d136476218cd50d95514a680764de26d88c1ed827",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者说“可以 没问题”表示确认/接受，不是纠正；机器人回复内容未提供，无法判断其模式和期望模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 547,
+   "completion_tokens": 3028,
+   "total_tokens": 3575,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2974
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 291
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者说“可以 没问题”表示确认/接受，不是纠正；机器人回复内容未提供，无法判断其模式和期望模式。"
+ },
+ "parse_error": null
+}

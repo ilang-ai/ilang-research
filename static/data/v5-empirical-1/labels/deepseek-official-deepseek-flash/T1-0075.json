@@ -1,0 +1,37 @@
+{
+ "id": "T1-0075",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f475bed7a805d992d839e369cefeed7bf4daf60ecaf88a19987e3e034b89211f",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，默认让机器人继续；机器人按原要求自主查文档和日志并汇报，属于直接执行事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 702,
+   "completion_tokens": 195,
+   "total_tokens": 897,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 144
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 318
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，默认让机器人继续；机器人按原要求自主查文档和日志并汇报，属于直接执行事后汇报。"
+ },
+ "parse_error": null
+}

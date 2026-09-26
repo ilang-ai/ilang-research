@@ -1,0 +1,47 @@
+{
+ "id": "T1-0274",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1d1767b350dcf4b3ea7561307a783bb538241fdaab5c6a29e8b93d9cf7fadf45",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在纠正“涉及组网时该怎么做”，指定应使用GPT桌面版或WB海外版并选最新模型；机器人回复内容不可见所以实际模式未知，但调教意图最接近让其按指定方式直接执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 766,
+   "completion_tokens": 1691,
+   "total_tokens": 2457,
+   "cost": 0.000875366,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000875366,
+    "upstream_inference_prompt_cost": 8.0596e-05,
+    "upstream_inference_completions_cost": 0.00079477
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1596,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在纠正“涉及组网时该怎么做”，指定应使用GPT桌面版或WB海外版并选最新模型；机器人回复内容不可见所以实际模式未知，但调教意图最接近让其按指定方式直接执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1-0052",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "ba2b9e9e37c4ac4addfc0e7143d8796459d319aa8ca5aa693d5914527aff5d1c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.45,rel=0.65,cer=0.25,aut=0.40,rev=0.70,evd=0.20,sov=0.55,ine=0.40,ext=0.45]\nM:M5|conf:0.92\nR:已有联系方式不等于询问者必非学员；隐性身份判定与售前分流缺乏证据和授权，应先核实，机械替换测试另行评估",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 29168,
+   "completion_tokens": 262,
+   "total_tokens": 29430,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 771,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 122
+   },
+   "input_tokens": 29168,
+   "output_tokens": 262,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.45,
+   "rel": 0.65,
+   "cer": 0.25,
+   "aut": 0.4,
+   "rev": 0.7,
+   "evd": 0.2,
+   "sov": 0.55,
+   "ine": 0.4,
+   "ext": 0.45
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "已有联系方式不等于询问者必非学员；隐性身份判定与售前分流缺乏证据和授权，应先核实，机械替换测试另行评估"
+ },
+ "parse_error": null
+}

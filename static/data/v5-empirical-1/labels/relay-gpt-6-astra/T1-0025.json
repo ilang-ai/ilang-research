@@ -1,0 +1,47 @@
+{
+ "id": "T1-0025",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f5b7c8baebd5797af95e205fdcb8f9fa2c1bf6ece40552797f58ac8f9811109f",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人提出口径草稿并等待确认，操作者给出了不同的黑灰产话题口径，但没有要求改变先确认还是直接执行的方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1455,
+   "completion_tokens": 274,
+   "total_tokens": 1729,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1452,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 212
+   },
+   "input_tokens": 1455,
+   "output_tokens": 274,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人提出口径草稿并等待确认，操作者给出了不同的黑灰产话题口径，但没有要求改变先确认还是直接执行的方式。"
+ },
+ "parse_error": null
+}

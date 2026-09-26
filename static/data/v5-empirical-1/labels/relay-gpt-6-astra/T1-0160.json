@@ -1,0 +1,46 @@
+{
+ "id": "T1-0160",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6c8bc55118a572b957f84d60489b3e66531fa53afcaf182c7627d481bbceb65b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者转而要求说一句打击群里人的话，是新任务；机器人原回复不可见，也无法判断操作者希望它当时采用什么模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 679,
+   "completion_tokens": 151,
+   "total_tokens": 830,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 88
+   },
+   "input_tokens": 679,
+   "output_tokens": 151,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者转而要求说一句打击群里人的话，是新任务；机器人原回复不可见，也无法判断操作者希望它当时采用什么模式。"
+ },
+ "parse_error": null
+}

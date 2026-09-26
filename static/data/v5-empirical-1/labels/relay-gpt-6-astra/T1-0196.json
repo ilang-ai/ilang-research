@@ -1,0 +1,46 @@
+{
+ "id": "T1-0196",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "35b5e9dc709273774ab1a5b107dfed1f58d7d2c798ef4548815f913b69a35a76",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M5\",\"reason\":\"操作者要求回答前先核实对方是否实际动手，未核实就引导其问其他AI；机器人回复正文缺失，无法判断当时的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 642,
+   "completion_tokens": 106,
+   "total_tokens": 748,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 38
+   },
+   "input_tokens": 642,
+   "output_tokens": 106,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M5",
+  "reason": "操作者要求回答前先核实对方是否实际动手，未核实就引导其问其他AI；机器人回复正文缺失，无法判断当时的模式。"
+ },
+ "parse_error": null
+}

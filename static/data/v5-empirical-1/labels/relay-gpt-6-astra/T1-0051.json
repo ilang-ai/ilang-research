@@ -1,0 +1,47 @@
+{
+ "id": "T1-0051",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "961c0eeb21851f023c80c506467ba2f3b4abeae82322d01278d12dd6bb0d1878",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在回答机器人关于T老师联系方式的追问，说明客户在一对一群里已有联系方式，没有明确要求改变执行或决策方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1674,
+   "completion_tokens": 173,
+   "total_tokens": 1847,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1671,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 111
+   },
+   "input_tokens": 1674,
+   "output_tokens": 173,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "unknown",
+  "reason": "操作者是在回答机器人关于T老师联系方式的追问，说明客户在一对一群里已有联系方式，没有明确要求改变执行或决策方式。"
+ },
+ "parse_error": null
+}

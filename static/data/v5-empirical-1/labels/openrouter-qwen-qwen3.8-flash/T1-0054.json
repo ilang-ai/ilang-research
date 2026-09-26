@@ -1,0 +1,47 @@
+{
+ "id": "T1-0054",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "10d65b998d7093378c71ab16820c8c12b514c45695312388eeb06ebe7431e634",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"操作者是在回答机器人提出的“以文章还是文件为准”的执行确认，决定后续按文章口径处理；机器人当时给出拆入 skills 的方案并等待确认。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 3166,
+   "completion_tokens": 1172,
+   "total_tokens": 4338,
+   "cost": 0.000991436,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000991436,
+    "upstream_inference_prompt_cost": 0.000440596,
+    "upstream_inference_completions_cost": 0.00055084
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1092,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者是在回答机器人提出的“以文章还是文件为准”的执行确认，决定后续按文章口径处理；机器人当时给出拆入 skills 的方案并等待确认。"
+ },
+ "parse_error": null
+}

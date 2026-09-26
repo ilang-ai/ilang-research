@@ -1,0 +1,46 @@
+{
+ "id": "T1-0344",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "4ab702c7a1f7a134d4ed86d089a4dc0e763f587f9707e55c0a176435495105c9",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"用户咨询行业现金流情况，机器人直接给出分析与解答，操作者未出声默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 591,
+   "completion_tokens": 296,
+   "total_tokens": 887,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 591,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 43,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 253
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "用户咨询行业现金流情况，机器人直接给出分析与解答，操作者未出声默认接受。"
+ },
+ "parse_error": null
+}

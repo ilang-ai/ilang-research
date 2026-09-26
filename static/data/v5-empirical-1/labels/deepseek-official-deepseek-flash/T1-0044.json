@@ -1,0 +1,37 @@
+{
+ "id": "T1-0044",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "be3e11cfb625c39d64c690b4e82d050ab54fb89d50e52b90f74e89856de4d3df",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者没有纠正机器人的做法，而是延续讨论提出新问题和新论据；机器人此前自主完成计算并事后汇报，符合直接做后说明。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1275,
+   "completion_tokens": 4071,
+   "total_tokens": 5346,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3998
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1019
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人的做法，而是延续讨论提出新问题和新论据；机器人此前自主完成计算并事后汇报，符合直接做后说明。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0016",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "070cc642edb253a7d0014052d3526d75b33c7be47d45a4ef82e2d695c44ba019",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M6\",\n  \"reason\": \"机器人遇到规则限制（SOUL冻结）主动请示操作者定夺，操作者直接回复“换”进行拍板决策，不属于纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 2019,
+   "completion_tokens": 851,
+   "total_tokens": 2870,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 2019,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 83,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 768
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "机器人遇到规则限制（SOUL冻结）主动请示操作者定夺，操作者直接回复“换”进行拍板决策，不属于纠正。"
+ },
+ "parse_error": null
+}

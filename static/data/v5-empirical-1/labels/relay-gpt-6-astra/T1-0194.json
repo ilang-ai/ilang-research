@@ -1,0 +1,46 @@
+{
+ "id": "T1-0194",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "ba9f60182cb97d252bf4a741640fb6597f334e1714a3b23334df3789a9fc0f9d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M5\",\"reason\":\"操作者要求遇到这类宽泛问题先让对方在群里贴图、补充数据再分析，而不是直接回答；机器人原回复未提供，无法确定其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 694,
+   "completion_tokens": 108,
+   "total_tokens": 802,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 37
+   },
+   "input_tokens": 694,
+   "output_tokens": 108,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M5",
+  "reason": "操作者要求遇到这类宽泛问题先让对方在群里贴图、补充数据再分析，而不是直接回答；机器人原回复未提供，无法确定其实际模式。"
+ },
+ "parse_error": null
+}

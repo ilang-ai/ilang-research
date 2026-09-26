@@ -1,0 +1,37 @@
+{
+ "id": "T1-0301",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fc2d7d3e3ad96c6e5052ab8c9c3c74bfa071c769c6c6425800835557097ed1f8",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声，默认接受了机器人的做法；但机器人回复正文不在数据里，无法判断它当时实际走了哪个模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 596,
+   "completion_tokens": 320,
+   "total_tokens": 916,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 266
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 340
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没有出声，默认接受了机器人的做法；但机器人回复正文不在数据里，无法判断它当时实际走了哪个模式。"
+ },
+ "parse_error": null
+}

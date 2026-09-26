@@ -1,0 +1,37 @@
+{
+ "id": "T1-0003",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "372af093d90e4893b5d3f5917e82703744cf627c70f08b46c0ab9c875b5d3bfd",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人执行方式，而是给出新的内容处理规则/新任务；机器人此前是直接执行替代方案并汇报，操作者原本也要求机器人直接做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1041,
+   "completion_tokens": 7818,
+   "total_tokens": 8859,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7754
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1041
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人执行方式，而是给出新的内容处理规则/新任务；机器人此前是直接执行替代方案并汇报，操作者原本也要求机器人直接做。"
+ },
+ "parse_error": null
+}

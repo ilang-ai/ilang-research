@@ -1,0 +1,37 @@
+{
+ "id": "T1-0183",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1b039c534efcb45f6b6995d2fe15dfbdd31cbddddf000fdc1efe1057e56cd054",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M7\",\"reason\":\"操作者在纠正机器人不该给这类人讲流程，最多只答几句体现懂行；机器人此前直接讲了流程，属M1，操作者想要的是不做原流程、给替代性有限回应（M7）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 624,
+   "completion_tokens": 5880,
+   "total_tokens": 6504,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5808
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 368
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M7",
+  "reason": "操作者在纠正机器人不该给这类人讲流程，最多只答几句体现懂行；机器人此前直接讲了流程，属M1，操作者想要的是不做原流程、给替代性有限回应（M7）。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1-0205",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "87f2525a39b7a0c4c7ce19425db01ba9ffcb6d51628291ff531ea99bf66aa58a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"这是一条面向明天的新提醒，要求在群里发送时直接@所有人；机器人此前回复不可见，无法判断其实际模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 573,
+   "completion_tokens": 211,
+   "total_tokens": 784,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 149
+   },
+   "input_tokens": 573,
+   "output_tokens": 211,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "这是一条面向明天的新提醒，要求在群里发送时直接@所有人；机器人此前回复不可见，无法判断其实际模式。"
+ },
+ "parse_error": null
+}

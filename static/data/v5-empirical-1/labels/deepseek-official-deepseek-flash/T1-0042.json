@@ -1,0 +1,37 @@
+{
+ "id": "T1-0042",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "fdb5db9036861bd7846cb8619bced76836b2692aa9b1b0154d7ad7f003abee59",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者是在反驳机器人关于正期望和先验证μ>1的说法，属于对内容的质疑/纠正，并非要求机器人做或不做某个动作；机器人此前提出把0/100锚定写进GENE层并等确认，实际走的是M3；操作者这条消息没有表达八个动作模式中的任何一个。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1430,
+   "completion_tokens": 2351,
+   "total_tokens": 3781,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2258
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1174
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在反驳机器人关于正期望和先验证μ>1的说法，属于对内容的质疑/纠正，并非要求机器人做或不做某个动作；机器人此前提出把0/100锚定写进GENE层并等确认，实际走的是M3；操作者这条消息没有表达八个动作模式中的任何一个。"
+ },
+ "parse_error": null
+}

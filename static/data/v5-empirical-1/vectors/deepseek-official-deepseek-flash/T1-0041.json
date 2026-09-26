@@ -1,0 +1,49 @@
+{
+ "id": "T1-0041",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "1459272d340966af84e161d2a85c01606e5bf95e88842620c26aafa4323667be",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.88,csq=0.90,rel=0.82,cer=0.76,aut=0.88,rev=0.92,evd=0.90,sov=0.90,ine=0.85,ext=0.90]\nM:M1|conf:0.86\nR:honest_evidence_backed_assessment_refuses_to_overclaim_admits_blind_spots",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 30865,
+   "completion_tokens": 7435,
+   "total_tokens": 38300,
+   "prompt_tokens_details": {
+    "cached_tokens": 29824
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7323
+   },
+   "prompt_cache_hit_tokens": 29824,
+   "prompt_cache_miss_tokens": 1041
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.88,
+   "csq": 0.9,
+   "rel": 0.82,
+   "cer": 0.76,
+   "aut": 0.88,
+   "rev": 0.92,
+   "evd": 0.9,
+   "sov": 0.9,
+   "ine": 0.85,
+   "ext": 0.9
+  },
+  "declared_mode": "M1",
+  "conf": 0.86,
+  "reason": "honest_evidence_backed_assessment_refuses_to_overclaim_admits_blind_spots"
+ },
+ "parse_error": null
+}

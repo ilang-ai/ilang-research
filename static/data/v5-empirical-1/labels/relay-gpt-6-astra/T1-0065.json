@@ -1,0 +1,47 @@
+{
+ "id": "T1-0065",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "a815cdb5f0613674f0b0768efa2df5700c63fd656132e874b4db3796e7bb663f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人提出安装转换包的方案并等操作者确认，操作者认为繁体字不值得处理，让机器人直接继续，不必为此停下来请示。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1910,
+   "completion_tokens": 209,
+   "total_tokens": 2119,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1907,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 144
+   },
+   "input_tokens": 1910,
+   "output_tokens": 209,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人提出安装转换包的方案并等操作者确认，操作者认为繁体字不值得处理，让机器人直接继续，不必为此停下来请示。"
+ },
+ "parse_error": null
+}

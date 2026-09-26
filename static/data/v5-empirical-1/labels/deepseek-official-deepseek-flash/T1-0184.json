@@ -1,0 +1,37 @@
+{
+ "id": "T1-0184",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "04628b3cc6fc71fce7dc61b7632b6b33a31bc6fa96d9924680784ed0536d9478",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者在布置新任务/KPI，要求机器人说服对方花钱，属于新指令而非对上一轮动作的纠正；从文字看操作者希望机器人直接执行说服，因此 intended_mode 为 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 608,
+   "completion_tokens": 10123,
+   "total_tokens": 10731,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10053
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 224
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者在布置新任务/KPI，要求机器人说服对方花钱，属于新指令而非对上一轮动作的纠正；从文字看操作者希望机器人直接执行说服，因此 intended_mode 为 M1。"
+ },
+ "parse_error": null
+}

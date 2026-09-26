@@ -1,0 +1,59 @@
+{
+ "id": "T1-0350",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "c6385ecbe3a5516e9e22ca52234818e1ab7a8289b447f568c1b3bbe311d0136b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.80,csq=0.75,rel=0.50,cer=0.20,aut=0.85,rev=0.60,evd=0.20,sov=0.80,ine=0.70,ext=0.85]\nM:M5|conf:0.94\nR:记录缺少回复正文及验证对象，无法判断回复是否恰当；需补充拟回复内容和相关上下文",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28536,
+   "completion_tokens": 208,
+   "total_tokens": 28744,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 139,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 84
+   },
+   "input_tokens": 28536,
+   "output_tokens": 208,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.8,
+   "csq": 0.75,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.7,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "记录缺少回复正文及验证对象，无法判断回复是否恰当；需补充拟回复内容和相关上下文"
+ },
+ "parse_error": null
+}

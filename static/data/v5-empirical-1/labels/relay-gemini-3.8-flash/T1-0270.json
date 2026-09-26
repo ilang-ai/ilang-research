@@ -1,0 +1,46 @@
+{
+ "id": "T1-0270",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f488cbfa2572d1492c7d97e56f064d6f9a10dff4b29aa994005680cf66e05293",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者通过“调教：”向机器人补充与纠正关于模型免费玩法的背景知识和回答口径，属于内容修正而非决策模式的调整。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 810,
+   "completion_tokens": 326,
+   "total_tokens": 1136,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 810,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 81,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 245
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者通过“调教：”向机器人补充与纠正关于模型免费玩法的背景知识和回答口径，属于内容修正而非决策模式的调整。"
+ },
+ "parse_error": null
+}

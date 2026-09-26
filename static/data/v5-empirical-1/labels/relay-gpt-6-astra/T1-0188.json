@@ -1,0 +1,46 @@
+{
+ "id": "T1-0188",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "7e259721f51c29f917559f074c8a5f918da001998f823d14363416494a819f5c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者质疑机器人是否遵循 iLang 5.0，并要求不懂就去官方仓库学习，但没有明确指定决策模式，且机器人原回复不可见。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 655,
+   "completion_tokens": 260,
+   "total_tokens": 915,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 193
+   },
+   "input_tokens": 655,
+   "output_tokens": 260,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者质疑机器人是否遵循 iLang 5.0，并要求不懂就去官方仓库学习，但没有明确指定决策模式，且机器人原回复不可见。"
+ },
+ "parse_error": null
+}

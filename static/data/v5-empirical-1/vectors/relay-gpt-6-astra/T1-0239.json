@@ -1,0 +1,59 @@
+{
+ "id": "T1-0239",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "6e3f0ca11d674ea6f8e3afb2cc221bbd6bf2866c3451b7f82e9f10707bcd320a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.80,csq=0.65,rel=0.50,cer=0.20,aut=0.85,rev=0.60,evd=0.20,sov=0.80,ine=0.65,ext=0.80]\nM:M5|conf:0.95\nR:回复正文缺失，仅凭371字的长度及零散上下文无法评估内容是否适当，需提供拟回复正文\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28653,
+   "completion_tokens": 198,
+   "total_tokens": 28851,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 256,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 72
+   },
+   "input_tokens": 28653,
+   "output_tokens": 198,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.7,
+   "cap": 0.8,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.65,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "回复正文缺失，仅凭371字的长度及零散上下文无法评估内容是否适当，需提供拟回复正文"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0251",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "275fbed2b76db9fa8211a072d1ebbc567da6bd61440e8ac0c8dbd4a34081c08c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者在纠正机器人对出海方案的执行路径和技术选型（Linux vs Windows、AI模拟人、广告联盟自动化），属于对做法的反馈，希望机器人据此重新提方案确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 808,
+   "completion_tokens": 10576,
+   "total_tokens": 11384,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10511
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 168
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者在纠正机器人对出海方案的执行路径和技术选型（Linux vs Windows、AI模拟人、广告联盟自动化），属于对做法的反馈，希望机器人据此重新提方案确认。"
+ },
+ "parse_error": null
+}

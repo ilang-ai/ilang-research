@@ -1,0 +1,47 @@
+{
+ "id": "T1-0070",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1dfbda5cbb481196b5f5a3e22de0bf2f0162d1832a058900edb0b75cf288f4c6",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人已自行修改文件并上线，操作者随后用麻将类比进一步解释本金与长期盈利的逻辑，针对的是内容理解，没有表达要改变执行或确认方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1761,
+   "completion_tokens": 129,
+   "total_tokens": 1890,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1758,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 64
+   },
+   "input_tokens": 1761,
+   "output_tokens": 129,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人已自行修改文件并上线，操作者随后用麻将类比进一步解释本金与长期盈利的逻辑，针对的是内容理解，没有表达要改变执行或确认方式。"
+ },
+ "parse_error": null
+}

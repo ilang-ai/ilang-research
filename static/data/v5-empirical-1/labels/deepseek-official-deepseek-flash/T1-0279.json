@@ -1,0 +1,37 @@
+{
+ "id": "T1-0279",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "e1e4799e80e8e9d92b66a423355bc82860a4b3ffefabbd3e916c9b695b1194ad",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"这条消息是面向所有人的公告，说机器人将迭代更新，并非在纠正机器人上一步的做法，也没有表达希望机器人采用哪种决策模式；机器人实际回复内容未公开，无法判断其模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 785,
+   "completion_tokens": 621,
+   "total_tokens": 1406,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 552
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 529
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "这条消息是面向所有人的公告，说机器人将迭代更新，并非在纠正机器人上一步的做法，也没有表达希望机器人采用哪种决策模式；机器人实际回复内容未公开，无法判断其模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0191",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "22bc901b09ca01a1f15b083e8593987cae39734ba7e9570a203dda6ebdfc7f42",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者没有质疑机器人是否该做或怎么做，只是逐条指出预算明细中的事实性错误（指纹浏览器和IP按量付费、建站工具可用Cloudflare免费账户等），属于对方案内容本身的纠错与补充，仍是在继续征求修正后的建议方案。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 762,
+   "completion_tokens": 1323,
+   "total_tokens": 2085,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1240
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 506
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者没有质疑机器人是否该做或怎么做，只是逐条指出预算明细中的事实性错误（指纹浏览器和IP按量付费、建站工具可用Cloudflare免费账户等），属于对方案内容本身的纠错与补充，仍是在继续征求修正后的建议方案。"
+ },
+ "parse_error": null
+}

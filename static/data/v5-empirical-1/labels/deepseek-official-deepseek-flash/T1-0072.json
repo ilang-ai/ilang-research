@@ -1,0 +1,37 @@
+{
+ "id": "T1-0072",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3b14b7045bf312c98d41b80f5aaa70fc1ee5455fb6449f858a6109b2097e23ed",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条消息没有评价或纠正机器人上一条回复的做事方式，而是直接抛出新任务（拉服务器人机对话日志和与机器人的讨论日志），属于新任务，不是纠错；机器人上一条只是闲聊式的分析反馈，看不出走的是哪个执行模式，故填 unknown；操作者未对先前回复提出异议、顺势继续提要求，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1074,
+   "completion_tokens": 1828,
+   "total_tokens": 2902,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1721
+   },
+   "prompt_cache_hit_tokens": 896,
+   "prompt_cache_miss_tokens": 178
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者这条消息没有评价或纠正机器人上一条回复的做事方式，而是直接抛出新任务（拉服务器人机对话日志和与机器人的讨论日志），属于新任务，不是纠错；机器人上一条只是闲聊式的分析反馈，看不出走的是哪个执行模式，故填 unknown；操作者未对先前回复提出异议、顺势继续提要求，视为默认接受。"
+ },
+ "parse_error": null
+}

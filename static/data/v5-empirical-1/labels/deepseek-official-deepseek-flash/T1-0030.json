@@ -1,0 +1,37 @@
+{
+ "id": "T1-0030",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5101e1693f8ca9d99f72bc689a27a1d1e2d2da51810bf79dc48e2fd6cf3afc41",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M2\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是在自我总结并确认底层逻辑，没有针对机器人做不做或怎么做提出纠正；机器人已执行并完整留痕汇报，但操作者未表达希望机器人采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1041,
+   "completion_tokens": 7454,
+   "total_tokens": 8495,
+   "prompt_tokens_details": {
+    "cached_tokens": 896
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7386
+   },
+   "prompt_cache_hit_tokens": 896,
+   "prompt_cache_miss_tokens": 145
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是在自我总结并确认底层逻辑，没有针对机器人做不做或怎么做提出纠正；机器人已执行并完整留痕汇报，但操作者未表达希望机器人采用哪种模式。"
+ },
+ "parse_error": null
+}

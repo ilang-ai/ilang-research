@@ -1,0 +1,37 @@
+{
+ "id": "T1-0149",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b263998afd77cf75c19dbbb0ef0cae75fbfe452dc369a25899138b17bc0f6946",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是追问“还有没有”，属于要求更多内容或新请求，不是对做不做/怎么做的纠正；且机器人回复文本不可见，无法判断其实际模式及操作者期望的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 546,
+   "completion_tokens": 2494,
+   "total_tokens": 3040,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2426
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 290
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者只是追问“还有没有”，属于要求更多内容或新请求，不是对做不做/怎么做的纠正；且机器人回复文本不可见，无法判断其实际模式及操作者期望的模式。"
+ },
+ "parse_error": null
+}

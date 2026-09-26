@@ -1,0 +1,37 @@
+{
+ "id": "T1-0380",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f74c3adf58d186359e0183ccae3b6446900607687616c528b00b8a105c48b98d",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件：操作者没出声让机器人继续，没有可判断的纠正内容，故 targets 为 none、意图视为接受；机器人回复原文不在数据里，实际模式无从判断，只能记 unknown。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 569,
+   "completion_tokens": 196,
+   "total_tokens": 765,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 130
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 313
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "对照事件：操作者没出声让机器人继续，没有可判断的纠正内容，故 targets 为 none、意图视为接受；机器人回复原文不在数据里，实际模式无从判断，只能记 unknown。"
+ },
+ "parse_error": null
+}

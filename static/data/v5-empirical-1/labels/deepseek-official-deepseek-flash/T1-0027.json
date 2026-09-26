@@ -1,0 +1,37 @@
+{
+ "id": "T1-0027",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "15f022228f4a5871cedf41e7a420d6e9c4562a8514c84e35709ee998785f5482",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M2\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在下新指令要求再加一句原话，不是对机器人上一轮做法的纠正；机器人执行并完整留痕（备份、记忆、审计），属M2；操作者直接命令执行、未要求先确认，期望M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1185,
+   "completion_tokens": 4049,
+   "total_tokens": 5234,
+   "prompt_tokens_details": {
+    "cached_tokens": 1024
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3969
+   },
+   "prompt_cache_hit_tokens": 1024,
+   "prompt_cache_miss_tokens": 161
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "M1",
+  "reason": "操作者是在下新指令要求再加一句原话，不是对机器人上一轮做法的纠正；机器人执行并完整留痕（备份、记忆、审计），属M2；操作者直接命令执行、未要求先确认，期望M1。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0070",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1dfbda5cbb481196b5f5a3e22de0bf2f0162d1832a058900edb0b75cf288f4c6",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者只是用麻将/GTO复利的比喻把定价口径讲得更透（补充内容理解），没有对“做不做、怎么做”提异议；机器人已经自主改文件、rebuild、上线并事后汇报，属于直接做+事后汇报，操作者对此默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1579,
+   "completion_tokens": 1314,
+   "total_tokens": 2893,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1231
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1323
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者只是用麻将/GTO复利的比喻把定价口径讲得更透（补充内容理解），没有对“做不做、怎么做”提异议；机器人已经自主改文件、rebuild、上线并事后汇报，属于直接做+事后汇报，操作者对此默认接受。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0022",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "4d4e1abd56dd4f385e2129412b7d05feea38b72f8e117b01d667d1d3d92900b9",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人把设计稿和取舍说明摆出来、结尾问「行不行？行我就上」，是提方案等确认；操作者这轮没有批准执行，也没有催办，而是纠正设计背后的业务标准（白嫖技术的用户一律赶去付费星球/飞书群无限制提问），属于对内容口径的修正，按既定流程仍应改完再给确认。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1247,
+   "completion_tokens": 838,
+   "total_tokens": 2085,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 717
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 991
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人把设计稿和取舍说明摆出来、结尾问「行不行？行我就上」，是提方案等确认；操作者这轮没有批准执行，也没有催办，而是纠正设计背后的业务标准（白嫖技术的用户一律赶去付费星球/飞书群无限制提问），属于对内容口径的修正，按既定流程仍应改完再给确认。"
+ },
+ "parse_error": null
+}

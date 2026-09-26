@@ -1,0 +1,37 @@
+{
+ "id": "T1-0031",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1fa630688040887f719a8e8eacb978020fd5695a30d8d33c8cf0b89c147d9f89",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人上一轮是分析后拟好写法、把方案摆出来等点头（还列了 A/B/C 选项），属 M3；操作者没有批方案，而是反驳「这跟永不失礼打架」这个前提，认为直接把实情说出来就是对客户最大的尊重，语气上是在怪机器人连这个都要问——即期望机器人别为这种事再请示、按原则直接做，属 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1261,
+   "completion_tokens": 4095,
+   "total_tokens": 5356,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3982
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1005
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人上一轮是分析后拟好写法、把方案摆出来等点头（还列了 A/B/C 选项），属 M3；操作者没有批方案，而是反驳「这跟永不失礼打架」这个前提，认为直接把实情说出来就是对客户最大的尊重，语气上是在怪机器人连这个都要问——即期望机器人别为这种事再请示、按原则直接做，属 M1。"
+ },
+ "parse_error": null
+}

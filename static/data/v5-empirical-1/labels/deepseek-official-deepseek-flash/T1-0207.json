@@ -1,0 +1,37 @@
+{
+ "id": "T1-0207",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "f408cf20b5ded95ae14d8002a889a59bfbc4a70edee4f294e3666e8558eb6401",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"这不是纠正，而是新任务：操作者要求机器人写公众号文章并直接输出 Markdown，期望直接执行并交付，对应 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 612,
+   "completion_tokens": 1470,
+   "total_tokens": 2082,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1414
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 356
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "这不是纠正，而是新任务：操作者要求机器人写公众号文章并直接输出 Markdown，期望直接执行并交付，对应 M1。"
+ },
+ "parse_error": null
+}

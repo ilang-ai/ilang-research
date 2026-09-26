@@ -1,0 +1,37 @@
+{
+ "id": "T1-0203",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "60eb57169069e3890f3c418c069424ce53a4b7e59e6b152fecab4db38d8e0be3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者回复“可以”属于同意或确认，不是纠正；机器人回复内容未公开，无法判断其模式，也无法确定操作者具体想要哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 545,
+   "completion_tokens": 736,
+   "total_tokens": 1281,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 677
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 289
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者回复“可以”属于同意或确认，不是纠正；机器人回复内容未公开，无法判断其模式，也无法确定操作者具体想要哪种模式。"
+ },
+ "parse_error": null
+}

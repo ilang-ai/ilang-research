@@ -1,0 +1,47 @@
+{
+ "id": "T1-0276",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5da87007551999f10644810351a21d6e0c18fb4290216d875e2a2c7e6185e8f6",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在骂机器人没用到知识库里海外电话卡购买内容，属于针对回答内容的纠错；机器人回复文本不可见，无法判断其实际模式，操作者想要的是它基于知识库给出建议。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 769,
+   "completion_tokens": 739,
+   "total_tokens": 1508,
+   "cost": 0.000428376,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000428376,
+    "upstream_inference_prompt_cost": 8.1046e-05,
+    "upstream_inference_completions_cost": 0.00034733
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 654,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者是在骂机器人没用到知识库里海外电话卡购买内容，属于针对回答内容的纠错；机器人回复文本不可见，无法判断其实际模式，操作者想要的是它基于知识库给出建议。"
+ },
+ "parse_error": null
+}

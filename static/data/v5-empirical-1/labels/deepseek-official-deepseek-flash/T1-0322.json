@@ -1,0 +1,37 @@
+{
+ "id": "T1-0322",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "3d342804cfd86f5f3f023c6ddef1ddab9b040df809c03515025d5bc491dbf065",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件：操作者没出声，等于默认接受了机器人的回答；机器人只是回答问题、没有动手，属只给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 603,
+   "completion_tokens": 148,
+   "total_tokens": 751,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 98
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 347
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "对照事件：操作者没出声，等于默认接受了机器人的回答；机器人只是回答问题、没有动手，属只给建议。"
+ },
+ "parse_error": null
+}

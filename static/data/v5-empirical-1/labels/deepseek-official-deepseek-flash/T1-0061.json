@@ -1,0 +1,37 @@
+{
+ "id": "T1-0061",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0a4413ded4ff078e30726907248322bb983df7d8327c932d4fa23d89d7944ec8",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息内容被删除，无法判断其针对什么或想要的模式；机器人已自主执行技术题收口并事后汇报，同时暂缓调价改动，整体符合M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1188,
+   "completion_tokens": 2793,
+   "total_tokens": 3981,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2730
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 932
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者消息内容被删除，无法判断其针对什么或想要的模式；机器人已自主执行技术题收口并事后汇报，同时暂缓调价改动，整体符合M1。"
+ },
+ "parse_error": null
+}

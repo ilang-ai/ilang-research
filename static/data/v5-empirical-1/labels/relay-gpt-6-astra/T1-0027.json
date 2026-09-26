@@ -1,0 +1,47 @@
+{
+ "id": "T1-0027",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "15f022228f4a5871cedf41e7a420d6e9c4562a8514c84e35709ee998785f5482",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M6\",\"intended_mode\":\"M1\",\"reason\":\"机器人最后把对外口径交给操作者决定；操作者用“同时你加一句”追加了直接写入指定内容的任务，并非纠正此前的决策方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1316,
+   "completion_tokens": 171,
+   "total_tokens": 1487,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1313,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 100
+   },
+   "input_tokens": 1316,
+   "output_tokens": 171,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M1",
+  "reason": "机器人最后把对外口径交给操作者决定；操作者用“同时你加一句”追加了直接写入指定内容的任务，并非纠正此前的决策方式。"
+ },
+ "parse_error": null
+}

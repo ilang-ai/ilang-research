@@ -1,0 +1,37 @@
+{
+ "id": "T1-0290",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "05abfb9aedb9dd63424be8dbbe2daac52c596a54ad555996d68d0626c157659b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者没有点评上一轮动作，而是提出一个新请求，要求机器人总结今天的客观评价；机器人上一轮具体模式无法从文字判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 799,
+   "completion_tokens": 2194,
+   "total_tokens": 2993,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2137
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 543
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者没有点评上一轮动作，而是提出一个新请求，要求机器人总结今天的客观评价；机器人上一轮具体模式无法从文字判断。"
+ },
+ "parse_error": null
+}

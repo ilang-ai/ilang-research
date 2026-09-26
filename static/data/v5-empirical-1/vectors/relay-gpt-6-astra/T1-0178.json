@@ -1,0 +1,59 @@
+{
+ "id": "T1-0178",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "de3a5e1512e86f3ceab973a6d173dbf44af96aa831f9b25141e32ca93ba74bdc",
+ "user_sha256": "2ce3db5349697f58e0385e70febda58ae3a2cc0fcbf1395677fb7c1afb1b5aad",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.75,csq=0.50,rel=0.50,cer=0.15,aut=0.75,rev=0.50,evd=0.15,sov=0.70,ine=0.50,ext=0.50]\nM:M5|conf:0.95\nR:记录缺少758字回复正文及“暴利玩法”的具体内容，无法评估真实性、时效性与风险，需补充拟回复内容。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 28628,
+   "completion_tokens": 208,
+   "total_tokens": 28836,
+   "prompt_tokens_details": {
+    "cached_tokens": 28394,
+    "cached_creation_tokens": 231,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 77
+   },
+   "input_tokens": 28628,
+   "output_tokens": 208,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.75,
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.15,
+   "aut": 0.75,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.7,
+   "ine": 0.5,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "记录缺少758字回复正文及“暴利玩法”的具体内容，无法评估真实性、时效性与风险，需补充拟回复内容。"
+ },
+ "parse_error": null
+}

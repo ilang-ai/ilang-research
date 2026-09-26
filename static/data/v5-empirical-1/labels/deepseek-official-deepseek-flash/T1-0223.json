@@ -1,0 +1,37 @@
+{
+ "id": "T1-0223",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "85db469a44d8f221a4bf62fe3e2077246c45c719c87de5e4aaab9936bb9cc671",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是另起新任务，要求查看 sudoku.com 的情况，并非对上一条机器人回复做纠正；机器人回复内容未公开，无法判断其模式，也无法判断操作者希望当时采用什么模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 608,
+   "completion_tokens": 4023,
+   "total_tokens": 4631,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3951
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 224
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是另起新任务，要求查看 sudoku.com 的情况，并非对上一条机器人回复做纠正；机器人回复内容未公开，无法判断其模式，也无法判断操作者希望当时采用什么模式。"
+ },
+ "parse_error": null
+}

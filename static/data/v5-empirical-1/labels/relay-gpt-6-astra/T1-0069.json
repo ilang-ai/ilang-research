@@ -1,0 +1,47 @@
+{
+ "id": "T1-0069",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "41a5a27a16828217d02210cc8da2dd6b1d6249a23fdf1dd360c3cc7092eb3f39",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M5\",\"intended_mode\":\"unknown\",\"reason\":\"机器人因两种金额口径看似冲突而追问，操作者纠正了谷歌最低充值额及200美元的用途，并解释盈利概率逻辑，没有明确要求改变机器人的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 2984,
+   "completion_tokens": 164,
+   "total_tokens": 3148,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 2981,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 91
+   },
+   "input_tokens": 2984,
+   "output_tokens": 164,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "unknown",
+  "reason": "机器人因两种金额口径看似冲突而追问，操作者纠正了谷歌最低充值额及200美元的用途，并解释盈利概率逻辑，没有明确要求改变机器人的决策模式。"
+ },
+ "parse_error": null
+}

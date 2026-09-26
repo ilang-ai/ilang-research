@@ -1,0 +1,47 @@
+{
+ "id": "T1-0068",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "6be399a75e935611e7111af7b67a8dc6b0e5309a7a2e4176986d428b1f6100c8",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在更正自己复制的上下文，没有要求改变执行方式；机器人此前已直接写入口径并事后汇报，虽又就冲突项征求意见，但无法据此判断操作者期望的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 4266,
+   "completion_tokens": 136,
+   "total_tokens": 4402,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 4263,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 59
+   },
+   "input_tokens": 4266,
+   "output_tokens": 136,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者是在更正自己复制的上下文，没有要求改变执行方式；机器人此前已直接写入口径并事后汇报，虽又就冲突项征求意见，但无法据此判断操作者期望的模式。"
+ },
+ "parse_error": null
+}

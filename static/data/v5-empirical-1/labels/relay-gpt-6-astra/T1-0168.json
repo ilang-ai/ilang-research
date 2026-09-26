@@ -1,0 +1,46 @@
+{
+ "id": "T1-0168",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "48352f71cb864f5dfc4a7d384f2ede80363674eeca07349c8de9f3c218177b7d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者在纠正机器人作为群管理者的行事方式，要求像代言人而非AI，但未指定八种模式中的任何一种，且机器人原回复不可见。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 626,
+   "completion_tokens": 153,
+   "total_tokens": 779,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 83
+   },
+   "input_tokens": 626,
+   "output_tokens": 153,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者在纠正机器人作为群管理者的行事方式，要求像代言人而非AI，但未指定八种模式中的任何一种，且机器人原回复不可见。"
+ },
+ "parse_error": null
+}

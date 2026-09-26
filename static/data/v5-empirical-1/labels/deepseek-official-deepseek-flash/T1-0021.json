@@ -1,0 +1,37 @@
+{
+ "id": "T1-0021",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "67d211155032921905e0e06696903c881f28a2015c1fe1e86e51bae66801d480",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M6\",\"intended_mode\":\"M3\",\"reason\":\"机器人把“给到什么程度”这类产品边界明确交回操作者拍板（“这条我不替你定，你定”），属把决定权上交；操作者随后敲定②并要求先把设计稿做出来给他看、之后再确认，即希望机器人先提方案待确认再执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1779,
+   "completion_tokens": 2464,
+   "total_tokens": 4243,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2375
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1523
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M6",
+  "intended_mode": "M3",
+  "reason": "机器人把“给到什么程度”这类产品边界明确交回操作者拍板（“这条我不替你定，你定”），属把决定权上交；操作者随后敲定②并要求先把设计稿做出来给他看、之后再确认，即希望机器人先提方案待确认再执行。"
+ },
+ "parse_error": null
+}

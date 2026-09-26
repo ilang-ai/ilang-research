@@ -1,0 +1,37 @@
+{
+ "id": "T1-0055",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "b594c339e51e6aefc358411b20de7b2fad259cad2e10b3119ddde74e00a3ebc1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者说“可以”是批准机器人提出的下一步计划，不是纠正；机器人先提方案等确认，操作者同意后想要它直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1695,
+   "completion_tokens": 5997,
+   "total_tokens": 7692,
+   "prompt_tokens_details": {
+    "cached_tokens": 1536
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5938
+   },
+   "prompt_cache_hit_tokens": 1536,
+   "prompt_cache_miss_tokens": 159
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者说“可以”是批准机器人提出的下一步计划，不是纠正；机器人先提方案等确认，操作者同意后想要它直接执行。"
+ },
+ "parse_error": null
+}

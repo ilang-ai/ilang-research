@@ -1,0 +1,46 @@
+{
+ "id": "T1-0292",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0653a13f9adc14c320802d14f24ddb4b138d386084acb13beff794364f4fdf10",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者没有针对机器人的故障排查指导提出纠偏，而是切换话题自述经历，属于闲聊。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 782,
+   "completion_tokens": 318,
+   "total_tokens": 1100,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 782,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 72,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 246
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有针对机器人的故障排查指导提出纠偏，而是切换话题自述经历，属于闲聊。"
+ },
+ "parse_error": null
+}

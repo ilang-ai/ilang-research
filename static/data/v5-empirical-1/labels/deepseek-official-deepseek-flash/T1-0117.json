@@ -1,0 +1,37 @@
+{
+ "id": "T1-0117",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "863121dfb68bcc706c01cc4c23ed86150a503afad39c3b26f0043870f3818968",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人自主执行并汇报；机器人直接写入 products.md、上线并配置触发词后继续落记忆。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2119,
+   "completion_tokens": 919,
+   "total_tokens": 3038,
+   "prompt_tokens_details": {
+    "cached_tokens": 1920
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 867
+   },
+   "prompt_cache_hit_tokens": 1920,
+   "prompt_cache_miss_tokens": 199
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人自主执行并汇报；机器人直接写入 products.md、上线并配置触发词后继续落记忆。"
+ },
+ "parse_error": null
+}

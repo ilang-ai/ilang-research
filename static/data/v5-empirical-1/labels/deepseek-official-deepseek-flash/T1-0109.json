@@ -1,0 +1,37 @@
+{
+ "id": "T1-0109",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "5980de732c46bd143c665cb2d18e4be4bb7efbfaa4cb87b8900d4b1e987b1c1d",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声并让机器人继续；机器人直接动手执行并准备事后汇报，属于先做后说的 M1，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 638,
+   "completion_tokens": 395,
+   "total_tokens": 1033,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 337
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 382
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没有出声并让机器人继续；机器人直接动手执行并准备事后汇报，属于先做后说的 M1，操作者默认接受。"
+ },
+ "parse_error": null
+}

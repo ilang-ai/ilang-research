@@ -1,0 +1,37 @@
+{
+ "id": "T1-0091",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "09743237f2bd7ccd1da13e27728a51ce64763dbe9b411ebe0e1352b4b7651d93",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此前已把剩余修复交给机器人，随后没有出声，属于默认接受机器人自主执行并继续推进。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 572,
+   "completion_tokens": 268,
+   "total_tokens": 840,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 221
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 316
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者此前已把剩余修复交给机器人，随后没有出声，属于默认接受机器人自主执行并继续推进。"
+ },
+ "parse_error": null
+}

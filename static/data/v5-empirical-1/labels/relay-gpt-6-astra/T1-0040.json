@@ -1,0 +1,47 @@
+{
+ "id": "T1-0040",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "dc801d1b884e6e96727112d0fc128cdca67880e53e54c2da645176488641d301",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人主要在分析方法论并提出验证建议，操作者随后是在追问项目是否已积累出质变，没有纠正其做法或明确要求切换模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1373,
+   "completion_tokens": 180,
+   "total_tokens": 1553,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1370,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 113
+   },
+   "input_tokens": 1373,
+   "output_tokens": 180,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人主要在分析方法论并提出验证建议，操作者随后是在追问项目是否已积累出质变，没有纠正其做法或明确要求切换模式。"
+ },
+ "parse_error": null
+}

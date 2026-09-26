@@ -1,0 +1,37 @@
+{
+ "id": "T1-0154",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "278596467ceba9419f464f1b43db47560f870c82f57f3695b43d4f88d4cee0ed",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是在怒气冲冲地问机器人人在哪/为何没反应，并非纠正内容或指示做法；机器人回复内容不可见，具体模式无法判断，操作者也没有明确表达八种模式中的哪一种。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 548,
+   "completion_tokens": 1293,
+   "total_tokens": 1841,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1225
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 292
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者只是在怒气冲冲地问机器人人在哪/为何没反应，并非纠正内容或指示做法；机器人回复内容不可见，具体模式无法判断，操作者也没有明确表达八种模式中的哪一种。"
+ },
+ "parse_error": null
+}

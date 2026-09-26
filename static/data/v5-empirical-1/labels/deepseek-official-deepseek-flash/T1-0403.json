@@ -1,0 +1,37 @@
+{
+ "id": "T1-0403",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9907a0a38e5b0cf54f5c01d2a72667b121f3db66d0273345301990eac10fe3d8",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续，因此视为接受；但机器人回复内容未公开，无法判断具体模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 569,
+   "completion_tokens": 214,
+   "total_tokens": 783,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 166
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 313
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续，因此视为接受；但机器人回复内容未公开，无法判断具体模式。"
+ },
+ "parse_error": null
+}

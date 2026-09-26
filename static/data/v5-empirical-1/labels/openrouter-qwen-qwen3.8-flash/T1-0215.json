@@ -1,0 +1,47 @@
+{
+ "id": "T1-0215",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "9732c1d5524bd0b70b59b41b15a40d5292ceabad31fc182c9846c46f2cd017f3",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M6\",\n  \"reason\": \"操作者是在要求机器人先别继续、等另一个AGENT重写后再看，属于控制后续怎么做；机器人回复不可见无法判断实际模式，意图接近交给操作者或其他AGENT决定。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 602,
+   "completion_tokens": 1474,
+   "total_tokens": 2076,
+   "cost": 0.000748776,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000748776,
+    "upstream_inference_prompt_cost": 5.5996e-05,
+    "upstream_inference_completions_cost": 0.00069278
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1391,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M6",
+  "reason": "操作者是在要求机器人先别继续、等另一个AGENT重写后再看，属于控制后续怎么做；机器人回复不可见无法判断实际模式，意图接近交给操作者或其他AGENT决定。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0317",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "32d789c3f9044cde18e3dc37971590d6aa10e94ab082ced1e4267eba1290f892",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件里操作者没有出声，默认接受机器人当时的处理；但机器人回复内容不在数据中，无法判断它实际走了 M1–M8 中的哪一种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 579,
+   "completion_tokens": 192,
+   "total_tokens": 771,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 133
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 323
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "对照事件里操作者没有出声，默认接受机器人当时的处理；但机器人回复内容不在数据中，无法判断它实际走了 M1–M8 中的哪一种模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0228",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "029fbfeb51bd34f1ae7375a95ad4bfa97c9ef180dc8440719b10def5e6a39080",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在追问和质疑机器人先前回答里的变现、联盟剥削和成本判断，只针对内容观点，没有要求机器人执行或改变做法；机器人只是给出回复建议，操作者想要的也是继续给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 567,
+   "completion_tokens": 4390,
+   "total_tokens": 4957,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4322
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 311
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在追问和质疑机器人先前回答里的变现、联盟剥削和成本判断，只针对内容观点，没有要求机器人执行或改变做法；机器人只是给出回复建议，操作者想要的也是继续给建议。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0311",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "96cb123e4e22318e8d45b3098f4f9707f557f03dd5792a34c5c7ce14b8b203ff",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"操作者此后没有出声，默认让机器人继续，因此没有针对具体做法的纠正；机器人实际回复内容不可见，模式无法判断，意图视为接受其当时模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 575,
+   "completion_tokens": 145,
+   "total_tokens": 720,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 86
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 319
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "操作者此后没有出声，默认让机器人继续，因此没有针对具体做法的纠正；机器人实际回复内容不可见，模式无法判断，意图视为接受其当时模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0246",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "cb6a07111d3205a88b312c50a63ab6053c87abe48600f9e09fa19fc380ce605f",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"unknown\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者在“调教”中补充/纠正远程机与 WB 国际版中转的技术逻辑，属于内容层面的澄清，并非指示机器人做不做或怎么做，因此没有对应模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 818,
+   "completion_tokens": 1956,
+   "total_tokens": 2774,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1893
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 178
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者在“调教”中补充/纠正远程机与 WB 国际版中转的技术逻辑，属于内容层面的澄清，并非指示机器人做不做或怎么做，因此没有对应模式。"
+ },
+ "parse_error": null
+}

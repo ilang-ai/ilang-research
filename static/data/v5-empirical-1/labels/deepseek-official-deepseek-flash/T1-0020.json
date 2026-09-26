@@ -1,0 +1,37 @@
+{
+ "id": "T1-0020",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0dafe918f454a713322ab69eb54eb15536f920ef923b1354fc6f50f633c00255",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者在回应机器人提出的转人工规则修改方案，明确指示只让客户加微信、不要过度服务和加戏，属于对如何执行的确认与指示；机器人此前正是先给方案等确认（M3），操作者接受并补充了这一流程。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1205,
+   "completion_tokens": 2334,
+   "total_tokens": 3539,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2255
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 949
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者在回应机器人提出的转人工规则修改方案，明确指示只让客户加微信、不要过度服务和加戏，属于对如何执行的确认与指示；机器人此前正是先给方案等确认（M3），操作者接受并补充了这一流程。"
+ },
+ "parse_error": null
+}

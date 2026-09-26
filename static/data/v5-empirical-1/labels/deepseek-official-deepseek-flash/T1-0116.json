@@ -1,0 +1,37 @@
+{
+ "id": "T1-0116",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1e6e988d0f209b46d62a1ab386ca565ec46c0c8513992cb876ad1501285a8236",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受机器人自行收紧判定并执行修复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 580,
+   "completion_tokens": 611,
+   "total_tokens": 1191,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 573
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 196
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，默认接受机器人自行收紧判定并执行修复。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1-0015",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "aef34e5156e4ce6501284517de8b9502b4744c335def8b5d1996c2862a574f7b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者只是确认同意替换，不是纠正；机器人最后拿方案等确认，而操作者此前已说“你自己看着办”，想让它自主执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1395,
+   "completion_tokens": 4395,
+   "total_tokens": 5790,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4335
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1139
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者只是确认同意替换，不是纠正；机器人最后拿方案等确认，而操作者此前已说“你自己看着办”，想让它自主执行。"
+ },
+ "parse_error": null
+}

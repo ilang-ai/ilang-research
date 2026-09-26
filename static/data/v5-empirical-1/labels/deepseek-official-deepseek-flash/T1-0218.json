@@ -1,0 +1,37 @@
+{
+ "id": "T1-0218",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "24b182842235798955173999a77b31d3f2f8662380059493a1cd3fea41f090e1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有对上一个机器人回复做纠正，而是直接提出新的写作任务；机器人回复文本未公开，无法判断其模式，也无法推断操作者想要上一动作采用何种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 567,
+   "completion_tokens": 4643,
+   "total_tokens": 5210,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4579
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 311
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者没有对上一个机器人回复做纠正，而是直接提出新的写作任务；机器人回复文本未公开，无法判断其模式，也无法推断操作者想要上一动作采用何种模式。"
+ },
+ "parse_error": null
+}

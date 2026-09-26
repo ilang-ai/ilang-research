@@ -1,0 +1,47 @@
+{
+ "id": "T1-0183",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "1b039c534efcb45f6b6995d2fe15dfbdd31cbddddf000fdc1efe1057e56cd054",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者在纠正机器人回答灰黑咨询的方式，认为不该讲可执行流程，而应只给建议或话术；机器人实际模式因回复内容缺失无法判断。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 654,
+   "completion_tokens": 1347,
+   "total_tokens": 2001,
+   "cost": 0.000696886,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000696886,
+    "upstream_inference_prompt_cost": 6.3796e-05,
+    "upstream_inference_completions_cost": 0.00063309
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1267,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人回答灰黑咨询的方式，认为不该讲可执行流程，而应只给建议或话术；机器人实际模式因回复内容缺失无法判断。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1-0043",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "48890bbf2f35312c1721c87b47646e69e11ca829ab0a601ac23182dedf89e64d",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在纠正机器人对期望值判断的内容，机器人已直接执行分析并汇报，操作者也明显希望它直接算清楚。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1180,
+   "completion_tokens": 1044,
+   "total_tokens": 2224,
+   "cost": 0.000633376,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 256,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000633376,
+    "upstream_inference_prompt_cost": 0.000142696,
+    "upstream_inference_completions_cost": 0.00049068
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 991,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在纠正机器人对期望值判断的内容，机器人已直接执行分析并汇报，操作者也明显希望它直接算清楚。"
+ },
+ "parse_error": null
+}

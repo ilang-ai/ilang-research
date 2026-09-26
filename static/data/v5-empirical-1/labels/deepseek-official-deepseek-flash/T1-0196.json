@@ -1,0 +1,37 @@
+{
+ "id": "T1-0196",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "35b5e9dc709273774ab1a5b107dfed1f58d7d2c798ef4548815f913b69a35a76",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M5\",\"reason\":\"操作者要求机器人回答前先核实对方是否真的动手，这属于先问清楚再答，而不是直接作答。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 620,
+   "completion_tokens": 3271,
+   "total_tokens": 3891,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3221
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 236
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M5",
+  "reason": "操作者要求机器人回答前先核实对方是否真的动手，这属于先问清楚再答，而不是直接作答。"
+ },
+ "parse_error": null
+}

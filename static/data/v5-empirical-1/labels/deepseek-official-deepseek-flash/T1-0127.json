@@ -1,0 +1,37 @@
+{
+ "id": "T1-0127",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "79f7d07bdd0d9669e5899dd6d64734444022de1896ac727289baa8a95049d45e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续；机器人收到后直接开做并汇报动作，属于自主执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 603,
+   "completion_tokens": 326,
+   "total_tokens": 929,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 279
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 219
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人继续；机器人收到后直接开做并汇报动作，属于自主执行。"
+ },
+ "parse_error": null
+}

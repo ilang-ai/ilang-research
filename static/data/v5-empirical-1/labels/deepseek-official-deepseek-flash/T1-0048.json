@@ -1,0 +1,37 @@
+{
+ "id": "T1-0048",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "0b63d91f42f18b94f84d675d503c055bac1d0091f223284da400fc376085a743",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正机器人的具体做法和后续流程：改掉“社群专线”的写法、把其他问题一起修、以后不必天天跑日志汇报，属于对“怎么做”的指示；机器人当时直接查完日志并汇报，故为 M1，操作者想要它按指示自主执行修复，故 intended_mode 也是 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1541,
+   "completion_tokens": 1556,
+   "total_tokens": 3097,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1456
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 1285
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人的具体做法和后续流程：改掉“社群专线”的写法、把其他问题一起修、以后不必天天跑日志汇报，属于对“怎么做”的指示；机器人当时直接查完日志并汇报，故为 M1，操作者想要它按指示自主执行修复，故 intended_mode 也是 M1。"
+ },
+ "parse_error": null
+}

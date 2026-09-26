@@ -1,0 +1,37 @@
+{
+ "id": "T1-0422",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "ac13770579cf6d96c09b4df1e7be6503acffe66bce5d4bb8ddd4eb627badad8d",
+ "user_sha256": "676beecdbf44f099da0336979e494fd639eb17eef326255d4cd27f294b15c531",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"unknown\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件：操作者没有出声，默认让机器人继续，因此无法从文字判断机器人实际走哪个模式，但可视为操作者接受了该模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 569,
+   "completion_tokens": 133,
+   "total_tokens": 702,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 77
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 313
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "unknown",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件：操作者没有出声，默认让机器人继续，因此无法从文字判断机器人实际走哪个模式，但可视为操作者接受了该模式。"
+ },
+ "parse_error": null
+}
