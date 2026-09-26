@@ -25,6 +25,7 @@ Code, corpus and per-run manifests: [github.com/ilang-ai/ilang-conformance](http
 - **Top of the comparable set**: gemini-3.8-flash 0.8417 · gpt-6-astra 0.7733 · glm-5.3-flash-free 0.7537
 - **L1 gate**: not reached by any run
 - **Execution violations**: 2,851 of 3,049 (93.5%) on rule R9 across all 45 runs
+- **Control runs (added 2026-09-26)**: 9 runs of six models through other routes; the three Claude models score 0.42 to 0.51 pinned to Anthropic through openrouter.ai where api.b.ai gave 0.00 to 0.03, and deepseek-v4.1-flash through four routes agrees with itself on 65 to 67 of 100 execution cases at temperature 0, the noise floor of one run
 
 ## Why it is worth reading
 

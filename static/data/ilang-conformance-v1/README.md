@@ -30,6 +30,10 @@ For time reasons every run except three went through a single aggregator relay, 
 
 Any vendor who thinks a number here is wrong is invited to supply tokens; the run will be repeated against their own endpoint and published whatever it says.
 
+## Control runs through other routes (added 2026-09-26)
+
+Nine runs of 25 and 26 September 2026 repeat the corpus for six of the models through routes other than api.b.ai: openrouter.ai with the provider pinned to Anthropic for the three Claude models, the DeepSeek and Alibaba Cloud endpoints, Alibaba Cloud's hosting of a DeepSeek model, and openrouter.ai unpinned for three open-weight models. Their rows are appended to `runs.tsv` and `exec-rule-failures.tsv` (run ids beginning `openrouter-`, `deepseek-official-` or `qwen-official-`), and `SCOREBOARD.md` lists them in their own section with the per-case agreement between routes. Three findings: the api.b.ai runs of claude-sonnet-4.6, claude-opus-4.7 and claude-haiku-4.5 measured the relay, not the model (0.03, 0.03 and 0.00 there against 0.48, 0.51 and 0.42 through openrouter.ai); deepseek-v4.1-flash through four routes reports identical prompt tokens and agrees with itself on only 76 to 82 of 120 grammar cases and 65 to 67 of 100 execution cases at temperature 0, which is the noise floor of one run; and an unpinned aggregator served one model name from 16 and 21 different hosts within a single run.
+
 ## Limitations
 
 1. Relay attribution, as above.

@@ -44,3 +44,12 @@ relay-claude-sonnet-4.6-20260919-011415	relay-claude-sonnet-4.6	claude-sonnet-4.
 relay-claude-opus-4.7-20260918-231258	relay-claude-opus-4.7	claude-opus-4.7	127ba56	0.0278	below_L1	0.0583	0.01	0.013	0.0	0.0	0.0649	0.2338	0.0	7	1	99	0	0	0
 relay-claude-opus-5-20260918-235100	relay-claude-opus-5	claude-opus-5	127ba56	0.0156	below_L1	0.0333	0.0	0.013	0.0	0.0	0.0649	0.2338	0.0	4	0	0	0	269	0
 relay-claude-haiku-4.5-20260918-225457	relay-claude-haiku-4.5	claude-haiku-4.5	127ba56	0.0039	below_L1	0.0	0.0	0.013	0.0	0.0	0.0649	0.2338	0.0	0	0	0	100	0	0
+deepseek-official-deepseek-flash-20260925-092832	deepseek-official-deepseek-flash	deepseek-flash	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.5623	below_L1	0.675	0.31	0.7253	0.88	0.77	0.8067	0.0483	0.4	81	31	65	4	0	0
+openrouter-anthropic-claude-haiku-4.5-20260925-094619	openrouter-anthropic-claude-haiku-4.5	anthropic/claude-haiku-4.5	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.4185	below_L1	0.7083	0.0	0.5686	0.92	0.41	0.7029	0.0743	0.4	85	0	100	0	0	0
+openrouter-anthropic-claude-opus-4.7-20260926-002600	openrouter-anthropic-claude-opus-4.7	anthropic/claude-opus-4.7	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.509	below_L1	0.8333	0.01	0.7128	0.99	0.64	0.8441	0.039	0.45	100	1	99	0	0	0
+openrouter-anthropic-claude-sonnet-4.6-20260925-092828	openrouter-anthropic-claude-sonnet-4.6	anthropic/claude-sonnet-4.6	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.4793	below_L1	0.7333	0.01	0.7305	0.94	0.67	0.8226	0.0443	0.55	88	1	99	0	0	0
+openrouter-deepseek-deepseek-v4.1-flash-20260925-092955	openrouter-deepseek-deepseek-v4.1-flash	deepseek/deepseek-v4.1-flash	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.5578	below_L1	0.7333	0.26	0.7006	0.86	0.77	0.753	0.0617	0.35	88	26	73	1	0	0
+openrouter-qwen-qwen3.8-flash-20260925-151914	openrouter-qwen-qwen3.8-flash	qwen/qwen3.8-flash	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.6064	below_L1	0.8583	0.18	0.8099	0.94	0.86	0.7894	0.0527	0.6	103	18	60	15	8	0
+openrouter-z-ai-glm-5.3-flash-20260925-185655	openrouter-z-ai-glm-5.3-flash	z-ai/glm-5.3-flash	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.5558	below_L1	0.675	0.31	0.7034	0.91	0.73	0.747	0.0632	0.4	81	31	55	14	0	0
+qwen-official-deepseek-v4.1-flash-20260925-232030	qwen-official-deepseek-v4.1-flash	deepseek-v4.1-flash	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.5731	below_L1	0.7333	0.28	0.728	0.88	0.76	0.7399	0.065	0.5	88	28	66	6	0	0
+qwen-official-qwen3.8-flash-20260925-092842	qwen-official-qwen3.8-flash	qwen3.8-flash	127ba56f4eb1f35c2951d4aec4b7bd22831119ff	0.658	below_L1	0.9	0.25	0.8518	1.0	0.87	0.8189	0.0453	0.7	108	25	71	0	4	0

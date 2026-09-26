@@ -44,3 +44,12 @@ relay-claude-sonnet-4.6-20260919-011415	claude-sonnet-4.6	2	0	0	0	7	5	95	0	0
 relay-claude-opus-4.7-20260918-231258	claude-opus-4.7	0	0	0	0	0	0	87	0	0
 relay-claude-opus-5-20260918-235100	claude-opus-5	0	0	0	0	0	0	0	0	0
 relay-claude-haiku-4.5-20260918-225457	claude-haiku-4.5	0	0	0	0	0	0	0	0	0
+deepseek-official-deepseek-flash-20260925-092832	deepseek-flash	0	0	0	0	0	4	55	0	0
+openrouter-anthropic-claude-haiku-4.5-20260925-094619	anthropic/claude-haiku-4.5	0	0	0	0	1	0	100	0	1
+openrouter-anthropic-claude-opus-4.7-20260926-002600	anthropic/claude-opus-4.7	0	0	0	0	0	0	97	0	0
+openrouter-anthropic-claude-sonnet-4.6-20260925-092828	anthropic/claude-sonnet-4.6	1	0	0	0	0	3	95	0	0
+openrouter-deepseek-deepseek-v4.1-flash-20260925-092955	deepseek/deepseek-v4.1-flash	0	0	0	0	0	2	63	0	0
+openrouter-qwen-qwen3.8-flash-20260925-151914	qwen/qwen3.8-flash	0	0	0	0	0	0	53	0	0
+openrouter-z-ai-glm-5.3-flash-20260925-185655	z-ai/glm-5.3-flash	0	0	0	0	17	3	40	0	3
+qwen-official-deepseek-v4.1-flash-20260925-232030	deepseek-v4.1-flash	1	0	0	0	0	4	55	0	0
+qwen-official-qwen3.8-flash-20260925-092842	qwen3.8-flash	0	0	0	0	0	0	63	0	0
