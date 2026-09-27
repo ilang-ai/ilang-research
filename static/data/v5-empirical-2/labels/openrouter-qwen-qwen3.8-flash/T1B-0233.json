@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0233",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "62474158f6e0078cc1a442a888c9c6f2cabd1e1be2c540ab72910c06605351ba",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是通知大家去试，没有纠正机器人之前直接改好并汇报的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 955,
+   "completion_tokens": 2285,
+   "total_tokens": 3240,
+   "cost": 0.001148592,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001148592,
+    "upstream_inference_prompt_cost": 7.4642e-05,
+    "upstream_inference_completions_cost": 0.00107395
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2239,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是通知大家去试，没有纠正机器人之前直接改好并汇报的模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0034",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "36ebf2af129e85f962819b157e7e163170c3bf670f492a21968261add3815841",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"操作者在纠正机器人擅自决定把密钥放香港机的做法，要求先问/考虑本地存储，属于对执行方式的纠正；机器人当时是在索要密钥并给出方案，属于先问清楚再说；操作者想要的是先问清楚再决定存放位置。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 710,
+   "completion_tokens": 12107,
+   "total_tokens": 12817,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 12013
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 198
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M5",
+  "reason": "操作者在纠正机器人擅自决定把密钥放香港机的做法，要求先问/考虑本地存储，属于对执行方式的纠正；机器人当时是在索要密钥并给出方案，属于先问清楚再说；操作者想要的是先问清楚再决定存放位置。"
+ },
+ "parse_error": null
+}

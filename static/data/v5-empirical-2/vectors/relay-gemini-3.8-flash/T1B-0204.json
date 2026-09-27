@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0204",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "94a4df41f5ed1f548fe4c30e2d96c591edf8b39453c881ab3e66c38c252beb9d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.70,rel=0.65,cer=0.70,aut=0.50,rev=0.75,evd=0.70,sov=0.60,ine=0.65,ext=0.60]\nM:M3|conf:0.82\nR:社群移出预警涉及成员留存与群内影响建议确认后再发",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37519,
+   "completion_tokens": 6875,
+   "total_tokens": 44394,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37519,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 124,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 6751
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.8,
+   "csq": 0.7,
+   "rel": 0.65,
+   "cer": 0.7,
+   "aut": 0.5,
+   "rev": 0.75,
+   "evd": 0.7,
+   "sov": 0.6,
+   "ine": 0.65,
+   "ext": 0.6
+  },
+  "declared_mode": "M3",
+  "conf": 0.82,
+  "reason": "社群移出预警涉及成员留存与群内影响建议确认后再发"
+ },
+ "parse_error": null
+}

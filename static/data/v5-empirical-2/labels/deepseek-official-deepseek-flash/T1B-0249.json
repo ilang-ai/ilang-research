@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0249",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8518477f196e07a320aa77f8ae0adb76cf409fed03d214e07aaa14231a6e800d",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没出声即默认接受；机器人这轮没动手选方向，而是给出养站逻辑与选词标准后追问「你心里有没有一个想长期做的领域」，属于先问清楚再说的 M5。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 897,
+   "completion_tokens": 529,
+   "total_tokens": 1426,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 456
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 385
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没出声即默认接受；机器人这轮没动手选方向，而是给出养站逻辑与选词标准后追问「你心里有没有一个想长期做的领域」，属于先问清楚再说的 M5。"
+ },
+ "parse_error": null
+}

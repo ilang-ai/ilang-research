@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0054",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8a85275d3375c44518b7393b481c0926d0169fa0f236a4db128d7249cb58754a",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M6\",\"intended_mode\":\"M1\",\"reason\":\"操作者只纠正语言（要求以后永远说中文），不是针对默认出价方式的决策；机器人实际把默认出价方式交回给操作者定（M6），而操作者原话是让机器人自己定（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1573,
+   "completion_tokens": 10670,
+   "total_tokens": 12243,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10595
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1061
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M6",
+  "intended_mode": "M1",
+  "reason": "操作者只纠正语言（要求以后永远说中文），不是针对默认出价方式的决策；机器人实际把默认出价方式交回给操作者定（M6），而操作者原话是让机器人自己定（M1）。"
+ },
+ "parse_error": null
+}

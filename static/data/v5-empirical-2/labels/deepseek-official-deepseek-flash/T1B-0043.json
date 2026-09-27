@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0043",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "fa2457043eabd09ac681edba879399f881c9e489212622a09dede97821269ef6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者之前明确要求直接拉取覆盖，机器人直接执行并汇报；随后消息是一份新的工程书任务，不是对上次拉取动作的纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 7441,
+   "completion_tokens": 2774,
+   "total_tokens": 10215,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2713
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 6929
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者之前明确要求直接拉取覆盖，机器人直接执行并汇报；随后消息是一份新的工程书任务，不是对上次拉取动作的纠正。"
+ },
+ "parse_error": null
+}

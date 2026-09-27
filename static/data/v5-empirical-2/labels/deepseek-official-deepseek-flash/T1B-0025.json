@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0025",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "65fc43f8be9a52660fb5383df9dbc26f31731ac21551d73490d40f600cf78d21",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续并接受其做法；机器人已自行完成 v1.2 修改并事后汇报，属于直接做完再告知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 660,
+   "completion_tokens": 940,
+   "total_tokens": 1600,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 883
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 148
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续并接受其做法；机器人已自行完成 v1.2 修改并事后汇报，属于直接做完再告知。"
+ },
+ "parse_error": null
+}

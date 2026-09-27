@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0007",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b8b329db7d8e0551c1587e3f55250b9571a31491f965d0cf51965c850629a107",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者直接批准并下令清理，明确要求对两项请示采取行动；机器人此前也是自行修复后汇报，属于直接执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1704,
+   "completion_tokens": 7125,
+   "total_tokens": 8829,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7069
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1320
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者直接批准并下令清理，明确要求对两项请示采取行动；机器人此前也是自行修复后汇报，属于直接执行后汇报。"
+ },
+ "parse_error": null
+}

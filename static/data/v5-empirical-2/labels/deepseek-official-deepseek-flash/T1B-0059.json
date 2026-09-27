@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0059",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ec592143d02e163a0f94b7a57a338175d632ae21ef35b318da4ca108d3e8c36e",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在用 GitHub、预印本外链等反问并要求机器人认错，针对的是前面回答的事实内容而非做不做或怎么做；机器人当时只是在给建议解释，没有动手，操作者也只是要它作答纠错，因此双方模式都是 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1070,
+   "completion_tokens": 4383,
+   "total_tokens": 5453,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4304
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 558
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在用 GitHub、预印本外链等反问并要求机器人认错，针对的是前面回答的事实内容而非做不做或怎么做；机器人当时只是在给建议解释，没有动手，操作者也只是要它作答纠错，因此双方模式都是 M4。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0347",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9c418055dfa5d9e84500953d92184df4510720aa6904f53d9ac51e76049c6f16",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在确认机器人提出的分工方案并汇报自己的进度，不是在纠正怎么做；这条消息本身不表达新的模式要求。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 764,
+   "completion_tokens": 2204,
+   "total_tokens": 2968,
+   "cost": 0.001081872,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001081872,
+    "upstream_inference_prompt_cost": 4.5992e-05,
+    "upstream_inference_completions_cost": 0.00103588
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2133,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在确认机器人提出的分工方案并汇报自己的进度，不是在纠正怎么做；这条消息本身不表达新的模式要求。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0141",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "590aa33b27b3a8f5fa6ff4da7b935f9254396495ce2773a352ad4c18b241c337",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只上传了一个文件，没有文字纠正或指示，不能判断是在纠正上一轮的做法；机器人上一轮只是给出建议、没有动手执行，所以实际是 M4；文件本身也没有表达希望机器人采用哪种模式，故 intended_mode 无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 850,
+   "completion_tokens": 1864,
+   "total_tokens": 2714,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1783
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 338
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者只上传了一个文件，没有文字纠正或指示，不能判断是在纠正上一轮的做法；机器人上一轮只是给出建议、没有动手执行，所以实际是 M4；文件本身也没有表达希望机器人采用哪种模式，故 intended_mode 无法判断。"
+ },
+ "parse_error": null
+}

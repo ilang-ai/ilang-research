@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0224",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cc8599f3a783d53af437178d38fceaedf62faeca282da4aa8dd81be60b8a6e21",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人先给方案并等操作者检查确认，操作者没有纠正，而是追加了把案例延展成技能并直接提供整套I-Lang提示词的新任务。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1677,
+   "completion_tokens": 108,
+   "total_tokens": 1785,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1674,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 39
+   },
+   "input_tokens": 1677,
+   "output_tokens": 108,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人先给方案并等操作者检查确认，操作者没有纠正，而是追加了把案例延展成技能并直接提供整套I-Lang提示词的新任务。"
+ },
+ "parse_error": null
+}

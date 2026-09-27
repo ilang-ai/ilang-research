@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0218",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "70c0bbd55cb1f6c1dac5ad81ea99d51a1700b4e26d9e31be6fd411189b077b4a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.40,cap=0.35,csq=0.35,rel=0.40,cer=0.20,aut=0.60,rev=0.55,evd=0.10,sov=0.60,ine=0.35,ext=0.25]\nM:M5|conf:0.94\nR:成功率与免查断言缺乏证据，且鼓励自推交叉购买规避检测；应核实联盟条款、获客成本及转化数据，撤回收益保证。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34679,
+   "completion_tokens": 337,
+   "total_tokens": 35016,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 1187,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 195
+   },
+   "input_tokens": 34679,
+   "output_tokens": 337,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.4,
+   "cap": 0.35,
+   "csq": 0.35,
+   "rel": 0.4,
+   "cer": 0.2,
+   "aut": 0.6,
+   "rev": 0.55,
+   "evd": 0.1,
+   "sov": 0.6,
+   "ine": 0.35,
+   "ext": 0.25
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "成功率与免查断言缺乏证据，且鼓励自推交叉购买规避检测；应核实联盟条款、获客成本及转化数据，撤回收益保证。"
+ },
+ "parse_error": null
+}

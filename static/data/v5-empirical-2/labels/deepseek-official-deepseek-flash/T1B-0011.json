@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0011",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "454294a883c56029764ea4854b442bf0e6115f8d882ea0dcc6d9144828f8d71c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者明确让机器人去改SOP，并给出「个人真实身份先跑通、环境搭建要教、多号可让亲友参与走正规KYC」等修改方向，属于对做不做/怎么做的指示；机器人此前已直接写入SOUL并刷新，属自主执行事后汇报，而操作者想让它继续直接执行改SOP。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 826,
+   "completion_tokens": 4028,
+   "total_tokens": 4854,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3925
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 442
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者明确让机器人去改SOP，并给出「个人真实身份先跑通、环境搭建要教、多号可让亲友参与走正规KYC」等修改方向，属于对做不做/怎么做的指示；机器人此前已直接写入SOUL并刷新，属自主执行事后汇报，而操作者想让它继续直接执行改SOP。"
+ },
+ "parse_error": null
+}

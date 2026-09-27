@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0270",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "82976e269afae86fdd96ac382c663da2c1f62b6be02b0c82299d5912c8bcfc10",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人“不需要验证”的回复；机器人只是给出判断/建议，没有实际执行验证，所以是M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 617,
+   "completion_tokens": 863,
+   "total_tokens": 1480,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 808
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 233
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人“不需要验证”的回复；机器人只是给出判断/建议，没有实际执行验证，所以是M4。"
+ },
+ "parse_error": null
+}

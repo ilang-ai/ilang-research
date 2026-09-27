@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0257",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "f6f9d65d9cdf2d6977a49a479426260e4ba95834289205af3c9412dff6e11383",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人的处理；机器人直接发出验证提醒，未先确认或给方案，属于自主执行并即时告知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 677,
+   "completion_tokens": 653,
+   "total_tokens": 1330,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 599
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 165
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人的处理；机器人直接发出验证提醒，未先确认或给方案，属于自主执行并即时告知。"
+ },
+ "parse_error": null
+}

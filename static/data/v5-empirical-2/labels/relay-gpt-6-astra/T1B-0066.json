@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0066",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "090a91efd58af502b9174f0f875cc363a244d77a4c3569b4dc471870001e9159",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"机器人只给了不推荐首尔的解释，操作者纠正的是首尔的连接速度及成人内容访问情况，没有要求改变执行或决策方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 762,
+   "completion_tokens": 211,
+   "total_tokens": 973,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 147
+   },
+   "input_tokens": 762,
+   "output_tokens": 211,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "机器人只给了不推荐首尔的解释，操作者纠正的是首尔的连接速度及成人内容访问情况，没有要求改变执行或决策方式。"
+ },
+ "parse_error": null
+}

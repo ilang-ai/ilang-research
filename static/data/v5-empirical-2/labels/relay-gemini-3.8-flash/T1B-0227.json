@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0227",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1191b0ee6fc0acff7ac1ea80c2db1a4834cb9a574998bece90e27d4584e5f5e6",
+ "text": "```json\n{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"机器人拿出了架构方案等待确认，操作者纠正了方案中所采用的样本内容。\"}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 983,
+   "completion_tokens": 236,
+   "total_tokens": 1219,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 983,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 49,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 187
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人拿出了架构方案等待确认，操作者纠正了方案中所采用的样本内容。"
+ },
+ "parse_error": null
+}

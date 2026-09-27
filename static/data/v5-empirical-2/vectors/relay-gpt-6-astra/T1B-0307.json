@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0307",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "f5afdac04a7c9e5716b47e006ab611f382467bc3a56cae43c4f412717ab13a87",
+ "text": "::JUDGE{v5.0}\nV:[int=0.20,cap=0.35,csq=0.55,rel=0.20,cer=0.85,aut=0.50,rev=0.25,evd=0.35,sov=0.50,ine=0.10,ext=0.70]\nM:M4|conf:0.92\nR:学员仅表达使用AI的兴奋，拟回复却无依据地批评其能力和模型消费观，偏题且带羞辱性；建议回应实际表达，避免臆测说教。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33897,
+   "completion_tokens": 485,
+   "total_tokens": 34382,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 405,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 343
+   },
+   "input_tokens": 33897,
+   "output_tokens": 485,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.2,
+   "cap": 0.35,
+   "csq": 0.55,
+   "rel": 0.2,
+   "cer": 0.85,
+   "aut": 0.5,
+   "rev": 0.25,
+   "evd": 0.35,
+   "sov": 0.5,
+   "ine": 0.1,
+   "ext": 0.7
+  },
+  "declared_mode": "M4",
+  "conf": 0.92,
+  "reason": "学员仅表达使用AI的兴奋，拟回复却无依据地批评其能力和模型消费观，偏题且带羞辱性；建议回应实际表达，避免臆测说教。"
+ },
+ "parse_error": null
+}

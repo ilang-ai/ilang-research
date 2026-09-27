@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0312",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9788c68590b6f9380d3b81a7f456339f6c46a8cd9101a742dc04b59df9306dde",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者只是在发产品定价和判断价值的说明，不是在纠正机器人怎么做；机器人此前也只是输出观点，没有执行动作。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 947,
+   "completion_tokens": 1210,
+   "total_tokens": 2157,
+   "cost": 0.000642142,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000642142,
+    "upstream_inference_prompt_cost": 7.3442e-05,
+    "upstream_inference_completions_cost": 0.0005687
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1139,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是在发产品定价和判断价值的说明，不是在纠正机器人怎么做；机器人此前也只是输出观点，没有执行动作。"
+ },
+ "parse_error": null
+}

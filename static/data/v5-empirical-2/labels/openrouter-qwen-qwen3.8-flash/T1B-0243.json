@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0243",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2103e6d544fe11fb2dab67e9bd32ab4f96010eff936e78e8642ed38edef5e61a",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者嫌机器人不直接推荐谷歌套利课程、还反问解释，希望它直接给出明确方案或推荐；机器人则因缺信息先给能给的案例并追问学员选择。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1315,
+   "completion_tokens": 1820,
+   "total_tokens": 3135,
+   "cost": 0.000984042,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000984042,
+    "upstream_inference_prompt_cost": 0.000128642,
+    "upstream_inference_completions_cost": 0.0008554
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1736,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者嫌机器人不直接推荐谷歌套利课程、还反问解释，希望它直接给出明确方案或推荐；机器人则因缺信息先给能给的案例并追问学员选择。"
+ },
+ "parse_error": null
+}

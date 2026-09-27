@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0224",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cc8599f3a783d53af437178d38fceaedf62faeca282da4aa8dd81be60b8a6e21",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者没有纠正机器人是否该做或怎么做，而是继续提出新的延展需求；机器人当时先给方案并等待检查确认，属于M3，但操作者未明确表达对当时模式的偏好。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1528,
+   "completion_tokens": 1290,
+   "total_tokens": 2818,
+   "cost": 0.000766892,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000766892,
+    "upstream_inference_prompt_cost": 0.000160592,
+    "upstream_inference_completions_cost": 0.0006063
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1205,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正机器人是否该做或怎么做，而是继续提出新的延展需求；机器人当时先给方案并等待检查确认，属于M3，但操作者未明确表达对当时模式的偏好。"
+ },
+ "parse_error": null
+}

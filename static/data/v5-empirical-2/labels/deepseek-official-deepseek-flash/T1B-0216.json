@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0216",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ba0df3af31f896384fdf2a664d3a80b2e838c1ce2247059c43f1c9c5e466f29d",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"dont_know\",\"reason\":\"操作者在质疑机器人只讲理论、脱离现实，针对的是其论证内容而非执行方式；机器人此前直接给出了长篇分析，而操作者希望它承认对现实情况不知道。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1158,
+   "completion_tokens": 6657,
+   "total_tokens": 7815,
+   "prompt_tokens_details": {
+    "cached_tokens": 1024
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6593
+   },
+   "prompt_cache_hit_tokens": 1024,
+   "prompt_cache_miss_tokens": 134
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "dont_know",
+  "reason": "操作者在质疑机器人只讲理论、脱离现实，针对的是其论证内容而非执行方式；机器人此前直接给出了长篇分析，而操作者希望它承认对现实情况不知道。"
+ },
+ "parse_error": null
+}

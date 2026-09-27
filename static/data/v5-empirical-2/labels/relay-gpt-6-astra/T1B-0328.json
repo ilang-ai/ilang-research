@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0328",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ea55b644a8b16601cadd33984c53c0ec832ec077eed52a576161df79a07bf88a",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人只给了搭建知识库的建议，操作者补充要求推荐带MCP的腾讯乐享知识库，改的是推荐内容，不是执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 895,
+   "completion_tokens": 107,
+   "total_tokens": 1002,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 43
+   },
+   "input_tokens": 895,
+   "output_tokens": 107,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人只给了搭建知识库的建议，操作者补充要求推荐带MCP的腾讯乐享知识库，改的是推荐内容，不是执行方式。"
+ },
+ "parse_error": null
+}

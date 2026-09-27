@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0097",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b78ba86a64f9505aba3384ae6b4d4beb1cd9fcf5ee4604f38c855812d20aa35f",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"机器人给出安装 Chrome 和注册谷歌账户的操作指导，没有代为执行；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 716,
+   "completion_tokens": 120,
+   "total_tokens": 836,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 65
+   },
+   "input_tokens": 716,
+   "output_tokens": 120,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人给出安装 Chrome 和注册谷歌账户的操作指导，没有代为执行；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

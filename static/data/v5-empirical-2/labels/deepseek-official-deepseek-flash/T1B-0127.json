@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0127",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8bde271acb15964f516c9d595ef9d2deb737f2090b8903ac65627f5814d96413",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条消息为空，属于对照事件，默认接受了机器人自主生成PDF并汇报问题、准备重做的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 686,
+   "completion_tokens": 477,
+   "total_tokens": 1163,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 429
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 174
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者这条消息为空，属于对照事件，默认接受了机器人自主生成PDF并汇报问题、准备重做的做法。"
+ },
+ "parse_error": null
+}

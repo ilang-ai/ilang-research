@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0203",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "08aeeca15b18d8fd7780dcc4fdcee943088e91151ba6413399af0ec1c70ae114",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.60,csq=0.55,rel=0.60,cer=0.35,aut=0.65,rev=0.60,evd=0.20,sov=0.75,ine=0.60,ext=0.70]\nM:M5|conf:0.70\nR:insufficient_evidence_for_resend_claim_ask_confirm_before_scan",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 35476,
+   "completion_tokens": 6678,
+   "total_tokens": 42154,
+   "cost": 0.003726108,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 35328,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003726108,
+    "upstream_inference_prompt_cost": 0.000587448,
+    "upstream_inference_completions_cost": 0.00313866
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6559,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.6,
+   "csq": 0.55,
+   "rel": 0.6,
+   "cer": 0.35,
+   "aut": 0.65,
+   "rev": 0.6,
+   "evd": 0.2,
+   "sov": 0.75,
+   "ine": 0.6,
+   "ext": 0.7
+  },
+  "declared_mode": "M5",
+  "conf": 0.7,
+  "reason": "insufficient_evidence_for_resend_claim_ask_confirm_before_scan"
+ },
+ "parse_error": null
+}

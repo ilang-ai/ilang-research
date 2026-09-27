@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0048",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9e8f73b078e7ac831c210fd0f9ade44a61c81d5a0b15b8620a36aff73c1b3c5b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正交接方式，要求机器人不要按原步骤推进，而是只出详细版工程书，由他拿去网页版执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1572,
+   "completion_tokens": 1201,
+   "total_tokens": 2773,
+   "cost": 0.000731662,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000731662,
+    "upstream_inference_prompt_cost": 0.000167192,
+    "upstream_inference_completions_cost": 0.00056447
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1144,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正交接方式，要求机器人不要按原步骤推进，而是只出详细版工程书，由他拿去网页版执行。"
+ },
+ "parse_error": null
+}

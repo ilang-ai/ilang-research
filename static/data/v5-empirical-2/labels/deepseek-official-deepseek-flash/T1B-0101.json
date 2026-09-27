@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0101",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "21f47c01ed2fc318901588c463ec3ff67685cda021d11e0195fd88eb6cd09f11",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人直接给出的详细建议；机器人只是解释和给建议，没有实际动手操作，属于只给建议不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1162,
+   "completion_tokens": 773,
+   "total_tokens": 1935,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 718
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 650
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人直接给出的详细建议；机器人只是解释和给建议，没有实际动手操作，属于只给建议不动手。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0157",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "dc804661eb8b001590072cd2d0ca9146bf5e93875fcfa9ce6b8d97eaf399c83a",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在纠正机器人对图片推不进微信的原因判断，属于内容/事实纠正；机器人当时只是给建议和指导，没有动手执行，所以是M4；操作者没有表达希望机器人采用哪个决策模式，八类模式均不适用。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 806,
+   "completion_tokens": 3530,
+   "total_tokens": 4336,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3438
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 294
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在纠正机器人对图片推不进微信的原因判断，属于内容/事实纠正；机器人当时只是给建议和指导，没有动手执行，所以是M4；操作者没有表达希望机器人采用哪个决策模式，八类模式均不适用。"
+ },
+ "parse_error": null
+}

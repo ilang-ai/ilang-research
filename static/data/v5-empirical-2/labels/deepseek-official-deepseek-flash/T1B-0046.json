@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0046",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6d03effb661f74eb6aaed0e80302e0c518090541cb5b56d7c63904e7e790a7b4",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在确认机器人提出的方案并授权先执行 T3，不是纠正内容；机器人当时列出两个方案并等确认，所以是 M3，操作者要它直接开工，对应 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 718,
+   "completion_tokens": 4153,
+   "total_tokens": 4871,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4083
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 206
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者是在确认机器人提出的方案并授权先执行 T3，不是纠正内容；机器人当时列出两个方案并等确认，所以是 M3，操作者要它直接开工，对应 M1。"
+ },
+ "parse_error": null
+}

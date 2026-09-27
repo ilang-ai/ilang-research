@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0109",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "07d8a21296abda6ebae07cc7d3715effc57560b706e31fb8d296b277ece339e2",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"机器人只提供了检查权限和询问 WB 的操作建议，没有亲自执行；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 795,
+   "completion_tokens": 53,
+   "total_tokens": 848,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 795,
+   "output_tokens": 53,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人只提供了检查权限和询问 WB 的操作建议，没有亲自执行；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

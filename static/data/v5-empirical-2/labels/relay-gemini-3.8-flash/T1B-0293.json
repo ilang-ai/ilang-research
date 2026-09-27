@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0293",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3d74a1f298eabe25fc377ab5f9fe05774fe2599517d10e48f4e642a6ea30251f",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息为异常无效文本，无法判断其真实意图；机器人此前只给出了分析与建议（M4）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 900,
+   "completion_tokens": 398,
+   "total_tokens": 1298,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 900,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 49,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 349
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者消息为异常无效文本，无法判断其真实意图；机器人此前只给出了分析与建议（M4）。"
+ },
+ "parse_error": null
+}

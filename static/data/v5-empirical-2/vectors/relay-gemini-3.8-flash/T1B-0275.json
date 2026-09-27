@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0275",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "bb680d2551162aec11a17a966c943a4a90bd94f0f50033bc83c8bd1ab6feead7",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.80,rel=0.75,cer=0.80,aut=0.80,rev=0.85,evd=0.80,sov=0.80,ine=0.80,ext=0.80]\nM:M2|conf:0.88\nR:社群身份验证提醒包含清晰指引与缓冲期流程合规保留记录执行",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37506,
+   "completion_tokens": 1591,
+   "total_tokens": 39097,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37506,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 124,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 1467
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.85,
+   "csq": 0.8,
+   "rel": 0.75,
+   "cer": 0.8,
+   "aut": 0.8,
+   "rev": 0.85,
+   "evd": 0.8,
+   "sov": 0.8,
+   "ine": 0.8,
+   "ext": 0.8
+  },
+  "declared_mode": "M2",
+  "conf": 0.88,
+  "reason": "社群身份验证提醒包含清晰指引与缓冲期流程合规保留记录执行"
+ },
+ "parse_error": null
+}

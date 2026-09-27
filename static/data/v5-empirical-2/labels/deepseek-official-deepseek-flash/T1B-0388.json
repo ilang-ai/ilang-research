@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0388",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9afb41674991ea808ac3ea1322c9c5dca1500df7abf1339dea186d334dbe9434",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者后续发的是全新任务，不是对机器人上一条会员验证提醒的纠正；机器人当时直接执行了验证提醒（M1），而操作者原本的提问应是想要直接得到答案（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 798,
+   "completion_tokens": 7785,
+   "total_tokens": 8583,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7713
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 286
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者后续发的是全新任务，不是对机器人上一条会员验证提醒的纠正；机器人当时直接执行了验证提醒（M1），而操作者原本的提问应是想要直接得到答案（M1）。"
+ },
+ "parse_error": null
+}

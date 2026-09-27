@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0137",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "9e860af139574f9cb526797d7a2ac52a4282ada75409b2d8acfc4ea0c39ea51c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.60,csq=0.65,rel=0.50,cer=0.25,aut=0.90,rev=0.75,evd=0.15,sov=0.90,ine=0.50,ext=0.85]\nM:M5|conf:0.95\nR:未核实运营商的eSIM支持、套餐价格及实名要求，且擅自假定收码需求；应先澄清用途与使用地区，不能保证三个号码均可收谷歌验证码。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33904,
+   "completion_tokens": 230,
+   "total_tokens": 34134,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 412,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 86
+   },
+   "input_tokens": 33904,
+   "output_tokens": 230,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.6,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.9,
+   "rev": 0.75,
+   "evd": 0.15,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "未核实运营商的eSIM支持、套餐价格及实名要求，且擅自假定收码需求；应先澄清用途与使用地区，不能保证三个号码均可收谷歌验证码。"
+ },
+ "parse_error": null
+}

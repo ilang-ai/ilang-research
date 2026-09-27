@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0262",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "865fb83463664d4b7bb16eb482374e999b81e6f8978e9f318b8573220a150ae3",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.65,csq=0.70,rel=0.50,cer=0.20,aut=0.85,rev=0.85,evd=0.15,sov=0.90,ine=0.50,ext=0.85]\nM:M5|conf:0.94\nR:应先确认项目与实际配置；199元海外远程机、微信集成及全程无需翻墙均无证据，不能作确定承诺。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34084,
+   "completion_tokens": 200,
+   "total_tokens": 34284,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 592,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 68
+   },
+   "input_tokens": 34084,
+   "output_tokens": 200,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.65,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.85,
+   "evd": 0.15,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "应先确认项目与实际配置；199元海外远程机、微信集成及全程无需翻墙均无证据，不能作确定承诺。"
+ },
+ "parse_error": null
+}

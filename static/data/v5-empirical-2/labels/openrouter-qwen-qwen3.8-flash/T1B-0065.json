@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0065",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a41db5832dee773d919388e889ab339714cb700641d65995fab5a60f6a776578",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是补充不推荐首尔的内容原因，没有要求改变执行方式；机器人当时也只作解释和建议，未动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 846,
+   "completion_tokens": 1097,
+   "total_tokens": 1943,
+   "cost": 0.000573882,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000573882,
+    "upstream_inference_prompt_cost": 5.8292e-05,
+    "upstream_inference_completions_cost": 0.00051559
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1045,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是补充不推荐首尔的内容原因，没有要求改变执行方式；机器人当时也只作解释和建议，未动手执行。"
+ },
+ "parse_error": null
+}

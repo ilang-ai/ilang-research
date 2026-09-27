@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0239",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "40b5e98c8c8231b243b9719d8ddd6b1d034206c068cdb08217909cc3560d7645",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件，默认接受机器人继续；机器人只是确认配置并给出下单和后续操作建议，没有实际代为执行，因此实际走的是只给建议不动手的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 924,
+   "completion_tokens": 630,
+   "total_tokens": 1554,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 565
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 412
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，属于对照事件，默认接受机器人继续；机器人只是确认配置并给出下单和后续操作建议，没有实际代为执行，因此实际走的是只给建议不动手的模式。"
+ },
+ "parse_error": null
+}

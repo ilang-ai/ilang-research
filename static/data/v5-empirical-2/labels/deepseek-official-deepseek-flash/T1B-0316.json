@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0316",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "61aef115dc5c7f457bc0029e946158709300cff92ad921aec74a4bcef9a2f6fb",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者针对机器人提出的方案进行命名、交付物和范围的修正，并指示直接产出可复制的iLang工程书，希望机器人按修改后的方案执行（M1）；而机器人当时只是先给出方案等待确认（M3）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1106,
+   "completion_tokens": 3313,
+   "total_tokens": 4419,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3236
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 594
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者针对机器人提出的方案进行命名、交付物和范围的修正，并指示直接产出可复制的iLang工程书，希望机器人按修改后的方案执行（M1）；而机器人当时只是先给出方案等待确认（M3）。"
+ },
+ "parse_error": null
+}

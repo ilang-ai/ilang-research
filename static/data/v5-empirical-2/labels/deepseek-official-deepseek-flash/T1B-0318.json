@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0318",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5c14b2c5e9e587193214cd83aa912852c935b6d5f151937617d84055184e5ec5",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在晒成果并感叹全程无需自己管，属于表扬/闲聊而非纠正；机器人已自行补许可并汇报，符合 M1，操作者认可的也是这种自主执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 776,
+   "completion_tokens": 7116,
+   "total_tokens": 7892,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7050
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 264
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在晒成果并感叹全程无需自己管，属于表扬/闲聊而非纠正；机器人已自行补许可并汇报，符合 M1，操作者认可的也是这种自主执行。"
+ },
+ "parse_error": null
+}

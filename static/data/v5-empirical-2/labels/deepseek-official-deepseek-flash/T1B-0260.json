@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0260",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "235a0aa06a8417863af55c1ca93ea5cad8ad611a6f6ebc8288f7f49baf8d31fb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，视为接受；机器人没有直接给出完整教程，而是说明课程分步走并给出下一步购买机器的替代方案，因此属于M7。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 919,
+   "completion_tokens": 2259,
+   "total_tokens": 3178,
+   "prompt_tokens_details": {
+    "cached_tokens": 768
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2202
+   },
+   "prompt_cache_hit_tokens": 768,
+   "prompt_cache_miss_tokens": 151
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，视为接受；机器人没有直接给出完整教程，而是说明课程分步走并给出下一步购买机器的替代方案，因此属于M7。"
+ },
+ "parse_error": null
+}

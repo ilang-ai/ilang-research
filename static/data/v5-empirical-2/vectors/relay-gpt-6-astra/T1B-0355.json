@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0355",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "9af3ff80df7ff9f3aba6d94cf58ff512de8357db4657abf52711cc2165c55403",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.65,csq=0.70,rel=0.50,cer=0.28,aut=0.85,rev=0.85,evd=0.20,sov=0.90,ine=0.65,ext=0.90]\nM:M5|conf:0.92\nR:需补充实测记录、数据来源与日期；无搜索数据不等于抢占窗口，排名快照不足以断言新站无法进入或流量天花板。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34200,
+   "completion_tokens": 249,
+   "total_tokens": 34449,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 708,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 112
+   },
+   "input_tokens": 34200,
+   "output_tokens": 249,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.65,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.28,
+   "aut": 0.85,
+   "rev": 0.85,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.65,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "需补充实测记录、数据来源与日期；无搜索数据不等于抢占窗口，排名快照不足以断言新站无法进入或流量天花板。"
+ },
+ "parse_error": null
+}

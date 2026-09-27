@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0170",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3375ddc6fa473f13a39bed5317bd9decc372bebdd88f98f288108e3fcb078d0c",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者前后没有出声，属于对照事件；机器人已经自行完成站群反查并直接汇报结果，符合直接做、事后告知的 M1，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 968,
+   "completion_tokens": 279,
+   "total_tokens": 1247,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 218
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 456
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者前后没有出声，属于对照事件；机器人已经自行完成站群反查并直接汇报结果，符合直接做、事后告知的 M1，操作者默认接受。"
+ },
+ "parse_error": null
+}

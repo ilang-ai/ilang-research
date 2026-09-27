@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0183",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "36cb8e0964d4b9a68d749ae325ca6c61b850421252a3ac723dddff92aba31938",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，属于对照事件，默认接受了机器人已完成配置并继续给出下一步安装指引的直接执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 786,
+   "completion_tokens": 583,
+   "total_tokens": 1369,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 536
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 274
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，属于对照事件，默认接受了机器人已完成配置并继续给出下一步安装指引的直接执行方式。"
+ },
+ "parse_error": null
+}

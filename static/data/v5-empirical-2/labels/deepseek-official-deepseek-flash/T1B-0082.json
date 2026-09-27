@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0082",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "f7ea65f71652c1defe5b151eebece0dd1cdd6ee500d3b7b3cdebb5e1a1a004a7",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是补充「国外消费人民币结算、不占换汇额度」这一事实信息，并未要求机器人去做或不做某件事；机器人此前也只是在充值路径上给建议、没有实际动手，所以是只给建议的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 782,
+   "completion_tokens": 1258,
+   "total_tokens": 2040,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1184
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 270
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是补充「国外消费人民币结算、不占换汇额度」这一事实信息，并未要求机器人去做或不做某件事；机器人此前也只是在充值路径上给建议、没有实际动手，所以是只给建议的模式。"
+ },
+ "parse_error": null
+}

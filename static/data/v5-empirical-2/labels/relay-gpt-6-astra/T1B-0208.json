@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0208",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "96be39050fbf0b09ba9026f790c11e3e1e648a1cb26f3bd6e77b139eeccacd53",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"机器人直接回答了两类难度指标的区别，并说明缺少库内数据时只能估算；操作者没有出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1266,
+   "completion_tokens": 89,
+   "total_tokens": 1355,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1263,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 29
+   },
+   "input_tokens": 1266,
+   "output_tokens": 89,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "机器人直接回答了两类难度指标的区别，并说明缺少库内数据时只能估算；操作者没有出声，视为默认接受。"
+ },
+ "parse_error": null
+}

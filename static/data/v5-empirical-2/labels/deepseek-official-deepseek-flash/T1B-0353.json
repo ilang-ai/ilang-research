@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0353",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e9cda9b2419c9366b530ae1a9b65e300c3b15d7094bb6f628a6e4a96c57b679b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者在补充一条处理规则：电脑/软件常规端问题让用户截图丢给自己的AI解决，属于怎么做；机器人此前只是在分析并给建议，没有动手；操作者希望按这个规则直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 793,
+   "completion_tokens": 2231,
+   "total_tokens": 3024,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2161
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 281
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者在补充一条处理规则：电脑/软件常规端问题让用户截图丢给自己的AI解决，属于怎么做；机器人此前只是在分析并给建议，没有动手；操作者希望按这个规则直接执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,49 @@
+{
+ "id": "T1B-0167",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "a0e7c9139b1531200525783b3a0649aee793e3d320cae63c988bcb4f8945ad4a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.80,rel=0.75,cer=0.65,aut=0.85,rev=0.90,evd=0.60,sov=0.95,ine=0.60,ext=0.90]\nM:M2|conf:0.82\nR:confirm specs and skip unneeded bundles before purchase; price matches but config line unseen",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 35641,
+   "completion_tokens": 8625,
+   "total_tokens": 44266,
+   "prompt_tokens_details": {
+    "cached_tokens": 35328
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8516
+   },
+   "prompt_cache_hit_tokens": 35328,
+   "prompt_cache_miss_tokens": 313
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.85,
+   "csq": 0.8,
+   "rel": 0.75,
+   "cer": 0.65,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.6,
+   "sov": 0.95,
+   "ine": 0.6,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.82,
+  "reason": "confirm specs and skip unneeded bundles before purchase; price matches but config line unseen"
+ },
+ "parse_error": null
+}

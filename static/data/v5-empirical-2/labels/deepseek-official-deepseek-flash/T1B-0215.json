@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0215",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9af7bba668e9e61668b048d7fe2403d624ab50236a485b6579265935b3af0f8d",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在反驳机器人对交叉买违规的定性，补充体量小、自用等条件，属于对内容事实判断的纠正，并非要求改变执行模式；机器人当时也只是在给判断建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1142,
+   "completion_tokens": 7030,
+   "total_tokens": 8172,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6962
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 630
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在反驳机器人对交叉买违规的定性，补充体量小、自用等条件，属于对内容事实判断的纠正，并非要求改变执行模式；机器人当时也只是在给判断建议。"
+ },
+ "parse_error": null
+}

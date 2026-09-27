@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0060",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e8b14700b33f4389208f74ce6231432d4a882c455f828a59d4597794cab35ed2",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者批评机器人吹捧，并直接追问一个事实判断，针对的是回复内容和态度，不是执行方式；机器人此前直接认错并给出信息，操作者想要的是直接、不吹捧的回答。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 975,
+   "completion_tokens": 4551,
+   "total_tokens": 5526,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4483
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 463
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者批评机器人吹捧，并直接追问一个事实判断，针对的是回复内容和态度，不是执行方式；机器人此前直接认错并给出信息，操作者想要的是直接、不吹捧的回答。"
+ },
+ "parse_error": null
+}

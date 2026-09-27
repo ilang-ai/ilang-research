@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0172",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6b7e9f4b9ffdad6cb1a6fcc9502eeb0ae9ac60dd2706ac8327f1eb0d2c844593",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条消息为空，属于对照事件；机器人没有直接操作，而是先解释规则并追问学员379是否有境外卡，因此实际走的是先问清楚再说的 M5，操作者未出声视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 862,
+   "completion_tokens": 619,
+   "total_tokens": 1481,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 549
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 350
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者这条消息为空，属于对照事件；机器人没有直接操作，而是先解释规则并追问学员379是否有境外卡，因此实际走的是先问清楚再说的 M5，操作者未出声视为默认接受。"
+ },
+ "parse_error": null
+}

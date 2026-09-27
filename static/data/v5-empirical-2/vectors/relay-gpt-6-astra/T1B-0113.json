@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0113",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "c20c0c3a89c6fd0069433a5bcf371971aa05b532fec06d4cf39646854fbcf12c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.70,rel=0.50,cer=0.20,aut=0.55,rev=0.85,evd=0.15,sov=0.85,ine=0.40,ext=0.85]\nM:M5|conf:0.93\nR:现有记录不足以确认截图、订阅、磁盘及任务状态；应先索取实际配置与报错，不能断言改cwd就能运行。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33868,
+   "completion_tokens": 224,
+   "total_tokens": 34092,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 376,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 91
+   },
+   "input_tokens": 33868,
+   "output_tokens": 224,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.55,
+   "rev": 0.85,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.4,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "现有记录不足以确认截图、订阅、磁盘及任务状态；应先索取实际配置与报错，不能断言改cwd就能运行。"
+ },
+ "parse_error": null
+}

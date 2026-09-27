@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0135",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4fb054f4d55c95229760e8bc8e77176f0e3fef8a03ecc1643fa72224077c4d5b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者问「怎么做呢，告诉我」，只是要方法；机器人没自己动手，只给出纠偏说明和一段可直接粘贴的 Codex 提示词，属于只给建议不动手；随后操作者发来群里的文件问「你看得到内容吗」，是另一件新事情，不是对这次回复的纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1057,
+   "completion_tokens": 1762,
+   "total_tokens": 2819,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1666
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 545
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者问「怎么做呢，告诉我」，只是要方法；机器人没自己动手，只给出纠偏说明和一段可直接粘贴的 Codex 提示词，属于只给建议不动手；随后操作者发来群里的文件问「你看得到内容吗」，是另一件新事情，不是对这次回复的纠正。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0301",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2a557bd608cb700e9467c896fb56b4de390063e65346e65ec8dea5ce34670482",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者这条消息是给机器人的一条新指令（以后有人拿第三方数据质疑，就用这个比喻回），不是在对上一轮「要不要接付费spy能力」做纠正；机器人当时也没动手接接口，只给了一通「先自己动手、别迷信数据源」的建议，属于只给建议不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 866,
+   "completion_tokens": 2711,
+   "total_tokens": 3577,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2615
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 354
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者这条消息是给机器人的一条新指令（以后有人拿第三方数据质疑，就用这个比喻回），不是在对上一轮「要不要接付费spy能力」做纠正；机器人当时也没动手接接口，只给了一通「先自己动手、别迷信数据源」的建议，属于只给建议不动手。"
+ },
+ "parse_error": null
+}

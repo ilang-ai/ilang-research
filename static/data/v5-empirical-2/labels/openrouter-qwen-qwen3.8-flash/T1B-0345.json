@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0345",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7dbba442b08d01bfff5478bd13569f4446b45f2c0754278f0f49244cd0a10582",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者主要在质疑机器人关于 workbuddy 是否算 AI 的内容说法，不是要求改变执行方式；机器人当时已把输出规则定好并汇报，属于直接做完再说。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 810,
+   "completion_tokens": 999,
+   "total_tokens": 1809,
+   "cost": 0.000522422,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000522422,
+    "upstream_inference_prompt_cost": 5.2892e-05,
+    "upstream_inference_completions_cost": 0.00046953
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 916,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者主要在质疑机器人关于 workbuddy 是否算 AI 的内容说法，不是要求改变执行方式；机器人当时已把输出规则定好并汇报，属于直接做完再说。"
+ },
+ "parse_error": null
+}

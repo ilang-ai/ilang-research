@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0081",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "39b328d42fdb7762d74cb713e594a15b2bb3a8a80b316a3fcf303983b743d466",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者纠正的是卡种、办卡耗时及充值方案的安全性等事实，没有明确要求机器人改变执行或确认方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1004,
+   "completion_tokens": 126,
+   "total_tokens": 1130,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 69
+   },
+   "input_tokens": 1004,
+   "output_tokens": 126,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者纠正的是卡种、办卡耗时及充值方案的安全性等事实，没有明确要求机器人改变执行或确认方式。"
+ },
+ "parse_error": null
+}

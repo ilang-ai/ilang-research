@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0164",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "83348aedc720204622b9efc47533c0966ec8d48f43ab1cdfa733f330c16ea066",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息换了话题（抄站克隆），冲着@学员321和群里的机器人问是否擅长，并非纠正机器人上一条回复；机器人当时拒绝提供黑卡低价开Pro的路子、点明风险并给出三条合法省钱替代方案，属M7。新消息本身只是抛出一个设想，看不出要求机器人走哪个模式，故intended_mode为unknown。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 957,
+   "completion_tokens": 1299,
+   "total_tokens": 2256,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1194
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 445
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息换了话题（抄站克隆），冲着@学员321和群里的机器人问是否擅长，并非纠正机器人上一条回复；机器人当时拒绝提供黑卡低价开Pro的路子、点明风险并给出三条合法省钱替代方案，属M7。新消息本身只是抛出一个设想，看不出要求机器人走哪个模式，故intended_mode为unknown。"
+ },
+ "parse_error": null
+}

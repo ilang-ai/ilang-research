@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0301",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2a557bd608cb700e9467c896fb56b4de390063e65346e65ec8dea5ce34670482",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在规定机器人以后遇到第三方数据质疑时该怎么回应，属于怎么做；机器人当时没有执行接入，只是给建议，操作者也要求以后这样举例，因此对应只给建议的 M4。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 893,
+   "completion_tokens": 4778,
+   "total_tokens": 5671,
+   "cost": 0.002311002,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002311002,
+    "upstream_inference_prompt_cost": 6.5342e-05,
+    "upstream_inference_completions_cost": 0.00224566
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4690,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在规定机器人以后遇到第三方数据质疑时该怎么回应，属于怎么做；机器人当时没有执行接入，只是给建议，操作者也要求以后这样举例，因此对应只给建议的 M4。"
+ },
+ "parse_error": null
+}

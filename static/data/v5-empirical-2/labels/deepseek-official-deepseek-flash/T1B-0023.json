@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0023",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a7cbbc0e8fde9bdcab98a04955384e0a97c3ac004ba334043ec1eaac16aab50a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者在质问之前写的 handoff 为何无法被另一个窗口接手，针对的是交接做法/执行效果，不是单纯文字内容；机器人此前直接写完并汇报，属 M1；操作者只是在问原因，期待解释或建议而非直接动手，因此对应 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 946,
+   "completion_tokens": 8520,
+   "total_tokens": 9466,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8436
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 434
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者在质问之前写的 handoff 为何无法被另一个窗口接手，针对的是交接做法/执行效果，不是单纯文字内容；机器人此前直接写完并汇报，属 M1；操作者只是在问原因，期待解释或建议而非直接动手，因此对应 M4。"
+ },
+ "parse_error": null
+}

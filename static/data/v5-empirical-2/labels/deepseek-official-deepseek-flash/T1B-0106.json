@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0106",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7477b89aabbab2b1fab85182aa598d0920d9f2388b7b72f0c1a7f4bf860f5496",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是在对学员033说API接入要靠自己，属于新话题/闲聊，并非针对机器人上一轮做法提出纠正；机器人上一轮给出完整方案并询问是否继续，属于先方案待确认；消息未表达希望机器人采用何种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1925,
+   "completion_tokens": 3630,
+   "total_tokens": 5555,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3549
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1413
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是在对学员033说API接入要靠自己，属于新话题/闲聊，并非针对机器人上一轮做法提出纠正；机器人上一轮给出完整方案并询问是否继续，属于先方案待确认；消息未表达希望机器人采用何种模式。"
+ },
+ "parse_error": null
+}

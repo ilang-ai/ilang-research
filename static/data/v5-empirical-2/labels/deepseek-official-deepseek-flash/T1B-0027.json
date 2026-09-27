@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0027",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1f9a19ac3da8cfa51c00d765e69b0cddd9f21b269c05c3c92131ab83b9e730a9",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M8\",\"reason\":\"机器人拒绝重写原文并给替代勘误，属于M7；操作者中断回复，表示不想让机器人继续，想要它停下，属于M8。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 681,
+   "completion_tokens": 4095,
+   "total_tokens": 4776,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4035
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 169
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M8",
+  "reason": "机器人拒绝重写原文并给替代勘误，属于M7；操作者中断回复，表示不想让机器人继续，想要它停下，属于M8。"
+ },
+ "parse_error": null
+}

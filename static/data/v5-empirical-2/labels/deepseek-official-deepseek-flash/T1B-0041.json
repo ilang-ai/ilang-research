@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0041",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cf98c1bd311f19e8d29d015e8eda5875771ff4e127dcc26bc6a333160b908e34",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者只是回告已手动补上乐享链接并询问其余是否正常，没有纠正做法；机器人已直接执行并留下备份/handoff记录，实际为M2，操作者原本要的是直接做完汇报。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 932,
+   "completion_tokens": 6291,
+   "total_tokens": 7223,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6203
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 420
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "M1",
+  "reason": "操作者只是回告已手动补上乐享链接并询问其余是否正常，没有纠正做法；机器人已直接执行并留下备份/handoff记录，实际为M2，操作者原本要的是直接做完汇报。"
+ },
+ "parse_error": null
+}

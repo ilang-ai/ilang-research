@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0198",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "952cb6e2df4672bcc1e7134594f6cad15feb46169e2ca31536fa3df5080bb22c",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，默认接受机器人的只给建议式回答；机器人没有实际执行或改配置，只是分析续费成本并建议别换大厂。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 787,
+   "completion_tokens": 449,
+   "total_tokens": 1236,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 391
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 275
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，默认接受机器人的只给建议式回答；机器人没有实际执行或改配置，只是分析续费成本并建议别换大厂。"
+ },
+ "parse_error": null
+}

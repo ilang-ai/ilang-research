@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0023",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a7cbbc0e8fde9bdcab98a04955384e0a97c3ac004ba334043ec1eaac16aab50a",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人已写好并保存 handoff 后汇报，操作者质疑其无法让另一个窗口接手，但没有明确要求改用哪种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1008,
+   "completion_tokens": 192,
+   "total_tokens": 1200,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 129
+   },
+   "input_tokens": 1008,
+   "output_tokens": 192,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人已写好并保存 handoff 后汇报，操作者质疑其无法让另一个窗口接手，但没有明确要求改用哪种决策模式。"
+ },
+ "parse_error": null
+}

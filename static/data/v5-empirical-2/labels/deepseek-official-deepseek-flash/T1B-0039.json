@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0039",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "29f76a2b558e3905208708b8b5f52cc2771878002521484933a20093a37564b9",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者消息是系统任务通知，要求读取通知，并非对机器人修复动作的纠正，属于新任务；机器人此前直接改代码并发版汇报，是 M1 自主执行；结合操作者先前要求其不要阻拦用户指令，也指向直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1096,
+   "completion_tokens": 9127,
+   "total_tokens": 10223,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 9044
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 584
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者消息是系统任务通知，要求读取通知，并非对机器人修复动作的纠正，属于新任务；机器人此前直接改代码并发版汇报，是 M1 自主执行；结合操作者先前要求其不要阻拦用户指令，也指向直接执行。"
+ },
+ "parse_error": null
+}

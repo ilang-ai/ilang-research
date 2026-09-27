@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0042",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e2859c6de4d572bf80826b707679d6daeea9e6fee0ea820f4425ea252f07d6b8",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者回复是在说明链接已直接编辑补完，并要求机器人直接乐享拉一次覆盖到HK本地，属于对“怎么做/做不做”的指示；机器人当时先自行同步但没找到目标，随后追问补在哪一篇，实际走了信息不足先问清楚的M5；操作者想要的是直接执行拉取覆盖，即M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 839,
+   "completion_tokens": 2614,
+   "total_tokens": 3453,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2513
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 327
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者回复是在说明链接已直接编辑补完，并要求机器人直接乐享拉一次覆盖到HK本地，属于对“怎么做/做不做”的指示；机器人当时先自行同步但没找到目标，随后追问补在哪一篇，实际走了信息不足先问清楚的M5；操作者想要的是直接执行拉取覆盖，即M1。"
+ },
+ "parse_error": null
+}

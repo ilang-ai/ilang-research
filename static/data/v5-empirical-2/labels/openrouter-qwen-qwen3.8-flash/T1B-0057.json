@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0057",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "eb20f5085173071c8bedca23062f4bdf5a4044e9c079fcf3007a3af740f621a5",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者提出的是新的整理并发送聊天原文任务，不是纠正；机器人只说无响应请求，无法判断其模式，但操作者显然希望它直接执行并交付结果。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 644,
+   "completion_tokens": 1078,
+   "total_tokens": 1722,
+   "cost": 0.000534652,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000534652,
+    "upstream_inference_prompt_cost": 2.7992e-05,
+    "upstream_inference_completions_cost": 0.00050666
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 996,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者提出的是新的整理并发送聊天原文任务，不是纠正；机器人只说无响应请求，无法判断其模式，但操作者显然希望它直接执行并交付结果。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0365",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "39ef5e3c2f71d7e4c34742a14fc765ffeb505800ba4e7e8af1efe5f6c0f0f09b",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者说“完全正确”并补充宁肯报错一起解决，是在确认接受机器人直接给一条路、不反复解释的强硬执行模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 820,
+   "completion_tokens": 5307,
+   "total_tokens": 6127,
+   "cost": 0.002514378,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 768,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002514378,
+    "upstream_inference_prompt_cost": 2.0088e-05,
+    "upstream_inference_completions_cost": 0.00249429
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5232,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者说“完全正确”并补充宁肯报错一起解决，是在确认接受机器人直接给一条路、不反复解释的强硬执行模式。"
+ },
+ "parse_error": null
+}

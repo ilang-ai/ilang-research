@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0165",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8e7a88b054e6fb3550ee0c5c548a45143bbde8de1944483e8e721710922bc8b6",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人给学员的建议方案，指出更简单的解法，属于对怎么做/怎么答的纠正；机器人当时只是在给建议没有动手，操作者想要的也是给出正确的建议，所以两边都是只给建议不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 832,
+   "completion_tokens": 11564,
+   "total_tokens": 12396,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 11490
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 192
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人给学员的建议方案，指出更简单的解法，属于对怎么做/怎么答的纠正；机器人当时只是在给建议没有动手，操作者想要的也是给出正确的建议，所以两边都是只给建议不动手。"
+ },
+ "parse_error": null
+}

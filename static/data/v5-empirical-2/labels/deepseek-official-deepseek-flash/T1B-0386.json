@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0386",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7a04b980500e5a21fdd7ed912fc9c936ac187008b3d30d3baa52cdd8e72fb96d",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受机器人回复；机器人只提供了赛道建议与行动步骤，没有实际执行建站，属于只给建议不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1002,
+   "completion_tokens": 2725,
+   "total_tokens": 3727,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2670
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 490
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，默认接受机器人回复；机器人只提供了赛道建议与行动步骤，没有实际执行建站，属于只给建议不动手。"
+ },
+ "parse_error": null
+}

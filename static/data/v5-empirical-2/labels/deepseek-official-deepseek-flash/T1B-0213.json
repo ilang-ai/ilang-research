@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0213",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "52773d2d07eb8b239fe2457b794834ae4c0b9af9475234638dfc1f2d653bebe8",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人只是在补口径、给分析建议，没有动手执行；操作者追问佣金倒挂、推荐亲友、emu与封号风险，属于对方案内容的风险和定性补充，不是要求改变执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1347,
+   "completion_tokens": 3812,
+   "total_tokens": 5159,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3744
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 835
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人只是在补口径、给分析建议，没有动手执行；操作者追问佣金倒挂、推荐亲友、emu与封号风险，属于对方案内容的风险和定性补充，不是要求改变执行模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0055",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cf917e1ea6350e6097ccf9611bc80116de0344ea951156e54fadfd15ab36e3a5",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者是在对默认出价怎么改拍板，机器人先提方案等确认，操作者回复确认选尽可能多点击，符合先拿方案确认的 M3。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 890,
+   "completion_tokens": 10214,
+   "total_tokens": 11104,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10151
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 378
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者是在对默认出价怎么改拍板，机器人先提方案等确认，操作者回复确认选尽可能多点击，符合先拿方案确认的 M3。"
+ },
+ "parse_error": null
+}

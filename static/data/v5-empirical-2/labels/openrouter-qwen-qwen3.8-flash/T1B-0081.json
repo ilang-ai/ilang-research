@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0081",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "39b328d42fdb7762d74cb713e594a15b2bb3a8a80b316a3fcf303983b743d466",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者要求机器人直接核实招行页面问题并汇报，机器人也查后道歉并说明情况；后续消息只是在纠正卡种和充值流程的事实错误。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 970,
+   "completion_tokens": 4231,
+   "total_tokens": 5201,
+   "cost": 0.002065462,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002065462,
+    "upstream_inference_prompt_cost": 7.6892e-05,
+    "upstream_inference_completions_cost": 0.00198857
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4154,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者要求机器人直接核实招行页面问题并汇报，机器人也查后道歉并说明情况；后续消息只是在纠正卡种和充值流程的事实错误。"
+ },
+ "parse_error": null
+}

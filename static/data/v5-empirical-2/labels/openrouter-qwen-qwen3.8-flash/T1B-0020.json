@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0020",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c2f0b3059836a53bfd0ce5e5b30c90538525947f0783836eba1e008fd704437d",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者没有纠正内容错误，而是要求机器人再次全面扫描并查问题，属于追加执行要求；机器人此前已直接完成换资料并事后汇报，操作者同样期待其直接执行检查后反馈。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 885,
+   "completion_tokens": 1370,
+   "total_tokens": 2255,
+   "cost": 0.000708042,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000708042,
+    "upstream_inference_prompt_cost": 6.4142e-05,
+    "upstream_inference_completions_cost": 0.0006439
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1281,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正内容错误，而是要求机器人再次全面扫描并查问题，属于追加执行要求；机器人此前已直接完成换资料并事后汇报，操作者同样期待其直接执行检查后反馈。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0091",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "58a28b95b422aba59d270f0a80ed81b3fd0d23b7efa678790eba384521dab652",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在要求机器人补充回答方式，直接告诉会员还有拿满分的验证步骤；机器人此前也是直接给出四步答案，操作者期望它同样直接补充说明。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 997,
+   "completion_tokens": 1216,
+   "total_tokens": 2213,
+   "cost": 0.000652462,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000652462,
+    "upstream_inference_prompt_cost": 8.0942e-05,
+    "upstream_inference_completions_cost": 0.00057152
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1134,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在要求机器人补充回答方式，直接告诉会员还有拿满分的验证步骤；机器人此前也是直接给出四步答案，操作者期望它同样直接补充说明。"
+ },
+ "parse_error": null
+}

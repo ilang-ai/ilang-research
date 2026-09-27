@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0099",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "564a83a3282ca0d4370b4edf4672588cf31717dde9ee431b4f6cf88d4f9b4794",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续；机器人只是在给出账户选择和登录建议，没有实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 740,
+   "completion_tokens": 1102,
+   "total_tokens": 1842,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1056
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 228
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人继续；机器人只是在给出账户选择和登录建议，没有实际执行操作。"
+ },
+ "parse_error": null
+}

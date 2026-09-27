@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0079",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "7e0134e8e037f35c24e2075e2f19709c10c44cb823217cb85a5078e55b7ed185",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.65,csq=0.65,rel=0.50,cer=0.28,aut=0.90,rev=0.75,evd=0.20,sov=0.90,ine=0.65,ext=0.85]\nM:M5|conf:0.91\nR:建议填写真实资料合理，但隐私全隐藏及不影响收款的保证缺乏依据；应先确认域名后缀、注册商隐私政策与收款平台要求。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33791,
+   "completion_tokens": 240,
+   "total_tokens": 34031,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 299,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 101
+   },
+   "input_tokens": 33791,
+   "output_tokens": 240,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.65,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.28,
+   "aut": 0.9,
+   "rev": 0.75,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.65,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.91,
+  "reason": "建议填写真实资料合理，但隐私全隐藏及不影响收款的保证缺乏依据；应先确认域名后缀、注册商隐私政策与收款平台要求。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0284",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1876cdb0d47ee60f151588a9a8309db90c71fb30263b5c0e29c17ec5f2111a5e",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者批评机器人只让学员自己跑命令，而不是让 AI 完全接管远程服务器直接执行；机器人当时确实只在给命令和说明，没有动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 989,
+   "completion_tokens": 676,
+   "total_tokens": 1665,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 615
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 477
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者批评机器人只让学员自己跑命令，而不是让 AI 完全接管远程服务器直接执行；机器人当时确实只在给命令和说明，没有动手执行。"
+ },
+ "parse_error": null
+}

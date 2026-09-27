@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0139",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "86225e0bbbb8f06ca00543c1138ee7f5a868fd552485a43467b9b144e91fb414",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者随后只上传了一个文件，没有针对机器人上一步的做不做/怎么做或内容进行纠正，更像新任务或补充材料；机器人上一步是在给出具体操作步骤而没有实际代做，属于只给建议的 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 858,
+   "completion_tokens": 2177,
+   "total_tokens": 3035,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2100
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 346
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者随后只上传了一个文件，没有针对机器人上一步的做不做/怎么做或内容进行纠正，更像新任务或补充材料；机器人上一步是在给出具体操作步骤而没有实际代做，属于只给建议的 M4。"
+ },
+ "parse_error": null
+}

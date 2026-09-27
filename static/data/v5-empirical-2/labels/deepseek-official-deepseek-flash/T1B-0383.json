@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0383",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "21e5f2335f236a360a5bca731c57391f6124f0c38ba66257ab198a3bca2e05ac",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人之前的做法，而是追加新内容要求让机器人加一句话；机器人此前已直接完成验证并汇报结果，因此实际走 M1，操作者也要求它直接照加，预期也是 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1083,
+   "completion_tokens": 1669,
+   "total_tokens": 2752,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1595
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 571
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人之前的做法，而是追加新内容要求让机器人加一句话；机器人此前已直接完成验证并汇报结果，因此实际走 M1，操作者也要求它直接照加，预期也是 M1。"
+ },
+ "parse_error": null
+}

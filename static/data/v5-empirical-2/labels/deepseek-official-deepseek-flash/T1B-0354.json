@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0354",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "edb6f301ba43f967132b683ad7388d9ec6246196f881b2fd9902259d00d60ec0",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，机器人继续执行并汇报已修改SOUL.md，属于自主执行后汇报，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 770,
+   "completion_tokens": 293,
+   "total_tokens": 1063,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 243
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 258
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，机器人继续执行并汇报已修改SOUL.md，属于自主执行后汇报，操作者默认接受。"
+ },
+ "parse_error": null
+}

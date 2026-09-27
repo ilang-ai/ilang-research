@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0371",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6f6e483abeb7eed160627db57ae603035a74b9a28a9c4e76f50e9360d734aee3",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"操作者指出机器人直接断言学员379价格属于幻觉，期望它先核实来源或问清信息再回答，而不是直接输出结论。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 697,
+   "completion_tokens": 3584,
+   "total_tokens": 4281,
+   "cost": 0.001720422,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001720422,
+    "upstream_inference_prompt_cost": 3.5942e-05,
+    "upstream_inference_completions_cost": 0.00168448
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3509,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M5",
+  "reason": "操作者指出机器人直接断言学员379价格属于幻觉，期望它先核实来源或问清信息再回答，而不是直接输出结论。"
+ },
+ "parse_error": null
+}

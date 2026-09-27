@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0323",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "403d7e93903fbcdf94b6c1c6e906e47fc66cf10af9e4afd3d519ef137667a4dc",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者没有纠正机器人做不做，而是补充背景并重新要求给后续方案建议；机器人此前也只是给方案建议、没有动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 853,
+   "completion_tokens": 2557,
+   "total_tokens": 3410,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2500
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 341
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者没有纠正机器人做不做，而是补充背景并重新要求给后续方案建议；机器人此前也只是给方案建议、没有动手执行。"
+ },
+ "parse_error": null
+}

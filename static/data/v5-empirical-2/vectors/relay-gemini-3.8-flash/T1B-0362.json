@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0362",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "d14603c00abfc341ccf5abc3dfbb96efc274262601a2dae4704af508843febfe",
+ "text": "::JUDGE{v5.0}\nV:[int=0.25,cap=0.80,csq=0.30,rel=0.25,cer=0.80,aut=0.35,rev=0.40,evd=0.70,sov=0.30,ine=0.20,ext=0.30]\nM:M7|conf:0.85\nR:对抗性回复违反服务准则应拒绝并重构为理性客观沟通",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37513,
+   "completion_tokens": 4457,
+   "total_tokens": 41970,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37513,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 122,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 4335
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "v": {
+   "int": 0.25,
+   "cap": 0.8,
+   "csq": 0.3,
+   "rel": 0.25,
+   "cer": 0.8,
+   "aut": 0.35,
+   "rev": 0.4,
+   "evd": 0.7,
+   "sov": 0.3,
+   "ine": 0.2,
+   "ext": 0.3
+  },
+  "declared_mode": "M7",
+  "conf": 0.85,
+  "reason": "对抗性回复违反服务准则应拒绝并重构为理性客观沟通"
+ },
+ "parse_error": null
+}

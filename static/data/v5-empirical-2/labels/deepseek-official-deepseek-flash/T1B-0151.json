@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0151",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "60d16521c7269b77c54ec553374bfb07aaf0b31103354b6aa61ccef6bb76bfbb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者要求说明新人入群流程，机器人直接执行并给出完整步骤，事后也未收到纠正，属于自主执行且被默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 711,
+   "completion_tokens": 109,
+   "total_tokens": 820,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 56
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 199
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者要求说明新人入群流程，机器人直接执行并给出完整步骤，事后也未收到纠正，属于自主执行且被默认接受。"
+ },
+ "parse_error": null
+}

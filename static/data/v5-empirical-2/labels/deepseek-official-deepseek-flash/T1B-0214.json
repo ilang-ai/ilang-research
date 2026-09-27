@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0214",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d334819934501d1eda740672262c35efb82cd3563a25e76151acd9692809a19a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者之后问的是群内交叉购买是否违规，属于新问题而非纠正；机器人此前只是分析风险并给建议，没有执行动作，是 M4；结合原问题也是求评估建议，意图同为 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1245,
+   "completion_tokens": 5466,
+   "total_tokens": 6711,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5391
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 733
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者之后问的是群内交叉购买是否违规，属于新问题而非纠正；机器人此前只是分析风险并给建议，没有执行动作，是 M4；结合原问题也是求评估建议，意图同为 M4。"
+ },
+ "parse_error": null
+}

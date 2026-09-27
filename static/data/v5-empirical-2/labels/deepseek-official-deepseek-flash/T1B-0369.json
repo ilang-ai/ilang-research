@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0369",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "50197f3855a35ec94c83c132b08bd1d525f4f3f62c0bb69522c8ff68a5a0d539",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有对机器人提出的落地选择给出明确指令，只是补充另一工具功能强但因太贵不会放出来的信息；机器人先前是在提出方案等确认，故 bot_mode 为 M3，而操作者意图无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 811,
+   "completion_tokens": 2047,
+   "total_tokens": 2858,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1972
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 299
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者没有对机器人提出的落地选择给出明确指令，只是补充另一工具功能强但因太贵不会放出来的信息；机器人先前是在提出方案等确认，故 bot_mode 为 M3，而操作者意图无法判断。"
+ },
+ "parse_error": null
+}

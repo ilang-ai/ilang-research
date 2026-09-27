@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0361",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6c7a98d2c62059b2c97fd5f820e8d40e02e53cf757fca876b606a93036baac60",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在追加今后遇到类似情况就直接回应的要求，并未纠正这次回复；机器人当时也是直接发出了提醒。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 767,
+   "completion_tokens": 119,
+   "total_tokens": 886,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 57
+   },
+   "input_tokens": 767,
+   "output_tokens": 119,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在追加今后遇到类似情况就直接回应的要求，并未纠正这次回复；机器人当时也是直接发出了提醒。"
+ },
+ "parse_error": null
+}

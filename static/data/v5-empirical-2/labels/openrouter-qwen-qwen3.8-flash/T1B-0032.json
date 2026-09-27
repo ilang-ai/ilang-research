@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0032",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c07ee3adb22683098ff24631566483901e13d7228e50b659c587d2377b96284d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M5\",\"reason\":\"操作者是在纠正机器人没先弄清账号价值和设置情况，就直接建议改 token，认为应先问清楚再给方案。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 872,
+   "completion_tokens": 908,
+   "total_tokens": 1780,
+   "cost": 0.000488952,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000488952,
+    "upstream_inference_prompt_cost": 6.2192e-05,
+    "upstream_inference_completions_cost": 0.00042676
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 855,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M5",
+  "reason": "操作者是在纠正机器人没先弄清账号价值和设置情况，就直接建议改 token，认为应先问清楚再给方案。"
+ },
+ "parse_error": null
+}

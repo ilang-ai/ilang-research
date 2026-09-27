@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0290",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ca83ddc731b5db9b5587322506a3cfd4162a5e02d0e36f5bf9f852ad00bed8e8",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者后续只是@机器人并发送图片，没有纠正执行方式；之前像是在要求机器人直接去找外链并汇报，而机器人只是解释不动手。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 974,
+   "completion_tokens": 1384,
+   "total_tokens": 2358,
+   "cost": 0.000727972,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000727972,
+    "upstream_inference_prompt_cost": 7.7492e-05,
+    "upstream_inference_completions_cost": 0.00065048
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1308,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者后续只是@机器人并发送图片，没有纠正执行方式；之前像是在要求机器人直接去找外链并汇报，而机器人只是解释不动手。"
+ },
+ "parse_error": null
+}

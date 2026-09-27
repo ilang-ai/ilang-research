@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0080",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "23a9940ab1662c69aa637cb58f35063774a074dd8574f51aa224ac9522ae6965",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未再发言，默认接受机器人的回复；机器人只是解释激活与充值情况并给建议，没有实际动手操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 842,
+   "completion_tokens": 379,
+   "total_tokens": 1221,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 328
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 330
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者未再发言，默认接受机器人的回复；机器人只是解释激活与充值情况并给建议，没有实际动手操作。"
+ },
+ "parse_error": null
+}

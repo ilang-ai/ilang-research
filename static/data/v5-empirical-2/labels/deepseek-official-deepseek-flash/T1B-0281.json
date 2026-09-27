@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0281",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "db9a50dc70a674c17e6c1e2f3428844a61e1d763b4de457c38530e03532c5e67",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件中操作者没有出声，默认接受了机器人继续；机器人先让操作者跑诊断并把结果发回，再据此决定后续路径，属于先问清楚再说。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1008,
+   "completion_tokens": 738,
+   "total_tokens": 1746,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 678
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 496
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "对照事件中操作者没有出声，默认接受了机器人继续；机器人先让操作者跑诊断并把结果发回，再据此决定后续路径，属于先问清楚再说。"
+ },
+ "parse_error": null
+}

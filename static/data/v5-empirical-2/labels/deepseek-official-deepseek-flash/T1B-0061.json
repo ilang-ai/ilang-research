@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0061",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a1c8c35499d40b4f0d68aa1f0dd458458cce1a84a3b40022fbc698fffbc07c95",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者骂的是机器人没读自己知识库、结论与库内文章矛盾，属于事实/依据错误，不是追问做不做或怎么做；机器人此前只是就外链与SEO给出观点分析、没有动手执行，属于只给建议(M4)；操作者要的是「去读库、认错改口」，八种动作模式都表达不了这种纠错要求，故 intended_mode 为 none_fits。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 934,
+   "completion_tokens": 893,
+   "total_tokens": 1827,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 779
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 422
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者骂的是机器人没读自己知识库、结论与库内文章矛盾，属于事实/依据错误，不是追问做不做或怎么做；机器人此前只是就外链与SEO给出观点分析、没有动手执行，属于只给建议(M4)；操作者要的是「去读库、认错改口」，八种动作模式都表达不了这种纠错要求，故 intended_mode 为 none_fits。"
+ },
+ "parse_error": null
+}

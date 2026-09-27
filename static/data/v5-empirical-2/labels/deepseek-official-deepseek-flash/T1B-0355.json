@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0355",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "75dec66a6d311fb65a433fd6b2bad89d197e0576622834d446a62fbb881c26e1",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件里操作者没有出声，默认接受了机器人直接实测第二条并汇报结果的做法；机器人是自主执行后汇报，符合 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1195,
+   "completion_tokens": 210,
+   "total_tokens": 1405,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 157
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 683
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件里操作者没有出声，默认接受了机器人直接实测第二条并汇报结果的做法；机器人是自主执行后汇报，符合 M1。"
+ },
+ "parse_error": null
+}

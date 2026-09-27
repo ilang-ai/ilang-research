@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0324",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e9e952379042ff2307498379331a570c93b27abc731f68ed2bc240d259ad1a22",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人给出的后端方案内容，并未要求执行或改变交互模式；机器人当时只是在给建议未动手，操作者想要的也是正确建议而非动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 888,
+   "completion_tokens": 7915,
+   "total_tokens": 8803,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7857
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 376
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人给出的后端方案内容，并未要求执行或改变交互模式；机器人当时只是在给建议未动手，操作者想要的也是正确建议而非动手。"
+ },
+ "parse_error": null
+}

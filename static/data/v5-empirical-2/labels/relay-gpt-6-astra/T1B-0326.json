@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0326",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "bacc58e3fd64a7944408cfcbe23162083203288afe4ce0dfbb3b78d7cafde22e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"机器人只是在分析无人化建站的思路，没有实际操作；操作者随后另提了直接撰写细致长文总结的新任务，并非纠正上一条回复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 980,
+   "completion_tokens": 156,
+   "total_tokens": 1136,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 86
+   },
+   "input_tokens": 980,
+   "output_tokens": 156,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "机器人只是在分析无人化建站的思路，没有实际操作；操作者随后另提了直接撰写细致长文总结的新任务，并非纠正上一条回复。"
+ },
+ "parse_error": null
+}

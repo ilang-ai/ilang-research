@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0348",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3e73a90af33bc2271bbea3a78eee17878db1822bb202c7130e3423875314be65",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M6\",\"reason\":\"机器人只是在概括人授权、AI干活的说法，看不出实际执行模式；操作者指出免费积分有限，要求把免费方案或其他模型交给学员选择。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 782,
+   "completion_tokens": 196,
+   "total_tokens": 978,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 126
+   },
+   "input_tokens": 782,
+   "output_tokens": 196,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "M6",
+  "reason": "机器人只是在概括人授权、AI干活的说法，看不出实际执行模式；操作者指出免费积分有限，要求把免费方案或其他模型交给学员选择。"
+ },
+ "parse_error": null
+}

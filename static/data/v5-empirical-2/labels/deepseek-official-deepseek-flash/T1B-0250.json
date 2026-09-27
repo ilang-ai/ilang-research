@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0250",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0aa65126b112bb956936c42d4d4d570a4800edf4c79bfdab632804b93d692270",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人回答；机器人只是给出限额是否够用的建议，没有实际代办或执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 737,
+   "completion_tokens": 811,
+   "total_tokens": 1548,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 762
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 225
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人回答；机器人只是给出限额是否够用的建议，没有实际代办或执行操作。"
+ },
+ "parse_error": null
+}

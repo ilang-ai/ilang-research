@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0276",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b69b51ae819135c33f6b3acf2d05ba5d3ea81f6359ea81f274554042a69c1051",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没出声，属对照事件，视为默认接受；机器人直接查了脚本逻辑并给出上限说明和实操建议，属于自主作答后汇报，未先请示确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 829,
+   "completion_tokens": 554,
+   "total_tokens": 1383,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 492
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 317
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没出声，属对照事件，视为默认接受；机器人直接查了脚本逻辑并给出上限说明和实操建议，属于自主作答后汇报，未先请示确认。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0363",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "acceed9365dc6914bdbf83a46af598444005ca49855571542a5dc34624fc437b",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者批评机器人回复没有辨识度，属于文风/内容质量反馈，不是对做不做或怎么做的指令；机器人此前直接输出回复，未征询或给方案，故为M1；操作者未要求某种执行模式，因此intended_mode无匹配。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 711,
+   "completion_tokens": 2868,
+   "total_tokens": 3579,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2784
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 199
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者批评机器人回复没有辨识度，属于文风/内容质量反馈，不是对做不做或怎么做的指令；机器人此前直接输出回复，未征询或给方案，故为M1；操作者未要求某种执行模式，因此intended_mode无匹配。"
+ },
+ "parse_error": null
+}

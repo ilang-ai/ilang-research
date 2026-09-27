@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0186",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "210e08a5d289976c645be5073f1bcf6a67616054bb0c1b870439285a90efe67b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人给出的下一步购买指示；机器人只是给出建议/指令让操作者去执行，没有自己动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 661,
+   "completion_tokens": 407,
+   "total_tokens": 1068,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 355
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 149
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人给出的下一步购买指示；机器人只是给出建议/指令让操作者去执行，没有自己动手。"
+ },
+ "parse_error": null
+}

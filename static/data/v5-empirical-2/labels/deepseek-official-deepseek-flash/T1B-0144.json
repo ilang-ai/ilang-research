@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0144",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b4b55893206f9cab20d78215048b6f186675b6d6861c76d932b557e867fb34db",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人回答的内容和事实（说它胡说、不该推荐QQ群，而应让用户咨询店铺客服），没有要求改变执行方式；机器人当时只是给建议没动手，因此是M4，操作者想要的也仍是只给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 787,
+   "completion_tokens": 4563,
+   "total_tokens": 5350,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4485
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 275
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人回答的内容和事实（说它胡说、不该推荐QQ群，而应让用户咨询店铺客服），没有要求改变执行方式；机器人当时只是给建议没动手，因此是M4，操作者想要的也仍是只给建议。"
+ },
+ "parse_error": null
+}

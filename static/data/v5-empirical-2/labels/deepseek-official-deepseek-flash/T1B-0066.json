@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0066",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "090a91efd58af502b9174f0f875cc363a244d77a4c3569b4dc471870001e9159",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正机器人关于首尔服务器成人内容访问和线路速度的事实说法，并非要求改变做不做或怎么做的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 723,
+   "completion_tokens": 3051,
+   "total_tokens": 3774,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2999
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 211
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正机器人关于首尔服务器成人内容访问和线路速度的事实说法，并非要求改变做不做或怎么做的模式。"
+ },
+ "parse_error": null
+}

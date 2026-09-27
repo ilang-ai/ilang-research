@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0214",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d334819934501d1eda740672262c35efb82cd3563a25e76151acd9692809a19a",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在追问一个新的合规判断问题，不是纠正前文；机器人当时只给风险分析和建议，没有动手执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1267,
+   "completion_tokens": 1313,
+   "total_tokens": 2580,
+   "cost": 0.000738552,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000738552,
+    "upstream_inference_prompt_cost": 0.000121442,
+    "upstream_inference_completions_cost": 0.00061711
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1244,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 4,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在追问一个新的合规判断问题，不是纠正前文；机器人当时只给风险分析和建议，没有动手执行。"
+ },
+ "parse_error": null
+}

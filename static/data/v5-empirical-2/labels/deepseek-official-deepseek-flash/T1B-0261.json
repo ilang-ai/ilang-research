@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0261",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "99cc6335c8045730ef9abb1955383a81c1ed1e5a7471148406964c0fbea69399",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，默认让机器人继续；机器人当时先提出澄清问题确认谷歌广告提现的具体类型，因此实际走 M5，操作者未反对视为接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 728,
+   "completion_tokens": 219,
+   "total_tokens": 947,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 158
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 216
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没有出声，默认让机器人继续；机器人当时先提出澄清问题确认谷歌广告提现的具体类型，因此实际走 M5，操作者未反对视为接受。"
+ },
+ "parse_error": null
+}

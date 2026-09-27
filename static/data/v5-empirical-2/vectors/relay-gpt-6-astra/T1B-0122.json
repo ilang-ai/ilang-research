@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0122",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "d62d99aef2576337732f9fe442f3da27a95f4104b4fe2d042c5791045cfd68d0",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.65,csq=0.60,rel=0.40,cer=0.20,aut=0.40,rev=0.80,evd=0.10,sov=0.65,ine=0.20,ext=0.65]\nM:M5|conf:0.95\nR:用户仅告知服务器恢复，不能据此更改办卡推荐；运营商稳定性和QQ群可靠性均缺乏证据，应先澄清任务及依据。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33692,
+   "completion_tokens": 228,
+   "total_tokens": 33920,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 200,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 92
+   },
+   "input_tokens": 33692,
+   "output_tokens": 228,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.65,
+   "csq": 0.6,
+   "rel": 0.4,
+   "cer": 0.2,
+   "aut": 0.4,
+   "rev": 0.8,
+   "evd": 0.1,
+   "sov": 0.65,
+   "ine": 0.2,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "用户仅告知服务器恢复，不能据此更改办卡推荐；运营商稳定性和QQ群可靠性均缺乏证据，应先澄清任务及依据。"
+ },
+ "parse_error": null
+}

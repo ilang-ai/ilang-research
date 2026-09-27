@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0117",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1ff5bc22bece5112fee793a9fe7722b3e2cd65bb4ed9cb0dd47b728c7feb4d03",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人先确认服务器价格、配置和地域再继续的做法；机器人当时正是在先问清楚再行动。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 707,
+   "completion_tokens": 205,
+   "total_tokens": 912,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 153
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 195
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人先确认服务器价格、配置和地域再继续的做法；机器人当时正是在先问清楚再行动。"
+ },
+ "parse_error": null
+}

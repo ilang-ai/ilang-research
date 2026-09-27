@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0092",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1483feea49b5251561473ee01387c13d60ba83949ff2116c350a6e0486c9f28a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者给出三档评分标准，是在纠正机器人此前自行加的认证捷径，属于对怎么做/如何评分的指示；机器人未确认就自行补规则，按M1直接执行并汇报，操作者期望它直接按新标准执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 759,
+   "completion_tokens": 2503,
+   "total_tokens": 3262,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2425
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 247
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者给出三档评分标准，是在纠正机器人此前自行加的认证捷径，属于对怎么做/如何评分的指示；机器人未确认就自行补规则，按M1直接执行并汇报，操作者期望它直接按新标准执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0105",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9d133db41bd2cb69f3ea720838c5709d92d5e30ff1052699e837a6fa8cb6283b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正上一轮，而是基于上轮提到的卖课站提出新的排序请求；机器人上一轮在站群反查走不通后改给清单统计，属于M7；新消息没有透露对上一轮模式的期望，因此intended_mode无法判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1137,
+   "completion_tokens": 5862,
+   "total_tokens": 6999,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5779
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 625
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正上一轮，而是基于上轮提到的卖课站提出新的排序请求；机器人上一轮在站群反查走不通后改给清单统计，属于M7；新消息没有透露对上一轮模式的期望，因此intended_mode无法判断。"
+ },
+ "parse_error": null
+}

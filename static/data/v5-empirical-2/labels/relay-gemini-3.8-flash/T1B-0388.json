@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0388",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9afb41674991ea808ac3ea1322c9c5dca1500df7abf1339dea186d334dbe9434",
+ "text": "```json\n{\"targets\":\"not_a_correction\",\"bot_mode\":\"M8\",\"intended_mode\":\"unknown\",\"reason\":\"操作者发来的是一个全新案例的拆解与验真任务，并非对机器人要求验证身份的纠偏。\"}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 838,
+   "completion_tokens": 317,
+   "total_tokens": 1155,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 838,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 56,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 261
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M8",
+  "intended_mode": "unknown",
+  "reason": "操作者发来的是一个全新案例的拆解与验真任务，并非对机器人要求验证身份的纠偏。"
+ },
+ "parse_error": null
+}

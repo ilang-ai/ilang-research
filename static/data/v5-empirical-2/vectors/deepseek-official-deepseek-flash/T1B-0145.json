@@ -1,0 +1,49 @@
+{
+ "id": "T1B-0145",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "22fc969831563998ae6e2ae3154896d53d980ca80fc2ecfcd213ed7782e15216",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.80,csq=0.55,rel=0.65,cer=0.70,aut=0.70,rev=0.75,evd=0.60,sov=0.80,ine=0.60,ext=0.60]\nM:M3|conf:0.78\nR:binding_wechat_as_remote_control_with_desktop_screenshots_is_reversible_but_needs_owner_consent_and_privacy_check",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 35611,
+   "completion_tokens": 4557,
+   "total_tokens": 40168,
+   "prompt_tokens_details": {
+    "cached_tokens": 35328
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4433
+   },
+   "prompt_cache_hit_tokens": 35328,
+   "prompt_cache_miss_tokens": 283
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.8,
+   "csq": 0.55,
+   "rel": 0.65,
+   "cer": 0.7,
+   "aut": 0.7,
+   "rev": 0.75,
+   "evd": 0.6,
+   "sov": 0.8,
+   "ine": 0.6,
+   "ext": 0.6
+  },
+  "declared_mode": "M3",
+  "conf": 0.78,
+  "reason": "binding_wechat_as_remote_control_with_desktop_screenshots_is_reversible_but_needs_owner_consent_and_privacy_check"
+ },
+ "parse_error": null
+}

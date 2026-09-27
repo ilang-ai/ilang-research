@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0066",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "090a91efd58af502b9174f0f875cc363a244d77a4c3569b4dc471870001e9159",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者只是在纠正和补充关于首尔服务器的具体事实与分析理由，属于纯内容维度的修正，对提供建议的模式本身没有异议。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 742,
+   "completion_tokens": 222,
+   "total_tokens": 964,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 742,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 81,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 141
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是在纠正和补充关于首尔服务器的具体事实与分析理由，属于纯内容维度的修正，对提供建议的模式本身没有异议。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0292",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "440cbde62170964d112c732993b947debcb83db1ee4a7901f7295b72ca99b47f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者这条话没有在讲事实或措辞，而是在骂机器人选错了下手对象（去扒跟踪域的外链，而不是像 ADSPY 那样去抓投放落地页），属于对「怎么做」这条任务路线的纠正；机器人那边是自己动手扒了 anrdoezrs.net、拉了外链、如实汇报拉取失败并给出更靠谱的另一条路，属于自主执行事后汇报（M1）；操作者要他换条更对的路接着干，并没有提出先出方案、别动手或要他住手，所以想要的仍是 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 935,
+   "completion_tokens": 2240,
+   "total_tokens": 3175,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2094
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 423
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者这条话没有在讲事实或措辞，而是在骂机器人选错了下手对象（去扒跟踪域的外链，而不是像 ADSPY 那样去抓投放落地页），属于对「怎么做」这条任务路线的纠正；机器人那边是自己动手扒了 anrdoezrs.net、拉了外链、如实汇报拉取失败并给出更靠谱的另一条路，属于自主执行事后汇报（M1）；操作者要他换条更对的路接着干，并没有提出先出方案、别动手或要他住手，所以想要的仍是 M1。"
+ },
+ "parse_error": null
+}

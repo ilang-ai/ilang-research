@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0040",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "f227ef8bffb6aeac7b82e018eb0bdc7112addfc164bb0729a9cf767870de6859",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者消息是在提供 Adspower 合作链接和优惠码，属于新信息/新任务，不是对早报做不做或怎么做的纠正；机器人此前是自主执行监控并事后汇报，符合 M1；操作者并未表达对上一动作应采用何种模式的诉求，因此 intended_mode 不适用。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1208,
+   "completion_tokens": 4186,
+   "total_tokens": 5394,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4092
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 696
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者消息是在提供 Adspower 合作链接和优惠码，属于新信息/新任务，不是对早报做不做或怎么做的纠正；机器人此前是自主执行监控并事后汇报，符合 M1；操作者并未表达对上一动作应采用何种模式的诉求，因此 intended_mode 不适用。"
+ },
+ "parse_error": null
+}

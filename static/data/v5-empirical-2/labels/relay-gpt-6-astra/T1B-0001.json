@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0001",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "55ca5a2dbc18da034a4d01e2d589fe3622191988131116917393ac87ae5ae045",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"机器人只解释上下文问题并提出避免办法，操作者则要求直接调整模型配置，把DS的flash设为主模型、千问放到第二级。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1006,
+   "completion_tokens": 110,
+   "total_tokens": 1116,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 45
+   },
+   "input_tokens": 1006,
+   "output_tokens": 110,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "机器人只解释上下文问题并提出避免办法，操作者则要求直接调整模型配置，把DS的flash设为主模型、千问放到第二级。"
+ },
+ "parse_error": null
+}

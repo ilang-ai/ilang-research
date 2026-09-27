@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0174",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "762104c6a545bed54b65d8e28978bc9691fb273422162c5e5c6bf3807dcd6a59",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M5\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是在纠正模型身份并补充背景，没有要求机器人改变做不做或怎么做；机器人当时在等用户给关键词，属于先问清楚再说；操作者没有表达任何模式偏好。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 736,
+   "completion_tokens": 4404,
+   "total_tokens": 5140,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4338
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 224
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是在纠正模型身份并补充背景，没有要求机器人改变做不做或怎么做；机器人当时在等用户给关键词，属于先问清楚再说；操作者没有表达任何模式偏好。"
+ },
+ "parse_error": null
+}

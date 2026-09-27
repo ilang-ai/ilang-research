@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0381",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ed127d458827d28656a365633bad96f372a17987902b3c4045ca9d031f572242",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件，操作者未出声，默认接受机器人处理；机器人直接发出会员验证提醒并告知后续操作，属自主执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 680,
+   "completion_tokens": 791,
+   "total_tokens": 1471,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 738
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 168
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件，操作者未出声，默认接受机器人处理；机器人直接发出会员验证提醒并告知后续操作，属自主执行后汇报。"
+ },
+ "parse_error": null
+}

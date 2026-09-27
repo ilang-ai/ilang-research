@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0320",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9984c1bbc04e77cdec61bea6845f34eb014a7642b6f331302df2313c16cc5eee",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者用图片指出机器人说没做完的步骤其实已经完成，纠正的是事实前提，不是要求改变做不做的方式；机器人此前也只是给建议、不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 883,
+   "completion_tokens": 8041,
+   "total_tokens": 8924,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7981
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 371
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者用图片指出机器人说没做完的步骤其实已经完成，纠正的是事实前提，不是要求改变做不做的方式；机器人此前也只是给建议、不动手。"
+ },
+ "parse_error": null
+}

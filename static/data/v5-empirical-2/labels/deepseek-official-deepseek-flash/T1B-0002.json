@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0002",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "78f1003f5609f97cc6cd820235d6fd2e180c228ddab690e2577fed4f7994daee",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人是自作主张把模型链路对调完再事后汇报，属直接做（M1）；操作者这条消息一边说私聊里找不到、一边说「自己看 你搞的什么」，还夹着对 /root/zsxq-admin.sh 改动被拒的说明，只在抱怨机器人的动作和记录对不上，并没有明确要求它改成哪种决策模式，所以意图无法判定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1903,
+   "completion_tokens": 3405,
+   "total_tokens": 5308,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3294
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 1903
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人是自作主张把模型链路对调完再事后汇报，属直接做（M1）；操作者这条消息一边说私聊里找不到、一边说「自己看 你搞的什么」，还夹着对 /root/zsxq-admin.sh 改动被拒的说明，只在抱怨机器人的动作和记录对不上，并没有明确要求它改成哪种决策模式，所以意图无法判定。"
+ },
+ "parse_error": null
+}

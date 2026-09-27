@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0221",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c372ff213ecc49c860299f5bf49fb47d4f1c4c978443845103446d5273de409b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者后续消息是在另提谷歌SEO和老域名观点，不是纠正机器人做不做或怎么做；机器人此前只给建议没有执行，操作者也没有表达期望的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 908,
+   "completion_tokens": 2592,
+   "total_tokens": 3500,
+   "cost": 0.001285832,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001285832,
+    "upstream_inference_prompt_cost": 6.7592e-05,
+    "upstream_inference_completions_cost": 0.00121824
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2526,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者后续消息是在另提谷歌SEO和老域名观点，不是纠正机器人做不做或怎么做；机器人此前只给建议没有执行，操作者也没有表达期望的决策模式。"
+ },
+ "parse_error": null
+}

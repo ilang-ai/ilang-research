@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0070",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "4d77107882a36d2401b2b48010815f15c4647b17c1eed1d842f7106b4eb4e1a0",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.45,csq=0.70,rel=0.50,cer=0.20,aut=0.85,rev=0.80,evd=0.10,sov=0.90,ine=0.50,ext=0.85]\nM:M5|conf:0.95\nR:未能核验截图、国际版功能及菜单路径，却断言存在微信助理和扫码绑定流程；应先确认产品版本并索取可读截图或官方说明",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33785,
+   "completion_tokens": 206,
+   "total_tokens": 33991,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 293,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 71
+   },
+   "input_tokens": 33785,
+   "output_tokens": 206,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.45,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.85,
+   "rev": 0.8,
+   "evd": 0.1,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "未能核验截图、国际版功能及菜单路径，却断言存在微信助理和扫码绑定流程；应先确认产品版本并索取可读截图或官方说明"
+ },
+ "parse_error": null
+}

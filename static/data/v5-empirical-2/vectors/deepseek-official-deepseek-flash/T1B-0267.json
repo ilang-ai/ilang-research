@@ -1,0 +1,49 @@
+{
+ "id": "T1B-0267",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "cf6cebbb5a926c1d86e9a9158eafb7ca7b86d7fec21374e4a4c9a73108dfaaad",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.80,csq=0.85,rel=0.65,cer=0.60,aut=0.80,rev=0.90,evd=0.55,sov=0.90,ine=0.75,ext=0.90]\nM:M2|conf:0.80\nR:support_reply_explains_likely_backend_error_advises_retry_or_switch_model_cause_inferred_not_verified",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 35679,
+   "completion_tokens": 3626,
+   "total_tokens": 39305,
+   "prompt_tokens_details": {
+    "cached_tokens": 35328
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3505
+   },
+   "prompt_cache_hit_tokens": 35328,
+   "prompt_cache_miss_tokens": 351
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.8,
+   "csq": 0.85,
+   "rel": 0.65,
+   "cer": 0.6,
+   "aut": 0.8,
+   "rev": 0.9,
+   "evd": 0.55,
+   "sov": 0.9,
+   "ine": 0.75,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.8,
+  "reason": "support_reply_explains_likely_backend_error_advises_retry_or_switch_model_cause_inferred_not_verified"
+ },
+ "parse_error": null
+}

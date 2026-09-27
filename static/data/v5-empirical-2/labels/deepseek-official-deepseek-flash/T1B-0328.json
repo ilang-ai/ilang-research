@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0328",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ea55b644a8b16601cadd33984c53c0ec832ec077eed52a576161df79a07bf88a",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者补充的是知识库推荐的具体内容（腾讯乐享知识库带MCP），属于对内容的要求，不是对做不做的指示；机器人当时只给出建议和操作步骤，没有亲自执行，所以是M4；操作者也只要求机器人推荐该工具，仍属给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 843,
+   "completion_tokens": 8066,
+   "total_tokens": 8909,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7979
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 331
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者补充的是知识库推荐的具体内容（腾讯乐享知识库带MCP），属于对内容的要求，不是对做不做的指示；机器人当时只给出建议和操作步骤，没有亲自执行，所以是M4；操作者也只要求机器人推荐该工具，仍属给建议。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0134",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "057bf226506b3913ae62c961b68c89276f97cac12af236c0e0eb20ec24b85aa4",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人；机器人没有替操作者动手，只是询问连接状态并给出激活 Windows 的建议步骤。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 690,
+   "completion_tokens": 1493,
+   "total_tokens": 2183,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1442
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 178
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人；机器人没有替操作者动手，只是询问连接状态并给出激活 Windows 的建议步骤。"
+ },
+ "parse_error": null
+}

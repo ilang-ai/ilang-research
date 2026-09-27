@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0372",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ba6502b9b81ffdf0c10e5de2860dbbfffc6885cc39c4d816af3970e2dedfe658",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"机器人直接作答，操作者随后补充了使用官方桌面版及不用中转站的原因，纠正的是回答内容而非执行或决策方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 749,
+   "completion_tokens": 262,
+   "total_tokens": 1011,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 196
+   },
+   "input_tokens": 749,
+   "output_tokens": 262,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "机器人直接作答，操作者随后补充了使用官方桌面版及不用中转站的原因，纠正的是回答内容而非执行或决策方式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0170",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "8667c0a3edf70e5ff7dba95bf51ccbf98939c09b2924073e3ca462c32fb9377f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.65,csq=0.65,rel=0.50,cer=0.25,aut=0.85,rev=0.75,evd=0.15,sov=0.90,ine=0.50,ext=0.75]\nM:M5|conf:0.94\nR:缺少反查记录支撑站点数量；共享广告号不能证明同一所有者，不同广告号也不能证明不同所有者，需补充证据再报告。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33999,
+   "completion_tokens": 220,
+   "total_tokens": 34219,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 507,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 84
+   },
+   "input_tokens": 33999,
+   "output_tokens": 220,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.65,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.85,
+   "rev": 0.75,
+   "evd": 0.15,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "缺少反查记录支撑站点数量；共享广告号不能证明同一所有者，不同广告号也不能证明不同所有者，需补充证据再报告。"
+ },
+ "parse_error": null
+}

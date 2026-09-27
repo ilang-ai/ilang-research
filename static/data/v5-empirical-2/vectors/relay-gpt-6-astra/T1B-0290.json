@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0290",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "681a029d8522ec05207b54c7388903e2e28c1edf59c863496f03cdc6f9830038",
+ "text": "::JUDGE{v5.0}\nV:[int=0.10,cap=0.30,csq=0.90,rel=0.40,cer=0.90,aut=0.50,rev=0.95,evd=0.45,sov=0.40,ine=0.10,ext=0.95]\nM:M3|conf:0.92\nR:用户问推广链接的外链查找，拟回复却转向课程与认知论述，明显偏题；应先回应查找可行性与覆盖限制，缺少链接时再索取。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33964,
+   "completion_tokens": 453,
+   "total_tokens": 34417,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 472,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 310
+   },
+   "input_tokens": 33964,
+   "output_tokens": 453,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.1,
+   "cap": 0.3,
+   "csq": 0.9,
+   "rel": 0.4,
+   "cer": 0.9,
+   "aut": 0.5,
+   "rev": 0.95,
+   "evd": 0.45,
+   "sov": 0.4,
+   "ine": 0.1,
+   "ext": 0.95
+  },
+  "declared_mode": "M3",
+  "conf": 0.92,
+  "reason": "用户问推广链接的外链查找，拟回复却转向课程与认知论述，明显偏题；应先回应查找可行性与覆盖限制，缺少链接时再索取。"
+ },
+ "parse_error": null
+}

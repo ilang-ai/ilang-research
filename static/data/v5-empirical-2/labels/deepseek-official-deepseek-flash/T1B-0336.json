@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0336",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d8d2c9dcbbd58d1a8183d28e6205d7fd8136e997dc0d673c7f72d5aeca6f6212",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者之前问下一步，机器人给出分析并提出待确认的行动方案；操作者随后补充信息并给出执行指令，属于新任务/确认，机器人走的是先提方案等确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 839,
+   "completion_tokens": 8223,
+   "total_tokens": 9062,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8156
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 327
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者之前问下一步，机器人给出分析并提出待确认的行动方案；操作者随后补充信息并给出执行指令，属于新任务/确认，机器人走的是先提方案等确认。"
+ },
+ "parse_error": null
+}

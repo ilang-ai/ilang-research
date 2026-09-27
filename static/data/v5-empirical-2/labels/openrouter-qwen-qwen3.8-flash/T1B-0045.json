@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0045",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "70446998330235aaa6c568883d0524b0639df69db82b7bf7d04c63dc53694c9a",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M7\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者说改的是模式，涉及机器人该怎么做；机器人拒绝重做并给出替代方案，属于M7，但没说明想采用的具体模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 831,
+   "completion_tokens": 2453,
+   "total_tokens": 3284,
+   "cost": 0.001208952,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001208952,
+    "upstream_inference_prompt_cost": 5.6042e-05,
+    "upstream_inference_completions_cost": 0.00115291
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2376,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "操作者说改的是模式，涉及机器人该怎么做；机器人拒绝重做并给出替代方案，属于M7，但没说明想采用的具体模式。"
+ },
+ "parse_error": null
+}

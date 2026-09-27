@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0023",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a7cbbc0e8fde9bdcab98a04955384e0a97c3ac004ba334043ec1eaac16aab50a",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者在追问 handoff 为何不能被另一窗口接手，属于对交接做法/可用性的质疑；机器人已直接完成并汇报，但原始要求被中断，无法判断操作者期望的模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 970,
+   "completion_tokens": 829,
+   "total_tokens": 1799,
+   "cost": 0.000466522,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000466522,
+    "upstream_inference_prompt_cost": 7.6892e-05,
+    "upstream_inference_completions_cost": 0.00038963
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 744,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者在追问 handoff 为何不能被另一窗口接手，属于对交接做法/可用性的质疑；机器人已直接完成并汇报，但原始要求被中断，无法判断操作者期望的模式。"
+ },
+ "parse_error": null
+}

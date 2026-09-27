@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0064",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6d513709d63db8594d6edc1a41fb0da1c6208c508f0f0ac7b50a036e5ad1b759",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是在纠正“印度离中国半个地球”这一事实/表述，并非要求机器人改变做不做或怎么做；机器人此前是在给对比和建议、没有动手，属于 M4；这种事实性纠正不对应八种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1151,
+   "completion_tokens": 940,
+   "total_tokens": 2091,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 865
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 639
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是在纠正“印度离中国半个地球”这一事实/表述，并非要求机器人改变做不做或怎么做；机器人此前是在给对比和建议、没有动手，属于 M4；这种事实性纠正不对应八种决策模式。"
+ },
+ "parse_error": null
+}

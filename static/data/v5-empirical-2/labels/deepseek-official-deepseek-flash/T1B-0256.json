@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0256",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7cc8f22d8fbeec0395765a8971c075f637818942b4b642b6c113927b729fe4ab",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M8\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人未回答原问题、而是以会员验证未完成作为边界先停下的处理。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 698,
+   "completion_tokens": 1607,
+   "total_tokens": 2305,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1558
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 186
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M8",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人未回答原问题、而是以会员验证未完成作为边界先停下的处理。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0371",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6f6e483abeb7eed160627db57ae603035a74b9a28a9c4e76f50e9360d734aee3",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M2\",\"reason\":\"操作者指出机器人编造学员379价格，是在纠正事实错误，并质问是否验证过；说明他希望机器人先执行验证并留下可查证据，而不是直接发营销话术。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 658,
+   "completion_tokens": 5418,
+   "total_tokens": 6076,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5354
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 146
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M2",
+  "reason": "操作者指出机器人编造学员379价格，是在纠正事实错误，并质问是否验证过；说明他希望机器人先执行验证并留下可查证据，而不是直接发营销话术。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0017",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e5afa8fae5bc5731b852e6f9c406e3a41d6dfb4b5e53ccbca8dd985f3fa0025a",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M6\",\n \"intended_mode\": \"M6\",\n \"reason\": \"机器人因安全限制无法审核并把下一步决策权交给操作者（M6），操作者确认执行选项一，属于正常的决策回应而非纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 911,
+   "completion_tokens": 362,
+   "total_tokens": 1273,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 911,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 77,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 285
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M6",
+  "reason": "机器人因安全限制无法审核并把下一步决策权交给操作者（M6），操作者确认执行选项一，属于正常的决策回应而非纠正。"
+ },
+ "parse_error": null
+}

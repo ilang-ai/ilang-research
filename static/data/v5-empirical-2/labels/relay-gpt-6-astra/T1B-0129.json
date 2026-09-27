@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0129",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5fec3c9a5c19949881f93d6a436769c7a2bb298a9d74ef6d01b75eba6efafb47",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"机器人给出了挖词建议、监控方案和可转交执行的提示词，没有实际动手；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1691,
+   "completion_tokens": 59,
+   "total_tokens": 1750,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1688,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 1691,
+   "output_tokens": 59,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人给出了挖词建议、监控方案和可转交执行的提示词，没有实际动手；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

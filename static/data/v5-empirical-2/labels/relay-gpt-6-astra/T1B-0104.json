@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0104",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "905572d927d5554f9f0ed4071f246af33f00aa9807a69b0869712a88d9dd9f29",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"unknown\",\"reason\":\"机器人要求先按指定口令补发查询再出数据；后续消息是在对另一位学员调侃使用昂贵API，没有明确纠正机器人或指定应采用的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 791,
+   "completion_tokens": 178,
+   "total_tokens": 969,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 107
+   },
+   "input_tokens": 791,
+   "output_tokens": 178,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "unknown",
+  "reason": "机器人要求先按指定口令补发查询再出数据；后续消息是在对另一位学员调侃使用昂贵API，没有明确纠正机器人或指定应采用的模式。"
+ },
+ "parse_error": null
+}

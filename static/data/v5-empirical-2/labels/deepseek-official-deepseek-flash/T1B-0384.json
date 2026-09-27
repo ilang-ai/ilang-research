@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0384",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "aa22a82ce7adc3706fbd55df466bf4a783c4b66636e17bd247699afd5be6369a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人以后做判定和建议的方式，要求只算代价、不判能不能，属于针对做不做/怎么做的要求；机器人当时只是在给分析和建议，没有执行动作，所以是M4；操作者想要的也是只给成本账、不替用户做可行性判断，因此仍对应M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 838,
+   "completion_tokens": 3742,
+   "total_tokens": 4580,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3650
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 326
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人以后做判定和建议的方式，要求只算代价、不判能不能，属于针对做不做/怎么做的要求；机器人当时只是在给分析和建议，没有执行动作，所以是M4；操作者想要的也是只给成本账、不替用户做可行性判断，因此仍对应M4。"
+ },
+ "parse_error": null
+}

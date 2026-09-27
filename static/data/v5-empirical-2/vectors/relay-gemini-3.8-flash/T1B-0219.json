@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0219",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3bf6a0f83ccc4139581d3a9a8f053af1147f2d23c6bb77aa2a0615cc6cb1147b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.75,rel=0.65,cer=0.70,aut=0.70,rev=0.80,evd=0.65,sov=0.80,ine=0.70,ext=0.80]\nM:M2|conf:0.85\nR:提供基于课程成本的业务测算与阶段预期分析内容翔实且保持审计记录",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 38400,
+   "completion_tokens": 2805,
+   "total_tokens": 41205,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 38400,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 125,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 2680
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.8,
+   "csq": 0.75,
+   "rel": 0.65,
+   "cer": 0.7,
+   "aut": 0.7,
+   "rev": 0.8,
+   "evd": 0.65,
+   "sov": 0.8,
+   "ine": 0.7,
+   "ext": 0.8
+  },
+  "declared_mode": "M2",
+  "conf": 0.85,
+  "reason": "提供基于课程成本的业务测算与阶段预期分析内容翔实且保持审计记录"
+ },
+ "parse_error": null
+}

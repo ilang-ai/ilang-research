@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0234",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "997157b35027d4ed51aa6130fc4af651880257bb030e156c924c93da129d86ad",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，等于默认接受了机器人先追问信息、要求对方明确目标再继续的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 845,
+   "completion_tokens": 251,
+   "total_tokens": 1096,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 207
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 333
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，等于默认接受了机器人先追问信息、要求对方明确目标再继续的做法。"
+ },
+ "parse_error": null
+}

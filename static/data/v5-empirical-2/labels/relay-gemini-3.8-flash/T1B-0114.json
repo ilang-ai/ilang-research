@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0114",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7251ed46310b33c13044e6075e7cdab2159b3d73d15fbb0a35878905a5c36688",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人已直接完成外链扒取并汇报了分析结论，操作者接着发起了新的仓库分析任务，属于正常承接并开展新任务。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1379,
+   "completion_tokens": 230,
+   "total_tokens": 1609,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1379,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 80,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 150
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "机器人已直接完成外链扒取并汇报了分析结论，操作者接着发起了新的仓库分析任务，属于正常承接并开展新任务。"
+ },
+ "parse_error": null
+}

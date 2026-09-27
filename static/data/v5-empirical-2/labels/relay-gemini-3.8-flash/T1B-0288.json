@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0288",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2d42c658091ad397d933469992847fc1880641c4f439fe2cac6a762dace1ce13",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M7\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人说明无法直接抓取并给出了替代解决方案（M7），操作者随后发送截图感慨他人SEO落后，属于开启新话题/闲聊，并非对机器人的纠正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 936,
+   "completion_tokens": 506,
+   "total_tokens": 1442,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 936,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 88,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 418
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "机器人说明无法直接抓取并给出了替代解决方案（M7），操作者随后发送截图感慨他人SEO落后，属于开启新话题/闲聊，并非对机器人的纠正。"
+ },
+ "parse_error": null
+}

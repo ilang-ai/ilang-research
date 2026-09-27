@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0122",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3804f05614a86bb7c2ea7449336480c6703f76beb02de148a417e5d978192421",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，属对照事件，默认接受机器人做法；机器人自行记录情报并调整第3步推荐，属于自主执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 689,
+   "completion_tokens": 718,
+   "total_tokens": 1407,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 664
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 177
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，属对照事件，默认接受机器人做法；机器人自行记录情报并调整第3步推荐，属于自主执行后汇报。"
+ },
+ "parse_error": null
+}

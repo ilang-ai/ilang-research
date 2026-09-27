@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0231",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5a71a371bbb96fe766f6687303c812548f1741d06405491e851e7a10750b6eb2",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人已落盘1.0并列出改动，但明确等操作者确认后才递出去，属于先拿方案确认；操作者只是纠正自迭代其实就是迭代提示词，没有表达对执行模式的偏好。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1323,
+   "completion_tokens": 6579,
+   "total_tokens": 7902,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6511
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 811
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人已落盘1.0并列出改动，但明确等操作者确认后才递出去，属于先拿方案确认；操作者只是纠正自迭代其实就是迭代提示词，没有表达对执行模式的偏好。"
+ },
+ "parse_error": null
+}

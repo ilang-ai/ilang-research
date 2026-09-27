@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0267",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1251c69db2145606bb3f4014d153053c758427a5a10840089195839cc3e795cc",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，默认接受了机器人的回复；机器人只分析报错并给出换模型或新建任务的建议，没有实际动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 841,
+   "completion_tokens": 467,
+   "total_tokens": 1308,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 413
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 329
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者之后没有出声，默认接受了机器人的回复；机器人只分析报错并给出换模型或新建任务的建议，没有实际动手执行。"
+ },
+ "parse_error": null
+}

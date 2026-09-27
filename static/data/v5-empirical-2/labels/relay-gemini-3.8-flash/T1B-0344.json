@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0344",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b51251e6ebff8133174c506228c9e212394191da5b1318e89f7c485536f80496",
+ "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者对机器人的处置方式提出明确规范，要求面对有AI的用户统一输出可直接复制粘贴的提示词、禁止说教，针对的是交互与执行方式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 2038,
+   "completion_tokens": 588,
+   "total_tokens": 2626,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 2038,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 85,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 503
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者对机器人的处置方式提出明确规范，要求面对有AI的用户统一输出可直接复制粘贴的提示词、禁止说教，针对的是交互与执行方式。"
+ },
+ "parse_error": null
+}

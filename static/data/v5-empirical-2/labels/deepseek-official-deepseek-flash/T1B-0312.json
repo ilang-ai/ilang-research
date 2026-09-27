@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0312",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9788c68590b6f9380d3b81a7f456339f6c46a8cd9101a742dc04b59df9306dde",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续消息是面向群的产品宣传和观点表达，不是对机器人上一条回复的纠正或指令，因此针对的不是做不做/怎么做；机器人上一条只是发表看法和解释，没有动手执行，也没有请示或拒绝，最接近只给建议不动手；操作者没有表达希望机器人当时采用哪种决策模式，无法推断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 919,
+   "completion_tokens": 3194,
+   "total_tokens": 4113,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3095
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 407
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者后续消息是面向群的产品宣传和观点表达，不是对机器人上一条回复的纠正或指令，因此针对的不是做不做/怎么做；机器人上一条只是发表看法和解释，没有动手执行，也没有请示或拒绝，最接近只给建议不动手；操作者没有表达希望机器人当时采用哪种决策模式，无法推断。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0130",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "2aacc7f9b56fdf805959f281d8babacbb3ebe8f337b16015feedc85443f31d44",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.60,csq=0.60,rel=0.50,cer=0.25,aut=0.75,rev=0.80,evd=0.15,sov=0.80,ine=0.50,ext=0.65]\nM:M5|conf:0.94\nR:未核实截图报错、QQ群资质及课程推荐，擅自假定验证码需求；应先询问具体报错与付款环节，再提供官方排障渠道",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33878,
+   "completion_tokens": 217,
+   "total_tokens": 34095,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 386,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 81
+   },
+   "input_tokens": 33878,
+   "output_tokens": 217,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.6,
+   "csq": 0.6,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.75,
+   "rev": 0.8,
+   "evd": 0.15,
+   "sov": 0.8,
+   "ine": 0.5,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "未核实截图报错、QQ群资质及课程推荐，擅自假定验证码需求；应先询问具体报错与付款环节，再提供官方排障渠道"
+ },
+ "parse_error": null
+}

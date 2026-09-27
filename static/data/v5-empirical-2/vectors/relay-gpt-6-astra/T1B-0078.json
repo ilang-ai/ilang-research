@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0078",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "705231f6200ee75d03c231918266bfe1fe74b54c96bbc54e3355e29046503aa7",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.75,rel=0.45,cer=0.25,aut=0.85,rev=0.90,evd=0.20,sov=0.85,ine=0.50,ext=0.90]\nM:M5|conf:0.93\nR:未核实部署架构、免费额度及实际负载，却断言配置足够且站点数量不受机器限制；应先确认工具与站点类型，避免指责学员找借口。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33987,
+   "completion_tokens": 217,
+   "total_tokens": 34204,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 495,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 74
+   },
+   "input_tokens": 33987,
+   "output_tokens": 217,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.7,
+   "csq": 0.75,
+   "rel": 0.45,
+   "cer": 0.25,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "未核实部署架构、免费额度及实际负载，却断言配置足够且站点数量不受机器限制；应先确认工具与站点类型，避免指责学员找借口。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0340",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9b6f82ad858702ade3bca626c0d2480f95c827980f7d4b7348cae4e1c6db13f5",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者纠正机器人对目标关键词的猜测，要求按600万那个直接推进，而不是继续追问；机器人此前正是在先问清楚。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 886,
+   "completion_tokens": 5832,
+   "total_tokens": 6718,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5777
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 246
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者纠正机器人对目标关键词的猜测，要求按600万那个直接推进，而不是继续追问；机器人此前正是在先问清楚。"
+ },
+ "parse_error": null
+}

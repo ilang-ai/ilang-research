@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0346",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0b317ce3e204587937d4f134d611e24f98cb9f2bce68b2013c8264600e730b47",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"机器人表示已把口径改成全程出命令，操作者则限定它只补答学员自己的AI解答不了的问题并纠错，而不是接管干活流程。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 795,
+   "completion_tokens": 189,
+   "total_tokens": 984,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 118
+   },
+   "input_tokens": 795,
+   "output_tokens": 189,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "机器人表示已把口径改成全程出命令，操作者则限定它只补答学员自己的AI解答不了的问题并纠错，而不是接管干活流程。"
+ },
+ "parse_error": null
+}

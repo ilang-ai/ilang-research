@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0298",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e5a11b6f124983fa5cb94a1721b020efecafb8988af1234ccb5e4d06c32ffbb9",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者要求机器人以后对某些问题直接推荐SPY工具，这是在指定应答方式——给建议而非自己执行；机器人此前也只是给出方法建议，未动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 916,
+   "completion_tokens": 4148,
+   "total_tokens": 5064,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4086
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 404
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者要求机器人以后对某些问题直接推荐SPY工具，这是在指定应答方式——给建议而非自己执行；机器人此前也只是给出方法建议，未动手执行。"
+ },
+ "parse_error": null
+}

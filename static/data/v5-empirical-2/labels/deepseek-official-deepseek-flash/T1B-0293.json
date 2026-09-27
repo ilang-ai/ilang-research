@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0293",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3d74a1f298eabe25fc377ab5f9fe05774fe2599517d10e48f4e642a6ea30251f",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续消息为无效文本，无法判断其针对什么或想要什么；机器人只是在给出建议，没有动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 899,
+   "completion_tokens": 2817,
+   "total_tokens": 3716,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2768
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 387
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者后续消息为无效文本，无法判断其针对什么或想要什么；机器人只是在给出建议，没有动手执行。"
+ },
+ "parse_error": null
+}

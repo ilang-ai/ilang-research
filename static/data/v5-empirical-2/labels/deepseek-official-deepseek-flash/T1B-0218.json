@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0218",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "dbff69d2a3ebe6f3e431c0a4bb75a05de14630a9fa2f126f7ce12ac9c74bd318",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者后续只是要求补算一年成本、回本月份和投入产出比，属于新的分析请求，不是纠正是否执行或如何执行；机器人此前也只是给出概率评估和建议，没有执行动作，因此实际和期望都是只给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1562,
+   "completion_tokens": 3933,
+   "total_tokens": 5495,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3854
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1050
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者后续只是要求补算一年成本、回本月份和投入产出比，属于新的分析请求，不是纠正是否执行或如何执行；机器人此前也只是给出概率评估和建议，没有执行动作，因此实际和期望都是只给建议。"
+ },
+ "parse_error": null
+}

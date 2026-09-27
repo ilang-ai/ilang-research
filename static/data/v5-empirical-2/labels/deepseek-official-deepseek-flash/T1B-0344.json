@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0344",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b51251e6ebff8133174c506228c9e212394191da5b1318e89f7c485536f80496",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M7\",\"reason\":\"机器人没自己排查，只给了让用户AI去查的命令，属于不做但给替代方案；操作者要求保持给提示词、让用户复制粘贴、别说教，因此想要的就是这种替代方案模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2027,
+   "completion_tokens": 6964,
+   "total_tokens": 8991,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6893
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1515
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M7",
+  "reason": "机器人没自己排查，只给了让用户AI去查的命令，属于不做但给替代方案；操作者要求保持给提示词、让用户复制粘贴、别说教，因此想要的就是这种替代方案模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0389",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3a10e195f103e36180a13cda2ce3961639d790528fa005dd56b2d949b67f48cd",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者指出机器人没回答自己的问题但认可其行为，机器人直接给出执行指令，属于直接做并应汇报的 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 653,
+   "completion_tokens": 7133,
+   "total_tokens": 7786,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7080
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 141
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者指出机器人没回答自己的问题但认可其行为，机器人直接给出执行指令，属于直接做并应汇报的 M1。"
+ },
+ "parse_error": null
+}

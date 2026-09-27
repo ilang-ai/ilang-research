@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0136",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3cab865db7b0c0d767c140586af0cbc4ed76d589baf79c9e8eafcea6095a9cc9",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M7\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在指出机器人推荐的官网和激活方式有事实错误，并未指定机器人应采用哪种执行模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 877,
+   "completion_tokens": 1128,
+   "total_tokens": 2005,
+   "cost": 0.000593102,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000593102,
+    "upstream_inference_prompt_cost": 6.2942e-05,
+    "upstream_inference_completions_cost": 0.00053016
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1062,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M7",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在指出机器人推荐的官网和激活方式有事实错误，并未指定机器人应采用哪种执行模式。"
+ },
+ "parse_error": null
+}

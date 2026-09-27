@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0001",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "55ca5a2dbc18da034a4d01e2d589fe3622191988131116917393ac87ae5ae045",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正机器人对故障原因的判断，并直接要求把DS flash设为主、千问放第二级，属于对“怎么做/是否执行切换”的要求；机器人此前只是解释上下文满并给出避免建议，没有执行模型切换。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 926,
+   "completion_tokens": 1932,
+   "total_tokens": 2858,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1855
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 926
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人对故障原因的判断，并直接要求把DS flash设为主、千问放第二级，属于对“怎么做/是否执行切换”的要求；机器人此前只是解释上下文满并给出避免建议，没有执行模型切换。"
+ },
+ "parse_error": null
+}

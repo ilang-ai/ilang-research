@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0332",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8cc73e2e376c8b2cdda7b40bf1a5c5dd3ba5ff7f4c937581178e1e597d192d6f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者嫌机器人只讲分析不落地，要求直接出定制化 iLang 工程书交给对方，是对做法与交付方式的纠正；机器人当时只给了分析和下一步建议、没有动手执行，所以是 M4，而操作者想要的是直接做完交付，即 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 932,
+   "completion_tokens": 1641,
+   "total_tokens": 2573,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1555
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 420
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者嫌机器人只讲分析不落地，要求直接出定制化 iLang 工程书交给对方，是对做法与交付方式的纠正；机器人当时只给了分析和下一步建议、没有动手执行，所以是 M4，而操作者想要的是直接做完交付，即 M1。"
+ },
+ "parse_error": null
+}

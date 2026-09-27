@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0211",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "31f48584df7fdeafb2bc62ec4e87afd6689b8498ec9b36394e9a1586d3a4d658",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者先肯定了机器人的分析结论，随后顺着内容抛出「做VPS推荐站/coupon站」的新项目想法，没有纠正机器人做不做或怎么做，属新方向而非纠正；机器人是自己把验证做完再事后汇报，走的是M1；而这条新想法里并没有明确表达要机器人以哪种模式推进，意图无法判定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1283,
+   "completion_tokens": 1857,
+   "total_tokens": 3140,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1756
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 771
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者先肯定了机器人的分析结论，随后顺着内容抛出「做VPS推荐站/coupon站」的新项目想法，没有纠正机器人做不做或怎么做，属新方向而非纠正；机器人是自己把验证做完再事后汇报，走的是M1；而这条新想法里并没有明确表达要机器人以哪种模式推进，意图无法判定。"
+ },
+ "parse_error": null
+}

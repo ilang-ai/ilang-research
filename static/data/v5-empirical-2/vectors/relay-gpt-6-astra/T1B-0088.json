@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0088",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "dc3ed5f8412ec7b3c446bce3d0cd63569c703be1bb10d3a248a5a099084d9160",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.45,csq=0.60,rel=0.30,cer=0.20,aut=0.40,rev=0.45,evd=0.15,sov=0.55,ine=0.40,ext=0.75]\nM:M5|conf:0.93\nR:用户需求尚不明确；应先澄清目标，核验价格、地域及Ubuntu与ChatGPT桌面版的兼容性，并说明推广链接利益关系，而非要求先购买\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33841,
+   "completion_tokens": 245,
+   "total_tokens": 34086,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 349,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 106
+   },
+   "input_tokens": 33841,
+   "output_tokens": 245,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.45,
+   "csq": 0.6,
+   "rel": 0.3,
+   "cer": 0.2,
+   "aut": 0.4,
+   "rev": 0.45,
+   "evd": 0.15,
+   "sov": 0.55,
+   "ine": 0.4,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "用户需求尚不明确；应先澄清目标，核验价格、地域及Ubuntu与ChatGPT桌面版的兼容性，并说明推广链接利益关系，而非要求先购买"
+ },
+ "parse_error": null
+}

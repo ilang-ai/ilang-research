@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0070",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "230ae730258b054c0dbbc1e573daa4f5c178eaee44961e4679804af474e9b401",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没出声，默认接受机器人做法；机器人只给出查找和询问建议，没有实际代操作，属于只给建议不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 766,
+   "completion_tokens": 549,
+   "total_tokens": 1315,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 492
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 254
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没出声，默认接受机器人做法；机器人只给出查找和询问建议，没有实际代操作，属于只给建议不动手。"
+ },
+ "parse_error": null
+}

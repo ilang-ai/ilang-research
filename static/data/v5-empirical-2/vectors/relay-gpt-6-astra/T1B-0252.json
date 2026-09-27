@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0252",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "d47ff8a80d8ce2839c5849b62b90a54a2b3fd811fc702501aa8e756e1c3e3887",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.50,csq=0.60,rel=0.50,cer=0.25,aut=0.45,rev=0.50,evd=0.15,sov=0.55,ine=0.50,ext=0.65]\nM:M5|conf:0.92\nR:将GPT描述为运行在本地的纯聊天工具并不准确；缺少产品配置、任务需求和替代方案证据，应先核实是否需要额外购买，而非直接催购。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33827,
+   "completion_tokens": 270,
+   "total_tokens": 34097,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 335,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 129
+   },
+   "input_tokens": 33827,
+   "output_tokens": 270,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.45,
+   "cap": 0.5,
+   "csq": 0.6,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.45,
+   "rev": 0.5,
+   "evd": 0.15,
+   "sov": 0.55,
+   "ine": 0.5,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "将GPT描述为运行在本地的纯聊天工具并不准确；缺少产品配置、任务需求和替代方案证据，应先核实是否需要额外购买，而非直接催购。"
+ },
+ "parse_error": null
+}

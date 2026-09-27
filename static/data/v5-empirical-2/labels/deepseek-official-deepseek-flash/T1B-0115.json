@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0115",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "310daf7eb9834b9dafe4a99a609d90dc1f418c8dbc3103609241885270d879c4",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人无法提供完整外链URL、转而给出排除DR=0后的12条外链并建议用Ahrefs/Semrush替代的处理。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1146,
+   "completion_tokens": 389,
+   "total_tokens": 1535,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 328
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 634
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人无法提供完整外链URL、转而给出排除DR=0后的12条外链并建议用Ahrefs/Semrush替代的处理。"
+ },
+ "parse_error": null
+}

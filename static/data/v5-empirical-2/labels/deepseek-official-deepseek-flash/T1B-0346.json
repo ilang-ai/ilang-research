@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0346",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0b317ce3e204587937d4f134d611e24f98cb9f2bce68b2013c8264600e730b47",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者纠正机器人之前'一律出命令'的做法，要求只解答学生AI解答不了的问题并纠错，属于对如何做工作的指示；机器人当时只是给出策略建议（M4），操作者希望其直接执行该解答规则（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 759,
+   "completion_tokens": 8421,
+   "total_tokens": 9180,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8341
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 247
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者纠正机器人之前'一律出命令'的做法，要求只解答学生AI解答不了的问题并纠错，属于对如何做工作的指示；机器人当时只是给出策略建议（M4），操作者希望其直接执行该解答规则（M1）。"
+ },
+ "parse_error": null
+}

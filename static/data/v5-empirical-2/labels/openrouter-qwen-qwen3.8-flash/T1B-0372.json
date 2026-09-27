@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0372",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ba6502b9b81ffdf0c10e5de2860dbbfffc6885cc39c4d816af3970e2dedfe658",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者只是在补充解释为什么使用官方桌面版且不用中转站，属于纠正回复内容；机器人当时没有实际执行操作，只是给出说明和下一步建议。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 741,
+   "completion_tokens": 3649,
+   "total_tokens": 4390,
+   "cost": 0.001757572,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001757572,
+    "upstream_inference_prompt_cost": 4.2542e-05,
+    "upstream_inference_completions_cost": 0.00171503
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3572,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是在补充解释为什么使用官方桌面版且不用中转站，属于纠正回复内容；机器人当时没有实际执行操作，只是给出说明和下一步建议。"
+ },
+ "parse_error": null
+}

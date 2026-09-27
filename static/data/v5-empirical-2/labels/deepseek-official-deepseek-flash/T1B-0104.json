@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0104",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "905572d927d5554f9f0ed4071f246af33f00aa9807a69b0869712a88d9dd9f29",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者消息是在对另一个学员抱怨API滥用，不是对机器人动作的纠正；机器人只给了查询建议/方法，没有实际执行，属于M4只给建议不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 749,
+   "completion_tokens": 4335,
+   "total_tokens": 5084,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4268
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 237
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者消息是在对另一个学员抱怨API滥用，不是对机器人动作的纠正；机器人只给了查询建议/方法，没有实际执行，属于M4只给建议不动手。"
+ },
+ "parse_error": null
+}

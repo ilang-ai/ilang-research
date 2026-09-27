@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0321",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "75a06f9d6b8dfafc0908478d07de6c7b88e0574e991b6196ead0d0d0c5022d77",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"unknown\",\n \"reason\": \"操作者发送图片并提出新问题让机器人推测自己的做法，属于新的交互提问，并非对机器人行为模式的纠偏。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 775,
+   "completion_tokens": 202,
+   "total_tokens": 977,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 775,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 73,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 129
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者发送图片并提出新问题让机器人推测自己的做法，属于新的交互提问，并非对机器人行为模式的纠偏。"
+ },
+ "parse_error": null
+}

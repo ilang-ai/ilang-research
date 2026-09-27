@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0210",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "09786e9e8ac7cd4573501a672ebd0a3a800d098d684c8e930c876c3f5638078c",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者随后提出的是新的仓库分析请求，不是纠正；机器人之前只是说不用验证，更像给建议而未执行；操作者原始要求验证，预期是直接完成并反馈。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 673,
+   "completion_tokens": 1372,
+   "total_tokens": 2045,
+   "cost": 0.000677182,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000677182,
+    "upstream_inference_prompt_cost": 3.2342e-05,
+    "upstream_inference_completions_cost": 0.00064484
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1290,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者随后提出的是新的仓库分析请求，不是纠正；机器人之前只是说不用验证，更像给建议而未执行；操作者原始要求验证，预期是直接完成并反馈。"
+ },
+ "parse_error": null
+}

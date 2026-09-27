@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0006",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4583a583b7ffe8a106f1aaaf7593748a1c325a3935bfa54a90ddc3fb4e92acf8",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人此前是自己动手把隔离做完、事后再汇报，操作者这条话撇开其余事项，直接让它自己拉日志找问题、上机优化，属于对做什么/怎么做的指示，要的就是继续自主执行、事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1700,
+   "completion_tokens": 7888,
+   "total_tokens": 9588,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7812
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1316
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人此前是自己动手把隔离做完、事后再汇报，操作者这条话撇开其余事项，直接让它自己拉日志找问题、上机优化，属于对做什么/怎么做的指示，要的就是继续自主执行、事后汇报。"
+ },
+ "parse_error": null
+}

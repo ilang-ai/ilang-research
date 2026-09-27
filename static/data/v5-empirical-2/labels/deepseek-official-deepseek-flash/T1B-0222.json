@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0222",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "986838d067f6e673925fcd9ab14c63250690000fca80ad0fedd754433ad10eb3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者之后的消息没有纠正机器人，而是另问卖网站是否确定赚钱；机器人当时只是在输出解释/建议没动手，操作者原本要的也只是获取手机验证码的购买建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1214,
+   "completion_tokens": 3908,
+   "total_tokens": 5122,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3840
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 702
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者之后的消息没有纠正机器人，而是另问卖网站是否确定赚钱；机器人当时只是在输出解释/建议没动手，操作者原本要的也只是获取手机验证码的购买建议。"
+ },
+ "parse_error": null
+}

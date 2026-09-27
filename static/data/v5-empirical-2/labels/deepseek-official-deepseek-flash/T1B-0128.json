@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0128",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "409fc87c2c90eb36653592222b0c05f98571e960739b732bf5261d841e886eb7",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，视为接受机器人给出的可操作方法和提示词；机器人只提供了方案/建议，没有实际动手执行监控。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1021,
+   "completion_tokens": 1754,
+   "total_tokens": 2775,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1703
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 509
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，视为接受机器人给出的可操作方法和提示词；机器人只提供了方案/建议，没有实际动手执行监控。"
+ },
+ "parse_error": null
+}

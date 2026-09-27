@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0221",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c372ff213ecc49c860299f5bf49fb47d4f1c4c978443845103446d5273de409b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者这条消息是在补充新的 SEO/坚持经验，不是针对机器人上一条 Windows 定时与委托 AI 的做法提出纠正；机器人当时只是给建议、没有动手，而操作者也没有表达希望机器人按某个模式执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 881,
+   "completion_tokens": 1420,
+   "total_tokens": 2301,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1343
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 369
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者这条消息是在补充新的 SEO/坚持经验，不是针对机器人上一条 Windows 定时与委托 AI 的做法提出纠正；机器人当时只是给建议、没有动手，而操作者也没有表达希望机器人按某个模式执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0244",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9a0c95882a5047e3837cea01df6077dc3e12f1fcff8ad7f1fb097605b06dd529",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人直接确认并采纳了处理规则，操作者进一步纠正执行尺度：不是一概打发不动手的人，而是按是否动手分配回答token，并严格压低不动手者的回答消耗。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 772,
+   "completion_tokens": 238,
+   "total_tokens": 1010,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 158
+   },
+   "input_tokens": 772,
+   "output_tokens": 238,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人直接确认并采纳了处理规则，操作者进一步纠正执行尺度：不是一概打发不动手的人，而是按是否动手分配回答token，并严格压低不动手者的回答消耗。"
+ },
+ "parse_error": null
+}

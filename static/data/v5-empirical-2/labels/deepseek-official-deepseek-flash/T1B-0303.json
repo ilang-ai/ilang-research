@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0303",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9594c2b34735dd1ed7bde748b690a5b29dbf258cca2aa4cac3e173384a53f3f9",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者这条是新任务/指令，不是对上一轮 bot 回复的纠正；bot 上一轮只是解释/闲聊，未执行具体动作，最接近 M4；操作者未表明对上一轮模式的期望。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 803,
+   "completion_tokens": 7283,
+   "total_tokens": 8086,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7197
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 291
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者这条是新任务/指令，不是对上一轮 bot 回复的纠正；bot 上一轮只是解释/闲聊，未执行具体动作，最接近 M4；操作者未表明对上一轮模式的期望。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0160",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "64212d67e0c392c41c266f754c7ec9242664ceedd082cebc5be798a17b1b00bb",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者随后发的是另一段案例分享/新内容，并未针对机器人关于抓字幕的建议做纠正或表态，因此看不出其当时想让机器人采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1862,
+   "completion_tokens": 2964,
+   "total_tokens": 4826,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2903
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1350
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者随后发的是另一段案例分享/新内容，并未针对机器人关于抓字幕的建议做纠正或表态，因此看不出其当时想让机器人采用哪种模式。"
+ },
+ "parse_error": null
+}

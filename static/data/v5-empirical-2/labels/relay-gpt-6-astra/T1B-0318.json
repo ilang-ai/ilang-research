@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0318",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5c14b2c5e9e587193214cd83aa912852c935b6d5f151937617d84055184e5ec5",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人已自行补好许可后汇报，操作者说“全程不管”“这就是AI时代的放大时间”，是在肯定自主执行，并非纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 826,
+   "completion_tokens": 94,
+   "total_tokens": 920,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 26
+   },
+   "input_tokens": 826,
+   "output_tokens": 94,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人已自行补好许可后汇报，操作者说“全程不管”“这就是AI时代的放大时间”，是在肯定自主执行，并非纠正。"
+ },
+ "parse_error": null
+}

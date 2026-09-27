@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0032",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c07ee3adb22683098ff24631566483901e13d7228e50b659c587d2377b96284d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M6\",\"reason\":\"操作者反对机器人建议其改 token，认为安全措施应与账号价值匹配，这种取舍应由自己决定，因此想要机器人把决定权交给他。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 847,
+   "completion_tokens": 8756,
+   "total_tokens": 9603,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8698
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 335
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M6",
+  "reason": "操作者反对机器人建议其改 token，认为安全措施应与账号价值匹配，这种取舍应由自己决定，因此想要机器人把决定权交给他。"
+ },
+ "parse_error": null
+}

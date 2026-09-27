@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0101",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3ca85724a70ab779948349788f94f414b30605e9621fcd16d079605f88c90f11",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.40,csq=0.45,rel=0.50,cer=0.15,aut=0.55,rev=0.70,evd=0.05,sov=0.70,ine=0.35,ext=0.65]\nM:M5|conf:0.97\nR:所谓官方判定、硬阈值及收益公式均无可核验证据，且混淆谷歌收录与广告审核；应先核实来源并澄清网站收录状况",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34251,
+   "completion_tokens": 237,
+   "total_tokens": 34488,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 759,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 95
+   },
+   "input_tokens": 34251,
+   "output_tokens": 237,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.45,
+   "cap": 0.4,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.15,
+   "aut": 0.55,
+   "rev": 0.7,
+   "evd": 0.05,
+   "sov": 0.7,
+   "ine": 0.35,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.97,
+  "reason": "所谓官方判定、硬阈值及收益公式均无可核验证据，且混淆谷歌收录与广告审核；应先核实来源并澄清网站收录状况"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0314",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7f5a1b0ea8c20bd6f9a1b7d4951f73e1bd4d58a011218a98e47e38c10e5b534a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在发起新任务，让机器人结合工具和实战内容猜测要做什么技能，并未要求立即动手；机器人此前主要在回应观点，看不出明确的执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 943,
+   "completion_tokens": 287,
+   "total_tokens": 1230,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 216
+   },
+   "input_tokens": 943,
+   "output_tokens": 287,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者是在发起新任务，让机器人结合工具和实战内容猜测要做什么技能，并未要求立即动手；机器人此前主要在回应观点，看不出明确的执行模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0363",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "acceed9365dc6914bdbf83a46af598444005ca49855571542a5dc34624fc437b",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"none_fits\",\n \"reason\": \"操作者批评机器人的回复缺乏辨识度和个性，针对的是人设风格与内容表现，而非流程或执行模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 747,
+   "completion_tokens": 384,
+   "total_tokens": 1131,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 747,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 70,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 314
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者批评机器人的回复缺乏辨识度和个性，针对的是人设风格与内容表现，而非流程或执行模式。"
+ },
+ "parse_error": null
+}

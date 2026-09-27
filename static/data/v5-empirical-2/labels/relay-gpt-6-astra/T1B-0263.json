@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0263",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "724d107997cf2ed7e7294ca11c5be32dc650b5cf8de6be63d3e57d94d18fb149",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"机器人解释机器位置与流量、收入的关系并建议选择东京，没有代为购买或操作；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1065,
+   "completion_tokens": 89,
+   "total_tokens": 1154,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1062,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 30
+   },
+   "input_tokens": 1065,
+   "output_tokens": 89,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人解释机器位置与流量、收入的关系并建议选择东京，没有代为购买或操作；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

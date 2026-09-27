@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0272",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "85b31c63560289288651d3fff05ba65ac4d60cd26f531bab590825f95a60a0ac",
+ "text": "```json\n{\"targets\": \"none\", \"bot_mode\": \"M4\", \"intended_mode\": \"accepted\", \"reason\": \"机器人解答了被踢原因并给出后续操作建议，操作者未出声默认接受。\"}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 675,
+   "completion_tokens": 297,
+   "total_tokens": 972,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 675,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 53,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 244
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人解答了被踢原因并给出后续操作建议，操作者未出声默认接受。"
+ },
+ "parse_error": null
+}

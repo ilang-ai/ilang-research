@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0229",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4a3d1d40fddd696fe4cb2e5c713284782b986a0d91fc53f699c2f44d3cfa3278",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者发了一条新指令，要求机器人迭代技能并在用户需要时分享，属于新任务；机器人之前提出方案等确认，但操作者未确认而是给出新方向，期望机器人直接执行迭代。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 969,
+   "completion_tokens": 3301,
+   "total_tokens": 4270,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3217
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 457
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者发了一条新指令，要求机器人迭代技能并在用户需要时分享，属于新任务；机器人之前提出方案等确认，但操作者未确认而是给出新方向，期望机器人直接执行迭代。"
+ },
+ "parse_error": null
+}

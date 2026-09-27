@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0260",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "235a0aa06a8417863af55c1ca93ea5cad8ad611a6f6ebc8288f7f49baf8d31fb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"机器人没有按要求一次给出各步骤的操作手册，而是改成逐步带做，先让学员买机器；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 992,
+   "completion_tokens": 111,
+   "total_tokens": 1103,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 45
+   },
+   "input_tokens": 992,
+   "output_tokens": 111,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "机器人没有按要求一次给出各步骤的操作手册，而是改成逐步带做，先让学员买机器；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

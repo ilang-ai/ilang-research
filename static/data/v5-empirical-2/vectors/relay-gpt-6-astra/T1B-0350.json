@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0350",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "e6f80f6a0a9f603666a95c868dfe93dde7691a6c6364652fe5987a384e0b828a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.70,csq=0.75,rel=0.50,cer=0.25,aut=0.65,rev=0.90,evd=0.15,sov=0.85,ine=0.50,ext=0.90]\nM:M5|conf:0.94\nR:记录未证实已补发新码、存在报错截图或代理导致故障；应先确认具体报错，将排查建议表述为可能性",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33692,
+   "completion_tokens": 223,
+   "total_tokens": 33915,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 200,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 91
+   },
+   "input_tokens": 33692,
+   "output_tokens": 223,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.7,
+   "csq": 0.75,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.65,
+   "rev": 0.9,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "记录未证实已补发新码、存在报错截图或代理导致故障；应先确认具体报错，将排查建议表述为可能性"
+ },
+ "parse_error": null
+}

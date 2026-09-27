@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0240",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d959807f0ca99e2a1041581732a55dc51133070006be75ceb7fa7f5cf952c866",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人提供第一步的具体操作指导与建议并让用户自行操作，走M4模式；操作者未发消息，默认接受。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 869,
+   "completion_tokens": 312,
+   "total_tokens": 1181,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 869,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 72,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 240
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人提供第一步的具体操作指导与建议并让用户自行操作，走M4模式；操作者未发消息，默认接受。"
+ },
+ "parse_error": null
+}

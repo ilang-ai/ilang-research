@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0175",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0b01e6a0697bf79fd2ee0de847d1eaab3e0c3ad0d06316f843b85833deba3c3a",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续；机器人只是说明不用装驱动并给出后续操作建议，没有替操作者动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 712,
+   "completion_tokens": 653,
+   "total_tokens": 1365,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 602
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 200
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人继续；机器人只是说明不用装驱动并给出后续操作建议，没有替操作者动手。"
+ },
+ "parse_error": null
+}

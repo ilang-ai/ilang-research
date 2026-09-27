@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0209",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "84015682fcdaceeafb10e35b09aee94f9da64be485790900fd88eaae33ab4317",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"机器人先分析了几种排名路径，最后询问是否有支付代理资质或货源，以确定该走哪条路；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1302,
+   "completion_tokens": 104,
+   "total_tokens": 1406,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1299,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 38
+   },
+   "input_tokens": 1302,
+   "output_tokens": 104,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "机器人先分析了几种排名路径，最后询问是否有支付代理资质或货源，以确定该走哪条路；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

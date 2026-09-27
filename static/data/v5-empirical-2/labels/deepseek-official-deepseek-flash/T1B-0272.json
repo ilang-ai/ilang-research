@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0272",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "85b31c63560289288651d3fff05ba65ac4d60cd26f531bab590825f95a60a0ac",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条为空，视为默认接受机器人当时的回复；机器人只是解释并建议不用验证、安心等卡片，没有真正动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 663,
+   "completion_tokens": 401,
+   "total_tokens": 1064,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 349
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 151
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者这条为空，视为默认接受机器人当时的回复；机器人只是解释并建议不用验证、安心等卡片，没有真正动手执行。"
+ },
+ "parse_error": null
+}

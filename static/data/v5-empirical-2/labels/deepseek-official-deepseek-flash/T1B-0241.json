@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0241",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7968f52cb4ee5603df19cec3258bdaaa80a72b891334f6c10c749c5f1f9cb1c3",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人的回复；机器人只是给出一份可复制到别处执行的建站提示词和说明，自己并未实际动手搭建。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1919,
+   "completion_tokens": 788,
+   "total_tokens": 2707,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 730
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1407
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人的回复；机器人只是给出一份可复制到别处执行的建站提示词和说明，自己并未实际动手搭建。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0278",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "c81f474972d00cbc7a0fbd2cf0cc5b49a0fdf83faa9e63e5804b605ef65eb2c6",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.50,csq=0.25,rel=0.50,cer=0.25,aut=0.45,rev=0.35,evd=0.20,sov=0.55,ine=0.50,ext=0.50]\nM:M5|conf:0.92\nR:未见原提示词及远程机配置，无法核验安装与登录流程；应先审查脚本，改用最小权限临时凭证，禁止提交主账号密钥并保留关键操作确认",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33854,
+   "completion_tokens": 248,
+   "total_tokens": 34102,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 362,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 103
+   },
+   "input_tokens": 33854,
+   "output_tokens": 248,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.5,
+   "csq": 0.25,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.45,
+   "rev": 0.35,
+   "evd": 0.2,
+   "sov": 0.55,
+   "ine": 0.5,
+   "ext": 0.5
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "未见原提示词及远程机配置，无法核验安装与登录流程；应先审查脚本，改用最小权限临时凭证，禁止提交主账号密钥并保留关键操作确认"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0308",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e2eee8cfc3ac6671785dea843ae47db380690f8997060e4170c5f58ca3154f7d",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者随后是在给机器人补充对外口径和做法，要求直接按iLang协议和让AI学习的方式去说，而不是只纠正措辞；机器人当时也直接改了口径并汇报。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 923,
+   "completion_tokens": 1815,
+   "total_tokens": 2738,
+   "cost": 0.000922892,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000922892,
+    "upstream_inference_prompt_cost": 6.9842e-05,
+    "upstream_inference_completions_cost": 0.00085305
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1729,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者随后是在给机器人补充对外口径和做法，要求直接按iLang协议和让AI学习的方式去说，而不是只纠正措辞；机器人当时也直接改了口径并汇报。"
+ },
+ "parse_error": null
+}

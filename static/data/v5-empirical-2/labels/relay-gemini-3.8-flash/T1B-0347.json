@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0347",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9c418055dfa5d9e84500953d92184df4510720aa6904f53d9ac51e76049c6f16",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者对机器人的分工边界说明表示完全赞同并补充自身经验，属于确认赞同而非纠偏，机器人此前属于只给指导建议的 M4 模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 742,
+   "completion_tokens": 518,
+   "total_tokens": 1260,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 742,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 87,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 431
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者对机器人的分工边界说明表示完全赞同并补充自身经验，属于确认赞同而非纠偏，机器人此前属于只给指导建议的 M4 模式。"
+ },
+ "parse_error": null
+}

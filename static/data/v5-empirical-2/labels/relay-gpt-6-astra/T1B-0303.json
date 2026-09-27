@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0303",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9594c2b34735dd1ed7bde748b690a5b29dbf258cca2aa4cac3e173384a53f3f9",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M4\",\"reason\":\"操作者没有明确纠正上一条回复，而是新提出给学员明确方向的要求；机器人此前只在谈理解口径，看不出具体决策模式，操作者提到的上手操作则是在说自己。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 875,
+   "completion_tokens": 216,
+   "total_tokens": 1091,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 137
+   },
+   "input_tokens": 875,
+   "output_tokens": 216,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M4",
+  "reason": "操作者没有明确纠正上一条回复，而是新提出给学员明确方向的要求；机器人此前只在谈理解口径，看不出具体决策模式，操作者提到的上手操作则是在说自己。"
+ },
+ "parse_error": null
+}

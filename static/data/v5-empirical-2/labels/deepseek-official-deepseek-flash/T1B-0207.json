@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0207",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "79135b5bedc2939390f6358e2e0f90ca8954f630bec273bd871e6a16ab78dffa",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，视为默认接受机器人做法；机器人已直接完成长尾词扒取并给出分析汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1147,
+   "completion_tokens": 664,
+   "total_tokens": 1811,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 616
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 635
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，视为默认接受机器人做法；机器人已直接完成长尾词扒取并给出分析汇报。"
+ },
+ "parse_error": null
+}

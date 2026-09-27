@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0126",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a02b4680fa39be661e0d1f853e0bd0b646a4d2d869959a21e507e493210c2329",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件中操作者没有出声，默认接受机器人继续自主执行；机器人未先确认，直接开始工作，属于直接做并稍后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 651,
+   "completion_tokens": 1937,
+   "total_tokens": 2588,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1882
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 139
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件中操作者没有出声，默认接受机器人继续自主执行；机器人未先确认，直接开始工作，属于直接做并稍后汇报。"
+ },
+ "parse_error": null
+}

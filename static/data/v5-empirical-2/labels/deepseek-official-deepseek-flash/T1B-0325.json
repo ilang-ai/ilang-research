@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0325",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9ecfdd17f0ad3a90dd3204f6b2bdf6dd025c440379b6f79a376b5807f4ff779e",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人对VPS架构的事实性描述，属于内容纠正；机器人只是在复述理解、没有执行具体任务，操作者也只补充说明，没有要求执行或改变决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 868,
+   "completion_tokens": 12152,
+   "total_tokens": 13020,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 12087
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 356
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人对VPS架构的事实性描述，属于内容纠正；机器人只是在复述理解、没有执行具体任务，操作者也只补充说明，没有要求执行或改变决策模式。"
+ },
+ "parse_error": null
+}

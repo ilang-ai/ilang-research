@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0327",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6aee08b604a560e75cd5314fa379943c579151b08dff62606277c2789ae8582b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人只是给经营建议没动手，操作者在纠正做知识库和销售的具体做法，仍是要机器人按正确思路给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 828,
+   "completion_tokens": 2822,
+   "total_tokens": 3650,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2768
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 316
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人只是给经营建议没动手，操作者在纠正做知识库和销售的具体做法，仍是要机器人按正确思路给建议。"
+ },
+ "parse_error": null
+}

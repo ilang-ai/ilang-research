@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0253",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cd130077e150647ab719405bfa663e101e8ba88d618c4d2dae9a00538d80aa8a",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者只是要求把命令再发一下，机器人直接把命令原样贴出，操作者随后没有出声，说明默认接受了这次直接执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2068,
+   "completion_tokens": 572,
+   "total_tokens": 2640,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 518
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1556
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者只是要求把命令再发一下，机器人直接把命令原样贴出，操作者随后没有出声，说明默认接受了这次直接执行。"
+ },
+ "parse_error": null
+}

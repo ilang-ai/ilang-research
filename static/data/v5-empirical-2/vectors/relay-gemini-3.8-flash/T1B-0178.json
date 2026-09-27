@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0178",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "e3089b3c9b8f2c6fcf13afbb79e02fc7f347c643ac2f2187e03f84c200e0cbb6",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.75,csq=0.45,rel=0.65,cer=0.70,aut=0.70,rev=0.45,evd=0.65,sov=0.80,ine=0.65,ext=0.80]\nM:M3|conf:0.85\nR:指导学员在root终端下载重装脚本涉及高风险系统操作建议确认意图与备份",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37590,
+   "completion_tokens": 3952,
+   "total_tokens": 41542,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37590,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 125,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 3827
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.75,
+   "csq": 0.45,
+   "rel": 0.65,
+   "cer": 0.7,
+   "aut": 0.7,
+   "rev": 0.45,
+   "evd": 0.65,
+   "sov": 0.8,
+   "ine": 0.65,
+   "ext": 0.8
+  },
+  "declared_mode": "M3",
+  "conf": 0.85,
+  "reason": "指导学员在root终端下载重装脚本涉及高风险系统操作建议确认意图与备份"
+ },
+ "parse_error": null
+}

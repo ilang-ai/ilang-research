@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0342",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1819b6a2b25091b6a3e51d6d4fff96e91e407826a31bbc2642173852ccae5a6b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受机器人做法；机器人未直接完成验证，而是给出重新获取验证卡片的替代路径。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 676,
+   "completion_tokens": 12042,
+   "total_tokens": 12718,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 11993
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 164
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，默认接受机器人做法；机器人未直接完成验证，而是给出重新获取验证卡片的替代路径。"
+ },
+ "parse_error": null
+}

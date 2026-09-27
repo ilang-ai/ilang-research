@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0072",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d43fd244e8f21f102b6cdf0084e44241269e2c87b6324aa636f0c1ef5ccdc737",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人只给建议、列选项而不动手的做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1063,
+   "completion_tokens": 312,
+   "total_tokens": 1375,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 271
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 551
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人只给建议、列选项而不动手的做法。"
+ },
+ "parse_error": null
+}

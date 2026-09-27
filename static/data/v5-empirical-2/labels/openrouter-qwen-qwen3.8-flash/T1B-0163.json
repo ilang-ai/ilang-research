@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0163",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "86ca2601c928ddb801d4165f8912d34cc5a71e39f0e71f7e76864b0c50ed7218",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受；机器人只是给出远程桌面连接判断安装成功的方法，没有实际动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 811,
+   "completion_tokens": 472,
+   "total_tokens": 1283,
+   "cost": 0.000274882,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000274882,
+    "upstream_inference_prompt_cost": 5.3042e-05,
+    "upstream_inference_completions_cost": 0.00022184
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 425,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，默认接受；机器人只是给出远程桌面连接判断安装成功的方法，没有实际动手执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0224",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cc8599f3a783d53af437178d38fceaedf62faeca282da4aa8dd81be60b8a6e21",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人，而是提出把 VPS 案例延展成优惠细分/谷歌套利技能的新任务；机器人此前只是给出方案并等确认，所以实际是 M3；操作者要的是直接做成技能并给出全套提示词，倾向 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1519,
+   "completion_tokens": 4565,
+   "total_tokens": 6084,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4480
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1007
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人，而是提出把 VPS 案例延展成优惠细分/谷歌套利技能的新任务；机器人此前只是给出方案并等确认，所以实际是 M3；操作者要的是直接做成技能并给出全套提示词，倾向 M1。"
+ },
+ "parse_error": null
+}

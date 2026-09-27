@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0221",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c372ff213ecc49c860299f5bf49fb47d4f1c4c978443845103446d5273de409b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只给了 Windows 定时任务的建议，没有动手；操作者转而补充网站运营和老域名的看法，未纠正此前的处理方式，也未表达期望的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 961,
+   "completion_tokens": 162,
+   "total_tokens": 1123,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 86
+   },
+   "input_tokens": 961,
+   "output_tokens": 162,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只给了 Windows 定时任务的建议，没有动手；操作者转而补充网站运营和老域名的看法，未纠正此前的处理方式，也未表达期望的决策模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0247",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8e3c2957a06814f421e65afb946a7a2b50f662773c43d16f7a4e41335b9c978c",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续；机器人因缺少远程AI跑出的前十缺口表而先要求操作者贴出后再审，属于信息不足先问清楚。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 665,
+   "completion_tokens": 956,
+   "total_tokens": 1621,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 896
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 153
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人继续；机器人因缺少远程AI跑出的前十缺口表而先要求操作者贴出后再审，属于信息不足先问清楚。"
+ },
+ "parse_error": null
+}

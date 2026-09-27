@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0115",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1b1cbcdc747c324f6a5388357223f5ec1ddbad581da25183b60cc97c5cb9f3e3",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.40,csq=0.65,rel=0.50,cer=0.25,aut=0.85,rev=0.85,evd=0.20,sov=0.65,ine=0.50,ext=0.75]\nM:M5|conf:0.93\nR:Missing_source_URLs;_verify_data_coverage_and_evidence_before_claiming_only_12_valid_links_or_all_unpaid_citations",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34171,
+   "completion_tokens": 222,
+   "total_tokens": 34393,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 679,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 98
+   },
+   "input_tokens": 34171,
+   "output_tokens": 222,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.7,
+   "cap": 0.4,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.85,
+   "rev": 0.85,
+   "evd": 0.2,
+   "sov": 0.65,
+   "ine": 0.5,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "Missing_source_URLs;_verify_data_coverage_and_evidence_before_claiming_only_12_valid_links_or_all_unpaid_citations"
+ },
+ "parse_error": null
+}

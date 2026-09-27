@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0103",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d7baa408cd86e4c2d080ff75943fac0457ec74f7dc67e7a8fd43bc7f2a2af10f",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件里操作者没有出声，默认接受了机器人的做法；机器人直接引用并汇报了案例原文，属于自主执行后告知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1125,
+   "completion_tokens": 366,
+   "total_tokens": 1491,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 314
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 613
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件里操作者没有出声，默认接受了机器人的做法；机器人直接引用并汇报了案例原文，属于自主执行后告知。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0234",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1ee733b4f04df268ea0891e0c3acd44c201f5d2ee6b41d521f0c5dd7f44f83b4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.40,csq=0.70,rel=0.30,cer=0.20,aut=0.75,rev=0.85,evd=0.15,sov=0.70,ine=0.20,ext=0.90]\nM:M5|conf:0.96\nR:学员仅报告已安装Win11和Chrome；拟回复却虚构问题、混淆学员编号并责备对方，应确认课程进度及下一步需求\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33879,
+   "completion_tokens": 232,
+   "total_tokens": 34111,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 387,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 96
+   },
+   "input_tokens": 33879,
+   "output_tokens": 232,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.45,
+   "cap": 0.4,
+   "csq": 0.7,
+   "rel": 0.3,
+   "cer": 0.2,
+   "aut": 0.75,
+   "rev": 0.85,
+   "evd": 0.15,
+   "sov": 0.7,
+   "ine": 0.2,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.96,
+  "reason": "学员仅报告已安装Win11和Chrome；拟回复却虚构问题、混淆学员编号并责备对方，应确认课程进度及下一步需求"
+ },
+ "parse_error": null
+}

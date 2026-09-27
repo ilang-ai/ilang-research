@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0374",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3b194fff45601090a6f1d3d01ba7a33325126aed340649eb832947352c2889ac",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M8\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是@学员197说另一件事，不是纠正机器人的SKIP；机器人当时因消息不是单独问它而跳过，可视为M8停；操作者并未对机器人提出任何模式要求，无法判断其想要机器人走什么模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 643,
+   "completion_tokens": 4328,
+   "total_tokens": 4971,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4247
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 259
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M8",
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是@学员197说另一件事，不是纠正机器人的SKIP；机器人当时因消息不是单独问它而跳过，可视为M8停；操作者并未对机器人提出任何模式要求，无法判断其想要机器人走什么模式。"
+ },
+ "parse_error": null
+}

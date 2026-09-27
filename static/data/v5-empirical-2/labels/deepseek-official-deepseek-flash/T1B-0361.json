@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0361",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6c7a98d2c62059b2c97fd5f820e8d40e02e53cf757fca876b606a93036baac60",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者认可机器人直接回怼的做法，并要求以后遇到类似情况也直接按这种方式处理，属于对行动方式的指示。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 717,
+   "completion_tokens": 1032,
+   "total_tokens": 1749,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 980
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 205
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者认可机器人直接回怼的做法，并要求以后遇到类似情况也直接按这种方式处理，属于对行动方式的指示。"
+ },
+ "parse_error": null
+}

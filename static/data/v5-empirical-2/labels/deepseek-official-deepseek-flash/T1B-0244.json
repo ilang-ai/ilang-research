@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0244",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9a0c95882a5047e3837cea01df6077dc3e12f1fcff8ad7f1fb097605b06dd529",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正/补充机器人应对不动手用户的处理规则，属于怎么做；机器人此前直接宣布并采纳了自己的策略，操作者随后以铁律式指令要求直接遵守。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 720,
+   "completion_tokens": 4270,
+   "total_tokens": 4990,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4207
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 208
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正/补充机器人应对不动手用户的处理规则，属于怎么做；机器人此前直接宣布并采纳了自己的策略，操作者随后以铁律式指令要求直接遵守。"
+ },
+ "parse_error": null
+}

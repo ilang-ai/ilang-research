@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0064",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6d513709d63db8594d6edc1a41fb0da1c6208c508f0f0ac7b50a036e5ad1b759",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者只是在纠正机器人关于“印度离中国半个地球”的事实说法，没有改变执行方式；机器人当时是在给建议而没有动手，但操作者未明确期望的模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1234,
+   "completion_tokens": 911,
+   "total_tokens": 2145,
+   "cost": 0.000544662,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000544662,
+    "upstream_inference_prompt_cost": 0.000116492,
+    "upstream_inference_completions_cost": 0.00042817
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 832,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者只是在纠正机器人关于“印度离中国半个地球”的事实说法，没有改变执行方式；机器人当时是在给建议而没有动手，但操作者未明确期望的模式。"
+ },
+ "parse_error": null
+}

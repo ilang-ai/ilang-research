@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0263",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "724d107997cf2ed7e7294ca11c5be32dc650b5cf8de6be63d3e57d94d18fb149",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没出声，属于对照事件，默认接受了机器人直接给出结论并解释的做法；机器人没有先确认或提问，直接讲完答案，属于自主执行事后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 993,
+   "completion_tokens": 138,
+   "total_tokens": 1131,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 78
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 481
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没出声，属于对照事件，默认接受了机器人直接给出结论并解释的做法；机器人没有先确认或提问，直接讲完答案，属于自主执行事后汇报。"
+ },
+ "parse_error": null
+}

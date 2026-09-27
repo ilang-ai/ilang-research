@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0172",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6b7e9f4b9ffdad6cb1a6fcc9502eeb0ae9ac60dd2706ac8327f1eb0d2c844593",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声属于对照事件；机器人当时先询问是否有境外卡以澄清信息，并给出条件建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 911,
+   "completion_tokens": 490,
+   "total_tokens": 1401,
+   "cost": 0.000298342,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000298342,
+    "upstream_inference_prompt_cost": 6.8042e-05,
+    "upstream_inference_completions_cost": 0.0002303
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 443,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声属于对照事件；机器人当时先询问是否有境外卡以澄清信息，并给出条件建议。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0334",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d0c539b3311ea35c1e4f3ac95f7b232a4db7817a51d2d2a85dfc0fabea67f3e0",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是发图问“哪个是我的小号”，属于新问题而非纠正机器人做不做或怎么做；机器人当时在追问小号域名，是先问清楚再说；操作者没有表达希望它当时采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 742,
+   "completion_tokens": 2673,
+   "total_tokens": 3415,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2598
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 230
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "none_fits",
+  "reason": "操作者只是发图问“哪个是我的小号”，属于新问题而非纠正机器人做不做或怎么做；机器人当时在追问小号域名，是先问清楚再说；操作者没有表达希望它当时采用哪种模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0302",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "dde666180d49184f0e24aef33e4a926aabeadd11b79568a86ca108ba982d9f6b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在表扬机器人的举一反三，并未纠正其做法，也没有明确表达希望采用哪种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 877,
+   "completion_tokens": 171,
+   "total_tokens": 1048,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 112
+   },
+   "input_tokens": 877,
+   "output_tokens": 171,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者是在表扬机器人的举一反三，并未纠正其做法，也没有明确表达希望采用哪种决策模式。"
+ },
+ "parse_error": null
+}

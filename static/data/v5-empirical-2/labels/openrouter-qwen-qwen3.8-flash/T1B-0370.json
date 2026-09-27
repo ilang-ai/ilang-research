@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0370",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c574562b4b6626c4eb6b81ae2c15264723fc48f055923b788f25e3560de2193c",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M7\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者在回应机器人关于贵数据是否给学员使用的做法，属于讨论做不做和怎么做；机器人当时拒绝提供贵数据并给出替代路径，符合 M7；但操作者没有明确指令要机器人采用哪种模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 897,
+   "completion_tokens": 2133,
+   "total_tokens": 3030,
+   "cost": 0.001068452,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001068452,
+    "upstream_inference_prompt_cost": 6.5942e-05,
+    "upstream_inference_completions_cost": 0.00100251
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2042,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "操作者在回应机器人关于贵数据是否给学员使用的做法，属于讨论做不做和怎么做；机器人当时拒绝提供贵数据并给出替代路径，符合 M7；但操作者没有明确指令要机器人采用哪种模式。"
+ },
+ "parse_error": null
+}

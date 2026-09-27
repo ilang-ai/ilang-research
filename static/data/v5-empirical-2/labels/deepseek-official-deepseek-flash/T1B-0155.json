@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0155",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "344cb72c89c6b0a60e5204f90c499b837c81f41ea619d0ede5d2f2dc9547770f",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人给出的下一步操作指导；机器人只是给建议和步骤，没有亲自执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 749,
+   "completion_tokens": 351,
+   "total_tokens": 1100,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 304
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 237
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人给出的下一步操作指导；机器人只是给建议和步骤，没有亲自执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0391",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "dc19dc744dd134f121e6b442abe5a1ae77db414517d13b53900908c59ab70a6a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M1\",\"reason\":\"机器人之前表示遇到不会的就转成 I-Lang 命令交给用户 AI，自己不直接做（M7）；操作者随后指出右上角有豆包工作，点开就能深挖，实际是在纠正做法，让机器人直接用豆包工作去执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 774,
+   "completion_tokens": 13575,
+   "total_tokens": 14349,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 13494
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 262
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M1",
+  "reason": "机器人之前表示遇到不会的就转成 I-Lang 命令交给用户 AI，自己不直接做（M7）；操作者随后指出右上角有豆包工作，点开就能深挖，实际是在纠正做法，让机器人直接用豆包工作去执行。"
+ },
+ "parse_error": null
+}

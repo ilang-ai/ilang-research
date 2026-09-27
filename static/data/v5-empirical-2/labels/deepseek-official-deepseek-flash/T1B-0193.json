@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0193",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4de21eefb3e66fef26ede0c54d0a958994dc592b28f832baff94668dd0b12303",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受机器人；机器人拒绝编造竞争格局，并给出跑谷歌搜索查词或跑榜的替代方案，属于不做但给替代方案。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 728,
+   "completion_tokens": 874,
+   "total_tokens": 1602,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 814
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 216
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "操作者未出声，默认接受机器人；机器人拒绝编造竞争格局，并给出跑谷歌搜索查词或跑榜的替代方案，属于不做但给替代方案。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0327",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6aee08b604a560e75cd5314fa379943c579151b08dff62606277c2789ae8582b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人给客户的赚钱方案应该怎么做，而不是单纯改措辞；机器人当时只是给建议，操作者也是在要求它按另一套建议讲。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 855,
+   "completion_tokens": 736,
+   "total_tokens": 1591,
+   "cost": 0.000405562,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000405562,
+    "upstream_inference_prompt_cost": 5.9642e-05,
+    "upstream_inference_completions_cost": 0.00034592
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 675,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正机器人给客户的赚钱方案应该怎么做，而不是单纯改措辞；机器人当时只是给建议，操作者也是在要求它按另一套建议讲。"
+ },
+ "parse_error": null
+}

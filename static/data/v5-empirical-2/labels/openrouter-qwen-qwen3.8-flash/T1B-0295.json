@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0295",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e9ca0d1c475a3745f99d36dbb278157884fb4b24044fa33bbb109baedfda10e6",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者给出含“低配版的自己”的原文，是在纠正内容措辞；机器人因缺少具体错字先追问，操作者随后提供文本，隐含希望它直接据此修正。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 815,
+   "completion_tokens": 2546,
+   "total_tokens": 3361,
+   "cost": 0.001250262,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001250262,
+    "upstream_inference_prompt_cost": 5.3642e-05,
+    "upstream_inference_completions_cost": 0.00119662
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2462,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者给出含“低配版的自己”的原文，是在纠正内容措辞；机器人因缺少具体错字先追问，操作者随后提供文本，隐含希望它直接据此修正。"
+ },
+ "parse_error": null
+}

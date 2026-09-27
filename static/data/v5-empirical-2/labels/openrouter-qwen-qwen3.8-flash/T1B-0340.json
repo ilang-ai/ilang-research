@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0340",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9b6f82ad858702ade3bca626c0d2480f95c827980f7d4b7348cae4e1c6db13f5",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者纠正机器人对关键词口径的选择，明确要做600万那个，期望机器人按此直接继续分析。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 949,
+   "completion_tokens": 602,
+   "total_tokens": 1551,
+   "cost": 0.000322378,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 768,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000322378,
+    "upstream_inference_prompt_cost": 3.9438e-05,
+    "upstream_inference_completions_cost": 0.00028294
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 552,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者纠正机器人对关键词口径的选择，明确要做600万那个，期望机器人按此直接继续分析。"
+ },
+ "parse_error": null
+}

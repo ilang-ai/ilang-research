@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0294",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3e827063ee991336938e5ede00f0b9fd0bc4cf25205a54455f024a5bd46b805e",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者质疑机器人没有自动检测错别字，关注的是执行/纠错方式，但机器人动作无效且未表达具体决策模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 732,
+   "completion_tokens": 2875,
+   "total_tokens": 3607,
+   "cost": 0.001392442,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001392442,
+    "upstream_inference_prompt_cost": 4.1192e-05,
+    "upstream_inference_completions_cost": 0.00135125
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2801,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者质疑机器人没有自动检测错别字，关注的是执行/纠错方式，但机器人动作无效且未表达具体决策模式。"
+ },
+ "parse_error": null
+}

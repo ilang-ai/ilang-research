@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0288",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2d42c658091ad397d933469992847fc1880641c4f439fe2cac6a762dace1ce13",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者这条消息没有针对机器人上一轮能否扒玩家、给的替代路径做纠正，而是发图聊学员做SEO和CODEX，属于新话题/闲聊；机器人当时没执行原请求，改用替代方案并要数据，所以bot_mode为M7。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 914,
+   "completion_tokens": 2737,
+   "total_tokens": 3651,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2652
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 402
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "none_fits",
+  "reason": "操作者这条消息没有针对机器人上一轮能否扒玩家、给的替代路径做纠正，而是发图聊学员做SEO和CODEX，属于新话题/闲聊；机器人当时没执行原请求，改用替代方案并要数据，所以bot_mode为M7。"
+ },
+ "parse_error": null
+}

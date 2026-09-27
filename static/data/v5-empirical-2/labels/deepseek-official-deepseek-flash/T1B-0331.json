@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0331",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e5032884d728e51fbbb2b7780e8cb75a183a9961882e6040b2e7abde04d93d3a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M5\",\"reason\":\"操作者没给出具体需求，机器人却直接猜着教了洗视频做法；操作者意在让它先问清楚再答，而不是自行假设方向。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 748,
+   "completion_tokens": 4111,
+   "total_tokens": 4859,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4052
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 236
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M5",
+  "reason": "操作者没给出具体需求，机器人却直接猜着教了洗视频做法；操作者意在让它先问清楚再答，而不是自行假设方向。"
+ },
+ "parse_error": null
+}

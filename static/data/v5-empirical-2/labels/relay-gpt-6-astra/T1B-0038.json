@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0038",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7addcdea6c0797bba4032d3c644c9604036bd041b97441a87045c84b3fa5a16d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"机器人直接把选品逻辑做成了强制拦截规则，操作者纠正说它只能提供建议，不能阻止用户投放自己指定的产品。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1227,
+   "completion_tokens": 117,
+   "total_tokens": 1344,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1224,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 49
+   },
+   "input_tokens": 1227,
+   "output_tokens": 117,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "机器人直接把选品逻辑做成了强制拦截规则，操作者纠正说它只能提供建议，不能阻止用户投放自己指定的产品。"
+ },
+ "parse_error": null
+}

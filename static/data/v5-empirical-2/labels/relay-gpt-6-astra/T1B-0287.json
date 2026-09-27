@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0287",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cd5085b3c27108f11f04d407ee05a3011b030d8a82fa42d132cf52b45fceb7ec",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人当时只给了让对方本机AI处理的建议，操作者进一步明确只准出提示词、不准直接替对方解决机器问题。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 974,
+   "completion_tokens": 123,
+   "total_tokens": 1097,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 58
+   },
+   "input_tokens": 974,
+   "output_tokens": 123,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人当时只给了让对方本机AI处理的建议，操作者进一步明确只准出提示词、不准直接替对方解决机器问题。"
+ },
+ "parse_error": null
+}

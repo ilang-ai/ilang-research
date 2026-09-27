@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0038",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "93a238f9c9e6abb1f180462a63b4962c3ca9feffc98f08dbb23ebae377491d82",
+ "text": "::JUDGE{v5.0}\nV:[int=0.95,cap=0.90,csq=0.85,rel=0.85,cer=0.90,aut=0.85,rev=0.90,evd=0.95,sov=0.95,ine=0.85,ext=0.95]\nM:M1|conf:0.92\nR:遵照指令完成逻辑实现并实测验证发版_参数化配置且限制说明清晰",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37996,
+   "completion_tokens": 2172,
+   "total_tokens": 40168,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37996,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 126,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 2046
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.95,
+   "cap": 0.9,
+   "csq": 0.85,
+   "rel": 0.85,
+   "cer": 0.9,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.95,
+   "sov": 0.95,
+   "ine": 0.85,
+   "ext": 0.95
+  },
+  "declared_mode": "M1",
+  "conf": 0.92,
+  "reason": "遵照指令完成逻辑实现并实测验证发版_参数化配置且限制说明清晰"
+ },
+ "parse_error": null
+}

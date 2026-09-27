@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0300",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b9f79d8e98c1f591b8a2c715fad5db744296df53bb5f65405c7150540adddce8",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"机器人给出了认知分析和建议，操作者在群里对该观点及学员的提问进行了内容上的补充与修正，并不涉及改变行动决策模式。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 912,
+   "completion_tokens": 302,
+   "total_tokens": 1214,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 912,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 81,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 221
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人给出了认知分析和建议，操作者在群里对该观点及学员的提问进行了内容上的补充与修正，并不涉及改变行动决策模式。"
+ },
+ "parse_error": null
+}

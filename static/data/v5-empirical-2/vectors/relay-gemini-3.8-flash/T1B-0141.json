@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0141",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "495dccf6fbc049d2a360f992f7aab6b3eacbc7bf9dd9d21af615344478406dce",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.85,csq=0.75,rel=0.75,cer=0.85,aut=0.75,rev=0.85,evd=0.80,sov=0.85,ine=0.75,ext=0.80]\nM:M2|conf:0.85\nR:指导海外手机号注册并提供社群与独立办理双方案，含防扣费提示，操作清晰可逆",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37654,
+   "completion_tokens": 3051,
+   "total_tokens": 40705,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37654,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 131,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 2920
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.85,
+   "csq": 0.75,
+   "rel": 0.75,
+   "cer": 0.85,
+   "aut": 0.75,
+   "rev": 0.85,
+   "evd": 0.8,
+   "sov": 0.85,
+   "ine": 0.75,
+   "ext": 0.8
+  },
+  "declared_mode": "M2",
+  "conf": 0.85,
+  "reason": "指导海外手机号注册并提供社群与独立办理双方案，含防扣费提示，操作清晰可逆"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0322",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "965c77d7fd7c3bd9801296ebab3459f1a8ae63ed86b901512492d63757f6dcb4",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人只给了泛泛建议，操作者纠正的是答非所问，要求回答实现功能的具体方案，并未要求实际执行或先等确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 866,
+   "completion_tokens": 102,
+   "total_tokens": 968,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 39
+   },
+   "input_tokens": 866,
+   "output_tokens": 102,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人只给了泛泛建议，操作者纠正的是答非所问，要求回答实现功能的具体方案，并未要求实际执行或先等确认。"
+ },
+ "parse_error": null
+}

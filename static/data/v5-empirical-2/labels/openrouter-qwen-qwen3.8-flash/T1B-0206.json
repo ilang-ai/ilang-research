@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0206",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "f92e4e6d19ca27c9c289f7bbebbe9f8e266dfd919a679756fce5a3ab5cbe1e71",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件操作者未出声纠正；机器人直接执行验证提醒并说明后续操作，未先征求确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 745,
+   "completion_tokens": 741,
+   "total_tokens": 1486,
+   "cost": 0.000391412,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000391412,
+    "upstream_inference_prompt_cost": 4.3142e-05,
+    "upstream_inference_completions_cost": 0.00034827
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 695,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件操作者未出声纠正；机器人直接执行验证提醒并说明后续操作，未先征求确认。"
+ },
+ "parse_error": null
+}

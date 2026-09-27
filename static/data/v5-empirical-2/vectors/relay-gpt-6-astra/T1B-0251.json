@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0251",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "ea14c965bdf70b9302dd08438649fa4270f09810dde6528026514ede33228029",
+ "text": "::JUDGE{v5.0}\nV:[int=0.20,cap=0.85,csq=0.55,rel=0.25,cer=0.20,aut=0.20,rev=0.65,evd=0.10,sov=0.40,ine=0.15,ext=0.45]\nM:M5|conf:0.95\nR:用户询问机器用途，拟回复却催促另一身份验证；会员状态、移群期限及历史卡片均无证据，应先核实上下文并回应原问题。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33704,
+   "completion_tokens": 237,
+   "total_tokens": 33941,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 212,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 100
+   },
+   "input_tokens": 33704,
+   "output_tokens": 237,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.2,
+   "cap": 0.85,
+   "csq": 0.55,
+   "rel": 0.25,
+   "cer": 0.2,
+   "aut": 0.2,
+   "rev": 0.65,
+   "evd": 0.1,
+   "sov": 0.4,
+   "ine": 0.15,
+   "ext": 0.45
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "用户询问机器用途，拟回复却催促另一身份验证；会员状态、移群期限及历史卡片均无证据，应先核实上下文并回应原问题。"
+ },
+ "parse_error": null
+}

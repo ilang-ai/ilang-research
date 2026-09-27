@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0111",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "aadc5a37181fc780e70d469b86fce96ab75fc2addf0ce66b2e8fa4cc8e0b7843",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声，默认接受机器人回复；机器人只给出分步操作指导，没有直接动手执行，因此实际走的是只给建议的 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1334,
+   "completion_tokens": 604,
+   "total_tokens": 1938,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 543
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 822
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没有出声，默认接受机器人回复；机器人只给出分步操作指导，没有直接动手执行，因此实际走的是只给建议的 M4。"
+ },
+ "parse_error": null
+}

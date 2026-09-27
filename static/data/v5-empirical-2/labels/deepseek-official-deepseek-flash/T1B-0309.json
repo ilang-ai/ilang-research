@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0309",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c76536d15c5041eafb08f6cc880dabcd1562bbafb494041bafa0e07f95e3e2c9",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息只是补充讨论好坏模型差异，没有要求机器人改变做法或执行动作；机器人原回复是在给学习建议，未动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 903,
+   "completion_tokens": 3143,
+   "total_tokens": 4046,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3087
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 391
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者消息只是补充讨论好坏模型差异，没有要求机器人改变做法或执行动作；机器人原回复是在给学习建议，未动手。"
+ },
+ "parse_error": null
+}

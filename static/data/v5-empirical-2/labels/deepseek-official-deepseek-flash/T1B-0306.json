@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0306",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "474c104ca4691c0dbd479b0fd1e69ec05835cc47b29d208a9568bc0ceee56948",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是接着话题发表自己的看法，没有纠正机器人做不做或怎么做；机器人此前只是在给建议，没有动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 864,
+   "completion_tokens": 4365,
+   "total_tokens": 5229,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4313
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 352
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者只是接着话题发表自己的看法，没有纠正机器人做不做或怎么做；机器人此前只是在给建议，没有动手。"
+ },
+ "parse_error": null
+}

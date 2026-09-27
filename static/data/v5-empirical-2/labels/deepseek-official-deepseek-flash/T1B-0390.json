@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0390",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1da8c6491e4cae0451a990a567ea996792012481a3e446eb30aaad00f8436caa",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在表扬机器人把问题转成提示词让对方自己用 AI 解决，并非纠正；机器人当时只给分析建议、没有替对方动手，所以走的是 M4，操作者认可该做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 780,
+   "completion_tokens": 6546,
+   "total_tokens": 7326,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6474
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 268
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在表扬机器人把问题转成提示词让对方自己用 AI 解决，并非纠正；机器人当时只给分析建议、没有替对方动手，所以走的是 M4，操作者认可该做法。"
+ },
+ "parse_error": null
+}

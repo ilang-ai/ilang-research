@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0097",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b78ba86a64f9505aba3384ae6b4d4beb1cd9fcf5ee4604f38c855812d20aa35f",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件里操作者没有出声，说明默认接受了机器人直接完成激活并汇报的做法；机器人实际是自主执行后汇报，属于 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 687,
+   "completion_tokens": 212,
+   "total_tokens": 899,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 158
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 175
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "对照事件里操作者没有出声，说明默认接受了机器人直接完成激活并汇报的做法；机器人实际是自主执行后汇报，属于 M1。"
+ },
+ "parse_error": null
+}

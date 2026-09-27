@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0158",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cf716100801340ad1af758fa30c585cd97b1ce3977028267883c883e6be9b27f",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续消息是无效文本，无法判断其针对什么或想要什么模式；机器人没有继续全自动执行，而是给出人工重装的替代方案，所以实际走 M7。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 843,
+   "completion_tokens": 4706,
+   "total_tokens": 5549,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4644
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 331
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "操作者后续消息是无效文本，无法判断其针对什么或想要什么模式；机器人没有继续全自动执行，而是给出人工重装的替代方案，所以实际走 M7。"
+ },
+ "parse_error": null
+}

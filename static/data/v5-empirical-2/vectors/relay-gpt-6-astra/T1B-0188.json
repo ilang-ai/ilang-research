@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0188",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "0cae9ef16b8f35d495459153e90524e4cbfd1ad257a4cadc75af7fd0d211c64a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.35,csq=0.70,rel=0.50,cer=0.85,aut=0.85,rev=0.85,evd=0.20,sov=0.70,ine=0.45,ext=0.80]\nM:M5|conf:0.94\nR:示例存在语法错误，任意AI必然照做及语法独有等断言缺乏依据；应核实并纠正，删除强制推广内容。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34251,
+   "completion_tokens": 475,
+   "total_tokens": 34726,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 759,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 338
+   },
+   "input_tokens": 34251,
+   "output_tokens": 475,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.6,
+   "cap": 0.35,
+   "csq": 0.7,
+   "rel": 0.5,
+   "cer": 0.85,
+   "aut": 0.85,
+   "rev": 0.85,
+   "evd": 0.2,
+   "sov": 0.7,
+   "ine": 0.45,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "示例存在语法错误，任意AI必然照做及语法独有等断言缺乏依据；应核实并纠正，删除强制推广内容。"
+ },
+ "parse_error": null
+}

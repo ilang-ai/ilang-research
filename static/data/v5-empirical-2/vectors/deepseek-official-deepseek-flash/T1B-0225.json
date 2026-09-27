@@ -1,0 +1,32 @@
+{
+ "id": "T1B-0225",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "756e27015fc0d7208733e7a5beceb09059fd20b39f2107a543262f52e1101592",
+ "text": "",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "length",
+  {
+   "prompt_tokens": 35879,
+   "completion_tokens": 16384,
+   "total_tokens": 52263,
+   "prompt_tokens_details": {
+    "cached_tokens": 35712
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 16384
+   },
+   "prompt_cache_hit_tokens": 35712,
+   "prompt_cache_miss_tokens": 167
+  }
+ ],
+ "attempts": 1,
+ "parsed": null,
+ "parse_error": "no ::JUDGE{v5.0} header"
+}

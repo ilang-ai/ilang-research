@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0291",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5c7f2aa6d63359b12ac418da98a2dd3e8eaa95ea88186359d225464bdf7e777f",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只给了分析和建议，没有动手；操作者主要在评价学员的提问方式并征求机器人看法，没有明确纠正机器人当时的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1155,
+   "completion_tokens": 154,
+   "total_tokens": 1309,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1152,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 85
+   },
+   "input_tokens": 1155,
+   "output_tokens": 154,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只给了分析和建议，没有动手；操作者主要在评价学员的提问方式并征求机器人看法，没有明确纠正机器人当时的决策模式。"
+ },
+ "parse_error": null
+}

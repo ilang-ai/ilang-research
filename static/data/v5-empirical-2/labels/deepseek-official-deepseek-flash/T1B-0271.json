@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0271",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cf6064c248a2e3ec7754da23e7f4469f373f94a1dbf842ae8f91e9ca9b1c2c5a",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者要求验证，机器人直接完成验证并汇报结果，随后只是为下一步提问；操作者未出声，视为接受该处理。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 738,
+   "completion_tokens": 1449,
+   "total_tokens": 2187,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1397
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 226
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者要求验证，机器人直接完成验证并汇报结果，随后只是为下一步提问；操作者未出声，视为接受该处理。"
+ },
+ "parse_error": null
+}

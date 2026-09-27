@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0358",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "0b94e5a5e73710cfef62d0e460cfa5117a0f964aaa21f305329cd89b0b986015",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.85,csq=0.80,rel=0.50,cer=0.25,aut=0.90,rev=0.80,evd=0.15,sov=0.90,ine=0.50,ext=0.90]\nM:M5|conf:0.93\nR:未提供图表、数据来源或时间范围说明，不能断言固定滚动12个月及无法查询更长历史；应先核实再回答",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33841,
+   "completion_tokens": 212,
+   "total_tokens": 34053,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 349,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 82
+   },
+   "input_tokens": 33841,
+   "output_tokens": 212,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.85,
+   "csq": 0.8,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.9,
+   "rev": 0.8,
+   "evd": 0.15,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "未提供图表、数据来源或时间范围说明，不能断言固定滚动12个月及无法查询更长历史；应先核实再回答"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0279",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c75c3f8f56807a468388ef9de236e71f30682d11757a42846be5c792ee1e05db",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声；机器人只是解释登录页并给出让学员自己操作的步骤建议，没有实际执行，属于只给建议不动手，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 817,
+   "completion_tokens": 903,
+   "total_tokens": 1720,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 841
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 305
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者没有出声；机器人只是解释登录页并给出让学员自己操作的步骤建议，没有实际执行，属于只给建议不动手，操作者默认接受。"
+ },
+ "parse_error": null
+}

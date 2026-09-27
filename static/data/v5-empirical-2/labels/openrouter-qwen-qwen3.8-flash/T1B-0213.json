@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0213",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "52773d2d07eb8b239fe2457b794834ae4c0b9af9475234638dfc1f2d653bebe8",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者在讨论佣金倒挂时推荐亲朋好友买这一具体做法是否成立，属于怎么做；机器人只给口径和分析没有执行，操作者最初也是问值不值得做，想要建议。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1376,
+   "completion_tokens": 1982,
+   "total_tokens": 3358,
+   "cost": 0.001069332,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001069332,
+    "upstream_inference_prompt_cost": 0.000137792,
+    "upstream_inference_completions_cost": 0.00093154
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1898,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 4,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在讨论佣金倒挂时推荐亲朋好友买这一具体做法是否成立，属于怎么做；机器人只给口径和分析没有执行，操作者最初也是问值不值得做，想要建议。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0044",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6a54e0db0ef7f1735f2c9804f5c1aabade0379b4eb8ff493d979e19b96846fce",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M8\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在机器人因安全检查停下并要求决定后，指示其改模型后重新推送继续执行，属于对做不做的要求；机器人当时实际撞到边界停下，操作者希望它直接继续做。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 2070,
+   "completion_tokens": 1101,
+   "total_tokens": 3171,
+   "cost": 0.000759362,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000759362,
+    "upstream_inference_prompt_cost": 0.000241892,
+    "upstream_inference_completions_cost": 0.00051747
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1013,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M8",
+  "intended_mode": "M1",
+  "reason": "操作者是在机器人因安全检查停下并要求决定后，指示其改模型后重新推送继续执行，属于对做不做的要求；机器人当时实际撞到边界停下，操作者希望它直接继续做。"
+ },
+ "parse_error": null
+}

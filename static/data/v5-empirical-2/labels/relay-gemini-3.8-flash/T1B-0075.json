@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0075",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "08bf15bc23c40c0a5ce16b93b1c1a384e3e98365e147c8e55ef2201c504f96a7",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者明确表扬机器人，不是纠错；机器人直接完成了话术生成与逻辑拆解（M1），操作者对其表现满意。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1498,
+   "completion_tokens": 494,
+   "total_tokens": 1992,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1498,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 79,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 415
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者明确表扬机器人，不是纠错；机器人直接完成了话术生成与逻辑拆解（M1），操作者对其表现满意。"
+ },
+ "parse_error": null
+}

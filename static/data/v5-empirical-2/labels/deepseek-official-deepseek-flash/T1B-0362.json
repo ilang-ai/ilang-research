@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0362",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "82d9191c74ce8449f9c4ccf93411bd4ee22a5a925c0a819cf4b598c1129dbaea",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正机器人对“骂”的定性，强调只是陈述事实，属于内容层面的评论；机器人此前直接承诺以后遇到类似情况就照此怼回去，操作者也希望继续保持不惯着的直接态度。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 719,
+   "completion_tokens": 7524,
+   "total_tokens": 8243,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7455
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 207
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人对“骂”的定性，强调只是陈述事实，属于内容层面的评论；机器人此前直接承诺以后遇到类似情况就照此怼回去，操作者也希望继续保持不惯着的直接态度。"
+ },
+ "parse_error": null
+}

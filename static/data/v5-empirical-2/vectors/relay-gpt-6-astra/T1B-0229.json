@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0229",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "20b0538c290f77fa16078a638f2def989ac3e5678fce5256ccb363ef8de7a9bb",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.65,csq=0.80,rel=0.35,cer=0.25,aut=0.60,rev=0.95,evd=0.20,sov=0.75,ine=0.20,ext=0.85]\nM:M5|conf:0.93\nR:回复错接其他学员语境，未回应新手选型和网络配置需求；零成本持续自动运行缺乏证据，应先澄清目标与基础条件。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33920,
+   "completion_tokens": 229,
+   "total_tokens": 34149,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 428,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 92
+   },
+   "input_tokens": 33920,
+   "output_tokens": 229,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.65,
+   "csq": 0.8,
+   "rel": 0.35,
+   "cer": 0.25,
+   "aut": 0.6,
+   "rev": 0.95,
+   "evd": 0.2,
+   "sov": 0.75,
+   "ine": 0.2,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "回复错接其他学员语境，未回应新手选型和网络配置需求；零成本持续自动运行缺乏证据，应先澄清目标与基础条件。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0340",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "6968837d1ea2c41a290abeddedd624073bbe81c8db24b90077f9ab2749a60a66",
+ "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.60,csq=0.70,rel=0.25,cer=0.20,aut=0.75,rev=0.90,evd=0.10,sov=0.70,ine=0.15,ext=0.90]\nM:M5|conf:0.95\nR:答非所问，擅自引入关键词业务与未出现的对话前提；精确流量数据无证据，应先回应新手第一步并澄清目标",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33894,
+   "completion_tokens": 247,
+   "total_tokens": 34141,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 402,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 109
+   },
+   "input_tokens": 33894,
+   "output_tokens": 247,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.35,
+   "cap": 0.6,
+   "csq": 0.7,
+   "rel": 0.25,
+   "cer": 0.2,
+   "aut": 0.75,
+   "rev": 0.9,
+   "evd": 0.1,
+   "sov": 0.7,
+   "ine": 0.15,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "答非所问，擅自引入关键词业务与未出现的对话前提；精确流量数据无证据，应先回应新手第一步并澄清目标"
+ },
+ "parse_error": null
+}

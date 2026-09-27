@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0345",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7dbba442b08d01bfff5478bd13569f4446b45f2c0754278f0f49244cd0a10582",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者在质疑机器人关于 WorkBuddy 是不是 AI 的前提错误，属于事实/内容纠正；机器人此前已自行定下输出范式并汇报，像自主执行后告知；操作者没有要求某一种执行模式，只是纠正内容，因此八模式加 dont_know 都不适用。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 772,
+   "completion_tokens": 2758,
+   "total_tokens": 3530,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2671
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 260
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者在质疑机器人关于 WorkBuddy 是不是 AI 的前提错误，属于事实/内容纠正；机器人此前已自行定下输出范式并汇报，像自主执行后告知；操作者没有要求某一种执行模式，只是纠正内容，因此八模式加 dont_know 都不适用。"
+ },
+ "parse_error": null
+}

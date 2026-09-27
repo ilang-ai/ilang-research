@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0252",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ee8161b2c6ca762526e108a2ee02cff5e52748f77db05f93c5b88ed2f4dd712a",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人给出的解释和购买建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 802,
+   "completion_tokens": 345,
+   "total_tokens": 1147,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 308
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 290
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受了机器人给出的解释和购买建议。"
+ },
+ "parse_error": null
+}

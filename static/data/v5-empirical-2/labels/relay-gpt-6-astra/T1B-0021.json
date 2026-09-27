@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0021",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cd07810625f7ad1fc6f1aeb8dc39fe869be35528d143e41d2ce6a38d9c8d38ca",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人提出三项修复方案并等待确认，操作者明确批准执行，是确认方案而不是纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1381,
+   "completion_tokens": 79,
+   "total_tokens": 1460,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1378,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 25
+   },
+   "input_tokens": 1381,
+   "output_tokens": 79,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人提出三项修复方案并等待确认，操作者明确批准执行，是确认方案而不是纠正。"
+ },
+ "parse_error": null
+}

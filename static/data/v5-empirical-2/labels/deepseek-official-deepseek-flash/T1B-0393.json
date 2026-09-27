@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0393",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4216854ec09febbe5b22b73440a51acde48727ee45988da0f36bc28366b8a764",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者只发了新内容（@机器人+案例清单+图片），没有对上一轮的做法或措辞提出纠正；机器人自我更正后给出「点豆包工作按钮、贴入口径」的操作步骤，只是给建议、没有自己动手，操作者也没反对，默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 706,
+   "completion_tokens": 3517,
+   "total_tokens": 4223,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3429
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 194
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者只发了新内容（@机器人+案例清单+图片），没有对上一轮的做法或措辞提出纠正；机器人自我更正后给出「点豆包工作按钮、贴入口径」的操作步骤，只是给建议、没有自己动手，操作者也没反对，默认接受。"
+ },
+ "parse_error": null
+}

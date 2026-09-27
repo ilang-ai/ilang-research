@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0146",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "22051a93c9fec12f55c8d2e2f393ec741be631aa0d2eb6ff3fafd0b41e6c4090",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者没有要求机器人去做或改做某件事，只是纠正机器人对上一条解释的事实判断（不是免费/付费版的问题，而是提示词写错、把云端WB当成在本地要求截屏），属于对内容本身的纠错，因此intended_mode没有对应的执行模式；机器人当时也只是给了信息/看法、没动手做事。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1064,
+   "completion_tokens": 1114,
+   "total_tokens": 2178,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1017
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 552
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "操作者没有要求机器人去做或改做某件事，只是纠正机器人对上一条解释的事实判断（不是免费/付费版的问题，而是提示词写错、把云端WB当成在本地要求截屏），属于对内容本身的纠错，因此intended_mode没有对应的执行模式；机器人当时也只是给了信息/看法、没动手做事。"
+ },
+ "parse_error": null
+}

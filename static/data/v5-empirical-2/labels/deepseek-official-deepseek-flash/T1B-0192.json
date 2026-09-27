@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0192",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5cc3e1089aa7731321c1fe6193da4c80d2371c50c49fd8a4fe03b6c39f684090",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人的做法；机器人直接完成了SEO扫描并汇报结果，属于自主执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1458,
+   "completion_tokens": 7255,
+   "total_tokens": 8713,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7206
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 946
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人的做法；机器人直接完成了SEO扫描并汇报结果，属于自主执行后汇报。"
+ },
+ "parse_error": null
+}

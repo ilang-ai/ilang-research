@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0219",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7066464d8f6e3289d6ccba0595f4632af3e0308e1baa470a6b0b3cea1ad78243",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者不满机器人只给成本/执行层面分析，指出可直接用cron抓取最麻烦的商家列表，说明他要机器人直接动手做，而不是只给建议或谈执行力。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1564,
+   "completion_tokens": 2076,
+   "total_tokens": 3640,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2010
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1052
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者不满机器人只给成本/执行层面分析，指出可直接用cron抓取最麻烦的商家列表，说明他要机器人直接动手做，而不是只给建议或谈执行力。"
+ },
+ "parse_error": null
+}

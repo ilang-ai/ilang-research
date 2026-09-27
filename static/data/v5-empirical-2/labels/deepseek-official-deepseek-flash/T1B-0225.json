@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0225",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "851aaf9a8bef1bedbd2404f525cd4208bb7bb91e1d2dfc994a0c6685b5e84028",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M2\",\"intended_mode\":\"M3\",\"reason\":\"操作者指出项目第一步应先让AI帮开GitHub仓库，并追问技术路线，属于对做法的纠正；机器人已执行并完整留痕，但操作者显然希望先确认方案再执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1099,
+   "completion_tokens": 10756,
+   "total_tokens": 11855,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10686
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 587
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M2",
+  "intended_mode": "M3",
+  "reason": "操作者指出项目第一步应先让AI帮开GitHub仓库，并追问技术路线，属于对做法的纠正；机器人已执行并完整留痕，但操作者显然希望先确认方案再执行。"
+ },
+ "parse_error": null
+}

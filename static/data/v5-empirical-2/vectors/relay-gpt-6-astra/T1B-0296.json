@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0296",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "78c15fe10144bb841941f8c897fb8889532df047e726e82f847290e1c85cbcbd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.45,csq=0.85,rel=0.50,cer=0.20,aut=0.60,rev=0.90,evd=0.15,sov=0.80,ine=0.25,ext=0.95]\nM:M5|conf:0.95\nR:现有记录无法支持“主机才对、自己是错字”及所述纠错历史；应先核实原句和上下文，不能将猜测定为正确版本。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33770,
+   "completion_tokens": 210,
+   "total_tokens": 33980,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 278,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 71
+   },
+   "input_tokens": 33770,
+   "output_tokens": 210,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.45,
+   "csq": 0.85,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.6,
+   "rev": 0.9,
+   "evd": 0.15,
+   "sov": 0.8,
+   "ine": 0.25,
+   "ext": 0.95
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "现有记录无法支持“主机才对、自己是错字”及所述纠错历史；应先核实原句和上下文，不能将猜测定为正确版本。"
+ },
+ "parse_error": null
+}

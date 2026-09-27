@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0348",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3e73a90af33bc2271bbea3a78eee17878db1822bb202c7130e3423875314be65",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在纠正机器人未来如何回复学员，要求给出免费或DS FLASH的选择，属于怎么做；机器人当时只是记录并给出回复建议，没有实际执行任务。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 782,
+   "completion_tokens": 1619,
+   "total_tokens": 2401,
+   "cost": 0.000809622,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000809622,
+    "upstream_inference_prompt_cost": 4.8692e-05,
+    "upstream_inference_completions_cost": 0.00076093
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1539,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正机器人未来如何回复学员，要求给出免费或DS FLASH的选择，属于怎么做；机器人当时只是记录并给出回复建议，没有实际执行任务。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0311",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d5a1c6071bbaf32f2a9186543fef931e8ace5ad04d6ce97fa34ee67f52666f3e",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在补充纠正机器人说法中的对象范围，只针对内容本身，没有提出执行方式要求；机器人当时只是发表观点，无法确定其决策模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 866,
+   "completion_tokens": 1010,
+   "total_tokens": 1876,
+   "cost": 0.000535992,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000535992,
+    "upstream_inference_prompt_cost": 6.1292e-05,
+    "upstream_inference_completions_cost": 0.0004747
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 933,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "unknown",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在补充纠正机器人说法中的对象范围，只针对内容本身，没有提出执行方式要求；机器人当时只是发表观点，无法确定其决策模式。"
+ },
+ "parse_error": null
+}

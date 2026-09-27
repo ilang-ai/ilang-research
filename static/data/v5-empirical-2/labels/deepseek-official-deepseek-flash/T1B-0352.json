@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0352",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6977b6a9bf0387062c0cd906d909f36fa8b5edcb3cf906bd61ffd7d4a5847845",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正机器人面对用户具体提问时不应直接套模板/吐提示词，而应直接回答；机器人此前只是解释并请求指出具体实例，属于先问清楚再说。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 747,
+   "completion_tokens": 11513,
+   "total_tokens": 12260,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 11448
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 235
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人面对用户具体提问时不应直接套模板/吐提示词，而应直接回答；机器人此前只是解释并请求指出具体实例，属于先问清楚再说。"
+ },
+ "parse_error": null
+}

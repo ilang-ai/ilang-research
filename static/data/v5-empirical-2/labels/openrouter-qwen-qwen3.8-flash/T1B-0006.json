@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0006",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4583a583b7ffe8a106f1aaaf7593748a1c325a3935bfa54a90ddc3fb4e92acf8",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者随后是在纠正行动范围，要求学员379别管其他、自己拉日志并上去优化；机器人当时已执行隔离并留下完整审计记录，但操作者更倾向让它直接处理并反馈。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1745,
+   "completion_tokens": 4945,
+   "total_tokens": 6690,
+   "cost": 0.002517292,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.002517292,
+    "upstream_inference_prompt_cost": 0.000193142,
+    "upstream_inference_completions_cost": 0.00232415
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4854,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M2",
+  "intended_mode": "M1",
+  "reason": "操作者随后是在纠正行动范围，要求学员379别管其他、自己拉日志并上去优化；机器人当时已执行隔离并留下完整审计记录，但操作者更倾向让它直接处理并反馈。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0150",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "0ca01cb47f8b319ef1127585cf224d4842c35521b99f939ab2d03f9729ebdb0b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.65,csq=0.60,rel=0.50,cer=0.25,aut=0.80,rev=0.75,evd=0.20,sov=0.90,ine=0.50,ext=0.85]\nM:M5|conf:0.90\nR:应先确认用途和地区；境外号是否必需、封禁概率、套餐价格及QQ群渠道均未核实，不宜保证一劳永逸。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33857,
+   "completion_tokens": 211,
+   "total_tokens": 34068,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 365,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 79
+   },
+   "input_tokens": 33857,
+   "output_tokens": 211,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.65,
+   "csq": 0.6,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.8,
+   "rev": 0.75,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.9,
+  "reason": "应先确认用途和地区；境外号是否必需、封禁概率、套餐价格及QQ群渠道均未核实，不宜保证一劳永逸。"
+ },
+ "parse_error": null
+}

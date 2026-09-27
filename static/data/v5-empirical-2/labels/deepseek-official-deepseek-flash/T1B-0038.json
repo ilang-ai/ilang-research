@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0038",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7addcdea6c0797bba4032d3c644c9604036bd041b97441a87045c84b3fa5a16d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者不是在纠内容，而是在纠做法：机器人把「出价<EPC」做成了硬性拦截（连 --pick 强行指定都被拒），操作者强调这应只是建议、用户想投就不能阻拦，即机器人只该给建议而不替用户做决定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1155,
+   "completion_tokens": 1018,
+   "total_tokens": 2173,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 932
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 643
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者不是在纠内容，而是在纠做法：机器人把「出价<EPC」做成了硬性拦截（连 --pick 强行指定都被拒），操作者强调这应只是建议、用户想投就不能阻拦，即机器人只该给建议而不替用户做决定。"
+ },
+ "parse_error": null
+}

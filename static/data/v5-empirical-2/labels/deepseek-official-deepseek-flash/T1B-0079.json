@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0079",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6b738fe24b40aade50e0e9dd02c40e9183e1b62b4801a05aab9cd0cc53f32b5e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者之后没有出声，默认接受了机器人当时的回应；机器人只是解释地址怎么填、隐私如何隐藏，给建议而没有实际执行域名注册或提交资料，因此是 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 787,
+   "completion_tokens": 554,
+   "total_tokens": 1341,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 488
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 275
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "这是对照事件，操作者之后没有出声，默认接受了机器人当时的回应；机器人只是解释地址怎么填、隐私如何隐藏，给建议而没有实际执行域名注册或提交资料，因此是 M4。"
+ },
+ "parse_error": null
+}

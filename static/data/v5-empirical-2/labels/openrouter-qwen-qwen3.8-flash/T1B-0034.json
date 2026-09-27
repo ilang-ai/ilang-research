@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0034",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "36ebf2af129e85f962819b157e7e163170c3bf670f492a21968261add3815841",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M5\",\"reason\":\"操作者纠正机器人默认把密钥放香港机的做法，属于怎么做；机器人当时提出需要用户提供 key 并放香港机的方案但未执行，操作者希望它先问清楚/说明选择而不是擅自定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 739,
+   "completion_tokens": 2851,
+   "total_tokens": 3590,
+   "cost": 0.001382212,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001382212,
+    "upstream_inference_prompt_cost": 4.2242e-05,
+    "upstream_inference_completions_cost": 0.00133997
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2780,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M5",
+  "reason": "操作者纠正机器人默认把密钥放香港机的做法，属于怎么做；机器人当时提出需要用户提供 key 并放香港机的方案但未执行，操作者希望它先问清楚/说明选择而不是擅自定。"
+ },
+ "parse_error": null
+}

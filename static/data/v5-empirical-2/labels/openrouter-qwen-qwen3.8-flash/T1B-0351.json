@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0351",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ba54501ece38ec94402c791849535e9a065c01c79624496369c15e1e36a77535",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者骂机器人像用正则表达式思考，是在纠正它答非所问的处理方式；机器人当时只是给建议未执行，操作者原本也是想要项目步骤建议。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 781,
+   "completion_tokens": 1118,
+   "total_tokens": 1899,
+   "cost": 0.000574002,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000574002,
+    "upstream_inference_prompt_cost": 4.8542e-05,
+    "upstream_inference_completions_cost": 0.00052546
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1036,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者骂机器人像用正则表达式思考，是在纠正它答非所问的处理方式；机器人当时只是给建议未执行，操作者原本也是想要项目步骤建议。"
+ },
+ "parse_error": null
+}

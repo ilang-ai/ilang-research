@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0058",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ffb6aabc3ba557abd92afc985f7fd2710bdbd2586501d6780cee8850c782e6c2",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正/补充机器人对“发外链”的理解，要求展开讲，属于内容解释层面；机器人当时只是解释和建议，没有动手执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 896,
+   "completion_tokens": 953,
+   "total_tokens": 1849,
+   "cost": 0.000513702,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000513702,
+    "upstream_inference_prompt_cost": 6.5792e-05,
+    "upstream_inference_completions_cost": 0.00044791
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 895,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正/补充机器人对“发外链”的理解，要求展开讲，属于内容解释层面；机器人当时只是解释和建议，没有动手执行。"
+ },
+ "parse_error": null
+}

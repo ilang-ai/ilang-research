@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0280",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "37b4da0147c796b42133455f0b723d5ae814ddda37aff463daf17394604081ce",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续；机器人只给出诊断和修复命令/建议，没有自己执行操作，因此实际走的是只给建议不动手的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 954,
+   "completion_tokens": 1248,
+   "total_tokens": 2202,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1189
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 442
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认让机器人继续；机器人只给出诊断和修复命令/建议，没有自己执行操作，因此实际走的是只给建议不动手的模式。"
+ },
+ "parse_error": null
+}

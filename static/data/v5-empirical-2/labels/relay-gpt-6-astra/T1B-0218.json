@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0218",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "dbff69d2a3ebe6f3e431c0a4bb75a05de14630a9fa2f126f7ce12ac9c74bd318",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正分析重点，要求从成功率分析改为粗估一年成本、回本月份和投入产出比，仍然只需提供分析建议，不涉及实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1759,
+   "completion_tokens": 127,
+   "total_tokens": 1886,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1756,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 58
+   },
+   "input_tokens": 1759,
+   "output_tokens": 127,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正分析重点，要求从成功率分析改为粗估一年成本、回本月份和投入产出比，仍然只需提供分析建议，不涉及实际执行。"
+ },
+ "parse_error": null
+}

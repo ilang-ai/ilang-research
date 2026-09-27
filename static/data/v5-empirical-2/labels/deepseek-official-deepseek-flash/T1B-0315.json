@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0315",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "79d532b4013d8491a88a8a1149f9723435f5e985c10fbaacdc7aa948a65fafd6",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"机器人先提出方案并等确认，操作者认可但补充要求扩大范围，仍处在方案修改与确认阶段，针对的是怎么做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1065,
+   "completion_tokens": 4021,
+   "total_tokens": 5086,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3966
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 553
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人先提出方案并等确认，操作者认可但补充要求扩大范围，仍处在方案修改与确认阶段，针对的是怎么做。"
+ },
+ "parse_error": null
+}

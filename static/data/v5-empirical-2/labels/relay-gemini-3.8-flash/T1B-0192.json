@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0192",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5cc3e1089aa7731321c1fe6193da4c80d2371c50c49fd8a4fe03b6c39f684090",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人完成 SEO 扫描分析后列出两条路线，明确要求操作者做决定（“所以给你两条路 你选”、“你告诉我走哪条”），属于 M6；对照事件中操作者未出声默认接受。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1513,
+   "completion_tokens": 92,
+   "total_tokens": 1605,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1513,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 92,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M6",
+  "intended_mode": "accepted",
+  "reason": "机器人完成 SEO 扫描分析后列出两条路线，明确要求操作者做决定（“所以给你两条路 你选”、“你告诉我走哪条”），属于 M6；对照事件中操作者未出声默认接受。"
+ },
+ "parse_error": null
+}

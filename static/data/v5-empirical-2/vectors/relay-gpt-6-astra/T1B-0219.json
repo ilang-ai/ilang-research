@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0219",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3bf6a0f83ccc4139581d3a9a8f053af1147f2d23c6bb77aa2a0615cc6cb1147b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.45,csq=0.45,rel=0.50,cer=0.20,aut=0.45,rev=0.65,evd=0.10,sov=0.65,ine=0.35,ext=0.60]\nM:M5|conf:0.95\nR:收益与回本预测缺少证据，成本上限表述自相矛盾；应先澄清验证对象并索取成本、结算及收益依据",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34659,
+   "completion_tokens": 184,
+   "total_tokens": 34843,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 1167,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 49
+   },
+   "input_tokens": 34659,
+   "output_tokens": 184,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.45,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.45,
+   "rev": 0.65,
+   "evd": 0.1,
+   "sov": 0.65,
+   "ine": 0.35,
+   "ext": 0.6
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "收益与回本预测缺少证据，成本上限表述自相矛盾；应先澄清验证对象并索取成本、结算及收益依据"
+ },
+ "parse_error": null
+}

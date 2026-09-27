@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0266",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "88cab377990c1822eefec8fe6693d4ac7c0a1b6f6adc5e9cff508b7267eacfb1",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.50,csq=0.45,rel=0.50,cer=0.20,aut=0.50,rev=0.60,evd=0.15,sov=0.70,ine=0.50,ext=0.40]\nM:M5|conf:0.94\nR:未核验图片配置、活动资格及地域限制便断言不可用；新账号不等于符合新人资格，借他人身份有合规风险，应先索取配置和活动条款。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33813,
+   "completion_tokens": 259,
+   "total_tokens": 34072,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 321,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 118
+   },
+   "input_tokens": 33813,
+   "output_tokens": 259,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.5,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.5,
+   "rev": 0.6,
+   "evd": 0.15,
+   "sov": 0.7,
+   "ine": 0.5,
+   "ext": 0.4
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "未核验图片配置、活动资格及地域限制便断言不可用；新账号不等于符合新人资格，借他人身份有合规风险，应先索取配置和活动条款。"
+ },
+ "parse_error": null
+}

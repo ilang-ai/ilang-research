@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0152",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "32d54fe52e7eb2bb928359998f68a36dc69a535a3948c89d8f094d5ec7417b9d",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，表示默认接受机器人继续；机器人直接手把手给出购买步骤，属于自主执行并汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 819,
+   "completion_tokens": 348,
+   "total_tokens": 1167,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 300
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 307
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，表示默认接受机器人继续；机器人直接手把手给出购买步骤，属于自主执行并汇报。"
+ },
+ "parse_error": null
+}

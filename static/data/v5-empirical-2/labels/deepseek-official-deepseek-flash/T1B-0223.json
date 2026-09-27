@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0223",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6b47938d99306c183a4a911265cca21034d61a43cecfb56f256350bacaa7a9fa",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者这条消息是提出新任务：让机器人写GitHub相关内容供他检查，不是纠正上一轮；机器人上一轮只是在给建议和分析、没有动手，属M4；操作者要它直接写出来再检查，属M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1217,
+   "completion_tokens": 3239,
+   "total_tokens": 4456,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3159
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 705
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者这条消息是提出新任务：让机器人写GitHub相关内容供他检查，不是纠正上一轮；机器人上一轮只是在给建议和分析、没有动手，属M4；操作者要它直接写出来再检查，属M1。"
+ },
+ "parse_error": null
+}

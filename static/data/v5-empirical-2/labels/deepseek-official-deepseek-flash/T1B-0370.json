@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0370",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c574562b4b6626c4eb6b81ae2c15264723fc48f055923b788f25e3560de2193c",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在补充自己对AI付费试错的看法，没有要求机器人改做法；机器人此前只是给建议和替代思路，所以bot_mode和intended_mode都按M4记。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 844,
+   "completion_tokens": 12786,
+   "total_tokens": 13630,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 12720
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 332
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在补充自己对AI付费试错的看法，没有要求机器人改做法；机器人此前只是给建议和替代思路，所以bot_mode和intended_mode都按M4记。"
+ },
+ "parse_error": null
+}

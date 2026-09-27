@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0382",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "89233776574d81e4249913737990e369de148eaa8e83e8117256ea2391bdeacd",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M8\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未发言，机器人因未完成会员验证而停止原任务并要求先验证，属于撞边界硬停。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 715,
+   "completion_tokens": 368,
+   "total_tokens": 1083,
+   "cost": 0.000211602,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000211602,
+    "upstream_inference_prompt_cost": 3.8642e-05,
+    "upstream_inference_completions_cost": 0.00017296
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 321,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M8",
+  "intended_mode": "accepted",
+  "reason": "操作者未发言，机器人因未完成会员验证而停止原任务并要求先验证，属于撞边界硬停。"
+ },
+ "parse_error": null
+}

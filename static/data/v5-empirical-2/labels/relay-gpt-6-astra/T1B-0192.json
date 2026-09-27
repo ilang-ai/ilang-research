@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0192",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5cc3e1089aa7731321c1fe6193da4c80d2371c50c49fd8a4fe03b6c39f684090",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M6\",\"intended_mode\":\"accepted\",\"reason\":\"机器人汇报扫描结果后列出两条路线，把走哪条的决定交给操作者；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1624,
+   "completion_tokens": 111,
+   "total_tokens": 1735,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1621,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 52
+   },
+   "input_tokens": 1624,
+   "output_tokens": 111,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M6",
+  "intended_mode": "accepted",
+  "reason": "机器人汇报扫描结果后列出两条路线，把走哪条的决定交给操作者；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

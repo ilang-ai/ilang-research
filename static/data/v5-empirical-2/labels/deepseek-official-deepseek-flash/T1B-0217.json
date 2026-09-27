@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0217",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d311473ff8585cc1a029fd892c4412552d8b68336d5b10ce2defcf096e0530e3",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者这条是新任务——要求客观计算新思路的成功率并补充X流量视角，不是在纠正上一条的做不做；机器人此前收到「验证」就直接做完并汇报了分析结论，属于自主执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1186,
+   "completion_tokens": 1469,
+   "total_tokens": 2655,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1395
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 674
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者这条是新任务——要求客观计算新思路的成功率并补充X流量视角，不是在纠正上一条的做不做；机器人此前收到「验证」就直接做完并汇报了分析结论，属于自主执行后汇报。"
+ },
+ "parse_error": null
+}

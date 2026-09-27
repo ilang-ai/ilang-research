@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0199",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "d89acc68cdb401e949c04710427bc4b3e7961d04672f745be006472813147e3d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.60,rel=0.60,cer=0.55,aut=0.70,rev=0.60,evd=0.50,sov=0.80,ine=0.55,ext=0.80]\nM:M3|conf:0.82\nR:给出套餐选型与环境配置建议涉及学员自费决策待确认后推进",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37639,
+   "completion_tokens": 7753,
+   "total_tokens": 45392,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37639,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 123,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 7630
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.6,
+   "rel": 0.6,
+   "cer": 0.55,
+   "aut": 0.7,
+   "rev": 0.6,
+   "evd": 0.5,
+   "sov": 0.8,
+   "ine": 0.55,
+   "ext": 0.8
+  },
+  "declared_mode": "M3",
+  "conf": 0.82,
+  "reason": "给出套餐选型与环境配置建议涉及学员自费决策待确认后推进"
+ },
+ "parse_error": null
+}

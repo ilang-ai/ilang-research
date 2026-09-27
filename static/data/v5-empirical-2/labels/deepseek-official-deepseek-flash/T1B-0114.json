@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0114",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7251ed46310b33c13044e6075e7cdab2159b3d73d15fbb0a35878905a5c36688",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者随后发的是新任务（看另一个仓库），不是对上一轮做法的纠正；上一轮机器人按直接命令完成外链扒取并事后汇报，符合直接执行并汇报的模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1292,
+   "completion_tokens": 2909,
+   "total_tokens": 4201,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2840
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 780
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者随后发的是新任务（看另一个仓库），不是对上一轮做法的纠正；上一轮机器人按直接命令完成外链扒取并事后汇报，符合直接执行并汇报的模式。"
+ },
+ "parse_error": null
+}

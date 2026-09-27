@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0113",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2952e211d3fc3cca3e7cdb28adba29a8a61b1d24da9c64757d0be473e90b3d3f",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M5\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者没有回答 cwd 该跑在哪台机器的问题，而是质疑机器人的分析能力和模型质量，属于对内容的批评；机器人此前是在信息不足下先提问、未执行，所以 bot_mode 是 M5；这条消息本身没有要求某个机器人执行模式，故 intended_mode 为 none_fits。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 914,
+   "completion_tokens": 11046,
+   "total_tokens": 11960,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10954
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 402
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "none_fits",
+  "reason": "操作者没有回答 cwd 该跑在哪台机器的问题，而是质疑机器人的分析能力和模型质量，属于对内容的批评；机器人此前是在信息不足下先提问、未执行，所以 bot_mode 是 M5；这条消息本身没有要求某个机器人执行模式，故 intended_mode 为 none_fits。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0330",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "95205e55efde746ef04a46bbd85c10e00597bba5006d14cdb524d47e58cd7d23",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在补充/纠正“把视频洗成MD文本”的具体做法，针对的是怎么做；机器人此前只是给步骤建议没动手，操作者也像是要它教方法，所以两边都落在只给建议、不动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 847,
+   "completion_tokens": 3183,
+   "total_tokens": 4030,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3109
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 335
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在补充/纠正“把视频洗成MD文本”的具体做法，针对的是怎么做；机器人此前只是给步骤建议没动手，操作者也像是要它教方法，所以两边都落在只给建议、不动手。"
+ },
+ "parse_error": null
+}

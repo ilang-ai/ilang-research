@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0053",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "76d6e946400b8f3f55f1492dcd54218b7b60c511cb755b037a8a01636efd5163",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人已直接写好交接文档并事后汇报，符合自主执行；操作者原先也要求直接写handoff并继续运营，之后的消息是汇报核验结果并提出新决策请求，不是纠正机器人。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2217,
+   "completion_tokens": 2911,
+   "total_tokens": 5128,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2841
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1705
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人已直接写好交接文档并事后汇报，符合自主执行；操作者原先也要求直接写handoff并继续运营，之后的消息是汇报核验结果并提出新决策请求，不是纠正机器人。"
+ },
+ "parse_error": null
+}

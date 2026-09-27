@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0325",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9ecfdd17f0ad3a90dd3204f6b2bdf6dd025c440379b6f79a376b5807f4ff779e",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在纠正机器人对部署、监控和自动修复机制的复述，强调方案是无人化运行，并未明确要求机器人改用哪种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 962,
+   "completion_tokens": 127,
+   "total_tokens": 1089,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 61
+   },
+   "input_tokens": 962,
+   "output_tokens": 127,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者是在纠正机器人对部署、监控和自动修复机制的复述，强调方案是无人化运行，并未明确要求机器人改用哪种决策模式。"
+ },
+ "parse_error": null
+}

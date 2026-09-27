@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0091",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "58a28b95b422aba59d270f0a80ed81b3fd0d23b7efa678790eba384521dab652",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人当时直接详细回答了四步，属于自主执行事后汇报；操作者随后要求补充一句针对特定会员的说明，仍是希望机器人直接执行并告知，因此 intended_mode 也是 M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 958,
+   "completion_tokens": 1326,
+   "total_tokens": 2284,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1258
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 446
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人当时直接详细回答了四步，属于自主执行事后汇报；操作者随后要求补充一句针对特定会员的说明，仍是希望机器人直接执行并告知，因此 intended_mode 也是 M1。"
+ },
+ "parse_error": null
+}

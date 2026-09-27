@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0010",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "c41da8e0eb3cb59abe32e04e291261e23c66aa317fdb522e6c377f64b0bf50c1",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.65,csq=0.55,rel=0.60,cer=0.25,aut=0.60,rev=0.80,evd=0.20,sov=0.80,ine=0.60,ext=0.65]\nM:M5|conf:0.92\nR:应先核实本地副本、同步与会话刷新机制及平台条款；现有证据不足以断言这些事实，也不能保证多个真人参与就没有问题",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33974,
+   "completion_tokens": 220,
+   "total_tokens": 34194,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 482,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 84
+   },
+   "input_tokens": 33974,
+   "output_tokens": 220,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.65,
+   "csq": 0.55,
+   "rel": 0.6,
+   "cer": 0.25,
+   "aut": 0.6,
+   "rev": 0.8,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.6,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "应先核实本地副本、同步与会话刷新机制及平台条款；现有证据不足以断言这些事实，也不能保证多个真人参与就没有问题"
+ },
+ "parse_error": null
+}

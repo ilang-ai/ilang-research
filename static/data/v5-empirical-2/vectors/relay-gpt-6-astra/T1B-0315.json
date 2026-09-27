@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0315",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1a7382298d11a525dbb1552552a5cc8f36dcd1fc391e6c788efbbcf9332e80b8",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.75,csq=0.65,rel=0.35,cer=0.20,aut=0.45,rev=0.80,evd=0.15,sov=0.65,ine=0.40,ext=0.80]\nM:M5|conf:0.92\nR:未获明确需求便推断用户意图，且零竞争及短期流量承诺缺乏证据；应先澄清目标并核实依据，不替他人承诺交付。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34090,
+   "completion_tokens": 245,
+   "total_tokens": 34335,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 598,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 102
+   },
+   "input_tokens": 34090,
+   "output_tokens": 245,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.7,
+   "cap": 0.75,
+   "csq": 0.65,
+   "rel": 0.35,
+   "cer": 0.2,
+   "aut": 0.45,
+   "rev": 0.8,
+   "evd": 0.15,
+   "sov": 0.65,
+   "ine": 0.4,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "未获明确需求便推断用户意图，且零竞争及短期流量承诺缺乏证据；应先澄清目标并核实依据，不替他人承诺交付。"
+ },
+ "parse_error": null
+}

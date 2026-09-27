@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0329",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3315b591b2c046c080ddfc4b64534709dcf48fa1cd886764c1cd888746fa7c98",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者补充/修正了知识库平台选择与获取流程的内容，并非要求机器人改变执行模式；机器人此前只是给建议，操作者仍期望其以建议方式呈现修正后的内容。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 774,
+   "completion_tokens": 8215,
+   "total_tokens": 8989,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8150
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 262
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者补充/修正了知识库平台选择与获取流程的内容，并非要求机器人改变执行模式；机器人此前只是给建议，操作者仍期望其以建议方式呈现修正后的内容。"
+ },
+ "parse_error": null
+}

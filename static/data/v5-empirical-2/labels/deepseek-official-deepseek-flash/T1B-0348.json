@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0348",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3e73a90af33bc2271bbea3a78eee17878db1822bb202c7130e3423875314be65",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正机器人做法，只是补充腾讯WB积分坑和DS Flash等新信息；机器人当时也只是给出一套说法，并未动手执行，属于只给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 741,
+   "completion_tokens": 3327,
+   "total_tokens": 4068,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 3264
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 229
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正机器人做法，只是补充腾讯WB积分坑和DS Flash等新信息；机器人当时也只是给出一套说法，并未动手执行，属于只给建议。"
+ },
+ "parse_error": null
+}

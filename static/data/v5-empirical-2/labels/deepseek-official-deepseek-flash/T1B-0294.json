@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0294",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3e827063ee991336938e5ede00f0b9fd0bc4cf25205a54455f024a5bd46b805e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"机器人动作是无效JSON，无法判断实际模式；操作者消息是在向机器人提问是否有自动检测错别字功能，属于新问题/确认而非纠正，因此目标为not_a_correction，意向模式为直接回答/执行M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 689,
+   "completion_tokens": 6057,
+   "total_tokens": 6746,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5978
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 177
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "机器人动作是无效JSON，无法判断实际模式；操作者消息是在向机器人提问是否有自动检测错别字功能，属于新问题/确认而非纠正，因此目标为not_a_correction，意向模式为直接回答/执行M1。"
+ },
+ "parse_error": null
+}

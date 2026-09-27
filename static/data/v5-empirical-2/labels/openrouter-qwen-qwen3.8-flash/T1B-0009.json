@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0009",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cc9e2e30cfdcdff5caa46fe81d75c5bea8889923fe09e10f3df6ef4cd027acc4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M6\",\"reason\":\"操作者说自己来改并给出方向，是在调整怎么做；机器人拒绝违规线并给合规替代方案，属于 M7；操作者把决定权拿回自己手里，想要机器人不要自行推进，因此是 M6。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1328,
+   "completion_tokens": 7907,
+   "total_tokens": 9235,
+   "cost": 0.003846882,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003846882,
+    "upstream_inference_prompt_cost": 0.000130592,
+    "upstream_inference_completions_cost": 0.00371629
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7832,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M6",
+  "reason": "操作者说自己来改并给出方向，是在调整怎么做；机器人拒绝违规线并给合规替代方案，属于 M7；操作者把决定权拿回自己手里，想要机器人不要自行推进，因此是 M6。"
+ },
+ "parse_error": null
+}

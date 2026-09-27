@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0033",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8ec87a2f9be820019a34423022e207839a5521b47bd6c9e869c32b35ded22116",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只给了安全风险判断和建议，没有动手；操作者随后问是否给过 CF 的 key，是新的事实询问，看不出在纠正先前的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 743,
+   "completion_tokens": 165,
+   "total_tokens": 908,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 95
+   },
+   "input_tokens": 743,
+   "output_tokens": 165,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只给了安全风险判断和建议，没有动手；操作者随后问是否给过 CF 的 key，是新的事实询问，看不出在纠正先前的决策模式。"
+ },
+ "parse_error": null
+}

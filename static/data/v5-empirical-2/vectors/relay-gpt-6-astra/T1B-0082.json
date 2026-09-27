@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0082",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "924aaa01f8c445c70f9e6ae48a043ce1d6a5512d30603e41cc20e6a236cf08ec",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.55,csq=0.55,rel=0.50,cer=0.20,aut=0.80,rev=0.70,evd=0.15,sov=0.85,ine=0.50,ext=0.80]\nM:M5|conf:0.94\nR:未核实招行借记卡能否用于订阅及办卡时效，却断言最安全稳妥；应先确认地区、卡种及支付支持，并回应合租风险。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33765,
+   "completion_tokens": 210,
+   "total_tokens": 33975,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 273,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 70
+   },
+   "input_tokens": 33765,
+   "output_tokens": 210,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.55,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.8,
+   "rev": 0.7,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "未核实招行借记卡能否用于订阅及办卡时效，却断言最安全稳妥；应先确认地区、卡种及支付支持，并回应合租风险。"
+ },
+ "parse_error": null
+}

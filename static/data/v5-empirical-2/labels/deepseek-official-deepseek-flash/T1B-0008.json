@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0008",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ffa8774af35eb3fb84f2b699486cb2bbb318fcfc46393830a7c4158c5c431868",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M8\",\"reason\":\"操作者这条消息是在否决之前设计的返利网套利线，要求停止这条不合规的线，属于对做不做的纠正；机器人此前对清理任务直接执行并事后汇报，属 M1；操作者想要的是碰到合规边界硬停，即 M8。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1456,
+   "completion_tokens": 14904,
+   "total_tokens": 16360,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 14819
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1072
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M8",
+  "reason": "操作者这条消息是在否决之前设计的返利网套利线，要求停止这条不合规的线，属于对做不做的纠正；机器人此前对清理任务直接执行并事后汇报，属 M1；操作者想要的是碰到合规边界硬停，即 M8。"
+ },
+ "parse_error": null
+}

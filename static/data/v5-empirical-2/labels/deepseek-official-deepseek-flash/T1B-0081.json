@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0081",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "39b328d42fdb7762d74cb713e594a15b2bb3a8a80b316a3fcf303983b743d466",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者只是在纠正机器人关于招行卡类型和办理流程的事实错误，并未要求改变决策方式；机器人此前直接查证并汇报，操作者仍希望其直接给出正确信息。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 919,
+   "completion_tokens": 9761,
+   "total_tokens": 10680,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 9697
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 407
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者只是在纠正机器人关于招行卡类型和办理流程的事实错误，并未要求改变决策方式；机器人此前直接查证并汇报，操作者仍希望其直接给出正确信息。"
+ },
+ "parse_error": null
+}

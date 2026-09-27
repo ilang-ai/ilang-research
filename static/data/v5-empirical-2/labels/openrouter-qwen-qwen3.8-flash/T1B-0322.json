@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0322",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "965c77d7fd7c3bd9801296ebab3459f1a8ae63ed86b901512492d63757f6dcb4",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者认为机器人答非所问，要求它回答“我会用什么方案实现”，是在纠正回答方向；机器人当时只是给建议和方法论，没有执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 839,
+   "completion_tokens": 1564,
+   "total_tokens": 2403,
+   "cost": 0.000792322,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000792322,
+    "upstream_inference_prompt_cost": 5.7242e-05,
+    "upstream_inference_completions_cost": 0.00073508
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1485,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 3,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者认为机器人答非所问，要求它回答“我会用什么方案实现”，是在纠正回答方向；机器人当时只是给建议和方法论，没有执行。"
+ },
+ "parse_error": null
+}

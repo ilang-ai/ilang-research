@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0132",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "6de2890604548b27572a1b279276639af472ddf40e784636807e45c9dc30372f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.55,csq=0.65,rel=0.50,cer=0.20,aut=0.60,rev=0.85,evd=0.10,sov=0.80,ine=0.40,ext=0.85]\nM:M5|conf:0.95\nR:截图内容不可见，无法证实请求成功、零域名原因或权限正常；学员编号不一致，应核实身份与响应后再判定第6步通过。\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33784,
+   "completion_tokens": 220,
+   "total_tokens": 34004,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 292,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 84
+   },
+   "input_tokens": 33784,
+   "output_tokens": 220,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.55,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.6,
+   "rev": 0.85,
+   "evd": 0.1,
+   "sov": 0.8,
+   "ine": 0.4,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "截图内容不可见，无法证实请求成功、零域名原因或权限正常；学员编号不一致，应核实身份与响应后再判定第6步通过。"
+ },
+ "parse_error": null
+}

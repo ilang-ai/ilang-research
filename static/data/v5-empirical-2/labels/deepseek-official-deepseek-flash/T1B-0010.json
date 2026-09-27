@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0010",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c64ee9a222f204147fab8702abbeb0c32a0c29ff548ca4897284957f37e7ea91",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条只是在补充「警示」的实质内容（很多人业绩跑出来却卡在无法结算），属于对警示措辞/内容的追加，并非回答机器人「要不要现在就把 KYC 硬规则写进 SOUL」的做/不做问题，也没表达希望机器人走哪个模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 923,
+   "completion_tokens": 1184,
+   "total_tokens": 2107,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1099
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 539
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "操作者这条只是在补充「警示」的实质内容（很多人业绩跑出来却卡在无法结算），属于对警示措辞/内容的追加，并非回答机器人「要不要现在就把 KYC 硬规则写进 SOUL」的做/不做问题，也没表达希望机器人走哪个模式。"
+ },
+ "parse_error": null
+}

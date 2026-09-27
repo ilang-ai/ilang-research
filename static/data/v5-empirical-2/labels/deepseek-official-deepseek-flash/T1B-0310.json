@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0310",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b41bc3af4444ed734d762507dfeeb65cb3260c8ddaf054bb2bd592b87146af65",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者后续消息与机器人验证提醒无关，只是新的内容陈述，没有对机器人的做不做或怎么做提出要求或纠正；机器人当时是直接发出验证提示并说明后续操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 717,
+   "completion_tokens": 1504,
+   "total_tokens": 2221,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1436
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 205
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者后续消息与机器人验证提醒无关，只是新的内容陈述，没有对机器人的做不做或怎么做提出要求或纠正；机器人当时是直接发出验证提示并说明后续操作。"
+ },
+ "parse_error": null
+}

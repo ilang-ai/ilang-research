@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0166",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "88bc3cce87f727613373659690fc72f5a60c7a90b6bbb793aba1500bcc24b478",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续；机器人只是给出价格信息和购买建议，没有实际执行购买动作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 758,
+   "completion_tokens": 567,
+   "total_tokens": 1325,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 520
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 246
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，默认接受机器人继续；机器人只是给出价格信息和购买建议，没有实际执行购买动作。"
+ },
+ "parse_error": null
+}

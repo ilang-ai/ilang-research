@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0187",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "675329a2d1aa1fcccc235edac6aea860d683243c4091c641efe71ecdeba89a52",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者要求总结群信息，机器人直接完成总结并汇报，操作者未出声默认接受。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1667,
+   "completion_tokens": 135,
+   "total_tokens": 1802,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1667,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 65,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 70
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者要求总结群信息，机器人直接完成总结并汇报，操作者未出声默认接受。"
+ },
+ "parse_error": null
+}

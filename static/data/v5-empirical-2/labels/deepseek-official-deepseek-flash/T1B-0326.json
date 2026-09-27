@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0326",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "bacc58e3fd64a7944408cfcbe23162083203288afe4ce0dfbb3b78d7cafde22e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人，而是提出新任务：把今天聊天、群定位和目标总结成长文，期望机器人直接产出。机器人上一轮只是在做解释和建议，没有实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 886,
+   "completion_tokens": 7704,
+   "total_tokens": 8590,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 7638
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 374
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人，而是提出新任务：把今天聊天、群定位和目标总结成长文，期望机器人直接产出。机器人上一轮只是在做解释和建议，没有实际执行。"
+ },
+ "parse_error": null
+}

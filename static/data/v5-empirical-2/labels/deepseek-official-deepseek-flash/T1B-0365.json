@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0365",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "39ef5e3c2f71d7e4c34742a14fc765ffeb505800ba4e7e8af1efe5f6c0f0f09b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者回复“完全正确”并重申宁可对方报错也不反复教，表明认可并希望机器人直接执行、不提供备选（M1）。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 780,
+   "completion_tokens": 12142,
+   "total_tokens": 12922,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 12082
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 268
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者回复“完全正确”并重申宁可对方报错也不反复教，表明认可并希望机器人直接执行、不提供备选（M1）。"
+ },
+ "parse_error": null
+}

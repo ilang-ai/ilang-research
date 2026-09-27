@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0069",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "47b630a482c9e8b4be11c85b1578fa3dfd616db12f20b8509227e2b50da388f4",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，机器人继续给出让操作者复制到另一处的操作指引，属于只给建议/不动手；对照事件默认接受了该做法。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 788,
+   "completion_tokens": 502,
+   "total_tokens": 1290,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 446
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 276
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，机器人继续给出让操作者复制到另一处的操作指引，属于只给建议/不动手；对照事件默认接受了该做法。"
+ },
+ "parse_error": null
+}

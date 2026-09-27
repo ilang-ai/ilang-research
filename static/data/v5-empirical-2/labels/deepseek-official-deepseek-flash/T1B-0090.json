@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0090",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7bdcb192701ddb87f6a21bf8a9af40c6a127cf46111591c0e627e9e44e34e73f",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者消息只是继续认同并补充机器人对提问者的分析，没有纠正做法或提出新任务，故视为接受机器人自主处理。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 838,
+   "completion_tokens": 6614,
+   "total_tokens": 7452,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6545
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 326
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者消息只是继续认同并补充机器人对提问者的分析，没有纠正做法或提出新任务，故视为接受机器人自主处理。"
+ },
+ "parse_error": null
+}

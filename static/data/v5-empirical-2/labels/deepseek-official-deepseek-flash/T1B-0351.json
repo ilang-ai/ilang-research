@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0351",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ba54501ece38ec94402c791849535e9a065c01c79624496369c15e1e36a77535",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是骂机器人像正则一样机械思考，针对的是回复内容/思路而非执行模式；机器人当时直接给出填写手机号的操作建议并未动手，属于M4；原请求要的是指导，故期望也是M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 735,
+   "completion_tokens": 4516,
+   "total_tokens": 5251,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4443
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 223
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是骂机器人像正则一样机械思考，针对的是回复内容/思路而非执行模式；机器人当时直接给出填写手机号的操作建议并未动手，属于M4；原请求要的是指导，故期望也是M4。"
+ },
+ "parse_error": null
+}

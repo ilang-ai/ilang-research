@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0293",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3d74a1f298eabe25fc377ab5f9fe05774fe2599517d10e48f4e642a6ea30251f",
+ "text": "{\n  \"targets\": \"unclear\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者后续消息只是无效 JSON，无法判断是否纠正或纠正什么；机器人当时只给分析建议，没有执行动作。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 921,
+   "completion_tokens": 914,
+   "total_tokens": 1835,
+   "cost": 0.000499122,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000499122,
+    "upstream_inference_prompt_cost": 6.9542e-05,
+    "upstream_inference_completions_cost": 0.00042958
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 845,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者后续消息只是无效 JSON，无法判断是否纠正或纠正什么；机器人当时只给分析建议，没有执行动作。"
+ },
+ "parse_error": null
+}

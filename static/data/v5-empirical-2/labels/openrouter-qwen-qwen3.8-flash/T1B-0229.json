@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0229",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4a3d1d40fddd696fe4cb2e5c713284782b986a0d91fc53f699c2f44d3cfa3278",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在布置新任务让机器人迭代技能并决定分享方式，不是纠正刚才内容；机器人当时在提出下一步方案等确认，而操作者希望它直接去做。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1004,
+   "completion_tokens": 2208,
+   "total_tokens": 3212,
+   "cost": 0.001119752,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.001119752,
+    "upstream_inference_prompt_cost": 8.1992e-05,
+    "upstream_inference_completions_cost": 0.00103776
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2127,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者是在布置新任务让机器人迭代技能并决定分享方式，不是纠正刚才内容；机器人当时在提出下一步方案等确认，而操作者希望它直接去做。"
+ },
+ "parse_error": null
+}

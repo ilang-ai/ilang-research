@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0136",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "9da789a2781ed7ad078c93ce80ecdc3210a49316175056f8c293fd42fa1e643b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.55,csq=0.50,rel=0.50,cer=0.25,aut=0.70,rev=0.60,evd=0.15,sov=0.85,ine=0.55,ext=0.75]\nM:M5|conf:0.93\nR:代理群与购买渠道未经核实，收取谷歌验证码的能力无证据，不应保证激活即用；应先询问访问报错并核验官方渠道及号码适用性",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33796,
+   "completion_tokens": 235,
+   "total_tokens": 34031,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 304,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 94
+   },
+   "input_tokens": 33796,
+   "output_tokens": 235,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.55,
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.7,
+   "rev": 0.6,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.55,
+   "ext": 0.75
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "代理群与购买渠道未经核实，收取谷歌验证码的能力无证据，不应保证激活即用；应先询问访问报错并核验官方渠道及号码适用性"
+ },
+ "parse_error": null
+}

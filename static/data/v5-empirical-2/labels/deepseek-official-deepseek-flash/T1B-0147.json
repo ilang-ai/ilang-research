@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0147",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "064c38451078469577345e6599a4cbf87e3fbae04442ebc6e14437654b139571",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者要求扒这几个站，机器人直接完成后汇报结果，操作者随后没有出声，默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1323,
+   "completion_tokens": 173,
+   "total_tokens": 1496,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 128
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 811
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者要求扒这几个站，机器人直接完成后汇报结果，操作者随后没有出声，默认接受。"
+ },
+ "parse_error": null
+}

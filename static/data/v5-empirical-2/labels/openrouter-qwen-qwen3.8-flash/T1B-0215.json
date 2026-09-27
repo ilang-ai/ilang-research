@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0215",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9af7bba668e9e61668b048d7fe2403d624ab50236a485b6579265935b3af0f8d",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在质疑机器人对交叉买违规风险的判断，提出“自用/小体量没事”的观点，属于内容层面的反驳；机器人当时只是给定性分析和建议，没有执行动作。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1171,
+   "completion_tokens": 489,
+   "total_tokens": 1660,
+   "cost": 0.000336872,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000336872,
+    "upstream_inference_prompt_cost": 0.000107042,
+    "upstream_inference_completions_cost": 0.00022983
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 407,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 4,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在质疑机器人对交叉买违规风险的判断，提出“自用/小体量没事”的观点，属于内容层面的反驳；机器人当时只是给定性分析和建议，没有执行动作。"
+ },
+ "parse_error": null
+}

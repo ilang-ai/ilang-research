@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0393",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4216854ec09febbe5b22b73440a51acde48727ee45988da0f36bc28366b8a764",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者后来发的是@对象、主题和图片，更像新任务或补充材料，不是纠正；机器人只是给出操作建议，没有实际执行；操作者未明确希望采用哪种决策模式。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 745,
+   "completion_tokens": 1293,
+   "total_tokens": 2038,
+   "cost": 0.000650852,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000650852,
+    "upstream_inference_prompt_cost": 4.3142e-05,
+    "upstream_inference_completions_cost": 0.00060771
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1209,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者后来发的是@对象、主题和图片，更像新任务或补充材料，不是纠正；机器人只是给出操作建议，没有实际执行；操作者未明确希望采用哪种决策模式。"
+ },
+ "parse_error": null
+}

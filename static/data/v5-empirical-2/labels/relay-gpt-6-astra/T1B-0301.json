@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0301",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2a557bd608cb700e9467c896fb56b4de390063e65346e65ec8dea5ce34670482",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"机器人只给了看待和使用数据的建议，操作者则要求以后用指定比喻解释第三方数据与权威数据的区别，调整的是回复内容，不是执行或决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 944,
+   "completion_tokens": 149,
+   "total_tokens": 1093,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 75
+   },
+   "input_tokens": 944,
+   "output_tokens": 149,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "none_fits",
+  "reason": "机器人只给了看待和使用数据的建议，操作者则要求以后用指定比喻解释第三方数据与权威数据的区别，调整的是回复内容，不是执行或决策模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0017",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e5afa8fae5bc5731b852e6f9c406e3a41d6dfb4b5e53ccbca8dd985f3fa0025a",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者回复“换上”是在确认并要求执行换文件，不是纠错；机器人因无法审而把后续处理交给操作者决定，操作者实际想要它直接执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 912,
+   "completion_tokens": 6824,
+   "total_tokens": 7736,
+   "cost": 0.003275472,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.003275472,
+    "upstream_inference_prompt_cost": 6.8192e-05,
+    "upstream_inference_completions_cost": 0.00320728
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6743,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M6",
+  "intended_mode": "M1",
+  "reason": "操作者回复“换上”是在确认并要求执行换文件，不是纠错；机器人因无法审而把后续处理交给操作者决定，操作者实际想要它直接执行。"
+ },
+ "parse_error": null
+}

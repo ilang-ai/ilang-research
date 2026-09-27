@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0269",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "153b329cbc7da2d226e23fa59a63676e4db353caa15bf534b4023ceb0e4929ae",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者在纠正机器人对用户问题的误判，指出用户是扫码出问题才发图识别，这涉及该怎么处理；机器人已直接执行并汇报，操作者希望机器人直接按正确问题处理（识别图片/解决扫码问题）。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 681,
+   "completion_tokens": 11117,
+   "total_tokens": 11798,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 11028
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 169
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正机器人对用户问题的误判，指出用户是扫码出问题才发图识别，这涉及该怎么处理；机器人已直接执行并汇报，操作者希望机器人直接按正确问题处理（识别图片/解决扫码问题）。"
+ },
+ "parse_error": null
+}

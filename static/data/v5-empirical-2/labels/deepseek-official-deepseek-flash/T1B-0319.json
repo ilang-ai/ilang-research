@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0319",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1d923ca2266ae445f2e3e9a51091f6d28cca0daae033c4a12ea0b8ee393d92ae",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是在补充或纠正诊断内容，声明自己的方案已包含修复、维护和自我学习，没有要求机器人动手或改变执行方式；机器人当时也只是分析并给建议，没有实际执行，所以是 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 913,
+   "completion_tokens": 5968,
+   "total_tokens": 6881,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 5898
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 401
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是在补充或纠正诊断内容，声明自己的方案已包含修复、维护和自我学习，没有要求机器人动手或改变执行方式；机器人当时也只是分析并给建议，没有实际执行，所以是 M4。"
+ },
+ "parse_error": null
+}

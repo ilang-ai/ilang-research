@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0316",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "61aef115dc5c7f457bc0029e946158709300cff92ad921aec74a4bcef9a2f6fb",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"机器人提出了方案框架并要求确认（点头我就写），用户认可了方案思路并对命名和具体交付形式提出了调整建议，属于针对方案内容的修正。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 1109,
+   "completion_tokens": 76,
+   "total_tokens": 1185,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1109,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 76,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人提出了方案框架并要求确认（点头我就写），用户认可了方案思路并对命名和具体交付形式提出了调整建议，属于针对方案内容的修正。"
+ },
+ "parse_error": null
+}

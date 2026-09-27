@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0375",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9536c5440e09f9ac9aafc5cf61393b77e949c78b4efebd74e2daf107e962f3f9",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者随后没有出声，视为让机器人继续并接受其回复；机器人直接给出了提问格式、全部指令和可复制提示，没有先确认或只给建议，属于直接做并汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 2605,
+   "completion_tokens": 2671,
+   "total_tokens": 5276,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2606
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 2093
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者随后没有出声，视为让机器人继续并接受其回复；机器人直接给出了提问格式、全部指令和可复制提示，没有先确认或只给建议，属于直接做并汇报。"
+ },
+ "parse_error": null
+}

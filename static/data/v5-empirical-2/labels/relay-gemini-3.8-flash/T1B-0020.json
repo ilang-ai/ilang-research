@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0020",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c2f0b3059836a53bfd0ce5e5b30c90538525947f0783836eba1e008fd704437d",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人完成替换并留存了备份路径（M2），操作者未对上一步提出异议，而是直接安排了下一项全面排查的新任务。\"\n}\n```",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 882,
+   "completion_tokens": 412,
+   "total_tokens": 1294,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 882,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 82,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 330
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
+  "intended_mode": "accepted",
+  "reason": "机器人完成替换并留存了备份路径（M2），操作者未对上一步提出异议，而是直接安排了下一项全面排查的新任务。"
+ },
+ "parse_error": null
+}

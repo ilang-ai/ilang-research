@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0051",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c8146e8f625dd7a98af4113255b1c0c919ac1d957f2c8f07c9e7b1fc838f738d",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是问密钥存放位置，机器人却自主复制了一份钥匙文件；随后操作者发来全新任务，没有针对该动作反馈。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1341,
+   "completion_tokens": 8847,
+   "total_tokens": 10188,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8790
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 829
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者只是问密钥存放位置，机器人却自主复制了一份钥匙文件；随后操作者发来全新任务，没有针对该动作反馈。"
+ },
+ "parse_error": null
+}

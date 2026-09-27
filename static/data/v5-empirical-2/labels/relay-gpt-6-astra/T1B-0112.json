@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0112",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9ad8556825a66da1ea054767fe701a8f76c60671acb2bd5103820e1057a9b42a",
+ "text": "{\"targets\":\"unclear\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只给了登录操作建议；操作者让看图并补充付费订阅身份，但图片内容不可见，无法确定是在纠正什么或希望机器人改用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 792,
+   "completion_tokens": 180,
+   "total_tokens": 972,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 111
+   },
+   "input_tokens": 792,
+   "output_tokens": 180,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "unclear",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只给了登录操作建议；操作者让看图并补充付费订阅身份，但图片内容不可见，无法确定是在纠正什么或希望机器人改用哪种模式。"
+ },
+ "parse_error": null
+}

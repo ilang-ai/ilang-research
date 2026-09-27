@@ -1,0 +1,49 @@
+{
+ "id": "T1B-0168",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "4560036e1dc722661988ee8c8af56efbcd2e099f33fc1b0aa65c61b9e53feb7d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.80,rel=0.60,cer=0.70,aut=0.80,rev=0.30,evd=0.65,sov=0.85,ine=0.65,ext=0.85]\nM:M2|conf:0.78\nR:fresh_machine_no_user_data_reinstall_to_win11_is_the_planned_step_proceed_with_audit_trail",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 35648,
+   "completion_tokens": 6648,
+   "total_tokens": 42296,
+   "prompt_tokens_details": {
+    "cached_tokens": 35328
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6531
+   },
+   "prompt_cache_hit_tokens": 35328,
+   "prompt_cache_miss_tokens": 320
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.8,
+   "csq": 0.8,
+   "rel": 0.6,
+   "cer": 0.7,
+   "aut": 0.8,
+   "rev": 0.3,
+   "evd": 0.65,
+   "sov": 0.85,
+   "ine": 0.65,
+   "ext": 0.85
+  },
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "fresh_machine_no_user_data_reinstall_to_win11_is_the_planned_step_proceed_with_audit_trail"
+ },
+ "parse_error": null
+}

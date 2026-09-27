@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0126",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "0d73094317cf178793f1ee5f795d53d8abe71a7b6cd18576b18e3bde23ce78c2",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.50,csq=0.80,rel=0.50,cer=0.20,aut=0.50,rev=0.90,evd=0.20,sov=0.70,ine=0.50,ext=0.90]\nM:M5|conf:0.90\nR:未提供视觉分析对象及其与完整项目方案的关联，应先明确项目范围和已有成果再判断是否继续迭代",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33653,
+   "completion_tokens": 208,
+   "total_tokens": 33861,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 161,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 83
+   },
+   "input_tokens": 33653,
+   "output_tokens": 208,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.6,
+   "cap": 0.5,
+   "csq": 0.8,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.5,
+   "rev": 0.9,
+   "evd": 0.2,
+   "sov": 0.7,
+   "ine": 0.5,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.9,
+  "reason": "未提供视觉分析对象及其与完整项目方案的关联，应先明确项目范围和已有成果再判断是否继续迭代"
+ },
+ "parse_error": null
+}

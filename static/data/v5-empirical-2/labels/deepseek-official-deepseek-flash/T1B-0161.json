@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0161",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a72dcf1ca8fec60a9c33db3acb84b79c1a21734fed6b97fa7f51d4c34e49dd8b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是补充说刚发的案例正好是答案且真实存在，属于确认/闲聊，没有纠正机器人的做法或要求改流程；机器人全程只是在给信息、做解释，没有动手执行，符合 M4。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 869,
+   "completion_tokens": 884,
+   "total_tokens": 1753,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 810
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 357
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只是补充说刚发的案例正好是答案且真实存在，属于确认/闲聊，没有纠正机器人的做法或要求改流程；机器人全程只是在给信息、做解释，没有动手执行，符合 M4。"
+ },
+ "parse_error": null
+}

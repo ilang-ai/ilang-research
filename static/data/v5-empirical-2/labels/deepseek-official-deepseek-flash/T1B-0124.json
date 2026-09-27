@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0124",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3b2875a9cb91f42048d40fcad4f4a657e5fed8a1fd8cc82385870d7a86bc6d4b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者只说了“狗仔队”这一关键词，机器人缺目标域名，于是先追问要盯谁；随后操作者没有出声，默认接受了这次澄清式追问。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 702,
+   "completion_tokens": 192,
+   "total_tokens": 894,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 132
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 190
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者只说了“狗仔队”这一关键词，机器人缺目标域名，于是先追问要盯谁；随后操作者没有出声，默认接受了这次澄清式追问。"
+ },
+ "parse_error": null
+}

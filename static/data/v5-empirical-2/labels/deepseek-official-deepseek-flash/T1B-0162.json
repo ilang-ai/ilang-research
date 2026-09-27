@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0162",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "af8d13656a388c024c21d694e57fdf835df16d416f010d933dfa58c8617f48e5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于让机器人继续；机器人只是分析两张截图并给判断建议，没有实际执行或提出待确认方案，因此是只给建议，操作者默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 916,
+   "completion_tokens": 586,
+   "total_tokens": 1502,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 523
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 404
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有出声，属于让机器人继续；机器人只是分析两张截图并给判断建议，没有实际执行或提出待确认方案，因此是只给建议，操作者默认接受。"
+ },
+ "parse_error": null
+}

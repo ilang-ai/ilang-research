@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0326",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "bacc58e3fd64a7944408cfcbe23162083203288afe4ce0dfbb3b78d7cafde22e",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者这条消息不是纠正机器人，而是布置新任务要求总结成一篇细致长文；机器人此前只是在给方案和建议，没有实际执行；操作者希望机器人直接产出内容。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 908,
+   "completion_tokens": 1383,
+   "total_tokens": 2291,
+   "cost": 0.000717602,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000717602,
+    "upstream_inference_prompt_cost": 6.7592e-05,
+    "upstream_inference_completions_cost": 0.00065001
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1300,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 2,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者这条消息不是纠正机器人，而是布置新任务要求总结成一篇细致长文；机器人此前只是在给方案和建议，没有实际执行；操作者希望机器人直接产出内容。"
+ },
+ "parse_error": null
+}

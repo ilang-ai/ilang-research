@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0383",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "21e5f2335f236a360a5bca731c57391f6124f0c38ba66257ab198a3bca2e05ac",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人直接给出了验证结果，操作者只是要求补上一段关于项目护城河和风险自担的观点，没有要求改变执行或决策方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1168,
+   "completion_tokens": 127,
+   "total_tokens": 1295,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1165,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 65
+   },
+   "input_tokens": 1168,
+   "output_tokens": 127,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人直接给出了验证结果，操作者只是要求补上一段关于项目护城河和风险自担的观点，没有要求改变执行或决策方式。"
+ },
+ "parse_error": null
+}

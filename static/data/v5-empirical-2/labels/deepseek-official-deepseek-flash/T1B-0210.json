@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0210",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "09786e9e8ac7cd4573501a672ebd0a3a800d098d684c8e930c876c3f5638078c",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M8\",\"intended_mode\":\"M1\",\"reason\":\"操作者后续消息是一个新任务，要求看仓库并谈想法，不是纠正上一轮；机器人上一轮直接拒绝/停止验证，属于M8；操作者原意应是让机器人直接验证并汇报，即M1。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 643,
+   "completion_tokens": 8243,
+   "total_tokens": 8886,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 8167
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 259
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M8",
+  "intended_mode": "M1",
+  "reason": "操作者后续消息是一个新任务，要求看仓库并谈想法，不是纠正上一轮；机器人上一轮直接拒绝/停止验证，属于M8；操作者原意应是让机器人直接验证并汇报，即M1。"
+ },
+ "parse_error": null
+}

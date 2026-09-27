@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0368",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8eb9cdaa3b917824cb3324f976827ca536acb19dec7d1d00a827373e654f509e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只是在评论并建议如何处理认错，操作者随后分享图片、提到新技能，没有纠正前面的做法，也未明确要求采用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 819,
+   "completion_tokens": 223,
+   "total_tokens": 1042,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 157
+   },
+   "input_tokens": 819,
+   "output_tokens": 223,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只是在评论并建议如何处理认错，操作者随后分享图片、提到新技能，没有纠正前面的做法，也未明确要求采用哪种模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0327",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "b1625ebf57f54a0568196dd86793a62fc1fdd9095f2a7014e36d2011e998d44a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.65,rel=0.50,cer=0.25,aut=0.60,rev=0.85,evd=0.20,sov=0.80,ine=0.50,ext=0.60]\nM:M5|conf:0.90\nR:原请求仅有标题，缺少客户类型与业务背景；应先澄清需求，核实文章收集及商业演示授权，避免臆断收费空间。",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 33785,
+   "completion_tokens": 239,
+   "total_tokens": 34024,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 293,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 103
+   },
+   "input_tokens": 33785,
+   "output_tokens": 239,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.8,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.6,
+   "rev": 0.85,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.5,
+   "ext": 0.6
+  },
+  "declared_mode": "M5",
+  "conf": 0.9,
+  "reason": "原请求仅有标题，缺少客户类型与业务背景；应先澄清需求，核实文章收集及商业演示授权，避免臆断收费空间。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0385",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0c1eae323b98a94e0c45dd07dcb7fb668a7b4607750e0d2f17ca399adab33594",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M7\",\"reason\":\"操作者在纠正机器人处理欺诈/作假类请求的方式：不要提供方法或只算成本账，而要拒绝并引导去闲鱼/电报群等替代渠道，所以是在定怎么做；机器人当时表示只算成本收益、不替人拍板，属于只给建议不动手；操作者想要的是不做但给替代方案。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 794,
+   "completion_tokens": 6622,
+   "total_tokens": 7416,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 6525
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 282
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M7",
+  "reason": "操作者在纠正机器人处理欺诈/作假类请求的方式：不要提供方法或只算成本账，而要拒绝并引导去闲鱼/电报群等替代渠道，所以是在定怎么做；机器人当时表示只算成本收益、不替人拍板，属于只给建议不动手；操作者想要的是不做但给替代方案。"
+ },
+ "parse_error": null
+}

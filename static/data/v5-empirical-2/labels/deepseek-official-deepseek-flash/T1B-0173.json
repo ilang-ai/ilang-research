@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0173",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2642494785ea1db8a95cbd64a1c5f85a8f012fe7ba80fcee2e8c48d308f0628c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者是在质问机器人为什么拿豆包（竞品）的内容来对着干，是对机器人「擅自发这条卡片」这一动作的指责，属于做不做/怎么做层面；机器人当时是自己直接产出一条资讯卡片、没有先问也没等确认，走的是 M1 自主执行；但这条消息只是情绪化的质问，没有说清希望机器人改走哪一种模式（既不是让它先问、也不是让它只给建议或停手），八个模式加 dont_know 都对应不上，故为 none_fits。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1122,
+   "completion_tokens": 2077,
+   "total_tokens": 3199,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1938
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 610
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "操作者是在质问机器人为什么拿豆包（竞品）的内容来对着干，是对机器人「擅自发这条卡片」这一动作的指责，属于做不做/怎么做层面；机器人当时是自己直接产出一条资讯卡片、没有先问也没等确认，走的是 M1 自主执行；但这条消息只是情绪化的质问，没有说清希望机器人改走哪一种模式（既不是让它先问、也不是让它只给建议或停手），八个模式加 dont_know 都对应不上，故为 none_fits。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0309",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c76536d15c5041eafb08f6cc880dabcd1562bbafb494041bafa0e07f95e3e2c9",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者强调好坏模型在 iLang 加持下的效果不同，针对的是回复中的观点，没有明确要求改变机器人的执行或决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 981,
+   "completion_tokens": 188,
+   "total_tokens": 1169,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 128
+   },
+   "input_tokens": 981,
+   "output_tokens": 188,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者强调好坏模型在 iLang 加持下的效果不同，针对的是回复中的观点，没有明确要求改变机器人的执行或决策模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0020",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c2f0b3059836a53bfd0ce5e5b30c90538525947f0783836eba1e008fd704437d",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人已经完成资料替换并事后汇报，操作者随后要求再做一次全面检查，是追加检查任务，并未纠正先前的执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 903,
+   "completion_tokens": 63,
+   "total_tokens": 966,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 903,
+   "output_tokens": 63,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人已经完成资料替换并事后汇报，操作者随后要求再做一次全面检查，是追加检查任务，并未纠正先前的执行方式。"
+ },
+ "parse_error": null
+}

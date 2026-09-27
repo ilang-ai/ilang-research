@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0063",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "1e2bbe46250c38ced3421c5b9f0c8cce866dde9d10ae5f1cf72b0d24a49e5ea4",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正机器人，而是开启新话题表达推荐顾虑；机器人上一轮对无法回答的问题给出替代路径，属于M7；操作者未表明期望机器人当时走哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 765,
+   "completion_tokens": 10808,
+   "total_tokens": 11573,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 10742
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 253
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正机器人，而是开启新话题表达推荐顾虑；机器人上一轮对无法回答的问题给出替代路径，属于M7；操作者未表明期望机器人当时走哪种模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0234",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1ee733b4f04df268ea0891e0c3acd44c201f5d2ee6b41d521f0c5dd7f44f83b4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.30,csq=0.45,rel=0.30,cer=0.35,aut=0.60,rev=0.35,evd=0.30,sov=0.35,ine=0.30,ext=0.55]\nM:M7|conf:0.85\nR:学员仅汇报安装完成回复脱离上下文且语气粗暴需重构引导方案",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37666,
+   "completion_tokens": 4514,
+   "total_tokens": 42180,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 37666,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 124,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 4390
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.35,
+   "cap": 0.3,
+   "csq": 0.45,
+   "rel": 0.3,
+   "cer": 0.35,
+   "aut": 0.6,
+   "rev": 0.35,
+   "evd": 0.3,
+   "sov": 0.35,
+   "ine": 0.3,
+   "ext": 0.55
+  },
+  "declared_mode": "M7",
+  "conf": 0.85,
+  "reason": "学员仅汇报安装完成回复脱离上下文且语气粗暴需重构引导方案"
+ },
+ "parse_error": null
+}

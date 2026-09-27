@@ -1,0 +1,58 @@
+{
+ "id": "T1B-0106",
+ "vendor": "relay-gemini-3.8-flash",
+ "model": "gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1c1c74e58c14b1f23994ed2ec1e417d9d4c79b6511804aaf98284ee1f3db0aec",
+ "text": "::JUDGE{v5.0}\nV:[int=0.15,cap=0.50,csq=0.55,rel=0.25,cer=0.35,aut=0.40,rev=0.40,evd=0.30,sov=0.20,ine=0.15,ext=0.85]\nM:M7|conf:0.85\nR:回复完全脱离学员对数据来源的质询_应拒绝发送并正面回应数据出处",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 38812,
+   "completion_tokens": 4837,
+   "total_tokens": 43649,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 38812,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 127,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 4710
+   },
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.15,
+   "cap": 0.5,
+   "csq": 0.55,
+   "rel": 0.25,
+   "cer": 0.35,
+   "aut": 0.4,
+   "rev": 0.4,
+   "evd": 0.3,
+   "sov": 0.2,
+   "ine": 0.15,
+   "ext": 0.85
+  },
+  "declared_mode": "M7",
+  "conf": 0.85,
+  "reason": "回复完全脱离学员对数据来源的质询_应拒绝发送并正面回应数据出处"
+ },
+ "parse_error": null
+}

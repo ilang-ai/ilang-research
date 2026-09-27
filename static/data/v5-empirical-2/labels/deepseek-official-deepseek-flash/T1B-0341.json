@@ -1,0 +1,37 @@
+{
+ "id": "T1B-0341",
+ "vendor": "deepseek-official-deepseek-flash",
+ "model": "deepseek-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7c2133b98a5c3bf93a530e753f2218fa1e4f056e40b1a017055dd84469869b71",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者在提醒机器人对不知方向的新手应先做指导、给建议，而不是直接替其完成分析；这是对做法/模式的纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "deepseek-flash",
+  "stop",
+  {
+   "prompt_tokens": 1909,
+   "completion_tokens": 11225,
+   "total_tokens": 13134,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 11169
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 1397
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者在提醒机器人对不知方向的新手应先做指导、给建议，而不是直接替其完成分析；这是对做法/模式的纠正。"
+ },
+ "parse_error": null
+}

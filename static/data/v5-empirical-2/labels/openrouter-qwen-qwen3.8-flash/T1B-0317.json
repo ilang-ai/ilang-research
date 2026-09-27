@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0317",
+ "vendor": "openrouter-qwen-qwen3.8-flash",
+ "model": "qwen/qwen3.8-flash",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7187279f29440b0424be08354fca511938bcefeb39873f2dcae48342cff2c19e",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者主要是在纠正之前解释的判断逻辑和表达方式，要求机器人直接把它改成白话文讲清楚；机器人此前只是说明技能并给建议，没有动手执行。\"\n}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "qwen/qwen3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 855,
+   "completion_tokens": 892,
+   "total_tokens": 1747,
+   "cost": 0.000478882,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.000478882,
+    "upstream_inference_prompt_cost": 5.9642e-05,
+    "upstream_inference_completions_cost": 0.00041924
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 813,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者主要是在纠正之前解释的判断逻辑和表达方式，要求机器人直接把它改成白话文讲清楚；机器人此前只是说明技能并给建议，没有动手执行。"
+ },
+ "parse_error": null
+}
