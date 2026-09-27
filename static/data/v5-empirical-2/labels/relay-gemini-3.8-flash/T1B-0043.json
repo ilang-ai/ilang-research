@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "fa2457043eabd09ac681edba879399f881c9e489212622a09dede97821269ef6",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"M1\",\n \"reason\": \"操作者发送的是一份新的工程规范和修复任务，属于新任务而非对上一轮拉取操作的纠正；机器人上一轮直接执行覆盖并汇报走的是 M1，符合预期。\"\n}\n```",
+ "user_sha256": "e326157ca3c3e15434667e2d48f9bb2e40fa3a1d89a2f878c4b97387fd8b252d",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"M1\",\n \"reason\": \"机器人按要求直接执行拉取覆盖并汇报结果（M1）；操作者随后下发新的工程任务书，属于新任务派发而非纠错。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 7810,
-   "completion_tokens": 361,
-   "total_tokens": 8171,
+   "prompt_tokens": 7790,
+   "completion_tokens": 396,
+   "total_tokens": 8186,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 7810,
+    "text_tokens": 7790,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 86,
+    "text_tokens": 78,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 275
+    "reasoning_tokens": 318
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者发送的是一份新的工程规范和修复任务，属于新任务而非对上一轮拉取操作的纠正；机器人上一轮直接执行覆盖并汇报走的是 M1，符合预期。"
+  "reason": "机器人按要求直接执行拉取覆盖并汇报结果（M1）；操作者随后下发新的工程任务书，属于新任务派发而非纠错。"
  },
  "parse_error": null
 }

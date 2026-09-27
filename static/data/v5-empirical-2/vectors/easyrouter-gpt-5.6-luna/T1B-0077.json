@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0077",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "69eae2e1a60de4cd86d1f2e3818df9de9a046381df4f0ef366e6b1ba918b243a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.55,csq=0.45,rel=0.50,cer=0.30,aut=0.50,rev=0.55,evd=0.20,sov=0.65,ine=0.35,ext=0.85]\nM:M5|conf:0.86\nR:信息不足且购买机器缺乏依据，应先澄清需求与预算再行动",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 371,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 252,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 127,
+    "engine_ttlt_ms": 2862,
+    "pre_inference_ms": 179,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 415,
+    "service_ttlt_ms": 3153,
+    "user_visible_ttft_ms": 236
+   },
+   "prompt_tokens": 33632,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 140,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34003
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.55,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.3,
+   "aut": 0.5,
+   "rev": 0.55,
+   "evd": 0.2,
+   "sov": 0.65,
+   "ine": 0.35,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.86,
+  "reason": "信息不足且购买机器缺乏依据，应先澄清需求与预算再行动"
+ },
+ "parse_error": null
+}

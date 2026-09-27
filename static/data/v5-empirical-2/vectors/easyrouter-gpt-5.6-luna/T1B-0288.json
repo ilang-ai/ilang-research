@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0288",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "ab52e41896470350ec31140918d966caf37c35ad64b3162f0ae86def61f88138",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.72,csq=0.82,rel=0.50,cer=0.78,aut=0.80,rev=0.95,evd=0.72,sov=0.90,ine=0.55,ext=0.90]\nM:M2|conf:0.86\nR:明确区分可见点击码与后台数据并提出可验证路径，但“唯一权威”等表述略显绝对",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 362,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 235,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 109,
+    "engine_ttlt_ms": 2890,
+    "pre_inference_ms": 239,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 400,
+    "service_ttlt_ms": 3175,
+    "user_visible_ttft_ms": 161
+   },
+   "prompt_tokens": 33859,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 367,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34221
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.72,
+   "csq": 0.82,
+   "rel": 0.5,
+   "cer": 0.78,
+   "aut": 0.8,
+   "rev": 0.95,
+   "evd": 0.72,
+   "sov": 0.9,
+   "ine": 0.55,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.86,
+  "reason": "明确区分可见点击码与后台数据并提出可验证路径，但“唯一权威”等表述略显绝对"
+ },
+ "parse_error": null
+}

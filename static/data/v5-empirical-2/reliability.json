@@ -1,0 +1,175 @@
+{
+  "sample_answered": 9,
+  "consensus_equals_operator": 6,
+  "rate": 0.6667,
+  "wilson_95": [
+    0.3542,
+    0.8794
+  ],
+  "case_D": true,
+  "m1m2_merged_equals": 8,
+  "m1m2_merged_rate": 0.8889,
+  "m1m2_merged_wilson_95": [
+    0.565,
+    0.9801
+  ],
+  "five_class_equals": 8,
+  "five_class_rate": 0.8889,
+  "five_class_wilson_95": [
+    0.565,
+    0.9801
+  ],
+  "pairs": [
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    },
+    {
+      "consensus": "M4",
+      "operator": "M4"
+    },
+    {
+      "consensus": "M4",
+      "operator": "M4"
+    },
+    {
+      "consensus": "M4",
+      "operator": "M4"
+    },
+    {
+      "consensus": "M7",
+      "operator": "M5"
+    },
+    {
+      "consensus": "M4",
+      "operator": "M4"
+    },
+    {
+      "consensus": "M4",
+      "operator": "M4"
+    },
+    {
+      "consensus": "M4",
+      "operator": "M4"
+    },
+    {
+      "consensus": "M1",
+      "operator": "M2"
+    }
+  ],
+  "by": "the operator's own answers",
+  "all_answers_including_delegated": {
+    "sample_answered": 21,
+    "consensus_equals_operator": 16,
+    "rate": 0.7619,
+    "wilson_95": [
+      0.5491,
+      0.8937
+    ],
+    "case_D": false,
+    "m1m2_merged_equals": 20,
+    "m1m2_merged_rate": 0.9524,
+    "m1m2_merged_wilson_95": [
+      0.7733,
+      0.9915
+    ],
+    "five_class_equals": 20,
+    "five_class_rate": 0.9524,
+    "five_class_wilson_95": [
+      0.7733,
+      0.9915
+    ],
+    "pairs": [
+      {
+        "consensus": "M1",
+        "operator": "M2"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M5",
+        "operator": "M5"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M1",
+        "operator": "M2"
+      },
+      {
+        "consensus": "M7",
+        "operator": "M5"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M5",
+        "operator": "M5"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M4",
+        "operator": "M4"
+      },
+      {
+        "consensus": "M1",
+        "operator": "M2"
+      },
+      {
+        "consensus": "M1",
+        "operator": "M2"
+      }
+    ]
+  },
+  "answers_total": 22,
+  "answers_by_operator": 10,
+  "answers_delegated": 12,
+  "none_fits_total": 0,
+  "not_action_total": 1,
+  "dont_know_total": 0
+}

@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "99e6ac04936b930766ad1089d8e6be9c634e9452cec7ddc10f2645d7dd860eda",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者消息是让机器人安排学员194学习，属于新任务，并非对上一轮磁盘/谷歌号处理的纠正；机器人上一轮只是给出建议和指示，没有动手执行，因此是 M4，操作者未表达针对上一轮的模式意图。\"}",
+ "user_sha256": "1bb771d895fdb2c4c9767d4ced85d71ac433978ef9999b809fe5403dd833ef5b",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是批评机器人回答质量/知识不足，让它好好学习，并未要求改变做不做或怎么做；机器人此前也只是给出磁盘够用、继续办号的建议，没有实际动手，因此实际为 M4，而操作者的诉求不属于八种模式。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 665,
-   "completion_tokens": 8160,
-   "total_tokens": 8825,
+   "prompt_tokens": 663,
+   "completion_tokens": 1883,
+   "total_tokens": 2546,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 8078
+    "reasoning_tokens": 1804
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 153
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 279
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "not_a_correction",
+  "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "none_fits",
-  "reason": "操作者消息是让机器人安排学员194学习，属于新任务，并非对上一轮磁盘/谷歌号处理的纠正；机器人上一轮只是给出建议和指示，没有动手执行，因此是 M4，操作者未表达针对上一轮的模式意图。"
+  "reason": "操作者只是批评机器人回答质量/知识不足，让它好好学习，并未要求改变做不做或怎么做；机器人此前也只是给出磁盘够用、继续办号的建议，没有实际动手，因此实际为 M4，而操作者的诉求不属于八种模式。"
  },
  "parse_error": null
 }

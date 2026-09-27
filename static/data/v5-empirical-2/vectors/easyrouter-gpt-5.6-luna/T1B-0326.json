@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0326",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3e2c3ebd2b38a87de33ec2c245f821860458b810b69da6a86f7c8945bd64f61b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.55,csq=0.55,rel=0.50,cer=0.45,aut=0.60,rev=0.65,evd=0.35,sov=0.80,ine=0.50,ext=0.65]\nM:M3|conf:0.78\nR:标准化与探针闭环方向可行，但应先验证故障边界、回滚机制和无人修复安全性再执行",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 423,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 293,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 253,
+    "engine_ttlt_ms": 3131,
+    "pre_inference_ms": 236,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 810,
+    "service_ttlt_ms": 3684,
+    "user_visible_ttft_ms": 574
+   },
+   "prompt_tokens": 33904,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 412,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34327
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.55,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.45,
+   "aut": 0.6,
+   "rev": 0.65,
+   "evd": 0.35,
+   "sov": 0.8,
+   "ine": 0.5,
+   "ext": 0.65
+  },
+  "declared_mode": "M3",
+  "conf": 0.78,
+  "reason": "标准化与探针闭环方向可行，但应先验证故障边界、回滚机制和无人修复安全性再执行"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0195",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0c1de5ba405b1ebcec15050d0b615678a6dcc6bc827f47d8c87d5c6aaae6b8f8",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有追加消息，机器人提供了关于新老域名选择的建议但没有实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 84,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 32,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 81,
+    "engine_ttlt_ms": 818,
+    "pre_inference_ms": 66,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 271,
+    "service_ttlt_ms": 1003,
+    "user_visible_ttft_ms": 205
+   },
+   "prompt_tokens": 1217,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1214,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1301
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有追加消息，机器人提供了关于新老域名选择的建议但没有实际执行操作。"
+ },
+ "parse_error": null
+}

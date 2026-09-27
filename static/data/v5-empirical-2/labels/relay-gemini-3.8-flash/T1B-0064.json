@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6d513709d63db8594d6edc1a41fb0da1c6208c508f0f0ac7b50a036e5ad1b759",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者质疑机器人所说的“印度离中国半个地球”属于常识/事实错误纠正，并不涉及决策模式的改变。\"\n}\n```",
+ "user_sha256": "375865160b040d9ea861c30916b7464148cefbdd58d77ffd0a37a8b89a496f97",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者指出机器人关于“印度离中国隔着半个地球”的说法存在地理常识错误，属于针对事实内容的纠错，模式仍为M4建议咨询。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1258,
-   "completion_tokens": 245,
-   "total_tokens": 1503,
+   "prompt_tokens": 1252,
+   "completion_tokens": 284,
+   "total_tokens": 1536,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1258,
+    "text_tokens": 1252,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 76,
+    "text_tokens": 62,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 169
+    "reasoning_tokens": 222
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者质疑机器人所说的“印度离中国半个地球”属于常识/事实错误纠正，并不涉及决策模式的改变。"
+  "reason": "操作者指出机器人关于“印度离中国隔着半个地球”的说法存在地理常识错误，属于针对事实内容的纠错，模式仍为M4建议咨询。"
  },
  "parse_error": null
 }

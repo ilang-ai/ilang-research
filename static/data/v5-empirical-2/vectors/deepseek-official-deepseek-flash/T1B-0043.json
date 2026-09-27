@@ -5,25 +5,25 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "5f20c41a5ba27b4067ebfc9415bd6201093873d5c5fc57fd82407527ff08bd8b",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.85,rel=0.85,cer=0.80,aut=0.90,rev=0.80,evd=0.70,sov=0.95,ine=0.85,ext=0.90]\nM:M1|conf:0.80\nR:explicit_operator_command_routine_reversible_mirror_sync_low_third_party_impact_unverified_cause_note",
+ "user_sha256": "de788a6a8cc727b52f900d9b60ea051a63c52f5b2c1da6afb8b6f46ca9c2f75c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.80,rel=0.70,cer=0.75,aut=0.85,rev=0.80,evd=0.65,sov=0.95,ine=0.75,ext=0.90]\nM:M2|conf:0.84\nR:authorized_lexiang_pull_overwrote_hk_mirror_reversible_and_verified_keep_audit_trail",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35568,
-   "completion_tokens": 13322,
-   "total_tokens": 48890,
+   "prompt_tokens": 35567,
+   "completion_tokens": 4974,
+   "total_tokens": 40541,
    "prompt_tokens_details": {
-    "cached_tokens": 35200
+    "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 13202
+    "reasoning_tokens": 4855
    },
-   "prompt_cache_hit_tokens": 35200,
-   "prompt_cache_miss_tokens": 368
+   "prompt_cache_hit_tokens": 35328,
+   "prompt_cache_miss_tokens": 239
   }
  ],
  "attempts": 1,
@@ -31,19 +31,19 @@
   "v": {
    "int": 0.9,
    "cap": 0.85,
-   "csq": 0.85,
-   "rel": 0.85,
-   "cer": 0.8,
-   "aut": 0.9,
+   "csq": 0.8,
+   "rel": 0.7,
+   "cer": 0.75,
+   "aut": 0.85,
    "rev": 0.8,
-   "evd": 0.7,
+   "evd": 0.65,
    "sov": 0.95,
-   "ine": 0.85,
+   "ine": 0.75,
    "ext": 0.9
   },
-  "declared_mode": "M1",
-  "conf": 0.8,
-  "reason": "explicit_operator_command_routine_reversible_mirror_sync_low_third_party_impact_unverified_cause_note"
+  "declared_mode": "M2",
+  "conf": 0.84,
+  "reason": "authorized_lexiang_pull_overwrote_hk_mirror_reversible_and_verified_keep_audit_trail"
  },
  "parse_error": null
 }

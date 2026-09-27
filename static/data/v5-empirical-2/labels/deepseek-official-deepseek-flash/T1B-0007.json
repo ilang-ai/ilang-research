@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b8b329db7d8e0551c1587e3f55250b9571a31491f965d0cf51965c850629a107",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者直接批准并下令清理，明确要求对两项请示采取行动；机器人此前也是自行修复后汇报，属于直接执行后汇报。\"}",
+ "user_sha256": "21b5fbd2c9f9a10362fa55def8ca430c270f5b3f859257bb5dbec99655b57f89",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者针对机器人提出的两个待确认事项给出决定：第1项同意，第2项要求直接清掉，表明操作者希望机器人直接执行（M1），而机器人此前对这两项是先提方案等确认（M3）。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1704,
-   "completion_tokens": 7125,
-   "total_tokens": 8829,
+   "prompt_tokens": 1696,
+   "completion_tokens": 11354,
+   "total_tokens": 13050,
    "prompt_tokens_details": {
     "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7069
+    "reasoning_tokens": 11277
    },
    "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 1320
+   "prompt_cache_miss_tokens": 1312
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M1",
+  "bot_mode": "M3",
   "intended_mode": "M1",
-  "reason": "操作者直接批准并下令清理，明确要求对两项请示采取行动；机器人此前也是自行修复后汇报，属于直接执行后汇报。"
+  "reason": "操作者针对机器人提出的两个待确认事项给出决定：第1项同意，第2项要求直接清掉，表明操作者希望机器人直接执行（M1），而机器人此前对这两项是先提方案等确认（M3）。"
  },
  "parse_error": null
 }

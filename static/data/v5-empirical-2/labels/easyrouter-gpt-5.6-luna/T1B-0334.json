@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0334",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "f43df093b59e646f4bcbf2906be6c023d1d7bd9676724c0808c511a532576257",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"机器人先询问小号域名以澄清信息，操作者随后提供图片并要求直接判断哪个是自己的小号。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 693,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 625,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 67,
+    "engine_ttlt_ms": 5476,
+    "pre_inference_ms": 100,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 216,
+    "service_ttlt_ms": 5620,
+    "user_visible_ttft_ms": 116
+   },
+   "prompt_tokens": 778,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1471
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "机器人先询问小号域名以澄清信息，操作者随后提供图片并要求直接判断哪个是自己的小号。"
+ },
+ "parse_error": null
+}

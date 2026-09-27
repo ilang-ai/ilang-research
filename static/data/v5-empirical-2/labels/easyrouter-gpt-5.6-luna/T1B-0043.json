@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0043",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e326157ca3c3e15434667e2d48f9bb2e40fa3a1d89a2f878c4b97387fd8b252d",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"机器人已直接完成覆盖并事后汇报；操作者随后发来的是一份新的工程改造任务，不是在纠正这次执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 344,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 277,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 295,
+    "engine_ttlt_ms": 2808,
+    "pre_inference_ms": 133,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 914,
+    "service_ttlt_ms": 3421,
+    "user_visible_ttft_ms": 781
+   },
+   "prompt_tokens": 7486,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 7483,
+    "cached_tokens": 0
+   },
+   "total_tokens": 7830
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "机器人已直接完成覆盖并事后汇报；操作者随后发来的是一份新的工程改造任务，不是在纠正这次执行方式。"
+ },
+ "parse_error": null
+}

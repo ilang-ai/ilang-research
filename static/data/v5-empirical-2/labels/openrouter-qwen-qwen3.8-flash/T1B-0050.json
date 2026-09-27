@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f56b87d4e1bfddc61927449a7c33a45fc830b5a6d18b8af28d02dec189b05992",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是询问仓库密钥放在哪里，没有纠正前文怎么做；机器人已直接导出原书并安排后续执行，属于自主执行事后汇报，该询问无法映射到八个模式。\"}",
+ "user_sha256": "7330d6aba06142a42b6a102ed3683aed316f94e28335db940f1c97755bbb881c",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是询问 adspilot 仓库 KEY 的本机存放位置，不是纠正机器人是否执行或如何执行；机器人此前已导出原书并给出后续处理安排，属于直接做完告知。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1655,
-   "completion_tokens": 2001,
-   "total_tokens": 3656,
-   "cost": 0.001120112,
+   "prompt_tokens": 1652,
+   "completion_tokens": 1263,
+   "total_tokens": 2915,
+   "cost": 0.000772802,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001120112,
-    "upstream_inference_prompt_cost": 0.000179642,
-    "upstream_inference_completions_cost": 0.00094047
+    "upstream_inference_cost": 0.000772802,
+    "upstream_inference_prompt_cost": 0.000179192,
+    "upstream_inference_completions_cost": 0.00059361
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1934,
+    "reasoning_tokens": 1194,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "none_fits",
-  "reason": "操作者只是询问仓库密钥放在哪里，没有纠正前文怎么做；机器人已直接导出原书并安排后续执行，属于自主执行事后汇报，该询问无法映射到八个模式。"
+  "reason": "操作者只是询问 adspilot 仓库 KEY 的本机存放位置，不是纠正机器人是否执行或如何执行；机器人此前已导出原书并给出后续处理安排，属于直接做完告知。"
  },
  "parse_error": null
 }

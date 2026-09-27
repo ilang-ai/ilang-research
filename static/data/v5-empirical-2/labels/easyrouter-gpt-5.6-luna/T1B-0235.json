@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0235",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "099bddcf519497fb72a584905459c16b000e2d07ee08235d26e6a24261e6833a",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续发言；机器人没有亲自执行重装，而是让操作者把指令交给本机的 workbuddy 处理，属于不做但提供替代方案。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 361,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 290,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 146,
+    "engine_ttlt_ms": 3055,
+    "pre_inference_ms": 79,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 321,
+    "service_ttlt_ms": 3176,
+    "user_visible_ttft_ms": 242
+   },
+   "prompt_tokens": 2492,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 2489,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2853
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续发言；机器人没有亲自执行重装，而是让操作者把指令交给本机的 workbuddy 处理，属于不做但提供替代方案。"
+ },
+ "parse_error": null
+}

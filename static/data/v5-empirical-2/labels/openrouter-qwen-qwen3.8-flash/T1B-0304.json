@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f80fdd36c427f67c9b9966d3883803e31f61d740485e9582dfec188f0175e42c",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是补充学员379的案例和“有想法就搞”的观点，没有明确纠正或要求机器人改变执行方式；机器人当时只给分析建议未动手。\"}",
+ "user_sha256": "3427fa971be431aa087d11ffc17fd87b217311e9a6b6c2a84d91c1f8132f9584",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是接着聊、补充自己的看法，没有纠正或要求改变做法；机器人前一条也只是给方向和建议，没有执行动作。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1018,
-   "completion_tokens": 5219,
-   "total_tokens": 6237,
-   "cost": 0.002537022,
+   "prompt_tokens": 1014,
+   "completion_tokens": 1411,
+   "total_tokens": 2425,
+   "cost": 0.000746662,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002537022,
-    "upstream_inference_prompt_cost": 8.4092e-05,
-    "upstream_inference_completions_cost": 0.00245293
+    "upstream_inference_cost": 0.000746662,
+    "upstream_inference_prompt_cost": 8.3492e-05,
+    "upstream_inference_completions_cost": 0.00066317
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5157,
+    "reasoning_tokens": 1357,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M4",
   "intended_mode": "unknown",
-  "reason": "操作者只是补充学员379的案例和“有想法就搞”的观点，没有明确纠正或要求机器人改变执行方式；机器人当时只给分析建议未动手。"
+  "reason": "操作者只是接着聊、补充自己的看法，没有纠正或要求改变做法；机器人前一条也只是给方向和建议，没有执行动作。"
  },
  "parse_error": null
 }

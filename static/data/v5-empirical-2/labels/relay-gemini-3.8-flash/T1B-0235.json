@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b6ce8f39ec288e2645ab6d420df35efc3d5c41e4ed6c8455f246665b9b0d1b70",
- "text": "```json\n{\n \"targets\": \"none\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人给出了完整的执行提示词和指引交由用户去本机跑（只给方案/建议，自己不动手），操作者未出声默认接受。\"\n}\n```",
+ "user_sha256": "099bddcf519497fb72a584905459c16b000e2d07ee08235d26e6a24261e6833a",
+ "text": "```json\n{\n \"targets\": \"none\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人提供操作指引与提示词交由用户自行执行（M4），操作者未出声默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2366,
-   "completion_tokens": 174,
-   "total_tokens": 2540,
+   "prompt_tokens": 2350,
+   "completion_tokens": 284,
+   "total_tokens": 2634,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 2366,
+    "text_tokens": 2350,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 74,
+    "text_tokens": 64,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 100
+    "reasoning_tokens": 220
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人给出了完整的执行提示词和指引交由用户去本机跑（只给方案/建议，自己不动手），操作者未出声默认接受。"
+  "reason": "机器人提供操作指引与提示词交由用户自行执行（M4），操作者未出声默认接受。"
  },
  "parse_error": null
 }

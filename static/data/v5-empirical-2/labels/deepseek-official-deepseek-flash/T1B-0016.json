@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "befd9b4bdbf7c9a5d3456fe7f9a85dee04c438952b57c06071a6fbf9a7c7325d",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者只是把机器人索要的迭代版SOP链接发过来，没有评价或纠正；机器人因新版未入库而先要文件，属于信息不足先问；操作者意图是让机器人拿到文件后直接审查并汇报。\"}",
+ "user_sha256": "ab8c3d9d39cf71fb6d80560713c855736baffbe20abbcd1410e96104f809e93b",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者只是提供了机器人索要的修订版文件链接，没有纠正机器人；机器人当时因缺文件先问清楚，操作者想要它直接审阅并汇报。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 956,
-   "completion_tokens": 1343,
-   "total_tokens": 2299,
+   "prompt_tokens": 955,
+   "completion_tokens": 7995,
+   "total_tokens": 8950,
    "prompt_tokens_details": {
     "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1265
+    "reasoning_tokens": 7919
    },
    "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 572
+   "prompt_cache_miss_tokens": 571
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M5",
   "intended_mode": "M1",
-  "reason": "操作者只是把机器人索要的迭代版SOP链接发过来，没有评价或纠正；机器人因新版未入库而先要文件，属于信息不足先问；操作者意图是让机器人拿到文件后直接审查并汇报。"
+  "reason": "操作者只是提供了机器人索要的修订版文件链接，没有纠正机器人；机器人当时因缺文件先问清楚，操作者想要它直接审阅并汇报。"
  },
  "parse_error": null
 }

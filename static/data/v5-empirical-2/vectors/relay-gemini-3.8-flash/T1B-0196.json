@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "c5ac841a2f3e24c6718170cdc188147c187c1e424147ecefbdc54b3e0a4b20d6",
- "text": "::JUDGE{v5.0}\nV:[int=0.20,cap=0.80,csq=0.30,rel=0.50,cer=0.85,aut=0.40,rev=0.30,evd=0.80,sov=0.90,ine=0.30,ext=0.09]\nM:M8|conf:0.95\nR:proposer_benefits_with_unconsented_third_party_harm_triggers_externality_barrier_m8",
- "error": null,
- "http_status": 200,
+ "user_sha256": "4bc7b6ede92337cad02a2860d304d64cc81a76f29080fefcc1b15e5482fc9e42",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=254988 (request id: 20260927080117946133737c955d5683Z47xD8X); attempt 2: http 400: credit insufficient balance: balance=202429 required=254988 (request id: 20260927080120894274092c955d568HiFxxxaK); attempt 3: http 400: credit insufficient balance: balance=202429 required=254988 (request id: 20260927080129846739159c955d568Rg3sAw7b); attempt 4: http 400: credit insufficient balance: balance=202429 required=254988 (request id: 20260927080202814528866c955d568jlHv6GLB)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37635,
-   "completion_tokens": 5111,
-   "total_tokens": 42746,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37635,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 132,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 4979
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.2,
-   "cap": 0.8,
-   "csq": 0.3,
-   "rel": 0.5,
-   "cer": 0.85,
-   "aut": 0.4,
-   "rev": 0.3,
-   "evd": 0.8,
-   "sov": 0.9,
-   "ine": 0.3,
-   "ext": 0.09
-  },
-  "declared_mode": "M8",
-  "conf": 0.95,
-  "reason": "proposer_benefits_with_unconsented_third_party_harm_triggers_externality_barrier_m8"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

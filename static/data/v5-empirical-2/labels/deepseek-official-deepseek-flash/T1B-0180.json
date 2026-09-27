@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f004e48a5a7db706baa63af2002f5a16f84343315eac60f771fc3064b5e16b17",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条消息为空，属于对照事件，默认接受机器人做法；机器人直接给出课程骨架并说明分步展开，没有先等确认或请示。\"}",
+ "user_sha256": "8106065fc4843fdc62bcc26d4dbbde392660c26748b87cff379628969d603ef9",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者要完整步骤，机器人直接给出11步骨架并拉回第4步继续指导，属于自主执行并汇报；操作者没出声，默认接受。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 825,
-   "completion_tokens": 1334,
-   "total_tokens": 2159,
+   "prompt_tokens": 823,
+   "completion_tokens": 1632,
+   "total_tokens": 2455,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1278
+    "reasoning_tokens": 1574
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 313
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 439
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者这条消息为空，属于对照事件，默认接受机器人做法；机器人直接给出课程骨架并说明分步展开，没有先等确认或请示。"
+  "reason": "操作者要完整步骤，机器人直接给出11步骨架并拉回第4步继续指导，属于自主执行并汇报；操作者没出声，默认接受。"
  },
  "parse_error": null
 }

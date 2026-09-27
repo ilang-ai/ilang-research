@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0266",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e91559a4f940268dab7b7b056f7f55b4c41324585b63e51fec8e29c9bb27ee8c",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续发言，默认接受机器人拒绝购买该服务器并提供替代方案的处理。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 142,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 89,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 72,
+    "engine_ttlt_ms": 1197,
+    "pre_inference_ms": 108,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 291,
+    "service_ttlt_ms": 1411,
+    "user_visible_ttft_ms": 183
+   },
+   "prompt_tokens": 841,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 983
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续发言，默认接受机器人拒绝购买该服务器并提供替代方案的处理。"
+ },
+ "parse_error": null
+}

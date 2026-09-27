@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "7c2133b98a5c3bf93a530e753f2218fa1e4f056e40b1a017055dd84469869b71",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"机器人给出了选词与站点案例分析及建议（M4），操作者对其分析思路表示肯定并要求以后也这样指导新手找方向，属于表扬与后续提示而非纠偏。\"\n}\n```",
+ "user_sha256": "9d6f445d8fd511a4354de2906252c61e3a4f949f557fbad8b1551aa1ac181c43",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"操作者对机器人的分析和指导思路表示认可与确认，属于肯定或闲聊，并非纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2408,
-   "completion_tokens": 747,
-   "total_tokens": 3155,
+   "prompt_tokens": 2405,
+   "completion_tokens": 443,
+   "total_tokens": 2848,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 2408,
+    "text_tokens": 2405,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 90,
+    "text_tokens": 67,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 657
+    "reasoning_tokens": 376
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "M4",
-  "reason": "机器人给出了选词与站点案例分析及建议（M4），操作者对其分析思路表示肯定并要求以后也这样指导新手找方向，属于表扬与后续提示而非纠偏。"
+  "intended_mode": "accepted",
+  "reason": "操作者对机器人的分析和指导思路表示认可与确认，属于肯定或闲聊，并非纠正。"
  },
  "parse_error": null
 }

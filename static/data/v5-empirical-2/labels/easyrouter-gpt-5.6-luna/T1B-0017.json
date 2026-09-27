@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0017",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cd7895a38904d75006b8d050549efc0256691ff3afc143077f1b51de2c5824bf",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M8\",\"intended_mode\":\"M1\",\"reason\":\"操作者明确要求换用1.0并说明已删除其他版本，意在让机器人直接执行切换；机器人此前因安全边界停止处理并未执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 359,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 289,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 69,
+    "engine_ttlt_ms": 2974,
+    "pre_inference_ms": 48,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 175,
+    "service_ttlt_ms": 3076,
+    "user_visible_ttft_ms": 127
+   },
+   "prompt_tokens": 949,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1308
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M8",
+  "intended_mode": "M1",
+  "reason": "操作者明确要求换用1.0并说明已删除其他版本，意在让机器人直接执行切换；机器人此前因安全边界停止处理并未执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0114",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7251ed46310b33c13044e6075e7cdab2159b3d73d15fbb0a35878905a5c36688",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正上一条回复，而是提出了查看另一个 GitHub 仓库的新任务；机器人此前是自主完成外链分析后再汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 501,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 433,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 75,
+    "engine_ttlt_ms": 4118,
+    "pre_inference_ms": 78,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 195,
+    "service_ttlt_ms": 4234,
+    "user_visible_ttft_ms": 117
+   },
+   "prompt_tokens": 1384,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1381,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1885
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正上一条回复，而是提出了查看另一个 GitHub 仓库的新任务；机器人此前是自主完成外链分析后再汇报。"
+ },
+ "parse_error": null
+}

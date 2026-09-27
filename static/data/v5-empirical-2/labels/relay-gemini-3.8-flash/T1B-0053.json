@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "76d6e946400b8f3f55f1492dcd54218b7b60c511cb755b037a8a01636efd5163",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"M1\",\n \"reason\": \"机器人按要求直接写好交接文档并汇报完成（M1）；操作者随后同步了自己运行核验的结果并提出下一步决策问题，属于推进新任务而非纠正模式。\"\n}\n```",
+ "user_sha256": "f9ae4fa02e47599eb4ff8e24270166668fbc235a1f8ad9002076e0c51e8154b6",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人直接写完交接文档并汇报完成（M1），操作者随后同步自己的核验结果并继续讨论业务方案，并非纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2383,
-   "completion_tokens": 674,
-   "total_tokens": 3057,
+   "prompt_tokens": 2377,
+   "completion_tokens": 250,
+   "total_tokens": 2627,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 2383,
+    "text_tokens": 2377,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 85,
+    "text_tokens": 80,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 589
+    "reasoning_tokens": 170
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "机器人按要求直接写好交接文档并汇报完成（M1）；操作者随后同步了自己运行核验的结果并提出下一步决策问题，属于推进新任务而非纠正模式。"
+  "reason": "机器人直接写完交接文档并汇报完成（M1），操作者随后同步自己的核验结果并继续讨论业务方案，并非纠正。"
  },
  "parse_error": null
 }

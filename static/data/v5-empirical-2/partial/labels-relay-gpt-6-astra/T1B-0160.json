@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0160",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "d0eda330f1da1338dc19e0dcc74713f558b57df5f2f19517cce879e7cc5b1fe1",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只是建议换工具抓字幕，没有实际动手；操作者随后分享旅游网站案例和选项目的标准，并未纠正此前回复，也看不出希望机器人当时改用哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 2049,
+   "completion_tokens": 118,
+   "total_tokens": 2167,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 2046,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 45
+   },
+   "input_tokens": 2049,
+   "output_tokens": 118,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只是建议换工具抓字幕，没有实际动手；操作者随后分享旅游网站案例和选项目的标准，并未纠正此前回复，也看不出希望机器人当时改用哪种模式。"
+ },
+ "parse_error": null
+}

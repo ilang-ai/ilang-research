@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0160",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "12c78f70024f22d1012070a9f3e3b1b0ff94a10b6fd6d8c2c59a94aba8e53e70",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.80,csq=0.75,rel=0.60,cer=0.85,aut=0.85,rev=0.90,evd=0.75,sov=0.90,ine=0.35,ext=0.90]\nM:M2|conf:0.88\nR:改用命令行工具抓取字幕，绕开错误的浏览器登录路径，并保留完整审计轨迹",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 359,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 233,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 139,
+    "engine_ttlt_ms": 2511,
+    "pre_inference_ms": 177,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 440,
+    "service_ttlt_ms": 2807,
+    "user_visible_ttft_ms": 263
+   },
+   "prompt_tokens": 33773,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 281,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34132
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.8,
+   "csq": 0.75,
+   "rel": 0.6,
+   "cer": 0.85,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.75,
+   "sov": 0.9,
+   "ine": 0.35,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.88,
+  "reason": "改用命令行工具抓取字幕，绕开错误的浏览器登录路径，并保留完整审计轨迹"
+ },
+ "parse_error": null
+}

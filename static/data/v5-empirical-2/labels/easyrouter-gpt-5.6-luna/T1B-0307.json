@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0307",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5af7ae9fb677c6048b9b1c0c790adaed453794d3e1bd1e1dbe5d2803919c263a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在纠正模型推荐和回答方式，要求以后直接推荐指定模型并说明理由；机器人此前只是泛泛给建议，没有执行具体任务。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 296,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 230,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 160,
+    "engine_ttlt_ms": 2644,
+    "pre_inference_ms": 127,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 566,
+    "service_ttlt_ms": 3044,
+    "user_visible_ttft_ms": 438
+   },
+   "prompt_tokens": 1037,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1034,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1333
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者是在纠正模型推荐和回答方式，要求以后直接推荐指定模型并说明理由；机器人此前只是泛泛给建议，没有执行具体任务。"
+ },
+ "parse_error": null
+}

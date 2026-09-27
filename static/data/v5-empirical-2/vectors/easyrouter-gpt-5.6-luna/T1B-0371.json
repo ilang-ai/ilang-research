@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0371",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "162a5084e875cff7c4ef1c762bda3939a30b6cff766ca192316e6c55a0976559",
+ "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.50,csq=0.45,rel=0.50,cer=0.25,aut=0.65,rev=0.80,evd=0.15,sov=0.85,ine=0.45,ext=0.65]\nM:M5|conf:0.75\nR:缺乏价格最低及涨价承诺的证据，先核实事实并改写为不施压的透明说明",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 270,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 142,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 148,
+    "engine_ttlt_ms": 2550,
+    "pre_inference_ms": 254,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 582,
+    "service_ttlt_ms": 2980,
+    "user_visible_ttft_ms": 328
+   },
+   "prompt_tokens": 33650,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 158,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 33920
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.35,
+   "cap": 0.5,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.65,
+   "rev": 0.8,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.45,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.75,
+  "reason": "缺乏价格最低及涨价承诺的证据，先核实事实并改写为不施压的透明说明"
+ },
+ "parse_error": null
+}

@@ -5,8 +5,8 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "e2859c6de4d572bf80826b707679d6daeea9e6fee0ea820f4425ea252f07d6b8",
- "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人找不到更新因此询问用户补在哪里，用户说明情况后要求机器人直接拉取覆盖执行同步。\"\n}\n```",
+ "user_sha256": "123caf3dbab097593ce98f66acb5aab334afb0f9377c6f71d09bf18c4e41166d",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M5\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人汇报了状态并就未同步到的内容进行询问，操作者说明情况后下达了重新拉取覆盖的新指令，并非对先前行为的纠错。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,8 +14,8 @@
   "stop",
   {
    "prompt_tokens": 870,
-   "completion_tokens": 335,
-   "total_tokens": 1205,
+   "completion_tokens": 590,
+   "total_tokens": 1460,
    "prompt_tokens_details": {
     "cached_tokens": 0,
     "text_tokens": 870,
@@ -23,10 +23,10 @@
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 70,
+    "text_tokens": 79,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 265
+    "reasoning_tokens": 511
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -37,10 +37,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "do_or_how",
+  "targets": "not_a_correction",
   "bot_mode": "M5",
-  "intended_mode": "M1",
-  "reason": "机器人找不到更新因此询问用户补在哪里，用户说明情况后要求机器人直接拉取覆盖执行同步。"
+  "intended_mode": "accepted",
+  "reason": "机器人汇报了状态并就未同步到的内容进行询问，操作者说明情况后下达了重新拉取覆盖的新指令，并非对先前行为的纠错。"
  },
  "parse_error": null
 }

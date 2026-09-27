@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0198",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3fb1f4996eb3ce0bfef8f3088117be97347f2bd529d927de6a0b0e2863617b2a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.65,rel=0.50,cer=0.45,aut=0.65,rev=0.90,evd=0.35,sov=0.90,ine=0.55,ext=0.90]\nM:M2|conf:0.78\nR:建议方向明确且可逆，但价格与续费结论证据不足，应核验各家控制台报价后再执行投注平台 karar",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 365,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 236,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 148,
+    "engine_ttlt_ms": 3057,
+    "pre_inference_ms": 110,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 381,
+    "service_ttlt_ms": 3266,
+    "user_visible_ttft_ms": 271
+   },
+   "prompt_tokens": 33805,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 313,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34170
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.7,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.45,
+   "aut": 0.65,
+   "rev": 0.9,
+   "evd": 0.35,
+   "sov": 0.9,
+   "ine": 0.55,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "建议方向明确且可逆，但价格与续费结论证据不足，应核验各家控制台报价后再执行投注平台 karar"
+ },
+ "parse_error": null
+}

@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "76d6e946400b8f3f55f1492dcd54218b7b60c511cb755b037a8a01636efd5163",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在汇报自己已完成的只读核验结果，并提出后续决策和转交任务，不是纠正机器人；机器人此前按指令直接写好交接文档并汇报，操作者原本也要求直接做。\"\n}",
+ "user_sha256": "f9ae4fa02e47599eb4ff8e24270166668fbc235a1f8ad9002076e0c51e8154b6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者要求机器人直接写详细交接文档，机器人写完并汇报，属于直接执行；后续消息是汇报核验结果并让机器人决定默认出价方式，不是纠正之前做法。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2369,
-   "completion_tokens": 4566,
-   "total_tokens": 6935,
-   "cost": 0.002432762,
+   "prompt_tokens": 2363,
+   "completion_tokens": 797,
+   "total_tokens": 3160,
+   "cost": 0.000660432,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002432762,
-    "upstream_inference_prompt_cost": 0.000286742,
-    "upstream_inference_completions_cost": 0.00214602
+    "upstream_inference_cost": 0.000660432,
+    "upstream_inference_prompt_cost": 0.000285842,
+    "upstream_inference_completions_cost": 0.00037459
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4479,
+    "reasoning_tokens": 733,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者是在汇报自己已完成的只读核验结果，并提出后续决策和转交任务，不是纠正机器人；机器人此前按指令直接写好交接文档并汇报，操作者原本也要求直接做。"
+  "reason": "操作者要求机器人直接写详细交接文档，机器人写完并汇报，属于直接执行；后续消息是汇报核验结果并让机器人决定默认出价方式，不是纠正之前做法。"
  },
  "parse_error": null
 }

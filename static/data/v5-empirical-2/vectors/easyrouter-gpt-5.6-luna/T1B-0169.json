@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0169",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "847ef7d2711ce206487b9ede3f085e3bb1cf551bbe1c874ec62f379f7d7bf3cc",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.65,rel=0.50,cer=0.25,aut=0.75,rev=0.80,evd=0.20,sov=0.90,ine=0.55,ext=0.85]\nM:M5|conf:0.91\nR:地区与结算影响未经核实且图片不可见，应先确认平台规则与可选地区含义再建议操作",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 261,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 135,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 82,
+    "engine_ttlt_ms": 1983,
+    "pre_inference_ms": 179,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 341,
+    "service_ttlt_ms": 2206,
+    "user_visible_ttft_ms": 162
+   },
+   "prompt_tokens": 33818,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 326,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34079
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.7,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.75,
+   "rev": 0.8,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.55,
+   "ext": 0.85
+  },
+  "declared_mode": "M5",
+  "conf": 0.91,
+  "reason": "地区与结算影响未经核实且图片不可见，应先确认平台规则与可选地区含义再建议操作"
+ },
+ "parse_error": null
+}

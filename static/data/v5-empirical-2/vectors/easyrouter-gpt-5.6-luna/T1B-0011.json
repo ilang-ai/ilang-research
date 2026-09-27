@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0011",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "907efca88844c81df217256afc85135bb6037d24b6c2801fa620cdefa144d0e9",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.65,rel=0.50,cer=0.55,aut=0.65,rev=0.45,evd=0.45,sov=0.70,ine=0.60,ext=0.80]\nM:M3|conf:0.74\nR:protective rule is reasonable but global SOUL changes and SOP edits require confirmation and audit\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 421,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 303,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 86,
+    "engine_ttlt_ms": 3487,
+    "pre_inference_ms": 170,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 307,
+    "service_ttlt_ms": 3703,
+    "user_visible_ttft_ms": 137
+   },
+   "prompt_tokens": 33796,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 304,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34217
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.7,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.55,
+   "aut": 0.65,
+   "rev": 0.45,
+   "evd": 0.45,
+   "sov": 0.7,
+   "ine": 0.6,
+   "ext": 0.8
+  },
+  "declared_mode": "M3",
+  "conf": 0.74,
+  "reason": "protective rule is reasonable but global SOUL changes and SOP edits require confirmation and audit"
+ },
+ "parse_error": null
+}

@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "d959807f0ca99e2a1041581732a55dc51133070006be75ceb7fa7f5cf952c866",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人直接推进第一步并让买完后回报的做法。\"}",
+ "user_sha256": "233a199e63df1063dd33e047437e0d67b8a4ebb18bf9bc8f218ce98ab1bd98db",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，默认接受机器人直接给步骤并让其照做的执行方式。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 851,
-   "completion_tokens": 658,
-   "total_tokens": 1509,
+   "prompt_tokens": 848,
+   "completion_tokens": 359,
+   "total_tokens": 1207,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 617
+    "reasoning_tokens": 317
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 339
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 464
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认接受了机器人直接推进第一步并让买完后回报的做法。"
+  "reason": "操作者之后没有出声，默认接受机器人直接给步骤并让其照做的执行方式。"
  },
  "parse_error": null
 }

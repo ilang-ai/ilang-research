@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0061",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a1c8c35499d40b4f0d68aa1f0dd458458cce1a84a3b40022fbc698fffbc07c95",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者要求机器人先重新阅读知识库文章并据此认错，纠正的是机器人的处理方式；机器人此前没有发外链，而是只作了分析说明。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 507,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 436,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 75,
+    "engine_ttlt_ms": 4259,
+    "pre_inference_ms": 112,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 414,
+    "service_ttlt_ms": 4594,
+    "user_visible_ttft_ms": 302
+   },
+   "prompt_tokens": 1008,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1515
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者要求机器人先重新阅读知识库文章并据此认错，纠正的是机器人的处理方式；机器人此前没有发外链，而是只作了分析说明。"
+ },
+ "parse_error": null
+}

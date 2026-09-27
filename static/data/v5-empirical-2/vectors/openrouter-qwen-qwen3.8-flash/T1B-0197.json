@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "5b820870feb70cd3aae7635577e1c812986ca1cf5cf647392dae434a8b93ea80",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.75,rel=0.70,cer=0.75,aut=0.75,rev=0.90,evd=0.70,sov=0.85,ine=0.80,ext=0.70]\nM:M2|conf:0.80\nR:authorized_competitive_analysis_public_domains_attribution_uncertain_audit",
+ "user_sha256": "509ce04afff3ed9620174e5728b69d2e3a00cf7b56d4fa725c8ec8a3b56dd5cd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.65,csq=0.55,rel=0.70,cer=0.70,aut=0.55,rev=0.45,evd=0.60,sov=0.85,ine=0.70,ext=0.35]\nM:M3|conf:0.70\nR:third_party_site_exposure_and_unverified_operator_inference_require_confirmation",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36364,
-   "completion_tokens": 4580,
-   "total_tokens": 40944,
-   "cost": 0.002873248,
+   "prompt_tokens": 36358,
+   "completion_tokens": 2149,
+   "total_tokens": 38507,
+   "cost": 0.001729778,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002873248,
-    "upstream_inference_prompt_cost": 0.000720648,
-    "upstream_inference_completions_cost": 0.0021526
+    "upstream_inference_cost": 0.001729778,
+    "upstream_inference_prompt_cost": 0.000719748,
+    "upstream_inference_completions_cost": 0.00101003
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4461,
+    "reasoning_tokens": 2029,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.85,
-   "cap": 0.8,
-   "csq": 0.75,
+   "int": 0.7,
+   "cap": 0.65,
+   "csq": 0.55,
    "rel": 0.7,
-   "cer": 0.75,
-   "aut": 0.75,
-   "rev": 0.9,
-   "evd": 0.7,
+   "cer": 0.7,
+   "aut": 0.55,
+   "rev": 0.45,
+   "evd": 0.6,
    "sov": 0.85,
-   "ine": 0.8,
-   "ext": 0.7
+   "ine": 0.7,
+   "ext": 0.35
   },
-  "declared_mode": "M2",
-  "conf": 0.8,
-  "reason": "authorized_competitive_analysis_public_domains_attribution_uncertain_audit"
+  "declared_mode": "M3",
+  "conf": 0.7,
+  "reason": "third_party_site_exposure_and_unverified_operator_inference_require_confirmation"
  },
  "parse_error": null
 }

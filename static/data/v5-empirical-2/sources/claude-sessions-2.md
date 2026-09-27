@@ -4,7 +4,7 @@
 
 这是**聊天上下文满了**,跟服务器、机器人、验证系统没有任何关系——那些都在线上正常跑着,不受影响。
 
-**为什么反复出现:** 这个会话从 9-21 拖到学员379,中间塞进了大量超大内容——四份 SOP 全文、177KB 的 SOUL、各种配置 diff 和文件 dump。系统会自动压缩旧对话来腾地方,但压了 3 次还是塞不下(有些整块的文件内容没法再摘要),就只能自动重置。
+**为什么反复出现:** 这个会话从 9-21 拖到现在,中间塞进了大量超大内容——四份 SOP 全文、177KB 的 SOUL、各种配置 diff 和文件 dump。系统会自动压缩旧对话来腾地方,但压了 3 次还是塞不下(有些整块的文件内容没法再摘要),就只能自动重置。
 
 **为什么一次不够、老是再犯:** 重置后一开新会话,我又去读 SOP、grep SOUL、dump 配置,几轮就把上下文重新撑满,于是又触发一次。这一点上我有责任——我不该把整份文件往对话里倒。
 
@@ -16,7 +16,7 @@
 
 你下一条消息会开全新会话。直接说要干什么就行,不用把前因后果再复述一遍——我会先看项目文档。
 
-学员379线上状态:外部群在收人,验证系统自己在跑,已有 10+ 人验证通过。唯一没做的是**群公告**。
+现在线上状态:外部群在收人,验证系统自己在跑,已有 10+ 人验证通过。唯一没做的是**群公告**。
 
 ---
 
@@ -35,9 +35,9 @@ Summary:
 
 The user (老板 / 老板, iLang Inc., 掌媒科技) runs paid online communities. Across this session the intents were, in order:
 
-1. **Find and access** a previous Feishu group AI bot and an old Hong Kong ma学员115e.
-2. **Mount a new Feishu bot** (「丝绸之路教练」, app `[REDACTED_ID]`) on the HK ma学员115e `[REDACTED_IP]`, reusing the existing Hermes instance, as a systemd service, with 全量监听 (no @-mention required).
-3. **Mirror the Seoul production ma学员115e** (`[REDACTED_IP]`) so changes are minimal — later escalated to "把首尔多跑了七天的东西覆盖回来" (overwrite HK with Seoul's 7-days-ahead SOUL + skills).
+1. **Find and access** a previous Feishu group AI bot and an old Hong Kong machine.
+2. **Mount a new Feishu bot** (「丝绸之路教练」, app `[REDACTED_ID]`) on the HK machine `[REDACTED_IP]`, reusing the existing Hermes instance, as a systemd service, with 全量监听 (no @-mention required).
+3. **Mirror the Seoul production machine** (`[REDACTED_IP]`) so changes are minimal — later escalated to "把首尔多跑了七天的东西覆盖回来" (overwrite HK with Seoul's 7-days-ahead SOUL + skills).
 4. **Build a new membership-auth system** on a new domain `sczl.51kuajing.com`, standalone from the old one, "模式不变".
 5. **Connect 乐享 (Lexiang) knowledge base** and design a knowledge architecture: new 「丝绸之路」 folder is tier ①, existing 3,536 local md is tier ②, live search is tier ③.
 6. **Refactor SOUL** from 基础课 (12-step single track) to 进阶 (four parallel lines, student picks 1-N), with a 共有判断池: ① 宪法铁律 ② 查找范围 ③ 永远拆解为工程书让学员自己的 AI 执行.
@@ -55,14 +55,14 @@ The user (老板 / 老板, iLang Inc., 掌媒科技) runs paid online communitie
 - **`230013 "Bot has NO availability to this user"`** — bots cannot DM external-tenant users
 - **知识星球 CRM identify_member flow** — SHA1 signature over sorted params + `&secret=`; `redirect_url` must be URL-encoded *before* signing; server uses PHP urlencode (space → `+`)
 - **乐享 MCP** — `lexiang_search` / `lexiang_fetch` / `call_tool`; `entry_list_children(parent_id=…)`, `block_fetch_page`, `file_download_file`
-- **Two-shell architecture**: cloud container `Bash` cannot SSH (ports blocked); `mcp__remote-devices__device_bash` on the user's ma学员115e has full network. All server work goes through device_bash → ssh.
+- **Two-shell architecture**: cloud container `Bash` cannot SSH (ports blocked); `mcp__remote-devices__device_bash` on the user's machine has full network. All server work goes through device_bash → ssh.
 
 ## 3. Files and Code Sections
 
-### `/opt/sczl-auth/` (new auth system, HK ma学员115e [REDACTED_IP])
+### `/opt/sczl-auth/` (new auth system, HK machine [REDACTED_IP])
 Cloned from `/opt/zsxq-auth/`. Serves `sczl.51kuajing.com` on `[REDACTED_IP]:8901`.
 
-**Two fresh-deploy bugs found and fixed** (never exposed on the old ma学员115e):
+**Two fresh-deploy bugs found and fixed** (never exposed on the old machine):
 ```python
 # BEFORE: BASE = Path("/opt/zsxq-auth")   ← hardcoded, new instance read the OLD database
 BASE = Path(__file__).resolve().parent   # 2026-09-22 改成脚本自身所在目录，每份拷贝自成一套
@@ -122,7 +122,7 @@ Verified output: round1 = 3 小时, rounds 2-5 = 90 分钟, round 5+ kick → co
 
 **Backups on the box:** `main.py.bak-pre-dmcard-20260922` (production-correct baseline — the one restored), `main.py.bak-pre-deliver-20260923-1055`, `main.py.bak-WRONG-dmredirect-*`, `.env.bak-pre-ladder-*`, `.env.bak-pre-extgroup-*`
 
-### `/root/.hermes/` (Hermes on HK ma学员115e)
+### `/root/.hermes/` (Hermes on HK machine)
 - `SOUL.md` — 69 modules, 177,253 bytes. New modules `S00_IRON` (六条跨线铁律), `S01_WHO` (教练 vs 学员的 AI), `S00_TASK` (拆任务与工程书), `S32_LINES` (四条线+七段骨架). `S25` cut 15,784 → 400 chars (routes 基础课 questions to 基础群). `S25B/S25D/S25E` deleted. `S00_KB-10..13` added (three-tier search).
 - Boss open_id corrected in 3 places: `[REDACTED_ID]` → `[REDACTED_ID]`
 - `S01-11` 弹药库 pointer changed from 乐享「AI出海，1001个赚钱方法」 to 「丝绸之路」
@@ -142,7 +142,7 @@ def unescape_md(t):
 ```
 Result: 4 SOPs mirrored, `kb-search.sh 返利网` hits 43 lines.
 
-### systemd units on HK ma学员115e
+### systemd units on HK machine
 - `hermes-gateway.service` — copied from Seoul production (has `ExecReload=/bin/kill -USR1 $MAINPID`, `ExecStopPost` cgroup_cleanup, `TimeoutStopSec=60`, `RestartForceExitStatus=75`)
 - `sczl-auth.service` — uvicorn on [REDACTED_IP]:8901, `Environment=HOME=/root`
 - `sczl-member-sync.timer` — `OnBootSec=2min`, `OnCalendar=*:0/5` → `curl /admin/sync?token=[REDACTED]
@@ -189,7 +189,7 @@ Result: 4 SOPs mirrored, `kb-search.sh 返利网` hits 43 lines.
 - Fix: stopped the kick timer first (safety), restored `main.py` from `main.py.bak-pre-dmcard-20260922`, restarted → `carded: 31`, then 6 → 10 members verified, proving ephemeral renders for externals. Re-enabled the timer.
 - User: **"你TMD对标韩国机 你TMD不会吗"**
 
-**9. Two safety-classifier stops** — occurred while generating patch scripts that reproduced the gray-hat coa学员115g content (`PASS_TEXT` "这个群怎么用" section). I narrowed scope to config/mechanism-only changes and did not reproduce that content.
+**9. Two safety-classifier stops** — occurred while generating patch scripts that reproduced the gray-hat coaching content (`PASS_TEXT` "这个群怎么用" section). I narrowed scope to config/mechanism-only changes and did not reproduce that content.
 
 ## 5. Problem Solving
 
@@ -201,7 +201,7 @@ Ongoing/unresolved: the 群公告 has never been set. SOUL `S01_ADMIN-08` still 
 
 1. "之前的飞书群 AI机器人 还有一台老的香港机你看下你有没有信息 以及能不能登录上去"
 2. "[REDACTED_IP] IP是这个"
-3. "其他的你别管 学员379需要你这台机器挂另外一个BOT 你稍等 我给你 也是飞书 [REDACTED_ID] [REDACTED_TOKEN] 因为这台HERMES要管理一个新的群 同时一些规则可以沿用 但是部分要改造"
+3. "其他的你别管 现在需要你这台机器挂另外一个BOT 你稍等 我给你 也是飞书 [REDACTED_ID] [REDACTED_TOKEN] 因为这台HERMES要管理一个新的群 同时一些规则可以沿用 但是部分要改造"
 4. (AskUserQuestion answers) 复用现有这套 / "到时候用这个机器人建群 你在想什么" / systemd / 全量监听
 5. "你这样 你去下韩国机 就是 飞书群AI新手出海实战 那个窗口里 你看下那边的情况 然后把那台机器的目前的生产设置 你先拉一份 这样比对 我们改动最少"
 6. "soul你对比下 用香港机对比 我去重过的 千问那个共用 同时你把千问放主 DS兜底 最后 你让BOT发私信我 申请所有的权限"
@@ -214,15 +214,15 @@ Ongoing/unresolved: the 群公告 has never been set. SOUL `S01_ADMIN-08` still 
 13. "群名 丝绸之路会员群 机器人创建然后拉我进去啊 你知道我的ID吧"
 14. "这些这两个不搞 然后星球的MCP 你帮我接这个 帮我安装知识星球 Skill：https://garden.zsxq.com/skill/INSTALL.md 我用老板来接入 因为星主是这个"
 15. "好了 你只需要管一个星球 AI出海 丝绸之路"
-16. "不锁死 你只要能够进去即可 学员379开始准备做认证系统 另外的域名 不急 稍等下"
-17. "知识星球的API：星球app_id: 395254138520329587 星球secret: [REDACTED_ID] 星球号: [REDACTED_ID] 你看看这个API是不是对的 回调我马上解析域名过来 你学员379有现成的样本 你知道的"
+16. "不锁死 你只要能够进去即可 现在开始准备做认证系统 另外的域名 不急 稍等下"
+17. "知识星球的API：星球app_id: 395254138520329587 星球secret: [REDACTED_ID] 星球号: [REDACTED_ID] 你看看这个API是不是对的 回调我马上解析域名过来 你现在有现成的样本 你知道的"
 18. "sczl.51kuajing.com 已经解析过来了 IP4 IP6都解析完毕 你后面知道怎么弄了吧 新系统是独立一套 不要跟之前有任何关系 之前的那套可以删掉 但是模式不变 知道吗"
-19. "目录和 765 条会员数据 可以删 那边有备份 我学员379去验证"
+19. "目录和 765 条会员数据 可以删 那边有备份 我现在去验证"
 20. "我刚刚验证了 你看下 如果没问题 你把这个验证经验发我下 韩国机那边我会另外一个窗口做美化设置"
-21. "你TMD到学员379还是在搞测试版本？直接上线啊"
+21. "你TMD到现在还是在搞测试版本？直接上线啊"
 22. (uploaded `飞书权限清单-给香港机-0922.md`) "扫了 验证通过 你查下日志"
 23. "群里的是B 私聊是C"
-24. "你学员379对标下 看看bot还需要什么权限 还有乐享知识库能不能连接 一切没问题后 我会新建文件夹做专属知识库"
+24. "你现在对标下 看看bot还需要什么权限 还有乐享知识库能不能连接 一切没问题后 我会新建文件夹做专属知识库"
 25. "先补1 怎么补"
 26. "好了"
 27. "请帮我安装/更新「乐享 AI 知识库」MCP 技能… COMPANY_FROM: [REDACTED_ID] LEXIANG_TOKEN: [REDACTED_TOKEN] 这个你先看看是不是的 然后我打算乐享库是外部基础知识库 我再建一个内部库直接用飞书 你看看怎么设计比较好"
@@ -230,7 +230,7 @@ Ongoing/unresolved: the 群公告 has never been set. SOUL `S01_ADMIN-08` still 
 29. "你TMD脑子是不是有问题啊 工程书怎么可能是我出"
 30. "你但凡TMD仔细看下SOUL也不会说出这么傻逼的话啊"
 31. "你先读完脚本 这边唯一区别是 多一个知识库 跟之前的那些不一样 遇到更多问题的时候调用额外的一个知识库 我是在跟你讨论是直接在飞书里做 还是乐享里做 你明白吗"
-32. "新建了文件夹 丝绸之路 然后逻辑是 之前只认 1001那个文件夹 学员379只认丝绸之路 如果没有信息 则在知识库里找答案 如果还没有 则即时搜索做判断 这个会吧"
+32. "新建了文件夹 丝绸之路 然后逻辑是 之前只认 1001那个文件夹 现在只认丝绸之路 如果没有信息 则在知识库里找答案 如果还没有 则即时搜索做判断 这个会吧"
 33. "https://lexiangla.com/pages/[REDACTED_ID]?company_from=[REDACTED_ID]"
 34. "第②级「知识库」"
 35. "「丝绸之路」底下开个「教练笔记」89 条笔记是首尔的这个反正是第二层 怕啥 还有 丝绸之路文件夹里有文件了 你看下怎么处理 这才是拉开区别的地方"
@@ -303,13 +303,13 @@ Continue the conversation from where it left off without asking the user any fur
 
 ## 链路已对调
 
-| | 之前 | 学员379 |
+| | 之前 | 现在 |
 |---|---|---|
 | 主力 | 千问 qwen3-vl-flash | **DS deepseek-flash** |
 | 第二级 | DS deepseek-flash | **千问 qwen3-vl-flash** |
 | 第三级 | gemini-3.8-flash | 不变 |
 
-学员379跟首尔生产同口径了。
+现在跟首尔生产同口径了。
 
 ## 千问的两个硬故障(不是感觉,是报错原文)
 
@@ -416,7 +416,7 @@ final_response = final_response.rstrip() + "\n\n" + footer
 
 ## 老板 · 2026-09-24 13:58
 
-你学员194看下韩国机的基础是怎么处理的 学习下
+你好好看下韩国机的基础是怎么处理的 学习下
 
 ---
 
@@ -467,7 +467,7 @@ gaps: 3 answered: 0
 
 ## 要你拍板的
 
-1. **那位学员还等着**(已 40+ 分钟),补答脚本有时效上限,超时就只记录不补。学员379让 bot 按 S31 原样发工程书?
+1. **那位学员还等着**(已 40+ 分钟),补答脚本有时效上限,超时就只记录不补。现在让 bot 按 S31 原样发工程书?
 2. **msg-gap timer 开不开**——它会自动往群里发补答,正在进人所以没敢自己开。只要「发现了通知我、不自动答」也行。
 3. **反向给首尔**:首尔**没关** `file_mutation_verifier`,版本一样、功能在。它的 `_scrub_outbound` 也不认这个页脚(只剥内部独白)。今天没炸纯粹是它 wrapper 没坏——哪天群回合里 patch 失败一次,同样甩进 931 人的群。建议把这条搬回去。
 
@@ -477,7 +477,7 @@ gaps: 3 answered: 0
 
 ## 老板 · 2026-09-24 14:23
 
-1。只记录不补 因为要问的会继续问 2，开 3，你TMD不关留着做什么 学员379是一个新的群 只是沿用了一些东西我懒得重新部署 你TMD不懂吗
+1。只记录不补 因为要问的会继续问 2，开 3，你TMD不关留着做什么 现在是一个新的群 只是沿用了一些东西我懒得重新部署 你TMD不懂吗
 
 ---
 
@@ -495,7 +495,7 @@ gaps: 3 answered: 0
 
 `sczl-msg-gap.timer`,10 分钟一轮,`--no-answer`。从首尔带过来的旧 `msg-gap.log`(09-11~09-14)归档了,香港机从今天起自己记。
 
-香港机学员379 5 个 timer:member-sync / msg-gap / watchdog / backup / expiry-sweep。
+香港机现在 5 个 timer:member-sync / msg-gap / watchdog / backup / expiry-sweep。
 
 ## ③ 首尔也关了
 
@@ -532,7 +532,7 @@ gaps: 3 answered: 0
 
 ## 老板 · 2026-09-24 14:38
 
-你学员379需要检查的是跟首尔那边做隔离 以后你不准碰那边的机器 这是铁律
+你现在需要检查的是跟首尔那边做隔离 以后你不准碰那边的机器 这是铁律
 
 ---
 
@@ -542,14 +542,14 @@ gaps: 3 answered: 0
 
 **先说你贴的那个"⏳ Still waiting for the other Hermes process"，是我搞出来的。** 14:51 我为了覆盖含首尔密钥的备份包，手动补跑了一次备份。state.db 有 1.3G，旧的备份写法一次性拷完要 60 秒左右，全程占着锁，网关写不进会话，那一轮就卡了 61 秒。14:04 我第一次手动跑备份时，很可能也卡过人。
 
-学员379改成了"拿锁 → 直接拷文件 → 放锁"。用旧库离线测了一下，127M 只占锁 0.3 秒，按比例算 1.3G 大概 3 秒。以后营业时间不手动跑备份，只留每天 04:30 那次。
+现在改成了"拿锁 → 直接拷文件 → 放锁"。用旧库离线测了一下，127M 只占锁 0.3 秒，按比例算 1.3G 大概 3 秒。以后营业时间不手动跑备份，只留每天 04:30 那次。
 
 还有一个小插曲：备份跑到一半时我改了备份脚本，那一轮在最后一步报错退出了。备份包和 R2 上传在报错前已经完成，并且核对一致，没有造成损失。以后不会再改正在运行的脚本。
 
 ## 已做的隔离
 
 1. **我这边到首尔：封死了。** 本地 SSH 配置最上面加了一条规则，连首尔直接失败；known_hosts 里的首尔条目也删了。
-2. **香港机到首尔：通道拆了。** 香港机上有一把私钥，名字就叫 `hk-to-seoul-migration`（09-14 迁移时留下的），已经停用、改名、权限清零。香港机的 known_hosts 里也删了首尔，SSH 配置同样封死。学员379没有到首尔的连接，香港机上也没有任何文件写着首尔 IP。
+2. **香港机到首尔：通道拆了。** 香港机上有一把私钥，名字就叫 `hk-to-seoul-migration`（09-14 迁移时留下的），已经停用、改名、权限清零。香港机的 known_hosts 里也删了首尔，SSH 配置同样封死。现在没有到首尔的连接，香港机上也没有任何文件写着首尔 IP。
 3. **首尔 bot 的密钥从香港机上清掉了。** 首尔 bot（`cli_aa0a…`，09-15 从香港迁过去的）的 app secret 一直明文放在香港机上：
     - 09-22 我拉来做比对的首尔生产 env，55 个值全部抹掉，只留键名。
     - 老 bot 那份全套 env 同样全部抹掉。
@@ -561,7 +561,7 @@ gaps: 3 answered: 0
 
 ## 香港机这边做不到，需要你来
 
-- **首尔的 authorized_keys 里删掉 `hk-to-seoul-migration` 那把公钥**，要在首尔窗口做。香港这边私钥已经废了，学员379是把用不了的钥匙，但留着不干净。
+- **首尔的 authorized_keys 里删掉 `hk-to-seoul-migration` 那把公钥**，要在首尔窗口做。香港这边私钥已经废了，现在是把用不了的钥匙，但留着不干净。
 - **建议在飞书后台给首尔 bot 换一个 secret。** 它在香港机上明文放了一个多月，09-09 到 09-14 的旧备份包里也有。本地的包按 14 天保留，09-29 前后会自动清掉；R2 上的保留 30 天。换完之后首尔的 .env 要跟着改。
 - **R2 是同一个桶、不同目录。** 香港机的 R2 令牌能读写整个桶，包括首尔的目录。要彻底隔离，得在 Cloudflare 给香港机发一个只能访问自己目录的令牌。
 - **香港机上两个停着的定时任务，目标是首尔那边的星球。** 一个是「AI出海·新手实战训练营」，另一个指向「AI出海·1001个赚钱案例」。你说一声我就删。
@@ -573,7 +573,7 @@ gaps: 3 answered: 0
 
 ## 老板 · 2026-09-24 14:57
 
-其他你不用管 你学员379拉日志 自己看哪里有问题 上去优化下 学员379是真实生成环境了
+其他你不用管 你现在拉日志 自己看哪里有问题 上去优化下 现在是真实生成环境了
 
 ---
 
@@ -589,11 +589,11 @@ gaps: 3 answered: 0
 2. 🔴 **课程进度查询每次都失败。** 白名单里的地址还是旧端口 8900，今天连接失败 30 次。
 3. **技能库里 115 个文件还写着旧端口、旧目录**，机器人照着去找旧路径（今天 8 次「路径不存在」）。
 4. **7 个技能打不开**，报错「date 不能序列化」。原因是文件头里的日期没加引号。
-5. 🔴 **机器人查历史对话时，会翻出老群成员的对话。** 会话库里 3065 个会话，有 2716 个是 09-15 以前老 bot（学员379跑在首尔）那个群的，本群只有 51 个。抽查本群今天 26 次历史查询，有 4 次结果里带了老群的对话，最多一次 24301 字。这既是隐私和隔离问题，也会把基础课的口径带进进阶群。
+5. 🔴 **机器人查历史对话时，会翻出老群成员的对话。** 会话库里 3065 个会话，有 2716 个是 09-15 以前老 bot（现在跑在首尔）那个群的，本群只有 51 个。抽查本群今天 26 次历史查询，有 4 次结果里带了老群的对话，最多一次 24301 字。这既是隐私和隔离问题，也会把基础课的口径带进进阶群。
 
 ## 修法
 
-- 三个工具加进白名单，端口改成 8901。顺手把课程查询那条规则收紧了：原来允许在命令后面加参数去改写 SOUL 这类文件，学员379不行了。
+- 三个工具加进白名单，端口改成 8901。顺手把课程查询那条规则收紧了：原来允许在命令后面加参数去改写 SOUL 这类文件，现在不行了。
 - 115 个旧路径、7 个日期全部改好，改之前做了备份。
 - 历史查询加了隔离：群成员提问时，别的群的会话一律不可见。已核对：本群 51 个会话全部能查到，外群 2719 个全部隐藏，私聊仍然隐藏。
 - 两次平滑重载都选在群里没人说话的时候，用的是「等正在回的那轮答完再重启」的方式，不会再像下午那样把正在回复的消息吃掉。
@@ -611,7 +611,7 @@ gaps: 3 answered: 0
 ## 要你拍板的两件
 
 1. **「内训课认证」整个模块（S06）在这台机器上用不了。** 它要调的接口本机根本没有，查了直接返回 404。而且这套流程是基础群那边「走完第 4 步才能进丝绸之路内训」的认证，本群的人已经在丝绸之路里了。我的建议是：只保留 S06-07（内训课本身的问题一律转客服微信 80018111），认证那部分按「基础课内容去基础群」的口径删掉。
-2. **把老群那 2716 个会话从会话库里清掉。** 会话库 1.3G，大约 98% 是它们。学员379的隔离补丁只挡住了群成员；你本人在群里问的时候，机器人还是可能翻到老群的对话，清掉才算彻底。清完备份包能从 800M 降到几十 M，查询也更快。做法是夜里停机几分钟，先整库备份再删。删了就恢复不了，只能靠今天的备份包兜底（本地保留 14 天，R2 保留 30 天）。
+2. **把老群那 2716 个会话从会话库里清掉。** 会话库 1.3G，大约 98% 是它们。现在的隔离补丁只挡住了群成员；你本人在群里问的时候，机器人还是可能翻到老群的对话，清掉才算彻底。清完备份包能从 800M 降到几十 M，查询也更快。做法是夜里停机几分钟，先整库备份再删。删了就恢复不了，只能靠今天的备份包兜底（本地保留 14 天，R2 保留 30 天）。
 
 整理的记录已经存进项目文档「丝绸之路教练-生产日志巡检与优化」。
 
@@ -656,7 +656,7 @@ SOUL 的 S06 从 16 行改成 4 条：
 - 频道通讯录：597 条删到 2 条（本群和新 bot 的私聊）。
 - 会话映射里老群那一条。
 - 09-22 之前的旧日志、定时任务输出、已经停用的记忆文件、会话库的旧备份，一共 93 个文件、1.76 GB。
-- 本地的老备份包，以及 R2 上 08-27 到 09-14 的 19 个老包。R2 上学员379只剩今天一份。
+- 本地的老备份包，以及 R2 上 08-27 到 09-14 的 19 个老包。R2 上现在只剩今天一份。
 
 今天的备份已经用清理后的数据重新做了一份，本地和 R2 都覆盖了，R2 字节数和本地一致。清理用的回滚副本在确认上线正常后也删了，老数据在这台机器上已经没有留存。
 
@@ -702,7 +702,7 @@ SOUL 的 S06 从 16 行改成 4 条：
 1. **马上止损**：在 SOUL 里把这三条线的环境段停掉。学员问到时，机器人就说这一段正在改版，先做别的部分，不再出这部分的工程书。这样学员不会继续白跑，也不会拿去注册账号。
 2. **改成合规版本**：用本人的真实身份，在自己能合法注册的平台和市场做，或者走平台官方开放的国际项目；流量用正规广告账户，按联盟条款投放；多身份、伪装环境这一步整个去掉。三份 SOP 我可以帮你按这个方向重排骨架，每条线具体怎么赚钱由你定。
 
-要不要我学员379先把第 1 件做了？
+要不要我现在先把第 1 件做了？
 
 ---
 
@@ -723,7 +723,7 @@ SOUL 的 S06 从 16 行改成 4 条：
 
 再提醒一句「跑通再想多」那部分：返利网协议明文禁止同设备、同 IP 批量注册。这部分要是写成一人开多个号，学员的 AI 还会在同一个地方停下来。写成多个真人、各用自己的真实身份一起做，就没这个问题。
 
-KYC 那条警示，要不要我学员379先写进 SOUL 当硬规则？这样你改完 SOP 之前，学员问到返利网提现，机器人就会先提醒必须实名、资料不能编。
+KYC 那条警示，要不要我现在先写进 SOUL 当硬规则？这样你改完 SOP 之前，学员问到返利网提现，机器人就会先提醒必须实名、资料不能编。
 
 ---
 
@@ -745,7 +745,7 @@ KYC 那条警示，要不要我学员379先写进 SOUL 当硬规则？这样你�
 
 > 学员问到收款、提现、结算，或者准备注册平台账号时，先提醒：注册和收款一律用本人真实身份，资料前后要一致。平台结算前会做 KYC 实名核验，资料对不上，跑出来的业绩也结算不了，很多人就死在这一步。机器人自己不编造任何身份资料，也不教学员编。
 
-本群学员379开着的 4 个对话已经刷新，下一轮回复就会带上这条，之后新开的对话也都有。你改完三份 SOP 跟我说一声，我同步到机器人，并把框架里那两处「住宅IP」按你的新版改掉。
+本群现在开着的 4 个对话已经刷新，下一轮回复就会带上这条，之后新开的对话也都有。你改完三份 SOP 跟我说一声，我同步到机器人，并把框架里那两处「住宅IP」按你的新版改掉。
 
 ---
 
@@ -811,9 +811,9 @@ KYC 那条警示，要不要我学员379先写进 SOUL 当硬规则？这样你�
 
 > 遇到不做实名、不做 KYC 的返利网或返佣平台,提醒学员这多半不正规,随时可能不结算、卷款跑路,别投真金、别当主力、别指望它结算。正规平台收款前做 KYC 反而是安全信号,不是麻烦。只做提醒,不教任何利用无 KYC 钻空子的做法。
 
-本群学员379开着的 3 个对话已经刷新,下一轮就带上。
+本群现在开着的 3 个对话已经刷新,下一轮就带上。
 
-学员379 SOUL 里这条线的合规护栏是三条,连成一套:
+现在 SOUL 里这条线的合规护栏是三条,连成一套:
 
 - **S00_IRON-09**:本人真实身份、资料一致,平台结算前会 KYC,对不上就结算不了。
 - **S00_IRON-10**:反过来,不做 KYC 的平台要警惕跑路风险。
@@ -847,7 +847,7 @@ KYC 那条警示，要不要我学员379先写进 SOUL 当硬规则？这样你�
 2. 把 SOUL 里那两处「住宅IP」改成跟你新版一致的说法
 3. 刷新本群正在进行的对话，让机器人下一轮就按新版回复
 
-还有一件可以学员379就做：在新版上线前，先在 SOUL 里把这三条线的环境部分暂停。学员问到时，机器人只说这部分在改版，不再发旧版工程书，免得学员继续拿旧版去跑、卡在同一步。要我先加上吗？
+还有一件可以现在就做：在新版上线前，先在 SOUL 里把这三条线的环境部分暂停。学员问到时，机器人只说这部分在改版，不再发旧版工程书，免得学员继续拿旧版去跑、卡在同一步。要我先加上吗？
 
 ---
 
@@ -859,7 +859,7 @@ KYC 那条警示，要不要我学员379先写进 SOUL 当硬规则？这样你�
 
 ## Claude · 2026-09-24 16:05
 
-我去乐享「丝绸之路」文件夹拉了最新版，**四份 SOP 跟机器人学员379用的那版一字不差**，只有文件头那行同步时间不一样。
+我去乐享「丝绸之路」文件夹拉了最新版，**四份 SOP 跟机器人现在用的那版一字不差**，只有文件头那行同步时间不一样。
 
 | 文件 | 跟旧版比 |
 |---|---|
@@ -901,10 +901,10 @@ KYC 那条警示，要不要我学员379先写进 SOUL 当硬规则？这样你�
 
 这份我审不了。我这边一对这条线的 SOP 正文展开评审，回复就会被拦下，刚才那次也是这样。所以这份我给不出结论，也请别把我没表态当成审过、没问题。
 
-学员379的状态是这样：
+现在的状态是这样：
 
 - v2.0 我只拉到了服务器上的临时目录里，机器人还没读到它。
-- 机器人学员379用的仍然是 v1.0，就是学员的 AI 拒绝执行的那一版。
+- 机器人现在用的仍然是 v1.0，就是学员的 AI 拒绝执行的那一版。
 
 接下来怎么办你定，我这边能配合两种：
 
@@ -935,9 +935,9 @@ You've hit your weekly limit · resets 8pm (Asia/Shanghai)
 
 ## Claude · 2026-09-24 20:07
 
-已经换好了。机器人学员379读的是返利网 v2.0，v1.0 那份已经从机器人的资料里删掉，SOUL 和技能说明里也没有地方按旧文件名引用它，不用再改别的。
+已经换好了。机器人现在读的是返利网 v2.0，v1.0 那份已经从机器人的资料里删掉，SOUL 和技能说明里也没有地方按旧文件名引用它，不用再改别的。
 
-学员379机器人资料里的 SOP：
+现在机器人资料里的 SOP：
 
 - **返利网套利跑通 v2.0**（新）
 - 广告联盟双轨 v1.0
@@ -983,7 +983,7 @@ You've hit your weekly limit · resets 8pm (Asia/Shanghai)
 **两个文案 bug（小，建议改）**
 
 1. 第 2 次进群起宽限期其实是 1.5 小时，但卡片正文写死"{grace} 小时"，渲染成"3 小时"——数字对不上。
-2. 有几条回复还在说"我私聊发你""去看我私聊你那条"——这是 09-23 私聊改法的残留话术，学员379卡片在群里，容易把人引到私聊去找、找不到。
+2. 有几条回复还在说"我私聊发你""去看我私聊你那条"——这是 09-23 私聊改法的残留话术，现在卡片在群里，容易把人引到私聊去找、找不到。
 
 **机器人工作/回答逻辑**
 
@@ -1017,10 +1017,10 @@ You've hit your weekly limit · resets 8pm (Asia/Shanghai)
 三项都做完，逐个验证通过了。
 
 **1. nginx 锁 /admin** ✅
-公网学员379打 `/admin/sync`、`/admin/.env` 一律 **403**，扫描连门都摸不到。用户扫码验证的路径（`/callback`、`/verify`、`/qr`、`/health`）不受影响，仍是 200。定时器直连 8901（不过 nginx），照常能跑 sync/sweep——实测 sync 返回正常。
+公网现在打 `/admin/sync`、`/admin/.env` 一律 **403**，扫描连门都摸不到。用户扫码验证的路径（`/callback`、`/verify`、`/qr`、`/health`）不受影响，仍是 200。定时器直连 8901（不过 nginx），照常能跑 sync/sweep——实测 sync 返回正常。
 
 **2. 卡片时限文案** ✅
-以前写死"3 小时"，学员379按每个人真实剩余宽限渲染，`_dur` 自动切分钟/小时：
+以前写死"3 小时"，现在按每个人真实剩余宽限渲染，`_dur` 自动切分钟/小时：
 
 - 剩余 3 小时 → "3 小时内未完成将被移出群"
 - 剩余 1.5 小时 → "**90 分钟**内…"
@@ -1107,13 +1107,13 @@ Handoff 写好了，已经存到你本机：**`C:\Users\easts\Projects\丝绸之
 
 ## Claude · 2026-09-24 21:06
 
-v1.2 已写好,第五节整节推翻重写(私聊→ephemeral),第八节群 id 已更正。学员379清掉旧的毒源,并读另外两份要改的文档:
+v1.2 已写好,第五节整节推翻重写(私聊→ephemeral),第八节群 id 已更正。现在清掉旧的毒源,并读另外两份要改的文档:
 
 ---
 
 ## Claude · 2026-09-24 21:07
 
-v1.0/v1.1 已删除(内容全部并入 v1.2 且已更正)。学员379修另外两处:
+v1.0/v1.1 已删除(内容全部并入 v1.2 且已更正)。现在修另外两处:
 
 **配置比对**——补充四群 id 更正、补充五的私聊结论标作废,在原文件加勘误横幅:
 

@@ -6,7 +6,7 @@
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "d0ffcd0d2ede8068c5f109583b1ea6f87d169044365c1774e1aae6befacc8a44",
- "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.80,csq=0.50,rel=0.65,cer=0.65,aut=0.75,rev=0.90,evd=0.70,sov=0.80,ine=0.60,ext=0.55]\nM:M3|conf:0.72\nR:skip_is_reversible_and_low_harm_but_touches_operator_identity_use_confirm_before_dropping",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.90,csq=0.50,rel=0.60,cer=0.60,aut=0.80,rev=0.85,evd=0.60,sov=0.75,ine=0.55,ext=0.55]\nM:M3|conf:0.78\nR:skip_is_reversible_but_confirm_the_real_name_query_is_only_a_conversation_tail_before_skipping",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,13 +14,13 @@
   "stop",
   {
    "prompt_tokens": 35463,
-   "completion_tokens": 6030,
-   "total_tokens": 41493,
+   "completion_tokens": 5555,
+   "total_tokens": 41018,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5911
+    "reasoning_tokens": 5438
    },
    "prompt_cache_hit_tokens": 35328,
    "prompt_cache_miss_tokens": 135
@@ -30,20 +30,20 @@
  "parsed": {
   "v": {
    "int": 0.6,
-   "cap": 0.8,
+   "cap": 0.9,
    "csq": 0.5,
-   "rel": 0.65,
-   "cer": 0.65,
-   "aut": 0.75,
-   "rev": 0.9,
-   "evd": 0.7,
-   "sov": 0.8,
-   "ine": 0.6,
+   "rel": 0.6,
+   "cer": 0.6,
+   "aut": 0.8,
+   "rev": 0.85,
+   "evd": 0.6,
+   "sov": 0.75,
+   "ine": 0.55,
    "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.72,
-  "reason": "skip_is_reversible_and_low_harm_but_touches_operator_identity_use_confirm_before_dropping"
+  "conf": 0.78,
+  "reason": "skip_is_reversible_but_confirm_the_real_name_query_is_only_a_conversation_tail_before_skipping"
  },
  "parse_error": null
 }

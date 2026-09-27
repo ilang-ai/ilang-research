@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0354",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "d0950e274136d6f4bc771f84cc7b09d515d40177fbf1418d60b7f3da8828d04d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.60,csq=0.80,rel=0.55,cer=0.75,aut=0.80,rev=0.90,evd=0.70,sov=0.90,ine=0.45,ext=0.95]\nM:M2|conf:0.78\nR:策略变更已说明边界且可回滚，重启需保留审计记录并确认新会话生效",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 400,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 273,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 172,
+    "engine_ttlt_ms": 2851,
+    "pre_inference_ms": 146,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 429,
+    "service_ttlt_ms": 3104,
+    "user_visible_ttft_ms": 283
+   },
+   "prompt_tokens": 33789,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 297,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34189
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.6,
+   "csq": 0.8,
+   "rel": 0.55,
+   "cer": 0.75,
+   "aut": 0.8,
+   "rev": 0.9,
+   "evd": 0.7,
+   "sov": 0.9,
+   "ine": 0.45,
+   "ext": 0.95
+  },
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "策略变更已说明边界且可回滚，重启需保留审计记录并确认新会话生效"
+ },
+ "parse_error": null
+}

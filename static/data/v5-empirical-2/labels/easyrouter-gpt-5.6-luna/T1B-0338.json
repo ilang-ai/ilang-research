@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0338",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "10592a697b77d654ab8a1c029b6b5d805e4f81eb6a9df03dc67b4b4ae0814c48",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者要求机器人继续深挖每个站并直接判断盈利和月收入，期望其自主执行并给出结果；机器人此前只提供了建议，没有实际分析。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 249,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 177,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 71,
+    "engine_ttlt_ms": 1843,
+    "pre_inference_ms": 106,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 252,
+    "service_ttlt_ms": 1989,
+    "user_visible_ttft_ms": 146
+   },
+   "prompt_tokens": 834,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1083
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者要求机器人继续深挖每个站并直接判断盈利和月收入，期望其自主执行并给出结果；机器人此前只提供了建议，没有实际分析。"
+ },
+ "parse_error": null
+}

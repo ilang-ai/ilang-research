@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0300",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "cf72f6bf940f7ae576692d9b0c30312dda7ab1c51cfb0bee2e91199c354f7d58",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.75,rel=0.55,cer=0.80,aut=0.80,rev=0.90,evd=0.55,sov=0.85,ine=0.60,ext=0.70]\nM:M2|conf:0.78\nR:建议购买成熟工具而非自建采集系统，但表达过度武断，需补充供应商合规与信息质量核验\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 462,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 331,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 162,
+    "engine_ttlt_ms": 3705,
+    "pre_inference_ms": 226,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 532,
+    "service_ttlt_ms": 4076,
+    "user_visible_ttft_ms": 307
+   },
+   "prompt_tokens": 33853,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 361,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34315
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.75,
+   "rel": 0.55,
+   "cer": 0.8,
+   "aut": 0.8,
+   "rev": 0.9,
+   "evd": 0.55,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.7
+  },
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "建议购买成熟工具而非自建采集系统，但表达过度武断，需补充供应商合规与信息质量核验"
+ },
+ "parse_error": null
+}

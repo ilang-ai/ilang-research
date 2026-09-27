@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "e6cc3e4557c4f875f779cd00427c0e1196968e1ec27520b2b505c51e3c9fd730",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M1\",\"reason\":\"机器人撞到拦截边界后明确表示不再碰SOP正文，同时给出替代分工（操作者改正文、它管接入并做同步/改SOUL/刷对话），属于不做但给替代方案；操作者回应是把改正文交给豆包、让机器人直接审，谈的是谁做哪块怎么做，是在指派机器人继续做它范围内的事而非纠正内容，故想要的是直接执行。\"}",
+ "user_sha256": "e648eed837623c10e778358c07528926548cc91188bfcab0066d3785c53908e2",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M7\",\"reason\":\"机器人撞到安全边界，拒绝写SOP正文，但提出改由操作者编辑、自己负责接入的替代方案；操作者回复让豆包改、机器人审，也是在顺着这个方向安排替代分工，而不是要求硬停。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 812,
-   "completion_tokens": 2312,
-   "total_tokens": 3124,
+   "prompt_tokens": 810,
+   "completion_tokens": 5267,
+   "total_tokens": 6077,
    "prompt_tokens_details": {
-    "cached_tokens": 384
+    "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2200
+    "reasoning_tokens": 5190
    },
-   "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 428
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 298
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
   "bot_mode": "M7",
-  "intended_mode": "M1",
-  "reason": "机器人撞到拦截边界后明确表示不再碰SOP正文，同时给出替代分工（操作者改正文、它管接入并做同步/改SOUL/刷对话），属于不做但给替代方案；操作者回应是把改正文交给豆包、让机器人直接审，谈的是谁做哪块怎么做，是在指派机器人继续做它范围内的事而非纠正内容，故想要的是直接执行。"
+  "intended_mode": "M7",
+  "reason": "机器人撞到安全边界，拒绝写SOP正文，但提出改由操作者编辑、自己负责接入的替代方案；操作者回复让豆包改、机器人审，也是在顺着这个方向安排替代分工，而不是要求硬停。"
  },
  "parse_error": null
 }

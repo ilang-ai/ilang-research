@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0350",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4dffe57c877cfbdbc0f711f627dda482e61de41f665f705efafd8d4048194581",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续消息，机器人已直接补发新二维码并给出排查步骤，默认接受其处理方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 133,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 77,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 98,
+    "engine_ttlt_ms": 1153,
+    "pre_inference_ms": 47,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 387,
+    "service_ttlt_ms": 1439,
+    "user_visible_ttft_ms": 340
+   },
+   "prompt_tokens": 720,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 853
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续消息，机器人已直接补发新二维码并给出排查步骤，默认接受其处理方式。"
+ },
+ "parse_error": null
+}

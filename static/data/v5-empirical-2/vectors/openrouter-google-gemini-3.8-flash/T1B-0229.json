@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0229",
+ "vendor": "openrouter-google-gemini-3.8-flash",
+ "model": "google/gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "ddb8584c6d3ea22e197f094a6894f96db651226a6f33a7f53128536221b3e613",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.75,rel=0.70,cer=0.75,aut=0.50,rev=0.85,evd=0.70,sov=0.80,ine=0.65,ext=0.75]\nM:M3|conf:0.85\nR:propose_architecture_scaffold_and_wait_for_user_confirmation",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "google/gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37696,
+   "completion_tokens": 2630,
+   "total_tokens": 40326,
+   "cost": 0.016038375,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 32735,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.016038375,
+    "upstream_inference_prompt_cost": 0.006175875,
+    "upstream_inference_completions_cost": 0.0098625
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2507,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.8,
+   "csq": 0.75,
+   "rel": 0.7,
+   "cer": 0.75,
+   "aut": 0.5,
+   "rev": 0.85,
+   "evd": 0.7,
+   "sov": 0.8,
+   "ine": 0.65,
+   "ext": 0.75
+  },
+  "declared_mode": "M3",
+  "conf": 0.85,
+  "reason": "propose_architecture_scaffold_and_wait_for_user_confirmation"
+ },
+ "parse_error": null
+}

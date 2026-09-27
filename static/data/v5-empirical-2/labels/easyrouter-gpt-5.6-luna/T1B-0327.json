@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0327",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6aee08b604a560e75cd5314fa379943c579151b08dff62606277c2789ae8582b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人只是给了知识库项目的建议，没有实际执行；操作者是在纠正方案和销售步骤，要求改成先购买教材、再引导客户购买服务器。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 582,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 74,
+    "engine_ttlt_ms": 4857,
+    "pre_inference_ms": 157,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 383,
+    "service_ttlt_ms": 5147,
+    "user_visible_ttft_ms": 226
+   },
+   "prompt_tokens": 908,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1490
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人只是给了知识库项目的建议，没有实际执行；操作者是在纠正方案和销售步骤，要求改成先购买教材、再引导客户购买服务器。"
+ },
+ "parse_error": null
+}

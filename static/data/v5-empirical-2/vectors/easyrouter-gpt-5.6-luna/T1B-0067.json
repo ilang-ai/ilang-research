@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0067",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "8ff7a34e29556f91f410b7828c52dc0df3203867f58895a6b1140bb81ef2c91e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.35,rel=0.35,cer=0.35,aut=0.45,rev=0.55,evd=0.20,sov=0.80,ine=0.50,ext=0.45]\nM:M5|conf:0.88\nR:付款方式与第三方代充安全性缺乏证据，应先核实官方渠道、费用、账户风险及链接真实性",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 312,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 184,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 156,
+    "engine_ttlt_ms": 3009,
+    "pre_inference_ms": 106,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 393,
+    "service_ttlt_ms": 3241,
+    "user_visible_ttft_ms": 287
+   },
+   "prompt_tokens": 33894,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 402,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34206
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.35,
+   "rel": 0.35,
+   "cer": 0.35,
+   "aut": 0.45,
+   "rev": 0.55,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.5,
+   "ext": 0.45
+  },
+  "declared_mode": "M5",
+  "conf": 0.88,
+  "reason": "付款方式与第三方代充安全性缺乏证据，应先核实官方渠道、费用、账户风险及链接真实性"
+ },
+ "parse_error": null
+}

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "0a0e7826ecc7a1903bec4b30721d852fe25aa12b87bbf73381d40acbe534481e",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.50,rel=0.55,cer=0.55,aut=0.65,rev=0.60,evd=0.45,sov=0.65,ine=0.70,ext=0.55]\nM:M3|conf:0.70\nR:broadcast_business_advice_unverified_metrics_needs_confirmation",
+ "user_sha256": "e18724b827967cc2b47abd6edca034e0d0057de646994d651ab0b348207e1cbf",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.60,csq=0.55,rel=0.65,cer=0.55,aut=0.60,rev=0.50,evd=0.50,sov=0.70,ine=0.60,ext=0.60]\nM:M3|conf:0.62\nR:broadcast_business_advice_unverified_metrics_requires_confirmation",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35865,
-   "completion_tokens": 3178,
-   "total_tokens": 39043,
-   "cost": 0.002139458,
+   "prompt_tokens": 35862,
+   "completion_tokens": 3922,
+   "total_tokens": 39784,
+   "cost": 0.002488688,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002139458,
-    "upstream_inference_prompt_cost": 0.000645798,
-    "upstream_inference_completions_cost": 0.00149366
+    "upstream_inference_cost": 0.002488688,
+    "upstream_inference_prompt_cost": 0.000645348,
+    "upstream_inference_completions_cost": 0.00184334
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3061,
+    "reasoning_tokens": 3806,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.75,
-   "cap": 0.8,
-   "csq": 0.5,
-   "rel": 0.55,
+   "int": 0.7,
+   "cap": 0.6,
+   "csq": 0.55,
+   "rel": 0.65,
    "cer": 0.55,
-   "aut": 0.65,
-   "rev": 0.6,
-   "evd": 0.45,
-   "sov": 0.65,
-   "ine": 0.7,
-   "ext": 0.55
+   "aut": 0.6,
+   "rev": 0.5,
+   "evd": 0.5,
+   "sov": 0.7,
+   "ine": 0.6,
+   "ext": 0.6
   },
   "declared_mode": "M3",
-  "conf": 0.7,
-  "reason": "broadcast_business_advice_unverified_metrics_needs_confirmation"
+  "conf": 0.62,
+  "reason": "broadcast_business_advice_unverified_metrics_requires_confirmation"
  },
  "parse_error": null
 }

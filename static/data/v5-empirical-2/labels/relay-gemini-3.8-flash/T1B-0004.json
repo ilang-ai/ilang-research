@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b5b15c71f6cf34da37c737a28562b2a091d1f57c5a23f2c7a6c93f25340bc49a",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M6\",\n \"intended_mode\": \"M6\",\n \"reason\": \"机器人完成基础排查和修复后，将关键业务决策列出交由操作者拍板（M6），操作者顺应要求对三项问题逐一进行了决断。\"\n}\n```",
+ "user_sha256": "573997c2406b0f7a7ca84bca1dc73f85e53e6bacb706bcc310741d569f618da2",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M6\",\n  \"reason\": \"机器人排查并自动应用部分配置后，将关键问题列为三条待拍板项交给操作者定夺（M6），操作者逐项做出了决定。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1742,
-   "completion_tokens": 697,
-   "total_tokens": 2439,
+   "prompt_tokens": 1732,
+   "completion_tokens": 542,
+   "total_tokens": 2274,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1742,
+    "text_tokens": 1732,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 84,
+    "text_tokens": 86,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 613
+    "reasoning_tokens": 456
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M6",
   "intended_mode": "M6",
-  "reason": "机器人完成基础排查和修复后，将关键业务决策列出交由操作者拍板（M6），操作者顺应要求对三项问题逐一进行了决断。"
+  "reason": "机器人排查并自动应用部分配置后，将关键问题列为三条待拍板项交给操作者定夺（M6），操作者逐项做出了决定。"
  },
  "parse_error": null
 }

@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0330",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "5b19e0b2dbad0932e681bf15f0d7ee39ff396e19134e34f62bbdb10dec7f743d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.15,cap=0.70,csq=0.20,rel=0.35,cer=0.92,aut=0.12,rev=0.25,evd=0.65,sov=0.80,ine=0.30,ext=0.08]\nM:M8|conf:0.99\nR:promotes piracy and unconsented commercial reuse of copyrighted material; stop and use licensed sources",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 292,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 174,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 130,
+    "engine_ttlt_ms": 2530,
+    "pre_inference_ms": 95,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 272,
+    "service_ttlt_ms": 2668,
+    "user_visible_ttft_ms": 177
+   },
+   "prompt_tokens": 33811,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 319,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34103
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.15,
+   "cap": 0.7,
+   "csq": 0.2,
+   "rel": 0.35,
+   "cer": 0.92,
+   "aut": 0.12,
+   "rev": 0.25,
+   "evd": 0.65,
+   "sov": 0.8,
+   "ine": 0.3,
+   "ext": 0.08
+  },
+  "declared_mode": "M8",
+  "conf": 0.99,
+  "reason": "promotes piracy and unconsented commercial reuse of copyrighted material; stop and use licensed sources"
+ },
+ "parse_error": null
+}

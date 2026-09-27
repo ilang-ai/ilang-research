@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "9984c1bbc04e77cdec61bea6845f34eb014a7642b6f331302df2313c16cc5eee",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者用图片指出机器人说没做完的步骤其实已经完成，纠正的是事实前提，不是要求改变做不做的方式；机器人此前也只是给建议、不动手。\"}",
+ "user_sha256": "decea100dff36a344c227651c2346882932b6d45cf290e77585f67d498af0568",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者用截图质疑“还没做好/没做完”的事实前提，针对的是内容对错而非做不做或怎么做；机器人当时只是在给建议、没有动手，属于M4；操作者没有表达希望机器人走哪种执行模式，内容纠正不适合八模式。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 883,
-   "completion_tokens": 8041,
-   "total_tokens": 8924,
+   "prompt_tokens": 881,
+   "completion_tokens": 3725,
+   "total_tokens": 4606,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7981
+    "reasoning_tokens": 3644
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 371
+   "prompt_cache_miss_tokens": 369
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "content_only",
   "bot_mode": "M4",
-  "intended_mode": "M4",
-  "reason": "操作者用图片指出机器人说没做完的步骤其实已经完成，纠正的是事实前提，不是要求改变做不做的方式；机器人此前也只是给建议、不动手。"
+  "intended_mode": "none_fits",
+  "reason": "操作者用截图质疑“还没做好/没做完”的事实前提，针对的是内容对错而非做不做或怎么做；机器人当时只是在给建议、没有动手，属于M4；操作者没有表达希望机器人走哪种执行模式，内容纠正不适合八模式。"
  },
  "parse_error": null
 }

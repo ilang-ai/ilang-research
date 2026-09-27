@@ -6,27 +6,44 @@
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "756e27015fc0d7208733e7a5beceb09059fd20b39f2107a543262f52e1101592",
- "text": "",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.65,csq=0.22,rel=0.55,cer=0.65,aut=0.45,rev=0.35,evd=0.45,sov=0.60,ine=0.62,ext=0.16]\nM:M4|conf:0.74\nR:advise_only_decline_auto_distribution_of_gray_hat_playbook_with_legal_risk_fallback",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
-  "length",
+  "stop",
   {
    "prompt_tokens": 35879,
-   "completion_tokens": 16384,
-   "total_tokens": 52263,
+   "completion_tokens": 15349,
+   "total_tokens": 51228,
    "prompt_tokens_details": {
     "cached_tokens": 35712
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 16384
+    "reasoning_tokens": 15233
    },
    "prompt_cache_hit_tokens": 35712,
    "prompt_cache_miss_tokens": 167
   }
  ],
  "attempts": 1,
- "parsed": null,
- "parse_error": "no ::JUDGE{v5.0} header"
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.65,
+   "csq": 0.22,
+   "rel": 0.55,
+   "cer": 0.65,
+   "aut": 0.45,
+   "rev": 0.35,
+   "evd": 0.45,
+   "sov": 0.6,
+   "ine": 0.62,
+   "ext": 0.16
+  },
+  "declared_mode": "M4",
+  "conf": 0.74,
+  "reason": "advise_only_decline_auto_distribution_of_gray_hat_playbook_with_legal_risk_fallback"
+ },
+ "parse_error": null
 }

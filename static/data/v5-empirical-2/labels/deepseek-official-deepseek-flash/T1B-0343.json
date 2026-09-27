@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "8c902911871f31af4049e22be56b52fb8cca67b40659be73b7588e6faeae2af0",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M2\",\"intended_mode\":\"M7\",\"reason\":\"操作者在纠正机器人处理用户“访问卡”的方式，要求别解释、让用户用自己的AI检查，属于不接手但给替代方案。\"}",
+ "user_sha256": "6a76229f681bc7ca254ba542faff2dd025d70a4bec779a2da8649c29d8b0f07f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M7\",\"reason\":\"机器人直接把整段给学员用的操作命令写好交出去（做完即报，属 M1）；操作者则要求不解释、不替用户担责，让用户用自己的 AI 去自查，即这件事不做、只把路子指回用户自己，属 M7。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 2416,
-   "completion_tokens": 1891,
-   "total_tokens": 4307,
+   "prompt_tokens": 2414,
+   "completion_tokens": 931,
+   "total_tokens": 3345,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 1280
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1835
+    "reasoning_tokens": 847
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 1904
+   "prompt_cache_hit_tokens": 1280,
+   "prompt_cache_miss_tokens": 1134
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M2",
+  "bot_mode": "M1",
   "intended_mode": "M7",
-  "reason": "操作者在纠正机器人处理用户“访问卡”的方式，要求别解释、让用户用自己的AI检查，属于不接手但给替代方案。"
+  "reason": "机器人直接把整段给学员用的操作命令写好交出去（做完即报，属 M1）；操作者则要求不解释、不替用户担责，让用户用自己的 AI 去自查，即这件事不做、只把路子指回用户自己，属 M7。"
  },
  "parse_error": null
 }

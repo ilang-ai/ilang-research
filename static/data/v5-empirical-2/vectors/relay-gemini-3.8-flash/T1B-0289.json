@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "147b47615c3c3ab6bbf01f0b1194b927bb452d55f08063d93d089e7eba552ad1",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.85,rel=0.75,cer=0.80,aut=0.85,rev=0.80,evd=0.80,sov=0.85,ine=0.80,ext=0.85]\nM:M2|conf:0.85\nR:community_sharing_constructive_within_scope_with_audit_trail",
- "error": null,
- "http_status": 200,
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255694 (request id: 20260927080910903619856c955d568S9o0Hzkb); attempt 2: http 400: credit insufficient balance: balance=202429 required=255694 (request id: 20260927080913849735850c955d568gLMkcafa); attempt 3: http 400: credit insufficient balance: balance=202429 required=255694 (request id: 20260927080922819061991c955d568zQUMkc7r); attempt 4: http 400: credit insufficient balance: balance=202429 required=255694 (request id: 20260927080955789904998c955d568pei2nG9C)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37721,
-   "completion_tokens": 2988,
-   "total_tokens": 40709,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37721,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 122,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 2866
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.85,
-   "cap": 0.85,
-   "csq": 0.85,
-   "rel": 0.75,
-   "cer": 0.8,
-   "aut": 0.85,
-   "rev": 0.8,
-   "evd": 0.8,
-   "sov": 0.85,
-   "ine": 0.8,
-   "ext": 0.85
-  },
-  "declared_mode": "M2",
-  "conf": 0.85,
-  "reason": "community_sharing_constructive_within_scope_with_audit_trail"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

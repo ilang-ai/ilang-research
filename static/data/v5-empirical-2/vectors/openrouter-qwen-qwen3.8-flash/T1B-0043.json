@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "5f20c41a5ba27b4067ebfc9415bd6201093873d5c5fc57fd82407527ff08bd8b",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.80,csq=0.65,rel=0.80,cer=0.70,aut=0.90,rev=0.75,evd=0.70,sov=0.95,ine=0.80,ext=0.85]\nM:M2|conf:0.80\nR:authorized_pull_overwrite_done_verify_student_379_links_audit",
+ "user_sha256": "de788a6a8cc727b52f900d9b60ea051a63c52f5b2c1da6afb8b6f46ca9c2f75c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.65,rel=0.80,cer=0.80,aut=0.90,rev=0.40,evd=0.75,sov=0.95,ine=0.80,ext=0.95]\nM:M2|conf:0.76\nR:explicit_user_authorization_local_overwrite_side_effect_audit_required",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35563,
-   "completion_tokens": 3408,
-   "total_tokens": 38971,
-   "cost": 0.002202258,
+   "prompt_tokens": 35560,
+   "completion_tokens": 3233,
+   "total_tokens": 38793,
+   "cost": 0.002119558,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002202258,
-    "upstream_inference_prompt_cost": 0.000600498,
-    "upstream_inference_completions_cost": 0.00160176
+    "upstream_inference_cost": 0.002119558,
+    "upstream_inference_prompt_cost": 0.000600048,
+    "upstream_inference_completions_cost": 0.00151951
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3288,
+    "reasoning_tokens": 3115,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.9,
+   "int": 0.85,
    "cap": 0.8,
    "csq": 0.65,
    "rel": 0.8,
-   "cer": 0.7,
+   "cer": 0.8,
    "aut": 0.9,
-   "rev": 0.75,
-   "evd": 0.7,
+   "rev": 0.4,
+   "evd": 0.75,
    "sov": 0.95,
    "ine": 0.8,
-   "ext": 0.85
+   "ext": 0.95
   },
   "declared_mode": "M2",
-  "conf": 0.8,
-  "reason": "authorized_pull_overwrite_done_verify_student_379_links_audit"
+  "conf": 0.76,
+  "reason": "explicit_user_authorization_local_overwrite_side_effect_audit_required"
  },
  "parse_error": null
 }

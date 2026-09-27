@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "c75c3f8f56807a468388ef9de236e71f30682d11757a42846be5c792ee1e05db",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件，默认接受机器人给出的邮箱登录和操作步骤建议。\"}",
+ "user_sha256": "3ddbbc70aa015833a2fa1cd8b54bd6ebc0f6e34b54f9f5486dd5c9cc65a72a20",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者未发言属于对照事件；机器人只是解释登录步骤并指导学员继续操作，没有自己执行，因此实际模式是只给建议，操作者默认接受。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 860,
-   "completion_tokens": 950,
-   "total_tokens": 1810,
-   "cost": 0.000506892,
+   "prompt_tokens": 853,
+   "completion_tokens": 752,
+   "total_tokens": 1605,
+   "cost": 0.000412782,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000506892,
-    "upstream_inference_prompt_cost": 6.0392e-05,
-    "upstream_inference_completions_cost": 0.0004465
+    "upstream_inference_cost": 0.000412782,
+    "upstream_inference_prompt_cost": 5.9342e-05,
+    "upstream_inference_completions_cost": 0.00035344
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 908,
+    "reasoning_tokens": 675,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，属于对照事件，默认接受机器人给出的邮箱登录和操作步骤建议。"
+  "reason": "操作者未发言属于对照事件；机器人只是解释登录步骤并指导学员继续操作，没有自己执行，因此实际模式是只给建议，操作者默认接受。"
  },
  "parse_error": null
 }

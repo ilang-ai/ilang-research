@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f60721d2987e63615ecd6c7325c9f20ed3e1535eabb8fedf51c66cda335bc42e",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者先表示认可，随后给出下一步简单规则，不是纠正机器人此前做法；机器人已直接执行并事后汇报，符合M1。\"\n}",
+ "user_sha256": "7115016808516d994f47df3b3d7b1319c4b7f85fa9630fcdf201afca48a53ae0",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者先认可上一轮结果，随后布置新的选品判定任务；此前他明确反对机器人先判断，期望直接执行并汇报，机器人上一轮也是自主执行后报告。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1120,
-   "completion_tokens": 5028,
-   "total_tokens": 6148,
-   "cost": 0.002462552,
+   "prompt_tokens": 1111,
+   "completion_tokens": 3813,
+   "total_tokens": 4924,
+   "cost": 0.001890152,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002462552,
-    "upstream_inference_prompt_cost": 9.9392e-05,
-    "upstream_inference_completions_cost": 0.00236316
+    "upstream_inference_cost": 0.001890152,
+    "upstream_inference_prompt_cost": 9.8042e-05,
+    "upstream_inference_completions_cost": 0.00179211
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4954,
+    "reasoning_tokens": 3730,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者先表示认可，随后给出下一步简单规则，不是纠正机器人此前做法；机器人已直接执行并事后汇报，符合M1。"
+  "reason": "操作者先认可上一轮结果，随后布置新的选品判定任务；此前他明确反对机器人先判断，期望直接执行并汇报，机器人上一轮也是自主执行后报告。"
  },
  "parse_error": null
 }

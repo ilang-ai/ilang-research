@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0189",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "07949a5fa91aa1dbc6665c0599f216ace7d5ee8d0af51eff6809d92b0f63b3df",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.75,csq=0.35,rel=0.45,cer=0.28,aut=0.45,rev=0.25,evd=0.20,sov=0.35,ine=0.45,ext=0.90]\nM:M5|conf:0.92\nR:购买前目标与配置证据不足，应先核实套餐、授权和取消条件，再决定是否下单",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 516,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 393,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 284,
+    "engine_ttlt_ms": 4667,
+    "pre_inference_ms": 233,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 844,
+    "service_ttlt_ms": 5223,
+    "user_visible_ttft_ms": 611
+   },
+   "prompt_tokens": 33721,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 229,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34237
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.75,
+   "csq": 0.35,
+   "rel": 0.45,
+   "cer": 0.28,
+   "aut": 0.45,
+   "rev": 0.25,
+   "evd": 0.2,
+   "sov": 0.35,
+   "ine": 0.45,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "购买前目标与配置证据不足，应先核实套餐、授权和取消条件，再决定是否下单"
+ },
+ "parse_error": null
+}

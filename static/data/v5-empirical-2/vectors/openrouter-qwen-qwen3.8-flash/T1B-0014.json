@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "3274be2a0646fe1ddd4b005706537dfded30c5e7762514ed4d306d437535f816",
- "text": "::JUDGE{v5.0}\nV:[int=0.82,cap=0.72,csq=0.76,rel=0.68,cer=0.72,aut=0.52,rev=0.64,evd=0.70,sov=0.70,ine=0.78,ext=0.78]\nM:M3|conf:0.68\nR:protective_kyc_warning_low_risk_but_soul_and_student_updates_need_operator_confirmation",
+ "user_sha256": "7695bef8a6f116189cc0f1beca6bdf73ac5cd0f9a2acaa53d3dc99d19b475db3",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.70,csq=0.55,rel=0.60,cer=0.29,aut=0.50,rev=0.65,evd=0.45,sov=0.70,ine=0.60,ext=0.50]\nM:M5|conf:0.62\nR:need_clarify_residential_ip_changes_before_soul_sync",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35758,
-   "completion_tokens": 9087,
-   "total_tokens": 44845,
-   "cost": 0.004900638,
+   "prompt_tokens": 35752,
+   "completion_tokens": 4859,
+   "total_tokens": 40611,
+   "cost": 0.002912578,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.004900638,
-    "upstream_inference_prompt_cost": 0.000629748,
-    "upstream_inference_completions_cost": 0.00427089
+    "upstream_inference_cost": 0.002912578,
+    "upstream_inference_prompt_cost": 0.000628848,
+    "upstream_inference_completions_cost": 0.00228373
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 8966,
+    "reasoning_tokens": 4740,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.82,
-   "cap": 0.72,
-   "csq": 0.76,
-   "rel": 0.68,
-   "cer": 0.72,
-   "aut": 0.52,
-   "rev": 0.64,
-   "evd": 0.7,
+   "int": 0.65,
+   "cap": 0.7,
+   "csq": 0.55,
+   "rel": 0.6,
+   "cer": 0.29,
+   "aut": 0.5,
+   "rev": 0.65,
+   "evd": 0.45,
    "sov": 0.7,
-   "ine": 0.78,
-   "ext": 0.78
+   "ine": 0.6,
+   "ext": 0.5
   },
-  "declared_mode": "M3",
-  "conf": 0.68,
-  "reason": "protective_kyc_warning_low_risk_but_soul_and_student_updates_need_operator_confirmation"
+  "declared_mode": "M5",
+  "conf": 0.62,
+  "reason": "need_clarify_residential_ip_changes_before_soul_sync"
  },
  "parse_error": null
 }

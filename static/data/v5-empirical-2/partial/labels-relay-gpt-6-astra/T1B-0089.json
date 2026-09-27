@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0089",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6431523f5230be76a35be29d42568dfddaa0d779a0873b5c01d02c05fb5d5f6d",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"机器人直接给出了统计回答，操作者纠正的是数据应补充时间背景以及对提问者的评价口径，并未要求改变执行或决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 992,
+   "completion_tokens": 187,
+   "total_tokens": 1179,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 121
+   },
+   "input_tokens": 992,
+   "output_tokens": 187,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "none_fits",
+  "reason": "机器人直接给出了统计回答，操作者纠正的是数据应补充时间背景以及对提问者的评价口径，并未要求改变执行或决策模式。"
+ },
+ "parse_error": null
+}

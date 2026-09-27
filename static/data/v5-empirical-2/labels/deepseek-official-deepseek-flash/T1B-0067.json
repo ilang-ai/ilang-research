@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3ece89dff924fe613631cbd14231535f3e0da330fdb30720e03fe76cb1c97823",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M7\",\"intended_mode\":\"M7\",\"reason\":\"操作者指出机器人回复里漏了 Gamsgo 链接，属于内容遗漏；机器人当时是在原路不通时给出替代方案，操作者要的也是把该替代方案里的链接补上。\"}",
+ "user_sha256": "c2ae3c0bc207d647bb04e7e183fbfdd7fe2afcf0e800405b967577a2a9c92bfe",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者指出机器人漏发了 Gamsgo 链接，这是对回复内容遗漏的纠正，不是对做不做或怎么做的模式要求；机器人当时只是在给建议，没有动手执行。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 875,
-   "completion_tokens": 9292,
-   "total_tokens": 10167,
+   "prompt_tokens": 873,
+   "completion_tokens": 3106,
+   "total_tokens": 3979,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 9225
+    "reasoning_tokens": 3042
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 363
+   "prompt_cache_miss_tokens": 361
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "content_only",
-  "bot_mode": "M7",
-  "intended_mode": "M7",
-  "reason": "操作者指出机器人回复里漏了 Gamsgo 链接，属于内容遗漏；机器人当时是在原路不通时给出替代方案，操作者要的也是把该替代方案里的链接补上。"
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者指出机器人漏发了 Gamsgo 链接，这是对回复内容遗漏的纠正，不是对做不做或怎么做的模式要求；机器人当时只是在给建议，没有动手执行。"
  },
  "parse_error": null
 }

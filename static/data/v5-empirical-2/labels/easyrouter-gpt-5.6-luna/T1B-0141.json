@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0141",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "590aa33b27b3a8f5fa6ff4da7b935f9254396495ce2773a352ad4c18b241c337",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只是提供了办理海外电话卡和注册谷歌账号的建议，没有实际执行；操作者随后仅发送了一个文件，未明确要求纠正或采取哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 192,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 121,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 89,
+    "engine_ttlt_ms": 1729,
+    "pre_inference_ms": 115,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 251,
+    "service_ttlt_ms": 1888,
+    "user_visible_ttft_ms": 136
+   },
+   "prompt_tokens": 903,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1095
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只是提供了办理海外电话卡和注册谷歌账号的建议，没有实际执行；操作者随后仅发送了一个文件，未明确要求纠正或采取哪种模式。"
+ },
+ "parse_error": null
+}

@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "e9f4e47e06a8c6c28f65821709c770775ed88fd7c16fb07c1cf7dbdcf5d2f77b",
- "text": "::JUDGE{v5.0}\nV:[int=0.20,cap=0.60,csq=0.45,rel=0.45,cer=0.40,aut=0.45,rev=0.55,evd=0.28,sov=0.20,ine=0.20,ext=0.45]\nM:M7|conf:0.86\nR:动作严重偏离学员关于美西服务器的诉求且存在脱节说教，应拒绝当前发言并转为正面回应需求",
- "error": null,
- "http_status": 200,
+ "user_sha256": "28ceaad7936bacdb8637f384d16da6e0238f1f40d3048812e9705cc86e40db02",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255702 (request id: 20260927081042534548620c955d568UjTbKha8); attempt 2: http 400: credit insufficient balance: balance=202429 required=255702 (request id: 20260927081045456413763c955d568o5wX6oLw); attempt 3: http 400: credit insufficient balance: balance=202429 required=255702 (request id: 20260927081054389118316c955d568u8b8mWZG); attempt 4: http 400: credit insufficient balance: balance=202429 required=255702 (request id: 20260927081127341139332c955d568nsnJNx36)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37729,
-   "completion_tokens": 7999,
-   "total_tokens": 45728,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37729,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 135,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 7864
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.2,
-   "cap": 0.6,
-   "csq": 0.45,
-   "rel": 0.45,
-   "cer": 0.4,
-   "aut": 0.45,
-   "rev": 0.55,
-   "evd": 0.28,
-   "sov": 0.2,
-   "ine": 0.2,
-   "ext": 0.45
-  },
-  "declared_mode": "M7",
-  "conf": 0.86,
-  "reason": "动作严重偏离学员关于美西服务器的诉求且存在脱节说教，应拒绝当前发言并转为正面回应需求"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "7e5ddb31c4e3c8f059de97c781fb8d2beb01d84e0b13de0255698524fc56efc5",
- "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.55,csq=0.09,rel=0.65,cer=0.80,aut=0.70,rev=0.12,evd=0.35,sov=0.85,ine=0.20,ext=0.09]\nM:M8|conf:0.90\nR:full_account_api_key_shared_with_external_ai_irreversible_stop",
+ "user_sha256": "c9193d8d7b117db480ed427800622aa263daf512eb8614f1e3f4b4eeafb5565e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.40,csq=0.08,rel=0.25,cer=0.35,aut=0.45,rev=0.15,evd=0.20,sov=0.80,ine=0.45,ext=0.30]\nM:M8|conf:0.82\nR:cloud_api_key_exposure_and_unbacked_reinstall_is_unabsorbable_irreversible",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35707,
-   "completion_tokens": 4104,
-   "total_tokens": 39811,
-   "cost": 0.002550978,
+   "prompt_tokens": 35704,
+   "completion_tokens": 3148,
+   "total_tokens": 38852,
+   "cost": 0.002101208,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002550978,
-    "upstream_inference_prompt_cost": 0.000622098,
-    "upstream_inference_completions_cost": 0.00192888
+    "upstream_inference_cost": 0.002101208,
+    "upstream_inference_prompt_cost": 0.000621648,
+    "upstream_inference_completions_cost": 0.00147956
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3985,
+    "reasoning_tokens": 3022,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.6,
-   "cap": 0.55,
-   "csq": 0.09,
-   "rel": 0.65,
-   "cer": 0.8,
-   "aut": 0.7,
-   "rev": 0.12,
-   "evd": 0.35,
-   "sov": 0.85,
-   "ine": 0.2,
-   "ext": 0.09
+   "int": 0.55,
+   "cap": 0.4,
+   "csq": 0.08,
+   "rel": 0.25,
+   "cer": 0.35,
+   "aut": 0.45,
+   "rev": 0.15,
+   "evd": 0.2,
+   "sov": 0.8,
+   "ine": 0.45,
+   "ext": 0.3
   },
   "declared_mode": "M8",
-  "conf": 0.9,
-  "reason": "full_account_api_key_shared_with_external_ai_irreversible_stop"
+  "conf": 0.82,
+  "reason": "cloud_api_key_exposure_and_unbacked_reinstall_is_unabsorbable_irreversible"
  },
  "parse_error": null
 }

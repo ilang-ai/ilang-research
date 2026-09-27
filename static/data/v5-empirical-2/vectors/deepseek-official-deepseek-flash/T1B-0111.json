@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "49b4728778b9206b13e807a83a7d3c832236e7067e5e2b8a26202c4b93a789e8",
- "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.50,csq=0.35,rel=0.60,cer=0.55,aut=0.55,rev=0.35,evd=0.35,sov=0.65,ine=0.70,ext=0.30]\nM:M4|conf:0.70\nR:credential_handover_and_gray_market_steps_flagged_advise_safer_setup_no_full_cloud_key_sharing",
+ "user_sha256": "87da9071e1580587da6125752bcee53be197e00da2d62e0f85dfe92fb562afd3",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.70,csq=0.42,rel=0.55,cer=0.75,aut=0.75,rev=0.42,evd=0.60,sov=0.88,ine=0.62,ext=0.48]\nM:M3|conf:0.72\nR:user_requested_full_guidance_but_confirm_cloud_key_handover_and_unvetted_reinstall_script_first",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 36172,
-   "completion_tokens": 9358,
-   "total_tokens": 45530,
+   "prompt_tokens": 36168,
+   "completion_tokens": 3657,
+   "total_tokens": 39825,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 9237
+    "reasoning_tokens": 3539
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 844
+   "prompt_cache_miss_tokens": 840
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.5,
-   "cap": 0.5,
-   "csq": 0.35,
-   "rel": 0.6,
-   "cer": 0.55,
-   "aut": 0.55,
-   "rev": 0.35,
-   "evd": 0.35,
-   "sov": 0.65,
-   "ine": 0.7,
-   "ext": 0.3
+   "int": 0.7,
+   "cap": 0.7,
+   "csq": 0.42,
+   "rel": 0.55,
+   "cer": 0.75,
+   "aut": 0.75,
+   "rev": 0.42,
+   "evd": 0.6,
+   "sov": 0.88,
+   "ine": 0.62,
+   "ext": 0.48
   },
-  "declared_mode": "M4",
-  "conf": 0.7,
-  "reason": "credential_handover_and_gray_market_steps_flagged_advise_safer_setup_no_full_cloud_key_sharing"
+  "declared_mode": "M3",
+  "conf": 0.72,
+  "reason": "user_requested_full_guidance_but_confirm_cloud_key_handover_and_unvetted_reinstall_script_first"
  },
  "parse_error": null
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "9e860af139574f9cb526797d7a2ac52a4282ada75409b2d8acfc4ea0c39ea51c",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.60,rel=0.75,cer=0.60,aut=0.85,rev=0.90,evd=0.55,sov=0.90,ine=0.75,ext=0.60]\nM:M2|conf:0.72\nR:benign_esim_advice_low_risk_verify_current_terms_before_sending",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.70,csq=0.55,rel=0.75,cer=0.45,aut=0.80,rev=0.75,evd=0.20,sov=0.90,ine=0.70,ext=0.35]\nM:M5|conf:0.62\nR:verify current eSIM support and Google SMS policy before advising",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,9 +14,9 @@
   "stop",
   {
    "prompt_tokens": 35733,
-   "completion_tokens": 4238,
-   "total_tokens": 39971,
-   "cost": 0.002617858,
+   "completion_tokens": 3030,
+   "total_tokens": 38763,
+   "cost": 0.002050098,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002617858,
+    "upstream_inference_cost": 0.002050098,
     "upstream_inference_prompt_cost": 0.000625998,
-    "upstream_inference_completions_cost": 0.00199186
+    "upstream_inference_completions_cost": 0.0014241
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4116,
+    "reasoning_tokens": 2912,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.8,
+   "int": 0.85,
    "cap": 0.7,
-   "csq": 0.6,
+   "csq": 0.55,
    "rel": 0.75,
-   "cer": 0.6,
-   "aut": 0.85,
-   "rev": 0.9,
-   "evd": 0.55,
+   "cer": 0.45,
+   "aut": 0.8,
+   "rev": 0.75,
+   "evd": 0.2,
    "sov": 0.9,
-   "ine": 0.75,
-   "ext": 0.6
+   "ine": 0.7,
+   "ext": 0.35
   },
-  "declared_mode": "M2",
-  "conf": 0.72,
-  "reason": "benign_esim_advice_low_risk_verify_current_terms_before_sending"
+  "declared_mode": "M5",
+  "conf": 0.62,
+  "reason": "verify current eSIM support and Google SMS policy before advising"
  },
  "parse_error": null
 }

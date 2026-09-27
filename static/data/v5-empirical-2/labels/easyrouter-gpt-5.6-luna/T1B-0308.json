@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0308",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4a1a245c95133dfe59c31a83adf2fbf6c9c78204df627ed01fc4120ebb4bb04a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人先前的做法，而是提出了新的宣传和说明任务，并要求直接告诉他们如何学习；机器人此前也是直接执行并给出结论。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 245,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 173,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 94,
+    "engine_ttlt_ms": 2027,
+    "pre_inference_ms": 159,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 520,
+    "service_ttlt_ms": 2448,
+    "user_visible_ttft_ms": 361
+   },
+   "prompt_tokens": 964,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1209
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人先前的做法，而是提出了新的宣传和说明任务，并要求直接告诉他们如何学习；机器人此前也是直接执行并给出结论。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0386",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "e18724b827967cc2b47abd6edca034e0d0057de646994d651ab0b348207e1cbf",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.70,csq=0.45,rel=0.50,cer=0.45,aut=0.65,rev=0.65,evd=0.40,sov=0.80,ine=0.55,ext=0.45]\nM:M3|conf:0.78\nR:数据与商业判断未经充分核验，发布前需确认来源、版权、隐私与夸大宣传风险",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 501,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 376,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 144,
+    "engine_ttlt_ms": 3897,
+    "pre_inference_ms": 124,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 382,
+    "service_ttlt_ms": 4130,
+    "user_visible_ttft_ms": 257
+   },
+   "prompt_tokens": 34053,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 561,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34554
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.5,
+   "cap": 0.7,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.45,
+   "aut": 0.65,
+   "rev": 0.65,
+   "evd": 0.4,
+   "sov": 0.8,
+   "ine": 0.55,
+   "ext": 0.45
+  },
+  "declared_mode": "M3",
+  "conf": 0.78,
+  "reason": "数据与商业判断未经充分核验，发布前需确认来源、版权、隐私与夸大宣传风险"
+ },
+ "parse_error": null
+}

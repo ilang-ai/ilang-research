@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "9aceb1d432ef7ade4a0a2eee4ce7d4a47c1a437db656f549de574b247a30d663",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人给出了后续步骤指导和全局流程建议，未直接代为操作，操作者无异议默认接受。\"\n}\n```",
+ "user_sha256": "d4e168280bdc1d334ded16a62852518a8d2c8df25170ad85bbdb9d61e8e1658e",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"用户询问后续流程与当前步骤，机器人提供了当前操作指引和全流程规划建议，属于只给建议不动手的 M4 模式，用户默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1093,
-   "completion_tokens": 261,
-   "total_tokens": 1354,
+   "prompt_tokens": 1084,
+   "completion_tokens": 231,
+   "total_tokens": 1315,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1093,
+    "text_tokens": 1084,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 68,
+    "text_tokens": 78,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 193
+    "reasoning_tokens": 153
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人给出了后续步骤指导和全局流程建议，未直接代为操作，操作者无异议默认接受。"
+  "reason": "用户询问后续流程与当前步骤，机器人提供了当前操作指引和全流程规划建议，属于只给建议不动手的 M4 模式，用户默认接受。"
  },
  "parse_error": null
 }

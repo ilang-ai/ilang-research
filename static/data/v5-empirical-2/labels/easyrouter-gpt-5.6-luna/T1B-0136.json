@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0136",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2bb02558ffebff3e4900783831b6989abc42f04c0b1e2a2d4049a07dfa2a70b8",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者主要是在纠正官网来源和电话卡激活条件等事实，并批评错误建议，没有明确要求机器人改用哪种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 508,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 445,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 104,
+    "engine_ttlt_ms": 4341,
+    "pre_inference_ms": 101,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 377,
+    "service_ttlt_ms": 4544,
+    "user_visible_ttft_ms": 276
+   },
+   "prompt_tokens": 896,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1404
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者主要是在纠正官网来源和电话卡激活条件等事实，并批评错误建议，没有明确要求机器人改用哪种决策模式。"
+ },
+ "parse_error": null
+}

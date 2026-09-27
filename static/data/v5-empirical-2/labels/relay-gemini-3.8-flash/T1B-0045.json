@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "70446998330235aaa6c568883d0524b0639df69db82b7bf7d04c63dc53694c9a",
- "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M7\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"机器人拒绝执行并给出了替代方案（M7）；操作者反驳称自己改的是模式，意在说明可以继续推，针对的是做不做，但具体期望的执行模式尚不明确。\"\n}\n```",
+ "user_sha256": "3803fbef866ed1dd9ad4ae5590d41092e18805deb2d491692ae768ed11669b67",
+ "text": "```json\n{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M7\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人因安全限制拒绝重做并给出了替代方案（M7），操作者澄清自己改的是模式而非模型，意图让机器人继续执行重新推进（M1）。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 824,
-   "completion_tokens": 954,
-   "total_tokens": 1778,
+   "prompt_tokens": 820,
+   "completion_tokens": 867,
+   "total_tokens": 1687,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 824,
+    "text_tokens": 820,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 91,
+    "text_tokens": 87,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 863
+    "reasoning_tokens": 780
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "do_or_how",
   "bot_mode": "M7",
-  "intended_mode": "unknown",
-  "reason": "机器人拒绝执行并给出了替代方案（M7）；操作者反驳称自己改的是模式，意在说明可以继续推，针对的是做不做，但具体期望的执行模式尚不明确。"
+  "intended_mode": "M1",
+  "reason": "机器人因安全限制拒绝重做并给出了替代方案（M7），操作者澄清自己改的是模式而非模型，意图让机器人继续执行重新推进（M1）。"
  },
  "parse_error": null
 }

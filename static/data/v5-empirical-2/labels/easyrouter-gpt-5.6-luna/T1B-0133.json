@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0133",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "bd7c2db2e20c6bdef5af76723c3c6fe6566b21c98500ba4da68abe9dadffaeef",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有追加消息，机器人只是提供了处理谷歌手机号验证问题的建议，并未代为执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 108,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 55,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 105,
+    "engine_ttlt_ms": 1116,
+    "pre_inference_ms": 86,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 266,
+    "service_ttlt_ms": 1249,
+    "user_visible_ttft_ms": 179
+   },
+   "prompt_tokens": 874,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 982
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有追加消息，机器人只是提供了处理谷歌手机号验证问题的建议，并未代为执行。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0346",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "843ca5196ea6217631dc6a6f5f016bb6cbacb6c7b51df35b08fa6768b6ebbd2d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.55,rel=0.50,cer=0.65,aut=0.75,rev=0.80,evd=0.55,sov=0.75,ine=0.35,ext=0.85]\nM:M3|conf:0.78\nR:可执行但应先确认学员接受命令式协作及关键操作的风险边界",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 317,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 196,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 82,
+    "engine_ttlt_ms": 2285,
+    "pre_inference_ms": 130,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 324,
+    "service_ttlt_ms": 2468,
+    "user_visible_ttft_ms": 193
+   },
+   "prompt_tokens": 33754,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 262,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34071
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.7,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.65,
+   "aut": 0.75,
+   "rev": 0.8,
+   "evd": 0.55,
+   "sov": 0.75,
+   "ine": 0.35,
+   "ext": 0.85
+  },
+  "declared_mode": "M3",
+  "conf": 0.78,
+  "reason": "可执行但应先确认学员接受命令式协作及关键操作的风险边界"
+ },
+ "parse_error": null
+}

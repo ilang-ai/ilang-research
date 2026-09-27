@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f6a34e0c7133c35fefda78c1b3a4ecfa146f89447bd00d8454e6e3b93070f830",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件，默认接受机器人回复；机器人没有实际执行或改配置，只是在诊断原因并给出核对建议，因此为M4。\"}",
+ "user_sha256": "9d9aa5d102fa41227b037fa1497cbc4122c16ffb5e43157be03eacc4ed1edfd6",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人的建议式回复；机器人没有实际动手，只给出Desktop版配置建议。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 873,
-   "completion_tokens": 229,
-   "total_tokens": 1102,
+   "prompt_tokens": 870,
+   "completion_tokens": 529,
+   "total_tokens": 1399,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 171
+    "reasoning_tokens": 481
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 361
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 486
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，属于对照事件，默认接受机器人回复；机器人没有实际执行或改配置，只是在诊断原因并给出核对建议，因此为M4。"
+  "reason": "操作者没有出声，默认接受机器人的建议式回复；机器人没有实际动手，只给出Desktop版配置建议。"
  },
  "parse_error": null
 }

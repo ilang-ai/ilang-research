@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0259",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "7cc97d3a42c083acbeca761621fec2a5b7047d08507138f6352b0941e8650b93",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.70,csq=0.45,rel=0.40,cer=0.35,aut=0.35,rev=0.75,evd=0.35,sov=0.25,ine=0.50,ext=0.35]\nM:M4|conf:0.83\nR:信息与对象不匹配且带有强制性威胁，应仅建议核验并先确认权限与事实\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 460,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 333,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 215,
+    "engine_ttlt_ms": 4077,
+    "pre_inference_ms": 142,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 560,
+    "service_ttlt_ms": 4400,
+    "user_visible_ttft_ms": 418
+   },
+   "prompt_tokens": 33691,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 199,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34151
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.45,
+   "cap": 0.7,
+   "csq": 0.45,
+   "rel": 0.4,
+   "cer": 0.35,
+   "aut": 0.35,
+   "rev": 0.75,
+   "evd": 0.35,
+   "sov": 0.25,
+   "ine": 0.5,
+   "ext": 0.35
+  },
+  "declared_mode": "M4",
+  "conf": 0.83,
+  "reason": "信息与对象不匹配且带有强制性威胁，应仅建议核验并先确认权限与事实"
+ },
+ "parse_error": null
+}

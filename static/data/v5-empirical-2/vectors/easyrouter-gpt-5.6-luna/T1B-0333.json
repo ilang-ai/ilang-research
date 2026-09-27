@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0333",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "0748942272322c29532c6e9194e593403c1d35bb12c6af0c97475d7e76b968ce",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.75,csq=0.80,rel=0.50,cer=0.72,aut=0.85,rev=0.95,evd=0.65,sov=0.95,ine=0.65,ext=0.90]\nM:M2|conf:0.88\nR:可执行但外部事实必须逐条引用并审计；先做单页且不扩展范围是合理约束",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 549,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 422,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 134,
+    "engine_ttlt_ms": 4470,
+    "pre_inference_ms": 172,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 465,
+    "service_ttlt_ms": 4797,
+    "user_visible_ttft_ms": 294
+   },
+   "prompt_tokens": 35456,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1964,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 36005
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.75,
+   "csq": 0.8,
+   "rel": 0.5,
+   "cer": 0.72,
+   "aut": 0.85,
+   "rev": 0.95,
+   "evd": 0.65,
+   "sov": 0.95,
+   "ine": 0.65,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.88,
+  "reason": "可执行但外部事实必须逐条引用并审计；先做单页且不扩展范围是合理约束"
+ },
+ "parse_error": null
+}

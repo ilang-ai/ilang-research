@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0373",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "abeb1562e3ab6ca49256077f95f8919be564889b3b75a1cf661c8e455820f3be",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"机器人称已修改两个文件并汇报结果，属于直接执行；操作者随后只是发布接入 SEMRUSH 官方 API 的更新，没有要求纠正做法或指定执行模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 326,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 254,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 83,
+    "engine_ttlt_ms": 2682,
+    "pre_inference_ms": 147,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 294,
+    "service_ttlt_ms": 2879,
+    "user_visible_ttft_ms": 147
+   },
+   "prompt_tokens": 813,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1139
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "机器人称已修改两个文件并汇报结果，属于直接执行；操作者随后只是发布接入 SEMRUSH 官方 API 的更新，没有要求纠正做法或指定执行模式。"
+ },
+ "parse_error": null
+}

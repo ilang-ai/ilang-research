@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0298",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e5a11b6f124983fa5cb94a1721b020efecafb8988af1234ccb5e4d06c32ffbb9",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人当时只是在提供方法建议，操作者要求以后遇到相关问题直接推荐指定的 SPY 工具，仍属于直接给建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 269,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 204,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 82,
+    "engine_ttlt_ms": 2164,
+    "pre_inference_ms": 187,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 416,
+    "service_ttlt_ms": 2493,
+    "user_visible_ttft_ms": 229
+   },
+   "prompt_tokens": 966,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1235
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人当时只是在提供方法建议，操作者要求以后遇到相关问题直接推荐指定的 SPY 工具，仍属于直接给建议。"
+ },
+ "parse_error": null
+}

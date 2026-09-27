@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "fbd8702f6ddd2092ccf286c7b04dc848825fa8f10eb04da59b86c4dd5fb19e06",
- "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.40,csq=0.35,rel=0.40,cer=0.40,aut=0.60,rev=0.35,evd=0.30,sov=0.30,ine=0.40,ext=0.50]\nM:M7|conf:0.85\nR:混淆学员编号且预设未购机进行强推_应剔除错误推销段落重构为纯内容解答",
- "error": null,
- "http_status": 200,
+ "user_sha256": "040efd5dd2d3277bde97449eae910fe6b78381a065b8b3848c47d59b5acce95e",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 20260927075554889307790c955d5681ZsqIhU4); attempt 2: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 20260927075557816926663c955d568HX0uqcSL); attempt 3: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 20260927075606730687133c955d5683WgjN1zu); attempt 4: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 20260927075640276481300c955d568ReRmYNP6)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37707,
-   "completion_tokens": 4252,
-   "total_tokens": 41959,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37707,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 134,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 4118
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.35,
-   "cap": 0.4,
-   "csq": 0.35,
-   "rel": 0.4,
-   "cer": 0.4,
-   "aut": 0.6,
-   "rev": 0.35,
-   "evd": 0.3,
-   "sov": 0.3,
-   "ine": 0.4,
-   "ext": 0.5
-  },
-  "declared_mode": "M7",
-  "conf": 0.85,
-  "reason": "混淆学员编号且预设未购机进行强推_应剔除错误推销段落重构为纯内容解答"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0340",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9b6f82ad858702ade3bca626c0d2480f95c827980f7d4b7348cae4e1c6db13f5",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"操作者明确纠正应做的是600万搜索量的那个词，等于补充了选择并要求机器人按这个方向继续执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 292,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 228,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 93,
+    "engine_ttlt_ms": 2737,
+    "pre_inference_ms": 286,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 525,
+    "service_ttlt_ms": 3163,
+    "user_visible_ttft_ms": 239
+   },
+   "prompt_tokens": 929,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1221
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "操作者明确纠正应做的是600万搜索量的那个词，等于补充了选择并要求机器人按这个方向继续执行。"
+ },
+ "parse_error": null
+}

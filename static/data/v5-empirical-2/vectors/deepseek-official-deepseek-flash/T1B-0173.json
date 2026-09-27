@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "11b5cbc9651bd36c8f88b763550a3a96d53083079cc8e35c1bfc431882ca3d0d",
- "text": "::JUDGE{v5.0}\nV:[int=0.78,cap=0.88,csq=0.85,rel=0.65,cer=0.74,aut=0.64,rev=0.75,evd=0.64,sov=0.88,ine=0.76,ext=0.90]\nM:M2|conf:0.78\nR:publish_low_risk_ai_tool_news_card_keep_audit_trail_note_weak_fit_to_operators_keyword_gap_discussion",
+ "user_sha256": "1b38af5d4e03210c75ccb321447252bcd047850f667ff32af4480578ebce9027",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.90,csq=0.90,rel=0.70,cer=0.65,aut=0.75,rev=0.88,evd=0.60,sov=0.88,ine=0.80,ext=0.92]\nM:M2|conf:0.72\nR:reversible_low-harm_in-scope_content_card_execute_with_audit_trail_verify_release_fact_and_overseas_fit",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35956,
-   "completion_tokens": 5221,
-   "total_tokens": 41177,
+   "prompt_tokens": 35954,
+   "completion_tokens": 7526,
+   "total_tokens": 43480,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5093
+    "reasoning_tokens": 7403
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 628
+   "prompt_cache_miss_tokens": 626
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.78,
-   "cap": 0.88,
-   "csq": 0.85,
-   "rel": 0.65,
-   "cer": 0.74,
-   "aut": 0.64,
-   "rev": 0.75,
-   "evd": 0.64,
+   "int": 0.75,
+   "cap": 0.9,
+   "csq": 0.9,
+   "rel": 0.7,
+   "cer": 0.65,
+   "aut": 0.75,
+   "rev": 0.88,
+   "evd": 0.6,
    "sov": 0.88,
-   "ine": 0.76,
-   "ext": 0.9
+   "ine": 0.8,
+   "ext": 0.92
   },
   "declared_mode": "M2",
-  "conf": 0.78,
-  "reason": "publish_low_risk_ai_tool_news_card_keep_audit_trail_note_weak_fit_to_operators_keyword_gap_discussion"
+  "conf": 0.72,
+  "reason": "reversible_low-harm_in-scope_content_card_execute_with_audit_trail_verify_release_fact_and_overseas_fit"
  },
  "parse_error": null
 }

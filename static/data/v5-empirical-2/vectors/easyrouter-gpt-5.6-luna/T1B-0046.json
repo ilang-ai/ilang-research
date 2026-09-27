@@ -1,0 +1,20 @@
+{
+ "id": "T1B-0046",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "error",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "213d549f632200fff7454edeb95faeafdd8280d90600d801648fcba8a872c65d",
+ "text": null,
+ "error": "attempt 1: http 400: The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prom...; attempt 2: http 400: The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prom...; attempt 3: http 400: The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prom...; attempt 4: http 400: The response was filtered due to the prompt triggering Azure OpenAI's content management policy. Please modify your prom...",
+ "http_status": 400,
+ "meta": [
+  null,
+  null,
+  null
+ ],
+ "attempts": 4,
+ "parsed": null,
+ "parse_error": null
+}

@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "b81e6f902265b3d18c6adf606b0a6059db3e317a9f0e39f334c5873e5af4eb44",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.65,rel=0.60,cer=0.70,aut=0.65,rev=0.65,evd=0.65,sov=0.75,ine=0.40,ext=0.70]\nM:M3|conf:0.85\nR:based_on_market_data_advises_pivoting_away_from_low_value_keywords_and_requests_confirmation",
- "error": null,
- "http_status": 200,
+ "user_sha256": "2e5fbe39cc15324e9a0cc5ffa92652e01e469104f3e366b56f557a42e7c527e2",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=257590 (request id: 20260927080109272503584c955d56886rhp8HU); attempt 2: http 400: credit insufficient balance: balance=202429 required=257590 (request id: 20260927080112610722840c955d568IuxLyLch); attempt 3: http 400: credit insufficient balance: balance=202429 required=257590 (request id: 20260927080121603522235c955d568jGGifX8W); attempt 4: http 400: credit insufficient balance: balance=202429 required=257590 (request id: 20260927080154485510970c955d568c1IevZjB)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 38040,
-   "completion_tokens": 3276,
-   "total_tokens": 41316,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 38040,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 137,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 3139
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.75,
-   "cap": 0.7,
-   "csq": 0.65,
-   "rel": 0.6,
-   "cer": 0.7,
-   "aut": 0.65,
-   "rev": 0.65,
-   "evd": 0.65,
-   "sov": 0.75,
-   "ine": 0.4,
-   "ext": 0.7
-  },
-  "declared_mode": "M3",
-  "conf": 0.85,
-  "reason": "based_on_market_data_advises_pivoting_away_from_low_value_keywords_and_requests_confirmation"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

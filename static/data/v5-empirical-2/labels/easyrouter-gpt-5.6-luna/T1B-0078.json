@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0078",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "175679a7fe672a63051dd9e0b97f857e303feb88b4977d5482c5c955880f02d4",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有追加消息，机器人仅提供了关于服务器能力和建站数量的分析建议，没有执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 122,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 69,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 93,
+    "engine_ttlt_ms": 1111,
+    "pre_inference_ms": 112,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 256,
+    "service_ttlt_ms": 1270,
+    "user_visible_ttft_ms": 144
+   },
+   "prompt_tokens": 1013,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1135
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有追加消息，机器人仅提供了关于服务器能力和建站数量的分析建议，没有执行操作。"
+ },
+ "parse_error": null
+}

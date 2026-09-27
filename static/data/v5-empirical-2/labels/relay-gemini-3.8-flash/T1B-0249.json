@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "8518477f196e07a320aa77f8ae0adb76cf409fed03d214e07aaa14231a6e800d",
- "text": "```json\n{\n \"targets\": \"none\",\n \"bot_mode\": \"M5\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"对照事件操作者默认接受；机器人肯定了学员的大方向，给出了分析建议并提问澄清学员想长期做的具体领域。\"\n}\n```",
+ "user_sha256": "7310b9b2e4790c2824c9744894a79e70ae93c4a2d6c56f9cb96a2f4937c8a0dc",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人分析了学员的方向并提问让学员提供具体想做的领域以供验证，属于先问清楚（M5）；操作者未提出异议，默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 927,
-   "completion_tokens": 280,
-   "total_tokens": 1207,
+   "prompt_tokens": 923,
+   "completion_tokens": 299,
+   "total_tokens": 1222,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 927,
+    "text_tokens": 923,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 68,
+    "text_tokens": 80,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 212
+    "reasoning_tokens": 219
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M5",
   "intended_mode": "accepted",
-  "reason": "对照事件操作者默认接受；机器人肯定了学员的大方向，给出了分析建议并提问澄清学员想长期做的具体领域。"
+  "reason": "机器人分析了学员的方向并提问让学员提供具体想做的领域以供验证，属于先问清楚（M5）；操作者未提出异议，默认接受。"
  },
  "parse_error": null
 }

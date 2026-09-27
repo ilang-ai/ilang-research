@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f47bfc9c61b2bc6b2a1583cffcf5981538f8edd36d4fd6a0866c3a9d4d5b5f4e",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在纠正执行方式，要求机器人直接去改 SOP 而不是等自己改完；机器人此前已直接执行 SOUL 更新并汇报。\"}",
+ "user_sha256": "6dcfb08426586ac75ce7c7d3aebe48e841b9f0c8e19d37fb4e305082641fd5a6",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在纠正机器人把改 SOP 交给自己的做法，要求机器人有权限就直接执行。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 947,
-   "completion_tokens": 596,
-   "total_tokens": 1543,
-   "cost": 0.000353562,
+   "prompt_tokens": 941,
+   "completion_tokens": 2419,
+   "total_tokens": 3360,
+   "cost": 0.001209472,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000353562,
-    "upstream_inference_prompt_cost": 7.3442e-05,
-    "upstream_inference_completions_cost": 0.00028012
+    "upstream_inference_cost": 0.001209472,
+    "upstream_inference_prompt_cost": 7.2542e-05,
+    "upstream_inference_completions_cost": 0.00113693
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 537,
+    "reasoning_tokens": 2354,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M1",
+  "bot_mode": "M6",
   "intended_mode": "M1",
-  "reason": "操作者是在纠正执行方式，要求机器人直接去改 SOP 而不是等自己改完；机器人此前已直接执行 SOUL 更新并汇报。"
+  "reason": "操作者是在纠正机器人把改 SOP 交给自己的做法，要求机器人有权限就直接执行。"
  },
  "parse_error": null
 }

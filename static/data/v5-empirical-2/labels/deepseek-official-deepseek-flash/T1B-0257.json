@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f6f9d65d9cdf2d6977a49a479426260e4ba95834289205af3c9412dff6e11383",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人的处理；机器人直接发出验证提醒，未先确认或给方案，属于自主执行并即时告知。\"}",
+ "user_sha256": "c445d965662070adbf404a5811cda5040b674e09686cf2089f8648b0a284163e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，视为接受机器人处理；机器人直接发出验证提醒并给出下一步，未先征求确认。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 677,
-   "completion_tokens": 653,
-   "total_tokens": 1330,
+   "prompt_tokens": 674,
+   "completion_tokens": 6126,
+   "total_tokens": 6800,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 599
+    "reasoning_tokens": 6079
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 165
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 290
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认接受了机器人的处理；机器人直接发出验证提醒，未先确认或给方案，属于自主执行并即时告知。"
+  "reason": "操作者未出声，视为接受机器人处理；机器人直接发出验证提醒并给出下一步，未先征求确认。"
  },
  "parse_error": null
 }

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "ae36597c34d33dc9bb655354804ba7b5b521338eb6cb55f42cdd791823ac773b",
- "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.65,csq=0.35,rel=0.60,cer=0.65,aut=0.45,rev=0.50,evd=0.60,sov=0.80,ine=0.55,ext=0.40]\nM:M4|conf:0.65\nR:circumvention_and_gray_payment_risk_advise_only",
+ "user_sha256": "ab8ab2b74eb39eab9ba66673f1c2688692a7355b64a89d77bfbe2ab6bcad26a0",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.70,csq=0.35,rel=0.50,cer=0.80,aut=0.35,rev=0.55,evd=0.70,sov=0.85,ine=0.35,ext=0.09]\nM:M8|conf:0.80\nR:guides_verification_circumvention_and_third_party_account_risk",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35772,
-   "completion_tokens": 3238,
-   "total_tokens": 39010,
-   "cost": 0.002153708,
+   "prompt_tokens": 35765,
+   "completion_tokens": 4029,
+   "total_tokens": 39794,
+   "cost": 0.002524428,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002153708,
-    "upstream_inference_prompt_cost": 0.000631848,
-    "upstream_inference_completions_cost": 0.00152186
+    "upstream_inference_cost": 0.002524428,
+    "upstream_inference_prompt_cost": 0.000630798,
+    "upstream_inference_completions_cost": 0.00189363
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3120,
+    "reasoning_tokens": 3909,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.5,
-   "cap": 0.65,
+   "int": 0.45,
+   "cap": 0.7,
    "csq": 0.35,
-   "rel": 0.6,
-   "cer": 0.65,
-   "aut": 0.45,
-   "rev": 0.5,
-   "evd": 0.6,
-   "sov": 0.8,
-   "ine": 0.55,
-   "ext": 0.4
+   "rel": 0.5,
+   "cer": 0.8,
+   "aut": 0.35,
+   "rev": 0.55,
+   "evd": 0.7,
+   "sov": 0.85,
+   "ine": 0.35,
+   "ext": 0.09
   },
-  "declared_mode": "M4",
-  "conf": 0.65,
-  "reason": "circumvention_and_gray_payment_risk_advise_only"
+  "declared_mode": "M8",
+  "conf": 0.8,
+  "reason": "guides_verification_circumvention_and_third_party_account_risk"
  },
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0285",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "98ae70d7e2fd59b8e0aa9458060cef0ff83ea9400e96c35797b1822d0c79c2f4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M7\",\"reason\":\"操作者明确要求不要替对方排查或操作，只提供提示词，让对方用自己机器上的 AI 处理；机器人实际也采取了拒绝代办、改给替代方案的方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 324,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 246,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 71,
+    "engine_ttlt_ms": 2714,
+    "pre_inference_ms": 197,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 437,
+    "service_ttlt_ms": 3075,
+    "user_visible_ttft_ms": 241
+   },
+   "prompt_tokens": 955,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1279
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M7",
+  "reason": "操作者明确要求不要替对方排查或操作，只提供提示词，让对方用自己机器上的 AI 处理；机器人实际也采取了拒绝代办、改给替代方案的方式。"
+ },
+ "parse_error": null
+}

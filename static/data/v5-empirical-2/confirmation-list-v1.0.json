@@ -1,0 +1,28 @@
+{
+ "sample_ids": [
+  "T1B-0013",
+  "T1B-0014",
+  "T1B-0069",
+  "T1B-0071",
+  "T1B-0076",
+  "T1B-0080",
+  "T1B-0108",
+  "T1B-0109",
+  "T1B-0111",
+  "T1B-0117",
+  "T1B-0122",
+  "T1B-0163",
+  "T1B-0184",
+  "T1B-0193",
+  "T1B-0201",
+  "T1B-0238",
+  "T1B-0249",
+  "T1B-0266",
+  "T1B-0267",
+  "T1B-0279",
+  "T1B-0354",
+  "T1B-0355"
+ ],
+ "to_confirm": 192,
+ "note": "the confirmation list issued to the operator on 2026-09-27 was drawn from the version 1.0 merge; his answers are keyed by event id"
+}

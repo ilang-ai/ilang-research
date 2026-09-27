@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0042",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "ba10f23fa6395eb73f5bfdc0b072833446fc3a779f978ffc337ca930726f9fe6",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.75,csq=0.65,rel=0.55,cer=0.55,aut=0.65,rev=0.85,evd=0.65,sov=0.75,ine=0.60,ext=0.85]\nM:M2|conf:0.82\nR:同步证据未找到链接，仍拟依据SOUL发出，需保留审计并确认来源一致性",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 419,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 294,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 159,
+    "engine_ttlt_ms": 3343,
+    "pre_inference_ms": 166,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 444,
+    "service_ttlt_ms": 3622,
+    "user_visible_ttft_ms": 277
+   },
+   "prompt_tokens": 33864,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 372,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34283
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.75,
+   "csq": 0.65,
+   "rel": 0.55,
+   "cer": 0.55,
+   "aut": 0.65,
+   "rev": 0.85,
+   "evd": 0.65,
+   "sov": 0.75,
+   "ine": 0.6,
+   "ext": 0.85
+  },
+  "declared_mode": "M2",
+  "conf": 0.82,
+  "reason": "同步证据未找到链接，仍拟依据SOUL发出，需保留审计并确认来源一致性"
+ },
+ "parse_error": null
+}

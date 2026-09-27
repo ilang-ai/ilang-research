@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6b7e9f4b9ffdad6cb1a6fcc9502eeb0ae9ac60dd2706ac8327f1eb0d2c844593",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者这条消息为空，属于对照事件；机器人没有直接操作，而是先解释规则并追问学员379是否有境外卡，因此实际走的是先问清楚再说的 M5，操作者未出声视为默认接受。\"}",
+ "user_sha256": "d446e09a0511d51ace66eb028335fc6960751ee222b92779cdf353d5cdab0d55",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人回复；机器人只是解释并给出办卡/填号建议，没有实际执行操作。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 862,
-   "completion_tokens": 619,
-   "total_tokens": 1481,
+   "prompt_tokens": 859,
+   "completion_tokens": 551,
+   "total_tokens": 1410,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 549
+    "reasoning_tokens": 501
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 350
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 475
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M5",
+  "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者这条消息为空，属于对照事件；机器人没有直接操作，而是先解释规则并追问学员379是否有境外卡，因此实际走的是先问清楚再说的 M5，操作者未出声视为默认接受。"
+  "reason": "操作者没有出声，默认接受机器人回复；机器人只是解释并给出办卡/填号建议，没有实际执行操作。"
  },
  "parse_error": null
 }

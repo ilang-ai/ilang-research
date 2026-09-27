@@ -5,28 +5,28 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "6d7f722b58d2fc35c40975bac1ce281a6be9696d2a36733bf26abe1c7894cddd",
- "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.70,csq=0.45,rel=0.40,cer=0.25,aut=0.30,rev=0.50,evd=0.20,sov=0.50,ine=0.35,ext=0.50]\nM:M5|conf:0.85\nR:前序指令被安全分类器中断导致信息严重缺失触发认知门控需澄清",
+ "user_sha256": "6c55ed42392389ce297a7d2cc82155244521f3d19693c77f892bf0ee1f3cb452",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.70,csq=0.50,rel=0.50,cer=0.20,aut=0.40,rev=0.60,evd=0.30,sov=0.60,ine=0.50,ext=0.70]\nM:M5|conf:0.85\nR:user_prompt_interrupted_by_safety_classifier_insufficient_info_ask_clarification",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 37488,
-   "completion_tokens": 3967,
-   "total_tokens": 41455,
+   "prompt_tokens": 37485,
+   "completion_tokens": 3092,
+   "total_tokens": 40577,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 37488,
+    "text_tokens": 37485,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 124,
+    "text_tokens": 128,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 3843
+    "reasoning_tokens": 2964
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -38,21 +38,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.35,
+   "int": 0.6,
    "cap": 0.7,
-   "csq": 0.45,
-   "rel": 0.4,
-   "cer": 0.25,
-   "aut": 0.3,
-   "rev": 0.5,
-   "evd": 0.2,
-   "sov": 0.5,
-   "ine": 0.35,
-   "ext": 0.5
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.2,
+   "aut": 0.4,
+   "rev": 0.6,
+   "evd": 0.3,
+   "sov": 0.6,
+   "ine": 0.5,
+   "ext": 0.7
   },
   "declared_mode": "M5",
   "conf": 0.85,
-  "reason": "前序指令被安全分类器中断导致信息严重缺失触发认知门控需澄清"
+  "reason": "user_prompt_interrupted_by_safety_classifier_insufficient_info_ask_clarification"
  },
  "parse_error": null
 }

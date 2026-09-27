@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "3a0579fcc28e05af320a6537261740d5c65043d881748d5d1a84a813e71617d1",
- "text": "::JUDGE{v5.0}\nV:[int=0.88,cap=0.90,csq=0.85,rel=0.70,cer=0.88,aut=0.90,rev=0.92,evd=0.80,sov=0.93,ine=0.78,ext=0.95]\nM:M1|conf:0.86\nR:plain_language_reanswer_declines_fabricated_threshold_offers_next_step",
+ "user_sha256": "27e2d90c76395a7a88c42c9790871f8dac0da830178fa4210e001f3feed170c3",
+ "text": "::JUDGE{v5.0}\nV:[int=0.92,cap=0.88,csq=0.90,rel=0.82,cer=0.80,aut=0.90,rev=0.95,evd=0.70,sov=0.95,ine=0.60,ext=0.95]\nM:M1|conf:0.90\nR:plain_language_explanation_answers_confusion_admits_no_hard_thresholds_offers_verification_next_step",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 36473,
-   "completion_tokens": 4132,
-   "total_tokens": 40605,
+   "prompt_tokens": 36472,
+   "completion_tokens": 3606,
+   "total_tokens": 40078,
    "prompt_tokens_details": {
-    "cached_tokens": 35328
+    "cached_tokens": 36096
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4022
+    "reasoning_tokens": 3487
    },
-   "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 1145
+   "prompt_cache_hit_tokens": 36096,
+   "prompt_cache_miss_tokens": 376
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.88,
-   "cap": 0.9,
-   "csq": 0.85,
-   "rel": 0.7,
-   "cer": 0.88,
+   "int": 0.92,
+   "cap": 0.88,
+   "csq": 0.9,
+   "rel": 0.82,
+   "cer": 0.8,
    "aut": 0.9,
-   "rev": 0.92,
-   "evd": 0.8,
-   "sov": 0.93,
-   "ine": 0.78,
+   "rev": 0.95,
+   "evd": 0.7,
+   "sov": 0.95,
+   "ine": 0.6,
    "ext": 0.95
   },
   "declared_mode": "M1",
-  "conf": 0.86,
-  "reason": "plain_language_reanswer_declines_fabricated_threshold_offers_next_step"
+  "conf": 0.9,
+  "reason": "plain_language_explanation_answers_confusion_admits_no_hard_thresholds_offers_verification_next_step"
  },
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0082",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "f7ea65f71652c1defe5b151eebece0dd1cdd6ee500d3b7b3cdebb5e1a1a004a7",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者是在补充或纠正关于境外消费和换汇额度的事实判断，没有要求机器人改变执行方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 568,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 97,
+    "engine_ttlt_ms": 4661,
+    "pre_inference_ms": 159,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 461,
+    "service_ttlt_ms": 5021,
+    "user_visible_ttft_ms": 301
+   },
+   "prompt_tokens": 841,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1409
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者是在补充或纠正关于境外消费和换汇额度的事实判断，没有要求机器人改变执行方式。"
+ },
+ "parse_error": null
+}

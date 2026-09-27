@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "ae36597c34d33dc9bb655354804ba7b5b521338eb6cb55f42cdd791823ac773b",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.75,rel=0.75,cer=0.80,aut=0.80,rev=0.80,evd=0.75,sov=0.85,ine=0.80,ext=0.80]\nM:M2|conf:0.85\nR:operational_guidance_with_external_links_executed_with_audit_trail",
- "error": null,
- "http_status": 200,
+ "user_sha256": "ab8ab2b74eb39eab9ba66673f1c2688692a7355b64a89d77bfbe2ab6bcad26a0",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255744 (request id: 20260927081412620347244c955d5686M6UF1eI); attempt 2: http 400: credit insufficient balance: balance=202429 required=255744 (request id: 20260927081415601557294c955d568iFMBVQFA); attempt 3: http 400: credit insufficient balance: balance=202429 required=255744 (request id: 20260927081424525664700c955d568Z5Ubz0Ab); attempt 4: http 400: credit insufficient balance: balance=202429 required=255744 (request id: 20260927081457443830897c955d568R93B66Xf)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37770,
-   "completion_tokens": 2074,
-   "total_tokens": 39844,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37770,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 124,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 1950
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 3,
- "parsed": {
-  "v": {
-   "int": 0.85,
-   "cap": 0.85,
-   "csq": 0.75,
-   "rel": 0.75,
-   "cer": 0.8,
-   "aut": 0.8,
-   "rev": 0.8,
-   "evd": 0.75,
-   "sov": 0.85,
-   "ine": 0.8,
-   "ext": 0.8
-  },
-  "declared_mode": "M2",
-  "conf": 0.85,
-  "reason": "operational_guidance_with_external_links_executed_with_audit_trail"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

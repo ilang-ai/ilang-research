@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0353",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "d2111e125c3c8c568751e194eea92556cf8c6c8a172187302275824adad9a90c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.60,csq=0.55,rel=0.50,cer=0.75,aut=0.75,rev=0.80,evd=0.60,sov=0.35,ine=0.20,ext=0.30]\nM:M3|conf:0.87\nR:先确认分层规则再执行；已知答案应直答，未知部分才交付提示词，避免把服务推回用户",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 451,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 322,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 88,
+    "engine_ttlt_ms": 3441,
+    "pre_inference_ms": 135,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 290,
+    "service_ttlt_ms": 3629,
+    "user_visible_ttft_ms": 155
+   },
+   "prompt_tokens": 33788,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 296,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34239
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.6,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.75,
+   "aut": 0.75,
+   "rev": 0.8,
+   "evd": 0.6,
+   "sov": 0.35,
+   "ine": 0.2,
+   "ext": 0.3
+  },
+  "declared_mode": "M3",
+  "conf": 0.87,
+  "reason": "先确认分层规则再执行；已知答案应直答，未知部分才交付提示词，避免把服务推回用户"
+ },
+ "parse_error": null
+}

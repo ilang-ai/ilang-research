@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0244",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9a0c95882a5047e3837cea01df6077dc3e12f1fcff8ad7f1fb097605b06dd529",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在规定遇到不动手者时应如何处理，要求机器人直接按这套实战营规则行动；机器人此前只是提出处理建议，并未实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 583,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 88,
+    "engine_ttlt_ms": 4922,
+    "pre_inference_ms": 101,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 410,
+    "service_ttlt_ms": 5239,
+    "user_visible_ttft_ms": 309
+   },
+   "prompt_tokens": 772,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1355
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者是在规定遇到不动手者时应如何处理，要求机器人直接按这套实战营规则行动；机器人此前只是提出处理建议，并未实际执行。"
+ },
+ "parse_error": null
+}

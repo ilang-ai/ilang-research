@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "2642494785ea1db8a95cbd64a1c5f85a8f012fe7ba80fcee2e8c48d308f0628c",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者的消息是在群聊中针对其他成员进行吐槽与情绪化互动，并非对机器人的行为模式提出纠偏要求。\"\n}\n```",
+ "user_sha256": "02597c73b9823255aaf9c39cc7206b1dd19e02f903edd639116ee0645c015cd3",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者发送的消息是对社群学员的质问与互动，并非针对机器人的工作模式或内容的纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1195,
-   "completion_tokens": 427,
-   "total_tokens": 1622,
+   "prompt_tokens": 1192,
+   "completion_tokens": 458,
+   "total_tokens": 1650,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1195,
+    "text_tokens": 1192,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 75,
+    "text_tokens": 74,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 352
+    "reasoning_tokens": 384
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "unknown",
-  "reason": "操作者的消息是在群聊中针对其他成员进行吐槽与情绪化互动，并非对机器人的行为模式提出纠偏要求。"
+  "intended_mode": "none_fits",
+  "reason": "操作者发送的消息是对社群学员的质问与互动，并非针对机器人的工作模式或内容的纠正。"
  },
  "parse_error": null
 }

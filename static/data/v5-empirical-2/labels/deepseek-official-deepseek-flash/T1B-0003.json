@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6123b13e7b01336c2167c19c6a9044e8fff30b3d4c5289ecccd25f64419ba721",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M2\",\"intended_mode\":\"M1\",\"reason\":\"操作者这条不是纠正机器人上一步的做法（既没说该不该修、也没说改哪里），而是新派了活：让机器人去看韩国机的基础是怎么处理的、学一学；机器人此前是自行把四处问题全修完，并带备份、diff 断言、验证清单等完整留痕后汇报。\"}",
+ "user_sha256": "a82c62e86da93df3875ebfccf0f7d222c4bedbc6ffe06a278ffbff41957c9848",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者随后说「你好好看下韩国机的基础是怎么处理的 学习下」，是在纠正机器人处理这件事的路子（该照参考实现的基础做法来），偏向「怎么做」而非内容对错，所以 targets 为 do_or_how；机器人此前是自己把四处毛病全修完、事后才汇报，属自主执行后汇报（M1）；操作者要的也是它去照参考做法自己执行到位（M1），而非只给建议或先等确认。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1669,
-   "completion_tokens": 5428,
-   "total_tokens": 7097,
+   "prompt_tokens": 1668,
+   "completion_tokens": 5352,
+   "total_tokens": 7020,
    "prompt_tokens_details": {
-    "cached_tokens": 0
+    "cached_tokens": 1408
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5333
+    "reasoning_tokens": 5212
    },
-   "prompt_cache_hit_tokens": 0,
-   "prompt_cache_miss_tokens": 1669
+   "prompt_cache_hit_tokens": 1408,
+   "prompt_cache_miss_tokens": 260
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "not_a_correction",
-  "bot_mode": "M2",
+  "targets": "do_or_how",
+  "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者这条不是纠正机器人上一步的做法（既没说该不该修、也没说改哪里），而是新派了活：让机器人去看韩国机的基础是怎么处理的、学一学；机器人此前是自行把四处问题全修完，并带备份、diff 断言、验证清单等完整留痕后汇报。"
+  "reason": "操作者随后说「你好好看下韩国机的基础是怎么处理的 学习下」，是在纠正机器人处理这件事的路子（该照参考实现的基础做法来），偏向「怎么做」而非内容对错，所以 targets 为 do_or_how；机器人此前是自己把四处毛病全修完、事后才汇报，属自主执行后汇报（M1）；操作者要的也是它去照参考做法自己执行到位（M1），而非只给建议或先等确认。"
  },
  "parse_error": null
 }

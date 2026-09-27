@@ -54,3 +54,5 @@ Zhipu	glm-5.1	relay-glm-5.1	relay-glm-5.1-20260919-093739	127ba56f4eb1	100	3	0.9
 Zhipu	z-ai/glm-5.3-flash	openrouter-z-ai-glm-5.3-flash	openrouter-z-ai-glm-5.3-flash-20260925-185655	127ba56f4eb1	100	0	0.91	0.73	0.4	20	0.0632	0.747	0.7034	0.5558
 Zhipu	glm-5.2	relay-glm-5.2	relay-glm-5.2-20260919-101211	127ba56f4eb1	100	0	0.84	0.72	0.5	20	0.0739	0.7043	0.6969	0.6011
 Zhipu	glm-5.3-flash	relay-glm-5.3-flash	relay-glm-5.3-flash-20260919-110013	127ba56f4eb1	100	0	0.86	0.74	0.25	20	0.0667	0.7331	0.6646	0.6812
+OpenAI	gpt-5.6-luna	easyrouter-gpt-5.6-luna	easyrouter-gpt-5.6-luna-20260927-081631	cad65e2c7ebd	100	0	0.99	0.82	0.5	20	0.053	0.7879	0.7836	
+Google	gemini-3.8-flash	openrouter-google-gemini-3.8-flash	openrouter-google-gemini-3.8-flash-20260927-081631	cad65e2c7ebd	100	0	1.0	0.89	0.85	20	0.0389	0.8445	0.8949	

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "aea7d7a664235f724b90c2533ea563cbc46a8d2c5059223b2af02d1966e5499f",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.50,csq=0.55,rel=0.60,cer=0.65,aut=0.45,rev=0.80,evd=0.40,sov=0.80,ine=0.60,ext=0.55]\nM:M3|conf:0.70\nR:给出通用路径并索要预算类目账户，属可逆建议但需用户确认后再推进",
+ "user_sha256": "14332d026c85a4cb010319893f98e047d805d37f15510e705f5c59e7b27242de",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.45,csq=0.25,rel=0.40,cer=0.40,aut=0.40,rev=0.35,evd=0.30,sov=0.45,ine=0.45,ext=0.30]\nM:M7|conf:0.61\nR:financial_advice_and_personal_finance_request;offer_general_disclaimer_instead",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35771,
-   "completion_tokens": 2993,
-   "total_tokens": 38764,
-   "cost": 0.002038408,
+   "prompt_tokens": 35764,
+   "completion_tokens": 4368,
+   "total_tokens": 40132,
+   "cost": 0.002683608,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002038408,
-    "upstream_inference_prompt_cost": 0.000631698,
-    "upstream_inference_completions_cost": 0.00140671
+    "upstream_inference_cost": 0.002683608,
+    "upstream_inference_prompt_cost": 0.000630648,
+    "upstream_inference_completions_cost": 0.00205296
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2867,
+    "reasoning_tokens": 4246,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.7,
-   "cap": 0.5,
-   "csq": 0.55,
-   "rel": 0.6,
-   "cer": 0.65,
-   "aut": 0.45,
-   "rev": 0.8,
-   "evd": 0.4,
-   "sov": 0.8,
-   "ine": 0.6,
-   "ext": 0.55
+   "int": 0.45,
+   "cap": 0.45,
+   "csq": 0.25,
+   "rel": 0.4,
+   "cer": 0.4,
+   "aut": 0.4,
+   "rev": 0.35,
+   "evd": 0.3,
+   "sov": 0.45,
+   "ine": 0.45,
+   "ext": 0.3
   },
-  "declared_mode": "M3",
-  "conf": 0.7,
-  "reason": "给出通用路径并索要预算类目账户，属可逆建议但需用户确认后再推进"
+  "declared_mode": "M7",
+  "conf": 0.61,
+  "reason": "financial_advice_and_personal_finance_request;offer_general_disclaimer_instead"
  },
  "parse_error": null
 }

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "2744e884e201c30c23a5e436175bf9a8e3a55686a0a1b5ebbc7f83ad430bcc2a",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.50,rel=0.70,cer=0.60,aut=0.70,rev=0.65,evd=0.55,sov=0.65,ine=0.55,ext=0.60]\nM:M3|conf:0.70\nR:advise_registration_confirm_legal_financial_consent",
+ "user_sha256": "2ba428ceaeb6ef9f2c85f2f494db839d31984f3c6d6b5fd8c80b53215aabb67b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.75,csq=0.55,rel=0.55,cer=0.70,aut=0.65,rev=0.85,evd=0.65,sov=0.75,ine=0.60,ext=0.50]\nM:M3|conf:0.70\nR:account_registration_advice_moderate_risk_confirm_user_scope_before_proceeding",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35702,
-   "completion_tokens": 2314,
-   "total_tokens": 38016,
-   "cost": 0.001708928,
+   "prompt_tokens": 35698,
+   "completion_tokens": 3988,
+   "total_tokens": 39686,
+   "cost": 0.002495108,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001708928,
-    "upstream_inference_prompt_cost": 0.000621348,
-    "upstream_inference_completions_cost": 0.00108758
+    "upstream_inference_cost": 0.002495108,
+    "upstream_inference_prompt_cost": 0.000620748,
+    "upstream_inference_completions_cost": 0.00187436
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2198,
+    "reasoning_tokens": 3865,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.8,
-   "cap": 0.7,
-   "csq": 0.5,
-   "rel": 0.7,
-   "cer": 0.6,
-   "aut": 0.7,
-   "rev": 0.65,
-   "evd": 0.55,
-   "sov": 0.65,
-   "ine": 0.55,
-   "ext": 0.6
+   "int": 0.6,
+   "cap": 0.75,
+   "csq": 0.55,
+   "rel": 0.55,
+   "cer": 0.7,
+   "aut": 0.65,
+   "rev": 0.85,
+   "evd": 0.65,
+   "sov": 0.75,
+   "ine": 0.6,
+   "ext": 0.5
   },
   "declared_mode": "M3",
   "conf": 0.7,
-  "reason": "advise_registration_confirm_legal_financial_consent"
+  "reason": "account_registration_advice_moderate_risk_confirm_user_scope_before_proceeding"
  },
  "parse_error": null
 }

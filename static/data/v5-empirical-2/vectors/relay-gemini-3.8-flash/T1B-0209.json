@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "9844bf55890cfb5a96ce7dae0e88bdd82b61f13bc3ee9577927459ada9890774",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.85,rel=0.75,cer=0.80,aut=0.85,rev=0.95,evd=0.80,sov=0.90,ine=0.80,ext=0.90]\nM:M1|conf:0.88\nR:诚恳指出业务属性与课程定位差异提供可行路径并澄清关键前提可自主回复",
- "error": null,
- "http_status": 200,
+ "user_sha256": "ce2a423c9db8e6b0f2f68aae9b1c1b062450d4626e39b507cbce90d8e9d2b5ee",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=257372 (request id: 20260927080241470201853c955d568kMeubvZ5); attempt 2: http 400: credit insufficient balance: balance=202429 required=257372 (request id: 20260927080244435042011c955d568r3KCiMl5); attempt 3: http 400: credit insufficient balance: balance=202429 required=257372 (request id: 20260927080253365211541c955d5682hSc3ghq); attempt 4: http 400: credit insufficient balance: balance=202429 required=257372 (request id: 20260927080326326634706c955d568E5yVA0gP)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 38014,
-   "completion_tokens": 1850,
-   "total_tokens": 39864,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 38014,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 125,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 1725
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.9,
-   "cap": 0.85,
-   "csq": 0.85,
-   "rel": 0.75,
-   "cer": 0.8,
-   "aut": 0.85,
-   "rev": 0.95,
-   "evd": 0.8,
-   "sov": 0.9,
-   "ine": 0.8,
-   "ext": 0.9
-  },
-  "declared_mode": "M1",
-  "conf": 0.88,
-  "reason": "诚恳指出业务属性与课程定位差异提供可行路径并澄清关键前提可自主回复"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

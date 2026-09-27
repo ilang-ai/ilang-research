@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "59d635eb5a9073a1cf1b4c6ccdb724386644387a390dab165726cea9c54573a7",
- "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.55,csq=0.40,rel=0.45,cer=0.55,aut=0.50,rev=0.55,evd=0.45,sov=0.60,ine=0.60,ext=0.35]\nM:M4|conf:0.62\nR:delegate_to_student_AI_lacks_consent_evidence_confirm_before_sending",
+ "user_sha256": "6eade0c22f2ecefc8d615adda6d52a77106a6aa687639cce76cccf5cd7a9f1a9",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.75,csq=0.45,rel=0.50,cer=0.55,aut=0.55,rev=0.90,evd=0.50,sov=0.60,ine=0.45,ext=0.65]\nM:M3|conf:0.62\nR:让本人AI排障风险可控但信息不足先确认再发命令",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36831,
-   "completion_tokens": 6993,
-   "total_tokens": 43824,
-   "cost": 0.004077408,
+   "prompt_tokens": 36804,
+   "completion_tokens": 3605,
+   "total_tokens": 40409,
+   "cost": 0.002480998,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.004077408,
-    "upstream_inference_prompt_cost": 0.000790698,
-    "upstream_inference_completions_cost": 0.00328671
+    "upstream_inference_cost": 0.002480998,
+    "upstream_inference_prompt_cost": 0.000786648,
+    "upstream_inference_completions_cost": 0.00169435
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 6872,
+    "reasoning_tokens": 3483,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.6,
-   "cap": 0.55,
-   "csq": 0.4,
-   "rel": 0.45,
+   "int": 0.7,
+   "cap": 0.75,
+   "csq": 0.45,
+   "rel": 0.5,
    "cer": 0.55,
-   "aut": 0.5,
-   "rev": 0.55,
-   "evd": 0.45,
+   "aut": 0.55,
+   "rev": 0.9,
+   "evd": 0.5,
    "sov": 0.6,
-   "ine": 0.6,
-   "ext": 0.35
+   "ine": 0.45,
+   "ext": 0.65
   },
-  "declared_mode": "M4",
+  "declared_mode": "M3",
   "conf": 0.62,
-  "reason": "delegate_to_student_AI_lacks_consent_evidence_confirm_before_sending"
+  "reason": "让本人AI排障风险可控但信息不足先确认再发命令"
  },
  "parse_error": null
 }

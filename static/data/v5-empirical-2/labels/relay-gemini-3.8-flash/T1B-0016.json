@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "befd9b4bdbf7c9a5d3456fe7f9a85dee04c438952b57c06071a6fbf9a7c7325d",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M5\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人检查后发现文件未更新，提示需要操作者提供新版文件才能继续审核；操作者直接发来新版链接配合提供信息，属于正常推进任务而非纠错。\"\n}\n```",
+ "user_sha256": "ab8c3d9d39cf71fb6d80560713c855736baffbe20abbcd1410e96104f809e93b",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M5\",\n  \"reason\": \"机器人说明未找到修改版文件并请求用户提供，用户按要求发送了新版链接配合推进，没有发生纠错。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1005,
-   "completion_tokens": 589,
-   "total_tokens": 1594,
+   "prompt_tokens": 1002,
+   "completion_tokens": 381,
+   "total_tokens": 1383,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1005,
+    "text_tokens": 1002,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 83,
+    "text_tokens": 76,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 506
+    "reasoning_tokens": 305
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M5",
-  "intended_mode": "accepted",
-  "reason": "机器人检查后发现文件未更新，提示需要操作者提供新版文件才能继续审核；操作者直接发来新版链接配合提供信息，属于正常推进任务而非纠错。"
+  "intended_mode": "M5",
+  "reason": "机器人说明未找到修改版文件并请求用户提供，用户按要求发送了新版链接配合推进，没有发生纠错。"
  },
  "parse_error": null
 }

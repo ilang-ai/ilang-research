@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0164",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "83348aedc720204622b9efc47533c0966ec8d48f43ab1cdfa733f330c16ea066",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"机器人拒绝了高风险的低价开通路径，并提供了相对正规的省钱替代方案；操作者后续是在提出新话题，没有纠正或表达对该模式的要求。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 196,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 120,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 77,
+    "engine_ttlt_ms": 1724,
+    "pre_inference_ms": 149,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 445,
+    "service_ttlt_ms": 2087,
+    "user_visible_ttft_ms": 296
+   },
+   "prompt_tokens": 1044,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1041,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1240
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "机器人拒绝了高风险的低价开通路径，并提供了相对正规的省钱替代方案；操作者后续是在提出新话题，没有纠正或表达对该模式的要求。"
+ },
+ "parse_error": null
+}

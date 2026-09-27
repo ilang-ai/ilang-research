@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b5b15c71f6cf34da37c737a28562b2a091d1f57c5a23f2c7a6c93f25340bc49a",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者逐条回应机器人抛出的待决事项，直接下达指令（只记录不补、开 msg-gap、关掉韩机 verifier），是在定“做不做、怎么做”，同时顺带纠正“学员379是旧群沿用”这一事实误判；机器人是自行把常量对齐、装好定时器与备份并汇报，走的是先做后报的 M1；操作者“你TMD不关留着做什么”等语气表明他期望机器人自己拿主意直接办、别来请示，也是 M1。\"}",
+ "user_sha256": "573997c2406b0f7a7ca84bca1dc73f85e53e6bacb706bcc310741d569f618da2",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者逐条回应机器人待拍板的三项：补答只记录不补、msg-gap 开、文件校验器要关，都是对“做不做/怎么做”的直接指令；机器人此前是提出方案等确认（M3），操作者现在要求直接执行（M1）。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1626,
-   "completion_tokens": 1352,
-   "total_tokens": 2978,
+   "prompt_tokens": 1623,
+   "completion_tokens": 1714,
+   "total_tokens": 3337,
    "prompt_tokens_details": {
-    "cached_tokens": 0
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1211
+    "reasoning_tokens": 1625
    },
-   "prompt_cache_hit_tokens": 0,
-   "prompt_cache_miss_tokens": 1626
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 1239
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M1",
+  "bot_mode": "M3",
   "intended_mode": "M1",
-  "reason": "操作者逐条回应机器人抛出的待决事项，直接下达指令（只记录不补、开 msg-gap、关掉韩机 verifier），是在定“做不做、怎么做”，同时顺带纠正“学员379是旧群沿用”这一事实误判；机器人是自行把常量对齐、装好定时器与备份并汇报，走的是先做后报的 M1；操作者“你TMD不关留着做什么”等语气表明他期望机器人自己拿主意直接办、别来请示，也是 M1。"
+  "reason": "操作者逐条回应机器人待拍板的三项：补答只记录不补、msg-gap 开、文件校验器要关，都是对“做不做/怎么做”的直接指令；机器人此前是提出方案等确认（M3），操作者现在要求直接执行（M1）。"
  },
  "parse_error": null
 }

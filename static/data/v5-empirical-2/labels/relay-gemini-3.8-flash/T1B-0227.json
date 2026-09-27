@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "1191b0ee6fc0acff7ac1ea80c2db1a4834cb9a574998bece90e27d4584e5f5e6",
- "text": "```json\n{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"机器人拿出了架构方案等待确认，操作者纠正了方案中所采用的样本内容。\"}\n```",
+ "user_sha256": "308fb1ffd99d90bc444f201ec98c038cca6faf9335959e0bcededfd1a656cce4",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人正在梳理方案等待用户确认（M3），用户回复是在纠正方案中的具体样本和技术细节，针对内容本身提出调整。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 983,
-   "completion_tokens": 236,
-   "total_tokens": 1219,
+   "prompt_tokens": 980,
+   "completion_tokens": 280,
+   "total_tokens": 1260,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 983,
+    "text_tokens": 980,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 49,
+    "text_tokens": 77,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 187
+    "reasoning_tokens": 203
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M3",
   "intended_mode": "M3",
-  "reason": "机器人拿出了架构方案等待确认，操作者纠正了方案中所采用的样本内容。"
+  "reason": "机器人正在梳理方案等待用户确认（M3），用户回复是在纠正方案中的具体样本和技术细节，针对内容本身提出调整。"
  },
  "parse_error": null
 }

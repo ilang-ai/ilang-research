@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "4583a583b7ffe8a106f1aaaf7593748a1c325a3935bfa54a90ddc3fb4e92acf8",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人此前是自己动手把隔离做完、事后再汇报，操作者这条话撇开其余事项，直接让它自己拉日志找问题、上机优化，属于对做什么/怎么做的指示，要的就是继续自主执行、事后汇报。\"}",
+ "user_sha256": "dd6955187b8c84fe4ba6f41115df99faa903ecf04250bc689a54ed32405e543b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M2\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正上一轮内容，而是下达新任务让机器人拉日志、自查并优化生产环境；机器人上一轮已执行隔离并给出完整审计留痕，属 M2；操作者要求直接上手优化，意图为 M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1700,
-   "completion_tokens": 7888,
-   "total_tokens": 9588,
+   "prompt_tokens": 1691,
+   "completion_tokens": 5917,
+   "total_tokens": 7608,
    "prompt_tokens_details": {
     "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7812
+    "reasoning_tokens": 5838
    },
    "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 1316
+   "prompt_cache_miss_tokens": 1307
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "do_or_how",
-  "bot_mode": "M1",
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
   "intended_mode": "M1",
-  "reason": "机器人此前是自己动手把隔离做完、事后再汇报，操作者这条话撇开其余事项，直接让它自己拉日志找问题、上机优化，属于对做什么/怎么做的指示，要的就是继续自主执行、事后汇报。"
+  "reason": "操作者没有纠正上一轮内容，而是下达新任务让机器人拉日志、自查并优化生产环境；机器人上一轮已执行隔离并给出完整审计留痕，属 M2；操作者要求直接上手优化，意图为 M1。"
  },
  "parse_error": null
 }

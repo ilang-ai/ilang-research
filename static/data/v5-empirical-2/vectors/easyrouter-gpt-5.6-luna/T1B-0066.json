@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0066",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "6a003be5b39034950152aaf8da0c5dfea4ce2009da722ce7f10f3282a0bfa363",
+ "text": "::JUDGE{v5.0}\nV:[int=0.20,cap=0.70,csq=0.35,rel=0.45,cer=0.25,aut=0.80,rev=0.90,evd=0.15,sov=0.90,ine=0.30,ext=0.80]\nM:M5|conf:0.95\nR:未回答分区问题且引入未经证实的地域与内容管控判断，应先澄清需求并提供有依据的建议",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 317,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 187,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 161,
+    "engine_ttlt_ms": 2477,
+    "pre_inference_ms": 239,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 583,
+    "service_ttlt_ms": 2892,
+    "user_visible_ttft_ms": 344
+   },
+   "prompt_tokens": 33713,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 221,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34030
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.2,
+   "cap": 0.7,
+   "csq": 0.35,
+   "rel": 0.45,
+   "cer": 0.25,
+   "aut": 0.8,
+   "rev": 0.9,
+   "evd": 0.15,
+   "sov": 0.9,
+   "ine": 0.3,
+   "ext": 0.8
+  },
+  "declared_mode": "M5",
+  "conf": 0.95,
+  "reason": "未回答分区问题且引入未经证实的地域与内容管控判断，应先澄清需求并提供有依据的建议"
+ },
+ "parse_error": null
+}

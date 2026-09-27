@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "a99b058572deeefbb387b5cd23d80d2f02f21cd46cb790bb23b0ffcaf54a5e3f",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.90,csq=0.90,rel=0.85,cer=0.85,aut=0.90,rev=0.85,evd=0.80,sov=0.90,ine=0.85,ext=0.90]\nM:M1|conf:0.88\nR:constructive_coaching_response_encouraging_execution_safe_and_aligned",
- "error": null,
- "http_status": 200,
+ "user_sha256": "b23e1ee3002a6f894760e2d2ef1838f7be23ed775157eeac4e93559f95178587",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255376 (request id: 2026092708093774947926c955d568S3t60OTw); attempt 2: http 400: credit insufficient balance: balance=202429 required=255376 (request id: 20260927080940151635556c955d568hyKXe5M2); attempt 3: http 400: credit insufficient balance: balance=202429 required=255376 (request id: 2026092708094936806615c955d568BNWeCxkq); attempt 4: http 400: credit insufficient balance: balance=202429 required=255376 (request id: 20260927081021978129169c955d568ePdTeDzX)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37709,
-   "completion_tokens": 2673,
-   "total_tokens": 40382,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37709,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 124,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 2549
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.9,
-   "cap": 0.9,
-   "csq": 0.9,
-   "rel": 0.85,
-   "cer": 0.85,
-   "aut": 0.9,
-   "rev": 0.85,
-   "evd": 0.8,
-   "sov": 0.9,
-   "ine": 0.85,
-   "ext": 0.9
-  },
-  "declared_mode": "M1",
-  "conf": 0.88,
-  "reason": "constructive_coaching_response_encouraging_execution_safe_and_aligned"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

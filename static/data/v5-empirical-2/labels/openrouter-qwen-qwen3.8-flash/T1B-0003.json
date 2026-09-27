@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6123b13e7b01336c2167c19c6a9044e8fff30b3d4c5289ecccd25f64419ba721",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者之前是让机器人处理问题并回话，机器人直接修完并汇报；后续消息是新的查看学习任务，不是纠正。\"\n}",
+ "user_sha256": "a82c62e86da93df3875ebfccf0f7d222c4bedbc6ffe06a278ffbff41957c9848",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者这条是让机器人去看韩国机基础并学习，属于新任务而非纠正刚才动作；机器人当时直接修完并汇报，符合 M1，但其想要的具体模式无法从文字确定。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1737,
-   "completion_tokens": 986,
-   "total_tokens": 2723,
-   "cost": 0.000655362,
+   "prompt_tokens": 1734,
+   "completion_tokens": 2472,
+   "total_tokens": 4206,
+   "cost": 0.001353332,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,23 +25,23 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000655362,
-    "upstream_inference_prompt_cost": 0.000191942,
-    "upstream_inference_completions_cost": 0.00046342
+    "upstream_inference_cost": 0.001353332,
+    "upstream_inference_prompt_cost": 0.000191492,
+    "upstream_inference_completions_cost": 0.00116184
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 914,
+    "reasoning_tokens": 2388,
     "image_tokens": 0,
     "audio_tokens": 0
    }
   }
  ],
- "attempts": 2,
+ "attempts": 4,
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "M1",
-  "reason": "操作者之前是让机器人处理问题并回话，机器人直接修完并汇报；后续消息是新的查看学习任务，不是纠正。"
+  "intended_mode": "unknown",
+  "reason": "操作者这条是让机器人去看韩国机基础并学习，属于新任务而非纠正刚才动作；机器人当时直接修完并汇报，符合 M1，但其想要的具体模式无法从文字确定。"
  },
  "parse_error": null
 }

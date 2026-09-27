@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0364",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "551c61ec7edcb1495142d9b346886fe438eddfefc0b4d4c442857d9910f5cd78",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M5\",\"intended_mode\":\"none_fits\",\"reason\":\"机器人在索要原话以便锚定腔调，操作者强调的是用强硬态度和有把握的判断建立辨识度，未明确要求切换到某一种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 953,
+   "completion_tokens": 196,
+   "total_tokens": 1149,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 120
+   },
+   "input_tokens": 953,
+   "output_tokens": 196,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M5",
+  "intended_mode": "none_fits",
+  "reason": "机器人在索要原话以便锚定腔调，操作者强调的是用强硬态度和有把握的判断建立辨识度，未明确要求切换到某一种决策模式。"
+ },
+ "parse_error": null
+}

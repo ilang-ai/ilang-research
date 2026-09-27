@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0227",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "308fb1ffd99d90bc444f201ec98c038cca6faf9335959e0bcededfd1a656cce4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"操作者在补充并纠正建站方案的实现方式，要求按 VPS 开箱即用、无需注册域名的方向调整，仍处于先完善方案再确认的阶段。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 453,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 378,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 103,
+    "engine_ttlt_ms": 3888,
+    "pre_inference_ms": 104,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 424,
+    "service_ttlt_ms": 4213,
+    "user_visible_ttft_ms": 320
+   },
+   "prompt_tokens": 1039,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1036,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1492
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "操作者在补充并纠正建站方案的实现方式，要求按 VPS 开箱即用、无需注册域名的方向调整，仍处于先完善方案再确认的阶段。"
+ },
+ "parse_error": null
+}

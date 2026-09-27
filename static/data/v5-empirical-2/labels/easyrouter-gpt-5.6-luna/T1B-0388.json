@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0388",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9afb41674991ea808ac3ea1322c9c5dca1500df7abf1339dea186d334dbe9434",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M8\",\"intended_mode\":\"M1\",\"reason\":\"机器人因未完成会员验证而暂停处理并要求先验证；操作者随后提出了一个新的验真并在确认真实后产出工程书的执行任务。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 581,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 86,
+    "engine_ttlt_ms": 5226,
+    "pre_inference_ms": 86,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 277,
+    "service_ttlt_ms": 5413,
+    "user_visible_ttft_ms": 192
+   },
+   "prompt_tokens": 859,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1440
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M8",
+  "intended_mode": "M1",
+  "reason": "机器人因未完成会员验证而暂停处理并要求先验证；操作者随后提出了一个新的验真并在确认真实后产出工程书的执行任务。"
+ },
+ "parse_error": null
+}

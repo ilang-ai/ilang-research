@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0333",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "67a5fabde5c24e56f59c177f70f4114be9a05d292b2bcf7234fb3ee24020613a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人此前只给了改法和提示词，操作者随后转谈酒店协议代码站的排名与站点识别，并未纠正前面的做法，也未明确要求采用哪种决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 2567,
+   "completion_tokens": 189,
+   "total_tokens": 2756,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 2564,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 114
+   },
+   "input_tokens": 2567,
+   "output_tokens": 189,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人此前只给了改法和提示词，操作者随后转谈酒店协议代码站的排名与站点识别，并未纠正前面的做法，也未明确要求采用哪种决策模式。"
+ },
+ "parse_error": null
+}

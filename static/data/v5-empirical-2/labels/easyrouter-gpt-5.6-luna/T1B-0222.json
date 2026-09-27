@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0222",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b347bc9af9835807eecb6fbb9a3e7c2df2f06cdd1cc8277c52d8b9b17c950da2",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人只是在提供关于网站运营和SEO的分析建议，没有执行具体操作；操作者随后提出了一个新的盈利确定性问题，也是在寻求判断而非要求动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 286,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 214,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 105,
+    "engine_ttlt_ms": 2324,
+    "pre_inference_ms": 47,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 406,
+    "service_ttlt_ms": 2619,
+    "user_visible_ttft_ms": 358
+   },
+   "prompt_tokens": 1334,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1331,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1620
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人只是在提供关于网站运营和SEO的分析建议，没有执行具体操作；操作者随后提出了一个新的盈利确定性问题，也是在寻求判断而非要求动手。"
+ },
+ "parse_error": null
+}

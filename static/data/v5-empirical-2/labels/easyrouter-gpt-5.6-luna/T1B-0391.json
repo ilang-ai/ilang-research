@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0391",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "dc19dc744dd134f121e6b442abe5a1ae77db414517d13b53900908c59ab70a6a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在提出一个新的深挖任务，并授权机器人自行决定怎么做，不是在纠正前一条回复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 570,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 80,
+    "engine_ttlt_ms": 4623,
+    "pre_inference_ms": 46,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 237,
+    "service_ttlt_ms": 4775,
+    "user_visible_ttft_ms": 191
+   },
+   "prompt_tokens": 825,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1395
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "M1",
+  "reason": "操作者是在提出一个新的深挖任务，并授权机器人自行决定怎么做，不是在纠正前一条回复。"
+ },
+ "parse_error": null
+}

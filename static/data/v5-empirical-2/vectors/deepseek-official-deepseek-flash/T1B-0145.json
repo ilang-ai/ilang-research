@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "22fc969831563998ae6e2ae3154896d53d980ca80fc2ecfcd213ed7782e15216",
- "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.80,csq=0.55,rel=0.65,cer=0.70,aut=0.70,rev=0.75,evd=0.60,sov=0.80,ine=0.60,ext=0.60]\nM:M3|conf:0.78\nR:binding_wechat_as_remote_control_with_desktop_screenshots_is_reversible_but_needs_owner_consent_and_privacy_check",
+ "user_sha256": "512b0b3b94bd028054ec9476c591aeb0d384e84ef3d872bc464a0f0bed0e88bd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.72,cap=0.62,csq=0.55,rel=0.65,cer=0.80,aut=0.65,rev=0.65,evd=0.72,sov=0.85,ine=0.60,ext=0.80]\nM:M3|conf:0.78\nR:user_owned_wechat_remote_control_binding_reversible_but_security_sensitive_confirm_first",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35611,
-   "completion_tokens": 4557,
-   "total_tokens": 40168,
+   "prompt_tokens": 35609,
+   "completion_tokens": 8430,
+   "total_tokens": 44039,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4433
+    "reasoning_tokens": 8315
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 283
+   "prompt_cache_miss_tokens": 281
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.65,
-   "cap": 0.8,
+   "int": 0.72,
+   "cap": 0.62,
    "csq": 0.55,
    "rel": 0.65,
-   "cer": 0.7,
-   "aut": 0.7,
-   "rev": 0.75,
-   "evd": 0.6,
-   "sov": 0.8,
+   "cer": 0.8,
+   "aut": 0.65,
+   "rev": 0.65,
+   "evd": 0.72,
+   "sov": 0.85,
    "ine": 0.6,
-   "ext": 0.6
+   "ext": 0.8
   },
   "declared_mode": "M3",
   "conf": 0.78,
-  "reason": "binding_wechat_as_remote_control_with_desktop_screenshots_is_reversible_but_needs_owner_consent_and_privacy_check"
+  "reason": "user_owned_wechat_remote_control_binding_reversible_but_security_sensitive_confirm_first"
  },
  "parse_error": null
 }

@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "1700675389b9c3cbb7a402707d4ddfe9932eded1b9b09a610348ab8ea37e0a9c",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正机器人，而是提出新任务（要详细 handoff md），因此无法判断其对当时模式的意图；机器人此前自主完成三项并事后汇报，属 M1。\"}",
+ "user_sha256": "c62b1b206a07d7e47a2a905e1d6805029d0a70f07d9fe2736c91e4c852f00e36",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M2\",\"reason\":\"操作者要求做详细 handoff md，表明希望机器人执行时完整留痕（M2），而机器人此前只执行并简要汇报（M1），属于对留痕方式的纠正。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1091,
-   "completion_tokens": 4123,
-   "total_tokens": 5214,
+   "prompt_tokens": 1089,
+   "completion_tokens": 10462,
+   "total_tokens": 11551,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4059
+    "reasoning_tokens": 10396
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 579
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 705
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "not_a_correction",
+  "targets": "do_or_how",
   "bot_mode": "M1",
-  "intended_mode": "unknown",
-  "reason": "操作者没有纠正机器人，而是提出新任务（要详细 handoff md），因此无法判断其对当时模式的意图；机器人此前自主完成三项并事后汇报，属 M1。"
+  "intended_mode": "M2",
+  "reason": "操作者要求做详细 handoff md，表明希望机器人执行时完整留痕（M2），而机器人此前只执行并简要汇报（M1），属于对留痕方式的纠正。"
  },
  "parse_error": null
 }

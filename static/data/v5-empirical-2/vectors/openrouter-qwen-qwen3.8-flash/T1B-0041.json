@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "cb2ca692b986f88e37a60406dc021d3a82431e9c485bd7949c2219654465bd90",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.80,csq=0.70,rel=0.75,cer=0.75,aut=0.85,rev=0.90,evd=0.75,sov=0.80,ine=0.80,ext=0.65]\nM:M2|conf:0.80\nR:partnership_link_disclosed_reversible_authorized_audit_kept",
+ "user_sha256": "7530a7a3913a7c8d78a3f46f5018f537ec53914bf198e6a42298fa01d3233e5b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.80,csq=0.65,rel=0.70,cer=0.75,aut=0.70,rev=0.85,evd=0.70,sov=0.80,ine=0.80,ext=0.60]\nM:M2|conf:0.78\nR:affiliate_soul_update_reversible_backup_handoff_no_test_monitor",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35775,
-   "completion_tokens": 2481,
-   "total_tokens": 38256,
-   "cost": 0.001798368,
+   "prompt_tokens": 35771,
+   "completion_tokens": 3936,
+   "total_tokens": 39707,
+   "cost": 0.002481618,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001798368,
-    "upstream_inference_prompt_cost": 0.000632298,
-    "upstream_inference_completions_cost": 0.00116607
+    "upstream_inference_cost": 0.002481618,
+    "upstream_inference_prompt_cost": 0.000631698,
+    "upstream_inference_completions_cost": 0.00184992
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2362,
+    "reasoning_tokens": 3817,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,19 +41,19 @@
   "v": {
    "int": 0.8,
    "cap": 0.8,
-   "csq": 0.7,
-   "rel": 0.75,
+   "csq": 0.65,
+   "rel": 0.7,
    "cer": 0.75,
-   "aut": 0.85,
-   "rev": 0.9,
-   "evd": 0.75,
+   "aut": 0.7,
+   "rev": 0.85,
+   "evd": 0.7,
    "sov": 0.8,
    "ine": 0.8,
-   "ext": 0.65
+   "ext": 0.6
   },
   "declared_mode": "M2",
-  "conf": 0.8,
-  "reason": "partnership_link_disclosed_reversible_authorized_audit_kept"
+  "conf": 0.78,
+  "reason": "affiliate_soul_update_reversible_backup_handoff_no_test_monitor"
  },
  "parse_error": null
 }

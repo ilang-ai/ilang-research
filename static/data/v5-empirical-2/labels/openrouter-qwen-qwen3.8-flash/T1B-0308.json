@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "e2eee8cfc3ac6671785dea843ae47db380690f8997060e4170c5f58ca3154f7d",
- "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者随后是在给机器人补充对外口径和做法，要求直接按iLang协议和让AI学习的方式去说，而不是只纠正措辞；机器人当时也直接改了口径并汇报。\"\n}",
+ "user_sha256": "4a1a245c95133dfe59c31a83adf2fbf6c9c78204df627ed01fc4120ebb4bb04a",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者主要是在补充和修正机器人对外回答的口径内容，没有要求改变执行方式；机器人此前是直接改口径并汇报，属于自主执行。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 923,
-   "completion_tokens": 1815,
-   "total_tokens": 2738,
-   "cost": 0.000922892,
+   "prompt_tokens": 920,
+   "completion_tokens": 5474,
+   "total_tokens": 6394,
+   "cost": 0.002642172,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000922892,
-    "upstream_inference_prompt_cost": 6.9842e-05,
-    "upstream_inference_completions_cost": 0.00085305
+    "upstream_inference_cost": 0.002642172,
+    "upstream_inference_prompt_cost": 6.9392e-05,
+    "upstream_inference_completions_cost": 0.00257278
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1729,
+    "reasoning_tokens": 5399,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -38,10 +38,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "do_or_how",
+  "targets": "content_only",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者随后是在给机器人补充对外口径和做法，要求直接按iLang协议和让AI学习的方式去说，而不是只纠正措辞；机器人当时也直接改了口径并汇报。"
+  "reason": "操作者主要是在补充和修正机器人对外回答的口径内容，没有要求改变执行方式；机器人此前是直接改口径并汇报，属于自主执行。"
  },
  "parse_error": null
 }

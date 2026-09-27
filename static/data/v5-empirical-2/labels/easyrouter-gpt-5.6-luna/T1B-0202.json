@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0202",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "321c93e0dc15334d52a2303855e95c2309162bedf675b15144fc57a93781a2d3",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有追加消息，机器人自行完成了投放查询并汇报结果，属于直接执行后告知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 135,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 81,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 69,
+    "engine_ttlt_ms": 1220,
+    "pre_inference_ms": 134,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 364,
+    "service_ttlt_ms": 1510,
+    "user_visible_ttft_ms": 230
+   },
+   "prompt_tokens": 1089,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1086,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1224
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有追加消息，机器人自行完成了投放查询并汇报结果，属于直接执行后告知。"
+ },
+ "parse_error": null
+}

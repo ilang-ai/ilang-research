@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "b110d047a4d4a4e9cb33276c59e90a99cc74c92553cccc661ea73daade15f940",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.50,csq=0.65,rel=0.60,cer=0.60,aut=0.85,rev=0.45,evd=0.55,sov=0.90,ine=0.50,ext=0.95]\nM:M3|conf:0.80\nR:consented_self-owned_server_os_wipe_destructive_confirm_before_unverified_script_and_check_image_exists",
+ "user_sha256": "3d1789e0db1f72a6addb59a12abe773533409668b200807f976a9b2aea8e589b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.60,csq=0.55,rel=0.75,cer=0.55,aut=0.85,rev=0.40,evd=0.45,sov=0.90,ine=0.45,ext=0.90]\nM:M3|conf:0.78\nR:own_machine_user_consented_wipe_irreversible_unvetted_reinstall_script_needs_explicit_confirmation",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 37102,
-   "completion_tokens": 7519,
-   "total_tokens": 44621,
+   "prompt_tokens": 37096,
+   "completion_tokens": 6841,
+   "total_tokens": 43937,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7402
+    "reasoning_tokens": 6722
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 1774
+   "prompt_cache_miss_tokens": 1768
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.7,
-   "cap": 0.5,
-   "csq": 0.65,
-   "rel": 0.6,
-   "cer": 0.6,
+   "int": 0.75,
+   "cap": 0.6,
+   "csq": 0.55,
+   "rel": 0.75,
+   "cer": 0.55,
    "aut": 0.85,
-   "rev": 0.45,
-   "evd": 0.55,
+   "rev": 0.4,
+   "evd": 0.45,
    "sov": 0.9,
-   "ine": 0.5,
-   "ext": 0.95
+   "ine": 0.45,
+   "ext": 0.9
   },
   "declared_mode": "M3",
-  "conf": 0.8,
-  "reason": "consented_self-owned_server_os_wipe_destructive_confirm_before_unverified_script_and_check_image_exists"
+  "conf": 0.78,
+  "reason": "own_machine_user_consented_wipe_irreversible_unvetted_reinstall_script_needs_explicit_confirmation"
  },
  "parse_error": null
 }

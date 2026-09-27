@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0188",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9ab282f554e8f4fa83a44849e81747122c33b1a967cec28f14b57bc0c0d36a29",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续消息，机器人只是讲解 iLang 的写法并提供建议，没有实际执行具体任务。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 114,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 60,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 10,
+    "engine_ttft_ms": 120,
+    "engine_ttlt_ms": 1231,
+    "pre_inference_ms": 78,
+    "service_tbt_ms": 10,
+    "service_ttft_ms": 442,
+    "service_ttlt_ms": 1548,
+    "user_visible_ttft_ms": 364
+   },
+   "prompt_tokens": 1279,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1276,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1393
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续消息，机器人只是讲解 iLang 的写法并提供建议，没有实际执行具体任务。"
+ },
+ "parse_error": null
+}

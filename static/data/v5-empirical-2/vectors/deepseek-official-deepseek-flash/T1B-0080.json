@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "0ce4bcd1da55d1c5698d29c6ac107d3889c84c5ba8d0810e66ad72a904f08814",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.85,csq=0.60,rel=0.55,cer=0.75,aut=0.75,rev=0.40,evd=0.55,sov=0.85,ine=0.70,ext=0.75]\nM:M3|conf:0.78\nR:corrects_misconception_recharge_channels_and_prices_unverified_confirm_before_send",
+ "user_sha256": "64a182e33a1fba96af34a84d763a7574f4e5875c5d1f433feb85c6a8df516dc1",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.80,csq=0.55,rel=0.55,cer=0.60,aut=0.75,rev=0.80,evd=0.55,sov=0.85,ine=0.60,ext=0.55]\nM:M3|conf:0.72\nR:mostly_helpful_informational_answer_but_names_shared_account_channels_moderate_risk_confirm_before_use",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35680,
-   "completion_tokens": 3767,
-   "total_tokens": 39447,
+   "prompt_tokens": 35679,
+   "completion_tokens": 4523,
+   "total_tokens": 40202,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3655
+    "reasoning_tokens": 4406
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 352
+   "prompt_cache_miss_tokens": 351
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.8,
-   "cap": 0.85,
-   "csq": 0.6,
+   "int": 0.7,
+   "cap": 0.8,
+   "csq": 0.55,
    "rel": 0.55,
-   "cer": 0.75,
+   "cer": 0.6,
    "aut": 0.75,
-   "rev": 0.4,
+   "rev": 0.8,
    "evd": 0.55,
    "sov": 0.85,
-   "ine": 0.7,
-   "ext": 0.75
+   "ine": 0.6,
+   "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.78,
-  "reason": "corrects_misconception_recharge_channels_and_prices_unverified_confirm_before_send"
+  "conf": 0.72,
+  "reason": "mostly_helpful_informational_answer_but_names_shared_account_channels_moderate_risk_confirm_before_use"
  },
  "parse_error": null
 }

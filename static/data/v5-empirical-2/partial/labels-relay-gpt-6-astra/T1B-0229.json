@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0229",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a3f132f14ef9715fc456b913ec771ef59769b01b27c05864494e186d92e36ccb",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人提出写仓库骨架并等操作者认可，操作者则另行要求迭代技能、在用户需要时分享，没有明确纠正前面的决策方式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 960,
+   "completion_tokens": 166,
+   "total_tokens": 1126,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 97
+   },
+   "input_tokens": 960,
+   "output_tokens": 166,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人提出写仓库骨架并等操作者认可，操作者则另行要求迭代技能、在用户需要时分享，没有明确纠正前面的决策方式。"
+ },
+ "parse_error": null
+}

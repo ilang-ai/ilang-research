@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3a10e195f103e36180a13cda2ce3961639d790528fa005dd56b2d949b67f48cd",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者认可机器人的行为模式是对的，只是指出其回答内容偏离了原本的问题，属于纯内容纠正。\"\n}\n```",
+ "user_sha256": "212444376d3178e2967e1ddeffac9d8b909bb1eb4f389f1af39c1141fa520bd8",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"机器人给出了行动指引和建议（M4），操作者指出其没有正面回答原问题但认可其做法正确，属于针对回复内容本身的反馈。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 663,
-   "completion_tokens": 476,
-   "total_tokens": 1139,
+   "prompt_tokens": 660,
+   "completion_tokens": 344,
+   "total_tokens": 1004,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 663,
+    "text_tokens": 660,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 73,
+    "text_tokens": 76,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 403
+    "reasoning_tokens": 268
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者认可机器人的行为模式是对的，只是指出其回答内容偏离了原本的问题，属于纯内容纠正。"
+  "reason": "机器人给出了行动指引和建议（M4），操作者指出其没有正面回答原问题但认可其做法正确，属于针对回复内容本身的反馈。"
  },
  "parse_error": null
 }

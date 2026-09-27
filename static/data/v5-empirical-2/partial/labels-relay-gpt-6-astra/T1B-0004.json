@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0004",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "573997c2406b0f7a7ca84bca1dc73f85e53e6bacb706bcc310741d569f618da2",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"机器人列出事项等操作者拍板，操作者则明确要求只记录不补答、开启定时器并直接关闭风险功能，不要再等确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1775,
+   "completion_tokens": 108,
+   "total_tokens": 1883,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1772,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 42
+   },
+   "input_tokens": 1775,
+   "output_tokens": 108,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "机器人列出事项等操作者拍板，操作者则明确要求只记录不补答、开启定时器并直接关闭风险功能，不要再等确认。"
+ },
+ "parse_error": null
+}

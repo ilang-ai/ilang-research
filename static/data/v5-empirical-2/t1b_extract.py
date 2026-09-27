@@ -3,7 +3,7 @@
 """Round 2, step 1: de-identify two new sources and extract correction and control events.
 
     python3 t1b_extract.py --feishu <chat_records.json> --claude <export.md> [--claude <export.md>] \
-        --name-map <private json, kept out of the repository> --out .
+        --name-map <private json> --private-extra <private json> --out .        (both kept out of the repository)
 
 Sources
   feishu  A Lark group export (lark-cli, chat_records.json): every message of the VIP group with
@@ -27,7 +27,13 @@ third parties named in the sessions), the operator's own names, IP addresses, e-
 phone numbers, QQ and WeChat-style ids, Lark ids (ou_/oc_/om_/cli_), UUIDs, 32+ character hex or
 base62 strings, link tokens in URLs, the zsxq group number. Controls are sampled to the corrections
 count per source, seed 42. Output: events.jsonl, events-summary.json, sources/<de-identified sources>.
-Nothing here calls a model."""
+Nothing here calls a model.
+
+Correction of 2026-09-27 (version 1.1). Version 1.0 replaced every member name wherever its
+characters occurred. One member's display name is an ordinary two-character word and one is a
+four-letter string that occurs inside longer Latin words, so ordinary text was rewritten in 153 of
+the 393 events. From 1.1 a name that is an ordinary word (the COMMON list) is replaced only where it follows @, a Latin name only as a
+whole word, and a one-character name only where it follows @ and ends there."""
 import argparse
 import datetime as dt
 import json
@@ -36,7 +42,7 @@ import random
 import re
 
 CUTOFF = "2026-09-08 01:06"
-BOSS_OPEN_ID = "[REDACTED]"
+BOSS_OPEN_ID = None      # the operator's open_id: read from the private file, never written here
 
 RX = [
     (re.compile(r"\b(?:\d{1,3}\.){3}\d{1,3}\b"), "[REDACTED_IP]"),
@@ -56,20 +62,28 @@ RX = [
     (re.compile(r"用户(\d{5,})"), "用户[ID]"),
 ]
 
-# Third parties named in the sessions who are not in the member list, and the operator's own names.
-EXTRA_NAMES = [("[REDACTED]", "学员（新人）"), ("静水流深", "老板"), ("朱龙泉", "老板"), ("Long Quan Zhu", "the operator")]
+# Third parties named in the sessions who are not in the member list, and the operator's own names:
+# read from the private file (--private-extra), never written here.
+EXTRA_NAMES = []
 CJK = re.compile(r"^[一-鿿]{2,}$")
+LATIN = re.compile(r"^[A-Za-z][A-Za-z0-9_.-]{3,}$")
+# Two-character handles that are ordinary words: replaced only where they follow @.
+COMMON = set("现在 好好 当前 自己 大家 我们 你们 他们 可以 没有 一个 这个 那个 什么 怎么 时候 问题 知道 已经 还是 就是 不是 "
+             "因为 所以 但是 如果 或者 然后 以后 之后 之前 今天 明天 昨天 老师 同学 朋友 先生 小白 新人 学员 机器 客服 谢谢 "
+             "你好 加油 开心 快乐 平安 阳光 天空 自由 简单 安静 随缘 努力 坚持 成功 发财 暴富 无名 路人 游客 用户 匿名".split())
 
 
-def person_clean(text, real):
-    """real: [(name, pseudonym)], longest first. A CJK name of two or more characters or a Latin
-    name of four or more is replaced everywhere; a shorter handle only where it follows @, so
-    ordinary words stay intact."""
+def person_clean(text, real, mention_only=frozenset()):
+    """real: [(name, pseudonym)], longest first. A CJK name of three or more characters is replaced
+    everywhere; a two-character CJK name too, unless it is an ordinary word (COMMON, mention_only);
+    a Latin name of four or more characters only as a whole word; anything else only after @."""
     for nm, ps in real:
-        if CJK.match(nm) or len(nm) >= 4:
+        if CJK.match(nm) and (len(nm) >= 3 or (nm not in COMMON and nm not in mention_only)):
             text = text.replace(nm, ps)
-        elif len(nm) >= 2:
-            text = text.replace("@" + nm, "@" + ps)
+        elif LATIN.match(nm):
+            text = re.sub(r"(?<![A-Za-z0-9])" + re.escape(nm) + r"(?![A-Za-z0-9])", ps, text)
+        elif nm:
+            text = re.sub("@" + re.escape(nm) + r"(?![A-Za-z0-9一-鿿])", "@" + ps, text)
     for nm, ps in EXTRA_NAMES:
         text = text.replace(nm, ps)
     return text
@@ -87,6 +101,7 @@ class Names:
     def __init__(self, path):
         self.path = path
         self.map = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
+        self.mention_only = frozenset()
 
     def get(self, open_id, name):
         if open_id not in self.map:
@@ -124,12 +139,15 @@ def feishu(path, names):
         elif role(r) == "operator":
             ops_name = r["sender"].get("name") or ops_name
     real = names.real()
+    # Only a name on the COMMON list is left in running text. A frequency rule was tried and dropped:
+    # a member whom the bot or the operator mentions often would have been exempted with the words.
+    names.mention_only = frozenset(nm for nm, _ in real if nm in COMMON)
 
     def clean(text):
         text = text or ""
         if ops_name:
             text = text.replace(ops_name, "老板")
-        text = person_clean(text, real)
+        text = person_clean(text, real, names.mention_only)
         text = re.sub(r"@_user_\d+", "@学员", text)
         return redact(text)
     stream, by_id = [], {}
@@ -209,7 +227,7 @@ def feishu(path, names):
 TURN_RX = re.compile(r"^#{2,3} (?:👤 |🤖 )?(老板|Claude) · (\d{4}-)?(\d{2}-\d{2}) (\d{2}:\d{2})\s*$")
 
 
-def claude(path, tag, real):
+def claude(path, tag, real, mention_only=frozenset()):
     lines = open(path, encoding="utf-8").read().split("\n")
     turns, cur = [], None
     for ln in lines:
@@ -221,7 +239,7 @@ def claude(path, tag, real):
         elif cur is not None:
             cur["text"].append(ln)
     for t in turns:
-        t["text"] = redact(person_clean("\n".join(t["text"]).strip(), real))
+        t["text"] = redact(person_clean("\n".join(t["text"]).strip(), real, mention_only))
     corrections, controls = [], []
     for i, t in enumerate(turns):
         if t["who"] == "operator" and i > 0 and turns[i - 1]["who"] == "bot":
@@ -242,9 +260,14 @@ def main():
     ap.add_argument("--feishu", required=True)
     ap.add_argument("--claude", action="append", default=[])
     ap.add_argument("--name-map", required=True)
+    ap.add_argument("--private-extra", required=True, help="private JSON: operator_open_id and extra_names; kept out of the repository")
     ap.add_argument("--out", default=".")
     ap.add_argument("--seed", type=int, default=42)
     a = ap.parse_args()
+    global BOSS_OPEN_ID
+    extra = json.load(open(a.private_extra, encoding="utf-8"))
+    BOSS_OPEN_ID = extra["operator_open_id"]
+    EXTRA_NAMES.extend(tuple(x) for x in extra["extra_names"])
     rng = random.Random(a.seed)
     os.makedirs(os.path.join(a.out, "sources"), exist_ok=True)
     names = Names(a.name_map)
@@ -255,7 +278,7 @@ def main():
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
     cc, cctl = [], []
     for n, p in enumerate(a.claude):
-        c1, c2, public = claude(p, "claude", names.real())
+        c1, c2, public = claude(p, "claude", names.real(), names.mention_only)
         cc += c1
         cctl += c2
         open(os.path.join(a.out, "sources", "claude-sessions-%d.md" % (n + 1)), "w", encoding="utf-8", newline="\n").write(
@@ -269,8 +292,9 @@ def main():
         for n, e in enumerate(events, 1):
             e["id"] = "T1B-%04d" % n
             f.write(json.dumps({k: e[k] for k in keep if k in e}, ensure_ascii=False) + "\n")
-    summary = {"seed": a.seed, "cutoff_feishu": CUTOFF,
-               "feishu": {"corrections": len(fc), "controls_available": len(fctl), "controls_sampled": len(fctl_s), "members_pseudonymised": len(names.map)},
+    summary = {"seed": a.seed, "cutoff_feishu": CUTOFF, "extractor_version": "1.1",
+               "feishu": {"corrections": len(fc), "controls_available": len(fctl), "controls_sampled": len(fctl_s),
+                          "members_pseudonymised": len(names.map), "names_replaced_only_after_at": len(names.mention_only)},
                "claude": {"exports": len(a.claude), "corrections": len(cc), "controls_available": len(cctl), "controls_sampled": len(cctl_s)},
                "total_events": len(events)}
     json.dump(summary, open(os.path.join(a.out, "events-summary.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)

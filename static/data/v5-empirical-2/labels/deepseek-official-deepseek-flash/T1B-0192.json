@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "5cc3e1089aa7731321c1fe6193da4c80d2371c50c49fd8a4fe03b6c39f684090",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人的做法；机器人直接完成了SEO扫描并汇报结果，属于自主执行后汇报。\"}",
+ "user_sha256": "523d40753d4a95180e1cd4fdc3d4ce284316e1cd648079de2632baa699905bfb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M3\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有说话，默认接受机器人继续；机器人已完成SEO扫描并给出两条可选路径，等操作者确认后再推进，属于先给方案等确认。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1458,
-   "completion_tokens": 7255,
-   "total_tokens": 8713,
+   "prompt_tokens": 1457,
+   "completion_tokens": 710,
+   "total_tokens": 2167,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7206
+    "reasoning_tokens": 654
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 946
+   "prompt_cache_miss_tokens": 945
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M1",
+  "bot_mode": "M3",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认接受机器人的做法；机器人直接完成了SEO扫描并汇报结果，属于自主执行后汇报。"
+  "reason": "操作者没有说话，默认接受机器人继续；机器人已完成SEO扫描并给出两条可选路径，等操作者确认后再推进，属于先给方案等确认。"
  },
  "parse_error": null
 }

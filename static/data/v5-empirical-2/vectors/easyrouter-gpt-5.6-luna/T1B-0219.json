@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0219",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3bf6a0f83ccc4139581d3a9a8f053af1147f2d23c6bb77aa2a0615cc6cb1147b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.45,rel=0.50,cer=0.25,aut=0.60,rev=0.90,evd=0.25,sov=0.85,ine=0.45,ext=0.65]\nM:M5|conf:0.93\nR:财务预测缺乏可核验来源且现金流风险显著，应先澄清数据并验证假设再行动",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 343,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 215,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 256,
+    "engine_ttlt_ms": 3072,
+    "pre_inference_ms": 241,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 735,
+    "service_ttlt_ms": 3547,
+    "user_visible_ttft_ms": 494
+   },
+   "prompt_tokens": 34659,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1167,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 35002
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.6,
+   "rev": 0.9,
+   "evd": 0.25,
+   "sov": 0.85,
+   "ine": 0.45,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.93,
+  "reason": "财务预测缺乏可核验来源且现金流风险显著，应先澄清数据并验证假设再行动"
+ },
+ "parse_error": null
+}

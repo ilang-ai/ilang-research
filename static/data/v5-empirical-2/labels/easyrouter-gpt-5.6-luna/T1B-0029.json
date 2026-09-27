@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0029",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6ac8deadcc737a69f28948c08f53170c8c8e569b1b7c1e59f4bf6e67deed16b9",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在提出新的接入方案讨论，明确说不要急着做，只希望先想处理方式并给建议；机器人此前则已自主完成 README 发布并表示继续推进。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 351,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 279,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 83,
+    "engine_ttlt_ms": 3018,
+    "pre_inference_ms": 105,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 437,
+    "service_ttlt_ms": 3343,
+    "user_visible_ttft_ms": 332
+   },
+   "prompt_tokens": 723,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1074
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者是在提出新的接入方案讨论，明确说不要急着做，只希望先想处理方式并给建议；机器人此前则已自主完成 README 发布并表示继续推进。"
+ },
+ "parse_error": null
+}

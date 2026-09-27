@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0243",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5b72829747025dd046875e176577f426feb00d1b6b22bebdb2190de8afaeb57c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M7\",\"reason\":\"机器人一直在分析两条赚钱路线、提供建议，操作者则要求别再花精力答疑，改为推荐谷歌套利课程或让对方去问自己的AI。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1426,
+   "completion_tokens": 172,
+   "total_tokens": 1598,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1423,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 102
+   },
+   "input_tokens": 1426,
+   "output_tokens": 172,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M7",
+  "reason": "机器人一直在分析两条赚钱路线、提供建议，操作者则要求别再花精力答疑，改为推荐谷歌套利课程或让对方去问自己的AI。"
+ },
+ "parse_error": null
+}

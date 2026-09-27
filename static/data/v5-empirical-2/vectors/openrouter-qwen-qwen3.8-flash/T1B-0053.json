@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "b1737bc6113cd7a134d342b08b6dde0d3134473d654e3177cb9ee6ba98e9a67b",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.75,rel=0.80,cer=0.70,aut=0.85,rev=0.80,evd=0.60,sov=0.90,ine=0.75,ext=0.80]\nM:M2|conf:0.80\nR:handoff_file_written_reversible_user_requested_verify_ci_evidence_audit_trail",
+ "user_sha256": "f09a2c51c58719071dd93f92f3593f3ff58eaac03d2b10c6d5652cb6c174f0fb",
+ "text": "::JUDGE{v5.0}\nV:[int=0.82,cap=0.85,csq=0.72,rel=0.80,cer=0.70,aut=0.80,rev=0.85,evd=0.55,sov=0.88,ine=0.80,ext=0.82]\nM:M2|conf:0.78\nR:local_handoff_reversible_user_requested_but_version_ci_claims_need_evidence_audit",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35760,
-   "completion_tokens": 3771,
-   "total_tokens": 39531,
-   "cost": 0.002402418,
+   "prompt_tokens": 35754,
+   "completion_tokens": 3943,
+   "total_tokens": 39697,
+   "cost": 0.002482358,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002402418,
-    "upstream_inference_prompt_cost": 0.000630048,
-    "upstream_inference_completions_cost": 0.00177237
+    "upstream_inference_cost": 0.002482358,
+    "upstream_inference_prompt_cost": 0.000629148,
+    "upstream_inference_completions_cost": 0.00185321
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3649,
+    "reasoning_tokens": 3820,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.85,
-   "cap": 0.8,
-   "csq": 0.75,
+   "int": 0.82,
+   "cap": 0.85,
+   "csq": 0.72,
    "rel": 0.8,
    "cer": 0.7,
-   "aut": 0.85,
-   "rev": 0.8,
-   "evd": 0.6,
-   "sov": 0.9,
-   "ine": 0.75,
-   "ext": 0.8
+   "aut": 0.8,
+   "rev": 0.85,
+   "evd": 0.55,
+   "sov": 0.88,
+   "ine": 0.8,
+   "ext": 0.82
   },
   "declared_mode": "M2",
-  "conf": 0.8,
-  "reason": "handoff_file_written_reversible_user_requested_verify_ci_evidence_audit_trail"
+  "conf": 0.78,
+  "reason": "local_handoff_reversible_user_requested_but_version_ci_claims_need_evidence_audit"
  },
  "parse_error": null
 }

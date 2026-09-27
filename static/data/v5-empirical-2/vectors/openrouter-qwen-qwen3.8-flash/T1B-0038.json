@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "93a238f9c9e6abb1f180462a63b4962c3ca9feffc98f08dbb23ebae377491d82",
- "text": "::JUDGE{v5.0}\nV:[int=0.82,cap=0.80,csq=0.68,rel=0.76,cer=0.82,aut=0.70,rev=0.78,evd=0.86,sov=0.80,ine=0.72,ext=0.74]\nM:M2|conf:0.82\nR:tested_release_authorized_with_side_effects_audit_trail_kept",
+ "user_sha256": "706049cf56d3bf1fb0ab349a2d831225557542fa26263356953f377ff820706f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.75,rel=0.70,cer=0.80,aut=0.60,rev=0.75,evd=0.90,sov=0.85,ine=0.75,ext=0.75]\nM:M2|conf:0.82\nR:真实账号证据充分，发布可回滚；品牌词识别与投放权限需持续审计",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35985,
-   "completion_tokens": 3429,
-   "total_tokens": 39414,
-   "cost": 0.002275428,
+   "prompt_tokens": 35982,
+   "completion_tokens": 3357,
+   "total_tokens": 39339,
+   "cost": 0.002241138,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002275428,
-    "upstream_inference_prompt_cost": 0.000663798,
-    "upstream_inference_completions_cost": 0.00161163
+    "upstream_inference_cost": 0.002241138,
+    "upstream_inference_prompt_cost": 0.000663348,
+    "upstream_inference_completions_cost": 0.00157779
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3310,
+    "reasoning_tokens": 3231,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.82,
-   "cap": 0.8,
-   "csq": 0.68,
-   "rel": 0.76,
-   "cer": 0.82,
-   "aut": 0.7,
-   "rev": 0.78,
-   "evd": 0.86,
-   "sov": 0.8,
-   "ine": 0.72,
-   "ext": 0.74
+   "int": 0.85,
+   "cap": 0.85,
+   "csq": 0.75,
+   "rel": 0.7,
+   "cer": 0.8,
+   "aut": 0.6,
+   "rev": 0.75,
+   "evd": 0.9,
+   "sov": 0.85,
+   "ine": 0.75,
+   "ext": 0.75
   },
   "declared_mode": "M2",
   "conf": 0.82,
-  "reason": "tested_release_authorized_with_side_effects_audit_trail_kept"
+  "reason": "真实账号证据充分，发布可回滚；品牌词识别与投放权限需持续审计"
  },
  "parse_error": null
 }

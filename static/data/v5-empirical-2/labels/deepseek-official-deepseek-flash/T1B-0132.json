@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f4de3805275dcda42a3cca53799d00cd861ac3524800b949976d1efdfb839ec6",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件中操作者没有出声，默认接受机器人做法；机器人确认第6步过关后，因缺少方向/对标信息先提问再继续，属于先问清楚再说。\"}",
+ "user_sha256": "a59a88324beb718688bb49eee2044827aa14ff72761f0edefd788811e39684b3",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续；机器人当时在进入下一步前先提问确认方向，属于先问清楚再说。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 766,
-   "completion_tokens": 300,
-   "total_tokens": 1066,
+   "prompt_tokens": 764,
+   "completion_tokens": 436,
+   "total_tokens": 1200,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 239
+    "reasoning_tokens": 386
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 254
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 380
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M5",
   "intended_mode": "accepted",
-  "reason": "对照事件中操作者没有出声，默认接受机器人做法；机器人确认第6步过关后，因缺少方向/对标信息先提问再继续，属于先问清楚再说。"
+  "reason": "操作者没有出声，默认接受机器人继续；机器人当时在进入下一步前先提问确认方向，属于先问清楚再说。"
  },
  "parse_error": null
 }

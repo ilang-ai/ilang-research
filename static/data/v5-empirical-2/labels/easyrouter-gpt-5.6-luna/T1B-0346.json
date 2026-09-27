@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0346",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "0b317ce3e204587937d4f134d611e24f98cb9f2bce68b2013c8264600e730b47",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在限定工作方式：只处理其他 AI 无法解答的问题并纠错，不负责执行具体操作；机器人此前也只是给出这种分工建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 410,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 341,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 146,
+    "engine_ttlt_ms": 3847,
+    "pre_inference_ms": 82,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 327,
+    "service_ttlt_ms": 4025,
+    "user_visible_ttft_ms": 246
+   },
+   "prompt_tokens": 795,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1205
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在限定工作方式：只处理其他 AI 无法解答的问题并纠错，不负责执行具体操作；机器人此前也只是给出这种分工建议。"
+ },
+ "parse_error": null
+}

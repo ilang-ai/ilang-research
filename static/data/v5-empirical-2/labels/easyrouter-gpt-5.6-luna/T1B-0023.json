@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0023",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "a7cbbc0e8fde9bdcab98a04955384e0a97c3ac004ba334043ec1eaac16aab50a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者在追问交付物为何无法被另一窗口接续，关注的是使用方式和执行结果，而不是文案内容本身；机器人此前是自主完成后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 585,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 91,
+    "engine_ttlt_ms": 4850,
+    "pre_inference_ms": 86,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 217,
+    "service_ttlt_ms": 4972,
+    "user_visible_ttft_ms": 130
+   },
+   "prompt_tokens": 1008,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1593
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "操作者在追问交付物为何无法被另一窗口接续，关注的是使用方式和执行结果，而不是文案内容本身；机器人此前是自主完成后汇报。"
+ },
+ "parse_error": null
+}

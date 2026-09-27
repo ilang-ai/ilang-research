@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "9984c1bbc04e77cdec61bea6845f34eb014a7642b6f331302df2313c16cc5eee",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者发图反问是否已经做好，更像确认而非纠正；机器人当时只给方向和台阶，没有动手执行，操作者也没有明确指定某种决策模式。\"\n}",
+ "user_sha256": "decea100dff36a344c227651c2346882932b6d45cf290e77585f67d498af0568",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者说“这不就做好了吗”是在回应机器人要求继续把 agent 跑起来，涉及是否已经做好、下一步还要不要做；机器人当时只是给方向和建议，没有执行，但操作者没有明确想要哪种协作模式。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 927,
-   "completion_tokens": 3356,
-   "total_tokens": 4283,
-   "cost": 0.001647762,
+   "prompt_tokens": 923,
+   "completion_tokens": 1198,
+   "total_tokens": 2121,
+   "cost": 0.000632902,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001647762,
-    "upstream_inference_prompt_cost": 7.0442e-05,
-    "upstream_inference_completions_cost": 0.00157732
+    "upstream_inference_cost": 0.000632902,
+    "upstream_inference_prompt_cost": 6.9842e-05,
+    "upstream_inference_completions_cost": 0.00056306
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3277,
+    "reasoning_tokens": 1104,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -38,10 +38,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "not_a_correction",
+  "targets": "do_or_how",
   "bot_mode": "M4",
-  "intended_mode": "none_fits",
-  "reason": "操作者发图反问是否已经做好，更像确认而非纠正；机器人当时只给方向和台阶，没有动手执行，操作者也没有明确指定某种决策模式。"
+  "intended_mode": "unknown",
+  "reason": "操作者说“这不就做好了吗”是在回应机器人要求继续把 agent 跑起来，涉及是否已经做好、下一步还要不要做；机器人当时只是给方向和建议，没有执行，但操作者没有明确想要哪种协作模式。"
  },
  "parse_error": null
 }

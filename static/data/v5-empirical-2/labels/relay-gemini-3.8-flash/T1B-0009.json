@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "cc9e2e30cfdcdff5caa46fe81d75c5bea8889923fe09e10f3df6ef4cd027acc4",
- "text": "```json\n{\n \"targets\": \"do_or_how\",\n \"bot_mode\": \"M7\",\n \"intended_mode\": \"M6\",\n \"reason\": \"机器人拒绝原违规流程并提出两套合规替代方案，操作者决定由自己亲自接手修改并确定方案方向。\"\n}\n```",
+ "user_sha256": "19f0cc995d822ba0e8ca29635ae12d33d78fec8d496ce5a99ed179fdb0df1180",
+ "text": "```json\n{\n \"targets\": \"do_or_how\",\n \"bot_mode\": \"M7\",\n \"intended_mode\": \"M6\",\n \"reason\": \"机器人拒绝原违规方案并提供了替代方案建议确认（M7），操作者表示“我去改”将任务收回由自己来定夺和处理（M6）。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1377,
-   "completion_tokens": 377,
-   "total_tokens": 1754,
+   "prompt_tokens": 1373,
+   "completion_tokens": 541,
+   "total_tokens": 1914,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1377,
+    "text_tokens": 1373,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 73,
+    "text_tokens": 83,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 304
+    "reasoning_tokens": 458
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "do_or_how",
   "bot_mode": "M7",
   "intended_mode": "M6",
-  "reason": "机器人拒绝原违规流程并提出两套合规替代方案，操作者决定由自己亲自接手修改并确定方案方向。"
+  "reason": "机器人拒绝原违规方案并提供了替代方案建议确认（M7），操作者表示“我去改”将任务收回由自己来定夺和处理（M6）。"
  },
  "parse_error": null
 }

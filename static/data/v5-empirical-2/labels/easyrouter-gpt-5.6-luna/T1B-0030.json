@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0030",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "fa3ef57dd7a3cfc8f9b76c99d23e932f9d69084a9f394a1e82d88a258702f4b4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M3\",\"reason\":\"机器人给出了具体方案并等待点头后执行；操作者认为方案方向错了，要求先重新思考和设计简单做法，不要急着动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 505,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 435,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 134,
+    "engine_ttlt_ms": 3914,
+    "pre_inference_ms": 49,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 407,
+    "service_ttlt_ms": 4183,
+    "user_visible_ttft_ms": 358
+   },
+   "prompt_tokens": 1401,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1398,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1906
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M3",
+  "reason": "机器人给出了具体方案并等待点头后执行；操作者认为方案方向错了，要求先重新思考和设计简单做法，不要急着动手。"
+ },
+ "parse_error": null
+}

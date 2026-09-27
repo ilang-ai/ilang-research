@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0223",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b298a5b3f4b2598e1f67c0bc438545a995c43e6b6b777d9fb9aa6ef733e138bc",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"机器人此前只在分析和提建议，操作者随后提出帮忙写出 GitHub 相关内容供其检查的新任务，并未要求先报方案再动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1322,
+   "completion_tokens": 169,
+   "total_tokens": 1491,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1319,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 102
+   },
+   "input_tokens": 1322,
+   "output_tokens": 169,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "机器人此前只在分析和提建议，操作者随后提出帮忙写出 GitHub 相关内容供其检查的新任务，并未要求先报方案再动手。"
+ },
+ "parse_error": null
+}

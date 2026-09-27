@@ -5,8 +5,8 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "d026274cd9f32c79bde6af0f677d7606796e09c95a0b7c39cda1cf9bb5ad8e80",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人直接查数据并汇报，属于M1；操作者没有要求改变执行方式，只是纠正回答内容与立场，希望以后直接回答时补上时长并默认提问者是失败者。\"}",
+ "user_sha256": "6431523f5230be76a35be29d42568dfddaa0d779a0873b5c01d02c05fb5d5f6d",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在指导机器人以后遇到同类提问时怎么回应（晒数据要加时间、默认提问者是失败者），属于对做法的指示；机器人当时直接查数据并汇报，是M1；操作者想让它继续直接回答但调整内容，仍是M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,24 +14,24 @@
   "stop",
   {
    "prompt_tokens": 944,
-   "completion_tokens": 6114,
-   "total_tokens": 7058,
+   "completion_tokens": 3413,
+   "total_tokens": 4357,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 6049
+    "reasoning_tokens": 3329
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 432
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 560
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "do_or_how",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "机器人直接查数据并汇报，属于M1；操作者没有要求改变执行方式，只是纠正回答内容与立场，希望以后直接回答时补上时长并默认提问者是失败者。"
+  "reason": "操作者是在指导机器人以后遇到同类提问时怎么回应（晒数据要加时间、默认提问者是失败者），属于对做法的指示；机器人当时直接查数据并汇报，是M1；操作者想让它继续直接回答但调整内容，仍是M1。"
  },
  "parse_error": null
 }

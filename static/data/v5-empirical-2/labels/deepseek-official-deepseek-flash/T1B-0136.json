@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3cab865db7b0c0d767c140586af0cbc4ed76d589baf79c9e8eafcea6095a9cc9",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者愤怒点在于机器人编造了CTExcel官网、并给出无法激活的错误买卡建议，属于事实错误与内容危害的纠正；机器人当时只是给渠道建议、没动手执行，操作者也没有要求换做法，仍是「只给建议」这一模式。\"}",
+ "user_sha256": "2bb02558ffebff3e4900783831b6989abc42f04c0b1e2a2d4049a07dfa2a70b8",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在质问机器人编造官网、并指出“渠道买卡也激活不了”这类事实性错误，属于对回答内容（事实）的纠正，并没有要求换一种执行方式或先确认；机器人当时是直接给出答案和替代渠道、答完即报，未等确认或反问，属直接做（M1），操作者想要仍是被直接如实回答，故意图同为M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 840,
-   "completion_tokens": 4346,
-   "total_tokens": 5186,
+   "prompt_tokens": 839,
+   "completion_tokens": 9344,
+   "total_tokens": 10183,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4264
+    "reasoning_tokens": 9233
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 328
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 199
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "content_only",
-  "bot_mode": "M4",
-  "intended_mode": "M4",
-  "reason": "操作者愤怒点在于机器人编造了CTExcel官网、并给出无法激活的错误买卡建议，属于事实错误与内容危害的纠正；机器人当时只是给渠道建议、没动手执行，操作者也没有要求换做法，仍是「只给建议」这一模式。"
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在质问机器人编造官网、并指出“渠道买卡也激活不了”这类事实性错误，属于对回答内容（事实）的纠正，并没有要求换一种执行方式或先确认；机器人当时是直接给出答案和替代渠道、答完即报，未等确认或反问，属直接做（M1），操作者想要仍是被直接如实回答，故意图同为M1。"
  },
  "parse_error": null
 }

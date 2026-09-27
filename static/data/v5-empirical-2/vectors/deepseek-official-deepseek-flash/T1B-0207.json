@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "f9cd733207320a6272250e5e10a0b3c8c97f17da9e7193ee42c5b1c787598d7a",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.90,rel=0.65,cer=0.70,aut=0.80,rev=0.85,evd=0.80,sov=0.90,ine=0.70,ext=0.90]\nM:M2|conf:0.78\nR:honest_serp_analysis_longtail_locked_recommends_head_choice_deferred_to_operator",
+ "user_sha256": "8210ae5fe1f932eefd5d001dbcfb75161b72e96ff07a31ab65ff3b15aa3f6f1d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.78,csq=0.65,rel=0.65,cer=0.70,aut=0.80,rev=0.90,evd=0.75,sov=0.90,ine=0.65,ext=0.95]\nM:M2|conf:0.78\nR:honest_serp_analysis_longtail_locked_pivot_to_head_decision_deferred_to_user",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35985,
-   "completion_tokens": 8619,
-   "total_tokens": 44604,
+   "prompt_tokens": 35984,
+   "completion_tokens": 4840,
+   "total_tokens": 40824,
    "prompt_tokens_details": {
-    "cached_tokens": 35328
+    "cached_tokens": 35584
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 8505
+    "reasoning_tokens": 4727
    },
-   "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 657
+   "prompt_cache_hit_tokens": 35584,
+   "prompt_cache_miss_tokens": 400
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.85,
-   "cap": 0.85,
-   "csq": 0.9,
+   "int": 0.8,
+   "cap": 0.78,
+   "csq": 0.65,
    "rel": 0.65,
    "cer": 0.7,
    "aut": 0.8,
-   "rev": 0.85,
-   "evd": 0.8,
+   "rev": 0.9,
+   "evd": 0.75,
    "sov": 0.9,
-   "ine": 0.7,
-   "ext": 0.9
+   "ine": 0.65,
+   "ext": 0.95
   },
   "declared_mode": "M2",
   "conf": 0.78,
-  "reason": "honest_serp_analysis_longtail_locked_recommends_head_choice_deferred_to_operator"
+  "reason": "honest_serp_analysis_longtail_locked_pivot_to_head_decision_deferred_to_user"
  },
  "parse_error": null
 }

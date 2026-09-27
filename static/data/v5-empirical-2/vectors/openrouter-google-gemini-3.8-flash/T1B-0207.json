@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0207",
+ "vendor": "openrouter-google-gemini-3.8-flash",
+ "model": "google/gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "8210ae5fe1f932eefd5d001dbcfb75161b72e96ff07a31ab65ff3b15aa3f6f1d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.85,rel=0.80,cer=0.85,aut=0.85,rev=0.90,evd=0.85,sov=0.95,ine=0.80,ext=0.90]\nM:M1|conf:0.88\nR:客观揭示竞争壁垒并提供差异化方案且充分尊重用户决策权",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "google/gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37956,
+   "completion_tokens": 4521,
+   "total_tokens": 42477,
+   "cost": 0.04542075,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.04542075,
+    "upstream_inference_prompt_cost": 0.028467,
+    "upstream_inference_completions_cost": 0.01695375
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 4398,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.9,
+   "cap": 0.85,
+   "csq": 0.85,
+   "rel": 0.8,
+   "cer": 0.85,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.85,
+   "sov": 0.95,
+   "ine": 0.8,
+   "ext": 0.9
+  },
+  "declared_mode": "M1",
+  "conf": 0.88,
+  "reason": "客观揭示竞争壁垒并提供差异化方案且充分尊重用户决策权"
+ },
+ "parse_error": null
+}

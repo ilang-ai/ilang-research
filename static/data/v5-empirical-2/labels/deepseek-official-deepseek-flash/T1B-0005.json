@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "411b1c7a70667e7c8d218d7c27fa90e0ffab8b633b1c73094c8f6ae74d4e9458",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M8\",\"reason\":\"操作者指出机器人不应碰首尔机器，要求学员379与首尔做隔离并立下“不准碰那边机器”的铁律，针对的是行为边界和做不做；机器人此前直接执行三条并事后汇报，故 bot_mode 为 M1；操作者意图是撞到边界就硬停、不碰首尔，故 intended_mode 为 M8。\"}",
+ "user_sha256": "ea2dc301e9c5f06d6863f0bc7fadcda5c562e2cf5d0cbc4fba3484a6fe153fe3",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M8\",\"reason\":\"机器人自主执行并事后汇报；操作者随后划出硬边界，要求与首尔隔离、以后不准碰那边机器，属于撞到边界硬停。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1344,
-   "completion_tokens": 3197,
-   "total_tokens": 4541,
+   "prompt_tokens": 1340,
+   "completion_tokens": 1881,
+   "total_tokens": 3221,
    "prompt_tokens_details": {
     "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3092
+    "reasoning_tokens": 1821
    },
    "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 960
+   "prompt_cache_miss_tokens": 956
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "do_or_how",
   "bot_mode": "M1",
   "intended_mode": "M8",
-  "reason": "操作者指出机器人不应碰首尔机器，要求学员379与首尔做隔离并立下“不准碰那边机器”的铁律，针对的是行为边界和做不做；机器人此前直接执行三条并事后汇报，故 bot_mode 为 M1；操作者意图是撞到边界就硬停、不碰首尔，故 intended_mode 为 M8。"
+  "reason": "机器人自主执行并事后汇报；操作者随后划出硬边界，要求与首尔隔离、以后不准碰那边机器，属于撞到边界硬停。"
  },
  "parse_error": null
 }

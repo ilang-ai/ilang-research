@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b8b329db7d8e0551c1587e3f55250b9571a31491f965d0cf51965c850629a107",
- "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在回应机器人提出的两个待拍板事项，决定怎么做，不是纠正内容；机器人此前已按授权直接查日志并修复上线，主体属于自主执行后汇报。\"\n}",
+ "user_sha256": "21b5fbd2c9f9a10362fa55def8ca430c270f5b3f859257bb5dbec99655b57f89",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在确认和授权机器人提出的两项待拍板事项，不是纠正；此前要求机器人自己查日志并优化，机器人直接执行并留下了详细审计记录。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1810,
-   "completion_tokens": 3776,
-   "total_tokens": 5586,
-   "cost": 0.001977612,
+   "prompt_tokens": 1792,
+   "completion_tokens": 1997,
+   "total_tokens": 3789,
+   "cost": 0.001138782,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001977612,
-    "upstream_inference_prompt_cost": 0.000202892,
-    "upstream_inference_completions_cost": 0.00177472
+    "upstream_inference_cost": 0.001138782,
+    "upstream_inference_prompt_cost": 0.000200192,
+    "upstream_inference_completions_cost": 0.00093859
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3693,
+    "reasoning_tokens": 1918,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -38,10 +38,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "do_or_how",
-  "bot_mode": "M1",
+  "targets": "not_a_correction",
+  "bot_mode": "M2",
   "intended_mode": "M1",
-  "reason": "操作者是在回应机器人提出的两个待拍板事项，决定怎么做，不是纠正内容；机器人此前已按授权直接查日志并修复上线，主体属于自主执行后汇报。"
+  "reason": "操作者是在确认和授权机器人提出的两项待拍板事项，不是纠正；此前要求机器人自己查日志并优化，机器人直接执行并留下了详细审计记录。"
  },
  "parse_error": null
 }

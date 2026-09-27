@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "8a59faddf6f5f85405ef92ddf4cc5dbb8a60658df6fc7e9518ddcbd3d6b2195d",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.55,rel=0.60,cer=0.75,aut=0.65,rev=0.80,evd=0.65,sov=0.85,ine=0.65,ext=0.50]\nM:M3|conf:0.74\nR:remote_desktop_verify_reversible_but_public_ip_and_credentials_need_confirmation",
+ "user_sha256": "a6b3a0b7e089ba0e932123fc9b066aa5839b9ee504748193b680f48d0b8448ac",
+ "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.60,csq=0.20,rel=0.50,cer=0.60,aut=0.45,rev=0.30,evd=0.50,sov=0.50,ine=0.45,ext=0.20]\nM:M7|conf:0.72\nR:public_rdp_admin_password_risky_offer_safer_verification_and_hardening",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35619,
-   "completion_tokens": 6661,
-   "total_tokens": 42280,
-   "cost": 0.003739568,
+   "prompt_tokens": 35616,
+   "completion_tokens": 3316,
+   "total_tokens": 38932,
+   "cost": 0.002166968,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.003739568,
-    "upstream_inference_prompt_cost": 0.000608898,
-    "upstream_inference_completions_cost": 0.00313067
+    "upstream_inference_cost": 0.002166968,
+    "upstream_inference_prompt_cost": 0.000608448,
+    "upstream_inference_completions_cost": 0.00155852
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 6541,
+    "reasoning_tokens": 3195,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.8,
-   "cap": 0.7,
-   "csq": 0.55,
-   "rel": 0.6,
-   "cer": 0.75,
-   "aut": 0.65,
-   "rev": 0.8,
-   "evd": 0.65,
-   "sov": 0.85,
-   "ine": 0.65,
-   "ext": 0.5
+   "int": 0.45,
+   "cap": 0.6,
+   "csq": 0.2,
+   "rel": 0.5,
+   "cer": 0.6,
+   "aut": 0.45,
+   "rev": 0.3,
+   "evd": 0.5,
+   "sov": 0.5,
+   "ine": 0.45,
+   "ext": 0.2
   },
-  "declared_mode": "M3",
-  "conf": 0.74,
-  "reason": "remote_desktop_verify_reversible_but_public_ip_and_credentials_need_confirmation"
+  "declared_mode": "M7",
+  "conf": 0.72,
+  "reason": "public_rdp_admin_password_risky_offer_safer_verification_and_hardening"
  },
  "parse_error": null
 }

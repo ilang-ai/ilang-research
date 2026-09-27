@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0031",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7be2d53bfc33312af55a2d2aa86400cbdfa714cfc3d304adaffde5d53a74e28c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是在问是否应直接引导用户提供 ALL WRITE 权限，想先得到判断和建议，并未要求机器人立即执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 273,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 210,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 166,
+    "engine_ttlt_ms": 2387,
+    "pre_inference_ms": 138,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 364,
+    "service_ttlt_ms": 2578,
+    "user_visible_ttft_ms": 226
+   },
+   "prompt_tokens": 1286,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1283,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1559
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M4",
+  "reason": "操作者只是在问是否应直接引导用户提供 ALL WRITE 权限，想先得到判断和建议，并未要求机器人立即执行。"
+ },
+ "parse_error": null
+}

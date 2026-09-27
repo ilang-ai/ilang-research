@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "21e5f2335f236a360a5bca731c57391f6124f0c38ba66257ab198a3bca2e05ac",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人之前的做法，而是追加新内容要求让机器人加一句话；机器人此前已直接完成验证并汇报结果，因此实际走 M1，操作者也要求它直接照加，预期也是 M1。\"}",
+ "user_sha256": "4d147308a2db1aefab812b90bef792580da03e35ce5f1aebcea8bfe7d1945256",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人已给出的验证，而是追加一句内容要求；机器人此前直接完成了关键词验证并汇报结果，属于M1，操作者也是要求直接加上该句，因此仍是M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1083,
-   "completion_tokens": 1669,
-   "total_tokens": 2752,
+   "prompt_tokens": 1082,
+   "completion_tokens": 1640,
+   "total_tokens": 2722,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1595
+    "reasoning_tokens": 1570
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 571
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 442
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者没有纠正机器人之前的做法，而是追加新内容要求让机器人加一句话；机器人此前已直接完成验证并汇报结果，因此实际走 M1，操作者也要求它直接照加，预期也是 M1。"
+  "reason": "操作者没有纠正机器人已给出的验证，而是追加一句内容要求；机器人此前直接完成了关键词验证并汇报结果，属于M1，操作者也是要求直接加上该句，因此仍是M1。"
  },
  "parse_error": null
 }

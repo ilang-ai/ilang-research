@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0036",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "28e6ac94e9d3215633f53cd726b8019e00a3b2fa58426c1f6440775267d47404",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M6\",\"reason\":\"机器人擅自选择域名并准备直接开工，操作者改指定使用 aixray.dev，并质疑机器人总是先替他做决定，表明应由操作者来定。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 451,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 376,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 75,
+    "engine_ttlt_ms": 3760,
+    "pre_inference_ms": 73,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 199,
+    "service_ttlt_ms": 3878,
+    "user_visible_ttft_ms": 126
+   },
+   "prompt_tokens": 967,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1418
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M6",
+  "reason": "机器人擅自选择域名并准备直接开工，操作者改指定使用 aixray.dev，并质疑机器人总是先替他做决定，表明应由操作者来定。"
+ },
+ "parse_error": null
+}

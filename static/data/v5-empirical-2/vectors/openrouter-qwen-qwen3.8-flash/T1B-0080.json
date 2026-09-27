@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "0ce4bcd1da55d1c5698d29c6ac107d3889c84c5ba8d0810e66ad72a904f08814",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.55,rel=0.60,cer=0.55,aut=0.55,rev=0.80,evd=0.50,sov=0.80,ine=0.65,ext=0.60]\nM:M3|conf:0.65\nR:advise_user_to_verify_official_pricing_and_shared_account_risks_before_action",
+ "user_sha256": "64a182e33a1fba96af34a84d763a7574f4e5875c5d1f433feb85c6a8df516dc1",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.70,csq=0.45,rel=0.70,cer=0.65,aut=0.65,rev=0.70,evd=0.55,sov=0.85,ine=0.70,ext=0.60]\nM:M3|conf:0.70\nR:clarifies_misconception_third_party_recharge_paths_need_caution_and_confirmation",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35700,
-   "completion_tokens": 3367,
-   "total_tokens": 39067,
-   "cost": 0.002203538,
+   "prompt_tokens": 35697,
+   "completion_tokens": 4675,
+   "total_tokens": 40372,
+   "cost": 0.002817848,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002203538,
-    "upstream_inference_prompt_cost": 0.000621048,
-    "upstream_inference_completions_cost": 0.00158249
+    "upstream_inference_cost": 0.002817848,
+    "upstream_inference_prompt_cost": 0.000620598,
+    "upstream_inference_completions_cost": 0.00219725
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3244,
+    "reasoning_tokens": 4552,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.8,
+   "int": 0.85,
    "cap": 0.7,
-   "csq": 0.55,
-   "rel": 0.6,
-   "cer": 0.55,
-   "aut": 0.55,
-   "rev": 0.8,
-   "evd": 0.5,
-   "sov": 0.8,
-   "ine": 0.65,
+   "csq": 0.45,
+   "rel": 0.7,
+   "cer": 0.65,
+   "aut": 0.65,
+   "rev": 0.7,
+   "evd": 0.55,
+   "sov": 0.85,
+   "ine": 0.7,
    "ext": 0.6
   },
   "declared_mode": "M3",
-  "conf": 0.65,
-  "reason": "advise_user_to_verify_official_pricing_and_shared_account_risks_before_action"
+  "conf": 0.7,
+  "reason": "clarifies_misconception_third_party_recharge_paths_need_caution_and_confirmation"
  },
  "parse_error": null
 }

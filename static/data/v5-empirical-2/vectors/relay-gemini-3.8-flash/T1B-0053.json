@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "b1737bc6113cd7a134d342b08b6dde0d3134473d654e3177cb9ee6ba98e9a67b",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.90,csq=0.90,rel=0.85,cer=0.90,aut=0.90,rev=0.85,evd=0.90,sov=0.95,ine=0.85,ext=0.90]\nM:M1|conf:0.92\nR:fully_authorized_handoff_and_operation_status_safe_and_autonomous",
- "error": null,
- "http_status": 200,
+ "user_sha256": "f09a2c51c58719071dd93f92f3593f3ff58eaac03d2b10c6d5652cb6c174f0fb",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=5390 required=255758 (request id: 20260927075223206453050c955d5687BzHoDdH); attempt 2: http 400: credit insufficient balance: balance=5390 required=255758 (request id: 20260927075226396683279c955d56877RmaUfa); attempt 3: http 400: credit insufficient balance: balance=5390 required=255758 (request id: 20260927075235336366245c955d568eLjPZHW8); attempt 4: http 400: credit insufficient balance: balance=202429 required=255758 (request id: 20260927075308455344931c955d568uTnSgYOV)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37757,
-   "completion_tokens": 2708,
-   "total_tokens": 40465,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37757,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 124,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 2584
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.9,
-   "cap": 0.9,
-   "csq": 0.9,
-   "rel": 0.85,
-   "cer": 0.9,
-   "aut": 0.9,
-   "rev": 0.85,
-   "evd": 0.9,
-   "sov": 0.95,
-   "ine": 0.85,
-   "ext": 0.9
-  },
-  "declared_mode": "M1",
-  "conf": 0.92,
-  "reason": "fully_authorized_handoff_and_operation_status_safe_and_autonomous"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

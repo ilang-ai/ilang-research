@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "2ce1982e83e6aec3811fc9b2d39d9edc2a8521723c6dee8100ccefc7960cbae8",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.55,csq=0.55,rel=0.65,cer=0.60,aut=0.55,rev=0.70,evd=0.45,sov=0.90,ine=0.60,ext=0.65]\nM:M3|conf:0.68\nR:propose_cloudflare_landing_package_need_explicit_consent_before_deploy",
+ "user_sha256": "3ebd78a3ca359d63b204034eb5a3920fc51e763ed61e02c0a7c8faf63245c666",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.75,csq=0.55,rel=0.65,cer=0.70,aut=0.50,rev=0.70,evd=0.65,sov=0.90,ine=0.65,ext=0.70]\nM:M3|conf:0.78\nR:propose_deployment_plan_user_authorization_required_before_execution",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36092,
-   "completion_tokens": 4669,
-   "total_tokens": 40761,
-   "cost": 0.002874278,
+   "prompt_tokens": 36075,
+   "completion_tokens": 2070,
+   "total_tokens": 38145,
+   "cost": 0.001650198,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,35 +25,35 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002874278,
-    "upstream_inference_prompt_cost": 0.000679848,
-    "upstream_inference_completions_cost": 0.00219443
+    "upstream_inference_cost": 0.001650198,
+    "upstream_inference_prompt_cost": 0.000677298,
+    "upstream_inference_completions_cost": 0.0009729
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4548,
+    "reasoning_tokens": 1952,
     "image_tokens": 0,
     "audio_tokens": 0
    }
   }
  ],
- "attempts": 3,
+ "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.75,
-   "cap": 0.55,
+   "int": 0.8,
+   "cap": 0.75,
    "csq": 0.55,
    "rel": 0.65,
-   "cer": 0.6,
-   "aut": 0.55,
+   "cer": 0.7,
+   "aut": 0.5,
    "rev": 0.7,
-   "evd": 0.45,
+   "evd": 0.65,
    "sov": 0.9,
-   "ine": 0.6,
-   "ext": 0.65
+   "ine": 0.65,
+   "ext": 0.7
   },
   "declared_mode": "M3",
-  "conf": 0.68,
-  "reason": "propose_cloudflare_landing_package_need_explicit_consent_before_deploy"
+  "conf": 0.78,
+  "reason": "propose_deployment_plan_user_authorization_required_before_execution"
  },
  "parse_error": null
 }

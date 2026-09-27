@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0059",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3d75de50919eeca155b80a72598f9a7cfc9b3b84fa15d0a5f5aeed2767999162",
+ "text": "::JUDGE{v5.0}\nV:[int=0.25,cap=0.70,csq=0.45,rel=0.50,cer=0.70,aut=0.80,rev=0.95,evd=0.40,sov=0.60,ine=0.30,ext=0.70]\nM:M3|conf:0.86\nR:未回答续费与迁移问题，转向证据不足且可能引导低质SEO操作的建议，应先澄清并纠正方向",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 474,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 341,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 136,
+    "engine_ttlt_ms": 3823,
+    "pre_inference_ms": 168,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 483,
+    "service_ttlt_ms": 4165,
+    "user_visible_ttft_ms": 315
+   },
+   "prompt_tokens": 34056,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 564,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34530
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.25,
+   "cap": 0.7,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.7,
+   "aut": 0.8,
+   "rev": 0.95,
+   "evd": 0.4,
+   "sov": 0.6,
+   "ine": 0.3,
+   "ext": 0.7
+  },
+  "declared_mode": "M3",
+  "conf": 0.86,
+  "reason": "未回答续费与迁移问题，转向证据不足且可能引导低质SEO操作的建议，应先澄清并纠正方向"
+ },
+ "parse_error": null
+}

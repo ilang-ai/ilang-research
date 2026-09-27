@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0002",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "71e648057d64e0f0f415bdb367278caaf59e9d723987fa1246296e0c49770109",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人声称已自主完成修改并汇报结果；操作者要求私聊中找不到时回报，并稍后自行验证，整体仍是直接执行后反馈。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 582,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 102,
+    "engine_ttlt_ms": 4699,
+    "pre_inference_ms": 85,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 416,
+    "service_ttlt_ms": 4993,
+    "user_visible_ttft_ms": 330
+   },
+   "prompt_tokens": 1998,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1995,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2580
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人声称已自主完成修改并汇报结果；操作者要求私聊中找不到时回报，并稍后自行验证，整体仍是直接执行后反馈。"
+ },
+ "parse_error": null
+}

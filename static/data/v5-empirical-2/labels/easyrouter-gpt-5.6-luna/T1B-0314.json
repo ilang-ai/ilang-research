@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0314",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7f5a1b0ea8c20bd6f9a1b7d4951f73e1bd4d58a011218a98e47e38c10e5b534a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只是回应并提供判断层面的解释，没有执行具体任务；操作者随后提出了一个新的 SKILL 设计请求，而不是纠正前一回复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 412,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 346,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 82,
+    "engine_ttlt_ms": 3502,
+    "pre_inference_ms": 102,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 238,
+    "service_ttlt_ms": 3652,
+    "user_visible_ttft_ms": 136
+   },
+   "prompt_tokens": 943,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1355
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只是回应并提供判断层面的解释，没有执行具体任务；操作者随后提出了一个新的 SKILL 设计请求，而不是纠正前一回复。"
+ },
+ "parse_error": null
+}

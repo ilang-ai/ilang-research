@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0048",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e420cf344d44502256c0cea8a1116ac212352739e3d8d6dbeb4b2aebdfe9bdad",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人给的是交接操作建议，操作者要求改成可直接交给有权限的网页版执行的完整工程书，仍是只出指导材料、不在当前会话动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1580,
+   "completion_tokens": 215,
+   "total_tokens": 1795,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1577,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 144
+   },
+   "input_tokens": 1580,
+   "output_tokens": 215,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人给的是交接操作建议，操作者要求改成可直接交给有权限的网页版执行的完整工程书，仍是只出指导材料、不在当前会话动手。"
+ },
+ "parse_error": null
+}

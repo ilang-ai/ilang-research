@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0130",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "43848fe7b7cd2936187d029b14e59929a86ecd6fb34bba8c4aabbc19d7f3c9a9",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有追加消息，机器人仅提供了付款故障的处理建议和替代方案，没有实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 109,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 55,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 87,
+    "engine_ttlt_ms": 931,
+    "pre_inference_ms": 169,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 396,
+    "service_ttlt_ms": 1234,
+    "user_visible_ttft_ms": 227
+   },
+   "prompt_tokens": 906,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1015
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有追加消息，机器人仅提供了付款故障的处理建议和替代方案，没有实际执行操作。"
+ },
+ "parse_error": null
+}

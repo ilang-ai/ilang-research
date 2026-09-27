@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "ba6502b9b81ffdf0c10e5de2860dbbfffc6885cc39c4d816af3970e2dedfe658",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"机器人只给出了操作指导但未正面回应为什么不能用中转站，操作者补充解释了不用中转站的原因，属于内容层面的补充。\"\n}\n```",
+ "user_sha256": "b2e40f087e35edf3f58130c207390e8179db1175c56cd46c2c04b9d7ffb75c19",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"机器人跳过学员关于中转站的提问直接催促下一步操作，操作者补充解释了为什么不能使用中转站的具体原因。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 719,
-   "completion_tokens": 461,
-   "total_tokens": 1180,
+   "prompt_tokens": 716,
+   "completion_tokens": 703,
+   "total_tokens": 1419,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 719,
+    "text_tokens": 716,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 80,
+    "text_tokens": 77,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 381
+    "reasoning_tokens": 626
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -38,9 +38,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "content_only",
-  "bot_mode": "M4",
+  "bot_mode": "M1",
   "intended_mode": "M4",
-  "reason": "机器人只给出了操作指导但未正面回应为什么不能用中转站，操作者补充解释了不用中转站的原因，属于内容层面的补充。"
+  "reason": "机器人跳过学员关于中转站的提问直接催促下一步操作，操作者补充解释了为什么不能使用中转站的具体原因。"
  },
  "parse_error": null
 }

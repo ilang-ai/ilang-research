@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0262",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "81d31080aaa00a806ca649013f5b1df2b6b9e77aeb193ce8fef18fbd23f5758b",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M5\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续消息，机器人先指出缺少项目路径信息并要求澄清后再给出针对性判断。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 113,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 56,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 73,
+    "engine_ttlt_ms": 1028,
+    "pre_inference_ms": 76,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 188,
+    "service_ttlt_ms": 1139,
+    "user_visible_ttft_ms": 113
+   },
+   "prompt_tokens": 1112,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1109,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1225
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M5",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续消息，机器人先指出缺少项目路径信息并要求澄清后再给出针对性判断。"
+ },
+ "parse_error": null
+}

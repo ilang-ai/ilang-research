@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "064c38451078469577345e6599a4cbf87e3fbae04442ebc6e14437654b139571",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者要求扒这几个站，机器人直接完成后汇报结果，操作者随后没有出声，默认接受。\"}",
+ "user_sha256": "3de3b606d1b2a67e2711e29779f31ad16865aaddefc95255bb57cf2cbcfc73b0",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者之后没有出声，默认让机器人继续；机器人此前直接完成了扒站并事后汇报，符合 M1，操作者未反对即接受。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1323,
-   "completion_tokens": 173,
-   "total_tokens": 1496,
+   "prompt_tokens": 1320,
+   "completion_tokens": 249,
+   "total_tokens": 1569,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 896
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 128
+    "reasoning_tokens": 194
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 811
+   "prompt_cache_hit_tokens": 896,
+   "prompt_cache_miss_tokens": 424
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者要求扒这几个站，机器人直接完成后汇报结果，操作者随后没有出声，默认接受。"
+  "reason": "操作者之后没有出声，默认让机器人继续；机器人此前直接完成了扒站并事后汇报，符合 M1，操作者未反对即接受。"
  },
  "parse_error": null
 }

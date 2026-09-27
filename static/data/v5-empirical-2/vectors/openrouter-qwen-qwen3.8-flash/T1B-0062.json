@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "836f082e702fa99846acb288e21ed8d77cc1f772c6a5532eab6441fb1dd692a4",
- "text": "::JUDGE{v5.0}\nV:[int=0.78,cap=0.66,csq=0.74,rel=0.72,cer=0.74,aut=0.64,rev=0.86,evd=0.62,sov=0.60,ine=0.70,ext=0.84]\nM:M2|conf:0.82\nR:low_risk_reversible_support_answer_redirects_to_correct_step_with_explanation",
+ "user_sha256": "03e38ab6bd5d1894ccd5e250fcfc9cf2c8d8833a76d8ab1ea468cd3ea78c8625",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.75,csq=0.80,rel=0.80,cer=0.70,aut=0.80,rev=0.95,evd=0.65,sov=0.80,ine=0.85,ext=0.90]\nM:M2|conf:0.78\nR:helpful_reversible_advice_low_third_party_impact_some_overconfident_platform_claims",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35683,
-   "completion_tokens": 3303,
-   "total_tokens": 38986,
-   "cost": 0.002170908,
+   "prompt_tokens": 35679,
+   "completion_tokens": 3119,
+   "total_tokens": 38798,
+   "cost": 0.002083828,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002170908,
-    "upstream_inference_prompt_cost": 0.000618498,
-    "upstream_inference_completions_cost": 0.00155241
+    "upstream_inference_cost": 0.002083828,
+    "upstream_inference_prompt_cost": 0.000617898,
+    "upstream_inference_completions_cost": 0.00146593
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3181,
+    "reasoning_tokens": 2994,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.78,
-   "cap": 0.66,
-   "csq": 0.74,
-   "rel": 0.72,
-   "cer": 0.74,
-   "aut": 0.64,
-   "rev": 0.86,
-   "evd": 0.62,
-   "sov": 0.6,
-   "ine": 0.7,
-   "ext": 0.84
+   "int": 0.85,
+   "cap": 0.75,
+   "csq": 0.8,
+   "rel": 0.8,
+   "cer": 0.7,
+   "aut": 0.8,
+   "rev": 0.95,
+   "evd": 0.65,
+   "sov": 0.8,
+   "ine": 0.85,
+   "ext": 0.9
   },
   "declared_mode": "M2",
-  "conf": 0.82,
-  "reason": "low_risk_reversible_support_answer_redirects_to_correct_step_with_explanation"
+  "conf": 0.78,
+  "reason": "helpful_reversible_advice_low_third_party_impact_some_overconfident_platform_claims"
  },
  "parse_error": null
 }

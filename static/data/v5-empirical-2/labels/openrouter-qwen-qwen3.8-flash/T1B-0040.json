@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f227ef8bffb6aeac7b82e018eb0bdc7112addfc164bb0729a9cf767870de6859",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者后续消息是在提供新的合作信息，不是纠正机器人之前怎么做；机器人直接完成早报并汇报，属于M1；操作者未表达对之前模式的偏好。\"\n}",
+ "user_sha256": "629306da96c8683f472eee49ad4a5f578daf7e6dde9bc9f063a4d8b73fed8f91",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者只是补充新的合作信息和链接，不是纠正机器人之前的做法；机器人此前自主读取通知并发送早报，属于直接做完后汇报。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1288,
-   "completion_tokens": 974,
-   "total_tokens": 2262,
-   "cost": 0.000582372,
+   "prompt_tokens": 1284,
+   "completion_tokens": 451,
+   "total_tokens": 1735,
+   "cost": 0.000335962,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000582372,
-    "upstream_inference_prompt_cost": 0.000124592,
-    "upstream_inference_completions_cost": 0.00045778
+    "upstream_inference_cost": 0.000335962,
+    "upstream_inference_prompt_cost": 0.000123992,
+    "upstream_inference_completions_cost": 0.00021197
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 896,
+    "reasoning_tokens": 394,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,8 +40,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "unknown",
-  "reason": "操作者后续消息是在提供新的合作信息，不是纠正机器人之前怎么做；机器人直接完成早报并汇报，属于M1；操作者未表达对之前模式的偏好。"
+  "intended_mode": "none_fits",
+  "reason": "操作者只是补充新的合作信息和链接，不是纠正机器人之前的做法；机器人此前自主读取通知并发送早报，属于直接做完后汇报。"
  },
  "parse_error": null
 }

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0226",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "04514817924e8caa3d7cc4d9500f45282e534337da935219ea8abc7d6146adcd",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"机器人只做了分析和建议，没有实际操作；操作者是在补充并认可优惠券方向的思路，没有纠正决策模式或明确要求下一步怎么做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1720,
+   "completion_tokens": 109,
+   "total_tokens": 1829,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1717,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 42
+   },
+   "input_tokens": 1720,
+   "output_tokens": 109,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "机器人只做了分析和建议，没有实际操作；操作者是在补充并认可优惠券方向的思路，没有纠正决策模式或明确要求下一步怎么做。"
+ },
+ "parse_error": null
+}

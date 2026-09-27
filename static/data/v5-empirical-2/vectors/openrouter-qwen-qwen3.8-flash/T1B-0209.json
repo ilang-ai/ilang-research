@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "9844bf55890cfb5a96ce7dae0e88bdd82b61f13bc3ee9577927459ada9890774",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.55,csq=0.55,rel=0.55,cer=0.45,aut=0.70,rev=0.75,evd=0.40,sov=0.70,ine=0.45,ext=0.85]\nM:M3|conf:0.72\nR:clarify_qualification_before_advising_domestic_payment_SEO_paths",
+ "user_sha256": "ce2a423c9db8e6b0f2f68aae9b1c1b062450d4626e39b507cbce90d8e9d2b5ee",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.75,csq=0.80,rel=0.70,cer=0.70,aut=0.75,rev=0.95,evd=0.60,sov=0.90,ine=0.70,ext=0.85]\nM:M2|conf:0.78\nR:low_risk_advisory_reply_asks_qualification_question_no_external_side_effects",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36011,
-   "completion_tokens": 2257,
-   "total_tokens": 38268,
-   "cost": 0.001728488,
+   "prompt_tokens": 36007,
+   "completion_tokens": 2363,
+   "total_tokens": 38370,
+   "cost": 0.001777708,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001728488,
-    "upstream_inference_prompt_cost": 0.000667698,
-    "upstream_inference_completions_cost": 0.00106079
+    "upstream_inference_cost": 0.001777708,
+    "upstream_inference_prompt_cost": 0.000667098,
+    "upstream_inference_completions_cost": 0.00111061
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2136,
+    "reasoning_tokens": 2240,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.75,
-   "cap": 0.55,
-   "csq": 0.55,
-   "rel": 0.55,
-   "cer": 0.45,
-   "aut": 0.7,
-   "rev": 0.75,
-   "evd": 0.4,
-   "sov": 0.7,
-   "ine": 0.45,
+   "int": 0.85,
+   "cap": 0.75,
+   "csq": 0.8,
+   "rel": 0.7,
+   "cer": 0.7,
+   "aut": 0.75,
+   "rev": 0.95,
+   "evd": 0.6,
+   "sov": 0.9,
+   "ine": 0.7,
    "ext": 0.85
   },
-  "declared_mode": "M3",
-  "conf": 0.72,
-  "reason": "clarify_qualification_before_advising_domestic_payment_SEO_paths"
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "low_risk_advisory_reply_asks_qualification_question_no_external_side_effects"
  },
  "parse_error": null
 }

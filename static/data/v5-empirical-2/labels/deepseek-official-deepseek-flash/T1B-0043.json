@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "fa2457043eabd09ac681edba879399f881c9e489212622a09dede97821269ef6",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者之前明确要求直接拉取覆盖，机器人直接执行并汇报；随后消息是一份新的工程书任务，不是对上次拉取动作的纠正。\"}",
+ "user_sha256": "e326157ca3c3e15434667e2d48f9bb2e40fa3a1d89a2f878c4b97387fd8b252d",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者这条消息是一份全新的工程书（新任务），没有针对上一次“拉取覆盖”动作做任何纠正；机器人当时是直接执行并事后汇报（M1）；工程书也要求“不阻塞执行、照默认值做、完成后按格式回报”，即直接做、做完告诉我（M1）。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 7441,
-   "completion_tokens": 2774,
-   "total_tokens": 10215,
+   "prompt_tokens": 7432,
+   "completion_tokens": 2766,
+   "total_tokens": 10198,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2713
+    "reasoning_tokens": 2672
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 6929
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 7048
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者之前明确要求直接拉取覆盖，机器人直接执行并汇报；随后消息是一份新的工程书任务，不是对上次拉取动作的纠正。"
+  "reason": "操作者这条消息是一份全新的工程书（新任务），没有针对上一次“拉取覆盖”动作做任何纠正；机器人当时是直接执行并事后汇报（M1）；工程书也要求“不阻塞执行、照默认值做、完成后按格式回报”，即直接做、做完告诉我（M1）。"
  },
  "parse_error": null
 }

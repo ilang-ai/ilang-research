@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "de5cf21066ea6c594461bcd5c8b51d06a07cc1b2fe43edc96b27282507b6defb",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者交代了刚才操作的背景，并给出了写交接文档（handoff）的新任务，不是对机器人前序执行方式的纠正。\"\n}\n```",
+ "user_sha256": "6ec099e213fcce4ee85fa0f46814a86fe87eb15d6c81b33689ba7d7a2a219fd6",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人按要求直接执行了测试脚本并汇报了输出结果，属于 M1；操作者对此无异议，直接布置了写交接文档（handoff）的新任务。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1934,
-   "completion_tokens": 486,
-   "total_tokens": 2420,
+   "prompt_tokens": 1930,
+   "completion_tokens": 713,
+   "total_tokens": 2643,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1934,
+    "text_tokens": 1930,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 81,
+    "text_tokens": 87,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 405
+    "reasoning_tokens": 626
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "accepted",
-  "reason": "操作者交代了刚才操作的背景，并给出了写交接文档（handoff）的新任务，不是对机器人前序执行方式的纠正。"
+  "intended_mode": "M1",
+  "reason": "机器人按要求直接执行了测试脚本并汇报了输出结果，属于 M1；操作者对此无异议，直接布置了写交接文档（handoff）的新任务。"
  },
  "parse_error": null
 }

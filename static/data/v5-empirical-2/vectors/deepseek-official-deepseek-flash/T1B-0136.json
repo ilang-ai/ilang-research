@@ -6,7 +6,7 @@
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "9da789a2781ed7ad078c93ce80ecdc3210a49316175056f8c293fd42fa1e643b",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.75,csq=0.55,rel=0.50,cer=0.45,aut=0.75,rev=0.70,evd=0.35,sov=0.80,ine=0.55,ext=0.65]\nM:M3|conf:0.80\nR:recommends_unverified_qq_agent_and_resale_channels_no_evidence_confirm_before_sending",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.80,csq=0.50,rel=0.55,cer=0.65,aut=0.70,rev=0.40,evd=0.45,sov=0.80,ine=0.55,ext=0.65]\nM:M3|conf:0.80\nR:site_down_alternatives_reasonable_but_unverified_agent_channel_pushed_without_fraud_warning_confirm_first",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,36 +14,36 @@
   "stop",
   {
    "prompt_tokens": 35616,
-   "completion_tokens": 3928,
-   "total_tokens": 39544,
+   "completion_tokens": 3636,
+   "total_tokens": 39252,
    "prompt_tokens_details": {
-    "cached_tokens": 35328
+    "cached_tokens": 35456
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3815
+    "reasoning_tokens": 3518
    },
-   "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 288
+   "prompt_cache_hit_tokens": 35456,
+   "prompt_cache_miss_tokens": 160
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.7,
-   "cap": 0.75,
-   "csq": 0.55,
-   "rel": 0.5,
-   "cer": 0.45,
-   "aut": 0.75,
-   "rev": 0.7,
-   "evd": 0.35,
+   "int": 0.65,
+   "cap": 0.8,
+   "csq": 0.5,
+   "rel": 0.55,
+   "cer": 0.65,
+   "aut": 0.7,
+   "rev": 0.4,
+   "evd": 0.45,
    "sov": 0.8,
    "ine": 0.55,
    "ext": 0.65
   },
   "declared_mode": "M3",
   "conf": 0.8,
-  "reason": "recommends_unverified_qq_agent_and_resale_channels_no_evidence_confirm_before_sending"
+  "reason": "site_down_alternatives_reasonable_but_unverified_agent_channel_pushed_without_fraud_warning_confirm_first"
  },
  "parse_error": null
 }

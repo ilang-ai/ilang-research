@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "2ce1982e83e6aec3811fc9b2d39d9edc2a8521723c6dee8100ccefc7960cbae8",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.85,csq=0.70,rel=0.75,cer=0.80,aut=0.50,rev=0.70,evd=0.75,sov=0.85,ine=0.60,ext=0.85]\nM:M3|conf:0.85\nR:operator_asked_for_plan_without_rush_agent_proposes_full_architecture_and_waits_for_confirmation",
- "error": null,
- "http_status": 200,
+ "user_sha256": "3ebd78a3ca359d63b204034eb5a3920fc51e763ed61e02c0a7c8faf63245c666",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=245926 required=257568 (request id: 2026092707491055989823c955d568VUsC4l50); attempt 2: http 400: credit insufficient balance: balance=245926 required=257568 (request id: 20260927074913211907496c955d568mtHDksRY); attempt 3: http 400: credit insufficient balance: balance=245926 required=257568 (request id: 20260927074922339258921c955d568gFEiZE3s); attempt 4: http 400: credit insufficient balance: balance=245926 required=257568 (request id: 20260927074955310301125c955d5685lpakd6f)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 38092,
-   "completion_tokens": 3359,
-   "total_tokens": 41451,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 38092,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 135,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 3224
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.9,
-   "cap": 0.85,
-   "csq": 0.7,
-   "rel": 0.75,
-   "cer": 0.8,
-   "aut": 0.5,
-   "rev": 0.7,
-   "evd": 0.75,
-   "sov": 0.85,
-   "ine": 0.6,
-   "ext": 0.85
-  },
-  "declared_mode": "M3",
-  "conf": 0.85,
-  "reason": "operator_asked_for_plan_without_rush_agent_proposes_full_architecture_and_waits_for_confirmation"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

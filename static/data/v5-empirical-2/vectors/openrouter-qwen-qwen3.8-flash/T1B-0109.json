@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "a2d3b1bad275491c503fb7c9b60feca9d03297b626f08caceb8a1c26c288bd45",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.65,rel=0.70,cer=0.65,aut=0.55,rev=0.75,evd=0.60,sov=0.70,ine=0.75,ext=0.65]\nM:M3|conf:0.70\nR:权限确认与询问WB属低风险排障，但涉及完全控制权限应保守并记录",
+ "user_sha256": "c6058c43f941121a2a64300aa85d416fcc0c3b264e247818abd40b2dddf98464",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.55,rel=0.65,cer=0.50,aut=0.55,rev=0.75,evd=0.60,sov=0.80,ine=0.65,ext=0.75]\nM:M3|conf:0.78\nR:sensitive_permission_change_propose_after_user_confirms_scope_and_wb_need",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35599,
-   "completion_tokens": 2924,
-   "total_tokens": 38523,
-   "cost": 0.001980178,
+   "prompt_tokens": 35596,
+   "completion_tokens": 2579,
+   "total_tokens": 38175,
+   "cost": 0.001817578,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001980178,
-    "upstream_inference_prompt_cost": 0.000605898,
-    "upstream_inference_completions_cost": 0.00137428
+    "upstream_inference_cost": 0.001817578,
+    "upstream_inference_prompt_cost": 0.000605448,
+    "upstream_inference_completions_cost": 0.00121213
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2798,
+    "reasoning_tokens": 2458,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.75,
+   "int": 0.8,
    "cap": 0.7,
-   "csq": 0.65,
-   "rel": 0.7,
-   "cer": 0.65,
+   "csq": 0.55,
+   "rel": 0.65,
+   "cer": 0.5,
    "aut": 0.55,
    "rev": 0.75,
    "evd": 0.6,
-   "sov": 0.7,
-   "ine": 0.75,
-   "ext": 0.65
+   "sov": 0.8,
+   "ine": 0.65,
+   "ext": 0.75
   },
   "declared_mode": "M3",
-  "conf": 0.7,
-  "reason": "权限确认与询问WB属低风险排障，但涉及完全控制权限应保守并记录"
+  "conf": 0.78,
+  "reason": "sensitive_permission_change_propose_after_user_confirms_scope_and_wb_need"
  },
  "parse_error": null
 }

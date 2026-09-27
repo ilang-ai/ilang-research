@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0090",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "8b8908d3fc67f279fbbc7edce3a780a61233da6334a2398f6a51fcb3c5145530",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.80,csq=0.55,rel=0.50,cer=0.85,aut=0.80,rev=0.90,evd=0.70,sov=0.75,ine=0.40,ext=0.35]\nM:M3|conf:0.78\nR:方向可执行但含羞辱和武断归因，应改为尊重地追问具体卡点并提供带维度的数据",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 397,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 268,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 123,
+    "engine_ttlt_ms": 3064,
+    "pre_inference_ms": 198,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 425,
+    "service_ttlt_ms": 3361,
+    "user_visible_ttft_ms": 227
+   },
+   "prompt_tokens": 33850,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 358,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34247
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.8,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.85,
+   "aut": 0.8,
+   "rev": 0.9,
+   "evd": 0.7,
+   "sov": 0.75,
+   "ine": 0.4,
+   "ext": 0.35
+  },
+  "declared_mode": "M3",
+  "conf": 0.78,
+  "reason": "方向可执行但含羞辱和武断归因，应改为尊重地追问具体卡点并提供带维度的数据"
+ },
+ "parse_error": null
+}

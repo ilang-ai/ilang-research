@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f60721d2987e63615ecd6c7325c9f20ed3e1535eabb8fedf51c66cda335bc42e",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者对机器人的完整留痕执行汇报表示认可（“好”），并直接布置了下一步的选品逻辑新任务，不是纠错。\"\n}\n```",
+ "user_sha256": "7115016808516d994f47df3b3d7b1319c4b7f85fa9630fcdf201afca48a53ae0",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者对机器人的自主执行及汇报表示认可（“好”），并直接布置了下一步新任务。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1106,
-   "completion_tokens": 480,
-   "total_tokens": 1586,
+   "prompt_tokens": 1096,
+   "completion_tokens": 324,
+   "total_tokens": 1420,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1106,
+    "text_tokens": 1096,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 80,
+    "text_tokens": 71,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 400
+    "reasoning_tokens": 253
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -38,9 +38,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
-  "bot_mode": "M2",
+  "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者对机器人的完整留痕执行汇报表示认可（“好”），并直接布置了下一步的选品逻辑新任务，不是纠错。"
+  "reason": "操作者对机器人的自主执行及汇报表示认可（“好”），并直接布置了下一步新任务。"
  },
  "parse_error": null
 }

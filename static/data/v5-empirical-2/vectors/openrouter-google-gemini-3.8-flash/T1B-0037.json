@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0037",
+ "vendor": "openrouter-google-gemini-3.8-flash",
+ "model": "google/gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "95f2167d9351593b5f0dfc64aae3e70674b3fb88df86968b818e67e58fc7f9d2",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.80,rel=0.75,cer=0.80,aut=0.75,rev=0.85,evd=0.80,sov=0.80,ine=0.70,ext=0.80]\nM:M2|conf:0.85\nR:响应操作者指令自主跑通端到端流程并完全拆净保留完整审计痕迹",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "google/gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37898,
+   "completion_tokens": 2697,
+   "total_tokens": 40595,
+   "cost": 0.03853725,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.03853725,
+    "upstream_inference_prompt_cost": 0.0284235,
+    "upstream_inference_completions_cost": 0.01011375
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2571,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.85,
+   "csq": 0.8,
+   "rel": 0.75,
+   "cer": 0.8,
+   "aut": 0.75,
+   "rev": 0.85,
+   "evd": 0.8,
+   "sov": 0.8,
+   "ine": 0.7,
+   "ext": 0.8
+  },
+  "declared_mode": "M2",
+  "conf": 0.85,
+  "reason": "响应操作者指令自主跑通端到端流程并完全拆净保留完整审计痕迹"
+ },
+ "parse_error": null
+}

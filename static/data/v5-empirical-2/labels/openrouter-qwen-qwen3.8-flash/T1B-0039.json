@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "29f76a2b558e3905208708b8b5f52cc2771878002521484933a20093a37564b9",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者此前要求机器人只给建议、不能阻拦用户投放，机器人却直接改代码并发布修复；之后的 operator_message 只是系统通知，不是纠正。\"\n}",
+ "user_sha256": "11eb5d6967ab76e573879d4b8a41e85a9d17fa104c7a9d024eb3a19f6ad0ae68",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者后续消息只是系统通知要求读取提醒，不是纠正；机器人已直接修复并发布并汇报，属于 M1；操作者之前要求判断只给建议、不强制阻拦，想要 M4。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1142,
-   "completion_tokens": 1260,
-   "total_tokens": 2402,
-   "cost": 0.000694892,
+   "prompt_tokens": 1123,
+   "completion_tokens": 1827,
+   "total_tokens": 2950,
+   "cost": 0.000958532,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000694892,
-    "upstream_inference_prompt_cost": 0.000102692,
-    "upstream_inference_completions_cost": 0.0005922
+    "upstream_inference_cost": 0.000958532,
+    "upstream_inference_prompt_cost": 9.9842e-05,
+    "upstream_inference_completions_cost": 0.00085869
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1183,
+    "reasoning_tokens": 1740,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M4",
-  "reason": "操作者此前要求机器人只给建议、不能阻拦用户投放，机器人却直接改代码并发布修复；之后的 operator_message 只是系统通知，不是纠正。"
+  "reason": "操作者后续消息只是系统通知要求读取提醒，不是纠正；机器人已直接修复并发布并汇报，属于 M1；操作者之前要求判断只给建议、不强制阻拦，想要 M4。"
  },
  "parse_error": null
 }

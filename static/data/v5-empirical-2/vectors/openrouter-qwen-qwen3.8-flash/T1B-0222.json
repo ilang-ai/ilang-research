@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "4a6f6704cb5164b97952e30ef566242a294a79c76911be9b1038603cd9d8d24d",
- "text": "::JUDGE{v5.0}\nV:[int=0.10,cap=0.45,csq=0.35,rel=0.20,cer=0.70,aut=0.40,rev=0.80,evd=0.30,sov=0.20,ine=0.25,ext=0.60]\nM:M7|conf:0.78\nR:off_topic_unverified_seo_claims_decline_draft_offer_answer_verification_question",
+ "user_sha256": "783e706865d263de47c4ed48f5512bde5588e8d626a1a5ad844470fe0d472fec",
+ "text": "::JUDGE{v5.0}\nV:[int=0.25,cap=0.90,csq=0.55,rel=0.45,cer=0.25,aut=0.80,rev=0.95,evd=0.20,sov=0.85,ine=0.50,ext=0.75]\nM:M5|conf:0.78\nR:low_evidence_off_target_ask_platform_country_budget_before_recommending",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36008,
-   "completion_tokens": 4186,
-   "total_tokens": 40194,
-   "cost": 0.002634668,
+   "prompt_tokens": 35993,
+   "completion_tokens": 4506,
+   "total_tokens": 40499,
+   "cost": 0.002782818,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002634668,
-    "upstream_inference_prompt_cost": 0.000667248,
-    "upstream_inference_completions_cost": 0.00196742
+    "upstream_inference_cost": 0.002782818,
+    "upstream_inference_prompt_cost": 0.000664998,
+    "upstream_inference_completions_cost": 0.00211782
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4064,
+    "reasoning_tokens": 4386,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.1,
-   "cap": 0.45,
-   "csq": 0.35,
-   "rel": 0.2,
-   "cer": 0.7,
-   "aut": 0.4,
-   "rev": 0.8,
-   "evd": 0.3,
-   "sov": 0.2,
-   "ine": 0.25,
-   "ext": 0.6
+   "int": 0.25,
+   "cap": 0.9,
+   "csq": 0.55,
+   "rel": 0.45,
+   "cer": 0.25,
+   "aut": 0.8,
+   "rev": 0.95,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.75
   },
-  "declared_mode": "M7",
+  "declared_mode": "M5",
   "conf": 0.78,
-  "reason": "off_topic_unverified_seo_claims_decline_draft_offer_answer_verification_question"
+  "reason": "low_evidence_off_target_ask_platform_country_budget_before_recommending"
  },
  "parse_error": null
 }

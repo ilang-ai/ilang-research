@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "9720625bb8eaa9b171b0133fe6a38f627fb2c9fb4fd880a993f1535de2c75c50",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在追加一个新知识点并询问模型，不是纠正机器人上一轮的做法；机器人上一轮只是给出绑定步骤和建议，没有动手执行，属于M4只给建议。\"}",
+ "user_sha256": "3e750cb3ad958883bb999a78087f9b1a52828fafd4759eb0d2d77cee51948745",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是开启新话题，要求补充WB海外版模型知识并询问具体型号，不是对上一轮绑定微信步骤的纠正或确认；机器人上一轮只是给出操作建议，没有实际执行，属于M4；因为不是对上一轮的反馈，无法推断操作者对上一轮的模式期待。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 827,
-   "completion_tokens": 7155,
-   "total_tokens": 7982,
+   "prompt_tokens": 825,
+   "completion_tokens": 7424,
+   "total_tokens": 8249,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7091
+    "reasoning_tokens": 7333
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 315
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 441
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "M4",
-  "reason": "操作者是在追加一个新知识点并询问模型，不是纠正机器人上一轮的做法；机器人上一轮只是给出绑定步骤和建议，没有动手执行，属于M4只给建议。"
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是开启新话题，要求补充WB海外版模型知识并询问具体型号，不是对上一轮绑定微信步骤的纠正或确认；机器人上一轮只是给出操作建议，没有实际执行，属于M4；因为不是对上一轮的反馈，无法推断操作者对上一轮的模式期待。"
  },
  "parse_error": null
 }

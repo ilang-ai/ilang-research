@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "409fc87c2c90eb36653592222b0c05f98571e960739b732bf5261d841e886eb7",
- "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者未出声，视为默认接受机器人只给出可操作方案和建议、未直接执行的处理方式。\"\n}",
+ "user_sha256": "e4d0911a4f1c5a464a68a8603837bab7f84fca114782f8142582d0baa10ff7c5",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"对照事件为空，操作者没有继续纠正；机器人直接交付了可执行的游戏词监控方案并告知可用，属于直接做完后汇报，操作者默认接受。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1064,
-   "completion_tokens": 960,
-   "total_tokens": 2024,
-   "cost": 0.000542192,
+   "prompt_tokens": 1057,
+   "completion_tokens": 510,
+   "total_tokens": 1567,
+   "cost": 0.000329642,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000542192,
-    "upstream_inference_prompt_cost": 9.0992e-05,
-    "upstream_inference_completions_cost": 0.0004512
+    "upstream_inference_cost": 0.000329642,
+    "upstream_inference_prompt_cost": 8.9942e-05,
+    "upstream_inference_completions_cost": 0.0002397
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 897,
+    "reasoning_tokens": 434,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M4",
+  "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者未出声，视为默认接受机器人只给出可操作方案和建议、未直接执行的处理方式。"
+  "reason": "对照事件为空，操作者没有继续纠正；机器人直接交付了可执行的游戏词监控方案并告知可用，属于直接做完后汇报，操作者默认接受。"
  },
  "parse_error": null
 }

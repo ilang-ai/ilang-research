@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0039",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "11eb5d6967ab76e573879d4b8a41e85a9d17fa104c7a9d024eb3a19f6ad0ae68",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"后续消息只是通知有待处理的外部提醒，并未纠正机器人；机器人自行改代码并发布版本，而此前要求只是给建议、不强制执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 362,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 293,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 81,
+    "engine_ttlt_ms": 3002,
+    "pre_inference_ms": 73,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 247,
+    "service_ttlt_ms": 3164,
+    "user_visible_ttft_ms": 174
+   },
+   "prompt_tokens": 1153,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1150,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1515
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "后续消息只是通知有待处理的外部提醒，并未纠正机器人；机器人自行改代码并发布版本，而此前要求只是给建议、不强制执行。"
+ },
+ "parse_error": null
+}

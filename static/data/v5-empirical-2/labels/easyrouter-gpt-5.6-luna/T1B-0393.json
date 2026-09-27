@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0393",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4216854ec09febbe5b22b73440a51acde48727ee45988da0f36bc28366b8a764",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者消息是在提出一个新的内容/任务，并没有纠正机器人该怎么做；机器人只是给出操作建议，没有实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 321,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 260,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 107,
+    "engine_ttlt_ms": 2584,
+    "pre_inference_ms": 68,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 234,
+    "service_ttlt_ms": 2688,
+    "user_visible_ttft_ms": 166
+   },
+   "prompt_tokens": 744,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1065
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者消息是在提出一个新的内容/任务，并没有纠正机器人该怎么做；机器人只是给出操作建议，没有实际执行。"
+ },
+ "parse_error": null
+}

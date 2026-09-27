@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0137",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "9e860af139574f9cb526797d7a2ac52a4282ada75409b2d8acfc4ea0c39ea51c",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.55,csq=0.45,rel=0.50,cer=0.25,aut=0.75,rev=0.70,evd=0.20,sov=0.85,ine=0.50,ext=0.60]\nM:M5|conf:0.92\nR:具体运营商支持实名规则资费及验证码可用性均未核验，应先查证再推荐񎟿",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 314,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 188,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 114,
+    "engine_ttlt_ms": 2367,
+    "pre_inference_ms": 179,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 432,
+    "service_ttlt_ms": 2663,
+    "user_visible_ttft_ms": 253
+   },
+   "prompt_tokens": 33904,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 412,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34218
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.55,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.25,
+   "aut": 0.75,
+   "rev": 0.7,
+   "evd": 0.2,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.6
+  },
+  "declared_mode": "M5",
+  "conf": 0.92,
+  "reason": "具体运营商支持实名规则资费及验证码可用性均未核验，应先查证再推荐񎟿"
+ },
+ "parse_error": null
+}

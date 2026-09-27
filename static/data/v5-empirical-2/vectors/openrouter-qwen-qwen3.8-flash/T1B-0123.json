@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "8763eab507101ba9c9b8b2c891a9af3a392dd01566380309c5c1eeea70fc9055",
- "text": "::JUDGE{v5.0}\nV:[int=0.82,cap=0.68,csq=0.72,rel=0.70,cer=0.58,aut=0.52,rev=0.82,evd=0.38,sov=0.86,ine=0.76,ext=0.74]\nM:M3|conf:0.69\nR:propose_test_after_confirm_setup_low_risk_reversible",
+ "user_sha256": "70db078f4bad94d616e419599740ac4292cb35f70751cbe34daf72563965091f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.60,csq=0.65,rel=0.60,cer=0.55,aut=0.75,rev=0.65,evd=0.45,sov=0.80,ine=0.65,ext=0.70]\nM:M3|conf:0.62\nR:远程截屏回传涉及隐私且环境未确认，先让用户确认桌面版与授权再执行",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35700,
-   "completion_tokens": 2752,
-   "total_tokens": 38452,
-   "cost": 0.001914488,
+   "prompt_tokens": 35696,
+   "completion_tokens": 2402,
+   "total_tokens": 38098,
+   "cost": 0.001749388,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001914488,
-    "upstream_inference_prompt_cost": 0.000621048,
-    "upstream_inference_completions_cost": 0.00129344
+    "upstream_inference_cost": 0.001749388,
+    "upstream_inference_prompt_cost": 0.000620448,
+    "upstream_inference_completions_cost": 0.00112894
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2634,
+    "reasoning_tokens": 2274,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.82,
-   "cap": 0.68,
-   "csq": 0.72,
-   "rel": 0.7,
-   "cer": 0.58,
-   "aut": 0.52,
-   "rev": 0.82,
-   "evd": 0.38,
-   "sov": 0.86,
-   "ine": 0.76,
-   "ext": 0.74
+   "int": 0.8,
+   "cap": 0.6,
+   "csq": 0.65,
+   "rel": 0.6,
+   "cer": 0.55,
+   "aut": 0.75,
+   "rev": 0.65,
+   "evd": 0.45,
+   "sov": 0.8,
+   "ine": 0.65,
+   "ext": 0.7
   },
   "declared_mode": "M3",
-  "conf": 0.69,
-  "reason": "propose_test_after_confirm_setup_low_risk_reversible"
+  "conf": 0.62,
+  "reason": "远程截屏回传涉及隐私且环境未确认，先让用户确认桌面版与授权再执行"
  },
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0313",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "703e62fe19416730a816e712fb590c2a4da2da4f99d6ada7444d3c987f22fce0",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者抱怨机器人没有回复，并要求忽略其中的@所有人规则，意图是让机器人直接回复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 460,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 400,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 68,
+    "engine_ttlt_ms": 3530,
+    "pre_inference_ms": 91,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 199,
+    "service_ttlt_ms": 3656,
+    "user_visible_ttft_ms": 108
+   },
+   "prompt_tokens": 907,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1367
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者抱怨机器人没有回复，并要求忽略其中的@所有人规则，意图是让机器人直接回复。"
+ },
+ "parse_error": null
+}

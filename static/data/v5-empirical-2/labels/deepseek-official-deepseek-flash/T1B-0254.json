@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "5139a23ba09c4a3f3bd3c4e9a38d53c7bb414c690d4b6a614ab03df271c2f12b",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人自主执行并事后汇报关键词挖掘和盈利周期的做法。\"}",
+ "user_sha256": "4ad738dc298097589b92cbbe47382c6f06e5366e84d967b696f0aa14cee33509",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人直接挖掘关键词、给出盈利周期并事后汇报的执行方式。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1542,
-   "completion_tokens": 627,
-   "total_tokens": 2169,
+   "prompt_tokens": 1538,
+   "completion_tokens": 679,
+   "total_tokens": 2217,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 1152
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 584
+    "reasoning_tokens": 635
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 1030
+   "prompt_cache_hit_tokens": 1152,
+   "prompt_cache_miss_tokens": 386
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认接受了机器人自主执行并事后汇报关键词挖掘和盈利周期的做法。"
+  "reason": "操作者没有出声，默认接受了机器人直接挖掘关键词、给出盈利周期并事后汇报的执行方式。"
  },
  "parse_error": null
 }

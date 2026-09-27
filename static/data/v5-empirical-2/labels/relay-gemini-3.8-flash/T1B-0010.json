@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "c64ee9a222f204147fab8702abbeb0c32a0c29ff548ca4897284957f37e7ea91",
- "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"操作者针对警示的文案内容做具体补充，机器人此前是在给出建议并询问是否先写入硬规则（M3）。\"\n}\n```",
+ "user_sha256": "16d04d5379158492fa82a4cdb89da690fa98c518e9f80a29fd5dd48a93d9e903",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"机器人提出建议并询问是否现在写入规则（M3），操作者直接补充警示的具体内容，属于正常的任务推进与内容补充，并非纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 960,
-   "completion_tokens": 327,
-   "total_tokens": 1287,
+   "prompt_tokens": 956,
+   "completion_tokens": 670,
+   "total_tokens": 1626,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 960,
+    "text_tokens": 956,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 72,
+    "text_tokens": 78,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 255
+    "reasoning_tokens": 592
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -37,10 +37,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "not_a_correction",
   "bot_mode": "M3",
   "intended_mode": "M3",
-  "reason": "操作者针对警示的文案内容做具体补充，机器人此前是在给出建议并询问是否先写入硬规则（M3）。"
+  "reason": "机器人提出建议并询问是否现在写入规则（M3），操作者直接补充警示的具体内容，属于正常的任务推进与内容补充，并非纠正。"
  },
  "parse_error": null
 }

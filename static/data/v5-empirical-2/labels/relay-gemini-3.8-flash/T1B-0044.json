@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6a54e0db0ef7f1735f2c9804f5c1aabade0379b4eb8ff493d979e19b96846fce",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M6\",\n  \"intended_mode\": \"M6\",\n  \"reason\": \"机器人遇安全拦截停下并请示操作者后续如何处理（M6），操作者调整模型后给出继续推进的指令，属于正常的任务推进而非纠正。\"\n}\n```",
+ "user_sha256": "1bf29a2a5b97000120b079567ce0dd6b5425cbc435020bd056e1c5ebc71e48db",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M8\",\n \"intended_mode\": \"M8\",\n \"reason\": \"机器人遭遇系统安全检查拦截后硬停并汇报（M8），操作者调整模型配置后发出继续执行的新指令，非纠正行为。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2135,
-   "completion_tokens": 1395,
-   "total_tokens": 3530,
+   "prompt_tokens": 2131,
+   "completion_tokens": 795,
+   "total_tokens": 2926,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 2135,
+    "text_tokens": 2131,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 85,
+    "text_tokens": 76,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 1310
+    "reasoning_tokens": 719
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -38,9 +38,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
-  "bot_mode": "M6",
-  "intended_mode": "M6",
-  "reason": "机器人遇安全拦截停下并请示操作者后续如何处理（M6），操作者调整模型后给出继续推进的指令，属于正常的任务推进而非纠正。"
+  "bot_mode": "M8",
+  "intended_mode": "M8",
+  "reason": "机器人遭遇系统安全检查拦截后硬停并汇报（M8），操作者调整模型配置后发出继续执行的新指令，非纠正行为。"
  },
  "parse_error": null
 }

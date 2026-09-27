@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "1251c69db2145606bb3f4014d153053c758427a5a10840089195839cc3e795cc",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人针对报错提供了原因分析和处理建议，属于只给建议不动手，操作者无后续反馈表示默认接受。\"\n}\n```",
+ "user_sha256": "b4e0e72092abe44e13a6eaad1acb6990320f8864b29a9b9fa9431029a9ce57d0",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人针对报错原因进行了分析并给出了解决建议，属于只给建议不动手的M4模式，操作者无异议默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 863,
-   "completion_tokens": 242,
-   "total_tokens": 1105,
+   "prompt_tokens": 860,
+   "completion_tokens": 160,
+   "total_tokens": 1020,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 863,
+    "text_tokens": 860,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 69,
+    "text_tokens": 73,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 173
+    "reasoning_tokens": 87
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人针对报错提供了原因分析和处理建议，属于只给建议不动手，操作者无后续反馈表示默认接受。"
+  "reason": "机器人针对报错原因进行了分析并给出了解决建议，属于只给建议不动手的M4模式，操作者无异议默认接受。"
  },
  "parse_error": null
 }

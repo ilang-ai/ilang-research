@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3a10e195f103e36180a13cda2ce3961639d790528fa005dd56b2d949b67f48cd",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者认可行为但指出没回答问题，属于内容层面；机器人只是给出下一步安排没有执行；操作者要的是回答问题，不落入八个决策模式。\"}",
+ "user_sha256": "212444376d3178e2967e1ddeffac9d8b909bb1eb4f389f1af39c1141fa520bd8",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者指出机器人没回答问题但认可其行为，属于内容层面的纠正；机器人只是给出下一步建议/指令而未自己动手，操作者接受这一模式。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 685,
-   "completion_tokens": 2094,
-   "total_tokens": 2779,
-   "cost": 0.001018322,
+   "prompt_tokens": 681,
+   "completion_tokens": 6080,
+   "total_tokens": 6761,
+   "cost": 0.002891142,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001018322,
-    "upstream_inference_prompt_cost": 3.4142e-05,
-    "upstream_inference_completions_cost": 0.00098418
+    "upstream_inference_cost": 0.002891142,
+    "upstream_inference_prompt_cost": 3.3542e-05,
+    "upstream_inference_completions_cost": 0.0028576
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2035,
+    "reasoning_tokens": 6006,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,8 +40,8 @@
  "parsed": {
   "targets": "content_only",
   "bot_mode": "M4",
-  "intended_mode": "none_fits",
-  "reason": "操作者认可行为但指出没回答问题，属于内容层面；机器人只是给出下一步安排没有执行；操作者要的是回答问题，不落入八个决策模式。"
+  "intended_mode": "M4",
+  "reason": "操作者指出机器人没回答问题但认可其行为，属于内容层面的纠正；机器人只是给出下一步建议/指令而未自己动手，操作者接受这一模式。"
  },
  "parse_error": null
 }

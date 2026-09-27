@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "c8146e8f625dd7a98af4113255b1c0c919ac1d957f2c8f07c9e7b1fc838f738d",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者之后只是布置新的只读核接口任务，并未纠正上一轮回复；机器人上一轮已直接复制并汇报位置，当前操作者也要求直接执行命令并贴回输出。\"\n}",
+ "user_sha256": "79e63811e7b08c10153eb3b61130fe75e6282fa11bedd2c87c559143e9d043c6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续消息是布置新的只读核验任务，不是纠正机器人之前的做法；机器人此前直接复制密钥文件并汇报，属于直接做完再说；无法从该消息判断操作者当时希望采用哪种模式。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1347,
-   "completion_tokens": 2203,
-   "total_tokens": 3550,
-   "cost": 0.001168852,
+   "prompt_tokens": 1344,
+   "completion_tokens": 1540,
+   "total_tokens": 2884,
+   "cost": 0.000856792,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001168852,
-    "upstream_inference_prompt_cost": 0.000133442,
-    "upstream_inference_completions_cost": 0.00103541
+    "upstream_inference_cost": 0.000856792,
+    "upstream_inference_prompt_cost": 0.000132992,
+    "upstream_inference_completions_cost": 0.0007238
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2119,
+    "reasoning_tokens": 1470,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,8 +40,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "M1",
-  "reason": "操作者之后只是布置新的只读核接口任务，并未纠正上一轮回复；机器人上一轮已直接复制并汇报位置，当前操作者也要求直接执行命令并贴回输出。"
+  "intended_mode": "unknown",
+  "reason": "操作者后续消息是布置新的只读核验任务，不是纠正机器人之前的做法；机器人此前直接复制密钥文件并汇报，属于直接做完再说；无法从该消息判断操作者当时希望采用哪种模式。"
  },
  "parse_error": null
 }

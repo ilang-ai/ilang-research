@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0191",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "20699005d7da60775a741ce96aa35d8f24cde21455d75b9feee31a3f3a7e8d1b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.50,rel=0.45,cer=0.40,aut=0.55,rev=0.90,evd=0.35,sov=0.80,ine=0.55,ext=0.90]\nM:M3|conf:0.84\nR:先核实图片与课程进度再确认配置并发送C02 不要声称已读出具体价格",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 857,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 727,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 192,
+    "engine_ttlt_ms": 7418,
+    "pre_inference_ms": 145,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 480,
+    "service_ttlt_ms": 7661,
+    "user_visible_ttft_ms": 335
+   },
+   "prompt_tokens": 34267,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 775,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 35124
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.7,
+   "csq": 0.5,
+   "rel": 0.45,
+   "cer": 0.4,
+   "aut": 0.55,
+   "rev": 0.9,
+   "evd": 0.35,
+   "sov": 0.8,
+   "ine": 0.55,
+   "ext": 0.9
+  },
+  "declared_mode": "M3",
+  "conf": 0.84,
+  "reason": "先核实图片与课程进度再确认配置并发送C02 不要声称已读出具体价格"
+ },
+ "parse_error": null
+}

@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "fb03eccfee0afe3f499539dbae1917bc0a2856f40724d683930ca1fe11ea892d",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人继续指导；机器人只是在给操作者步骤建议，没有自己动手执行。\"}",
+ "user_sha256": "4be372a59b6077d5dbe4f4be19885167fefac677a2c1a8ff5c77a5012d7e2667",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于让机器人继续的对照事件；机器人只是给出第6步操作指导、没有实际动手，操作者默认接受了这一做法。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 765,
-   "completion_tokens": 982,
-   "total_tokens": 1747,
+   "prompt_tokens": 764,
+   "completion_tokens": 940,
+   "total_tokens": 1704,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 935
+    "reasoning_tokens": 884
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 253
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 380
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认接受机器人继续指导；机器人只是在给操作者步骤建议，没有自己动手执行。"
+  "reason": "操作者没有出声，属于让机器人继续的对照事件；机器人只是给出第6步操作指导、没有实际动手，操作者默认接受了这一做法。"
  },
  "parse_error": null
 }

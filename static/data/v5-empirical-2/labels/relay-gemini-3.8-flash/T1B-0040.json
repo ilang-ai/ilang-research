@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f227ef8bffb6aeac7b82e018eb0bdc7112addfc164bb0729a9cf767870de6859",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人按计划自动完成并汇报了例行早报，操作者没有提出异议，而是发来了一条关于外部合作的新信息。\"\n}\n```",
+ "user_sha256": "629306da96c8683f472eee49ad4a5f578daf7e6dde9bc9f063a4d8b73fed8f91",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人按定时触发自主生成并汇报早报属于 M1，操作者随后同步了关于指纹浏览器合作的新业务信息，并非对早报动作的纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1284,
-   "completion_tokens": 208,
-   "total_tokens": 1492,
+   "prompt_tokens": 1281,
+   "completion_tokens": 224,
+   "total_tokens": 1505,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1284,
+    "text_tokens": 1281,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 77,
+    "text_tokens": 80,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 131
+    "reasoning_tokens": 144
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "机器人按计划自动完成并汇报了例行早报，操作者没有提出异议，而是发来了一条关于外部合作的新信息。"
+  "reason": "机器人按定时触发自主生成并汇报早报属于 M1，操作者随后同步了关于指纹浏览器合作的新业务信息，并非对早报动作的纠正。"
  },
  "parse_error": null
 }

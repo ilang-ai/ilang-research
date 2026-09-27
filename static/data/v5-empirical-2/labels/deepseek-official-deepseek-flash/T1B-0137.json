@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "7ed2d8e406735018ce2900b55a2ec13be36b750cef2c7b78b060af8c060ba217",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正机器人对 CTExcel 激活流程的说法，属于内容纠错；机器人当时是在给建议，操作者仍希望它给出准确建议而非动手执行。\"}",
+ "user_sha256": "8cd2176813caa71fe0fa773860291ef7765b8c34dec6f1c58a766ea28ddf87fd",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者纠正的是 CTExcel 激活必须英国原生 IP、飞行模式、WiFi Calling 打 888 等具体事实和操作细节，属于内容纠正；机器人当时只是在给推荐建议，没有动手执行，所以走的是 M4，操作者想要的也是继续给出准确建议。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 974,
-   "completion_tokens": 3747,
-   "total_tokens": 4721,
+   "prompt_tokens": 973,
+   "completion_tokens": 1999,
+   "total_tokens": 2972,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3688
+    "reasoning_tokens": 1914
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 462
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 333
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者在纠正机器人对 CTExcel 激活流程的说法，属于内容纠错；机器人当时是在给建议，操作者仍希望它给出准确建议而非动手执行。"
+  "reason": "操作者纠正的是 CTExcel 激活必须英国原生 IP、飞行模式、WiFi Calling 打 888 等具体事实和操作细节，属于内容纠正；机器人当时只是在给推荐建议，没有动手执行，所以走的是 M4，操作者想要的也是继续给出准确建议。"
  },
  "parse_error": null
 }

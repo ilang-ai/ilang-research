@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0362",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "82d9191c74ce8449f9c4ccf93411bd4ee22a5a925c0a819cf4b598c1129dbaea",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在纠正“这是骂人”的表述，并要求继续直接、不迁就地回应；机器人也表示会自行直接回怼。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 1094,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 1024,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 153,
+    "engine_ttlt_ms": 8404,
+    "pre_inference_ms": 100,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 480,
+    "service_ttlt_ms": 8726,
+    "user_visible_ttft_ms": 380
+   },
+   "prompt_tokens": 769,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1863
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在纠正“这是骂人”的表述，并要求继续直接、不迁就地回应；机器人也表示会自行直接回怼。"
+ },
+ "parse_error": null
+}

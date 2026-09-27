@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b5b15c71f6cf34da37c737a28562b2a091d1f57c5a23f2c7a6c93f25340bc49a",
- "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在对机器人提出的待确认事项直接下执行指令，说明他希望机器人按决定去做，而不是继续拿方案请示。\"\n}",
+ "user_sha256": "573997c2406b0f7a7ca84bca1dc73f85e53e6bacb706bcc310741d569f618da2",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者在回答机器人提出的执行选择并纠正怎么做；机器人已经自主完成查看和配置并事后汇报，操作者原意也是让它直接处理并汇报。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1692,
-   "completion_tokens": 2439,
-   "total_tokens": 4131,
-   "cost": 0.001331522,
+   "prompt_tokens": 1683,
+   "completion_tokens": 4082,
+   "total_tokens": 5765,
+   "cost": 0.002102382,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001331522,
-    "upstream_inference_prompt_cost": 0.000185192,
-    "upstream_inference_completions_cost": 0.00114633
+    "upstream_inference_cost": 0.002102382,
+    "upstream_inference_prompt_cost": 0.000183842,
+    "upstream_inference_completions_cost": 0.00191854
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2367,
+    "reasoning_tokens": 4004,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M3",
+  "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者是在对机器人提出的待确认事项直接下执行指令，说明他希望机器人按决定去做，而不是继续拿方案请示。"
+  "reason": "操作者在回答机器人提出的执行选择并纠正怎么做；机器人已经自主完成查看和配置并事后汇报，操作者原意也是让它直接处理并汇报。"
  },
  "parse_error": null
 }

@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0083",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "86588954bac043c3f83f9ce29709e4b500dc742b5090b5b39ce7247fdb16461f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.75,csq=0.45,rel=0.50,cer=0.40,aut=0.70,rev=0.90,evd=0.30,sov=0.80,ine=0.40,ext=0.80]\nM:M3|conf:0.82\nR:纠正卡种并建议客服核实有效；但支付断言及合租代充推荐证据不足且可能误导需先确认”】【",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 774,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 636,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 378,
+    "engine_ttlt_ms": 6167,
+    "pre_inference_ms": 107,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 542,
+    "service_ttlt_ms": 6325,
+    "user_visible_ttft_ms": 435
+   },
+   "prompt_tokens": 34025,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 533,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34799
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.75,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.4,
+   "aut": 0.7,
+   "rev": 0.9,
+   "evd": 0.3,
+   "sov": 0.8,
+   "ine": 0.4,
+   "ext": 0.8
+  },
+  "declared_mode": "M3",
+  "conf": 0.82,
+  "reason": "纠正卡种并建议客服核实有效；但支付断言及合租代充推荐证据不足且可能误导需先确认”】【"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0022",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "c62b1b206a07d7e47a2a905e1d6805029d0a70f07d9fe2736c91e4c852f00e36",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正前一条执行结果，而是提出了新的任务，要求制作详细的 Markdown handoff 并保存到本机；此前机器人表现为直接完成工作后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 483,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 409,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 87,
+    "engine_ttlt_ms": 4188,
+    "pre_inference_ms": 150,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 384,
+    "service_ttlt_ms": 4481,
+    "user_visible_ttft_ms": 234
+   },
+   "prompt_tokens": 1156,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1153,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1639
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正前一条执行结果，而是提出了新的任务，要求制作详细的 Markdown handoff 并保存到本机；此前机器人表现为直接完成工作后汇报。"
+ },
+ "parse_error": null
+}

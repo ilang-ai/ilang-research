@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0106",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1c1c74e58c14b1f23994ed2ec1e417d9d4c79b6511804aaf98284ee1f3db0aec",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.70,csq=0.50,rel=0.50,cer=0.45,aut=0.80,rev=0.70,evd=0.30,sov=0.90,ine=0.30,ext=0.80]\nM:M3|conf:0.68\nR:建议有洞察但证据不足，应先验证需求渠道定价与AI接受度再决定转向\n",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 636,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 142,
+    "engine_ttlt_ms": 4845,
+    "pre_inference_ms": 425,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 768,
+    "service_ttlt_ms": 5461,
+    "user_visible_ttft_ms": 343
+   },
+   "prompt_tokens": 35052,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1560,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 35688
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.7,
+   "csq": 0.5,
+   "rel": 0.5,
+   "cer": 0.45,
+   "aut": 0.8,
+   "rev": 0.7,
+   "evd": 0.3,
+   "sov": 0.9,
+   "ine": 0.3,
+   "ext": 0.8
+  },
+  "declared_mode": "M3",
+  "conf": 0.68,
+  "reason": "建议有洞察但证据不足，应先验证需求渠道定价与AI接受度再决定转向"
+ },
+ "parse_error": null
+}

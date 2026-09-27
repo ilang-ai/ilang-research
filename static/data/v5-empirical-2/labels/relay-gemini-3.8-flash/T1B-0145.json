@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "9720625bb8eaa9b171b0133fe6a38f627fb2c9fb4fd880a993f1535de2c75c50",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者发送新消息补充知识点并附图提问，属于新任务而非纠正，机器人前文提供的是操作步骤建议（M4）。\"\n}\n```",
+ "user_sha256": "3e750cb3ad958883bb999a78087f9b1a52828fafd4759eb0d2d77cee51948745",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人给出了操作建议和路径指导（M4），操作者随后补充知识点并开启新话题，并非纠偏。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 866,
-   "completion_tokens": 309,
-   "total_tokens": 1175,
+   "prompt_tokens": 863,
+   "completion_tokens": 247,
+   "total_tokens": 1110,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 866,
+    "text_tokens": 863,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 82,
+    "text_tokens": 74,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 227
+    "reasoning_tokens": 173
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "M4",
-  "reason": "操作者发送新消息补充知识点并附图提问，属于新任务而非纠正，机器人前文提供的是操作步骤建议（M4）。"
+  "intended_mode": "accepted",
+  "reason": "机器人给出了操作建议和路径指导（M4），操作者随后补充知识点并开启新话题，并非纠偏。"
  },
  "parse_error": null
 }

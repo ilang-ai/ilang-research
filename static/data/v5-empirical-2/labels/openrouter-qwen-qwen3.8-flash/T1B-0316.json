@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "61aef115dc5c7f457bc0029e946158709300cff92ad921aec74a4bcef9a2f6fb",
- "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者先确认思路正确，随后要求改名并调整交付方式，属于对怎么做提出修改，隐含让机器人按修正后的方案继续执行。\"\n}",
+ "user_sha256": "72edd282dbe9f683d5298df78491e58edbeddd4e278eeaae6f1c261c0b396615",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"操作者认可机器人提出的方案并要求调整名称与交付物，属于对做法的纠正；机器人先给出方案并等待点头确认，操作者也按方案确认/调整。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1133,
-   "completion_tokens": 2058,
-   "total_tokens": 3191,
-   "cost": 0.001068602,
+   "prompt_tokens": 1125,
+   "completion_tokens": 3666,
+   "total_tokens": 4791,
+   "cost": 0.001823162,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,23 +25,23 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001068602,
-    "upstream_inference_prompt_cost": 0.000101342,
-    "upstream_inference_completions_cost": 0.00096726
+    "upstream_inference_cost": 0.001823162,
+    "upstream_inference_prompt_cost": 0.000100142,
+    "upstream_inference_completions_cost": 0.00172302
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1982,
+    "reasoning_tokens": 3585,
     "image_tokens": 0,
     "audio_tokens": 0
    }
   }
  ],
- "attempts": 4,
+ "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
   "bot_mode": "M3",
-  "intended_mode": "M1",
-  "reason": "操作者先确认思路正确，随后要求改名并调整交付方式，属于对怎么做提出修改，隐含让机器人按修正后的方案继续执行。"
+  "intended_mode": "M3",
+  "reason": "操作者认可机器人提出的方案并要求调整名称与交付物，属于对做法的纠正；机器人先给出方案并等待点头确认，操作者也按方案确认/调整。"
  },
  "parse_error": null
 }

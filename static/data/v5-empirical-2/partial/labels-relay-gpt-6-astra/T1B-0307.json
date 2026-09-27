@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0307",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5af7ae9fb677c6048b9b1c0c790adaed453794d3e1bd1e1dbe5d2803919c263a",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"机器人只讲选模型的原则、不直接推荐，操作者要求以后直接报出指定模型，并说明性价比和多模态省事的理由。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1037,
+   "completion_tokens": 193,
+   "total_tokens": 1230,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1034,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 129
+   },
+   "input_tokens": 1037,
+   "output_tokens": 193,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "机器人只讲选模型的原则、不直接推荐，操作者要求以后直接报出指定模型，并说明性价比和多模态省事的理由。"
+ },
+ "parse_error": null
+}

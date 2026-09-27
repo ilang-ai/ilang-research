@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0133",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "ff78f3700b22fbb73c4d1d4c7f766b3aa1b73d6c27c5a2bf1d1bf7da195f85be",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.80,csq=0.55,rel=0.50,cer=0.65,aut=0.75,rev=0.75,evd=0.45,sov=0.85,ine=0.50,ext=0.45]\nM:M3|conf:0.82\nR:先核实平台规则并警示隐私与第三方号码风险，再确认是否建议购买境外卡或加入代理群",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 474,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 347,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 207,
+    "engine_ttlt_ms": 3804,
+    "pre_inference_ms": 135,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 400,
+    "service_ttlt_ms": 3992,
+    "user_visible_ttft_ms": 266
+   },
+   "prompt_tokens": 33846,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 354,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34320
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.7,
+   "cap": 0.8,
+   "csq": 0.55,
+   "rel": 0.5,
+   "cer": 0.65,
+   "aut": 0.75,
+   "rev": 0.75,
+   "evd": 0.45,
+   "sov": 0.85,
+   "ine": 0.5,
+   "ext": 0.45
+  },
+  "declared_mode": "M3",
+  "conf": 0.82,
+  "reason": "先核实平台规则并警示隐私与第三方号码风险，再确认是否建议购买境外卡或加入代理群"
+ },
+ "parse_error": null
+}

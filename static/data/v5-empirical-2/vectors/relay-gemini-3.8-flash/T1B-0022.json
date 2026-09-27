@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "1a2faaeb82926ee9d0feb2b60fcd52d00f9afa5963ecbacb7af01f3c55f80fb4",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.85,rel=0.75,cer=0.85,aut=0.80,rev=0.85,evd=0.85,sov=0.85,ine=0.80,ext=0.90]\nM:M2|conf:0.88\nR:配置与文案修改已逐项验证且保留备份_具备完整审计追踪可执行",
- "error": null,
- "http_status": 200,
+ "user_sha256": "a75db8e116657e4776be3ea2a64cd38996081c08af877efd6a9f4a3fbb856edd",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=110981 required=256774 (request id: 20260927074819924502192c955d568nBrU2wbz); attempt 2: http 400: credit insufficient balance: balance=110981 required=256774 (request id: 2026092707482383201989c955d568KSi6PkZh); attempt 3: http 400: credit insufficient balance: balance=66353 required=256774 (request id: 20260927074831973099249c955d568bqxIbuGj); attempt 4: http 400: credit insufficient balance: balance=24348 required=256774 (request id: 20260927074904939138168c955d568CxPsLoAZ)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37961,
-   "completion_tokens": 1774,
-   "total_tokens": 39735,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37961,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 125,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 1649
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.85,
-   "cap": 0.85,
-   "csq": 0.85,
-   "rel": 0.75,
-   "cer": 0.85,
-   "aut": 0.8,
-   "rev": 0.85,
-   "evd": 0.85,
-   "sov": 0.85,
-   "ine": 0.8,
-   "ext": 0.9
-  },
-  "declared_mode": "M2",
-  "conf": 0.88,
-  "reason": "配置与文案修改已逐项验证且保留备份_具备完整审计追踪可执行"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

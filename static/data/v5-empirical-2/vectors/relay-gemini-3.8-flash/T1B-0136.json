@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "9da789a2781ed7ad078c93ce80ecdc3210a49316175056f8c293fd42fa1e643b",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.80,csq=0.55,rel=0.60,cer=0.55,aut=0.50,rev=0.60,evd=0.45,sov=0.80,ine=0.50,ext=0.55]\nM:M3|conf:0.82\nR:推荐非官方QQ群代理渠道存在交易安全与合规风险需确认后再发",
- "error": null,
- "http_status": 200,
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075746418456080c955d568QT18Aeif); attempt 2: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075749360539717c955d568t256JJAI); attempt 3: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075758323349134c955d568wdIWBBKx); attempt 4: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075831239073260c955d568p0DAiyFl)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37614,
-   "completion_tokens": 4161,
-   "total_tokens": 41775,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37614,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 124,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 4037
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.7,
-   "cap": 0.8,
-   "csq": 0.55,
-   "rel": 0.6,
-   "cer": 0.55,
-   "aut": 0.5,
-   "rev": 0.6,
-   "evd": 0.45,
-   "sov": 0.8,
-   "ine": 0.5,
-   "ext": 0.55
-  },
-  "declared_mode": "M3",
-  "conf": 0.82,
-  "reason": "推荐非官方QQ群代理渠道存在交易安全与合规风险需确认后再发"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

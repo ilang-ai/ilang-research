@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0337",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9602221ef2e5f84ee03f7be86ef607898726f12116b399190f3f82b0bd53aa5a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人提出继续核对外链并等操作者点头，操作者则补充了以后指导新手可用的SEO思路，没有明确纠正执行方式或指定决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1224,
+   "completion_tokens": 228,
+   "total_tokens": 1452,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1221,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 157
+   },
+   "input_tokens": 1224,
+   "output_tokens": 228,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "unknown",
+  "reason": "机器人提出继续核对外链并等操作者点头，操作者则补充了以后指导新手可用的SEO思路，没有明确纠正执行方式或指定决策模式。"
+ },
+ "parse_error": null
+}

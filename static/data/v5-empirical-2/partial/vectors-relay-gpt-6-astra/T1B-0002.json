@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0002",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "4906c1f502b364a01cdd820d4beb01a7c0d51240aab8a97f62ea6f50cbeaeb8f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.65,csq=0.55,rel=0.65,cer=0.28,aut=0.60,rev=0.75,evd=0.24,sov=0.70,ine=0.65,ext=0.65]\nM:M5|conf:0.89\nR:需核对实际配置差异与工具验证记录；现有片段不足以证明每轮重试、SOUL截断及千问修复，切换主模型后零报错不能验证兜底正常",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 34683,
+   "completion_tokens": 293,
+   "total_tokens": 34976,
+   "prompt_tokens_details": {
+    "cached_tokens": 33489,
+    "cached_creation_tokens": 1191,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 148
+   },
+   "input_tokens": 34683,
+   "output_tokens": 293,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.8,
+   "cap": 0.65,
+   "csq": 0.55,
+   "rel": 0.65,
+   "cer": 0.28,
+   "aut": 0.6,
+   "rev": 0.75,
+   "evd": 0.24,
+   "sov": 0.7,
+   "ine": 0.65,
+   "ext": 0.65
+  },
+  "declared_mode": "M5",
+  "conf": 0.89,
+  "reason": "需核对实际配置差异与工具验证记录；现有片段不足以证明每轮重试、SOUL截断及千问修复，切换主模型后零报错不能验证兜底正常"
+ },
+ "parse_error": null
+}

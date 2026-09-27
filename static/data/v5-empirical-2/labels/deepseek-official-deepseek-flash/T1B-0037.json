@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f60721d2987e63615ecd6c7325c9f20ed3e1535eabb8fedf51c66cda335bc42e",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者先说「好」再直接布置新的选品任务，不是在纠正上一步；机器人上一步是自主跑完并事后汇报，且此前操作者要求别总先判断，所以双方都指向直接执行。\"}",
+ "user_sha256": "7115016808516d994f47df3b3d7b1319c4b7f85fa9630fcdf201afca48a53ae0",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"机器人从头到尾自主跑完整条流水线、事后详列全过程汇报（M1）；操作者随后先说「好」接受这个结果，再另起一个新任务（选品判定逻辑），不是在纠正做不做或内容，所以判为接受。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1092,
-   "completion_tokens": 3162,
-   "total_tokens": 4254,
+   "prompt_tokens": 1089,
+   "completion_tokens": 555,
+   "total_tokens": 1644,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 768
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3088
+    "reasoning_tokens": 475
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 580
+   "prompt_cache_hit_tokens": 768,
+   "prompt_cache_miss_tokens": 321
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "M1",
-  "reason": "操作者先说「好」再直接布置新的选品任务，不是在纠正上一步；机器人上一步是自主跑完并事后汇报，且此前操作者要求别总先判断，所以双方都指向直接执行。"
+  "intended_mode": "accepted",
+  "reason": "机器人从头到尾自主跑完整条流水线、事后详列全过程汇报（M1）；操作者随后先说「好」接受这个结果，再另起一个新任务（选品判定逻辑），不是在纠正做不做或内容，所以判为接受。"
  },
  "parse_error": null
 }

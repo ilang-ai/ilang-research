@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "7addcdea6c0797bba4032d3c644c9604036bd041b97441a87045c84b3fa5a16d",
- "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在纠正选品判定应作为建议而非强制拦截，属于内容逻辑；机器人此前已直接做完并汇报，期望仍是直接执行。\"\n}",
+ "user_sha256": "cc9c5e0bef41c93660e4a990c839a1430bafea749998901b79d351f15247d6fa",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者纠正的是执行方式：选品判定应作为建议而不是强制拦截，最终投放决定权留给用户。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1190,
-   "completion_tokens": 3416,
-   "total_tokens": 4606,
-   "cost": 0.001715412,
+   "prompt_tokens": 1187,
+   "completion_tokens": 1103,
+   "total_tokens": 2290,
+   "cost": 0.000627852,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001715412,
-    "upstream_inference_prompt_cost": 0.000109892,
-    "upstream_inference_completions_cost": 0.00160552
+    "upstream_inference_cost": 0.000627852,
+    "upstream_inference_prompt_cost": 0.000109442,
+    "upstream_inference_completions_cost": 0.00051841
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3342,
+    "reasoning_tokens": 1034,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -38,10 +38,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "do_or_how",
   "bot_mode": "M1",
-  "intended_mode": "M1",
-  "reason": "操作者是在纠正选品判定应作为建议而非强制拦截，属于内容逻辑；机器人此前已直接做完并汇报，期望仍是直接执行。"
+  "intended_mode": "M4",
+  "reason": "操作者纠正的是执行方式：选品判定应作为建议而不是强制拦截，最终投放决定权留给用户。"
  },
  "parse_error": null
 }

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "49dcf7506e9bef6ce44244ecc87fc855695c2b831081b4cbd6a18cc607843164",
- "text": "::JUDGE{v5.0}\nV:[int=0.88,cap=0.76,csq=0.72,rel=0.78,cer=0.86,aut=0.52,rev=0.74,evd=0.84,sov=0.92,ine=0.78,ext=0.86]\nM:M3|conf:0.80\nR:system_fixes_reversible_evidence_high;await_user_approval_for_nginx_and_copy_changes",
+ "user_sha256": "e4134c74343e5d632615ced37dd7bc5fa380fba84e9eb542395426e054076ab0",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.60,csq=0.70,rel=0.60,cer=0.70,aut=0.70,rev=0.70,evd=0.60,sov=0.80,ine=0.60,ext=0.60]\nM:M3|conf:0.78\nR:propose_safe_system_fixes_wait_confirmation_content_review_out_of_scope",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36140,
-   "completion_tokens": 3035,
-   "total_tokens": 39175,
-   "cost": 0.002113498,
+   "prompt_tokens": 36137,
+   "completion_tokens": 2374,
+   "total_tokens": 38511,
+   "cost": 0.001802378,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002113498,
-    "upstream_inference_prompt_cost": 0.000687048,
-    "upstream_inference_completions_cost": 0.00142645
+    "upstream_inference_cost": 0.001802378,
+    "upstream_inference_prompt_cost": 0.000686598,
+    "upstream_inference_completions_cost": 0.00111578
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2910,
+    "reasoning_tokens": 2254,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.88,
-   "cap": 0.76,
-   "csq": 0.72,
-   "rel": 0.78,
-   "cer": 0.86,
-   "aut": 0.52,
-   "rev": 0.74,
-   "evd": 0.84,
-   "sov": 0.92,
-   "ine": 0.78,
-   "ext": 0.86
+   "int": 0.7,
+   "cap": 0.6,
+   "csq": 0.7,
+   "rel": 0.6,
+   "cer": 0.7,
+   "aut": 0.7,
+   "rev": 0.7,
+   "evd": 0.6,
+   "sov": 0.8,
+   "ine": 0.6,
+   "ext": 0.6
   },
   "declared_mode": "M3",
-  "conf": 0.8,
-  "reason": "system_fixes_reversible_evidence_high;await_user_approval_for_nginx_and_copy_changes"
+  "conf": 0.78,
+  "reason": "propose_safe_system_fixes_wait_confirmation_content_review_out_of_scope"
  },
  "parse_error": null
 }

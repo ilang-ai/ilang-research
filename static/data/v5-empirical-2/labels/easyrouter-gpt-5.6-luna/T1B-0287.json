@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0287",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cd5085b3c27108f11f04d407ee05a3011b030d8a82fa42d132cf52b45fceb7ec",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M7\",\"reason\":\"操作者要求机器人不要直接处理对方机器的问题，只提供提示词，让对方机器上的 AI 自行解决；机器人实际也采取了这种替代方案。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 410,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 342,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 99,
+    "engine_ttlt_ms": 3189,
+    "pre_inference_ms": 179,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 601,
+    "service_ttlt_ms": 3681,
+    "user_visible_ttft_ms": 422
+   },
+   "prompt_tokens": 974,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1384
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M7",
+  "reason": "操作者要求机器人不要直接处理对方机器的问题，只提供提示词，让对方机器上的 AI 自行解决；机器人实际也采取了这种替代方案。"
+ },
+ "parse_error": null
+}

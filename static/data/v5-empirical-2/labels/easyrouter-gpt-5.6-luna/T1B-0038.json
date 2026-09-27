@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0038",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cc9c5e0bef41c93660e4a990c839a1430bafea749998901b79d351f15247d6fa",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"机器人直接执行并把规则做成强制拦截；操作者明确要求这只是建议，用户想投什么都不能被阻拦。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 310,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 244,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 10,
+    "engine_ttft_ms": 184,
+    "engine_ttlt_ms": 3156,
+    "pre_inference_ms": 107,
+    "service_tbt_ms": 10,
+    "service_ttft_ms": 521,
+    "service_ttlt_ms": 3488,
+    "user_visible_ttft_ms": 415
+   },
+   "prompt_tokens": 1226,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1223,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1536
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M4",
+  "reason": "机器人直接执行并把规则做成强制拦截；操作者明确要求这只是建议，用户想投什么都不能被阻拦。"
+ },
+ "parse_error": null
+}

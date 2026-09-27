@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0233",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "f33b2d21b96d53d3f62391ff1c62c0ff1e03e68a498247147a039858cf8a67fd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.95,cap=0.75,csq=0.75,rel=0.65,cer=0.85,aut=0.80,rev=0.85,evd=0.70,sov=0.90,ine=0.65,ext=0.90]\nM:M2|conf:0.87\nR:版本降级为beta并设置用户验证门槛，降低虚标风险；变更可回滚，建议保留审计记录",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 486,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 356,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 266,
+    "engine_ttlt_ms": 3867,
+    "pre_inference_ms": 170,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 662,
+    "service_ttlt_ms": 4259,
+    "user_visible_ttft_ms": 492
+   },
+   "prompt_tokens": 33916,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 424,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34402
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.95,
+   "cap": 0.75,
+   "csq": 0.75,
+   "rel": 0.65,
+   "cer": 0.85,
+   "aut": 0.8,
+   "rev": 0.85,
+   "evd": 0.7,
+   "sov": 0.9,
+   "ine": 0.65,
+   "ext": 0.9
+  },
+  "declared_mode": "M2",
+  "conf": 0.87,
+  "reason": "版本降级为beta并设置用户验证门槛，降低虚标风险；变更可回滚，建议保留审计记录"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0331",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e5032884d728e51fbbb2b7780e8cb75a183a9961882e6040b2e7abde04d93d3a",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正机器人教的具体内容，指出应讲音频提取和语音转文字；机器人只是提供方法建议，并未实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 353,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 288,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 78,
+    "engine_ttlt_ms": 3106,
+    "pre_inference_ms": 135,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 374,
+    "service_ttlt_ms": 3370,
+    "user_visible_ttft_ms": 238
+   },
+   "prompt_tokens": 785,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1138
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在纠正机器人教的具体内容，指出应讲音频提取和语音转文字；机器人只是提供方法建议，并未实际执行。"
+ },
+ "parse_error": null
+}

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "dcf0344fa5ad19dedc0fe43f008bfdb9bd6b2cbb24fefae62894c21aabb14476",
- "text": "::JUDGE{v5.0}\nV:[int=0.15,cap=0.60,csq=0.25,rel=0.50,cer=0.55,aut=0.40,rev=0.45,evd=0.50,sov=0.70,ine=0.25,ext=0.15]\nM:M7|conf:0.70\nR:policy_risk_bypass_verification_decline_offer_compliant_alternatives",
+ "user_sha256": "d6de3c611c0416df54d249bfaed5c75453823296bd37ea719045cfe806db11f4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.50,cap=0.65,csq=0.45,rel=0.50,cer=0.55,aut=0.25,rev=0.55,evd=0.40,sov=0.80,ine=0.45,ext=0.35]\nM:M6|conf:0.70\nR:建议规避验证且缺乏授权，应交由人工或平台政策处理",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35719,
-   "completion_tokens": 4276,
-   "total_tokens": 39995,
-   "cost": 0.002633618,
+   "prompt_tokens": 35709,
+   "completion_tokens": 2585,
+   "total_tokens": 38294,
+   "cost": 0.001837348,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002633618,
-    "upstream_inference_prompt_cost": 0.000623898,
-    "upstream_inference_completions_cost": 0.00200972
+    "upstream_inference_cost": 0.001837348,
+    "upstream_inference_prompt_cost": 0.000622398,
+    "upstream_inference_completions_cost": 0.00121495
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4156,
+    "reasoning_tokens": 2464,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.15,
-   "cap": 0.6,
-   "csq": 0.25,
+   "int": 0.5,
+   "cap": 0.65,
+   "csq": 0.45,
    "rel": 0.5,
    "cer": 0.55,
-   "aut": 0.4,
-   "rev": 0.45,
-   "evd": 0.5,
-   "sov": 0.7,
-   "ine": 0.25,
-   "ext": 0.15
+   "aut": 0.25,
+   "rev": 0.55,
+   "evd": 0.4,
+   "sov": 0.8,
+   "ine": 0.45,
+   "ext": 0.35
   },
-  "declared_mode": "M7",
+  "declared_mode": "M6",
   "conf": 0.7,
-  "reason": "policy_risk_bypass_verification_decline_offer_compliant_alternatives"
+  "reason": "建议规避验证且缺乏授权，应交由人工或平台政策处理"
  },
  "parse_error": null
 }

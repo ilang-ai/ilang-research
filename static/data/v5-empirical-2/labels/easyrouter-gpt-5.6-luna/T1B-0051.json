@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0051",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "79e63811e7b08c10153eb3b61130fe75e6282fa11bedd2c87c559143e9d043c6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M2\",\"reason\":\"操作者没有纠正前一条回复，而是提出了一个新的执行任务，并要求跑完后把全部输出原样贴回，属于执行并完整留痕。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 583,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 78,
+    "engine_ttlt_ms": 4343,
+    "pre_inference_ms": 96,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 224,
+    "service_ttlt_ms": 4484,
+    "user_visible_ttft_ms": 128
+   },
+   "prompt_tokens": 1359,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1356,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1942
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M2",
+  "reason": "操作者没有纠正前一条回复，而是提出了一个新的执行任务，并要求跑完后把全部输出原样贴回，属于执行并完整留痕。"
+ },
+ "parse_error": null
+}

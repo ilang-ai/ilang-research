@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "7ed2d8e406735018ce2900b55a2ec13be36b750cef2c7b78b060af8c060ba217",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在纠正关于 CTExcel 激活门槛和技术细节的具体事实，并没有改变机器人只提供咨询建议的模式。\"\n}\n```",
+ "user_sha256": "8cd2176813caa71fe0fa773860291ef7765b8c34dec6f1c58a766ea28ddf87fd",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在纠正 CTExcel 激活的具体技术条件和事实细节，并不反对机器人提供建议的模式本身。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 998,
-   "completion_tokens": 327,
-   "total_tokens": 1325,
+   "prompt_tokens": 994,
+   "completion_tokens": 173,
+   "total_tokens": 1167,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 998,
+    "text_tokens": 994,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 74,
+    "text_tokens": 71,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 253
+    "reasoning_tokens": 102
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者是在纠正关于 CTExcel 激活门槛和技术细节的具体事实，并没有改变机器人只提供咨询建议的模式。"
+  "reason": "操作者是在纠正 CTExcel 激活的具体技术条件和事实细节，并不反对机器人提供建议的模式本身。"
  },
  "parse_error": null
 }

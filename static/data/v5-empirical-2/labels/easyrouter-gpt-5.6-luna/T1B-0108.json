@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0108",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "fc9a0fd93afade973c2bae8045a1214c944b720bcff7c414223824c9b00ae416",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"机器人没有实际注册账号，只提供了注册流程和前置条件建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 117,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 72,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 97,
+    "engine_ttlt_ms": 1014,
+    "pre_inference_ms": 156,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 449,
+    "service_ttlt_ms": 1333,
+    "user_visible_ttft_ms": 293
+   },
+   "prompt_tokens": 899,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1016
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "机器人没有实际注册账号，只提供了注册流程和前置条件建议。"
+ },
+ "parse_error": null
+}

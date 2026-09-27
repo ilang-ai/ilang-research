@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0367",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "19a2f99276e392e5ca9b4f8fe852cbbf8780706d8e6b1365b5c8554fd311c512",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在提出对 AI 认错价值的看法并征求判断，不是在纠正机器人或要求执行任务；机器人也只是表达观点和建议，没有实际行动。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 583,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 101,
+    "engine_ttlt_ms": 4659,
+    "pre_inference_ms": 86,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 229,
+    "service_ttlt_ms": 4783,
+    "user_visible_ttft_ms": 143
+   },
+   "prompt_tokens": 800,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1383
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者是在提出对 AI 认错价值的看法并征求判断，不是在纠正机器人或要求执行任务；机器人也只是表达观点和建议，没有实际行动。"
+ },
+ "parse_error": null
+}

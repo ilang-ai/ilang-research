@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "51b68b73433ce25bef2f6ca47cce52f5dedbe25add769f290ffa1768ff2f53b4",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正机器人对问题的理解与回答内容，指出学员379教的是把除认知外的东西拉平，而不是在要求机器人改变做不做或怎么做；机器人当时只是给建议没动手，操作者也只需要它把内容答对。\"}",
+ "user_sha256": "3a4388679e9fae43cec538b2a953f1ee8816ed69c40d6e50122f633bb7bcfece",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者是在纠正机器人答非所问，要求回到他原本提问的内容上；机器人当时只是给出观点和建议，没有执行动作，操作者要的也是回答而非动手。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 916,
-   "completion_tokens": 7113,
-   "total_tokens": 8029,
+   "prompt_tokens": 915,
+   "completion_tokens": 3091,
+   "total_tokens": 4006,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7037
+    "reasoning_tokens": 3029
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 404
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 275
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者是在纠正机器人对问题的理解与回答内容，指出学员379教的是把除认知外的东西拉平，而不是在要求机器人改变做不做或怎么做；机器人当时只是给建议没动手，操作者也只需要它把内容答对。"
+  "reason": "操作者是在纠正机器人答非所问，要求回到他原本提问的内容上；机器人当时只是给出观点和建议，没有执行动作，操作者要的也是回答而非动手。"
  },
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0219",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7066464d8f6e3289d6ccba0595f4632af3e0308e1baa470a6b0b3cea1ad78243",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者不满机器人只讲执行和回报分析，要求直接把最麻烦的商家列表拿到，而不是给这种建议性回答。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 356,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 290,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 66,
+    "engine_ttlt_ms": 2732,
+    "pre_inference_ms": 107,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 256,
+    "service_ttlt_ms": 2917,
+    "user_visible_ttft_ms": 149
+   },
+   "prompt_tokens": 1719,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1716,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2075
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者不满机器人只讲执行和回报分析，要求直接把最麻烦的商家列表拿到，而不是给这种建议性回答。"
+ },
+ "parse_error": null
+}

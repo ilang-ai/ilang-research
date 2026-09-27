@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6f6e483abeb7eed160627db57ae603035a74b9a28a9c4e76f50e9360d734aee3",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者指出机器人生成的内容属于幻觉、未经验证，针对的是内容事实准确性而非流程控制模式。\"\n}\n```",
+ "user_sha256": "a731d8f9b376107735faa8c100ebeed171411e68bf8078609e8ef6daec8f6b51",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者批评机器人的回复存在幻觉且未核实真实价格，针对的是事实内容的准确性而非执行决策模式。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 681,
-   "completion_tokens": 298,
-   "total_tokens": 979,
+   "prompt_tokens": 674,
+   "completion_tokens": 357,
+   "total_tokens": 1031,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 681,
+    "text_tokens": 674,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 72,
+    "text_tokens": 74,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 226
+    "reasoning_tokens": 283
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M1",
   "intended_mode": "none_fits",
-  "reason": "操作者指出机器人生成的内容属于幻觉、未经验证，针对的是内容事实准确性而非流程控制模式。"
+  "reason": "操作者批评机器人的回复存在幻觉且未核实真实价格，针对的是事实内容的准确性而非执行决策模式。"
  },
  "parse_error": null
 }

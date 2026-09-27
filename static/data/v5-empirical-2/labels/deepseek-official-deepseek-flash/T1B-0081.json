@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "39b328d42fdb7762d74cb713e594a15b2bb3a8a80b316a3fcf303983b743d466",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者只是在纠正机器人关于招行卡类型和办理流程的事实错误，并未要求改变决策方式；机器人此前直接查证并汇报，操作者仍希望其直接给出正确信息。\"}",
+ "user_sha256": "efbea8c89bf3da17153db3ed3c485397c2704c5bd4926c670dde6251c04fb59f",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者这次纠正的是内容本身——卡种是储蓄卡、当天可拿、是最稳妥方案，属于事实层面的纠正，不是在讨论要不要做或换流程；机器人当时是直接自查后把结果和建议一次性说清楚，属于直接做完汇报，操作者也只是要求它把答案说准，仍期望它直接给出正确答复。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 919,
-   "completion_tokens": 9761,
-   "total_tokens": 10680,
+   "prompt_tokens": 918,
+   "completion_tokens": 2040,
+   "total_tokens": 2958,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 9697
+    "reasoning_tokens": 1945
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 407
+   "prompt_cache_miss_tokens": 406
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "content_only",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者只是在纠正机器人关于招行卡类型和办理流程的事实错误，并未要求改变决策方式；机器人此前直接查证并汇报，操作者仍希望其直接给出正确信息。"
+  "reason": "操作者这次纠正的是内容本身——卡种是储蓄卡、当天可拿、是最稳妥方案，属于事实层面的纠正，不是在讨论要不要做或换流程；机器人当时是直接自查后把结果和建议一次性说清楚，属于直接做完汇报，操作者也只是要求它把答案说准，仍期望它直接给出正确答复。"
  },
  "parse_error": null
 }

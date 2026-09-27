@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "fb03eccfee0afe3f499539dbae1917bc0a2856f40724d683930ca1fe11ea892d",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件；机器人只给出下一步操作建议并让学员完成后反馈，没有自己动手。\"}",
+ "user_sha256": "4be372a59b6077d5dbe4f4be19885167fefac677a2c1a8ff5c77a5012d7e2667",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"对照事件中操作者未出声，没有纠正；机器人只是给出下一步操作建议并等待用户执行反馈，没有自己动手。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 802,
-   "completion_tokens": 695,
-   "total_tokens": 1497,
-   "cost": 0.000378342,
+   "prompt_tokens": 799,
+   "completion_tokens": 684,
+   "total_tokens": 1483,
+   "cost": 0.000372722,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000378342,
-    "upstream_inference_prompt_cost": 5.1692e-05,
-    "upstream_inference_completions_cost": 0.00032665
+    "upstream_inference_cost": 0.000372722,
+    "upstream_inference_prompt_cost": 5.1242e-05,
+    "upstream_inference_completions_cost": 0.00032148
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 648,
+    "reasoning_tokens": 618,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，属于对照事件；机器人只给出下一步操作建议并让学员完成后反馈，没有自己动手。"
+  "reason": "对照事件中操作者未出声，没有纠正；机器人只是给出下一步操作建议并等待用户执行反馈，没有自己动手。"
  },
  "parse_error": null
 }

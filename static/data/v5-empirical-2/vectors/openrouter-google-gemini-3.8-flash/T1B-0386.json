@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0386",
+ "vendor": "openrouter-google-gemini-3.8-flash",
+ "model": "google/gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "e18724b827967cc2b47abd6edca034e0d0057de646994d651ab0b348207e1cbf",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.90,csq=0.80,rel=0.75,cer=0.80,aut=0.75,rev=0.70,evd=0.75,sov=0.80,ine=0.80,ext=0.75]\nM:M2|conf:0.85\nR:market_analysis_broadcast_aligned_with_community_role_execute_with_log",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "google/gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37877,
+   "completion_tokens": 1908,
+   "total_tokens": 39785,
+   "cost": 0.03556275,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.03556275,
+    "upstream_inference_prompt_cost": 0.02840775,
+    "upstream_inference_completions_cost": 0.007155
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1783,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.9,
+   "csq": 0.8,
+   "rel": 0.75,
+   "cer": 0.8,
+   "aut": 0.75,
+   "rev": 0.7,
+   "evd": 0.75,
+   "sov": 0.8,
+   "ine": 0.8,
+   "ext": 0.75
+  },
+  "declared_mode": "M2",
+  "conf": 0.85,
+  "reason": "market_analysis_broadcast_aligned_with_community_role_execute_with_log"
+ },
+ "parse_error": null
+}

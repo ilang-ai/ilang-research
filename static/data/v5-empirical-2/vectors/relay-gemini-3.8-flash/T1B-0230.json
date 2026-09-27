@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "0140e3270089206fde6fe38086bd231692c99604328bdb387c8dce04a15d5f9e",
- "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.70,csq=0.70,rel=0.60,cer=0.60,aut=0.50,rev=0.70,evd=0.60,sov=0.70,ine=0.50,ext=0.80]\nM:M3|conf:0.85\nR:汇报阶段成果并提议骨架输出，主动等待用户确认执行边界",
- "error": null,
- "http_status": 200,
+ "user_sha256": "1ba5eeec5cbe3d5b35d8568cea2393f1dce171f2ae359e29864c20a78453021d",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 20260927080433321341680c955d5688Gw5pvqP); attempt 2: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 20260927080436219049265c955d568AdZUJWIQ); attempt 3: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 2026092708044596818224c955d568PxmrP4IB); attempt 4: http 400: credit insufficient balance: balance=202429 required=255396 (request id: 202609270805182425673c955d568Ij1D1s3j)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37722,
-   "completion_tokens": 3487,
-   "total_tokens": 41209,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37722,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 122,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 3365
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.6,
-   "cap": 0.7,
-   "csq": 0.7,
-   "rel": 0.6,
-   "cer": 0.6,
-   "aut": 0.5,
-   "rev": 0.7,
-   "evd": 0.6,
-   "sov": 0.7,
-   "ine": 0.5,
-   "ext": 0.8
-  },
-  "declared_mode": "M3",
-  "conf": 0.85,
-  "reason": "汇报阶段成果并提议骨架输出，主动等待用户确认执行边界"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

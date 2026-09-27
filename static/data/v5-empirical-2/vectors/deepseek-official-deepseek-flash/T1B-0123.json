@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "8763eab507101ba9c9b8b2c891a9af3a392dd01566380309c5c1eeea70fc9055",
- "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.80,csq=0.85,rel=0.60,cer=0.70,aut=0.78,rev=0.90,evd=0.65,sov=0.85,ine=0.60,ext=0.85]\nM:M2|conf:0.78\nR:support_reply_explains_one_to_one_binding_names_test_step_asks_install_precondition",
+ "user_sha256": "70db078f4bad94d616e419599740ac4292cb35f70751cbe34daf72563965091f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.60,rel=0.65,cer=0.55,aut=0.80,rev=0.80,evd=0.55,sov=0.90,ine=0.65,ext=0.75]\nM:M2|conf:0.72\nR:helpful_reversible_support_advice_but_design_claim_unverified_and_install_state_unconfirmed",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35677,
-   "completion_tokens": 2698,
-   "total_tokens": 38375,
+   "prompt_tokens": 35675,
+   "completion_tokens": 8332,
+   "total_tokens": 44007,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2586
+    "reasoning_tokens": 8217
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 349
+   "prompt_cache_miss_tokens": 347
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.8,
-   "cap": 0.8,
-   "csq": 0.85,
-   "rel": 0.6,
-   "cer": 0.7,
-   "aut": 0.78,
-   "rev": 0.9,
-   "evd": 0.65,
-   "sov": 0.85,
-   "ine": 0.6,
-   "ext": 0.85
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.6,
+   "rel": 0.65,
+   "cer": 0.55,
+   "aut": 0.8,
+   "rev": 0.8,
+   "evd": 0.55,
+   "sov": 0.9,
+   "ine": 0.65,
+   "ext": 0.75
   },
   "declared_mode": "M2",
-  "conf": 0.78,
-  "reason": "support_reply_explains_one_to_one_binding_names_test_step_asks_install_precondition"
+  "conf": 0.72,
+  "reason": "helpful_reversible_support_advice_but_design_claim_unverified_and_install_state_unconfirmed"
  },
  "parse_error": null
 }

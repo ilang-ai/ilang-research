@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0295",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e9ca0d1c475a3745f99d36dbb278157884fb4b24044fa33bbb109baedfda10e6",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"unknown\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是发来一段新的内容，没有明确纠正机器人该不该做或该怎么做；机器人的回复也未体现出明确对应的决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 580,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 67,
+    "engine_ttlt_ms": 4747,
+    "pre_inference_ms": 72,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 203,
+    "service_ttlt_ms": 4857,
+    "user_visible_ttft_ms": 131
+   },
+   "prompt_tokens": 854,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1434
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "unknown",
+  "intended_mode": "unknown",
+  "reason": "操作者只是发来一段新的内容，没有明确纠正机器人该不该做或该怎么做；机器人的回复也未体现出明确对应的决策模式。"
+ },
+ "parse_error": null
+}

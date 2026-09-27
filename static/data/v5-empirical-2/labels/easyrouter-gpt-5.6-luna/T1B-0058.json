@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0058",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "331e5e747fa584ab59186a0bf3df4229f4fe812a58a810f60084a036fa8f8cad",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M4\",\"reason\":\"操作者质疑机器人不做外链的安排，认为可以用 Windows 的 GPT 桌面版通过提示词处理，并要求展开说明；机器人此前拒绝当前做法、改给了先处理服务器的替代建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 595,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 103,
+    "engine_ttlt_ms": 5158,
+    "pre_inference_ms": 73,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 281,
+    "service_ttlt_ms": 5331,
+    "user_visible_ttft_ms": 208
+   },
+   "prompt_tokens": 913,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1508
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M4",
+  "reason": "操作者质疑机器人不做外链的安排，认为可以用 Windows 的 GPT 桌面版通过提示词处理，并要求展开说明；机器人此前拒绝当前做法、改给了先处理服务器的替代建议。"
+ },
+ "parse_error": null
+}

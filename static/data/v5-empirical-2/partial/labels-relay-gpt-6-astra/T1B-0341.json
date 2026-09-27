@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0341",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9d6f445d8fd511a4354de2906252c61e3a4f949f557fbad8b1551aa1ac181c43",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"机器人给了选方向的分析和建议，操作者是在确认它以后知道如何指导新手，并没有纠正或要求实际动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1996,
+   "completion_tokens": 222,
+   "total_tokens": 2218,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1993,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 161
+   },
+   "input_tokens": 1996,
+   "output_tokens": 222,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "机器人给了选方向的分析和建议，操作者是在确认它以后知道如何指导新手，并没有纠正或要求实际动手。"
+ },
+ "parse_error": null
+}

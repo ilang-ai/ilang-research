@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "61aef115dc5c7f457bc0029e946158709300cff92ad921aec74a4bcef9a2f6fb",
- "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"机器人提出了方案框架并要求确认（点头我就写），用户认可了方案思路并对命名和具体交付形式提出了调整建议，属于针对方案内容的修正。\"\n}\n```",
+ "user_sha256": "72edd282dbe9f683d5298df78491e58edbeddd4e278eeaae6f1c261c0b396615",
+ "text": "```json\n{\n \"targets\": \"do_or_how\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"机器人提出了整套方案并要求操作者点头确认（M3），操作者认可了前截思路，但调整了后截的交付方案和范围要求（不用出产品，出iLang工程书），针对的是方案具体如何做。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1109,
-   "completion_tokens": 76,
-   "total_tokens": 1185,
+   "prompt_tokens": 1102,
+   "completion_tokens": 96,
+   "total_tokens": 1198,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1109,
+    "text_tokens": 1102,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 76,
+    "text_tokens": 96,
     "audio_tokens": 0,
     "image_tokens": 0,
     "reasoning_tokens": 0
@@ -37,10 +37,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "do_or_how",
   "bot_mode": "M3",
   "intended_mode": "M3",
-  "reason": "机器人提出了方案框架并要求确认（点头我就写），用户认可了方案思路并对命名和具体交付形式提出了调整建议，属于针对方案内容的修正。"
+  "reason": "机器人提出了整套方案并要求操作者点头确认（M3），操作者认可了前截思路，但调整了后截的交付方案和范围要求（不用出产品，出iLang工程书），针对的是方案具体如何做。"
  },
  "parse_error": null
 }

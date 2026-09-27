@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0016",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ab8c3d9d39cf71fb6d80560713c855736baffbe20abbcd1410e96104f809e93b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"机器人发现缺少新版文件并要求操作者提供，操作者随后发来文件链接，表示希望机器人直接进行审阅。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 573,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 83,
+    "engine_ttlt_ms": 5388,
+    "pre_inference_ms": 128,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 417,
+    "service_ttlt_ms": 5714,
+    "user_visible_ttft_ms": 289
+   },
+   "prompt_tokens": 1037,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1034,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1610
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "机器人发现缺少新版文件并要求操作者提供，操作者随后发来文件链接，表示希望机器人直接进行审阅。"
+ },
+ "parse_error": null
+}

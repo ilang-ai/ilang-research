@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6d513709d63db8594d6edc1a41fb0da1c6208c508f0f0ac7b50a036e5ad1b759",
- "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者只是在纠正机器人关于“印度离中国半个地球”的事实说法，没有改变执行方式；机器人当时是在给建议而没有动手，但操作者未明确期望的模式。\"\n}",
+ "user_sha256": "375865160b040d9ea861c30916b7464148cefbdd58d77ffd0a37a8b89a496f97",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在质疑机器人回复里“印度离中国半个地球”这个内容表述，不是改变做事方式；机器人当时只是比较两台服务器并给购买建议，没有实际动手。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1234,
-   "completion_tokens": 911,
-   "total_tokens": 2145,
-   "cost": 0.000544662,
+   "prompt_tokens": 1227,
+   "completion_tokens": 851,
+   "total_tokens": 2078,
+   "cost": 0.000515412,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000544662,
-    "upstream_inference_prompt_cost": 0.000116492,
-    "upstream_inference_completions_cost": 0.00042817
+    "upstream_inference_cost": 0.000515412,
+    "upstream_inference_prompt_cost": 0.000115442,
+    "upstream_inference_completions_cost": 0.00039997
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 832,
+    "reasoning_tokens": 769,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,8 +40,8 @@
  "parsed": {
   "targets": "content_only",
   "bot_mode": "M4",
-  "intended_mode": "unknown",
-  "reason": "操作者只是在纠正机器人关于“印度离中国半个地球”的事实说法，没有改变执行方式；机器人当时是在给建议而没有动手，但操作者未明确期望的模式。"
+  "intended_mode": "none_fits",
+  "reason": "操作者是在质疑机器人回复里“印度离中国半个地球”这个内容表述，不是改变做事方式；机器人当时只是比较两台服务器并给购买建议，没有实际动手。"
  },
  "parse_error": null
 }

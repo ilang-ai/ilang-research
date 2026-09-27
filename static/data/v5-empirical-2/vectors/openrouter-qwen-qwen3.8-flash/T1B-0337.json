@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "1f5803d9bf53399929470a5ce003557ec0d61d745a5a33478a80d7e1ee12caf8",
- "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.65,csq=0.70,rel=0.60,cer=0.45,aut=0.50,rev=0.80,evd=0.50,sov=0.75,ine=0.55,ext=0.65]\nM:M3|conf:0.62\nR:propose_backlink_overlap_check_low_risk_needs_confirmation",
+ "user_sha256": "476cf9c4e52ef4b7ae45c3eca423cec5edcc52d80da4304e7da0c2d75aa5692d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.70,csq=0.60,rel=0.65,cer=0.55,aut=0.70,rev=0.85,evd=0.55,sov=0.85,ine=0.60,ext=0.55]\nM:M3|conf:0.68\nR:backlink_research_proposal_needs_confirmation_third_party_impact_unverified",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35988,
-   "completion_tokens": 2932,
-   "total_tokens": 38920,
-   "cost": 0.002042288,
+   "prompt_tokens": 35981,
+   "completion_tokens": 2075,
+   "total_tokens": 38056,
+   "cost": 0.001638448,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002042288,
-    "upstream_inference_prompt_cost": 0.000664248,
-    "upstream_inference_completions_cost": 0.00137804
+    "upstream_inference_cost": 0.001638448,
+    "upstream_inference_prompt_cost": 0.000663198,
+    "upstream_inference_completions_cost": 0.00097525
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2813,
+    "reasoning_tokens": 1953,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.55,
-   "cap": 0.65,
-   "csq": 0.7,
-   "rel": 0.6,
-   "cer": 0.45,
-   "aut": 0.5,
-   "rev": 0.8,
-   "evd": 0.5,
-   "sov": 0.75,
-   "ine": 0.55,
-   "ext": 0.65
+   "int": 0.65,
+   "cap": 0.7,
+   "csq": 0.6,
+   "rel": 0.65,
+   "cer": 0.55,
+   "aut": 0.7,
+   "rev": 0.85,
+   "evd": 0.55,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.62,
-  "reason": "propose_backlink_overlap_check_low_risk_needs_confirmation"
+  "conf": 0.68,
+  "reason": "backlink_research_proposal_needs_confirmation_third_party_impact_unverified"
  },
  "parse_error": null
 }

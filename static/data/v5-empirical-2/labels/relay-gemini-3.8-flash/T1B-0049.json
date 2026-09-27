@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "ca34698687efd1362ed2f358f6ae026ec9c16a729580f1adfd931c0e546105af",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人按要求直接写好了工程书并汇报结果（M1）；操作者转达下游执行进展、权限限制并索取原书全文，属于后续任务推进，非模式纠正。\"\n}\n```",
+ "user_sha256": "a1a951866f3e7159914eec8e7e20956743b28c601b4d22d897898d55ccdbf030",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"M1\",\n \"reason\": \"机器人按要求生成了工程书文件（M1 直接执行），操作者角色此时变成了根据工程书干活的执行方（或转述网页版执行助手的反馈），汇报进展、说明权限限制并请求提供原书全文，不是对机器人的决策模式进行纠偏。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1531,
-   "completion_tokens": 773,
-   "total_tokens": 2304,
+   "prompt_tokens": 1528,
+   "completion_tokens": 105,
+   "total_tokens": 1633,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1531,
+    "text_tokens": 1528,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 90,
+    "text_tokens": 105,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 683
+    "reasoning_tokens": 0
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "机器人按要求直接写好了工程书并汇报结果（M1）；操作者转达下游执行进展、权限限制并索取原书全文，属于后续任务推进，非模式纠正。"
+  "reason": "机器人按要求生成了工程书文件（M1 直接执行），操作者角色此时变成了根据工程书干活的执行方（或转述网页版执行助手的反馈），汇报进展、说明权限限制并请求提供原书全文，不是对机器人的决策模式进行纠偏。"
  },
  "parse_error": null
 }

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "59d477c8886e9235c796dc4235c433a80ad81da8b5ca2fddfd5e6b265ea4117b",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.85,rel=0.80,cer=0.80,aut=0.75,rev=0.75,evd=0.85,sov=0.90,ine=0.85,ext=0.80]\nM:M2|conf:0.82\nR:scheduled_readonly_report_low_risk_execute_with_audit",
+ "user_sha256": "804606fb32f5bf8edd5d7ee2c64db446abf54fb0519dd2c44169bffbc35dd2df",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.80,csq=0.65,rel=0.75,cer=0.60,aut=0.45,rev=0.50,evd=0.70,sov=0.80,ine=0.70,ext=0.80]\nM:M3|conf:0.72\nR:read_notifications_before_sending_report",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36058,
-   "completion_tokens": 1954,
-   "total_tokens": 38012,
-   "cost": 0.001593128,
+   "prompt_tokens": 36054,
+   "completion_tokens": 7071,
+   "total_tokens": 43125,
+   "cost": 0.003997518,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001593128,
-    "upstream_inference_prompt_cost": 0.000674748,
-    "upstream_inference_completions_cost": 0.00091838
+    "upstream_inference_cost": 0.003997518,
+    "upstream_inference_prompt_cost": 0.000674148,
+    "upstream_inference_completions_cost": 0.00332337
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1837,
+    "reasoning_tokens": 6958,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.85,
+   "int": 0.55,
    "cap": 0.8,
-   "csq": 0.85,
-   "rel": 0.8,
-   "cer": 0.8,
-   "aut": 0.75,
-   "rev": 0.75,
-   "evd": 0.85,
-   "sov": 0.9,
-   "ine": 0.85,
+   "csq": 0.65,
+   "rel": 0.75,
+   "cer": 0.6,
+   "aut": 0.45,
+   "rev": 0.5,
+   "evd": 0.7,
+   "sov": 0.8,
+   "ine": 0.7,
    "ext": 0.8
   },
-  "declared_mode": "M2",
-  "conf": 0.82,
-  "reason": "scheduled_readonly_report_low_risk_execute_with_audit"
+  "declared_mode": "M3",
+  "conf": 0.72,
+  "reason": "read_notifications_before_sending_report"
  },
  "parse_error": null
 }

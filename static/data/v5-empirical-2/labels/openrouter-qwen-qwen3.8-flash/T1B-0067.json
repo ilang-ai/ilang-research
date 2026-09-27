@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3ece89dff924fe613631cbd14231535f3e0da330fdb30720e03fe76cb1c97823",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在指出机器人回复里提到 Gamsgo 链接但没给出，属于内容缺漏，希望机器人直接把链接补上。\"}",
+ "user_sha256": "c2ae3c0bc207d647bb04e7e183fbfdd7fe2afcf0e800405b967577a2a9c92bfe",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者指出机器人提到 Gamsgo 链接却没给出，是在纠正内容遗漏；机器人当时只是给解决建议未执行，操作者也只需要补上链接或建议。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 935,
-   "completion_tokens": 803,
-   "total_tokens": 1738,
-   "cost": 0.000449052,
+   "prompt_tokens": 931,
+   "completion_tokens": 525,
+   "total_tokens": 1456,
+   "cost": 0.000317792,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000449052,
-    "upstream_inference_prompt_cost": 7.1642e-05,
-    "upstream_inference_completions_cost": 0.00037741
+    "upstream_inference_cost": 0.000317792,
+    "upstream_inference_prompt_cost": 7.1042e-05,
+    "upstream_inference_completions_cost": 0.00024675
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 749,
+    "reasoning_tokens": 464,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,8 +40,8 @@
  "parsed": {
   "targets": "content_only",
   "bot_mode": "M4",
-  "intended_mode": "M1",
-  "reason": "操作者是在指出机器人回复里提到 Gamsgo 链接但没给出，属于内容缺漏，希望机器人直接把链接补上。"
+  "intended_mode": "M4",
+  "reason": "操作者指出机器人提到 Gamsgo 链接却没给出，是在纠正内容遗漏；机器人当时只是给解决建议未执行，操作者也只需要补上链接或建议。"
  },
  "parse_error": null
 }

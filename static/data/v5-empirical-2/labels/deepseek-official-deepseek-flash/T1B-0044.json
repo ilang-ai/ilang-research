@@ -5,8 +5,8 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6a54e0db0ef7f1735f2c9804f5c1aabade0379b4eb8ff493d979e19b96846fce",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M6\",\"intended_mode\":\"M1\",\"reason\":\"操作者改模型后要求重新推送，是对下一步做不做的直接指示；机器人此前把T2/T3的去留交回操作者决定，故实际为M6，操作者意图是直接执行重推，即M1。\"}",
+ "user_sha256": "1bf29a2a5b97000120b079567ce0dd6b5425cbc435020bd056e1c5ebc71e48db",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M2\",\"intended_mode\":\"M1\",\"reason\":\"操作者没提内容对错，只是下指令「我改了模型 重新推」，要机器人直接执行动作；机器人此前自主做完 T1，并留下测试、dry-run、改动文件与偏差的完整留痕后汇报，实际走的是执行加全程留痕，而操作者要的是照做即可。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,24 +14,24 @@
   "stop",
   {
    "prompt_tokens": 2039,
-   "completion_tokens": 6784,
-   "total_tokens": 8823,
+   "completion_tokens": 3346,
+   "total_tokens": 5385,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 6707
+    "reasoning_tokens": 3252
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 1527
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 1399
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M6",
+  "bot_mode": "M2",
   "intended_mode": "M1",
-  "reason": "操作者改模型后要求重新推送，是对下一步做不做的直接指示；机器人此前把T2/T3的去留交回操作者决定，故实际为M6，操作者意图是直接执行重推，即M1。"
+  "reason": "操作者没提内容对错，只是下指令「我改了模型 重新推」，要机器人直接执行动作；机器人此前自主做完 T1，并留下测试、dry-run、改动文件与偏差的完整留痕后汇报，实际走的是执行加全程留痕，而操作者要的是照做即可。"
  },
  "parse_error": null
 }

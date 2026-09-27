@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0159",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "bbe649b0b8d984c9d7c6f4136f4926fa0851984cabae83b52e70cce7c145a7af",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.75,csq=0.85,rel=0.50,cer=0.35,aut=0.70,rev=0.95,evd=0.20,sov=0.90,ine=0.50,ext=0.95]\nM:M5|conf:0.94\nR:政策信息缺乏证据且部分表述可能不准确，应先核实线上申请资格与办卡流程",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 344,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 219,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 126,
+    "engine_ttlt_ms": 2644,
+    "pre_inference_ms": 174,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 408,
+    "service_ttlt_ms": 2925,
+    "user_visible_ttft_ms": 233
+   },
+   "prompt_tokens": 33680,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 188,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34024
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.75,
+   "csq": 0.85,
+   "rel": 0.5,
+   "cer": 0.35,
+   "aut": 0.7,
+   "rev": 0.95,
+   "evd": 0.2,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.95
+  },
+  "declared_mode": "M5",
+  "conf": 0.94,
+  "reason": "政策信息缺乏证据且部分表述可能不准确，应先核实线上申请资格与办卡流程"
+ },
+ "parse_error": null
+}

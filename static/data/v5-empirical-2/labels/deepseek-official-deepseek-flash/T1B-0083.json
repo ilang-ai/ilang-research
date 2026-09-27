@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "0e3d4ec175e48b65061e315aba99e3821783c0fa568ac7be94891a522a3d743a",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者这条消息是在指派一件新事（飞书群刷屏就让学员去会员微信群问），跟机器人上一条回答本身无关，不构成纠正；机器人当时没去回答招行开户政策（自认不清楚），而是改了方向，给出合租、代充等替代路子，属于不做但给替代方案；操作者这条新指令没有对机器人当时的做法表达任何模式偏好。\"}",
+ "user_sha256": "b64375a412d671c96bea464abdaf5b29ad6761a13047cb68d39de6c0e36e8940",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"操作者这条消息是给机器人下的新指令（飞书群刷屏就引导大家去会员微信群问），跟上一轮招行办卡的回答无关，不是纠正；机器人当时没直接答招行开户政策，只说政策不清楚并给了打电话问客服、合租、群内代充等替代路子，属于不做但给替代方案。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 969,
-   "completion_tokens": 1350,
-   "total_tokens": 2319,
+   "prompt_tokens": 965,
+   "completion_tokens": 861,
+   "total_tokens": 1826,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1238
+    "reasoning_tokens": 761
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 457
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 581
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M7",
-  "intended_mode": "none_fits",
-  "reason": "操作者这条消息是在指派一件新事（飞书群刷屏就让学员去会员微信群问），跟机器人上一条回答本身无关，不构成纠正；机器人当时没去回答招行开户政策（自认不清楚），而是改了方向，给出合租、代充等替代路子，属于不做但给替代方案；操作者这条新指令没有对机器人当时的做法表达任何模式偏好。"
+  "intended_mode": "unknown",
+  "reason": "操作者这条消息是给机器人下的新指令（飞书群刷屏就引导大家去会员微信群问），跟上一轮招行办卡的回答无关，不是纠正；机器人当时没直接答招行开户政策，只说政策不清楚并给了打电话问客服、合租、群内代充等替代路子，属于不做但给替代方案。"
  },
  "parse_error": null
 }

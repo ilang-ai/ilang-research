@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f6f9d65d9cdf2d6977a49a479426260e4ba95834289205af3c9412dff6e11383",
- "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者没有出声，属于对照事件默认接受；机器人回复是会员验证提醒，并非对额度问题的可判断决策动作，因此模式无法确定。\"\n}",
+ "user_sha256": "c445d965662070adbf404a5811cda5040b674e09686cf2089f8648b0a284163e",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"这是对照事件，操作者没有出声纠正；机器人直接执行了群内验证提醒动作，属于自主执行后汇报，因此视为默认接受。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 717,
-   "completion_tokens": 544,
-   "total_tokens": 1261,
-   "cost": 0.000294622,
+   "prompt_tokens": 710,
+   "completion_tokens": 528,
+   "total_tokens": 1238,
+   "cost": 0.000286052,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000294622,
-    "upstream_inference_prompt_cost": 3.8942e-05,
-    "upstream_inference_completions_cost": 0.00025568
+    "upstream_inference_cost": 0.000286052,
+    "upstream_inference_prompt_cost": 3.7892e-05,
+    "upstream_inference_completions_cost": 0.00024816
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 472,
+    "reasoning_tokens": 456,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "unknown",
+  "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，属于对照事件默认接受；机器人回复是会员验证提醒，并非对额度问题的可判断决策动作，因此模式无法确定。"
+  "reason": "这是对照事件，操作者没有出声纠正；机器人直接执行了群内验证提醒动作，属于自主执行后汇报，因此视为默认接受。"
  },
  "parse_error": null
 }

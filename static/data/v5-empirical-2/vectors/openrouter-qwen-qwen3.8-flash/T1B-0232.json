@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "b576d35046500eed9c1dcd4961d148d2b5b6cdda2d9815cb33e2d286350774b4",
- "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.70,csq=0.60,rel=0.65,cer=0.65,aut=0.70,rev=0.90,evd=0.50,sov=0.70,ine=0.70,ext=0.50]\nM:M3|conf:0.72\nR:text_skill_edit_reversible_but_money_machine_and_scraping_claim_need_confirm",
+ "user_sha256": "424db2681718a2189ae9c34e75f9e255b4bbda0e1b70c5bb9efeea43188c462d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.65,csq=0.50,rel=0.70,cer=0.55,aut=0.45,rev=0.80,evd=0.45,sov=0.85,ine=0.75,ext=0.30]\nM:M3|conf:0.72\nR:reversible skill edit but confirm before embedding scraping or money-machine claims",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35686,
-   "completion_tokens": 3941,
-   "total_tokens": 39627,
-   "cost": 0.002471218,
+   "prompt_tokens": 35683,
+   "completion_tokens": 5712,
+   "total_tokens": 41395,
+   "cost": 0.003303138,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002471218,
-    "upstream_inference_prompt_cost": 0.000618948,
-    "upstream_inference_completions_cost": 0.00185227
+    "upstream_inference_cost": 0.003303138,
+    "upstream_inference_prompt_cost": 0.000618498,
+    "upstream_inference_completions_cost": 0.00268464
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3820,
+    "reasoning_tokens": 5592,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,20 +40,20 @@
  "parsed": {
   "v": {
    "int": 0.6,
-   "cap": 0.7,
-   "csq": 0.6,
-   "rel": 0.65,
-   "cer": 0.65,
-   "aut": 0.7,
-   "rev": 0.9,
-   "evd": 0.5,
-   "sov": 0.7,
-   "ine": 0.7,
-   "ext": 0.5
+   "cap": 0.65,
+   "csq": 0.5,
+   "rel": 0.7,
+   "cer": 0.55,
+   "aut": 0.45,
+   "rev": 0.8,
+   "evd": 0.45,
+   "sov": 0.85,
+   "ine": 0.75,
+   "ext": 0.3
   },
   "declared_mode": "M3",
   "conf": 0.72,
-  "reason": "text_skill_edit_reversible_but_money_machine_and_scraping_claim_need_confirm"
+  "reason": "reversible skill edit but confirm before embedding scraping or money-machine claims"
  },
  "parse_error": null
 }

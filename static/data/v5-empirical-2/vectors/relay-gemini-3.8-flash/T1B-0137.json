@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "9e860af139574f9cb526797d7a2ac52a4282ada75409b2d8acfc4ea0c39ea51c",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.95,csq=0.95,rel=0.80,cer=0.90,aut=0.90,rev=0.95,evd=0.90,sov=0.95,ine=0.90,ext=0.95]\nM:M1|conf:0.92\nR:accurate_helpful_esim_guidance_directly_answering_user_query",
- "error": null,
- "http_status": 200,
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255426 (request id: 20260927075804550490721c955d568UvLQs6oT); attempt 2: http 400: credit insufficient balance: balance=202429 required=255426 (request id: 20260927075807973362043c955d568ADavLKX1); attempt 3: http 400: credit insufficient balance: balance=202429 required=255426 (request id: 20260927075816891017518c955d5681HybgHi4); attempt 4: http 400: credit insufficient balance: balance=202429 required=255426 (request id: 20260927075849821533206c955d568pF7gvFPR)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37724,
-   "completion_tokens": 2023,
-   "total_tokens": 39747,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37724,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 124,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 1899
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.9,
-   "cap": 0.95,
-   "csq": 0.95,
-   "rel": 0.8,
-   "cer": 0.9,
-   "aut": 0.9,
-   "rev": 0.95,
-   "evd": 0.9,
-   "sov": 0.95,
-   "ine": 0.9,
-   "ext": 0.95
-  },
-  "declared_mode": "M1",
-  "conf": 0.92,
-  "reason": "accurate_helpful_esim_guidance_directly_answering_user_query"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

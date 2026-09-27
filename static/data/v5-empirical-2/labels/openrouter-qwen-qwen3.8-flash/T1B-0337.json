@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "88e21366c70ae6f3411e93001fa31c4329ce59517b0018ee1de1c44f466b8b0c",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者是在补充以后可复用的思路和任务方向，不是纠正机器人当时该不该做或怎么做；机器人当时已直接做了站群分析并汇报，下一步才询问是否继续深挖。\"}",
+ "user_sha256": "9602221ef2e5f84ee03f7be86ef607898726f12116b399190f3f82b0bd53aa5a",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者没有纠正机器人，只是在确认和补充观点；机器人则直接完成了分析并汇报结果。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1228,
-   "completion_tokens": 1751,
-   "total_tokens": 2979,
-   "cost": 0.000938562,
+   "prompt_tokens": 1221,
+   "completion_tokens": 889,
+   "total_tokens": 2110,
+   "cost": 0.000532372,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000938562,
-    "upstream_inference_prompt_cost": 0.000115592,
-    "upstream_inference_completions_cost": 0.00082297
+    "upstream_inference_cost": 0.000532372,
+    "upstream_inference_prompt_cost": 0.000114542,
+    "upstream_inference_completions_cost": 0.00041783
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1684,
+    "reasoning_tokens": 823,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "none_fits",
-  "reason": "操作者是在补充以后可复用的思路和任务方向，不是纠正机器人当时该不该做或怎么做；机器人当时已直接做了站群分析并汇报，下一步才询问是否继续深挖。"
+  "reason": "操作者没有纠正机器人，只是在确认和补充观点；机器人则直接完成了分析并汇报结果。"
  },
  "parse_error": null
 }

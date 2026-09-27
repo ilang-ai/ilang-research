@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0377",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "2f7b8fb11528a1e1bed6ce02a633ec80e708b489a20a014ab8d395bd1db6b5c9",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"机器人拒绝按原要求回顾群聊和介绍功能，转而要求提供具体关键词或域名作为替代交流方式；操作者未出声，视为默认接受。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 833,
+   "completion_tokens": 109,
+   "total_tokens": 942,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 43
+   },
+   "input_tokens": 833,
+   "output_tokens": 109,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M7",
+  "intended_mode": "accepted",
+  "reason": "机器人拒绝按原要求回顾群聊和介绍功能，转而要求提供具体关键词或域名作为替代交流方式；操作者未出声，视为默认接受。"
+ },
+ "parse_error": null
+}

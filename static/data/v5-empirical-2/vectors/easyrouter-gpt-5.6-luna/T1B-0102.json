@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0102",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "040efd5dd2d3277bde97449eae910fe6b78381a065b8b3848c47d59b5acce95e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.90,csq=0.65,rel=0.45,cer=0.75,aut=0.65,rev=0.80,evd=0.40,sov=0.65,ine=0.55,ext=0.75]\nM:M2|conf:0.78\nR:回答了问题但以未核实收入与案例推动购买服务器，建议保留审计并弱化销售性断言",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 467,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 340,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 380,
+    "engine_ttlt_ms": 3782,
+    "pre_inference_ms": 332,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 987,
+    "service_ttlt_ms": 4381,
+    "user_visible_ttft_ms": 655
+   },
+   "prompt_tokens": 33897,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 405,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34364
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.9,
+   "csq": 0.65,
+   "rel": 0.45,
+   "cer": 0.75,
+   "aut": 0.65,
+   "rev": 0.8,
+   "evd": 0.4,
+   "sov": 0.65,
+   "ine": 0.55,
+   "ext": 0.75
+  },
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "回答了问题但以未核实收入与案例推动购买服务器，建议保留审计并弱化销售性断言"
+ },
+ "parse_error": null
+}

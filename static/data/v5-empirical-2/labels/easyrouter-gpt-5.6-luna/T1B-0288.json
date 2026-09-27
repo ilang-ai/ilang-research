@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0288",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "04ae59639458a8551f0488f09e40529739e9e92efd23c02c024f9753bd3ffb0b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"机器人先因信息不足要求补充落地页品牌或后台数据；操作者随后提供图片并说“你看下”，是在要求机器人直接查看并继续分析，而不是纠正原回复。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 588,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 91,
+    "engine_ttlt_ms": 4636,
+    "pre_inference_ms": 118,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 455,
+    "service_ttlt_ms": 4994,
+    "user_visible_ttft_ms": 337
+   },
+   "prompt_tokens": 949,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1537
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "机器人先因信息不足要求补充落地页品牌或后台数据；操作者随后提供图片并说“你看下”，是在要求机器人直接查看并继续分析，而不是纠正原回复。"
+ },
+ "parse_error": null
+}

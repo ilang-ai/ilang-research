@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "5a71a371bbb96fe766f6687303c812548f1741d06405491e851e7a10750b6eb2",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M3\",\"intended_mode\":\"unknown\",\"reason\":\"机器人已落盘1.0并列出改动，但明确等操作者确认后才递出去，属于先拿方案确认；操作者只是纠正自迭代其实就是迭代提示词，没有表达对执行模式的偏好。\"}",
+ "user_sha256": "ff2cfd8b1b60233812af117abcc39bc329a068330b106e7367f9ad72db86930f",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者在澄清迭代的性质只是更新给用户的 iLang 提示词，属于内容层面的纠正；机器人已执行并汇报，模式为直接做。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1323,
-   "completion_tokens": 6579,
-   "total_tokens": 7902,
+   "prompt_tokens": 1321,
+   "completion_tokens": 9983,
+   "total_tokens": 11304,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 6511
+    "reasoning_tokens": 9928
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 811
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 681
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "content_only",
-  "bot_mode": "M3",
-  "intended_mode": "unknown",
-  "reason": "机器人已落盘1.0并列出改动，但明确等操作者确认后才递出去，属于先拿方案确认；操作者只是纠正自迭代其实就是迭代提示词，没有表达对执行模式的偏好。"
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者在澄清迭代的性质只是更新给用户的 iLang 提示词，属于内容层面的纠正；机器人已执行并汇报，模式为直接做。"
  },
  "parse_error": null
 }

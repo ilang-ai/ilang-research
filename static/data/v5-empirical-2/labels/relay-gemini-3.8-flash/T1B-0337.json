@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "88e21366c70ae6f3411e93001fa31c4329ce59517b0018ee1de1c44f466b8b0c",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"unknown\",\n \"reason\": \"机器人给出了分析并提出下一步核对方案等用户确认（M3）；操作者随后的回复是在总结经验、发表业务见解，并非针对决策模式的纠正。\"\n}\n```",
+ "user_sha256": "9602221ef2e5f84ee03f7be86ef607898726f12116b399190f3f82b0bd53aa5a",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"unknown\",\n \"reason\": \"机器人给出了站群分析并提议下一步方案等待用户确认（M3），操作者随后并未针对动作模式进行纠正，而是发表心得和业务指导。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1269,
-   "completion_tokens": 524,
-   "total_tokens": 1793,
+   "prompt_tokens": 1262,
+   "completion_tokens": 364,
+   "total_tokens": 1626,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1269,
+    "text_tokens": 1262,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 82,
+    "text_tokens": 79,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 442
+    "reasoning_tokens": 285
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M3",
   "intended_mode": "unknown",
-  "reason": "机器人给出了分析并提出下一步核对方案等用户确认（M3）；操作者随后的回复是在总结经验、发表业务见解，并非针对决策模式的纠正。"
+  "reason": "机器人给出了站群分析并提议下一步方案等待用户确认（M3），操作者随后并未针对动作模式进行纠正，而是发表心得和业务指导。"
  },
  "parse_error": null
 }

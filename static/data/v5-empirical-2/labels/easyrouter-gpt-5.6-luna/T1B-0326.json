@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0326",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "bacc58e3fd64a7944408cfcbe23162083203288afe4ce0dfbb3b78d7cafde22e",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续提出了整理成长文的新任务，并未纠正或评价前一回复；前一回复只是给出关于标准化、无人化的分析建议，没有实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 569,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 496,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 57,
+    "engine_ttlt_ms": 5031,
+    "pre_inference_ms": 77,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 354,
+    "service_ttlt_ms": 5327,
+    "user_visible_ttft_ms": 277
+   },
+   "prompt_tokens": 980,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1549
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者后续提出了整理成长文的新任务，并未纠正或评价前一回复；前一回复只是给出关于标准化、无人化的分析建议，没有实际执行操作。"
+ },
+ "parse_error": null
+}

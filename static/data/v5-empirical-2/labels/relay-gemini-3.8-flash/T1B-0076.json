@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f6a34e0c7133c35fefda78c1b3a4ecfa146f89447bd00d8454e6e3b93070f830",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人分析了问题本质并提供了核对配置的指导建议，未直接执行操作，操作者未出声默认接受。\"\n}\n```",
+ "user_sha256": "9d9aa5d102fa41227b037fa1497cbc4122c16ffb5e43157be03eacc4ed1edfd6",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人诊断环境限制原因并给出排查配置建议（M4），操作者未打断默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 896,
-   "completion_tokens": 191,
-   "total_tokens": 1087,
+   "prompt_tokens": 890,
+   "completion_tokens": 224,
+   "total_tokens": 1114,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 896,
+    "text_tokens": 890,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 70,
+    "text_tokens": 66,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 121
+    "reasoning_tokens": 158
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人分析了问题本质并提供了核对配置的指导建议，未直接执行操作，操作者未出声默认接受。"
+  "reason": "机器人诊断环境限制原因并给出排查配置建议（M4），操作者未打断默认接受。"
  },
  "parse_error": null
 }

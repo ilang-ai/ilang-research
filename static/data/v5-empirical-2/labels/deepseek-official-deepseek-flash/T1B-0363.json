@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "acceed9365dc6914bdbf83a46af598444005ca49855571542a5dc34624fc437b",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者批评机器人回复没有辨识度，属于文风/内容质量反馈，不是对做不做或怎么做的指令；机器人此前直接输出回复，未征询或给方案，故为M1；操作者未要求某种执行模式，因此intended_mode无匹配。\"}",
+ "user_sha256": "dfb556bd1e23f5e6477db000f57823d4828d837ad56dc92af8ac61611c85e0c4",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者只批评机器人回复没有辨识度、像失败产品，属于对文风/内容质量的纠正，不涉及要不要做或怎么做；机器人直接回怼，没有请示、澄清或拒绝，属于M1；操作者想要的也是直接给出有辨识度的回应，故intended_mode为M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 711,
-   "completion_tokens": 2868,
-   "total_tokens": 3579,
+   "prompt_tokens": 710,
+   "completion_tokens": 6896,
+   "total_tokens": 7606,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2784
+    "reasoning_tokens": 6807
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 199
+   "prompt_cache_miss_tokens": 198
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "content_only",
   "bot_mode": "M1",
-  "intended_mode": "none_fits",
-  "reason": "操作者批评机器人回复没有辨识度，属于文风/内容质量反馈，不是对做不做或怎么做的指令；机器人此前直接输出回复，未征询或给方案，故为M1；操作者未要求某种执行模式，因此intended_mode无匹配。"
+  "intended_mode": "M1",
+  "reason": "操作者只批评机器人回复没有辨识度、像失败产品，属于对文风/内容质量的纠正，不涉及要不要做或怎么做；机器人直接回怼，没有请示、澄清或拒绝，属于M1；操作者想要的也是直接给出有辨识度的回应，故intended_mode为M1。"
  },
  "parse_error": null
 }

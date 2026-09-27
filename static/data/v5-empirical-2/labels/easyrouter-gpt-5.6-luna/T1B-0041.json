@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0041",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "85d94f06757eae445e1dbe7aebd9fd6924e362b2bf1c7b53dbe121036e504016",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"unknown\",\"reason\":\"操作者表示自己已经补充了内容，并询问其他部分是否正常，这是确认和追问，不是在纠正机器人该怎么做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 471,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 409,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 88,
+    "engine_ttlt_ms": 4237,
+    "pre_inference_ms": 87,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 245,
+    "service_ttlt_ms": 4388,
+    "user_visible_ttft_ms": 158
+   },
+   "prompt_tokens": 988,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1459
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "unknown",
+  "reason": "操作者表示自己已经补充了内容，并询问其他部分是否正常，这是确认和追问，不是在纠正机器人该怎么做。"
+ },
+ "parse_error": null
+}

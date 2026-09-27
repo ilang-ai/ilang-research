@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "23a9940ab1662c69aa637cb58f35063774a074dd8574f51aa224ac9522ae6965",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未再发言，默认接受机器人的回复；机器人只是解释激活与充值情况并给建议，没有实际动手操作。\"}",
+ "user_sha256": "18646d20da4eb0d49d27fe1145b929feb6c89d6fee6bd3464d9478e19df67eb7",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件；机器人直接回答了激活和充值问题，没有先确认或只停留在泛泛建议，因此按默认接受处理。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 842,
-   "completion_tokens": 379,
-   "total_tokens": 1221,
+   "prompt_tokens": 841,
+   "completion_tokens": 1081,
+   "total_tokens": 1922,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 328
+    "reasoning_tokens": 1025
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 330
+   "prompt_cache_miss_tokens": 329
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M4",
+  "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者未再发言，默认接受机器人的回复；机器人只是解释激活与充值情况并给建议，没有实际动手操作。"
+  "reason": "操作者没有出声，属于对照事件；机器人直接回答了激活和充值问题，没有先确认或只停留在泛泛建议，因此按默认接受处理。"
  },
  "parse_error": null
 }

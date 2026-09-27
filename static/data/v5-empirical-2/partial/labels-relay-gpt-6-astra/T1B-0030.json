@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0030",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "fa3ef57dd7a3cfc8f9b76c99d23e932f9d69084a9f394a1e82d88a258702f4b4",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M4\",\"reason\":\"机器人提出实施方案并等点头开工，操作者则要求围绕只给一个 token 就能搭建全部的简化方式继续思考讨论，先别动手。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1401,
+   "completion_tokens": 68,
+   "total_tokens": 1469,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1398,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 0
+   },
+   "input_tokens": 1401,
+   "output_tokens": 68,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M4",
+  "reason": "机器人提出实施方案并等点头开工，操作者则要求围绕只给一个 token 就能搭建全部的简化方式继续思考讨论，先别动手。"
+ },
+ "parse_error": null
+}

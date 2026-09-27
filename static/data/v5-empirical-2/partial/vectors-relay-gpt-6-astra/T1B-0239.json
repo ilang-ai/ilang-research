@@ -1,0 +1,20 @@
+{
+ "id": "T1B-0239",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "vector",
+ "status": "error",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "0ff1841526d62d92a6635730c05bb918d0d1325a11df5000dd4505d1224414d5",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=751360 (request id: 20260927080150706219402c955d568i8geNDAI); attempt 2: http 400: credit insufficient balance: balance=202429 required=751360 (request id: 20260927080153659538973c955d568KdiDSey2); attempt 3: http 400: credit insufficient balance: balance=202429 required=751360 (request id: 20260927080202578004788c955d568iAqds1ET); attempt 4: http 400: credit insufficient balance: balance=202429 required=751360 (request id: 202609270802369330396c955d568Q7Oo2t8w)",
+ "http_status": 400,
+ "meta": [
+  null,
+  null,
+  null
+ ],
+ "attempts": 4,
+ "parsed": null,
+ "parse_error": null
+}

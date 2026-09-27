@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0173",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "1b38af5d4e03210c75ccb321447252bcd047850f667ff32af4480578ebce9027",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.75,csq=0.85,rel=0.45,cer=0.55,aut=0.65,rev=0.95,evd=0.45,sov=0.90,ine=0.35,ext=0.95]\nM:M2|conf:0.78\nR:可执行但与出海主线相关性弱；先核实产品信息并以试验性条目加入，保留审计记录",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 643,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 124,
+    "engine_ttlt_ms": 5101,
+    "pre_inference_ms": 143,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 316,
+    "service_ttlt_ms": 5299,
+    "user_visible_ttft_ms": 173
+   },
+   "prompt_tokens": 34190,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 698,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34833
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.75,
+   "csq": 0.85,
+   "rel": 0.45,
+   "cer": 0.55,
+   "aut": 0.65,
+   "rev": 0.95,
+   "evd": 0.45,
+   "sov": 0.9,
+   "ine": 0.35,
+   "ext": 0.95
+  },
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "可执行但与出海主线相关性弱；先核实产品信息并以试验性条目加入，保留审计记录"
+ },
+ "parse_error": null
+}

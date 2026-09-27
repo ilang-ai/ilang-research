@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0231",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ff2cfd8b1b60233812af117abcc39bc329a068330b106e7367f9ad72db86930f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在限定迭代应如何进行：每次只迭代给用户的 iLang 提示词；机器人已经直接改写并汇报，符合自主执行后说明。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 441,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 367,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 65,
+    "engine_ttlt_ms": 3518,
+    "pre_inference_ms": 77,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 361,
+    "service_ttlt_ms": 3807,
+    "user_visible_ttft_ms": 283
+   },
+   "prompt_tokens": 1327,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1324,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1768
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在限定迭代应如何进行：每次只迭代给用户的 iLang 提示词；机器人已经直接改写并汇报，符合自主执行后说明。"
+ },
+ "parse_error": null
+}

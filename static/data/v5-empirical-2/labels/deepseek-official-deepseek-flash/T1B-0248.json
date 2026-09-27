@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "88c059102ed6bfa3bf5a193efda2c72868fccf871eabd7d330a8ab564c8c542e",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有再出声，视为默认接受机器人继续；机器人没有继续执行原关键词任务，而是判定该词不适合、建议换词并给出替代方向。\"}",
+ "user_sha256": "56fd592efe2d0a5ba360514a61e7de879f7e3d8e6105669e2b8441e51bd3191d",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M7\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受了机器人的处理；机器人判定当前词不能做并建议换个词，属于不做但给替代方案。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1333,
-   "completion_tokens": 661,
-   "total_tokens": 1994,
+   "prompt_tokens": 1332,
+   "completion_tokens": 1615,
+   "total_tokens": 2947,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 605
+    "reasoning_tokens": 1563
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 821
+   "prompt_cache_miss_tokens": 820
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M7",
   "intended_mode": "accepted",
-  "reason": "操作者没有再出声，视为默认接受机器人继续；机器人没有继续执行原关键词任务，而是判定该词不适合、建议换词并给出替代方向。"
+  "reason": "操作者未出声，默认接受了机器人的处理；机器人判定当前词不能做并建议换个词，属于不做但给替代方案。"
  },
  "parse_error": null
 }

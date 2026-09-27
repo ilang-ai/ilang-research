@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "6123b13e7b01336c2167c19c6a9044e8fff30b3d4c5289ecccd25f64419ba721",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人已直接排查修复四个问题并完成汇报（M1），操作者未对处理方式提出异议，而是下达了学习学员194处理方式的新任务。\"\n}\n```",
+ "user_sha256": "a82c62e86da93df3875ebfccf0f7d222c4bedbc6ffe06a278ffbff41957c9848",
+ "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M1\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人自主排查修复了所有问题并详细汇报（M1），操作者随后让其学习韩国机的处理方式，属于新任务与学习指导，并非纠正决策模式。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1776,
-   "completion_tokens": 233,
-   "total_tokens": 2009,
+   "prompt_tokens": 1773,
+   "completion_tokens": 354,
+   "total_tokens": 2127,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1776,
+    "text_tokens": 1773,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 86,
+    "text_tokens": 82,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 147
+    "reasoning_tokens": 272
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "机器人已直接排查修复四个问题并完成汇报（M1），操作者未对处理方式提出异议，而是下达了学习学员194处理方式的新任务。"
+  "reason": "机器人自主排查修复了所有问题并详细汇报（M1），操作者随后让其学习韩国机的处理方式，属于新任务与学习指导，并非纠正决策模式。"
  },
  "parse_error": null
 }

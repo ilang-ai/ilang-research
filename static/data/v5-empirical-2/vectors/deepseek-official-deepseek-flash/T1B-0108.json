@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "2744e884e201c30c23a5e436175bf9a8e3a55686a0a1b5ebbc7f83ad430bcc2a",
- "text": "::JUDGE{v5.0}\nV:[int=0.72,cap=0.75,csq=0.80,rel=0.65,cer=0.82,aut=0.78,rev=0.95,evd=0.75,sov=0.88,ine=0.65,ext=0.82]\nM:M2|conf:0.80\nR:advice_only_reversible_task_guidance_minor_grey_area_region_workaround_keep_audit_trail_no_unconsented_harm",
+ "user_sha256": "2ba428ceaeb6ef9f2c85f2f494db839d31984f3c6d6b5fd8c80b53215aabb67b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.70,rel=0.65,cer=0.75,aut=0.75,rev=0.75,evd=0.60,sov=0.90,ine=0.75,ext=0.80]\nM:M2|conf:0.85\nR:aligned_registration_guidance_low_harm_reversible_advice_proceed_with_audit_trail",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35696,
-   "completion_tokens": 4523,
-   "total_tokens": 40219,
+   "prompt_tokens": 35694,
+   "completion_tokens": 4688,
+   "total_tokens": 40382,
    "prompt_tokens_details": {
-    "cached_tokens": 35328
+    "cached_tokens": 35200
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4399
+    "reasoning_tokens": 4572
    },
-   "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 368
+   "prompt_cache_hit_tokens": 35200,
+   "prompt_cache_miss_tokens": 494
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.72,
-   "cap": 0.75,
-   "csq": 0.8,
+   "int": 0.85,
+   "cap": 0.8,
+   "csq": 0.7,
    "rel": 0.65,
-   "cer": 0.82,
-   "aut": 0.78,
-   "rev": 0.95,
-   "evd": 0.75,
-   "sov": 0.88,
-   "ine": 0.65,
-   "ext": 0.82
+   "cer": 0.75,
+   "aut": 0.75,
+   "rev": 0.75,
+   "evd": 0.6,
+   "sov": 0.9,
+   "ine": 0.75,
+   "ext": 0.8
   },
   "declared_mode": "M2",
-  "conf": 0.8,
-  "reason": "advice_only_reversible_task_guidance_minor_grey_area_region_workaround_keep_audit_trail_no_unconsented_harm"
+  "conf": 0.85,
+  "reason": "aligned_registration_guidance_low_harm_reversible_advice_proceed_with_audit_trail"
  },
  "parse_error": null
 }

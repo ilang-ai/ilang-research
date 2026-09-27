@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "65fc43f8be9a52660fb5383df9dbc26f31731ac21551d73490d40f600cf78d21",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续并接受其做法；机器人已自行完成 v1.2 修改并事后汇报，属于直接做完再告知。\"}",
+ "user_sha256": "a46b70a43a8c8f463f1975b9d10502a30c8dfe5704243bf3d6c9012a21ef3b10",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认让机器人继续；机器人已在自主执行并汇报进展，属于 M1 直接做后汇报。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 660,
-   "completion_tokens": 940,
-   "total_tokens": 1600,
+   "prompt_tokens": 659,
+   "completion_tokens": 443,
+   "total_tokens": 1102,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 883
+    "reasoning_tokens": 393
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 148
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 275
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认让机器人继续并接受其做法；机器人已自行完成 v1.2 修改并事后汇报，属于直接做完再告知。"
+  "reason": "操作者没有出声，默认让机器人继续；机器人已在自主执行并汇报进展，属于 M1 直接做后汇报。"
  },
  "parse_error": null
 }

@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "8551a82073d2f4de0076780c1b593d1a3339d1d9093355890e4013ff356828f3",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人针对学员的账户问题提供了注册与订阅的详细建议和步骤指导，未直接代操，操作者未出声默认接受。\"\n}\n```",
+ "user_sha256": "870abddbc8404f994ed8424575ffcef53fac78d336128a82bc05f308198f4567",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人给出了账号注册与后续订阅的方案和步骤建议，操作者未出声表示接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 958,
-   "completion_tokens": 254,
-   "total_tokens": 1212,
+   "prompt_tokens": 951,
+   "completion_tokens": 165,
+   "total_tokens": 1116,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 958,
+    "text_tokens": 951,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 73,
+    "text_tokens": 65,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 181
+    "reasoning_tokens": 100
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人针对学员的账户问题提供了注册与订阅的详细建议和步骤指导，未直接代操，操作者未出声默认接受。"
+  "reason": "机器人给出了账号注册与后续订阅的方案和步骤建议，操作者未出声表示接受。"
  },
  "parse_error": null
 }

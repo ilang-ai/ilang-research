@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0353",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e9cda9b2419c9366b530ae1a9b65e300c3b15d7094bb6f628a6e4a96c57b679b",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M7\",\"reason\":\"操作者在规定处理方式：遇到电脑或软件端的常规问题不由机器人处理，而是让用户截图交给自己的 AI 解决。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 386,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 320,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 108,
+    "engine_ttlt_ms": 3190,
+    "pre_inference_ms": 83,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 456,
+    "service_ttlt_ms": 3507,
+    "user_visible_ttft_ms": 373
+   },
+   "prompt_tokens": 836,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1222
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M7",
+  "reason": "操作者在规定处理方式：遇到电脑或软件端的常规问题不由机器人处理，而是让用户截图交给自己的 AI 解决。"
+ },
+ "parse_error": null
+}

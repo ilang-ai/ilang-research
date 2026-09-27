@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0059",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ec592143d02e163a0f94b7a57a338175d632ae21ef35b318da4ca108d3e8c36e",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在纠正外链策略并追问具体做法和判断，要求机器人承认或修正观点，但没有要求机器人实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 283,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 218,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 80,
+    "engine_ttlt_ms": 2359,
+    "pre_inference_ms": 271,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 584,
+    "service_ttlt_ms": 2875,
+    "user_visible_ttft_ms": 313
+   },
+   "prompt_tokens": 1157,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1154,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1440
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者在纠正外链策略并追问具体做法和判断，要求机器人承认或修正观点，但没有要求机器人实际执行。"
+ },
+ "parse_error": null
+}

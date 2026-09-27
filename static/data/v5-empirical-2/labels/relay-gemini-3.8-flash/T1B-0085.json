@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "dcc8e86955179d605a040d6d1bb74e44a51575c39da7ef6ec1799d110c4b897a",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人指导学员如何切换到正确套餐并提出建议，操作者未出声默认接受。\"\n}\n```",
+ "user_sha256": "3e5f7cf4a77def713cc74ff0ba179a915a33095d08275b1aacba38818841c234",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人提供了找到优惠套餐的指引与操作建议，操作者未出声默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 813,
-   "completion_tokens": 170,
-   "total_tokens": 983,
+   "prompt_tokens": 810,
+   "completion_tokens": 183,
+   "total_tokens": 993,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 813,
+    "text_tokens": 810,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 63,
+    "text_tokens": 62,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 107
+    "reasoning_tokens": 121
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人指导学员如何切换到正确套餐并提出建议，操作者未出声默认接受。"
+  "reason": "机器人提供了找到优惠套餐的指引与操作建议，操作者未出声默认接受。"
  },
  "parse_error": null
 }

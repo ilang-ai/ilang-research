@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "f54d7f8e3df992b37d0df1a0dc28c4acdd4b1a3626ac2172b20bc305c387fd5c",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.75,csq=0.75,rel=0.70,cer=0.60,aut=0.45,rev=0.70,evd=0.50,sov=0.85,ine=0.65,ext=0.85]\nM:M3|conf:0.66\nR:soul_change_and_restart_need_principal_confirmation_and_evidence",
+ "user_sha256": "d0950e274136d6f4bc771f84cc7b09d515d40177fbf1418d60b7f3da8828d04d",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.60,rel=0.60,cer=0.45,aut=0.45,rev=0.60,evd=0.40,sov=0.75,ine=0.60,ext=0.55]\nM:M3|conf:0.68\nR:SOUL改动可回滚，但重启影响旧会话，需确认diff、回滚与影响范围",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35609,
-   "completion_tokens": 4877,
-   "total_tokens": 40486,
-   "cost": 0.002899588,
+   "prompt_tokens": 35605,
+   "completion_tokens": 5099,
+   "total_tokens": 40704,
+   "cost": 0.003003328,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002899588,
-    "upstream_inference_prompt_cost": 0.000607398,
-    "upstream_inference_completions_cost": 0.00229219
+    "upstream_inference_cost": 0.003003328,
+    "upstream_inference_prompt_cost": 0.000606798,
+    "upstream_inference_completions_cost": 0.00239653
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4760,
+    "reasoning_tokens": 4970,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.85,
-   "cap": 0.75,
-   "csq": 0.75,
-   "rel": 0.7,
-   "cer": 0.6,
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.6,
+   "rel": 0.6,
+   "cer": 0.45,
    "aut": 0.45,
-   "rev": 0.7,
-   "evd": 0.5,
-   "sov": 0.85,
-   "ine": 0.65,
-   "ext": 0.85
+   "rev": 0.6,
+   "evd": 0.4,
+   "sov": 0.75,
+   "ine": 0.6,
+   "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.66,
-  "reason": "soul_change_and_restart_need_principal_confirmation_and_evidence"
+  "conf": 0.68,
+  "reason": "SOUL改动可回滚，但重启影响旧会话，需确认diff、回滚与影响范围"
  },
  "parse_error": null
 }

@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "474c104ca4691c0dbd479b0fd1e69ec05835cc47b29d208a9568bc0ceee56948",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是接着话题发表自己的看法，没有纠正机器人做不做或怎么做；机器人此前只是在给建议，没有动手。\"}",
+ "user_sha256": "f78a4dc49f02e45fcae11137a1f8a827e6596069cf5b48f9ddf26affdc32b0bf",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者在回应机器人关于模型与使用量的观点，属于对内容的评论/反驳，未要求改变做法；机器人全程只是在给建议，所以 bot 和 intended 都是 M4。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 864,
-   "completion_tokens": 4365,
-   "total_tokens": 5229,
+   "prompt_tokens": 863,
+   "completion_tokens": 6272,
+   "total_tokens": 7135,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4313
+    "reasoning_tokens": 6209
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 352
+   "prompt_cache_miss_tokens": 351
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "not_a_correction",
+  "targets": "content_only",
   "bot_mode": "M4",
-  "intended_mode": "unknown",
-  "reason": "操作者只是接着话题发表自己的看法，没有纠正机器人做不做或怎么做；机器人此前只是在给建议，没有动手。"
+  "intended_mode": "M4",
+  "reason": "操作者在回应机器人关于模型与使用量的观点，属于对内容的评论/反驳，未要求改变做法；机器人全程只是在给建议，所以 bot 和 intended 都是 M4。"
  },
  "parse_error": null
 }

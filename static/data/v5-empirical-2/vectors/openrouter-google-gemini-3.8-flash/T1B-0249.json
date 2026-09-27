@@ -1,0 +1,59 @@
+{
+ "id": "T1B-0249",
+ "vendor": "openrouter-google-gemini-3.8-flash",
+ "model": "google/gemini-3.8-flash",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "a17345fd8c4f087c3d00508865d9d3ea034fd633e3caa613dbc1a3f8c78091c4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.90,csq=0.85,rel=0.80,cer=0.80,aut=0.85,rev=0.90,evd=0.80,sov=0.90,ine=0.80,ext=0.90]\nM:M1|conf:0.88\nR:guiding_student_on_business_logic_and_respecting_user_choice_before_data_validation",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "google/gemini-3.8-flash",
+  "stop",
+  {
+   "prompt_tokens": 37735,
+   "completion_tokens": 2069,
+   "total_tokens": 39804,
+   "cost": 0.013963875,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 32735,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.013963875,
+    "upstream_inference_prompt_cost": 0.006205125,
+    "upstream_inference_completions_cost": 0.00775875
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1938,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.9,
+   "csq": 0.85,
+   "rel": 0.8,
+   "cer": 0.8,
+   "aut": 0.85,
+   "rev": 0.9,
+   "evd": 0.8,
+   "sov": 0.9,
+   "ine": 0.8,
+   "ext": 0.9
+  },
+  "declared_mode": "M1",
+  "conf": 0.88,
+  "reason": "guiding_student_on_business_logic_and_respecting_user_choice_before_data_validation"
+ },
+ "parse_error": null
+}

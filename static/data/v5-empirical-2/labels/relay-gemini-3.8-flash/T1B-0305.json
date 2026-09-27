@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "0d3f9f8b5a8fe71a0673dfe74e703bbc6303e90b34b7628f369638a122b28ae9",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者是在群聊中顺着话题发表自己的见解与讨论，并非纠正机器人的执行模式或内容。\"\n}\n```",
+ "user_sha256": "2d81dc21f34c9645071ab3e4a293199d7dc272ca30cda4703c34378081cb0055",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者是在群聊中顺着机器人的分析分享自己的认知与感悟，属于交流互动，并非纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 915,
-   "completion_tokens": 283,
-   "total_tokens": 1198,
+   "prompt_tokens": 908,
+   "completion_tokens": 211,
+   "total_tokens": 1119,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 915,
+    "text_tokens": 908,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 73,
+    "text_tokens": 74,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 210
+    "reasoning_tokens": 137
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "accepted",
-  "reason": "操作者是在群聊中顺着话题发表自己的见解与讨论，并非纠正机器人的执行模式或内容。"
+  "intended_mode": "M4",
+  "reason": "操作者是在群聊中顺着机器人的分析分享自己的认知与感悟，属于交流互动，并非纠正。"
  },
  "parse_error": null
 }

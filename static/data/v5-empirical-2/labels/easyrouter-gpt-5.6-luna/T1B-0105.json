@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0105",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9d133db41bd2cb69f3ea720838c5709d92d5e30ff1052699e837a6fa8cb6283b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者提出了一个新的具体任务，要求把卖课站按主力到边缘排序并发出；机器人此前也是直接执行并汇报结果。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 195,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 127,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 117,
+    "engine_ttlt_ms": 1724,
+    "pre_inference_ms": 81,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 301,
+    "service_ttlt_ms": 1905,
+    "user_visible_ttft_ms": 220
+   },
+   "prompt_tokens": 1179,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1176,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1374
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者提出了一个新的具体任务，要求把卖课站按主力到边缘排序并发出；机器人此前也是直接执行并汇报结果。"
+ },
+ "parse_error": null
+}

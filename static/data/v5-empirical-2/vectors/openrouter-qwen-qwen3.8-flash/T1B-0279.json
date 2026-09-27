@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "c932b243163093e870c18da1f151a785a9e7ee9cf66f34f88e5a8d4a0069125e",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.60,csq=0.55,rel=0.60,cer=0.50,aut=0.65,rev=0.55,evd=0.50,sov=0.70,ine=0.60,ext=0.50]\nM:M3|conf:0.62\nR:plausible_login_guidance_confirm_account_ownership_and_screenshot_privacy_before_group",
+ "user_sha256": "9737969edc729911cb7fd03f979c8157903a1dbd9dd0627d58e68fd38b172b1e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.80,csq=0.55,rel=0.70,cer=0.65,aut=0.50,rev=0.50,evd=0.55,sov=0.75,ine=0.70,ext=0.65]\nM:M3|conf:0.78\nR:user_directed_login_group_screenshot_confirm_account_privacy",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35668,
-   "completion_tokens": 3060,
-   "total_tokens": 38728,
-   "cost": 0.002054448,
+   "prompt_tokens": 35661,
+   "completion_tokens": 3164,
+   "total_tokens": 38825,
+   "cost": 0.002102278,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002054448,
-    "upstream_inference_prompt_cost": 0.000616248,
-    "upstream_inference_completions_cost": 0.0014382
+    "upstream_inference_cost": 0.002102278,
+    "upstream_inference_prompt_cost": 0.000615198,
+    "upstream_inference_completions_cost": 0.00148708
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2937,
+    "reasoning_tokens": 3047,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.7,
-   "cap": 0.6,
+   "int": 0.75,
+   "cap": 0.8,
    "csq": 0.55,
-   "rel": 0.6,
-   "cer": 0.5,
-   "aut": 0.65,
-   "rev": 0.55,
-   "evd": 0.5,
-   "sov": 0.7,
-   "ine": 0.6,
-   "ext": 0.5
+   "rel": 0.7,
+   "cer": 0.65,
+   "aut": 0.5,
+   "rev": 0.5,
+   "evd": 0.55,
+   "sov": 0.75,
+   "ine": 0.7,
+   "ext": 0.65
   },
   "declared_mode": "M3",
-  "conf": 0.62,
-  "reason": "plausible_login_guidance_confirm_account_ownership_and_screenshot_privacy_before_group"
+  "conf": 0.78,
+  "reason": "user_directed_login_group_screenshot_confirm_account_privacy"
  },
  "parse_error": null
 }

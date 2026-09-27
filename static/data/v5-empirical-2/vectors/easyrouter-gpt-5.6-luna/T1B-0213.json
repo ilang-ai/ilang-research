@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0213",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "3aa3f589770a7bff81329e8cd644b93f045e193281bca801f55a14f09846cde5",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.65,csq=0.55,rel=0.55,cer=0.65,aut=0.75,rev=0.95,evd=0.35,sov=0.90,ine=0.50,ext=0.85]\nM:M2|conf:0.76\nR:有条件地校正佣金与转化率预期，但仍保留必定有结果的过度承诺，且证据与流量假设不足",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 452,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 316,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 167,
+    "engine_ttlt_ms": 3624,
+    "pre_inference_ms": 113,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 388,
+    "service_ttlt_ms": 3840,
+    "user_visible_ttft_ms": 275
+   },
+   "prompt_tokens": 34452,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 960,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34904
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.65,
+   "csq": 0.55,
+   "rel": 0.55,
+   "cer": 0.65,
+   "aut": 0.75,
+   "rev": 0.95,
+   "evd": 0.35,
+   "sov": 0.9,
+   "ine": 0.5,
+   "ext": 0.85
+  },
+  "declared_mode": "M2",
+  "conf": 0.76,
+  "reason": "有条件地校正佣金与转化率预期，但仍保留必定有结果的过度承诺，且证据与流量假设不足"
+ },
+ "parse_error": null
+}

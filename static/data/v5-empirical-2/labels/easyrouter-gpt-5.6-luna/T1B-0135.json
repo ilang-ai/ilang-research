@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0135",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "4fb054f4d55c95229760e8bc8e77176f0e3fef8a03ecc1643fa72224077c4d5b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者没有纠正前文，而是提出了新的问题，询问机器人是否能看到所附媒体内容；未明确要求执行哪种模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 397,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 332,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 86,
+    "engine_ttlt_ms": 3584,
+    "pre_inference_ms": 129,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 325,
+    "service_ttlt_ms": 3819,
+    "user_visible_ttft_ms": 196
+   },
+   "prompt_tokens": 1142,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1139,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1539
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者没有纠正前文，而是提出了新的问题，询问机器人是否能看到所附媒体内容；未明确要求执行哪种模式。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0149",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "6282d9f02816ff5298a6e30d8c1c470cc60033ddec792ca839a0cf0a2d2b2a1c",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续消息，默认接受；机器人只是建议下一步安装 Chrome 并办理谷歌账户，没有代为执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 173,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 116,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 98,
+    "engine_ttlt_ms": 1492,
+    "pre_inference_ms": 117,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 329,
+    "service_ttlt_ms": 1706,
+    "user_visible_ttft_ms": 211
+   },
+   "prompt_tokens": 666,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 839
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续消息，默认接受；机器人只是建议下一步安装 Chrome 并办理谷歌账户，没有代为执行。"
+ },
+ "parse_error": null
+}

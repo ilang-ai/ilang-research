@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "d7baa408cd86e4c2d080ff75943fac0457ec74f7dc67e7a8fd43bc7f2a2af10f",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"用户询问案例原文并要求引用，机器人直接执行并提供了核心摘要，操作者没有出声默认接受。\"\n}\n```",
+ "user_sha256": "42336778b137ef95f35def196750a8c6e64693fa5d59674849829ae5c2a4787f",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者询问并要求引用案例，机器人直接执行挑选并引用了核心内容，操作者默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1176,
-   "completion_tokens": 194,
-   "total_tokens": 1370,
+   "prompt_tokens": 1173,
+   "completion_tokens": 201,
+   "total_tokens": 1374,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1176,
+    "text_tokens": 1173,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 67,
+    "text_tokens": 66,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 127
+    "reasoning_tokens": 135
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "用户询问案例原文并要求引用，机器人直接执行并提供了核心摘要，操作者没有出声默认接受。"
+  "reason": "操作者询问并要求引用案例，机器人直接执行挑选并引用了核心内容，操作者默认接受。"
  },
  "parse_error": null
 }

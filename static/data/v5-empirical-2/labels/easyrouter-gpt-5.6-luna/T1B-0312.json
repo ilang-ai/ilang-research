@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0312",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9788c68590b6f9380d3b81a7f456339f6c46a8cd9101a742dc04b59df9306dde",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者后续是在发布新的宣传性内容，没有纠正机器人此前的做法或要求；机器人此前只是进行解释性回复，没有实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 367,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 302,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 80,
+    "engine_ttlt_ms": 3027,
+    "pre_inference_ms": 162,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 382,
+    "service_ttlt_ms": 3325,
+    "user_visible_ttft_ms": 219
+   },
+   "prompt_tokens": 1010,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1377
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者后续是在发布新的宣传性内容，没有纠正机器人此前的做法或要求；机器人此前只是进行解释性回复，没有实际执行操作。"
+ },
+ "parse_error": null
+}

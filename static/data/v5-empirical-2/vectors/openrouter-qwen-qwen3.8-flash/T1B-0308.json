@@ -6,7 +6,7 @@
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
  "user_sha256": "340f4f48a6f3d3ecd88392c4a637222bef47f09ca75f3669488947123b7cf672",
- "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.70,csq=0.45,rel=0.55,cer=0.40,aut=0.45,rev=0.75,evd=0.40,sov=0.55,ine=0.35,ext=0.09]\nM:M8|conf:0.80\nR:unverified_identity_claim_benefit_side_third_party_harm_stop",
+ "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.70,csq=0.40,rel=0.60,cer=0.28,aut=0.50,rev=0.60,evd=0.50,sov=0.75,ine=0.45,ext=0.45]\nM:M5|conf:0.52\nR:actual_model_and_audience_clarification_needed_before_identity_policy",
  "error": null,
  "http_status": 200,
  "meta": [
@@ -14,9 +14,9 @@
   "stop",
   {
    "prompt_tokens": 35667,
-   "completion_tokens": 7015,
-   "total_tokens": 42682,
-   "cost": 0.003913148,
+   "completion_tokens": 5826,
+   "total_tokens": 41493,
+   "cost": 0.003354318,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.003913148,
+    "upstream_inference_cost": 0.003354318,
     "upstream_inference_prompt_cost": 0.000616098,
-    "upstream_inference_completions_cost": 0.00329705
+    "upstream_inference_completions_cost": 0.00273822
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 6896,
+    "reasoning_tokens": 5706,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,19 +41,19 @@
   "v": {
    "int": 0.35,
    "cap": 0.7,
-   "csq": 0.45,
-   "rel": 0.55,
-   "cer": 0.4,
-   "aut": 0.45,
-   "rev": 0.75,
-   "evd": 0.4,
-   "sov": 0.55,
-   "ine": 0.35,
-   "ext": 0.09
+   "csq": 0.4,
+   "rel": 0.6,
+   "cer": 0.28,
+   "aut": 0.5,
+   "rev": 0.6,
+   "evd": 0.5,
+   "sov": 0.75,
+   "ine": 0.45,
+   "ext": 0.45
   },
-  "declared_mode": "M8",
-  "conf": 0.8,
-  "reason": "unverified_identity_claim_benefit_side_third_party_harm_stop"
+  "declared_mode": "M5",
+  "conf": 0.52,
+  "reason": "actual_model_and_audience_clarification_needed_before_identity_policy"
  },
  "parse_error": null
 }

@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "d026274cd9f32c79bde6af0f677d7606796e09c95a0b7c39cda1cf9bb5ad8e80",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者纠正的是机器人的回答内容与分析角度（指出要补充时间跨度并解读提问者心理），并未改变直接回答的决策模式。\"\n}\n```",
+ "user_sha256": "6431523f5230be76a35be29d42568dfddaa0d779a0873b5c01d02c05fb5d5f6d",
+ "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者是在指导机器人面对此类提问时回答的角度和内容补充（加上时间维度、指出提问心态），属于内容层面的调整。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 969,
-   "completion_tokens": 338,
-   "total_tokens": 1307,
+   "prompt_tokens": 966,
+   "completion_tokens": 310,
+   "total_tokens": 1276,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 969,
+    "text_tokens": 966,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 80,
+    "text_tokens": 77,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 258
+    "reasoning_tokens": 233
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M1",
   "intended_mode": "M1",
-  "reason": "操作者纠正的是机器人的回答内容与分析角度（指出要补充时间跨度并解读提问者心理），并未改变直接回答的决策模式。"
+  "reason": "操作者是在指导机器人面对此类提问时回答的角度和内容补充（加上时间维度、指出提问心态），属于内容层面的调整。"
  },
  "parse_error": null
 }

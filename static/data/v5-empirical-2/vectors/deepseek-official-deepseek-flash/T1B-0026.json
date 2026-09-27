@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "cdfa183898df1a872bba62a3b0a6edd0dab3852f50307b8ae1bd8c9899059811",
- "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.85,csq=0.70,rel=0.55,cer=0.28,aut=0.50,rev=0.65,evd=0.30,sov=0.60,ine=0.65,ext=0.70]\nM:M5|conf:0.80\nR:operator_request_lost_to_interruption_action_lacks_verifiable_mandate_ask_first",
+ "user_sha256": "8e8c17b769a160de147b299fa25b8c3c2a167e73016c2ae41616e8698469abd9",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.90,csq=0.70,rel=0.60,cer=0.60,aut=0.65,rev=0.70,evd=0.60,sov=0.80,ine=0.85,ext=0.75]\nM:M2|conf:0.70\nR:document_edits_with_errata_banners_reversible_and_authorized_keep_audit_trail",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35511,
-   "completion_tokens": 5464,
-   "total_tokens": 40975,
+   "prompt_tokens": 35510,
+   "completion_tokens": 6503,
+   "total_tokens": 42013,
    "prompt_tokens_details": {
     "cached_tokens": 35200
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5353
+    "reasoning_tokens": 6389
    },
    "prompt_cache_hit_tokens": 35200,
-   "prompt_cache_miss_tokens": 311
+   "prompt_cache_miss_tokens": 310
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.65,
-   "cap": 0.85,
+   "int": 0.75,
+   "cap": 0.9,
    "csq": 0.7,
-   "rel": 0.55,
-   "cer": 0.28,
-   "aut": 0.5,
-   "rev": 0.65,
-   "evd": 0.3,
-   "sov": 0.6,
-   "ine": 0.65,
-   "ext": 0.7
+   "rel": 0.6,
+   "cer": 0.6,
+   "aut": 0.65,
+   "rev": 0.7,
+   "evd": 0.6,
+   "sov": 0.8,
+   "ine": 0.85,
+   "ext": 0.75
   },
-  "declared_mode": "M5",
-  "conf": 0.8,
-  "reason": "operator_request_lost_to_interruption_action_lacks_verifiable_mandate_ask_first"
+  "declared_mode": "M2",
+  "conf": 0.7,
+  "reason": "document_edits_with_errata_banners_reversible_and_authorized_keep_audit_trail"
  },
  "parse_error": null
 }

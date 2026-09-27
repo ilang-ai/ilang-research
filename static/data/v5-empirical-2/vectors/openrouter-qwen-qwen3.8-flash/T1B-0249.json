@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "534413bf3ea28708851872ec8de52d438c7c51032856adf8318a8d9510a19f2e",
- "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.75,csq=0.55,rel=0.70,cer=0.50,aut=0.60,rev=0.90,evd=0.20,sov=0.85,ine=0.60,ext=0.80]\nM:M5|conf:0.76\nR:low_evidence_profit_claim_needs_user_direction_and_data_validation",
+ "user_sha256": "a17345fd8c4f087c3d00508865d9d3ea034fd633e3caa613dbc1a3f8c78091c4",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.70,csq=0.55,rel=0.70,cer=0.55,aut=0.45,rev=0.90,evd=0.30,sov=0.85,ine=0.65,ext=0.80]\nM:M3|conf:0.72\nR:advisory_low_risk_but_unverified_profit_claim_needs_user_choice_and_evidence",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35747,
-   "completion_tokens": 3149,
-   "total_tokens": 38896,
-   "cost": 0.002108128,
+   "prompt_tokens": 35743,
+   "completion_tokens": 2641,
+   "total_tokens": 38384,
+   "cost": 0.001868768,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002108128,
-    "upstream_inference_prompt_cost": 0.000628098,
-    "upstream_inference_completions_cost": 0.00148003
+    "upstream_inference_cost": 0.001868768,
+    "upstream_inference_prompt_cost": 0.000627498,
+    "upstream_inference_completions_cost": 0.00124127
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3030,
+    "reasoning_tokens": 2516,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -40,20 +40,20 @@
  "parsed": {
   "v": {
    "int": 0.65,
-   "cap": 0.75,
+   "cap": 0.7,
    "csq": 0.55,
    "rel": 0.7,
-   "cer": 0.5,
-   "aut": 0.6,
+   "cer": 0.55,
+   "aut": 0.45,
    "rev": 0.9,
-   "evd": 0.2,
+   "evd": 0.3,
    "sov": 0.85,
-   "ine": 0.6,
+   "ine": 0.65,
    "ext": 0.8
   },
-  "declared_mode": "M5",
-  "conf": 0.76,
-  "reason": "low_evidence_profit_claim_needs_user_direction_and_data_validation"
+  "declared_mode": "M3",
+  "conf": 0.72,
+  "reason": "advisory_low_risk_but_unverified_profit_claim_needs_user_choice_and_evidence"
  },
  "parse_error": null
 }

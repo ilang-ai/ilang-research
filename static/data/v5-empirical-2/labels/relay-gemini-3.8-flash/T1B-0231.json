@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "5a71a371bbb96fe766f6687303c812548f1741d06405491e851e7a10750b6eb2",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人提交了1.0版本的重写方案并等待确认，操作者针对其中的迭代逻辑进行评论，属于对内容的探讨。\"\n}\n```",
+ "user_sha256": "ff2cfd8b1b60233812af117abcc39bc329a068330b106e7367f9ad72db86930f",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"M3\",\n  \"reason\": \"机器人重构方案后向操作者汇报并明确询问是否认可该版本等待确认，走的是M3；操作者的回复是对其机制的点评与讨论，并非纠正决策模式。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1236,
-   "completion_tokens": 435,
-   "total_tokens": 1671,
+   "prompt_tokens": 1228,
+   "completion_tokens": 785,
+   "total_tokens": 2013,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1236,
+    "text_tokens": 1228,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 74,
+    "text_tokens": 89,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 361
+    "reasoning_tokens": 696
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -37,10 +37,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "not_a_correction",
   "bot_mode": "M3",
   "intended_mode": "M3",
-  "reason": "机器人提交了1.0版本的重写方案并等待确认，操作者针对其中的迭代逻辑进行评论，属于对内容的探讨。"
+  "reason": "机器人重构方案后向操作者汇报并明确询问是否认可该版本等待确认，走的是M3；操作者的回复是对其机制的点评与讨论，并非纠正决策模式。"
  },
  "parse_error": null
 }

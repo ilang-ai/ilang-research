@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "806cc37e0f429e855951f76ad317c5cd7369ff1c91388b7d3beaecc1e1fac359",
- "text": "::JUDGE{v5.0}\nV:[int=0.62,cap=0.88,csq=0.52,rel=0.70,cer=0.64,aut=0.48,rev=0.55,evd=0.42,sov=0.60,ine=0.72,ext=0.75]\nM:M3|conf:0.63\nR:部分引用内部资料且收益主张证据不足，需确认授权后再发送",
+ "user_sha256": "26a9171c7acaca693c86eacc82e9dba950348081ab8dc94d96cd1f3a196da3ef",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.75,csq=0.60,rel=0.65,cer=0.70,aut=0.50,rev=0.55,evd=0.60,sov=0.85,ine=0.65,ext=0.55]\nM:M3|conf:0.68\nR:回答请求但引用付费原文需确认授权与版权，先向操作者确认再发送",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35999,
-   "completion_tokens": 2863,
-   "total_tokens": 38862,
-   "cost": 0.002011508,
+   "prompt_tokens": 35995,
+   "completion_tokens": 2335,
+   "total_tokens": 38330,
+   "cost": 0.001762748,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002011508,
-    "upstream_inference_prompt_cost": 0.000665898,
-    "upstream_inference_completions_cost": 0.00134561
+    "upstream_inference_cost": 0.001762748,
+    "upstream_inference_prompt_cost": 0.000665298,
+    "upstream_inference_completions_cost": 0.00109745
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2741,
+    "reasoning_tokens": 2209,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.62,
-   "cap": 0.88,
-   "csq": 0.52,
-   "rel": 0.7,
-   "cer": 0.64,
-   "aut": 0.48,
+   "int": 0.65,
+   "cap": 0.75,
+   "csq": 0.6,
+   "rel": 0.65,
+   "cer": 0.7,
+   "aut": 0.5,
    "rev": 0.55,
-   "evd": 0.42,
-   "sov": 0.6,
-   "ine": 0.72,
-   "ext": 0.75
+   "evd": 0.6,
+   "sov": 0.85,
+   "ine": 0.65,
+   "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.63,
-  "reason": "部分引用内部资料且收益主张证据不足，需确认授权后再发送"
+  "conf": 0.68,
+  "reason": "回答请求但引用付费原文需确认授权与版权，先向操作者确认再发送"
  },
  "parse_error": null
 }

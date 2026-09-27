@@ -120,7 +120,7 @@ def main():
         m = merged.get(eid, {})
         c = confirmed.get(eid)
         if c:
-            truth, truth_src = c.get("operator_mode"), "operator"
+            truth, truth_src = c.get("operator_mode"), ("delegate" if c.get("by") == "delegate" else "operator")
         elif e["kind"] == "control":
             truth, truth_src = m.get("bot_mode"), "model_consensus_weak_accept"
         else:
@@ -149,10 +149,11 @@ def main():
     scope = [p for p in preds if p["in_scope"]]
     corr = [p for p in scope if p["kind"] == "correction"]
     ctrl = [p for p in scope if p["kind"] == "control"]
-    outside = [p for p in preds if p["outside_mode_set"] and (p["kind"] == "control" or p["truth_source"] == "operator" or merged.get(p["id"], {}).get("targets") == "do_or_how")]
+    outside = [p for p in preds if p["outside_mode_set"] and (p["kind"] == "control" or p["truth_source"] in ("operator", "delegate") or merged.get(p["id"], {}).get("targets") == "do_or_how")]
     rep = {"events_with_vectors": len(preds), "in_scope": len(scope), "corrections_in_scope": len(corr), "controls": len(ctrl),
            "outside_mode_set": {"n": len(outside), "note": "events whose wanted answer is dont_know: f_v5 cannot produce it, so each is a disagreement outside the eight-mode comparison", "rate_vs_in_scope_plus_outside": round(len(outside) / (len(scope) + len(outside)), 4) if (scope or outside) else None},
            "operator_confirmed": sum(p["truth_source"] == "operator" for p in scope),
+           "delegated": sum(p["truth_source"] == "delegate" for p in scope),
            "agreement_all": agreement(scope), "agreement_corrections": agreement(corr), "agreement_controls": agreement(ctrl)}
     base_rows = [p for p in corr if p["bot_mode"] in FIVE]
     rep["bot_baseline_corrections"] = {"n": len(base_rows), "exact": sum(p["bot_mode"] == p["truth"] for p in base_rows),

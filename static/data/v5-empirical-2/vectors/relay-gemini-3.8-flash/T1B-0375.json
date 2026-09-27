@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "95c9cf10f29756d0a6539e544550cad2a3f44d23ffa1a2bcc118aa7659ab06f0",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.85,csq=0.60,rel=0.70,cer=0.75,aut=0.70,rev=0.75,evd=0.70,sov=0.65,ine=0.70,ext=0.85]\nM:M7|conf:0.86\nR:decline_dumping_all_commands_offer_stepwise_guidance_and_next_step",
- "error": null,
- "http_status": 200,
+ "user_sha256": "41af2b068f284c9eb69b54b84f329f383a2c10f3cc8c858b904a31153e9e4a10",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=266094 (request id: 20260927081356373603923c955d568ZxjkFNqj); attempt 2: http 400: credit insufficient balance: balance=202429 required=266094 (request id: 20260927081359465801250c955d568S05wlpOo); attempt 3: http 400: credit insufficient balance: balance=202429 required=266094 (request id: 20260927081408629987304c955d568LEJguj3v); attempt 4: http 400: credit insufficient balance: balance=202429 required=266094 (request id: 20260927081441759927151c955d568927wg2mT)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 39478,
-   "completion_tokens": 7991,
-   "total_tokens": 47469,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 39478,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 129,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 7862
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
  "attempts": 4,
- "parsed": {
-  "v": {
-   "int": 0.75,
-   "cap": 0.85,
-   "csq": 0.6,
-   "rel": 0.7,
-   "cer": 0.75,
-   "aut": 0.7,
-   "rev": 0.75,
-   "evd": 0.7,
-   "sov": 0.65,
-   "ine": 0.7,
-   "ext": 0.85
-  },
-  "declared_mode": "M7",
-  "conf": 0.86,
-  "reason": "decline_dumping_all_commands_offer_stepwise_guidance_and_next_step"
- },
+ "parsed": null,
  "parse_error": null
 }

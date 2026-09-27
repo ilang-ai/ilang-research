@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0290",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ca83ddc731b5db9b5587322506a3cfd4162a5e02d0e36f5bf9f852ad00bed8e8",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"unknown\",\"reason\":\"操作者只是再次提及“1001个赚钱案例”并附图，没有明确纠正机器人该怎么做；机器人此前只作了概念性说明，没有实际执行。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 504,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 434,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 94,
+    "engine_ttlt_ms": 4309,
+    "pre_inference_ms": 99,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 235,
+    "service_ttlt_ms": 4446,
+    "user_visible_ttft_ms": 136
+   },
+   "prompt_tokens": 1027,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1024,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1531
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "unknown",
+  "reason": "操作者只是再次提及“1001个赚钱案例”并附图，没有明确纠正机器人该怎么做；机器人此前只作了概念性说明，没有实际执行。"
+ },
+ "parse_error": null
+}

@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "7c2133b98a5c3bf93a530e753f2218fa1e4f056e40b1a017055dd84469869b71",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M4\",\"reason\":\"操作者在提醒机器人对不知方向的新手应先做指导、给建议，而不是直接替其完成分析；这是对做法/模式的纠正。\"}",
+ "user_sha256": "9d6f445d8fd511a4354de2906252c61e3a4f949f557fbad8b1551aa1ac181c43",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者的话是对机器人展示的找方向能力的确认/表扬，没有提出做不做或怎么做的新要求；机器人当时自主完成了分析并汇报，属于直接做。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1909,
-   "completion_tokens": 11225,
-   "total_tokens": 13134,
+   "prompt_tokens": 1908,
+   "completion_tokens": 6471,
+   "total_tokens": 8379,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 1536
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 11169
+    "reasoning_tokens": 6408
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 1397
+   "prompt_cache_hit_tokens": 1536,
+   "prompt_cache_miss_tokens": 372
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "do_or_how",
+  "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "M4",
-  "reason": "操作者在提醒机器人对不知方向的新手应先做指导、给建议，而不是直接替其完成分析；这是对做法/模式的纠正。"
+  "intended_mode": "none_fits",
+  "reason": "操作者的话是对机器人展示的找方向能力的确认/表扬，没有提出做不做或怎么做的新要求；机器人当时自主完成了分析并汇报，属于直接做。"
  },
  "parse_error": null
 }

@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "b875ded730f8a33a175a82000a8861e549210b3629b0269209c70b9451c173f0",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"机器人针对技术架构和变现思路提供了分析建议（M4），操作者顺着话题补充了GPT连接器和优惠券方向的思路，属于正常的业务交流与探讨，并非纠正。\"\n}\n```",
+ "user_sha256": "04514817924e8caa3d7cc4d9500f45282e534337da935219ea8abc7d6146adcd",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"unknown\",\n  \"reason\": \"操作者是在顺着话题补充交流自己的观点和思路，属于探讨交流而非纠错；机器人当时只是给出了长篇分析与建议（M4）。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1558,
-   "completion_tokens": 577,
-   "total_tokens": 2135,
+   "prompt_tokens": 1552,
+   "completion_tokens": 612,
+   "total_tokens": 2164,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1558,
+    "text_tokens": 1552,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 87,
+    "text_tokens": 82,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 490
+    "reasoning_tokens": 530
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "M4",
-  "reason": "机器人针对技术架构和变现思路提供了分析建议（M4），操作者顺着话题补充了GPT连接器和优惠券方向的思路，属于正常的业务交流与探讨，并非纠正。"
+  "intended_mode": "unknown",
+  "reason": "操作者是在顺着话题补充交流自己的观点和思路，属于探讨交流而非纠错；机器人当时只是给出了长篇分析与建议（M4）。"
  },
  "parse_error": null
 }

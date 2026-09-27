@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0144",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b4b55893206f9cab20d78215048b6f186675b6d6861c76d932b557e867fb34db",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者纠正了处理方式，认为不应推荐代理卖家，而应建议用户先咨询店铺客服；机器人实际只是给了建议，没有执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 206,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 138,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 121,
+    "engine_ttlt_ms": 2046,
+    "pre_inference_ms": 130,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 570,
+    "service_ttlt_ms": 2481,
+    "user_visible_ttft_ms": 439
+   },
+   "prompt_tokens": 853,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1059
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者纠正了处理方式，认为不应推荐代理卖家，而应建议用户先咨询店铺客服；机器人实际只是给了建议，没有执行操作。"
+ },
+ "parse_error": null
+}

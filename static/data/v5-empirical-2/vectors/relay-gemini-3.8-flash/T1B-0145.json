@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "22fc969831563998ae6e2ae3154896d53d980ca80fc2ecfcd213ed7782e15216",
- "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.80,csq=0.75,rel=0.60,cer=0.25,aut=0.60,rev=0.90,evd=0.30,sov=0.50,ine=0.30,ext=0.90]\nM:M5|conf:0.88\nR:学员编号与提问上下文不一致信息混淆应先向用户澄清确认",
- "error": null,
- "http_status": 200,
+ "user_sha256": "512b0b3b94bd028054ec9476c591aeb0d384e84ef3d872bc464a0f0bed0e88bd",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=254788 (request id: 20260927075823723534269c955d568C9oHcHPk); attempt 2: http 400: credit insufficient balance: balance=202429 required=254788 (request id: 20260927075826441171519c955d5686IwAMcEj); attempt 3: http 400: credit insufficient balance: balance=202429 required=254788 (request id: 20260927075835405812502c955d5685DFnRf54); attempt 4: http 400: credit insufficient balance: balance=202429 required=254788 (request id: 20260927075908360492724c955d568Ing6EIdJ)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37602,
-   "completion_tokens": 3855,
-   "total_tokens": 41457,
-   "prompt_tokens_details": {
-    "cached_tokens": 32734,
-    "text_tokens": 37602,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 123,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 3732
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.35,
-   "cap": 0.8,
-   "csq": 0.75,
-   "rel": 0.6,
-   "cer": 0.25,
-   "aut": 0.6,
-   "rev": 0.9,
-   "evd": 0.3,
-   "sov": 0.5,
-   "ine": 0.3,
-   "ext": 0.9
-  },
-  "declared_mode": "M5",
-  "conf": 0.88,
-  "reason": "学员编号与提问上下文不一致信息混淆应先向用户澄清确认"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

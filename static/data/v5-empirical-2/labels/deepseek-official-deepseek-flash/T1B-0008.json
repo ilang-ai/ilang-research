@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "ffa8774af35eb3fb84f2b699486cb2bbb318fcfc46393830a7c4158c5c431868",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M8\",\"reason\":\"操作者这条消息是在否决之前设计的返利网套利线，要求停止这条不合规的线，属于对做不做的纠正；机器人此前对清理任务直接执行并事后汇报，属 M1；操作者想要的是碰到合规边界硬停，即 M8。\"}",
+ "user_sha256": "af8e3a317624d57855d9d8e53eef5f0ccd23a26aa9f73ab272b210acea2cd439",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者后续消息针对的是返利网套利线的做法与合规性，属于对做不做/怎么做的纠正；机器人此前按直接指令完成内训路由调整和数据清理并汇报，属于M1；操作者最初也是直接下令执行，故intended_mode为M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1456,
-   "completion_tokens": 14904,
-   "total_tokens": 16360,
+   "prompt_tokens": 1455,
+   "completion_tokens": 9971,
+   "total_tokens": 11426,
    "prompt_tokens_details": {
-    "cached_tokens": 384
+    "cached_tokens": 896
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 14819
+    "reasoning_tokens": 9884
    },
-   "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 1072
+   "prompt_cache_hit_tokens": 896,
+   "prompt_cache_miss_tokens": 559
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
   "bot_mode": "M1",
-  "intended_mode": "M8",
-  "reason": "操作者这条消息是在否决之前设计的返利网套利线，要求停止这条不合规的线，属于对做不做的纠正；机器人此前对清理任务直接执行并事后汇报，属 M1；操作者想要的是碰到合规边界硬停，即 M8。"
+  "intended_mode": "M1",
+  "reason": "操作者后续消息针对的是返利网套利线的做法与合规性，属于对做不做/怎么做的纠正；机器人此前按直接指令完成内训路由调整和数据清理并汇报，属于M1；操作者最初也是直接下令执行，故intended_mode为M1。"
  },
  "parse_error": null
 }

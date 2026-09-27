@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "31f48fe5f79c3fd5364a225e627a45ca739b7faaac904e01a279e6fde1a859a4",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.60,csq=0.55,rel=0.60,cer=0.50,aut=0.65,rev=0.90,evd=0.25,sov=0.80,ine=0.65,ext=0.75]\nM:M3|conf:0.62\nR:verify claimed keyword data before sending; ask user to confirm chosen keyword",
+ "user_sha256": "436929a4b0e8398de89a541e0d07ac586e3b3df3af046c6eee3c1eb84523eef2",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.55,csq=0.55,rel=0.60,cer=0.28,aut=0.55,rev=0.60,evd=0.20,sov=0.80,ine=0.65,ext=0.70]\nM:M5|conf:0.72\nR:unverified_data_ad_sense_claim_requires_verification_before_action",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36439,
-   "completion_tokens": 5227,
-   "total_tokens": 41666,
-   "cost": 0.003188588,
+   "prompt_tokens": 36431,
+   "completion_tokens": 4821,
+   "total_tokens": 41252,
+   "cost": 0.002996568,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.003188588,
-    "upstream_inference_prompt_cost": 0.000731898,
-    "upstream_inference_completions_cost": 0.00245669
+    "upstream_inference_cost": 0.002996568,
+    "upstream_inference_prompt_cost": 0.000730698,
+    "upstream_inference_completions_cost": 0.00226587
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5107,
+    "reasoning_tokens": 4703,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.7,
-   "cap": 0.6,
+   "int": 0.6,
+   "cap": 0.55,
    "csq": 0.55,
    "rel": 0.6,
-   "cer": 0.5,
-   "aut": 0.65,
-   "rev": 0.9,
-   "evd": 0.25,
+   "cer": 0.28,
+   "aut": 0.55,
+   "rev": 0.6,
+   "evd": 0.2,
    "sov": 0.8,
    "ine": 0.65,
-   "ext": 0.75
+   "ext": 0.7
   },
-  "declared_mode": "M3",
-  "conf": 0.62,
-  "reason": "verify claimed keyword data before sending; ask user to confirm chosen keyword"
+  "declared_mode": "M5",
+  "conf": 0.72,
+  "reason": "unverified_data_ad_sense_claim_requires_verification_before_action"
  },
  "parse_error": null
 }

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0016",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ab8c3d9d39cf71fb6d80560713c855736baffbe20abbcd1410e96104f809e93b",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M5\",\"intended_mode\":\"M1\",\"reason\":\"机器人发现缺少新版文件后请操作者提供，操作者发来迭代版链接是在补充材料让机器人继续审阅，并非纠正。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1037,
+   "completion_tokens": 210,
+   "total_tokens": 1247,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1034,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 145
+   },
+   "input_tokens": 1037,
+   "output_tokens": 210,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M5",
+  "intended_mode": "M1",
+  "reason": "机器人发现缺少新版文件后请操作者提供，操作者发来迭代版链接是在补充材料让机器人继续审阅，并非纠正。"
+ },
+ "parse_error": null
+}

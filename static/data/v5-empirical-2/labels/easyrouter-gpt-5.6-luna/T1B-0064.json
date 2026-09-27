@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0064",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "375865160b040d9ea861c30916b7464148cefbdd58d77ffd0a37a8b89a496f97",
+ "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只质疑“印度离中国半个地球”这一事实表述，没有要求改变执行方式；机器人当时是在给比较和购买建议，并未实际操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 576,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 507,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 108,
+    "engine_ttlt_ms": 4874,
+    "pre_inference_ms": 138,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 378,
+    "service_ttlt_ms": 5117,
+    "user_visible_ttft_ms": 240
+   },
+   "prompt_tokens": 1241,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1238,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1817
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "content_only",
+  "bot_mode": "M4",
+  "intended_mode": "M4",
+  "reason": "操作者只质疑“印度离中国半个地球”这一事实表述，没有要求改变执行方式；机器人当时是在给比较和购买建议，并未实际操作。"
+ },
+ "parse_error": null
+}

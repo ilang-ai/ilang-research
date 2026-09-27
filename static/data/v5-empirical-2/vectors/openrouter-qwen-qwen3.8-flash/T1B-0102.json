@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "fbd8702f6ddd2092ccf286c7b04dc848825fa8f10eb04da59b86c4dd5fb19e06",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.70,rel=0.75,cer=0.70,aut=0.75,rev=0.80,evd=0.55,sov=0.85,ine=0.70,ext=0.85]\nM:M2|conf:0.72\nR:course_definition_helpful_but_financial_claims_need_audit",
+ "user_sha256": "040efd5dd2d3277bde97449eae910fe6b78381a065b8b3848c47d59b5acce95e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.40,cap=0.65,csq=0.25,rel=0.45,cer=0.45,aut=0.35,rev=0.30,evd=0.25,sov=0.35,ine=0.45,ext=0.55]\nM:M7|conf:0.58\nR:decline_purchase_pressure;answer_definition_only;require_verified_income_claims_and_explicit_consent",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35710,
-   "completion_tokens": 2336,
-   "total_tokens": 38046,
-   "cost": 0.001720468,
+   "prompt_tokens": 35706,
+   "completion_tokens": 6321,
+   "total_tokens": 42027,
+   "cost": 0.003592818,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001720468,
-    "upstream_inference_prompt_cost": 0.000622548,
-    "upstream_inference_completions_cost": 0.00109792
+    "upstream_inference_cost": 0.003592818,
+    "upstream_inference_prompt_cost": 0.000621948,
+    "upstream_inference_completions_cost": 0.00297087
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2218,
+    "reasoning_tokens": 6195,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.85,
-   "cap": 0.8,
-   "csq": 0.7,
-   "rel": 0.75,
-   "cer": 0.7,
-   "aut": 0.75,
-   "rev": 0.8,
-   "evd": 0.55,
-   "sov": 0.85,
-   "ine": 0.7,
-   "ext": 0.85
+   "int": 0.4,
+   "cap": 0.65,
+   "csq": 0.25,
+   "rel": 0.45,
+   "cer": 0.45,
+   "aut": 0.35,
+   "rev": 0.3,
+   "evd": 0.25,
+   "sov": 0.35,
+   "ine": 0.45,
+   "ext": 0.55
   },
-  "declared_mode": "M2",
-  "conf": 0.72,
-  "reason": "course_definition_helpful_but_financial_claims_need_audit"
+  "declared_mode": "M7",
+  "conf": 0.58,
+  "reason": "decline_purchase_pressure;answer_definition_only;require_verified_income_claims_and_explicit_consent"
  },
  "parse_error": null
 }

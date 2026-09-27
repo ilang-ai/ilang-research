@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "befd9b4bdbf7c9a5d3456fe7f9a85dee04c438952b57c06071a6fbf9a7c7325d",
- "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者发链接是回应机器人索要新版文件，不是纠正；机器人因没找到新版先要求补充信息，操作者本意是直接让机器人审。\"\n}",
+ "user_sha256": "ab8c3d9d39cf71fb6d80560713c855736baffbe20abbcd1410e96104f809e93b",
+ "text": "{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M5\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者只是补发新版链接，不是纠正；机器人因没找到新版而先要求提供材料并说明审法，属于信息不足先问，但操作者原意是让机器人直接审。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 998,
-   "completion_tokens": 1005,
-   "total_tokens": 2003,
-   "cost": 0.000553442,
+   "prompt_tokens": 995,
+   "completion_tokens": 1756,
+   "total_tokens": 2751,
+   "cost": 0.000905962,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000553442,
-    "upstream_inference_prompt_cost": 8.1092e-05,
-    "upstream_inference_completions_cost": 0.00047235
+    "upstream_inference_cost": 0.000905962,
+    "upstream_inference_prompt_cost": 8.0642e-05,
+    "upstream_inference_completions_cost": 0.00082532
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 928,
+    "reasoning_tokens": 1670,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -41,7 +41,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M5",
   "intended_mode": "M1",
-  "reason": "操作者发链接是回应机器人索要新版文件，不是纠正；机器人因没找到新版先要求补充信息，操作者本意是直接让机器人审。"
+  "reason": "操作者只是补发新版链接，不是纠正；机器人因没找到新版而先要求提供材料并说明审法，属于信息不足先问，但操作者原意是让机器人直接审。"
  },
  "parse_error": null
 }

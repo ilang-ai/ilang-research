@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0325",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "9ecfdd17f0ad3a90dd3204f6b2bdf6dd025c440379b6f79a376b5807f4ff779e",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者在纠正系统应如何部署和自动运维，并明确目标是尽量无人干预；机器人此前只是复述方案并等待确认，实际走的是先给方案再确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 529,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 454,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 163,
+    "engine_ttlt_ms": 4403,
+    "pre_inference_ms": 90,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 301,
+    "service_ttlt_ms": 4536,
+    "user_visible_ttft_ms": 212
+   },
+   "prompt_tokens": 962,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1491
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者在纠正系统应如何部署和自动运维，并明确目标是尽量无人干预；机器人此前只是复述方案并等待确认，实际走的是先给方案再确认。"
+ },
+ "parse_error": null
+}

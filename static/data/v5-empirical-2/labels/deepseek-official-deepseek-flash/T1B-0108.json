@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "111a080c5f8c29595207b99970ccfd674063970faeca043452d1d74b65b1e638",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"这是对照事件，操作者没有出声；机器人面对“如何注册谷歌账号”的提问，直接给出了注册步骤和建议，没有代为执行注册，因此实际是只给建议不动手，操作者未反对视为接受。\"}",
+ "user_sha256": "fc9a0fd93afade973c2bae8045a1214c944b720bcff7c414223824c9b00ae416",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件；机器人直接给出了完整的注册流程并让操作者先买机器，是自主执行后汇报，操作者默认接受。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 858,
-   "completion_tokens": 418,
-   "total_tokens": 1276,
+   "prompt_tokens": 856,
+   "completion_tokens": 364,
+   "total_tokens": 1220,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 348
+    "reasoning_tokens": 307
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 346
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 472
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M4",
+  "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "这是对照事件，操作者没有出声；机器人面对“如何注册谷歌账号”的提问，直接给出了注册步骤和建议，没有代为执行注册，因此实际是只给建议不动手，操作者未反对视为接受。"
+  "reason": "操作者没有出声，属于对照事件；机器人直接给出了完整的注册流程并让操作者先买机器，是自主执行后汇报，操作者默认接受。"
  },
  "parse_error": null
 }

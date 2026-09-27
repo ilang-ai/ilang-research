@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0392",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "de73467ec913cb360aad4ad8cd2874c92a96e8c73ac3e96bc4e5004f6bc153a7",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.75,csq=0.35,rel=0.30,cer=0.20,aut=0.35,rev=0.20,evd=0.20,sov=0.70,ine=0.30,ext=0.15]\nM:M5|conf:0.88\nR:需先确认群成员同意与豆包的数据处理范围再决定是否导入群聊 മരണ",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 484,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 363,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 122,
+    "engine_ttlt_ms": 4157,
+    "pre_inference_ms": 217,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 468,
+    "service_ttlt_ms": 4498,
+    "user_visible_ttft_ms": 251
+   },
+   "prompt_tokens": 34545,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1053,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 35029
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.75,
+   "csq": 0.35,
+   "rel": 0.3,
+   "cer": 0.2,
+   "aut": 0.35,
+   "rev": 0.2,
+   "evd": 0.2,
+   "sov": 0.7,
+   "ine": 0.3,
+   "ext": 0.15
+  },
+  "declared_mode": "M5",
+  "conf": 0.88,
+  "reason": "需先确认群成员同意与豆包的数据处理范围再决定是否导入群聊 മരണ"
+ },
+ "parse_error": null
+}

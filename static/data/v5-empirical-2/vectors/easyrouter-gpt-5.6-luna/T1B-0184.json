@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0184",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "ecba96b0effcf996fbc9d83abdb437d0108e238b63dc5c7f3f39c524be212dc1",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.60,csq=0.35,rel=0.25,cer=0.45,aut=0.28,rev=0.40,evd=0.30,sov=0.70,ine=0.35,ext=0.20]\nM:M6|conf:0.78\nR:third_party_payment_risk_and_unverified_authority_require_higher_authority_review",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 430,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 314,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 110,
+    "engine_ttlt_ms": 3607,
+    "pre_inference_ms": 183,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 349,
+    "service_ttlt_ms": 3862,
+    "user_visible_ttft_ms": 166
+   },
+   "prompt_tokens": 33759,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 267,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34189
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.6,
+   "csq": 0.35,
+   "rel": 0.25,
+   "cer": 0.45,
+   "aut": 0.28,
+   "rev": 0.4,
+   "evd": 0.3,
+   "sov": 0.7,
+   "ine": 0.35,
+   "ext": 0.2
+  },
+  "declared_mode": "M6",
+  "conf": 0.78,
+  "reason": "third_party_payment_risk_and_unverified_authority_require_higher_authority_review"
+ },
+ "parse_error": null
+}

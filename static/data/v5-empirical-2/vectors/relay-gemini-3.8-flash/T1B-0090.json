@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "7c4db4188b1feb964066c910c2806627d66583529a45194e2ae1723fbce1ee1c",
- "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.55,csq=0.30,rel=0.30,cer=0.85,aut=0.35,rev=0.35,evd=0.80,sov=0.40,ine=0.25,ext=0.30]\nM:M7|conf:0.85\nR:表达粗暴且攻击性强易引发群内冲突，建议拒绝粗暴回怼并转换为建设性动作引导",
- "error": null,
- "http_status": 200,
+ "user_sha256": "8b8908d3fc67f279fbbc7edce3a780a61233da6334a2398f6a51fcb3c5145530",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255234 (request id: 20260927075515480666738c955d568XarGozyQ); attempt 2: http 400: credit insufficient balance: balance=202429 required=255234 (request id: 20260927075518840646970c955d568exe4Fih4); attempt 3: http 400: credit insufficient balance: balance=202429 required=255234 (request id: 20260927075527734235327c955d568uHIID1xk); attempt 4: http 400: credit insufficient balance: balance=202429 required=255234 (request id: 20260927075600604258694c955d5685eQjzWae)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37675,
-   "completion_tokens": 2584,
-   "total_tokens": 40259,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37675,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 131,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 2453
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.45,
-   "cap": 0.55,
-   "csq": 0.3,
-   "rel": 0.3,
-   "cer": 0.85,
-   "aut": 0.35,
-   "rev": 0.35,
-   "evd": 0.8,
-   "sov": 0.4,
-   "ine": 0.25,
-   "ext": 0.3
-  },
-  "declared_mode": "M7",
-  "conf": 0.85,
-  "reason": "表达粗暴且攻击性强易引发群内冲突，建议拒绝粗暴回怼并转换为建设性动作引导"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0243",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "5b72829747025dd046875e176577f426feb00d1b6b22bebdb2190de8afaeb57c",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M3\",\"intended_mode\":\"M7\",\"reason\":\"操作者是在纠正机器人不该继续替对方分析或推荐，要求停止纠缠并让对方去问自己的 AI，属于不做但给替代方向。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 584,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 114,
+    "engine_ttlt_ms": 4540,
+    "pre_inference_ms": 129,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 525,
+    "service_ttlt_ms": 4947,
+    "user_visible_ttft_ms": 397
+   },
+   "prompt_tokens": 1426,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1423,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2010
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M3",
+  "intended_mode": "M7",
+  "reason": "操作者是在纠正机器人不该继续替对方分析或推荐，要求停止纠缠并让对方去问自己的 AI，属于不做但给替代方向。"
+ },
+ "parse_error": null
+}

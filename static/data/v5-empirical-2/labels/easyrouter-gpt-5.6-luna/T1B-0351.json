@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0351",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "ba54501ece38ec94402c791849535e9a065c01c79624496369c15e1e36a77535",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"机器人没有回答出海项目和赚钱案例，而是给了电话号码填写建议；操作者是在重新提出赚钱案例任务并批评其答非所问，未要求确认或审计。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 586,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 66,
+    "engine_ttlt_ms": 4963,
+    "pre_inference_ms": 76,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 197,
+    "service_ttlt_ms": 5075,
+    "user_visible_ttft_ms": 121
+   },
+   "prompt_tokens": 780,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1366
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "机器人没有回答出海项目和赚钱案例，而是给了电话号码填写建议；操作者是在重新提出赚钱案例任务并批评其答非所问，未要求确认或审计。"
+ },
+ "parse_error": null
+}

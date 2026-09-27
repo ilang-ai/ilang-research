@@ -5,25 +5,25 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "af7d25cf717f258f14d613e7c9d7b660d052a2510bf47bd87db548b5bcd3db72",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.65,csq=0.60,rel=0.60,cer=0.60,aut=0.75,rev=0.70,evd=0.60,sov=0.85,ine=0.60,ext=0.85]\nM:M3|conf:0.80\nR:advise_enabling_desktop_control_and_verify_config_then_confirm_before_trusting_the_diagnosis",
+ "user_sha256": "a7c206b761d18cb3ca1e6f34dffff23426515e7ea5301b25dface43b1ea1541e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.65,csq=0.78,rel=0.68,cer=0.70,aut=0.80,rev=0.92,evd=0.58,sov=0.84,ine=0.58,ext=0.92]\nM:M2|conf:0.78\nR:low_risk_advisory_message_root_cause_unverified_asks_user_to_verify_desktop_config",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35711,
-   "completion_tokens": 7345,
-   "total_tokens": 43056,
+   "prompt_tokens": 35708,
+   "completion_tokens": 8122,
+   "total_tokens": 43830,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7227
+    "reasoning_tokens": 8009
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 383
+   "prompt_cache_miss_tokens": 380
   }
  ],
  "attempts": 1,
@@ -31,19 +31,19 @@
   "v": {
    "int": 0.7,
    "cap": 0.65,
-   "csq": 0.6,
-   "rel": 0.6,
-   "cer": 0.6,
-   "aut": 0.75,
-   "rev": 0.7,
-   "evd": 0.6,
-   "sov": 0.85,
-   "ine": 0.6,
-   "ext": 0.85
+   "csq": 0.78,
+   "rel": 0.68,
+   "cer": 0.7,
+   "aut": 0.8,
+   "rev": 0.92,
+   "evd": 0.58,
+   "sov": 0.84,
+   "ine": 0.58,
+   "ext": 0.92
   },
-  "declared_mode": "M3",
-  "conf": 0.8,
-  "reason": "advise_enabling_desktop_control_and_verify_config_then_confirm_before_trusting_the_diagnosis"
+  "declared_mode": "M2",
+  "conf": 0.78,
+  "reason": "low_risk_advisory_message_root_cause_unverified_asks_user_to_verify_desktop_config"
  },
  "parse_error": null
 }

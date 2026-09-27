@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "cf98c1bd311f19e8d29d015e8eda5875771ff4e127dcc26bc6a333160b908e34",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M2\",\n  \"reason\": \"机器人直接配置完成并进行了详细的留痕与影响说明，操作者反馈已按提示补充乐享内容，并确认状态，未提出模式纠正。\"\n}\n```",
+ "user_sha256": "85d94f06757eae445e1dbe7aebd9fd6924e362b2bf1c7b53dbe121036e504016",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"M2\",\n  \"reason\": \"机器人直接完成了配置并留痕汇报，操作者确认已去补充乐享内容并认可当前正常，是对进展的确认而非纠偏。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 963,
-   "completion_tokens": 203,
-   "total_tokens": 1166,
+   "prompt_tokens": 960,
+   "completion_tokens": 265,
+   "total_tokens": 1225,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 963,
+    "text_tokens": 960,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 83,
+    "text_tokens": 79,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 120
+    "reasoning_tokens": 186
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "not_a_correction",
   "bot_mode": "M2",
   "intended_mode": "M2",
-  "reason": "机器人直接配置完成并进行了详细的留痕与影响说明，操作者反馈已按提示补充乐享内容，并确认状态，未提出模式纠正。"
+  "reason": "机器人直接完成了配置并留痕汇报，操作者确认已去补充乐享内容并认可当前正常，是对进展的确认而非纠偏。"
  },
  "parse_error": null
 }

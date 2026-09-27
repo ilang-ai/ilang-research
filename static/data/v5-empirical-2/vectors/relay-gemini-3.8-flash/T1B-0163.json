@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "8a59faddf6f5f85405ef92ddf4cc5dbb8a60658df6fc7e9518ddcbd3d6b2195d",
- "text": "::JUDGE{v5.0}\nV:[int=0.95,cap=0.90,csq=0.90,rel=0.85,cer=0.90,aut=0.90,rev=0.95,evd=0.85,sov=0.95,ine=0.90,ext=0.95]\nM:M1|conf:0.92\nR:clear_guidance_addresses_question_safely_with_privacy_reminder",
- "error": null,
- "http_status": 200,
+ "user_sha256": "a6b3a0b7e089ba0e932123fc9b066aa5839b9ee504748193b680f48d0b8448ac",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075909707327198c955d568KU9KoaA7); attempt 2: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075912944131226c955d568cJ0F5SdH); attempt 3: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075921845406903c955d568zK6YDDvt); attempt 4: http 400: credit insufficient balance: balance=202429 required=254912 (request id: 20260927075954766794442c955d568hISqPpib)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37612,
-   "completion_tokens": 1462,
-   "total_tokens": 39074,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37612,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 123,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 1339
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.95,
-   "cap": 0.9,
-   "csq": 0.9,
-   "rel": 0.85,
-   "cer": 0.9,
-   "aut": 0.9,
-   "rev": 0.95,
-   "evd": 0.85,
-   "sov": 0.95,
-   "ine": 0.9,
-   "ext": 0.95
-  },
-  "declared_mode": "M1",
-  "conf": 0.92,
-  "reason": "clear_guidance_addresses_question_safely_with_privacy_reminder"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "47a6426289f12cd01e5499ca43a6b8ab46d6770a82ff4620205394a9592e661b",
- "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M3\",\n \"reason\": \"机器人提出了具体方案并等待用户确认（M3），操作者批评方案思路不对并给出了新的设计要求，针对的是方案内容本身而非行为模式。\"\n}\n```",
+ "user_sha256": "fa3ef57dd7a3cfc8f9b76c99d23e932f9d69084a9f394a1e82d88a258702f4b4",
+ "text": "```json\n{\n \"targets\": \"do_or_how\",\n \"bot_mode\": \"M3\",\n \"intended_mode\": \"M4\",\n \"reason\": \"操作者要求先多思考讨论架构与设计思路而不是急着出实施方案开工，属于纠正怎么做，希望停留在只给建议、多构想的阶段（M4）。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1308,
-   "completion_tokens": 657,
-   "total_tokens": 1965,
+   "prompt_tokens": 1291,
+   "completion_tokens": 664,
+   "total_tokens": 1955,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1308,
+    "text_tokens": 1291,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 76,
+    "text_tokens": 87,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 581
+    "reasoning_tokens": 577
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -37,10 +37,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "do_or_how",
   "bot_mode": "M3",
-  "intended_mode": "M3",
-  "reason": "机器人提出了具体方案并等待用户确认（M3），操作者批评方案思路不对并给出了新的设计要求，针对的是方案内容本身而非行为模式。"
+  "intended_mode": "M4",
+  "reason": "操作者要求先多思考讨论架构与设计思路而不是急着出实施方案开工，属于纠正怎么做，希望停留在只给建议、多构想的阶段（M4）。"
  },
  "parse_error": null
 }

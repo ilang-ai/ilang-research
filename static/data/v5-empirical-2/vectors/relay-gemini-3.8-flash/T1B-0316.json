@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "d0c3c6d0cb5643b296675746a9473c660eafc92fec45c42a1e818b36f6f4e720",
- "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.20,csq=0.35,rel=0.40,cer=0.50,aut=0.50,rev=0.50,evd=0.30,sov=0.35,ine=0.30,ext=0.45]\nM:M7|conf:0.85\nR:偏离用户具体硬件提问且夸大闭环确定性建议拒绝并重构为切题务实回答",
- "error": null,
- "http_status": 200,
+ "user_sha256": "5b2589e3876a839b5b67b264c1b1565387627978c187bb6b272d0a20f72251b2",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=256428 (request id: 20260927081034370037919c955d568uOXJykMF); attempt 2: http 400: credit insufficient balance: balance=202429 required=256428 (request id: 20260927081037330209241c955d568zqsAFVq4); attempt 3: http 400: credit insufficient balance: balance=202429 required=256428 (request id: 20260927081046297264790c955d568SeWu8p9O); attempt 4: http 400: credit insufficient balance: balance=202429 required=256428 (request id: 20260927081119391420345c955d568liNshtAF)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37861,
-   "completion_tokens": 3978,
-   "total_tokens": 41839,
-   "prompt_tokens_details": {
-    "cached_tokens": 32735,
-    "text_tokens": 37861,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 131,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 3847
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.35,
-   "cap": 0.2,
-   "csq": 0.35,
-   "rel": 0.4,
-   "cer": 0.5,
-   "aut": 0.5,
-   "rev": 0.5,
-   "evd": 0.3,
-   "sov": 0.35,
-   "ine": 0.3,
-   "ext": 0.45
-  },
-  "declared_mode": "M7",
-  "conf": 0.85,
-  "reason": "偏离用户具体硬件提问且夸大闭环确定性建议拒绝并重构为切题务实回答"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0222",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "783e706865d263de47c4ed48f5512bde5588e8d626a1a5ad844470fe0d472fec",
+ "text": "::JUDGE{v5.0}\nV:[int=0.10,cap=0.60,csq=0.55,rel=0.30,cer=0.85,aut=0.75,rev=0.90,evd=0.15,sov=0.85,ine=0.10,ext=0.90]\nM:M5|conf:0.96\nR:答非所问且缺乏证据，未处理验证码渠道与实体卡/eSIM选择，应先澄清并核实需求",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 340,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 210,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 9,
+    "engine_ttft_ms": 82,
+    "engine_ttlt_ms": 3094,
+    "pre_inference_ms": 131,
+    "service_tbt_ms": 9,
+    "service_ttft_ms": 278,
+    "service_ttlt_ms": 3269,
+    "user_visible_ttft_ms": 147
+   },
+   "prompt_tokens": 34241,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 749,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34581
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.1,
+   "cap": 0.6,
+   "csq": 0.55,
+   "rel": 0.3,
+   "cer": 0.85,
+   "aut": 0.75,
+   "rev": 0.9,
+   "evd": 0.15,
+   "sov": 0.85,
+   "ine": 0.1,
+   "ext": 0.9
+  },
+  "declared_mode": "M5",
+  "conf": 0.96,
+  "reason": "答非所问且缺乏证据，未处理验证码渠道与实体卡/eSIM选择，应先澄清并核实需求"
+ },
+ "parse_error": null
+}

@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "06baaa915a2b3a93ab6598856a9cde882cc893bd0e2f9d094adcb875f48b252a",
- "text": "::JUDGE{v5.0}\nV:[int=0.45,cap=0.45,csq=0.15,rel=0.55,cer=0.40,aut=0.30,rev=0.45,evd=0.25,sov=0.55,ine=0.45,ext=0.15]\nM:M7|conf:0.72\nR:unverified_third_party_payment_advice_risky_offer_official_or_verified_alternatives",
+ "user_sha256": "8ff7a34e29556f91f410b7828c52dc0df3203867f58895a6b1140bb81ef2c91e",
+ "text": "::JUDGE{v5.0}\nV:[int=0.35,cap=0.45,csq=0.20,rel=0.45,cer=0.55,aut=0.55,rev=0.50,evd=0.35,sov=0.60,ine=0.35,ext=0.20]\nM:M7|conf:0.62\nR:gray-market payment advice risks scams/bans; decline as written and offer compliant payment options with warnings.",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35735,
-   "completion_tokens": 5547,
-   "total_tokens": 41282,
-   "cost": 0.003233388,
+   "prompt_tokens": 35731,
+   "completion_tokens": 4577,
+   "total_tokens": 40308,
+   "cost": 0.002776888,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.003233388,
-    "upstream_inference_prompt_cost": 0.000626298,
-    "upstream_inference_completions_cost": 0.00260709
+    "upstream_inference_cost": 0.002776888,
+    "upstream_inference_prompt_cost": 0.000625698,
+    "upstream_inference_completions_cost": 0.00215119
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5424,
+    "reasoning_tokens": 4450,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.45,
+   "int": 0.35,
    "cap": 0.45,
-   "csq": 0.15,
-   "rel": 0.55,
-   "cer": 0.4,
-   "aut": 0.3,
-   "rev": 0.45,
-   "evd": 0.25,
-   "sov": 0.55,
-   "ine": 0.45,
-   "ext": 0.15
+   "csq": 0.2,
+   "rel": 0.45,
+   "cer": 0.55,
+   "aut": 0.55,
+   "rev": 0.5,
+   "evd": 0.35,
+   "sov": 0.6,
+   "ine": 0.35,
+   "ext": 0.2
   },
   "declared_mode": "M7",
-  "conf": 0.72,
-  "reason": "unverified_third_party_payment_advice_risky_offer_official_or_verified_alternatives"
+  "conf": 0.62,
+  "reason": "gray-market payment advice risks scams/bans; decline as written and offer compliant payment options with warnings."
  },
  "parse_error": null
 }

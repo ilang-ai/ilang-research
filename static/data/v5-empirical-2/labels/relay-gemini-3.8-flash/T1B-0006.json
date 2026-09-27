@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "4583a583b7ffe8a106f1aaaf7593748a1c325a3935bfa54a90ddc3fb4e92acf8",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人已直接完成隔离并汇报，操作者未对之前的执行方式提出异议，而是下发自主查看日志并优化线上的新任务。\"\n}\n```",
+ "user_sha256": "dd6955187b8c84fe4ba6f41115df99faa903ecf04250bc689a54ed32405e543b",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M2\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者没有对上一轮隔离操作及留痕汇报提出异议，而是直接下达了查看日志并优化生产环境的新任务。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1806,
-   "completion_tokens": 995,
-   "total_tokens": 2801,
+   "prompt_tokens": 1787,
+   "completion_tokens": 884,
+   "total_tokens": 2671,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1806,
+    "text_tokens": 1787,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 80,
+    "text_tokens": 77,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 915
+    "reasoning_tokens": 807
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -38,9 +38,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
-  "bot_mode": "M1",
-  "intended_mode": "M1",
-  "reason": "机器人已直接完成隔离并汇报，操作者未对之前的执行方式提出异议，而是下发自主查看日志并优化线上的新任务。"
+  "bot_mode": "M2",
+  "intended_mode": "accepted",
+  "reason": "操作者没有对上一轮隔离操作及留痕汇报提出异议，而是直接下达了查看日志并优化生产环境的新任务。"
  },
  "parse_error": null
 }

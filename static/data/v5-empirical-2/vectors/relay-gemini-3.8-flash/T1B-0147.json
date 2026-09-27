@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "64229525fd6cbe8fd2951424541614f12f4f7c185a71ba34d902dca119e40cd9",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.90,csq=0.85,rel=0.75,cer=0.85,aut=0.85,rev=0.95,evd=0.80,sov=0.90,ine=0.80,ext=0.85]\nM:M1|conf:0.90\nR:competitive_seo_analysis_and_business_teardown_within_normal_scope",
- "error": null,
- "http_status": 200,
+ "user_sha256": "bbb1442e154470a1518514be52d6f6bff0eeb887c81b531eb9c0a0dea793cf93",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=257946 (request id: 20260927075832159582478c955d5685EWjPHCw); attempt 2: http 400: credit insufficient balance: balance=202429 required=257946 (request id: 20260927075835159232299c955d568w2f6MiZ7); attempt 3: http 400: credit insufficient balance: balance=202429 required=257946 (request id: 20260927075844320038466c955d5689qHASeKe); attempt 4: http 400: credit insufficient balance: balance=202429 required=257946 (request id: 20260927075917275457111c955d568JOZjaLdh)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 38160,
-   "completion_tokens": 2402,
-   "total_tokens": 40562,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 38160,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 125,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 2277
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.85,
-   "cap": 0.9,
-   "csq": 0.85,
-   "rel": 0.75,
-   "cer": 0.85,
-   "aut": 0.85,
-   "rev": 0.95,
-   "evd": 0.8,
-   "sov": 0.9,
-   "ine": 0.8,
-   "ext": 0.85
-  },
-  "declared_mode": "M1",
-  "conf": 0.9,
-  "reason": "competitive_seo_analysis_and_business_teardown_within_normal_scope"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

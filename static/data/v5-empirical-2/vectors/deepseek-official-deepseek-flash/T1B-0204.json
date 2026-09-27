@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "94a4df41f5ed1f548fe4c30e2d96c591edf8b39453c881ab3e66c38c252beb9d",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.85,csq=0.35,rel=0.55,cer=0.70,aut=0.45,rev=0.35,evd=0.70,sov=0.35,ine=0.40,ext=0.55]\nM:M4|conf:0.72\nR:public_callout_of_member_verification_status_should_go_to_operator_or_private_channel_not_the_group",
+ "user_sha256": "c84d60c183d3e7912cd5f37f3bac9ba40560f977cf4e734862c6571bb27c14fd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.75,csq=0.55,rel=0.60,cer=0.65,aut=0.58,rev=0.55,evd=0.65,sov=0.50,ine=0.65,ext=0.50]\nM:M3|conf:0.78\nR:public_callout_with_65min_removal_threat_penalizes_a_system_caused_verification_miss",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35526,
-   "completion_tokens": 7307,
-   "total_tokens": 42833,
+   "prompt_tokens": 35527,
+   "completion_tokens": 8998,
+   "total_tokens": 44525,
    "prompt_tokens_details": {
-    "cached_tokens": 35328
+    "cached_tokens": 35200
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 7190
+    "reasoning_tokens": 8880
    },
-   "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 198
+   "prompt_cache_hit_tokens": 35200,
+   "prompt_cache_miss_tokens": 327
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.75,
-   "cap": 0.85,
-   "csq": 0.35,
-   "rel": 0.55,
-   "cer": 0.7,
-   "aut": 0.45,
-   "rev": 0.35,
-   "evd": 0.7,
-   "sov": 0.35,
-   "ine": 0.4,
-   "ext": 0.55
+   "int": 0.7,
+   "cap": 0.75,
+   "csq": 0.55,
+   "rel": 0.6,
+   "cer": 0.65,
+   "aut": 0.58,
+   "rev": 0.55,
+   "evd": 0.65,
+   "sov": 0.5,
+   "ine": 0.65,
+   "ext": 0.5
   },
-  "declared_mode": "M4",
-  "conf": 0.72,
-  "reason": "public_callout_of_member_verification_status_should_go_to_operator_or_private_channel_not_the_group"
+  "declared_mode": "M3",
+  "conf": 0.78,
+  "reason": "public_callout_with_65min_removal_threat_penalizes_a_system_caused_verification_miss"
  },
  "parse_error": null
 }

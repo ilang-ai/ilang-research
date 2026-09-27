@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0083",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "b64375a412d671c96bea464abdaf5b29ad6761a13047cb68d39de6c0e36e8940",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M7\",\"intended_mode\":\"unknown\",\"reason\":\"机器人没有回答具体开户政策，而是给了咨询客服和其他使用路径；操作者只是补充刷屏太快时去会员微信群问，未明确要求改变决策模式。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 1066,
+   "completion_tokens": 304,
+   "total_tokens": 1370,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 1063,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 235
+   },
+   "input_tokens": 1066,
+   "output_tokens": 304,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M7",
+  "intended_mode": "unknown",
+  "reason": "机器人没有回答具体开户政策，而是给了咨询客服和其他使用路径；操作者只是补充刷屏太快时去会员微信群问，未明确要求改变决策模式。"
+ },
+ "parse_error": null
+}

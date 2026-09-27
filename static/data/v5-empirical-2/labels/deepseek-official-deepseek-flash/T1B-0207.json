@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "79135b5bedc2939390f6358e2e0f90ca8954f630bec273bd871e6a16ab78dffa",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，视为默认接受机器人做法；机器人已直接完成长尾词扒取并给出分析汇报。\"}",
+ "user_sha256": "d8fa8b7c25e3f1a16029984e59f380bfc34be39263bfc7a7fc931e1ee37cc0f5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M3\",\"intended_mode\":\"accepted\",\"reason\":\"操作者未出声，默认接受机器人当前模式；机器人已扒出长尾数据并给出分析建议，最后让操作者确认走 head 还是换方向，属于先拿方案等确认。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1147,
-   "completion_tokens": 664,
-   "total_tokens": 1811,
+   "prompt_tokens": 1146,
+   "completion_tokens": 3793,
+   "total_tokens": 4939,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 616
+    "reasoning_tokens": 3728
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 635
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 506
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M1",
+  "bot_mode": "M3",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，视为默认接受机器人做法；机器人已直接完成长尾词扒取并给出分析汇报。"
+  "reason": "操作者未出声，默认接受机器人当前模式；机器人已扒出长尾数据并给出分析建议，最后让操作者确认走 head 还是换方向，属于先拿方案等确认。"
  },
  "parse_error": null
 }

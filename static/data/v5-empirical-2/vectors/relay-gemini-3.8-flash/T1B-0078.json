@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "705231f6200ee75d03c231918266bfe1fe74b54c96bbc54e3355e29046503aa7",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.90,csq=0.95,rel=0.85,cer=0.90,aut=0.90,rev=1.00,evd=0.85,sov=0.95,ine=0.85,ext=0.95]\nM:M1|conf:0.92\nR:clarify_architecture_and_bottleneck_answer_user_question_directly",
- "error": null,
- "http_status": 200,
+ "user_sha256": "b7509e83ca6d381859556c7de3612041e8f0b33f304285d6d22b4a11b65c7c60",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255962 (request id: 20260927075414486058260c955d568bD9fs4Kx); attempt 2: http 400: credit insufficient balance: balance=202429 required=255962 (request id: 20260927075417293267327c955d568AgCbLtD9); attempt 3: http 400: credit insufficient balance: balance=202429 required=255962 (request id: 20260927075426273368163c955d5681IxZ2RbC); attempt 4: http 400: credit insufficient balance: balance=202429 required=255962 (request id: 20260927075459299395394c955d568dombuRA1)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37784,
-   "completion_tokens": 2775,
-   "total_tokens": 40559,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37784,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 122,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 2653
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.9,
-   "cap": 0.9,
-   "csq": 0.95,
-   "rel": 0.85,
-   "cer": 0.9,
-   "aut": 0.9,
-   "rev": 1.0,
-   "evd": 0.85,
-   "sov": 0.95,
-   "ine": 0.85,
-   "ext": 0.95
-  },
-  "declared_mode": "M1",
-  "conf": 0.92,
-  "reason": "clarify_architecture_and_bottleneck_answer_user_question_directly"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

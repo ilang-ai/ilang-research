@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "1d923ca2266ae445f2e3e9a51091f6d28cca0daae033c4a12ea0b8ee393d92ae",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是在补充或纠正诊断内容，声明自己的方案已包含修复、维护和自我学习，没有要求机器人动手或改变执行方式；机器人当时也只是分析并给建议，没有实际执行，所以是 M4。\"}",
+ "user_sha256": "6c6374c9c5936676864b08ce61dac9c05b47f66c1c2a6a7fbdebf4cd11996b3f",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"操作者在补充/纠正自己系统的实际情况，属于内容层面的纠正；机器人当时只是给建议和分析，没有动手，操作者仍希望它继续以建议模式回应。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 913,
-   "completion_tokens": 5968,
-   "total_tokens": 6881,
+   "prompt_tokens": 912,
+   "completion_tokens": 13045,
+   "total_tokens": 13957,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5898
+    "reasoning_tokens": 12973
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 401
+   "prompt_cache_miss_tokens": 400
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者只是在补充或纠正诊断内容，声明自己的方案已包含修复、维护和自我学习，没有要求机器人动手或改变执行方式；机器人当时也只是分析并给建议，没有实际执行，所以是 M4。"
+  "reason": "操作者在补充/纠正自己系统的实际情况，属于内容层面的纠正；机器人当时只是给建议和分析，没有动手，操作者仍希望它继续以建议模式回应。"
  },
  "parse_error": null
 }

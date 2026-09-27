@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3ece89dff924fe613631cbd14231535f3e0da330fdb30720e03fe76cb1c97823",
- "text": "```json\n{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M4\",\n  \"reason\": \"机器人给出了三种解决建议（M4），用户提问是指出机器人提到了Gamsgo页面却没有给出相应链接，属于对内容的质疑与纠正。\"\n}\n```",
+ "user_sha256": "c2ae3c0bc207d647bb04e7e183fbfdd7fe2afcf0e800405b967577a2a9c92bfe",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"机器人给出了充值的建议方案，操作者指出回复中提到了链接但实际漏发了链接，属于纯内容纠错。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 935,
-   "completion_tokens": 266,
-   "total_tokens": 1201,
+   "prompt_tokens": 931,
+   "completion_tokens": 237,
+   "total_tokens": 1168,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 935,
+    "text_tokens": 931,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 81,
+    "text_tokens": 71,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 185
+    "reasoning_tokens": 166
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "机器人给出了三种解决建议（M4），用户提问是指出机器人提到了Gamsgo页面却没有给出相应链接，属于对内容的质疑与纠正。"
+  "reason": "机器人给出了充值的建议方案，操作者指出回复中提到了链接但实际漏发了链接，属于纯内容纠错。"
  },
  "parse_error": null
 }

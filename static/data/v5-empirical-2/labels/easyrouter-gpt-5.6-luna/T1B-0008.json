@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0008",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "af8e3a317624d57855d9d8e53eef5f0ccd23a26aa9f73ab272b210acea2cd439",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M8\",\"reason\":\"机器人此前直接执行并汇报了任务；操作者指出返利套利方案涉及规避风控和虚假身份，明确表示不能按原方案重跑，要求在该边界上停止。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 589,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 512,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 151,
+    "engine_ttlt_ms": 4850,
+    "pre_inference_ms": 83,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 381,
+    "service_ttlt_ms": 5076,
+    "user_visible_ttft_ms": 299
+   },
+   "prompt_tokens": 1573,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1570,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2162
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M8",
+  "reason": "机器人此前直接执行并汇报了任务；操作者指出返利套利方案涉及规避风控和虚假身份，明确表示不能按原方案重跑，要求在该边界上停止。"
+ },
+ "parse_error": null
+}

@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "79135b5bedc2939390f6358e2e0f90ca8954f630bec273bd871e6a16ab78dffa",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"对照事件操作者未发言，默认接受；机器人已直接扒长尾词并汇报分析。\"}",
+ "user_sha256": "d8fa8b7c25e3f1a16029984e59f380bfc34be39263bfc7a7fc931e1ee37cc0f5",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M3\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，属于对照事件；机器人给出长尾词分析和建议并等待确认方向，走的是先拿方案确认。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1192,
-   "completion_tokens": 1038,
-   "total_tokens": 2230,
-   "cost": 0.000598052,
+   "prompt_tokens": 1189,
+   "completion_tokens": 491,
+   "total_tokens": 1680,
+   "cost": 0.000340512,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000598052,
-    "upstream_inference_prompt_cost": 0.000110192,
-    "upstream_inference_completions_cost": 0.00048786
+    "upstream_inference_cost": 0.000340512,
+    "upstream_inference_prompt_cost": 0.000109742,
+    "upstream_inference_completions_cost": 0.00023077
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 994,
+    "reasoning_tokens": 440,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M1",
+  "bot_mode": "M3",
   "intended_mode": "accepted",
-  "reason": "对照事件操作者未发言，默认接受；机器人已直接扒长尾词并汇报分析。"
+  "reason": "操作者没有出声，属于对照事件；机器人给出长尾词分析和建议并等待确认方向，走的是先拿方案确认。"
  },
  "parse_error": null
 }

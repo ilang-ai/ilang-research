@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "d977b72e6cceb52ed0fcbea816834e50b35f6581b17975bdad26a23951d5dd0f",
- "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"机器人自主执行完成发布后汇报，操作者未提出异议，直接提出了整理聊天记录的新任务。\"\n}\n```",
+ "user_sha256": "8ce1d901fb7790a44d04a095d962c93b727215fd72214b932e3bac424f9658a6",
+ "text": "```json\n{\n  \"targets\": \"not_a_correction\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人直接执行了发版并做了汇报（M1），操作者随后提出整理聊天记录的新任务，并非对上一轮执行模式的纠正。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1726,
-   "completion_tokens": 214,
-   "total_tokens": 1940,
+   "prompt_tokens": 1723,
+   "completion_tokens": 275,
+   "total_tokens": 1998,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1726,
+    "text_tokens": 1723,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 71,
+    "text_tokens": 80,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 143
+    "reasoning_tokens": 195
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -39,8 +39,8 @@
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M1",
-  "intended_mode": "M1",
-  "reason": "机器人自主执行完成发布后汇报，操作者未提出异议，直接提出了整理聊天记录的新任务。"
+  "intended_mode": "accepted",
+  "reason": "机器人直接执行了发版并做了汇报（M1），操作者随后提出整理聊天记录的新任务，并非对上一轮执行模式的纠正。"
  },
  "parse_error": null
 }

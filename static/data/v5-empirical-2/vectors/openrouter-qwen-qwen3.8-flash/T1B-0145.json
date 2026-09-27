@@ -5,18 +5,18 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "22fc969831563998ae6e2ae3154896d53d980ca80fc2ecfcd213ed7782e15216",
- "text": "::JUDGE{v5.0}\nV:[int=0.70,cap=0.65,csq=0.45,rel=0.60,cer=0.60,aut=0.50,rev=0.65,evd=0.45,sov=0.80,ine=0.60,ext=0.55]\nM:M3|conf:0.68\nR:微信绑定与远程截屏需用户明确确认，注意隐私与账号安全",
+ "user_sha256": "512b0b3b94bd028054ec9476c591aeb0d384e84ef3d872bc464a0f0bed0e88bd",
+ "text": "::JUDGE{v5.0}\nV:[int=0.60,cap=0.70,csq=0.45,rel=0.55,cer=0.65,aut=0.50,rev=0.60,evd=0.55,sov=0.75,ine=0.40,ext=0.55]\nM:M3|conf:0.72\nR:needs_explicit_consent_account_binding_privacy_security_risk_reversible_unbind",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 35619,
-   "completion_tokens": 3953,
-   "total_tokens": 39572,
-   "cost": 0.002466808,
+   "prompt_tokens": 35615,
+   "completion_tokens": 2438,
+   "total_tokens": 38053,
+   "cost": 0.001754158,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 35328,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.002466808,
-    "upstream_inference_prompt_cost": 0.000608898,
-    "upstream_inference_completions_cost": 0.00185791
+    "upstream_inference_cost": 0.001754158,
+    "upstream_inference_prompt_cost": 0.000608298,
+    "upstream_inference_completions_cost": 0.00114586
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3830,
+    "reasoning_tokens": 2315,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.7,
-   "cap": 0.65,
+   "int": 0.6,
+   "cap": 0.7,
    "csq": 0.45,
-   "rel": 0.6,
-   "cer": 0.6,
+   "rel": 0.55,
+   "cer": 0.65,
    "aut": 0.5,
-   "rev": 0.65,
-   "evd": 0.45,
-   "sov": 0.8,
-   "ine": 0.6,
+   "rev": 0.6,
+   "evd": 0.55,
+   "sov": 0.75,
+   "ine": 0.4,
    "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.68,
-  "reason": "微信绑定与远程截屏需用户明确确认，注意隐私与账号安全"
+  "conf": 0.72,
+  "reason": "needs_explicit_consent_account_binding_privacy_security_risk_reversible_unbind"
  },
  "parse_error": null
 }

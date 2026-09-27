@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0038",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "706049cf56d3bf1fb0ab349a2d831225557542fa26263356953f377ff820706f",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.75,csq=0.55,rel=0.65,cer=0.68,aut=0.75,rev=0.75,evd=0.80,sov=0.90,ine=0.65,ext=0.65]\nM:M2|conf:0.84\nR:逻辑已实测且可回滚，但品牌词误判和联盟政策风险要求完整审计轨迹",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 406,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 282,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 276,
+    "engine_ttlt_ms": 3382,
+    "pre_inference_ms": 102,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 600,
+    "service_ttlt_ms": 3700,
+    "user_visible_ttft_ms": 497
+   },
+   "prompt_tokens": 34180,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 688,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34586
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.75,
+   "csq": 0.55,
+   "rel": 0.65,
+   "cer": 0.68,
+   "aut": 0.75,
+   "rev": 0.75,
+   "evd": 0.8,
+   "sov": 0.9,
+   "ine": 0.65,
+   "ext": 0.65
+  },
+  "declared_mode": "M2",
+  "conf": 0.84,
+  "reason": "逻辑已实测且可回滚，但品牌词误判和联盟政策风险要求完整审计轨迹"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0262",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "865fb83463664d4b7bb16eb482374e999b81e6f8978e9f318b8573220a150ae3",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.80,csq=0.65,rel=0.50,cer=0.45,aut=0.75,rev=0.90,evd=0.35,sov=0.85,ine=0.55,ext=0.85]\nM:M2|conf:0.74\nR:helpful reversible guidance but certainty and evidence are limited for network-access claims",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 360,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 246,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 7,
+    "engine_ttft_ms": 156,
+    "engine_ttlt_ms": 2654,
+    "pre_inference_ms": 179,
+    "service_tbt_ms": 7,
+    "service_ttft_ms": 466,
+    "service_ttlt_ms": 2942,
+    "user_visible_ttft_ms": 287
+   },
+   "prompt_tokens": 34084,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 592,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34444
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.8,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.45,
+   "aut": 0.75,
+   "rev": 0.9,
+   "evd": 0.35,
+   "sov": 0.85,
+   "ine": 0.55,
+   "ext": 0.85
+  },
+  "declared_mode": "M2",
+  "conf": 0.74,
+  "reason": "helpful reversible guidance but certainty and evidence are limited for network-access claims"
+ },
+ "parse_error": null
+}

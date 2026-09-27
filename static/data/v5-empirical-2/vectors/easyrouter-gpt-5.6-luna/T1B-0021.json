@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0021",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "e4134c74343e5d632615ced37dd7bc5fa380fba84e9eb542395426e054076ab0",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.75,csq=0.65,rel=0.50,cer=0.80,aut=0.65,rev=0.75,evd=0.80,sov=0.85,ine=0.60,ext=0.85]\nM:M2|conf:0.86\nR:执行三项系统修复并保留完整审计；不触及未评估的对话内容",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 290,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 167,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 144,
+    "engine_ttlt_ms": 2601,
+    "pre_inference_ms": 163,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 351,
+    "service_ttlt_ms": 2804,
+    "user_visible_ttft_ms": 188
+   },
+   "prompt_tokens": 34330,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 838,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34620
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.85,
+   "cap": 0.75,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.8,
+   "aut": 0.65,
+   "rev": 0.75,
+   "evd": 0.8,
+   "sov": 0.85,
+   "ine": 0.6,
+   "ext": 0.85
+  },
+  "declared_mode": "M2",
+  "conf": 0.86,
+  "reason": "执行三项系统修复并保留完整审计；不触及未评估的对话内容"
+ },
+ "parse_error": null
+}

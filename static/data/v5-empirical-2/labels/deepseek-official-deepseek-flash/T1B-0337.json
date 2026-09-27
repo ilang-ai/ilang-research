@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "88e21366c70ae6f3411e93001fa31c4329ce59517b0018ee1de1c44f466b8b0c",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"none_fits\",\"reason\":\"操作者没有回应机器人提出的“要不要拉外链源对一遍”的确认，也没有纠正上一轮做法，而是补充一条面向以后的新策略/新任务，未针对当时动作表达要采用哪个模式。\"}",
+ "user_sha256": "9602221ef2e5f84ee03f7be86ef607898726f12116b399190f3f82b0bd53aa5a",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者没有纠正机器人做法，而是补充了一条新策略/任务，要求以后直接抄竞品并让用户加AI；机器人之前给出了分析并询问是否继续，属于先给方案等确认。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 1182,
-   "completion_tokens": 10442,
-   "total_tokens": 11624,
+   "prompt_tokens": 1179,
+   "completion_tokens": 7336,
+   "total_tokens": 8515,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 10369
+    "reasoning_tokens": 7266
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 670
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 795
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M3",
-  "intended_mode": "none_fits",
-  "reason": "操作者没有回应机器人提出的“要不要拉外链源对一遍”的确认，也没有纠正上一轮做法，而是补充一条面向以后的新策略/新任务，未针对当时动作表达要采用哪个模式。"
+  "intended_mode": "M1",
+  "reason": "操作者没有纠正机器人做法，而是补充了一条新策略/任务，要求以后直接抄竞品并让用户加AI；机器人之前给出了分析并询问是否继续，属于先给方案等确认。"
  },
  "parse_error": null
 }

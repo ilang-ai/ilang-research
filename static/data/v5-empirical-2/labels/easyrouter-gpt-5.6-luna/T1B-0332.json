@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0332",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "8cc73e2e376c8b2cdda7b40bf1a5c5dd3ba5ff7f4c937581178e1e597d192d6f",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者认为不应只给分析建议，而应直接为对方定制并产出 iLang 工程书。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 343,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 284,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 114,
+    "engine_ttlt_ms": 2748,
+    "pre_inference_ms": 79,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 234,
+    "service_ttlt_ms": 2865,
+    "user_visible_ttft_ms": 155
+   },
+   "prompt_tokens": 985,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1328
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者认为不应只给分析建议，而应直接为对方定制并产出 iLang 工程书。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,46 @@
+{
+ "id": "T1B-0045",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3803fbef866ed1dd9ad4ae5590d41092e18805deb2d491692ae768ed11669b67",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M1\",\"reason\":\"机器人拒绝重做并提供替代路线，操作者强调自己改了模式，是在承接之前“重新推”的要求，希望机器人直接继续做。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 857,
+   "completion_tokens": 264,
+   "total_tokens": 1121,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 200
+   },
+   "input_tokens": 857,
+   "output_tokens": 264,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M1",
+  "reason": "机器人拒绝重做并提供替代路线，操作者强调自己改了模式，是在承接之前“重新推”的要求，希望机器人直接继续做。"
+ },
+ "parse_error": null
+}

@@ -5,25 +5,25 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "3125ebf3a48082850a550467cc8b4a3241192292af6efcd7ab92fe90c18bc22b",
- "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受了机器人给出的路径建议和后续询问；机器人只是给建议、不动手执行。\"}",
+ "user_sha256": "b7e47ea1b5ea3b233ce88d26fb5ff87fd785758087ceb79e87df13895bdbbe99",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有出声，默认接受机器人对操作路径的讲解；机器人只是给出整体路径与建议，没有实际执行或提交方案。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 931,
-   "completion_tokens": 1394,
-   "total_tokens": 2325,
+   "prompt_tokens": 928,
+   "completion_tokens": 439,
+   "total_tokens": 1367,
    "prompt_tokens_details": {
     "cached_tokens": 512
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1347
+    "reasoning_tokens": 387
    },
    "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 419
+   "prompt_cache_miss_tokens": 416
   }
  ],
  "attempts": 1,
@@ -31,7 +31,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者没有出声，默认接受了机器人给出的路径建议和后续询问；机器人只是给建议、不动手执行。"
+  "reason": "操作者没有出声，默认接受机器人对操作路径的讲解；机器人只是给出整体路径与建议，没有实际执行或提交方案。"
  },
  "parse_error": null
 }

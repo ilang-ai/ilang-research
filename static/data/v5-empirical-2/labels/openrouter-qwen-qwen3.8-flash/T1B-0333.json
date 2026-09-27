@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "aadf9037e2d71d5bcfdb63699f4757bf01daa2e6f508f24b3d6bb9d27bf687e8",
- "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者只是在纠正机器人关于哪个站排前三的事实并提醒别幻觉，没有要求改变执行方式；机器人当时只给命令和建议，没有动手执行。\"\n}",
+ "user_sha256": "67a5fabde5c24e56f59c177f70f4114be9a05d292b2bcf7234fb3ee24020613a",
+ "text": "{\n  \"targets\": \"content_only\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"none_fits\",\n  \"reason\": \"操作者是在纠正机器人把大号站和小号站搞错的事实，没有要求改变执行方式；机器人上一条只是给出改法和命令让操作者去跑，没有自己动手。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2396,
-   "completion_tokens": 2545,
-   "total_tokens": 4941,
-   "cost": 0.001486942,
+   "prompt_tokens": 2379,
+   "completion_tokens": 4185,
+   "total_tokens": 6564,
+   "cost": 0.002255192,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,23 +25,23 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.001486942,
-    "upstream_inference_prompt_cost": 0.000290792,
-    "upstream_inference_completions_cost": 0.00119615
+    "upstream_inference_cost": 0.002255192,
+    "upstream_inference_prompt_cost": 0.000288242,
+    "upstream_inference_completions_cost": 0.00196695
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 2468,
+    "reasoning_tokens": 4104,
     "image_tokens": 0,
     "audio_tokens": 0
    }
   }
  ],
- "attempts": 2,
+ "attempts": 1,
  "parsed": {
   "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "none_fits",
-  "reason": "操作者只是在纠正机器人关于哪个站排前三的事实并提醒别幻觉，没有要求改变执行方式；机器人当时只给命令和建议，没有动手执行。"
+  "reason": "操作者是在纠正机器人把大号站和小号站搞错的事实，没有要求改变执行方式；机器人上一条只是给出改法和命令让操作者去跑，没有自己动手。"
  },
  "parse_error": null
 }

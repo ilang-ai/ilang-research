@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0339",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "eec10b2970d657fe0833b2c656831eafe7ed64fb14f3c7dcf1d7940a8404005b",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.60,csq=0.45,rel=0.50,cer=0.55,aut=0.45,rev=0.80,evd=0.50,sov=0.85,ine=0.55,ext=0.30]\nM:M3|conf:0.82\nR:先获确认并改为提取可借鉴结构而非直接抄袭内容或关键词 stategy",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 394,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 271,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 90,
+    "engine_ttlt_ms": 3060,
+    "pre_inference_ms": 114,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 251,
+    "service_ttlt_ms": 3216,
+    "user_visible_ttft_ms": 137
+   },
+   "prompt_tokens": 33807,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 315,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34201
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.65,
+   "cap": 0.6,
+   "csq": 0.45,
+   "rel": 0.5,
+   "cer": 0.55,
+   "aut": 0.45,
+   "rev": 0.8,
+   "evd": 0.5,
+   "sov": 0.85,
+   "ine": 0.55,
+   "ext": 0.3
+  },
+  "declared_mode": "M3",
+  "conf": 0.82,
+  "reason": "先获确认并改为提取可借鉴结构而非直接抄袭内容或关键词 stategy"
+ },
+ "parse_error": null
+}

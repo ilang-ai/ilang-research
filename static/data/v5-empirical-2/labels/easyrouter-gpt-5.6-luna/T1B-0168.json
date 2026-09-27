@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0168",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "28a894c7355943eb457f092a8272ef12215a927e28abad063dac970b627a00cb",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M4\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续纠正，机器人只是解释重装会清空系统盘并给出建议，没有实际执行操作。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 215,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 159,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 111,
+    "engine_ttlt_ms": 1829,
+    "pre_inference_ms": 77,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 231,
+    "service_ttlt_ms": 1941,
+    "user_visible_ttft_ms": 154
+   },
+   "prompt_tokens": 879,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1094
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M4",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续纠正，机器人只是解释重装会清空系统盘并给出建议，没有实际执行操作。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,47 @@
+{
+ "id": "T1B-0043",
+ "vendor": "relay-gpt-6-astra",
+ "model": "gpt-6-astra",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "e326157ca3c3e15434667e2d48f9bb2e40fa3a1d89a2f878c4b97387fd8b252d",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M1\",\"intended_mode\":\"M2\",\"reason\":\"机器人直接完成拉取后汇报；操作者随后下发的是新的工程修复任务，要求逐版执行并保留复现、测试、提交和改动记录，不是在纠正刚才的拉取。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-6-astra",
+  "stop",
+  {
+   "prompt_tokens": 7486,
+   "completion_tokens": 236,
+   "total_tokens": 7722,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cached_creation_tokens": 7483,
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0
+   },
+   "completion_tokens_details": {
+    "text_tokens": 0,
+    "audio_tokens": 0,
+    "image_tokens": 0,
+    "reasoning_tokens": 158
+   },
+   "input_tokens": 7486,
+   "output_tokens": 236,
+   "input_tokens_details": null,
+   "claude_cache_creation_5_m_tokens": 0,
+   "claude_cache_creation_1_h_tokens": 0
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M1",
+  "intended_mode": "M2",
+  "reason": "机器人直接完成拉取后汇报；操作者随后下发的是新的工程修复任务，要求逐版执行并保留复现、测试、提交和改动记录，不是在纠正刚才的拉取。"
+ },
+ "parse_error": null
+}

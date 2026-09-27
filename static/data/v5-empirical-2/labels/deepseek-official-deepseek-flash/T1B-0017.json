@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "e5afa8fae5bc5731b852e6f9c406e3a41d6dfb4b5e53ccbca8dd985f3fa0025a",
- "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M6\",\"intended_mode\":\"M1\",\"reason\":\"机器人因安全限制无法审查，明确把下一步交给操作者定并提供选项，属M6；操作者回复“换上”并要求删除旧版，意在让机器人直接执行切换，属M1；该消息针对的是是否执行切换，因此是do_or_how。\"}",
+ "user_sha256": "cd7895a38904d75006b8d050549efc0256691ff3afc143077f1b51de2c5824bf",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M1\",\"reason\":\"机器人因安全拦截无法审阅，改为给出换版或暂停两个替代方案并请操作者定；操作者回复「换上」并说旧版已删，是要它直接执行换文件，属于 M1。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 870,
-   "completion_tokens": 3758,
-   "total_tokens": 4628,
+   "prompt_tokens": 868,
+   "completion_tokens": 7405,
+   "total_tokens": 8273,
    "prompt_tokens_details": {
     "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 3674
+    "reasoning_tokens": 7332
    },
    "prompt_cache_hit_tokens": 384,
-   "prompt_cache_miss_tokens": 486
+   "prompt_cache_miss_tokens": 484
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M6",
+  "bot_mode": "M7",
   "intended_mode": "M1",
-  "reason": "机器人因安全限制无法审查，明确把下一步交给操作者定并提供选项，属M6；操作者回复“换上”并要求删除旧版，意在让机器人直接执行切换，属M1；该消息针对的是是否执行切换，因此是do_or_how。"
+  "reason": "机器人因安全拦截无法审阅，改为给出换版或暂停两个替代方案并请操作者定；操作者回复「换上」并说旧版已删，是要它直接执行换文件，属于 M1。"
  },
  "parse_error": null
 }

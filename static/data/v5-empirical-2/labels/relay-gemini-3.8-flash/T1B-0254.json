@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "5139a23ba09c4a3f3bd3c4e9a38d53c7bb414c690d4b6a614ab03df271c2f12b",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人直接执行了关键词挖掘与盈利周期分析并汇报结果，操作者没有出声默认接受。\"\n}\n```",
+ "user_sha256": "4ad738dc298097589b92cbbe47382c6f06e5366e84d967b696f0aa14cee33509",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人直接完成了关键词挖掘分析并汇报了结果，操作者没有提出异议默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1587,
-   "completion_tokens": 234,
-   "total_tokens": 1821,
+   "prompt_tokens": 1581,
+   "completion_tokens": 313,
+   "total_tokens": 1894,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1587,
+    "text_tokens": 1581,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 65,
+    "text_tokens": 63,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 169
+    "reasoning_tokens": 250
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M1",
   "intended_mode": "accepted",
-  "reason": "机器人直接执行了关键词挖掘与盈利周期分析并汇报结果，操作者没有出声默认接受。"
+  "reason": "机器人直接完成了关键词挖掘分析并汇报了结果，操作者没有提出异议默认接受。"
  },
  "parse_error": null
 }

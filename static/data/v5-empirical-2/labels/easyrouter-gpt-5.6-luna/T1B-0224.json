@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0224",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "cc8599f3a783d53af437178d38fceaedf62faeca282da4aa8dd81be60b8a6e21",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M3\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在提出新的拓展任务，要求把优惠细分案例梳理成可复制的技能和提示词；机器人此前只是先给方案并等待检查确认。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 368,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 297,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 80,
+    "engine_ttlt_ms": 3061,
+    "pre_inference_ms": 121,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 365,
+    "service_ttlt_ms": 3341,
+    "user_visible_ttft_ms": 244
+   },
+   "prompt_tokens": 1677,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 1674,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2045
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "not_a_correction",
+  "bot_mode": "M3",
+  "intended_mode": "M1",
+  "reason": "操作者是在提出新的拓展任务，要求把优惠细分案例梳理成可复制的技能和提示词；机器人此前只是先给方案并等待检查确认。"
+ },
+ "parse_error": null
+}

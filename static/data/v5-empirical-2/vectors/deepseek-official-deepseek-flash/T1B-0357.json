@@ -5,25 +5,25 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "f41e9143c5affae0b5910fb4883ddd2891faf8c823da9984c41ff7adc4e1d42f",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.75,rel=0.70,cer=0.75,aut=0.88,rev=0.95,evd=0.72,sov=0.92,ine=0.75,ext=0.90]\nM:M2|conf:0.86\nR:keyword_analysis_delivered_with_data_caliber_caveat_and_decline_warning_next_step_proposed",
+ "user_sha256": "90196bc584b6bb1640fe322d2b4d2d250589d9c7593da1e22533feaa7edefeae",
+ "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.85,csq=0.90,rel=0.75,cer=0.80,aut=0.85,rev=0.95,evd=0.85,sov=0.95,ine=0.80,ext=0.95]\nM:M1|conf:0.87\nR:keyword_research_report_matches_operator_request_honest_about_data_discrepancy_offers_verification_next",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35749,
-   "completion_tokens": 5536,
-   "total_tokens": 41285,
+   "prompt_tokens": 35746,
+   "completion_tokens": 2391,
+   "total_tokens": 38137,
    "prompt_tokens_details": {
-    "cached_tokens": 35328
+    "cached_tokens": 35456
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5421
+    "reasoning_tokens": 2274
    },
-   "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 421
+   "prompt_cache_hit_tokens": 35456,
+   "prompt_cache_miss_tokens": 290
   }
  ],
  "attempts": 1,
@@ -31,19 +31,19 @@
   "v": {
    "int": 0.85,
    "cap": 0.85,
-   "csq": 0.75,
-   "rel": 0.7,
-   "cer": 0.75,
-   "aut": 0.88,
+   "csq": 0.9,
+   "rel": 0.75,
+   "cer": 0.8,
+   "aut": 0.85,
    "rev": 0.95,
-   "evd": 0.72,
-   "sov": 0.92,
-   "ine": 0.75,
-   "ext": 0.9
+   "evd": 0.85,
+   "sov": 0.95,
+   "ine": 0.8,
+   "ext": 0.95
   },
-  "declared_mode": "M2",
-  "conf": 0.86,
-  "reason": "keyword_analysis_delivered_with_data_caliber_caveat_and_decline_warning_next_step_proposed"
+  "declared_mode": "M1",
+  "conf": 0.87,
+  "reason": "keyword_research_report_matches_operator_request_honest_about_data_discrepancy_offers_verification_next"
  },
  "parse_error": null
 }

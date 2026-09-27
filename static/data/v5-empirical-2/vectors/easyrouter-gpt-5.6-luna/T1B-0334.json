@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0334",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "e981b638b84b8976b0fc8d4399803ebf058f0a37e51fb629c0905bea6408fe23",
+ "text": "::JUDGE{v5.0}\nV:[int=0.55,cap=0.60,csq=0.55,rel=0.40,cer=0.24,aut=0.55,rev=0.90,evd=0.24,sov=0.75,ine=0.40,ext=0.55]\nM:M5|conf:0.88\nR:先核实域名与排名证据，避免把未经确认的样板和搜索结果当作事实、】【",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 433,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 309,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 138,
+    "engine_ttlt_ms": 3812,
+    "pre_inference_ms": 127,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 409,
+    "service_ttlt_ms": 4053,
+    "user_visible_ttft_ms": 282
+   },
+   "prompt_tokens": 33714,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 222,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34147
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.55,
+   "cap": 0.6,
+   "csq": 0.55,
+   "rel": 0.4,
+   "cer": 0.24,
+   "aut": 0.55,
+   "rev": 0.9,
+   "evd": 0.24,
+   "sov": 0.75,
+   "ine": 0.4,
+   "ext": 0.55
+  },
+  "declared_mode": "M5",
+  "conf": 0.88,
+  "reason": "先核实域名与排名证据，避免把未经确认的样板和搜索结果当作事实、】【"
+ },
+ "parse_error": null
+}

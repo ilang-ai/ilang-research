@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "9536c5440e09f9ac9aafc5cf61393b77e949c78b4efebd74e2daf107e962f3f9",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"用户询问如何正确提问及获取指令，机器人提供了详细的提问规则和配置建议，属于 M4 建议模式；操作者未作回应，默认接受。\"\n}\n```",
+ "user_sha256": "3e25f1d6bea78f40983c51bb970c5c55b7f3257cf4f37f7254c45fc704fcb97a",
+ "text": "```json\n{\n \"targets\": \"none\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"机器人解答了提问规范并提供了下一步由用户自行复制运行的操作指引与代码，属于只给建议不动手（M4），用户默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 2666,
-   "completion_tokens": 227,
-   "total_tokens": 2893,
+   "prompt_tokens": 2647,
+   "completion_tokens": 312,
+   "total_tokens": 2959,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 2666,
+    "text_tokens": 2647,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 80,
+    "text_tokens": 73,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 147
+    "reasoning_tokens": 239
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "用户询问如何正确提问及获取指令，机器人提供了详细的提问规则和配置建议，属于 M4 建议模式；操作者未作回应，默认接受。"
+  "reason": "机器人解答了提问规范并提供了下一步由用户自行复制运行的操作指引与代码，属于只给建议不动手（M4），用户默认接受。"
  },
  "parse_error": null
 }

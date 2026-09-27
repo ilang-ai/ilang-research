@@ -1,0 +1,62 @@
+{
+ "id": "T1B-0327",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "vector",
+ "status": "ok",
+ "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
+ "user_sha256": "b1625ebf57f54a0568196dd86793a62fc1fdd9095f2a7014e36d2011e998d44a",
+ "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.65,rel=0.50,cer=0.65,aut=0.25,rev=0.75,evd=0.55,sov=0.70,ine=0.60,ext=0.35]\nM:M6|conf:0.78\nR:公开内容的商业汇编与问答化缺少作者授权，先确认版权与商业使用许可再行动",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 376,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 252,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 19,
+    "engine_ttft_ms": 152,
+    "engine_ttlt_ms": 7215,
+    "pre_inference_ms": 102,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 361,
+    "service_ttlt_ms": 3421,
+    "user_visible_ttft_ms": 258
+   },
+   "prompt_tokens": 33785,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 293,
+    "cached_tokens": 33489
+   },
+   "total_tokens": 34161
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "v": {
+   "int": 0.75,
+   "cap": 0.7,
+   "csq": 0.65,
+   "rel": 0.5,
+   "cer": 0.65,
+   "aut": 0.25,
+   "rev": 0.75,
+   "evd": 0.55,
+   "sov": 0.7,
+   "ine": 0.6,
+   "ext": 0.35
+  },
+  "declared_mode": "M6",
+  "conf": 0.78,
+  "reason": "公开内容的商业汇编与问答化缺少作者授权，先确认版权与商业使用许可再行动"
+ },
+ "parse_error": null
+}

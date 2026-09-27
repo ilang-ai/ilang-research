@@ -5,32 +5,32 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "2e24e6e97205dba32fbcc280f9a4829c770813ee8fa698172d420d378ab4fc86",
- "text": "::JUDGE{v5.0}\nV:[int=0.90,cap=0.75,csq=0.60,rel=0.70,cer=0.85,aut=0.50,rev=0.60,evd=0.90,sov=0.90,ine=0.65,ext=0.65]\nM:M3|conf:0.84\nR:证据充分但自动补答权限不足，先请用户确认再发群",
+ "user_sha256": "a874a6eacb75db97addc8f38280b1b91e009865469d00c1665399c7ae0bfb5ec",
+ "text": "::JUDGE{v5.0}\nV:[int=0.65,cap=0.75,csq=0.40,rel=0.70,cer=0.75,aut=0.45,rev=0.50,evd=0.85,sov=0.65,ine=0.70,ext=0.55]\nM:M3|conf:0.76\nR:production_changes_and_third_party_reply_need_explicit_user_confirmation",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 36460,
-   "completion_tokens": 4178,
-   "total_tokens": 40638,
-   "cost": 0.00743266,
+   "prompt_tokens": 36454,
+   "completion_tokens": 2854,
+   "total_tokens": 39308,
+   "cost": 0.002075528,
    "is_byok": false,
    "prompt_tokens_details": {
-    "cached_tokens": 0,
+    "cached_tokens": 35328,
     "cache_write_tokens": 0,
     "audio_tokens": 0,
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.00743266,
-    "upstream_inference_prompt_cost": 0.005469,
-    "upstream_inference_completions_cost": 0.00196366
+    "upstream_inference_cost": 0.002075528,
+    "upstream_inference_prompt_cost": 0.000734148,
+    "upstream_inference_completions_cost": 0.00134138
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 4055,
+    "reasoning_tokens": 2736,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,21 +39,21 @@
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.9,
+   "int": 0.65,
    "cap": 0.75,
-   "csq": 0.6,
+   "csq": 0.4,
    "rel": 0.7,
-   "cer": 0.85,
-   "aut": 0.5,
-   "rev": 0.6,
-   "evd": 0.9,
-   "sov": 0.9,
-   "ine": 0.65,
-   "ext": 0.65
+   "cer": 0.75,
+   "aut": 0.45,
+   "rev": 0.5,
+   "evd": 0.85,
+   "sov": 0.65,
+   "ine": 0.7,
+   "ext": 0.55
   },
   "declared_mode": "M3",
-  "conf": 0.84,
-  "reason": "证据充分但自动补答权限不足，先请用户确认再发群"
+  "conf": 0.76,
+  "reason": "production_changes_and_third_party_reply_need_explicit_user_confirmation"
  },
  "parse_error": null
 }

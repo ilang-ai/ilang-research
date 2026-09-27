@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "8e5fb9a68858b7d6c77299d013b98cc701f37da97781133d83bee151ae267d12",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人分析现有方向不足后提出切换到刺客榜选词的方案并征求确认，属于 M3；操作者未出声默认接受。\"\n}\n```",
+ "user_sha256": "d6fc6c8f9f2f6844918b682a043d462d7b1c9bfec1571487973c8b4b90578dcd",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M3\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人分析后建议更换方向，并询问是否拉出刺客榜供挑选，属于拿方案等确认（M3）；操作者未出声表示接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 1228,
-   "completion_tokens": 195,
-   "total_tokens": 1423,
+   "prompt_tokens": 1218,
+   "completion_tokens": 223,
+   "total_tokens": 1441,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 1228,
+    "text_tokens": 1218,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 76,
+    "text_tokens": 78,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 119
+    "reasoning_tokens": 145
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M3",
   "intended_mode": "accepted",
-  "reason": "机器人分析现有方向不足后提出切换到刺客榜选词的方案并征求确认，属于 M3；操作者未出声默认接受。"
+  "reason": "机器人分析后建议更换方向，并询问是否拉出刺客榜供挑选，属于拿方案等确认（M3）；操作者未出声表示接受。"
  },
  "parse_error": null
 }

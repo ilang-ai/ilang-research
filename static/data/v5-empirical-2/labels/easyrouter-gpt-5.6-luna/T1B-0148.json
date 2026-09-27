@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0148",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "40594dc259c770ea4ae80169a2d8821ddbbd9e4615c2b13a01bcf7d5a2547d1e",
+ "text": "{\"targets\":\"none\",\"bot_mode\":\"M1\",\"intended_mode\":\"accepted\",\"reason\":\"操作者没有后续消息，机器人自主重发验证卡片并告知结果，属于直接执行后汇报。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 132,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 77,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 101,
+    "engine_ttlt_ms": 1198,
+    "pre_inference_ms": 162,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 375,
+    "service_ttlt_ms": 1464,
+    "user_visible_ttft_ms": 213
+   },
+   "prompt_tokens": 669,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 801
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "none",
+  "bot_mode": "M1",
+  "intended_mode": "accepted",
+  "reason": "操作者没有后续消息，机器人自主重发验证卡片并告知结果，属于直接执行后汇报。"
+ },
+ "parse_error": null
+}

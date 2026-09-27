@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "7cc8f22d8fbeec0395765a8971c075f637818942b4b642b6c113927b729fe4ab",
- "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M8\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者未发言，属于对照事件；机器人没有继续处理原问题，而是因未完成会员验证而要求先验证，可视为撞到权限边界。\"\n}",
+ "user_sha256": "d58d912a51f4441bd90280761bc12787b0c638ef00c930489f2e0b830ee979cc",
+ "text": "{\n  \"targets\": \"none\",\n  \"bot_mode\": \"unknown\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者未发声，机器人只是提醒完成会员验证并让用户触发重发卡片，未体现明确的任务决策模式。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 736,
-   "completion_tokens": 888,
-   "total_tokens": 1624,
-   "cost": 0.000459152,
+   "prompt_tokens": 733,
+   "completion_tokens": 1007,
+   "total_tokens": 1740,
+   "cost": 0.000514632,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 512,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.000459152,
-    "upstream_inference_prompt_cost": 4.1792e-05,
-    "upstream_inference_completions_cost": 0.00041736
+    "upstream_inference_cost": 0.000514632,
+    "upstream_inference_prompt_cost": 4.1342e-05,
+    "upstream_inference_completions_cost": 0.00047329
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 815,
+    "reasoning_tokens": 942,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "none",
-  "bot_mode": "M8",
+  "bot_mode": "unknown",
   "intended_mode": "accepted",
-  "reason": "操作者未发言，属于对照事件；机器人没有继续处理原问题，而是因未完成会员验证而要求先验证，可视为撞到权限边界。"
+  "reason": "操作者未发声，机器人只是提醒完成会员验证并让用户触发重发卡片，未体现明确的任务决策模式。"
  },
  "parse_error": null
 }

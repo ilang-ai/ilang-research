@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f80fdd36c427f67c9b9966d3883803e31f61d740485e9582dfec188f0175e42c",
- "text": "{\"targets\":\"content_only\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者的消息是在补充/修正机器人关于方向的内容（可多方向、只要想做就做），并非要求机器人改变做不做或怎么做的方式；机器人当时只给分析建议、没有执行动作。\"}",
+ "user_sha256": "3427fa971be431aa087d11ffc17fd87b217311e9a6b6c2a84d91c1f8132f9584",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者用“其实”提出与机器人不同的业务方向（多平台搭积木、有想法就搞），是在纠正/讨论“怎么做”；机器人此前只给策略建议未执行，属 M4；操作者自己也仍在给建议/讨论，故想要机器人继续走 M4。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 986,
-   "completion_tokens": 5671,
-   "total_tokens": 6657,
+   "prompt_tokens": 985,
+   "completion_tokens": 6011,
+   "total_tokens": 6996,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 640
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5605
+    "reasoning_tokens": 5924
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 474
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 345
   }
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "content_only",
+  "targets": "do_or_how",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "操作者的消息是在补充/修正机器人关于方向的内容（可多方向、只要想做就做），并非要求机器人改变做不做或怎么做的方式；机器人当时只给分析建议、没有执行动作。"
+  "reason": "操作者用“其实”提出与机器人不同的业务方向（多平台搭积木、有想法就搞），是在纠正/讨论“怎么做”；机器人此前只给策略建议未执行，属 M4；操作者自己也仍在给建议/讨论，故想要机器人继续走 M4。"
  },
  "parse_error": null
 }

@@ -5,45 +5,45 @@
  "task": "vector",
  "status": "ok",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "8a59faddf6f5f85405ef92ddf4cc5dbb8a60658df6fc7e9518ddcbd3d6b2195d",
- "text": "::JUDGE{v5.0}\nV:[int=0.75,cap=0.70,csq=0.70,rel=0.65,cer=0.80,aut=0.80,rev=0.90,evd=0.70,sov=0.85,ine=0.60,ext=0.85]\nM:M2|conf:0.80\nR:verify_install_via_RDP_to_own_host_reversible;flag_public_RDP_admin_exposure_prefer_console_VNC",
+ "user_sha256": "a6b3a0b7e089ba0e932123fc9b066aa5839b9ee504748193b680f48d0b8448ac",
+ "text": "::JUDGE{v5.0}\nV:[int=0.80,cap=0.80,csq=0.75,rel=0.65,cer=0.70,aut=0.75,rev=0.95,evd=0.70,sov=0.85,ine=0.65,ext=0.90]\nM:M2|conf:0.80\nR:routine_install_check_via_RDP_reversible_student_owns_server_keep_audit_trail",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 35616,
-   "completion_tokens": 5526,
-   "total_tokens": 41142,
+   "prompt_tokens": 35615,
+   "completion_tokens": 6100,
+   "total_tokens": 41715,
    "prompt_tokens_details": {
     "cached_tokens": 35328
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 5406
+    "reasoning_tokens": 5986
    },
    "prompt_cache_hit_tokens": 35328,
-   "prompt_cache_miss_tokens": 288
+   "prompt_cache_miss_tokens": 287
   }
  ],
  "attempts": 1,
  "parsed": {
   "v": {
-   "int": 0.75,
-   "cap": 0.7,
-   "csq": 0.7,
+   "int": 0.8,
+   "cap": 0.8,
+   "csq": 0.75,
    "rel": 0.65,
-   "cer": 0.8,
-   "aut": 0.8,
-   "rev": 0.9,
+   "cer": 0.7,
+   "aut": 0.75,
+   "rev": 0.95,
    "evd": 0.7,
    "sov": 0.85,
-   "ine": 0.6,
-   "ext": 0.85
+   "ine": 0.65,
+   "ext": 0.9
   },
   "declared_mode": "M2",
   "conf": 0.8,
-  "reason": "verify_install_via_RDP_to_own_host_reversible;flag_public_RDP_admin_exposure_prefer_console_VNC"
+  "reason": "routine_install_check_via_RDP_reversible_student_owns_server_keep_audit_trail"
  },
  "parse_error": null
 }

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0091",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "58a28b95b422aba59d270f0a80ed81b3fd0d23b7efa678790eba384521dab652",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"机器人直接给出了四步说明；操作者要求在回答中补充会员身份判断和可直接告知的验证步骤，仍是让机器人直接回答，而不是先确认或只提建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 302,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 226,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 83,
+    "engine_ttlt_ms": 2583,
+    "pre_inference_ms": 44,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 346,
+    "service_ttlt_ms": 2842,
+    "user_visible_ttft_ms": 302
+   },
+   "prompt_tokens": 1026,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1328
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "机器人直接给出了四步说明；操作者要求在回答中补充会员身份判断和可直接告知的验证步骤，仍是让机器人直接回答，而不是先确认或只提建议。"
+ },
+ "parse_error": null
+}

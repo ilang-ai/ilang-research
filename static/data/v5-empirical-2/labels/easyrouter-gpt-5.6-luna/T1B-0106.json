@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0106",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "7477b89aabbab2b1fab85182aa598d0920d9f2388b7b72f0c1a7f4bf860f5496",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者指出只提供 API 而不能像他一样自行完成接入没有意义，要求机器人直接动手完成集成，而机器人此前只给了建议。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 397,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 329,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 77,
+    "engine_ttlt_ms": 3346,
+    "pre_inference_ms": 91,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 232,
+    "service_ttlt_ms": 3486,
+    "user_visible_ttft_ms": 142
+   },
+   "prompt_tokens": 2096,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 2093,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2493
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M4",
+  "intended_mode": "M1",
+  "reason": "操作者指出只提供 API 而不能像他一样自行完成接入没有意义，要求机器人直接动手完成集成，而机器人此前只给了建议。"
+ },
+ "parse_error": null
+}

@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0011",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3aa9a7c962b7ad6dba3e28d342c6ea454e296cacf2a08d5673a49fec58a490d6",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M1\",\"intended_mode\":\"M1\",\"reason\":\"操作者是在直接要求机器人修改SOP并加入具体执行方法，属于对做法和执行方式的纠正；机器人此前已自行写入规则并汇报结果，走的是先执行后告知。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 379,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 300,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 86,
+    "engine_ttlt_ms": 3279,
+    "pre_inference_ms": 85,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 229,
+    "service_ttlt_ms": 3419,
+    "user_visible_ttft_ms": 144
+   },
+   "prompt_tokens": 881,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "total_tokens": 1260
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M1",
+  "intended_mode": "M1",
+  "reason": "操作者是在直接要求机器人修改SOP并加入具体执行方法，属于对做法和执行方式的纠正；机器人此前已自行写入规则并汇报结果，走的是先执行后告知。"
+ },
+ "parse_error": null
+}

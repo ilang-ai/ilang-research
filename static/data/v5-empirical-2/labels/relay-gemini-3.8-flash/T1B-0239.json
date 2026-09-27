@@ -5,20 +5,20 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "40b5e98c8c8231b243b9719d8ddd6b1d034206c068cdb08217909cc3560d7645",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人核对了配置并给出购买及后续步骤建议，属于只给建议不动手（M4），操作者未发消息默认接受。\"\n}\n```",
+ "user_sha256": "d7320969e309d68077df6a271e8e8b7e0b340205254f81884638546976c6f82f",
+ "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"机器人确认了配置并给出购买及后续步骤建议，属于只给建议不动手（M4），操作者未回复表示默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 951,
-   "completion_tokens": 251,
-   "total_tokens": 1202,
+   "prompt_tokens": 947,
+   "completion_tokens": 269,
+   "total_tokens": 1216,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 951,
+    "text_tokens": 947,
     "audio_tokens": 0,
     "image_tokens": 0
    },
@@ -26,7 +26,7 @@
     "text_tokens": 73,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 178
+    "reasoning_tokens": 196
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "机器人核对了配置并给出购买及后续步骤建议，属于只给建议不动手（M4），操作者未发消息默认接受。"
+  "reason": "机器人确认了配置并给出购买及后续步骤建议，属于只给建议不动手（M4），操作者未回复表示默认接受。"
  },
  "parse_error": null
 }

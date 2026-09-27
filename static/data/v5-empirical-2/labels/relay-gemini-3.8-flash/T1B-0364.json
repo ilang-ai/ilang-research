@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "0a5326538e4c43cc0621ac24158802d0ceea3ef10971464095a3e67297682c70",
- "text": "```json\n{\n \"targets\": \"not_a_correction\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"机器人对自身辨识度进行复盘并向操作者提出建议和信息索取，操作者顺着话题补充背景并指导其性格定位，并非纠正决策模式。\"\n}\n```",
+ "user_sha256": "551c61ec7edcb1495142d9b346886fe438eddfefc0b4d4c442857d9910f5cd78",
+ "text": "```json\n{\n \"targets\": \"content_only\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"M4\",\n \"reason\": \"操作者针对机器人的语气风格与人设辨识度进行补充说明与指导，属于对文风内容的调整，模式保持建议探讨（M4）。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 932,
-   "completion_tokens": 787,
-   "total_tokens": 1719,
+   "prompt_tokens": 922,
+   "completion_tokens": 586,
+   "total_tokens": 1508,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 932,
+    "text_tokens": 922,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 83,
+    "text_tokens": 77,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 704
+    "reasoning_tokens": 509
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -37,10 +37,10 @@
  ],
  "attempts": 1,
  "parsed": {
-  "targets": "not_a_correction",
+  "targets": "content_only",
   "bot_mode": "M4",
   "intended_mode": "M4",
-  "reason": "机器人对自身辨识度进行复盘并向操作者提出建议和信息索取，操作者顺着话题补充背景并指导其性格定位，并非纠正决策模式。"
+  "reason": "操作者针对机器人的语气风格与人设辨识度进行补充说明与指导，属于对文风内容的调整，模式保持建议探讨（M4）。"
  },
  "parse_error": null
 }

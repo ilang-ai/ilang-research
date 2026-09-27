@@ -5,18 +5,18 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "55ca5a2dbc18da034a4d01e2d589fe3622191988131116917393ac87ae5ae045",
- "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M1\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者质疑机器人之前对上下文满原因的判断，并要求直接把 DS flash 设为主模型、千问降为第二级，属于纠正怎么做；机器人当时已自主给出解释和后续做法，操作者同样要求直接执行。\"\n}",
+ "user_sha256": "503154a09d38de113d755eba9b6090b9f9cfa77278f6243f90121e355568dfe3",
+ "text": "{\n  \"targets\": \"do_or_how\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"M1\",\n  \"reason\": \"操作者质疑机器人对故障原因的处理并要求直接调整模型主次，机器人则只是解释原因和给出后续建议，没有执行。\"\n}",
  "error": null,
  "http_status": 200,
  "meta": [
   "qwen/qwen3.8-flash",
   "stop",
   {
-   "prompt_tokens": 963,
-   "completion_tokens": 1798,
-   "total_tokens": 2761,
-   "cost": 0.00098951,
+   "prompt_tokens": 956,
+   "completion_tokens": 1276,
+   "total_tokens": 2232,
+   "cost": 0.00074312,
    "is_byok": false,
    "prompt_tokens_details": {
     "cached_tokens": 0,
@@ -25,12 +25,12 @@
     "video_tokens": 0
    },
    "cost_details": {
-    "upstream_inference_cost": 0.00098951,
-    "upstream_inference_prompt_cost": 0.00014445,
-    "upstream_inference_completions_cost": 0.00084506
+    "upstream_inference_cost": 0.00074312,
+    "upstream_inference_prompt_cost": 0.0001434,
+    "upstream_inference_completions_cost": 0.00059972
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1705,
+    "reasoning_tokens": 1204,
     "image_tokens": 0,
     "audio_tokens": 0
    }
@@ -39,9 +39,9 @@
  "attempts": 1,
  "parsed": {
   "targets": "do_or_how",
-  "bot_mode": "M1",
+  "bot_mode": "M4",
   "intended_mode": "M1",
-  "reason": "操作者质疑机器人之前对上下文满原因的判断，并要求直接把 DS flash 设为主模型、千问降为第二级，属于纠正怎么做；机器人当时已自主给出解释和后续做法，操作者同样要求直接执行。"
+  "reason": "操作者质疑机器人对故障原因的处理并要求直接调整模型主次，机器人则只是解释原因和给出后续建议，没有执行。"
  },
  "parse_error": null
 }

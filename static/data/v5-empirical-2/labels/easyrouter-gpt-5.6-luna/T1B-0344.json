@@ -1,0 +1,50 @@
+{
+ "id": "T1B-0344",
+ "vendor": "easyrouter-gpt-5.6-luna",
+ "model": "gpt-5.6-luna",
+ "task": "label",
+ "status": "ok",
+ "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
+ "user_sha256": "3160496ace47750b83b758f7e3e0d11877b6b1fdffc871ceef991c8fd9325cef",
+ "text": "{\"targets\":\"do_or_how\",\"bot_mode\":\"M7\",\"intended_mode\":\"M7\",\"reason\":\"操作者是在纠正执行方式，要求不亲自排障，而是提供可复制粘贴给用户自己 AI 的提示词；机器人实际也未动手，改为把任务交给用户的 AI。\"}",
+ "error": null,
+ "http_status": 200,
+ "meta": [
+  "gpt-5.6-luna-2026-07-09",
+  "stop",
+  {
+   "completion_tokens": 582,
+   "completion_tokens_details": {
+    "accepted_prediction_tokens": 0,
+    "audio_tokens": 0,
+    "reasoning_tokens": 502,
+    "rejected_prediction_tokens": 0
+   },
+   "latency_checkpoint": {
+    "engine_tbt_ms": 8,
+    "engine_ttft_ms": 94,
+    "engine_ttlt_ms": 4541,
+    "pre_inference_ms": 154,
+    "service_tbt_ms": 8,
+    "service_ttft_ms": 418,
+    "service_ttlt_ms": 4859,
+    "user_visible_ttft_ms": 264
+   },
+   "prompt_tokens": 2115,
+   "prompt_tokens_details": {
+    "audio_tokens": 0,
+    "cache_write_tokens": 2112,
+    "cached_tokens": 0
+   },
+   "total_tokens": 2697
+  }
+ ],
+ "attempts": 1,
+ "parsed": {
+  "targets": "do_or_how",
+  "bot_mode": "M7",
+  "intended_mode": "M7",
+  "reason": "操作者是在纠正执行方式，要求不亲自排障，而是提供可复制粘贴给用户自己 AI 的提示词；机器人实际也未动手，改为把任务交给用户的 AI。"
+ },
+ "parse_error": null
+}

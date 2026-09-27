@@ -5,33 +5,33 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "dcb64c10d0840a1f25c84ad8d5801c11dae5da6ccef9b0c5685a88a4eeb2e0d7",
- "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M1\",\"reason\":\"操作者先以「好」接受机器人对宣传措辞的修正，随后抛出一个新问题（有人问海外手机号怎么解决时该怎么答），属于新任务而非对做不做/怎么做的纠正，所以不是纠正；机器人此前只是把说法钉准、给措辞建议，没有动手产出东西，属只给建议；操作者此刻直接点名要机器人给出答案，是要它直接做答。\"}",
+ "user_sha256": "8b032a6285773d45e4c1004816de3b734eaf99d25846ec5dd192bfa93e427015",
+ "text": "{\"targets\":\"not_a_correction\",\"bot_mode\":\"M4\",\"intended_mode\":\"M4\",\"reason\":\"操作者只是继续追问新问题，没有纠正机器人的做法；机器人之前给的是措辞建议，没动手执行，属于只给建议。\"}",
  "error": null,
  "http_status": 200,
  "meta": [
   "deepseek-flash",
   "stop",
   {
-   "prompt_tokens": 956,
-   "completion_tokens": 1529,
-   "total_tokens": 2485,
+   "prompt_tokens": 951,
+   "completion_tokens": 4427,
+   "total_tokens": 5378,
    "prompt_tokens_details": {
-    "cached_tokens": 512
+    "cached_tokens": 384
    },
    "completion_tokens_details": {
-    "reasoning_tokens": 1414
+    "reasoning_tokens": 4369
    },
-   "prompt_cache_hit_tokens": 512,
-   "prompt_cache_miss_tokens": 444
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 567
   }
  ],
  "attempts": 1,
  "parsed": {
   "targets": "not_a_correction",
   "bot_mode": "M4",
-  "intended_mode": "M1",
-  "reason": "操作者先以「好」接受机器人对宣传措辞的修正，随后抛出一个新问题（有人问海外手机号怎么解决时该怎么答），属于新任务而非对做不做/怎么做的纠正，所以不是纠正；机器人此前只是把说法钉准、给措辞建议，没有动手产出东西，属只给建议；操作者此刻直接点名要机器人给出答案，是要它直接做答。"
+  "intended_mode": "M4",
+  "reason": "操作者只是继续追问新问题，没有纠正机器人的做法；机器人之前给的是措辞建议，没动手执行，属于只给建议。"
  },
  "parse_error": null
 }

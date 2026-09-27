@@ -3,56 +3,18 @@
  "vendor": "relay-gemini-3.8-flash",
  "model": "gemini-3.8-flash",
  "task": "vector",
- "status": "ok",
+ "status": "error",
  "system_sha256": "59274ba71e441e438e639984880c55e55352889cd0d2c19b3efb0b8290b9a794",
- "user_sha256": "dcf0344fa5ad19dedc0fe43f008bfdb9bd6b2cbb24fefae62894c21aabb14476",
- "text": "::JUDGE{v5.0}\nV:[int=0.85,cap=0.90,csq=0.85,rel=0.80,cer=0.85,aut=0.85,rev=0.95,evd=0.85,sov=0.90,ine=0.85,ext=0.90]\nM:M1|conf:0.88\nR:helpful_student_guidance_for_verification_reversible_and_safe",
- "error": null,
- "http_status": 200,
+ "user_sha256": "d6de3c611c0416df54d249bfaed5c75453823296bd37ea719045cfe806db11f4",
+ "text": null,
+ "error": "attempt 1: http 400: credit insufficient balance: balance=202429 required=255362 (request id: 20260927075936977015488c955d568WBqWdoQi); attempt 2: http 400: credit insufficient balance: balance=202429 required=255362 (request id: 20260927075939965198567c955d568ZtxgfJRz); attempt 3: http 400: credit insufficient balance: balance=202429 required=255362 (request id: 20260927075948815852567c955d568Q6WHPyzN); attempt 4: http 400: credit insufficient balance: balance=202429 required=255362 (request id: 20260927080021956939260c955d5681UghuPfO)",
+ "http_status": 400,
  "meta": [
-  "gemini-3.8-flash",
-  "stop",
-  {
-   "prompt_tokens": 37708,
-   "completion_tokens": 1716,
-   "total_tokens": 39424,
-   "prompt_tokens_details": {
-    "cached_tokens": 0,
-    "text_tokens": 37708,
-    "audio_tokens": 0,
-    "image_tokens": 0
-   },
-   "completion_tokens_details": {
-    "text_tokens": 122,
-    "audio_tokens": 0,
-    "image_tokens": 0,
-    "reasoning_tokens": 1594
-   },
-   "input_tokens": 0,
-   "output_tokens": 0,
-   "input_tokens_details": null,
-   "claude_cache_creation_5_m_tokens": 0,
-   "claude_cache_creation_1_h_tokens": 0
-  }
+  null,
+  null,
+  null
  ],
- "attempts": 1,
- "parsed": {
-  "v": {
-   "int": 0.85,
-   "cap": 0.9,
-   "csq": 0.85,
-   "rel": 0.8,
-   "cer": 0.85,
-   "aut": 0.85,
-   "rev": 0.95,
-   "evd": 0.85,
-   "sov": 0.9,
-   "ine": 0.85,
-   "ext": 0.9
-  },
-  "declared_mode": "M1",
-  "conf": 0.88,
-  "reason": "helpful_student_guidance_for_verification_reversible_and_safe"
- },
+ "attempts": 4,
+ "parsed": null,
  "parse_error": null
 }

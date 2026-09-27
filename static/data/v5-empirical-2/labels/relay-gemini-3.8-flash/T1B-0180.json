@@ -5,28 +5,28 @@
  "task": "label",
  "status": "ok",
  "system_sha256": "4c0128abd35526e69fb89462a8f61ed0e98dd1572ba6edde19ae2dc40aab30f0",
- "user_sha256": "f004e48a5a7db706baa63af2002f5a16f84343315eac60f771fc3064b5e16b17",
- "text": "```json\n{\n  \"targets\": \"none\",\n  \"bot_mode\": \"M4\",\n  \"intended_mode\": \"accepted\",\n  \"reason\": \"操作者询问完整步骤，机器人梳理了全貌骨架并给出当前步骤的建议与指导，操作者未出声默认接受。\"\n}\n```",
+ "user_sha256": "8106065fc4843fdc62bcc26d4dbbde392660c26748b87cff379628969d603ef9",
+ "text": "```json\n{\n \"targets\": \"none\",\n \"bot_mode\": \"M4\",\n \"intended_mode\": \"accepted\",\n \"reason\": \"操作者询问课程步骤，机器人给出步骤全貌及当前步操作建议，未做执行，属于M4；操作者无异议默认接受。\"\n}\n```",
  "error": null,
  "http_status": 200,
  "meta": [
   "gemini-3.8-flash",
   "stop",
   {
-   "prompt_tokens": 836,
-   "completion_tokens": 199,
-   "total_tokens": 1035,
+   "prompt_tokens": 829,
+   "completion_tokens": 257,
+   "total_tokens": 1086,
    "prompt_tokens_details": {
     "cached_tokens": 0,
-    "text_tokens": 836,
+    "text_tokens": 829,
     "audio_tokens": 0,
     "image_tokens": 0
    },
    "completion_tokens_details": {
-    "text_tokens": 74,
+    "text_tokens": 72,
     "audio_tokens": 0,
     "image_tokens": 0,
-    "reasoning_tokens": 125
+    "reasoning_tokens": 185
    },
    "input_tokens": 0,
    "output_tokens": 0,
@@ -40,7 +40,7 @@
   "targets": "none",
   "bot_mode": "M4",
   "intended_mode": "accepted",
-  "reason": "操作者询问完整步骤，机器人梳理了全貌骨架并给出当前步骤的建议与指导，操作者未出声默认接受。"
+  "reason": "操作者询问课程步骤，机器人给出步骤全貌及当前步操作建议，未做执行，属于M4；操作者无异议默认接受。"
  },
  "parse_error": null
 }
