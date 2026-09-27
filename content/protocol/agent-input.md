@@ -5,6 +5,12 @@ url: /protocol/agent-input/
 tags: ["iLang", "protocol", "judgment layer", "prompt injection", "agent security", "v5.0"]
 author: "SUN"
 description: "How the existing iLang v5.0 judgment layer handles prompt injection, self-replication, and privilege inheritance without new rules."
+images: ["favicon.png"]
+schemaType: "TechArticle"
+schemaAuthor:
+  type: "Organization"
+  name: "iLang Inc."
+  url: "https://ilang.ai"
 ---
 
 *How the existing v5.0 judgment layer handles prompt injection, self-replication, and privilege inheritance without new rules.*
@@ -107,20 +113,3 @@ This page is a reading of the specification, not a measurement. How closely a gi
 - [iLang specification](https://ilang.ai/spec/)
 - [iLang security](https://ilang.ai/security/)
 - The canon: [ilang-ai/ilang-spec](https://github.com/ilang-ai/ilang-spec), v5.0 Part II §1 (dimensions) and §3 (the f_v5 cascade); v4.0 §1 (input isolation) and the Authority Model
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "Agent Input Authority Mapping",
-  "description": "How the existing iLang v5.0 judgment layer handles prompt injection, self-replication, and privilege inheritance without new rules.",
-  "datePublished": "2026-09-27",
-  "dateModified": "2026-09-27",
-  "inLanguage": "en",
-  "url": "https://research.ilang.ai/protocol/agent-input/",
-  "mainEntityOfPage": "https://research.ilang.ai/protocol/agent-input/",
-  "author": {"@type": "Organization", "name": "iLang Inc.", "url": "https://ilang.ai"},
-  "publisher": {"@type": "Organization", "name": "iLang Inc.", "url": "https://ilang.ai"},
-  "about": "iLang v5.0 judgment layer"
-}
-</script>
