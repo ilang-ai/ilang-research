@@ -15,7 +15,7 @@ authors:
 repository-code: "https://github.com/ilang-ai/ilang-research"
 url: "https://github.com/ilang-ai/ilang-research"
 license: MIT
-version: "1.8.1"
+version: "1.9.0"
 date-released: "2026-09-27"
 keywords:
   - iLang
