@@ -42,7 +42,7 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 
 ##### Resources
 
-+ [Protocol Specification](https://github.com/ilang-ai/ilang-spec): v4.1 current stable, v5.0 public preview
++ [Protocol Specification](https://github.com/ilang-ai/ilang-spec): v5.0 released as 5.0.0 on 2026-09-29; v4.2 is the latest release of the v4 line
 + [Dictionary](https://github.com/ilang-ai/ilang-dict): 88 verbs, 29 core modifiers plus a 20-key media profile, 25 entities
 + [Official Website](https://ilang.ai)
 + [Specification](https://ilang.ai/spec/)
@@ -52,4 +52,4 @@ AI-to-AI structured communication. AI internal planning. Human-to-AI in AI's own
 
 iLang was designed by Max (@SUN) and co-authored with Claude Opus (@BRO), with review by GPT (@GPT) and Gemini (@GEMINI).
 
-Genesis: 2026-03-04 · v3.0 Final: 2026-04-25 · v4.0 Final: 2026-05-11 · v5.0 Pre: 2026-06 · v4.1 Media Profile: 2026-09-12 · Spec: ilang.ai
+Genesis: 2026-03-04 · v3.0 Final: 2026-04-25 · v4.0 Final: 2026-05-11 · v5.0 Pre: 2026-06 · v4.1 Media Profile: 2026-09-12 · v5.0.0: 2026-09-29 · Spec: ilang.ai
