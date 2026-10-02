@@ -1,7 +1,11 @@
 {{ define "title" }}404{{ end }}
 {{ define "main" }}
-  <div class="not-found">
-    <h1>Page not found</h1>
-    <p>Sorry, the requested page could not be found.</p>
+{{- $host := (urls.Parse site.BaseURL).Host | default "research.ilang.ai" }}
+  <div class="not-found page-hero">
+    <div class="container" data-path="{{ $host }} / ?">
+      <h1>Page not found</h1>
+      <p>Sorry, the requested page could not be found.</p>
+      <p class="back"><a class="lk" href="{{ "" | absLangURL }}">{{ site.Params.label.text | default site.Title }} <span class="arr fw" aria-hidden="true">→</span></a></p>
+    </div>
   </div>
 {{ end }}

@@ -1,9 +1,16 @@
+{{- /* Every tag, with the number of pages that carry it. */ -}}
 {{- define "main" }}
+{{- $host := (urls.Parse site.BaseURL).Host | default "research.ilang.ai" }}
 
-<header class="page-header">
+<header class="page-hero page-header">
+  <div class="container" data-path="{{ $host }} / {{ trim .RelPermalink "/" | replaceRE "/" " / " }}">
+    <h1>{{ .Title }}</h1>
+    <p class="count">{{ len .Data.Terms }} tags</p>
+  </div>
 </header>
 
-<ul class="terms-tags">
+<div class="container">
+  <ul class="terms-tags">
     {{- $type := .Type }}
     {{- range $key, $value := .Data.Terms.Alphabetical }}
     {{- $name := .Name }}
@@ -14,6 +21,7 @@
     </li>
     {{- end }}
     {{- end }}
-</ul>
+  </ul>
+</div>
 
 {{- end }}

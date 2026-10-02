@@ -1,0 +1,65 @@
+{{- /* The home page: what the site is, how much is in it, and the register of everything published, section by
+     section. Titles, dates and counts come from the pages themselves; the words of the first screen are the ones
+     in config.yml (params.profileMode). */ -}}
+{{- define "main" }}
+{{- $p := site.Params.profileMode }}
+{{- $names := dict "email" "Email" "github" "GitHub" "reddit" "Reddit" "orcid" "ORCID" }}
+{{- $sections := slice }}
+{{- range slice "papers" "datasets" "protocol" "opensource" }}
+{{- with site.GetPage (printf "/%s" .) }}{{ $sections = $sections | append . }}{{ end }}
+{{- end }}
+
+<section class="hero">
+  <div class="container" data-path="{{ (urls.Parse site.BaseURL).Host | default "research.ilang.ai" }}">
+    <div class="hero-grid">
+      <div class="hero-text">
+        {{- /* the words in brackets stay on one line; the text itself is the title from config.yml */}}
+        <h1 class="display">{{ $p.title | default site.Title | markdownify | replaceRE `(\([^)]*\))` `<span class="nb">$1</span>` | safeHTML }}</h1>
+        <p class="lede">{{ $p.subtitle | markdownify }}</p>
+        <ul class="hero-links">
+          {{- range site.Params.socialIcons }}
+          {{- $name := index $names (lower .name) | default .name }}
+          {{- if strings.HasPrefix .url "mailto:" }}
+          <li>{{ "<!--email_off-->" | safeHTML }}<a class="lk" href="{{ .url | safeURL }}" title="{{ .name }}">{{ $name }}</a>{{ "<!--/email_off-->" | safeHTML }}</li>
+          {{- else }}
+          <li><a class="lk" href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me" title="{{ .name }}">{{ $name }} <span class="arr" aria-hidden="true">↗</span></a></li>
+          {{- end }}
+          {{- end }}
+        </ul>
+      </div>
+      {{- with $p.imageUrl }}
+      <figure class="plate" aria-hidden="true">
+        <img draggable="false" src="{{ . | absURL }}" alt="" height="{{ $p.imageHeight | default 150 }}" width="{{ $p.imageWidth | default 150 }}">
+      </figure>
+      {{- end }}
+    </div>
+
+    <ul class="tally">
+      {{- range $sections }}
+      <li><a href="{{ .Permalink }}" title="{{ .Title }}"><b>{{ printf "%02d" (len .RegularPages) }}</b><span>{{ .Title }}</span></a></li>
+      {{- end }}
+      {{- with site.Taxonomies.tags }}
+      <li><a href="{{ "tags/" | absLangURL }}" title="Tags"><b>{{ printf "%02d" (len .) }}</b><span>Tags</span></a></li>
+      {{- end }}
+      <li class="more"><a href="{{ "archive/" | absLangURL }}" title="Archive"><span>Archive</span><i class="arr fw" aria-hidden="true">→</i></a></li>
+    </ul>
+  </div>
+</section>
+
+{{- range $i, $s := $sections }}
+<section class="sec" id="{{ path.Base .RelPermalink }}">
+  <div class="container">
+    <header class="sec-head"><b>{{ printf "%02d" (add $i 1) }}</b><i></i><span>{{ .Title }}</span></header>
+    <div class="reg-grid">
+      <h2 class="reg-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <ol class="reg">
+        {{- range .RegularPages.ByDate.Reverse }}
+        <li><a href="{{ .Permalink }}"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006 · 01" }}</time><span class="t">{{ .Title }}</span><i class="arr fw" aria-hidden="true">→</i></a></li>
+        {{- end }}
+      </ol>
+    </div>
+  </div>
+</section>
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}

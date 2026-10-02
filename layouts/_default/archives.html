@@ -1,7 +1,13 @@
 {{- define "main" }}
 
-<header class="page-header">
+{{- $host := (urls.Parse site.BaseURL).Host | default "research.ilang.ai" }}
+<header class="page-hero page-header">
+  <div class="container" data-path="{{ $host }} / {{ trim .RelPermalink "/" | replaceRE "/" " / " }}">
+    <h1>{{ .Title }}</h1>
+  </div>
 </header>
+
+<div class="container archive">
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- if site.Params.ShowAllPagesInArchive }}
@@ -16,6 +22,7 @@
     <a class="archive-header-link" href="#{{ $year }}">
       {{- $year -}}
     </a>
+  </h2>
   {{- range .Pages.GroupByDate "January" }}
   <div class="archive-month">
     <h3 class="archive-month-header" id="{{ $year }}-{{ .Key }}">
@@ -48,5 +55,6 @@
 </div>
 {{- end }}
 {{- end }}
+</div>
 
 {{- end }}
