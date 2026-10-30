@@ -361,10 +361,11 @@ def main():
         "blocked:judge-error": "Gates 1 and 2 passed; gate 3 failed on a transient error. Re-run the workflow.",
         "blocked:judge-schema": "Gates 1 and 2 passed; the JUDGE block the gate wrote did not pass the judge validator. This is a gate bug; the owner will look.",
     }
-    comment = "**Intake: %s**\n\n%s\n\nRecord: `%s` (spec commit `%s`).\n" % (verdict, explain.get(verdict, ""), rec_path.replace("\\", "/"), meta["spec_commit"][:7])
+    rec_rel = os.path.relpath(rec_path, os.getcwd()).replace(os.sep, "/")  # the path readers see in the repository
+    comment = "**Intake: %s**\n\n%s\n\nRecord: `%s` (spec commit `%s`).\n" % (verdict, explain.get(verdict, ""), rec_rel, meta["spec_commit"][:7])
     with open(os.path.join(a.out, "comment.md"), "w", encoding="utf-8", newline="\n") as fh:
         fh.write(comment)
-    summary = {"kind": kind, "verdict": verdict, "labels_add": [verdict], "close": close, "record": rec_path.replace("\\", "/"), "spec_commit": meta["spec_commit"]}
+    summary = {"kind": kind, "verdict": verdict, "labels_add": [verdict], "close": close, "record": rec_rel, "spec_commit": meta["spec_commit"]}
     json.dump(summary, open(os.path.join(a.out, "summary.json"), "w"), indent=2)
     print(json.dumps(summary))
     return 0
