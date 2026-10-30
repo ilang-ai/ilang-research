@@ -274,13 +274,14 @@ def main():
     ap.add_argument("--records", default="records")
     ap.add_argument("--out", default="out")
     a = ap.parse_args()
+    a.spec, a.records, a.out = (os.path.abspath(x) for x in (a.spec, a.records, a.out))  # the gates run with other cwds
 
     issue = json.load(open(a.issue, encoding="utf-8"))
     labels = [l["name"] if isinstance(l, dict) else str(l) for l in issue.get("labels", [])]
     kind = "amendment" if "amendment" in labels else "counterexample" if "counterexample" in labels else "other"
     meta = {"number": issue.get("number"), "url": issue.get("html_url"), "author": (issue.get("user") or {}).get("login"),
             "title": issue.get("title"), "opened": issue.get("created_at"), "labels": labels, "kind": kind}
-    body = issue.get("body") or ""
+    body = (issue.get("body") or "").replace("\r\n", "\n").replace("\r", "\n")  # GitHub stores form bodies with CRLF
     f = fields(body)
     os.makedirs(a.out, exist_ok=True)
     work = tempfile.mkdtemp(prefix="intake-", dir=a.out)
