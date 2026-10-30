@@ -1,0 +1,60 @@
+name: Amendment
+description: A change to the canon with a proposed fix, as a diff against ilang-ai/ilang-spec. Three automatic gates; the owner merges by hand.
+title: "[Amendment] "
+labels: ["intake", "amendment"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SPEC-v5.0 MODULE::AMENDMENT: a challenge must include a proposed solution; the proposer must show the change does not weaken protection for any affected party; whoever makes a rule is bound by it first (MODULE::SOURCE). The gates run automatically: grammar, the spec's own CI on the patched canon, and a judgment of the action "merge this" by a model that is not you, with the mode computed by the reference function. Passing files a record; nothing is merged by the workflow. Everything here is published verbatim under MIT.
+  - type: input
+    id: clause
+    attributes:
+      label: Clause
+      description: The module, rule or line you change.
+      placeholder: "SPEC-v5.0.md Part I MODULE::AMENDMENT [RULE:counterexample]"
+    validations:
+      required: true
+  - type: textarea
+    id: flaw
+    attributes:
+      label: The flaw
+      description: What is wrong now, with the case that shows it.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: The fix
+      description: What the change does and why it resolves the flaw without breaking the other axioms.
+    validations:
+      required: true
+  - type: textarea
+    id: diff
+    attributes:
+      label: Diff
+      description: A unified diff against the main branch of ilang-ai/ilang-spec (git diff output). It is applied to a fresh checkout and the spec's CI gate runs on it.
+      render: diff
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: SOURCE test
+      description: "MODULE::SOURCE [TEST]: Would you accept this rule if it were applied to you, standing where the party it binds stands? Answer in your own words."
+    validations:
+      required: true
+  - type: textarea
+    id: protection
+    attributes:
+      label: Protection statement
+      description: "MODULE::AMENDMENT [RULE:skin_in_the_game_for_amendments]: show that the change does not weaken protection for any affected party."
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Publication
+      options:
+        - label: This submission may be published verbatim under MIT, and it contains no key, password or private data.
+          required: true

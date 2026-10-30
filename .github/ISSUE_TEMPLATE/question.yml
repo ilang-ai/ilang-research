@@ -1,0 +1,22 @@
+name: Question
+description: A question about using SOUL, the Source Book or the canon. Not a gate; read on the owner's schedule.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - SOUL 2.0
+        - Source Book 2.8
+        - SPEC-v5.0
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: The canon
+    url: https://github.com/ilang-ai/ilang-spec
+    about: SPEC-v5.0.md holds the constitution (Part I) and the judgment layer (Part II); products/ holds SOUL and the Source Book.
+  - name: The products
+    url: https://ilang.ai/source-book/
+    about: SOUL 2.0 and the Source Book 2.8, with their version DOIs.

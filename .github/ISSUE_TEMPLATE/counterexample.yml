@@ -1,0 +1,58 @@
+name: Counterexample
+description: A reproducible case where SOUL, the Source Book or a clause of the canon gave the wrong result. Recorded verbatim.
+title: "[Counterexample] "
+labels: ["intake", "counterexample"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A counterexample is recorded against the clause it hits (SPEC-v5.0 MODULE::AMENDMENT, RULE:counterexample). It does not change the clause by itself; an amendment with a proposed fix can. Everything you write here is published verbatim under MIT in `records/`. Do not paste keys or private data.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - SOUL 2.0
+        - Source Book 2.8
+        - SPEC-v5.0 Part I (the constitution)
+        - SPEC-v5.0 Part II (the judgment layer)
+        - other
+    validations:
+      required: true
+  - type: input
+    id: clause
+    attributes:
+      label: Clause
+      description: The module, rule or line the case hits, as written in the canon.
+      placeholder: "MODULE::SOURCE [TEST]"
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: What the rule says should happen, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: record
+    attributes:
+      label: Run record
+      description: The record of the run, in one fenced block. An iLang block (the book, the SOUL exchange, or the ::JUDGE block the model wrote) is checked by the canon validators; a block that fails strict mode is rejected automatically.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Model, runtime version, the input, the steps.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Publication
+      options:
+        - label: This submission may be published verbatim under MIT, and it contains no key, password or private data.
+          required: true

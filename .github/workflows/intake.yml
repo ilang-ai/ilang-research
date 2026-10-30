@@ -1,0 +1,66 @@
+name: Intake
+
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: Issue number to run the gate on
+        required: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: intake-${{ github.event.issue.number || inputs.issue }}
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(join(github.event.issue.labels.*.name, ','), 'intake') }}
+    runs-on: ubuntu-latest
+    env:
+      ISSUE: ${{ github.event.issue.number || inputs.issue }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout ilang-research
+        uses: actions/checkout@v4
+      - name: Checkout the canon (ilang-ai/ilang-spec, main)
+        uses: actions/checkout@v4
+        with:
+          repository: ilang-ai/ilang-spec
+          path: spec
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read the issue
+        run: |
+          mkdir -p out
+          gh api "repos/${GITHUB_REPOSITORY}/issues/${ISSUE}" > out/issue.json
+      - name: Run the gates
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python gate/intake.py --issue out/issue.json --spec spec --records records --out out
+      - name: Label, comment, close
+        run: |
+          verdict=$(python -c "import json;print(json.load(open('out/summary.json'))['verdict'])")
+          close=$(python -c "import json;print(str(json.load(open('out/summary.json'))['close']).lower())")
+          [ "$verdict" = "none" ] && exit 0
+          for l in passed-gates needs-evidence needs-record rejected:grammar rejected:canon rejected:judge blocked:no-key blocked:judge-error blocked:judge-schema; do
+            gh issue edit "$ISSUE" --remove-label "$l" >/dev/null 2>&1 || true
+          done
+          gh issue edit "$ISSUE" --add-label "$verdict"
+          gh issue comment "$ISSUE" --body-file out/comment.md
+          if [ "$close" = "true" ]; then gh issue close "$ISSUE" --reason "not planned"; fi
+      - name: File the record
+        run: |
+          git config user.name "ilang-intake"
+          git config user.email "intake@ilang.ai"
+          git add records
+          git diff --cached --quiet && exit 0
+          verdict=$(python -c "import json;print(json.load(open('out/summary.json'))['verdict'])")
+          git commit -m "Intake: issue #${ISSUE} ${verdict}"
+          for i in 1 2 3; do git push && break || (git pull --rebase && sleep 2); done
