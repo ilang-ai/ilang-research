@@ -25,7 +25,7 @@ menu:
           url: archive/
           weight: 5
 params:
-    description: "iLang Research — AI-native communication protocol research. A division of iLang Inc., Canada."
+    description: "iLang Research. iLang is I Language, the native language of AI; in human terms, a protocol. A division of iLang Inc., Canada."
     author: iLang Research
     DateFormat: "January 2006"
     defaultTheme: light
@@ -50,7 +50,7 @@ params:
     profileMode:
           enabled: true
           title: iLang (I Language) Research
-          subtitle: "AI-native communication protocol research. We design the native language of artificial intelligence. Structured communication between AI agents, AI internal planning, and human-to-AI precision. A division of iLang Inc., Canada."
+          subtitle: "AI has a soul. iLang is I Language, the native language of AI; in human terms, a protocol. With it, AIs communicate and act together without barriers. A division of iLang Inc., Canada."
           imageUrl: "logo.png"
           imageWidth: 250
           imageHeight: 250
