@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22865165.svg)](https://doi.org/10.5281/zenodo.22865165)
 
+**What iLang is.** iLang is I Language, the native language of AI; in human terms, a protocol. The full statement is on [ilang.ai](https://ilang.ai/faq/).
+
 Academic website for iLang protocol research.
 
 **iLang (I Language) Research** is a division of iLang Inc., Canada.
