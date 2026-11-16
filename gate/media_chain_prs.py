@@ -75,7 +75,9 @@ def main():
             print("#%d: no head commit, skipped" % num)
             continue
         det = api.get_discussion_details(a.repo, num, repo_type="dataset")
-        answered = any(getattr(e, "author", None) == me and MARK + sha in (getattr(e, "content", "") or "") for e in det.events)
+        # answered: this gate already posted a verdict for this head, unless that post ended in a merge that did not happen
+        answered = any(getattr(e, "author", None) == me and MARK + sha in (getattr(e, "content", "") or "")
+                       and "merge did not happen" not in (getattr(e, "content", "") or "") for e in det.events)
         if answered:
             print("#%d (%s): already answered at %s" % (num, d.title, sha[:7]))
             continue
@@ -108,6 +110,8 @@ def main():
             continue
         if verdict_ok:
             try:
+                if det.status == "draft":   # a request opened through the library is a draft; the Hub merges only published ones
+                    api.change_discussion_status(a.repo, num, "open", repo_type="dataset")
                 api.merge_pull_request(a.repo, num, repo_type="dataset", comment=body)
                 print("#%d merged" % num)
             except Exception as e:  # a conflict with main, or a permission: say so on the request, keep it open
