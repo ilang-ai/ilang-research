@@ -1,0 +1,58 @@
+# The gate of the Hugging Face dataset i-Lang/media-chain: every hour, every open pull request of the dataset is checked
+# with gate/media_chain_prs.py against the canon's validators; a request whose series all pass is merged, one that fails
+# stays open with the verdict lines as a comment. Code decides; nothing in a submission is edited.
+name: Media Chain dataset gate
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: Pull request number to check (empty: every open one)
+        required: false
+      dry_run:
+        description: Judge and print, post nothing, merge nothing
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: media-chain-dataset-gate
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      C2PATOOL_VERSION: v0.29.0
+    steps:
+      - name: Checkout ilang-research
+        uses: actions/checkout@v4
+      - name: Checkout the canon (ilang-ai/ilang-spec, main)
+        uses: actions/checkout@v4
+        with:
+          repository: ilang-ai/ilang-spec
+          path: spec
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: huggingface_hub
+        run: python -m pip install --quiet "huggingface_hub>=0.30"
+      - name: c2patool (reads C2PA assertions; PNG text chunks and XMP sidecars need no tool)
+        run: |
+          curl -sSL -o c2patool.tgz "https://github.com/contentauth/c2patool/releases/download/${C2PATOOL_VERSION}/${C2PATOOL_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+          tar xzf c2patool.tgz
+          chmod +x c2patool/c2patool
+          echo "$PWD/c2patool" >> "$GITHUB_PATH"
+          ./c2patool/c2patool --version
+      - name: Run the gate
+        run: |
+          args=""
+          [ -n "${{ inputs.only }}" ] && args="$args --only ${{ inputs.only }}"
+          [ "${{ inputs.dry_run }}" = "true" ] && args="$args --dry-run"
+          python -X utf8 gate/media_chain_prs.py --spec spec $args
