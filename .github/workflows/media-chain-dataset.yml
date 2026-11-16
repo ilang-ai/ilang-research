@@ -9,10 +9,10 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: Pull request number to check (empty: every open one)
+        description: "Pull request number to check (empty means every open one)"
         required: false
       dry_run:
-        description: Judge and print, post nothing, merge nothing
+        description: "Judge and print, post nothing, merge nothing"
         required: false
         default: "false"
 
